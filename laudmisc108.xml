@@ -60,37 +60,36 @@
                         <idno>108</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>
-                            <!-- Should we be referring to DIMEV instead of IMEV? --> The manuscript
+                        <summary>The manuscript
                             contents are catalogued in DIMEV entry <ref
-                                target="http://www.cddc.vt.edu/host/imev/Records.php?MSS=BodLauMis108"
+                                target="http://www.dimev.net/Records.php?MSS=BodLauMis108"
                                 type="IMEV"
-                                >http://www.cddc.vt.edu/host/imev/Records.php?MSS=BodLauMis108</ref>.
+                                >http://www.dimev.net/Records.php?MSS=BodLauMis108</ref>.
                             All items belong to the <ref type="LAEME">LAEME</ref>
                             <term>literary</term> category. </summary>
-                        <!-- Folio numbers are taken from Laing and DMIEV. They do not correspond to the Bodleian 
+                        <!-- Folio numbers are taken from Laing and DIMEV. They do not correspond to the Bodleian 
                         folio numbers. -->
                         <msItem n="1" xml:id="mc00001" class="#literary #hagiography">
                             <locus>ff. 10v</locus>
                             <title>The Life of Christ</title>
                             <note type="src" resp="#bioKL0001">No IMEV url identified.</note>
                             <listBibl>
-                                <!-- This is the only text for which bibliography is included so far. -->
-                                <!-- How should xml:id numbers be generated for bibliographical references? -->
-                                <!-- Is there a house citation format style? -->
-                                <bibl xml:id="Horstmann1873">Horstmann, Carl. <hi rend="it">Leben
-                                        Jesu: ein Fragment, und Kindheit Jesu, &amp;c.</hi>.
-                                    Münster: Regensberg, 1873.</bibl>
+                                <bibl xml:id="Horstmann1873">Horstmann, Carl. <hi rend="it">Leben Jesu: ein
+                                    Fragment, und Kindheit Jesu, &amp;c.</hi>. Münster: Regensberg, 1873.</bibl>
                             </listBibl>
                         </msItem>
                         <msItem n="2" xml:id="mc00002" class="#literary #hagiography">
                             <locus>ff. 11r-22r</locus>
                             <title>The Infancy of Christ</title>
                             <listBibl>
+                                <bibl xml:id="Horstmann1875">Horstmann, Carl. <hi rend="it">Kindheit Jesu. In
+                                    Altenglische Legenden: Kindheit Jesu; Geburt Jesu; Barlaam und Josophat; St.
+                                    Patrick's Fegefeuer</hi>. Paderborn: F. Schöningh, 1875.</bibl>
                                 <bibl>
                                     <ref type="IMEV"
                                         >http://www.cddc.vt.edu/host/imev/record.php?recID=2605#wit-2605-1</ref>
                                 </bibl>
+                                <bibl><ref type="DIMEV">http://www.dimev.net/record.php?recID=2605#wit-2605-1</ref></bibl>
                             </listBibl>
                         </msItem>
                         <msItem n="3" xml:id="mc00003">
@@ -960,8 +959,9 @@
                 entities.</change>
             <change when="2014-01-20" who="#bioKL001">References to project staff changed to IDs
                 with the bio prefix.</change>
-            <change when="2014-02-05" who="#bioKL001">Complete transcription of lines 1-190 added. Some xml:ids 
-                updated. Many comments added to highlight issues for further discussion.</change>  
+            <change when="2014-02-05" who="#bioKL001">Complete transcription of lines 1-190 added.
+                Some xml:ids updated. Many comments added to highlight issues for further
+                discussion.</change>
         </revisionDesc>
     </teiHeader>
     <!-- This entire <facsimile> section is a placeholder. All coordinates are fake. -->
@@ -990,7 +990,7 @@
             <div1>
                 <!-- f. 1(a) recto -->
                 <!-- We need a system for generating folio xml:ids. -->
-                <pb xml:id="f1ar" corresp="none" facs="#sf1ar" n="f. 1(a) recto" type="primary"/>
+                <pb xml:id="f1ar" corresp="none" facs="#sf1ar" n="1ar" type="primary"/>
                 <fw xml:id="fwf1ar" type="fol" facs="#sfwf1ar" place="topRight">f. 5r</fw>
                 <!-- In lines 1-190 I have (perhaps inconsistently) represented the initial letters of lines 
                     as capitals or lower case according to their appearance in my snap judgement. I have 
@@ -1151,7 +1151,7 @@
                     </choice>erour &punctelev; gan &iacute;&slong; de&slong;ciple&slong; fonde</l>
                 <l xml:id="laudmisc108.0001.42"><lb/><hi rend="touched-red">&yogh;</hi>w&iacute;
                     &slong;eggez men o&rrot;e louerd se&iacute;de &thorn;at &iacute;ch am louerd
-                        <unclear>:</unclear> &thorn;o se&iacute;den hu&ydot; ech on</l>
+                        <unclear>&punctelev;</unclear> &thorn;o se&iacute;den hu&ydot; ech on</l>
                 <l xml:id="laudmisc108.0001.43"><lb/><unclear>M</unclear><shadowGap/>an&iacute;e men
                     &slong;egez &thorn;at &thorn;ou art &punctelev; &thorn;e bapt&iacute;&slong;t
                     &slong;e&iacute;nt <choice>
@@ -1175,7 +1175,7 @@
                     <p>The Bodleian Library stamp and declaration of ownership by Archbishop Laud
                         are currently recorded in the &lt;facsimile&gt; section.</p>
                 </note>
-                <pb xml:id="f1av" corresp="none" facs="#sf1av" n="f. 1(a) verso" type="primary"/>
+                <pb xml:id="f1av" corresp="none" facs="#sf1av" n="1av" type="primary"/>
                 <!-- f. 1(a) verso -->
                 <l xml:id="laudmisc108.0001.46"><lb/><choice>
                         <orig><hi rend="touched-red">t</hi></orig>
@@ -1249,7 +1249,7 @@
                         <orig><hi rend="touched-red">I</hi><reg>J</reg></orig>
                     </choice>erusalem &iacute; mot wende <note type="cod" resp="#bioKL001">There are
                         two folds running down the middle of the parchment from the top of the text
-                        down to poeti) line 56 on the left and poetic line 79 on the right. In most
+                        down to poetic) line 56 on the left and poetic line 79 on the right. In most
                         cases, there is no uncertainty about the reading but the "s" in "seide" in
                         this line is the first where it needs to be noted. I have not indicated
                         letters affected by these folds unless they are considerably obscured. This
@@ -1379,12 +1379,12 @@
                         <orig>c&#xF02F;</orig>
                         <reg>Cri</reg>
                     </choice>&slong;t&punctelev; &thorn;e maydene&slong; &slong;one Mar&iacute;e
-                    <note type="pal" resp="#bioKL001">I have used the combining mark &#x0305; for the 
-                        abbreviation of Jesu, since the stroke does not cross the "h"; it is more like 
-                        a macron between the "h" and the following vowel. The abbreviation of "Crist" 
-                        looks like "c" with a minim directly above it. I have used &#xF02F;
-                        &openparen;COMBINING LATIN SMALL LETTER DOTLESS I&closeparen; for this mark,
-                        but note that this is a PRIVATE USE AREA code point.</note>
+                        <note type="pal" resp="#bioKL001">I have used the combining mark &#x0305;
+                        for the abbreviation of Jesu, since the stroke does not cross the "h"; it is
+                        more like a macron between the "h" and the following vowel. The abbreviation
+                        of "Crist" looks like "c" with a minim directly above it. I have used
+                        &#xF02F; &openparen;COMBINING LATIN SMALL LETTER DOTLESS I&closeparen; for
+                        this mark, but note that this is a PRIVATE USE AREA code point.</note>
                 </l>
                 <l xml:id="laudmisc108.0001.76"><lb/><hi rend="touched-red"
                     >N</hi><shadowGap/>u&slong;te no man &yogh;wat &iacute;t wa&slong;&punctelev;
@@ -1468,12 +1468,12 @@
                         systematic manner.</note>
                 </l>
                 <!-- f. 1b recto  -->
-                <pb xml:id="f1br" corresp="none" facs="#sf1br" n="f. 1(b) recto" type="primary"/>
-                <l xml:id="laudmisc108.0001.103a"><lb/><unclear reason="torn" resp="#bioKL001">
-                        <hi rend="ox blue-ink touched-red">.</hi></unclear></l>
-                <l xml:id="laudmisc108.0001.104a"><lb/><unclear reason="torn" cert="medium"
-                        resp="#bioKL001">
-                        <hi rend="touched-red">A</hi></unclear>
+                <pb xml:id="f1br" corresp="none" facs="#sf1br" n="1br" type="primary"/>
+                <l xml:id="laudmisc108.0001.103a"><lb/>
+                    <hi rend="ox blue-ink touched-red"><unclear extent="1"/></hi></l>
+                <l xml:id="laudmisc108.0001.104a"><lb/>
+                    <unclear reason="torn" cert="medium" resp="#bioKL001"><hi rend="touched-red"
+                            >A</hi></unclear>
                     <note type="cod" resp="#bioKL001">Approximately 22 lines are missing from the
                         beginning of the page. At this point, a small piece of parchment still bound
                         contains an unidentifiable fragment of an ornamental capital in blue ink,
@@ -1518,21 +1518,21 @@
                 <l xml:id="laudmisc108.0001.135a"><lb/><hi rend="touched-red">A</hi><shadowGap/>nd
                     &slong;tudefa&slong;tl&iacute;che w&iacute;th gode</l>
                 <!-- f. 1b verso -->
-                <pb xml:id="f1bv" corresp="none" facs="#sf1bv" n="f. 1(b) verso" type="primary"/>
+                <pb xml:id="f1bv" corresp="none" facs="#sf1bv" n="1bv" type="primary"/>
                 <l xml:id="laudmisc108.0001.177a"><lb/><unclear reason="torn" resp="#bioKL001"
-                        >.......</unclear>
+                        extent="10"/>
                     <note type="cod" resp="#bioKL001">The folio is torn, with only fragments of
-                        lines 177a-180a remaining. There is evidence of about seven letters
-                        (including two spaces) in line 177a, but they are all but unreadable.</note>
+                        lines 177a-180a remaining. There is evidence of about ten letters (including
+                        two spaces) in line 177a, but they are all but unreadable.</note>
                 </l>
-                <l xml:id="laudmisc108.0001.178a"><lb/>. hele
-                    &iacute;<shadowGap/>b&rrot;ou&yogh;t</l>
+                <l xml:id="laudmisc108.0001.178a"><lb/><unclear reason="torn" resp="#bioKL001"
+                        extent="1"/> hele &iacute;<shadowGap/>b&rrot;ou&yogh;t</l>
                 <l xml:id="laudmisc108.0001.179a"><lb/><unclear reason="torn" resp="#bioKL001"
                         cert="low">a</unclear>l &iacute;t nou&yogh;t</l>
                 <l xml:id="laudmisc108.0001.180a"><lb/><unclear reason="torn" resp="#bioKL001"
                         cert="low">&yogh;</unclear></l>
                 <!-- f. 2r -->
-                <pb xml:id="f2r" corresp="none" facs="#sf2r" n="f. 2r" type="primary"/>
+                <pb xml:id="f2r" corresp="none" facs="#sf2r" n="2r" type="primary"/>
                 <fw xml:id="fwf2r" type="fol" facs="#sfwf2r" place="topRight">2</fw>
                 <l xml:id="laudmisc108.0001.91"><lb/><hi rend="touched-red"
                     >&yogh;</hi><shadowGap/>if on of ouwer <choice>
@@ -1758,14 +1758,14 @@
                     &slong;one&punctelev; fo&rrot; &iacute;n pouerte &iacute;ch me habbe
                     &iacute;brou&yogh;t</l>
                 <l xml:id="laudmisc108.0001.130"><lb/>H<shadowGap/>&iacute;s <add
-                        place="supralinear" hand="#bioUN000" resp="#bioKL001" cert="low"
-                        >fader</add> let h&iacute;m clo&thorn;&iacute; &slong;w&iacute;&thorn;e wel;
-                    &punctelev; gret fe&slong;te he makede and bl&iacute;&slong;&slong;e
-                    <note type="pal" resp="#bioKL001">The addition of "fader" after "his" is possibly 
-                        in a hand of the <date from="1301-01-01" to="1399-12-31">fourteenth</date> or <date
-                            from="1401-01-01" to="1499-12-31">fifteenth century</date>.
-                        <ref target="#Hortstmann1873">Horstmann</ref> describes it
-                        only as a "sp&#x00E4;terer Hand" (p. 34).</note>
+                        place="supralinear" hand="#bioUN000" resp="#bioKL001" cert="low">fader</add>
+                    let h&iacute;m clo&thorn;&iacute; &slong;w&iacute;&thorn;e wel; &punctelev; gret
+                    fe&slong;te he makede and bl&iacute;&slong;&slong;e <note type="pal"
+                        resp="#bioKL001">The addition of "fader" after "his" is possibly in a hand
+                        of the <date from="1301-01-01" to="1399-12-31">fourteenth</date> or <date
+                            from="1401-01-01" to="1499-12-31">fifteenth century</date>. <ref
+                            target="#Hortstmann1873">Horstmann</ref> describes it only as a
+                        "sp&#x00E4;terer Hand" (p. 34).</note>
                 </l>
                 <l xml:id="laudmisc108.0001.131"><lb/><choice>
                         <orig><hi rend="touched-red">w</hi></orig>
@@ -1774,14 +1774,14 @@
                         <orig>N</orig>
                         <reg>n</reg>
                     </choice>e&iacute;&yogh;ebore&slong; &thorn;are<shadowGap/> abo<add
-                        place="supralinear">v</add>te&punctelev; fo&rrot; <choice>
+                        place="sublinear">&#x2038;</add><add place="supralinear"
+                    >v</add>te&punctelev; fo&rrot; <choice>
                         <orig>I</orig>
                         <reg>J</reg>
                     </choice>o&iacute;e of &iacute;s &slong;one &iacute;w&iacute;&slong; <note
                         type="pal" resp="#bioKL001">The added "v" in "aboute" is accompanied by a
-                        sublinear carrot; I'm not sure how to encode that. The hand might be that of
-                        the main scribe or of the later hand responsible for "fader" in the previous
-                        line.</note>
+                        sublinear caret. The hand might be that of the main scribe or of the later
+                        hand responsible for "fader" in the previous line.</note>
                 </l>
                 <l xml:id="laudmisc108.0001.132"><lb/><choice>
                         <orig><hi rend="touched-red">&thorn;</hi></orig>
@@ -1801,7 +1801,7 @@
                     neuere &yogh;eot &thorn;ou nolde&slong;t ene&slong;&punctelev; swuch fe&slong;te
                     make fo&rrot; me</l>
                 <!-- f 2v -->
-                <pb xml:id="f2v" corresp="none" facs="#sf2v" n="f. 2v" type="primary"/>
+                <pb xml:id="f2v" corresp="none" facs="#sf2v" n="2v" type="primary"/>
                 <l xml:id="laudmisc108.0001.136"><lb/><hi rend="touched-red">A</hi><shadowGap/>nd
                     &thorn;ou makest nou&thorn;e gret fe&slong;te fo&rrot; h&iacute;m&punctelev;
                     &thorn;at &iacute;s fol and lechour</l>
@@ -1945,7 +1945,7 @@
                         <reg>L</reg>
                     </choice>azer &slong;one he <del rend="subpointed" hand="#bioUN001"
                         resp="#bioSK001" cert="medium">&slong;eide</del>
-                    &iacute;<shadowGap/>&slong;e&iacute;&yogh; <note type="pal" resp="#bioKL001"
+                    &iacute;<shadowGap/>&slong;e&iacute;&yogh; <note type="text" resp="#bioKL001"
                             ><ref target="#Horstmann1873">Horstmann &openparen;p.
                             36&closeparen;</ref> appears to interpret the "&thorn;a&thorn;are" as a
                         scribal duplication, and it is coded here as an error in line with the other
@@ -2063,7 +2063,7 @@
                         <expan>pro</expan>
                     </choice>phete&slong; rede</l>
                 <!-- f. 3r -->
-                <pb xml:id="f3r" corresp="none" facs="#sf3r" n="f. 3r" type="primary"/>
+                <pb xml:id="f3r" corresp="none" facs="#sf3r" n="3r" type="primary"/>
                 <fw xml:id="fwf3r" type="fol" facs="#sfwf3r" place="topRight">3</fw>
                 <l xml:id="laudmisc108.0001.181"><lb/><choice>
                         <orig><hi rend="touched-red">h</hi></orig>
@@ -2073,7 +2073,7 @@
                 <l xml:id="laudmisc108.0001.182"><lb/><choice>
                         <orig><hi rend="touched-red">&yogh;</hi></orig>
                         <reg>&YOGH;</reg>
-                </choice><shadowGap/>ware<shadowGap/>fo&rrot;e we &iacute;<shadowGap/>seoth
+                    </choice><shadowGap/>ware<shadowGap/>fo&rrot;e we &iacute;<shadowGap/>seoth
                     &thorn;o&rrot;u&yogh; &thorn;&iacute;&slong; god&slong;pel&punctelev; &thorn;at
                     &thorn;are ne ma&iacute; <sic>ou&yogh;</sic><corr resp="#bioHO001"
                         >nou&yogh;t</corr> on eo&rrot;&thorn;e beo</l>
