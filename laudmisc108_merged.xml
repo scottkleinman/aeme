@@ -6,42 +6,39 @@
 -->
 <!DOCTYPE TEI [
 <!-- An initial set of entities. Probably not complete. -->
-<!ENTITY thorn "&#x0FE;">
-<!ENTITY THORN "&#x0DE;">
+<!ENTITY thorn "&#xFE;">
+<!ENTITY THORN "&#xDE;">
 <!ENTITY yogh "&#x021D;">
 <!ENTITY YOGH "&#x021C;">
 <!ENTITY slong "&#x17F;">
 <!ENTITY rrot "&#xA75B;">
 <!ENTITY Rrot "&#xA75A;">
 <!ENTITY ydot "&#x1E8F;">
-<!ENTITY iacute "&#x0ED;">
+<!ENTITY iacute "&#xED;">
 <!ENTITY pbardes "&#xA751;">
 <!ENTITY pflour "&#xA753;">
-<!ENTITY combtildevert "&#x033E;">
-<!ENTITY hstrok "&#x0127;">
+<!ENTITY combtildevert "&#x33E;">
+<!ENTITY hstrok "&#x127;">
 <!ENTITY mdash "&#x2014;">
 <!ENTITY punctelev "&#xF161;">
 <!ENTITY hidot "&#xF1F8;">
 <!ENTITY middot "&#x00B7;">
-<!ENTITY sol "&#x002F;">
-<!ENTITY para "&#x00B6;">
-<!ENTITY pipe "&#x007C;">
+<!ENTITY sol "&#x2F;">
+<!ENTITY para "&#xB6;">
+<!ENTITY pipe "&#x7C;">
 <!ENTITY doublepipe "&#x2016;">
-<!ENTITY openparen "&#x028;">
-<!ENTITY closeparen "&#x029;">
-<!ENTITY lpar "&#x028;"> <!-- NB. lpar and rpar ar MUFI names -->
-<!ENTITY rpar "&#x029;">
-<!ENTITY emacr "&#x0113;">
+<!ENTITY openparen "&#x28;">
+<!ENTITY closeparen "&#x29;">
+<!ENTITY lpar "&#x28;"> <!-- NB. lpar and rpar ar MUFI names -->
+<!ENTITY rpar "&#x29;">
+<!ENTITY emacr "&#x113;">
 ]>
 <TEI xml:id="laudmisc108" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="codexfull">
-                    <!-- Do we really need <respons> here? -->
-                    <title>Oxford, Bodleian Library, Laud Misc. MS 108 <respons locus="name"
-                            resp="#bioKL001"/>
-                    </title>
+                    <title>Oxford, Bodleian Library, Laud Misc. MS 108</title>
                 </title>
                 <respStmt>
                     <resp>Transcribed from the digital images and encoded by</resp>
@@ -842,13 +839,13 @@
                             <handNote n="3" scope="minor" xml:id="bioUN003">
                                 <p>The third part of the manuscript, <locus from="204r" to="228r"
                                         >ff. 204r-228r</locus> written in the <date
-                                        from="1201-01-01" to="1225-12-31">early thirteenth
+                                        from="1200-01-01" to="1225-12-31">early thirteenth
                                         century</date>.</p>
                             </handNote>
                             <handNote n="4" scope="minor" xml:id="bioUN004">
                                 <p>The fourth part of the manuscript, <locus from="204r" to="228r"
                                         >ff. 204r-228r</locus> written in a <term>compact
-                                        textura</term> hand of the <date from="1201-01-01"
+                                        textura</term> hand of the <date from="1200-01-01"
                                         to="1225-12-31">early thirteenth century</date>.</p>
                             </handNote>
                             <handNote n="5" scope="minor" xml:id="bioUN005">
@@ -863,7 +860,7 @@
                             </handNote>
                             <handNote n="6" scope="minor" xml:id="bioUN006">
                                 <p>In the sixth part of the manuscript, the <locus>top of f.
-                                        238</locus> is in a hand of the <date from="1401-01-01"
+                                        238</locus> is in a hand of the <date from="1400-01-01"
                                         to="1499-12-31">fifteenth century</date>.</p>
                             </handNote>
                             <handNote n="7" scope="minor" xml:id="bioUN007">
@@ -871,6 +868,19 @@
                                         <locus>f. 238</locus> are also in a hand of the <date
                                         from="1401-01-01" to="1499-12-31">fifteenth
                                     century</date>.</p>
+                            </handNote>
+                            <handNote n="8" scope="minor" xml:id="bioUN008"><p>On one flyleaf,
+                                        <locus>f. iii recto</locus>, a <date from="1301-01-01"
+                                        to="1399-12-31">fourteenth-century</date> hand writes a
+                                    prayer in Latin. </p></handNote>
+                            <handNote n="9" scope="minor" xml:id="bioUN009">
+                                <p>On one flyleaf, <locus>f. iii recto</locus>, a <date
+                                        from="1400-01-01" to="1499-12-31">fifteenth-century</date>
+                                    hand has written a contents list, seemingly for a different
+                                    manuscript, which has been inserted within the leaf. Note:
+                                    another hand (different style of final s, for example) has
+                                    traced over the first few lines; whether the tracing hand has
+                                    contributed writing of its own is not known.</p>
                             </handNote>
                         </handDesc>
                         <scriptDesc>
@@ -994,6 +1004,62 @@
         </surface>
     </facsimile>
     <text>
+        <front>
+            <div1 xml:id="dv0000">
+                <pb n="iii-r" xml:id="f3flyr"/>
+                <!-- by SKG, 20140618: quick and dirty expansions, for now -->
+                <!-- skg means to return and fix the carets and [] as well as these blithe <ex>s during a second reading against scan -->
+                <p><handShift new="#bioUN008"/><lb/><choice>
+                        <orig>I&#x127;u</orig>
+                        <reg>Ih<ex>es</ex>u</reg>
+                    </choice> m<ex>er</ex>cy <choice>
+                        <orig>I&#x127;u</orig>
+                        <reg>Ih<ex>es</ex>u</reg>
+                    </choice> m<ex>er</ex>cy. <choice>
+                        <orig>I&#x127;u</orig>
+                        <reg>Ih<ex>es</ex>u</reg>
+                    </choice>
+                    <gap reason="erasure"/> &#x17F;onne &#x17F;ent ^ <lb/>Lady ^ Mary m<ex>er</ex>cy <choice>
+                        <orig>I&#x127;u</orig>
+                        <reg>Ih<ex>es</ex>u</reg>
+                    </choice>
+                    <lb/>sauyour of all &#xFE;e worlde mercy. Ih[]t* nazaren<ex>us</ex>
+                    <lb/>rex in deor<ex>um</ex> fili dei mi&#x17F;erer<ex>e</ex> mei &#x0026;
+                        toti<ex>us</ex> p[o]p[u]li <lb/><choice>
+                        <orig>xpiani<ex>us</ex></orig>
+                        <reg><ex>crist</ex>ian<ex>us</ex></reg>
+                    </choice> Amen. pater m<ex>ei</ex>. Aue maria credo</p>
+            </div1>
+            <div1 xml:id="dv0001">
+                <p><handShift new="#bioUN009"/><lb/>K. 60. <lb/>The&#x17F;e ben &#xFE;e namys of
+                    &#x17F;eyntys lyfys <choice>
+                        <orig>&#xFE;<hi rend="superscript">t</hi></orig>
+                        <reg>&#xFE;<ex>a</ex>t</reg>
+                    </choice> w[re]tyn in <lb/>this books/ In p<ex>ri</ex>mis Seynt Stevyn Itm
+                    &#x17F;eynt <lb/>luke. Itm Seynt Valentyne. Itm &#x17F;eynt <lb/>^sen[]s
+                        O&#x17F;wald<ex>us</ex> confe&#x17F;&#x17F;or. <lb/>Iulyan. &#xFE;e virgine
+                    ^ It<corr>m</corr> seynt Chadde <lb/>Itm Seynt langens. <del rend="linedThrough"
+                        >Itm Seynt Patr <lb/>of Irlande</del> Itm &#x17F;eynt Benet Itm ri
+                        <lb/>p<ex>ro</ex>[]e&#x17F;&#x17F;e of holdyng of &#xFE;e v.<hi
+                        rend="superscript">is</hi> fe&#x17F;tis in &#xFE;e yere <lb/>Itm &#xFE;e
+                        p<ex>ro</ex>evirb of Iudas <choice>
+                        <orig>&#xFE;<hi rend="superscript">t</hi></orig>
+                        <reg>&#xFE;<ex>a</ex>t</reg>
+                    </choice> &#x17F;lowe hym &#x17F;ylue <lb/>Itm Seynt <del rend="linedThrough"
+                        >Aphe</del> Alphe Itm &#xFE;e cau&#x17F;es <lb/>of &#xFE;e <del
+                        rend="linedThrough subpointed">latenyes</del> latenyes
+                        &#x17F;eynt<ex>es</ex> in &#xFE;e <lb/>Rogac<ex>i</ex>on dayes Itm
+                        &#x17F;ey<corr>n</corr>t Querack <lb/>Itm &#x17F;eynt Aldeline Itm
+                    &#x17F;eynt Theoph <lb/>Itm Seynt Petyr Itm &#x17F;eynt Ponte I <lb/>&#x17F;eynt
+                    &#x17F;wythyne Itm &#x17F;eynt Margarete <lb/>Itm &#x17F;eynt Cri&#x17F;tine Itm
+                    &#x17F;eynt martha <lb/>Itm <corr>&#xFE;</corr><hi rend="superscript">e</hi>
+                        vij.<hi rend="superscript">e</hi> sleperis Itm &#x17F;eynt Gyle <lb/>Itm
+                    &#x17F;eynt Aue&#x17F;tac. Itm &#x17F;eynt Rertyn <lb/>Itm &#x17F;eynt
+                    Iu&#x17F;tyne Itm &#x17F;eynt Ierolime <lb/>Itm &#x17F;eynt demyc<ex>us</ex> Itm
+                    &#x17F;eynt Symond <lb/>and Iude Itm &#x17F;eynt quyntyme Itm <lb/>&#x17F;eynt
+                    Andrewe</p>
+            </div1>
+        </front>
         <body>
             <div1>
                 <!-- Scott's section -->
@@ -1947,9 +2013,9 @@
                     >D</hi><shadowGap/>euelene weren red&iacute;e a non&punctelev; and &iacute;s
                     &slong;oule to helle bere</l>
                 <l xml:id="laudmisc108.0001.162"><lb/><hi rend="touched-red"
-                    >A</hi><shadowGap/>&slong;e he wa&slong;
-                    <sic>&thorn;a&thorn;are</sic><corr resp="#bioHO001">&thorn;are</corr> &iacute;n
-                        <sic>gre</sic><corr resp="#bioHO001">grete</corr> p&iacute;ne&punctelev; <choice>
+                    >A</hi><shadowGap/>&slong;e he wa&slong; <sic>&thorn;a&thorn;are</sic><corr
+                        resp="#bioHO001">&thorn;are</corr> &iacute;n <sic>gre</sic><corr
+                        resp="#bioHO001">grete</corr> p&iacute;ne&punctelev; <choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>azer &slong;one he <del rend="subpointed" hand="#bioUN001"
@@ -2158,8 +2224,8 @@
                     eo&rrot;&thorn;e beo</l>
                 <l xml:id="laudmisc108.0001.183"><hi rend="touched-red">N</hi><shadowGap/>e <hi
                         rend="touched-red">I</hi>n helle &thorn;at heo &thorn;at beoth in heuene
-                        &punctelev;<shadowGap type="caesura"/> ne mouwen it alle i<shadowGap
-                    > </shadowGap>seo</l>
+                        &punctelev;<shadowGap type="caesura"/> ne mouwen it alle
+                        i<shadowGap> </shadowGap>seo</l>
                 <l xml:id="laudmisc108.0001.184"><hi rend="touched-red">A</hi><shadowGap/>nd
                     &thorn;at to &thorn;e mo&rrot;e Io&ydot;e of heom &punctelev;<shadowGap
                         type="caesura"/> fo&rrot; &yogh;wan heo i&slong;eoth &slong;wuch pine &amp;
