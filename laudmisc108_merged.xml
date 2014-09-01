@@ -62,557 +62,637 @@
                         <idno>108</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>The manuscript contents are catalogued in DIMEV entry <ref
-                                target="http://www.dimev.net/Records.php?MSS=BodLauMis108" type="IMEV"
-                                >http://www.dimev.net/Records.php?MSS=BodLauMis108</ref>. All items belong to the <ref type="LAEME"
-                                >LAEME</ref>
+                         <summary>The manuscript contents are catalogued in DIMEV entry <ref
+                                target="http://www.dimev.net/Records.php?MSS=BodLauMis108"
+                                type="DIMEV">http://www.dimev.net/Records.php?MSS=BodLauMis108</ref>.
+                            All items belong to the <ref type="LAEME">LAEME</ref>
                             <term>literary</term> category. </summary>
-                        <!-- Folio numbers are taken from Laing and DIMEV. They do not correspond to the Bodleian 
-                        folio numbers. -->
+                        <!-- Folio numbers given <locus> are taken DIMEV and Edwards' table of contents. 
+						They may need to be corrected. -->
+						<!-- Saints' names in <title> are given according to the form in David Hugh Farmer, 
+						The Oxford Dictionary of Saints, 5th ed. (Oxford: Oxford University Press, 2003), 
+						but this should really be a form associated with Becket's person @xml:id. -->
                         <msItem n="1" xml:id="mc00001" class="#literary #hagiography">
                             <locus>ff. 10v</locus>
                             <title>The Life of Christ</title>
                             <note type="src" resp="#bioKL0001">No IMEV url identified.</note>
                             <listBibl>
-                                <bibl xml:id="Horstmann1873">Horstmann, Carl. <title>Leben Jesu: ein Fragment, und Kindheit Jesu,
-                                        &amp;c.</title>. M&#x252;nster: Regensberg, 1873.</bibl>
+                                <bibl xml:id="Horstmann1873">Horstmann, Carl. <title>Leben Jesu: ein
+                                    Fragment, und Kindheit Jesu, &amp;c.</title>. M&#x00FC;&#x00FC;nster:
+                                    Regensberg, 1873.</bibl>
                             </listBibl>
                         </msItem>
                         <msItem n="2" xml:id="mc00002" class="#literary #hagiography">
                             <locus>ff. 11r-22r</locus>
                             <title>The Infancy of Christ</title>
                             <listBibl>
-                                <bibl xml:id="Horstmann1875">Horstmann, Carl. <title>Kindheit Jesu. In Altenglische Legenden: Kindheit Jesu;
-                                        Geburt Jesu; Barlaam und Josophat; St. Patrick's Fegefeuer</title>. Paderborn: F. Sch&#x246;ningh,
-                                    1875.</bibl>
+                                <bibl xml:id="Horstmann1875">Horstmann, Carl. <title>Kindheit Jesu.
+                                        In Altenglische Legenden: Kindheit Jesu; Geburt Jesu;
+                                        Barlaam und Josophat; St. Patrick's Fegefeuer</title>.
+                                    Paderborn: F. Sch&#x00F6;ningh, 1875.</bibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=2605#wit-2605-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=2605#wit-2605-1</ref>
                                 </bibl>
-                                <bibl><ref type="DIMEV">http://www.dimev.net/record.php?recID=2605#wit-2605-1</ref></bibl>
+                                <bibl><ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=2605#wit-2605-1</ref></bibl>
                             </listBibl>
                         </msItem>
                         <msItem n="3" xml:id="mc00003">
                             <locus>ff. 22r-198r</locus>
                             <title>The South English Legendary</title>
                             <listBibl>
-								<bibl xml:id="Horstmann1887">Horstmann, Carl, ed. <title>The Early South-English Legendary, Or, Lives of Saints</title>. London: N. Tr&#x252;bner &amp; Co., 1887.</bibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=4567</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=4567</ref>
                                 </bibl>
                             </listBibl>
-                            <!-- We need to fill in the <locus> values and the IMEV ID numbers -->
                             <msItem n="3a" xml:id="mc00004">
-                                <locus/>
-                                <!-- Suggest using David Hugh Farmer, The Oxford Dictionary of Saints, 5th ed. 
-                                    (Oxford: Oxford University Press, 2003) for saints' names. -->
-                                <title>St. Crux</title>
+                                <locus>ff. 23r-29v</locus>
+                                <title>The Holy Cross</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=5337#wit-5337-1</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3b" xml:id="mc00005">
-                                <locus/>
+                                <locus>ff. 23v-30v</locus>
                                 <title>St. Dunstan</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >hhttp://www.dimev.net/record.php?recID=4584#wit-4584-5</ref>
                                     </bibl>
+                                    <bibl>
+									    <ref type="DIMEV">http://www.dimev.net/record.php?recID=4584#wit-4584-7</ref>
+									</bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3c" xml:id="mc00006">
-                                <locus/>
+                                <locus>ff. 31r-31v</locus>
                                 <title>St. Augustine</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4543#wit-4543-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3d" xml:id="mc00007">
-                                <locus/>
+                                <locus>ff. 31v-32v</locus>
                                 <title>St. Barnabus</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4545#wit-4545-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3e" xml:id="mc00008">
-                                <locus/>
+                                <locus>ff. 32v-34r</locus>
                                 <title>St. John the Baptist</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4647#wit-4647-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3f" xml:id="mc00009">
-                                <locus/>
-                                <title>St. James</title>
+                                <locus>ff. 34r-38v</locus>
+                                <title>St. James the Great</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4620#wit-4620-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3g" xml:id="mc00010">
-                                <locus/>
+                                <locus>ff. 38v</locus>
                                 <title>St. Oswald</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4741#wit-4741-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3h" xml:id="mc00011">
-                                <locus/>
+                                <locus>ff. 39r-41v</locus>
                                 <title>St. Edward the Elder</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4590#wit-4590-1</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3i" xml:id="mc00012">
-                                <locus/>
-                                <title>St. Francis</title>
+                                <locus>ff. 41v-46v</locus>
+                                <title>St. Francis of Assisi</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4597#wit-4597-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3j" xml:id="mc00013">
-                                <locus/>
+                                <locus>ff. 46v–47v</locus>
                                 <title>St. Alban</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4534#wit-4534-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3k" xml:id="mc00014">
-                                <locus/>
+                                <locus>ff. 48r–50v</locus>
                                 <title>St. Wulfstan</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4773#wit-4773-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3l" xml:id="mc00015">
-                                <locus/>
+                                <locus>ff. 50v–52r</locus>
                                 <title>St. Matthew</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4719#wit-4719-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3m" xml:id="mc00016">
-                                <locus/>
-                                <title>St. Lege</title>
+                                <locus>ff. 52r–52v</locus>
+                                <title>St. Leger</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4660#wit-4660-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3n" xml:id="mc00017">
-                                <locus/>
-                                <title>St. Fey</title>
+                                <locus>ff. 52v–54r</locus>
+                                <title>St. Faith</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4595#wit-4595-2</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3o" xml:id="mc00018">
-                                <locus/>
-                                <title>The 11,000 Virgins</title>
+                                <locus>ff. 54r–55v</locus>
+                                <title>St. Ursula and the Eleven Thousand Virgins</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=1184#wit-1184-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3p" xml:id="mc00019">
-                                <locus/>
-                                <title>St. Katherine</title>
+                                <locus>ff. 56r–59r</locus>
+                                <title>St. Katherine of Alexandria</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4656#wit-4656-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3q" xml:id="mc00020">
-                                <locus/>
+                                <locus>ff. 59r–60v</locus>
                                 <title>St. Lucy</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4663#wit-4663-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3r" xml:id="mc00021">
-                                <locus/>
-                                <title>St. Thomas of Canterbury</title>
+                                <locus>ff. 61r-88r</locus>
+                                <title>St. Thomas of Canterbury (Thomas Becket)</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=6687#wit-6687-2</ref>
+                                    </bibl>
+                                    <bibl>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4768#wit-4768-2</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3s" xml:id="mc00022">
-                                <locus/>
+                                <locus>ff. 88v–89v</locus>
                                 <title>Saints Fabian and Sebastian</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4594#wit-4594-2</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3t" xml:id="mc00023">
-                                <locus/>
+                                <locus>ff. 89v–91r</locus>
                                 <title>St. Agnes</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4532#wit-4532-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3u" xml:id="mc00024">
-                                <locus/>
+                                <locus>ff. 91r–93r</locus>
                                 <title>St. Vincent</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4772#wit-4772-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3v" xml:id="mc00025">
-                                <locus/>
+                                <locus>ff. 93r–93v</locus>
                                 <title>St. Paul</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4745#wit-4745-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3w" xml:id="mc00026">
-                                <locus/>
-                                <title>St. Brigid</title>
+                                <locus>ff. 93v–94v</locus>
+                                <title>St. Brigid of Ireland</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4570#wit-4570-1</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3x" xml:id="mc00027">
-                                <locus/>
+                                <locus>ff. 94v–96r</locus>
                                 <title>St. Agatha</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4530#wit-4530-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3y" xml:id="mc00028">
-                                <locus/>
-                                <title>St. Scholace</title>
+                                <locus>ff. 96r–96v</locus>
+                                <title>St. Scholastica</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4756#wit-4756-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3z" xml:id="mc00029">
-                                <locus/>
+                                <locus>ff. 96v–104r</locus>
                                 <title>Saint Patrick's Purgatory</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4742#wit-4742-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3aa" xml:id="mc00030">
-                                <locus/>
+                                <locus>ff. 104r–110r</locus>
                                 <title>St. Brendan</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4567#wit-4567-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ab" xml:id="mc00031">
-                                <locus/>
+                                <locus>ff. 111r–115v</locus>
                                 <title>St. Nicholas</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4737#wit-4737-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ac" xml:id="mc00032">
-                                <locus/>
-                                <title>St. Julian</title>
+                                <locus>ff. 116r–117v</locus>
+                                <title>St. Julian the Hospitaller</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4651#wit-4651-5</ref>
+                                    </bibl>
+                                    <bibl>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4652#wit-4652-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ad" xml:id="mc00033">
-                                <locus/>
+                                <locus>ff. 117v–121r</locus>
                                 <title>St. Mary of Egypt</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4702#wit-4702-6</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ae" xml:id="mc00034">
-                                <locus/>
+                                <locus>ff. 121v–123v</locus>
                                 <title>St. Christopher</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4576#wit-4576-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3af" xml:id="mc00035">
-                                <locus/>
+                                <locus>ff. 124r–127v</locus>
                                 <title>St. Dominic</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4583#wit-4583-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ag" xml:id="mc00036">
-                                <locus/>
-                                <title>St. Teofle</title>
+                                <locus>ff. 127v–130r</locus>
+                                <title>St. Theophilus</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=5554#wit-5554-1</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ah" xml:id="mc00037">
-                                <locus/>
+                                <locus>ff. 130r–131r</locus>
                                 <title>St. George</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4603#wit-4603-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ai" xml:id="mc00038">
-                                <locus/>
+                                <locus>ff. 131r–132r</locus>
                                 <title>St. Edmund</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4588#wit-4588-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3aj" xml:id="mc00039">
-                                <locus/>
+                                <locus>ff. 132r–141r</locus>
                                 <title>St. Michael</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4732#wit-4732-5</ref>
+                                    </bibl>
+                                    <bibl>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4731#wit-4731-4</ref>
+                                    </bibl>
+                                    <bibl>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=5451#wit-5451-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ak" xml:id="mc00040">
-                                <locus/>
+                                <locus>ff. 141r–147r</locus>
                                 <title>St. Clement</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4577#wit-4577-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3al" xml:id="mc00041">
-                                <locus/>
+                                <locus>ff. 147r–149r</locus>
                                 <title>St. Laurence</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4659#wit-4659-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3am" xml:id="mc00042">
-                                <locus/>
+                                <locus>ff. 149r–153r</locus>
                                 <title>St. Kenelm</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4658#wit-4658-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3an" xml:id="mc00043">
-                                <locus/>
+                                <locus>ff. 153r–154v</locus>
                                 <title>St. Gregory</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4609#wit-4609-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ao" xml:id="mc00044">
-                                <locus/>
+                                <locus>ff. 154v–155v</locus>
                                 <title>St. Cuthbert</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4579#wit-4579-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ap" xml:id="mc00045">
-                                <locus/>
+                                <locus>ff. 155v–156r</locus>
                                 <title>St. Mark</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4697#wit-4697-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3aq" xml:id="mc00046">
-                                <locus/>
+                                <locus>ff. 156r–157r</locus>
                                 <title>St. Philip</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4752#wit-4752-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ar" xml:id="mc00047">
-                                <locus/>
-                                <title>St. Jacob</title>
+                                <locus>ff. 156r–157r</locus>
+                                <title>St. James the Less</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3as" xml:id="mc00049">
-                                <locus/>
+                                <locus>ff. 157v–161r</locus>
                                 <title>St. Bartholomew</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4547#wit-4547-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3at" xml:id="mc00050">
-                                <locus/>
+                                <locus>ff. 161r–165v</locus>
                                 <title>St. Thomas</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4767#wit-4767-4</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3au" xml:id="mc00051">
-                                <locus/>
+                                <locus>ff. 165v–166r</locus>
                                 <title>St. Matthew</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4728#wit-4728-6</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3av" xml:id="mc00052">
-                                <locus/>
-                                <title>St. Silvester</title>
+                                <locus>ff. 166r–167r</locus>
+                                <title>St. Sylvester</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4764#wit-4764-1</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3aw" xml:id="mc00053">
-                                <locus/>
+                                <locus>ff. 167r–169v</locus>
                                 <title>St. Eustace</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4592#wit-4592-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ax" xml:id="mc00054">
-                                <locus/>
+                                <locus>ff. 169v–174r</locus>
                                 <title>St. John the Evangelist</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4634#wit-4634-7</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ay" xml:id="mc00055">
-                                <locus/>
-                                <title>All Hallows Day</title>
+                                <locus>ff. 174r–174v</locus>
+                                <title>All Hallows' Day</title> <!-- Should this be All Saints' Day? -->
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=333#wit-333-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3az" xml:id="mc00056">
-                                <locus/>
-                                <title>All Souls Day</title>
+                                <locus>ff. 175r–179v</locus>
+                                <title>All Souls' Day</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=362#wit-362-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3ba" xml:id="mc00057">
-                                <locus/>
-                                <title>St. Edmund the Confessor</title>
+                                <locus>ff. 179v–185r</locus>
+                                <title>St. Edmund of Abingdon (Edme of Abingdon)</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4587#wit-4587-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3bb" xml:id="mc00058">
-                                <locus/>
+                                <locus>ff. 185r–188r</locus>
                                 <title>St. Martin</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4699#wit-4699-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3bc" xml:id="mc00059">
-                                <locus/>
+                                <locus>ff. 188r–190r</locus>
                                 <title>St. Leonard</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4661#wit-4661-3</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3bd" xml:id="mc00060">
-                                <locus/>
+                                <locus>ff. 190r–197r</locus>
                                 <title>St. Mary Magdalene</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4928#wit-4928-1</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
                             <msItem n="3be" xml:id="mc00061">
-                                <locus/>
-                                <title>St. Ypolyte</title>
+                                <locus>ff. 197r–198r</locus>
+                                <title>St. Hippolytus</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=</ref>
+                                        <ref type="DIMEV"
+                                            >http://www.dimev.net/record.php?recID=4615#wit-4615-5</ref>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -622,7 +702,8 @@
                             <title>The Sayings of Saint Bernard</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=5215#wit-5215-3</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=5215#wit-5215-3</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -631,7 +712,8 @@
                             <title>The Vision of Saint Paul</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=4814#wit-4814-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=4814#wit-4814-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -640,7 +722,8 @@
                             <title>The Debate between the Body and the Soul</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=605#wit-605-3</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=605#wit-605-3</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -649,7 +732,8 @@
                             <title>Havelok the Dane</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=1795#wit-1795-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=1795#wit-1795-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -658,7 +742,8 @@
                             <title>King Horn</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=312#wit-312-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=312#wit-312-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -667,7 +752,8 @@
                             <title>The Life and Passion of St. Blaise</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=4565#wit-4565-5</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=4565#wit-4565-5</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -676,7 +762,8 @@
                             <title>The Life and Passion of St. Cecilia</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=4572#wit-4572-3</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=4572#wit-4572-3</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -685,7 +772,8 @@
                             <title>The Life of St. Alexius</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=4923#wit-4923-2</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=4923#wit-4923-2</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -694,7 +782,8 @@
                             <title>Some Soneday</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=6125#wit-6125-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=6125#wit-6125-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -703,7 +792,8 @@
                             <title>Four lines of Middle English Verse</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=807#wit-807-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=807#wit-807-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -712,7 +802,8 @@
                             <title>Allas deceyte, &thorn;at in truste ys nowe</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=270#wit-270-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=270#wit-270-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -721,7 +812,8 @@
                             <title>Be &thorn;ou nou&yogh;t tobolde to blame</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=779#wit-779-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=779#wit-779-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -730,7 +822,8 @@
                             <title>Better ys to suffre and fortune abide</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=835#wit-835-2</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=835#wit-835-2</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -739,7 +832,8 @@
                             <title>He &thorn;e wise and wel i tau&yogh;t</title>
                             <listBibl>
                                 <bibl>
-                                    <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=1833#wit-1833-1</ref>
+                                    <ref type="DIMEV"
+                                        >http://www.dimev.net/record.php?recID=1833#wit-1833-1</ref>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -787,7 +881,7 @@
                             </handNote>
                             <handNote n="7" scope="minor" xml:id="bioUN007">
                                 <p>In the sixth part of the manuscript, the verses on the rest of <locus>f. 238</locus> are also in a hand
-                                    of the <date from="1401-01-01" to="1499-12-31">fifteenth century</date>.</p>
+                                    of the <date from="1400-01-01" to="1499-12-31">fifteenth century</date>.</p>
                             </handNote>
                             <handNote n="8" scope="minor" xml:id="bioUN008"><p>On one flyleaf, <locus>f. iii recto</locus>, a <date
                                         from="1301-01-01" to="1399-12-31">fourteenth-century</date> hand writes a prayer in Latin.
@@ -843,9 +937,7 @@
                                 <ref type="LAEME">All items belong to the LAEME <term>literary</term> category.</ref>
                             </bibl>
                             <bibl>
-                                <!-- Note: Should this really be DIMEV ??? -->
-                                <!-- The URL below is actually for the Infancy of Christ, not the MS as a whole. -->
-                                <ref type="IMEV">http://www.cddc.vt.edu/host/imev/record.php?recID=2605#wit-2605-1</ref>
+                                <ref type="DIMEV">http://www.dimev.net/Records.php?MSS=BodLauMis108</ref>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -4703,7 +4795,7 @@
             <div1>
                 <head>10 Sancta crux</head>
                 <note type="enc" resp="#bioHO001">[This legend, which is counted as 10th in the MS. 1s preceded by (1) a poem on the Life
-                    and Passion of Christ (wanting the beginning and end), ed. by me under the title of 'Leben Iesu, ein Fragment,' M&#x252;nster,
+                    and Passion of Christ (wanting the beginning and end), ed. by me under the title of 'Leben Iesu, ein Fragment,' M&#x00FC;nster,
                     Regensberg, 1873, and (2) by a poem on the Infancy of Christ, ed. in 'Altengl. Legenden,' Paderborn, 1875, pp. 1-61.
                     Eight pieces, therefore, are lost before the legend of the Holy Rood.]</note>
                 <lg>
@@ -5980,7 +6072,7 @@
             </div1>
             <div1>
                 <head>11. S. Dunstan.<note type="enc" resp="#bioHO001">[This legend, and S. Cristofer, I have edited before in 'Lemcke,
-                        Jahrbuch f&#x252;r rom, und engl. phil., 1875.']</note></head>
+                        Jahrbuch f&#x00FC;r rom, und engl. phil., 1875.']</note></head>
                 <lg>
                     <l xml:id="bodllaudmisc108.3b.1">S<sg type="ln"/>Eint Dunston was of enguelonde<pc> &punctelev; </pc>i<sg/>come of guode
                         more</l>
