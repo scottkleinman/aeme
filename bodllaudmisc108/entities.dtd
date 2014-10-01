@@ -1,0 +1,34 @@
+<!--
+#############################################################################
+# This file is intended to be the working sample for initial transcription. #
+#############################################################################
+-->
+<!-- An initial set of entities. Probably not complete. -->
+<!ENTITY thorn "&#xFE;">
+<!ENTITY THORN "&#xDE;">
+<!ENTITY yogh "&#x021D;">
+<!ENTITY YOGH "&#x021C;">
+<!ENTITY slong "&#x17F;">
+<!ENTITY rrot "&#xA75B;">
+<!ENTITY Rrot "&#xA75A;">
+<!ENTITY ydot "&#x1E8F;">
+<!ENTITY iacute "&#xED;">
+<!ENTITY pbardes "&#xA751;">
+<!ENTITY pflour "&#xA753;">
+<!ENTITY combtildevert "&#x033E;">
+<!ENTITY hstrok "&#x0127;">
+<!ENTITY mdash "&#x2014;">
+<!ENTITY punctelev "&#xF161;">
+<!ENTITY hidot "&#xF1F8;">
+<!ENTITY middot "&#x00B7;">
+<!ENTITY sol "&#x002F;">
+<!ENTITY para "&#x00B6;">
+<!ENTITY pipe "&#x007C;">
+<!ENTITY doublepipe "&#x2016;">
+<!ENTITY openparen "&#x028;">
+<!ENTITY closeparen "&#x029;">
+<!ENTITY lpar "&#x028;"> <!-- NB. lpar and rpar are MUFI names -->
+<!ENTITY rpar "&#x029;">
+<!ENTITY emacr "&#x0113;">
+<!ENTITY teiHeader SYSTEM "teiHeader.xml">
+<!ENTITY facsimile SYSTEM "facsimile.xml">

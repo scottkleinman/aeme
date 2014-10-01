@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.emesoc.org/schema/aeme.rng" type="xml"?>
+<!DOCTYPE TEI SYSTEM "entities.dtd">
+<TEI xml:id="laudmisc108" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Standoff <teiHeader> and <facsimile> files --> &teiHeader; &facsimile;
+    <!-- End of Standoff <teiHeader> and <facsimile> files -->
+    <text>
+        <body>
+            <div1>
+                <l xml:id="bodllaudmisc108.13.1">Be<sg/>halde merueylis a mayde ys moder &sol;
+                    I&slong;aye <note type="pal" resp="#bioKL0001">Something is missing here.</note>
+                        vij<hi rend="superscript">o</hi></l>
+                <l xml:id="bodllaudmisc108.13.2"><del rend="linedThrough">Lyfe fau&yogh;te <choice>
+                            <orig>w<am rend="superscript">t</am></orig>
+                            <reg><ex>ith</ex></reg>
+                        </choice> de&thorn;<hi rend="superscript">e</hi> and de&thorn; is
+                        &slong;layne &sol; Osee xiij<hi rend="superscript">o</hi></del></l>
+                <l xml:id="bodllaudmisc108.13.3">Here &slong;one her fader ys &amp; broder &sol;
+                    y&slong;aye ix<hi rend="superscript">o</hi></l>
+                <note type="pal" resp="#bioKL0001">Ampersand is crossed with a macron over
+                    it.</note>
+                <l xml:id="bodllaudmisc108.13.4">Lyfe faw&yogh;t <choice>
+                        <orig>w<am rend="superscript">t</am></orig>
+                        <reg><ex>ith</ex></reg>
+                    </choice> de&thorn;<hi rend="superscript">e</hi> &amp; de&thorn; is &slong;layne
+                    &sol; O&slong;ee xiii<hi rend="superscript">o</hi></l>
+                <note type="pal" resp="#bioKL0001">Ampersand is crossed with a macron over
+                    it.</note>
+                <l xml:id="bodllaudmisc108.13.5">Mo&slong;t hi&yogh; was lowe he &slong;ty&yogh;e
+                    agayne &sol; philipens ii<hi rend="superscript">o</hi></l>
+                <note type="pal" resp="#bioKL0001">Last letter of "philipens" uncertain.</note>
+            </div1>
+            <div1>
+                <note type="enc" resp="#bioKL0001">supplied[@reason="torn"] and
+                    unclear[@reason="torn"] are used for the cropping of the page since, at the time
+                    of encoding "cropped" is not valid. Perhaps it should be added to the
+                    schema.</note>
+                <note type="text" resp="#bioKL0001">The rhyme scheme is very hard to encode because
+                    lines 5-6 rhyme on the same sound as lines 2 and 4. The basis for designating
+                    them rhyme c is the the rhyming lines are linked by brackets, which show lines
+                    5-6 as a separate clade. However, the bracketing appears to link lines 1 and 4
+                    with an internal clade for lines 2-3. It appears that the scribe was unsure
+                    whether to bracket quatrains or couplets.</note>
+                <lg rhyme="ababccdd">
+                    <l xml:id="bodllaudmisc108.14.1"><supplied reason="torn" cert="high"
+                            >A</supplied>llas diceyte &thorn;at in tru&slong;e ys <rhyme label="a"
+                            >nowe</rhyme></l>
+                    <l xml:id="bodllaudmisc108.14.2"><supplied reason="torn" cert="medium"
+                            >d</supplied>uble as fortune turnyng as a <rhyme label="b">bal<unclear
+                                reason="ill-formed" cert="high">l</unclear>e</rhyme></l>
+                    <l xml:id="bodllaudmisc108.14.3"><supplied reason="torn" cert="medium"
+                            >s</supplied>otylle at a&slong;&slong;y lyke &thorn;e rotyn <rhyme label="a"
+                            >bowe</rhyme></l>
+                    <l xml:id="bodllaudmisc108.14.4">who tru&slong;tith to tru&slong;t is redy for
+                        to <rhyme label="b">falle</rhyme></l>
+                    <l xml:id="bodllaudmisc108.14.5"><supplied reason="torn" cert="medium"
+                            >s</supplied>uche gyle ys in tru&slong;t all mo&slong;t <choice>
+                            <orig>ou<am>&#x1dce;</am></orig>
+                            <reg>ou<ex>er</ex></reg>
+                        </choice>
+                        <rhyme label="c">alle</rhyme></l>
+                    <note type="enc" resp="#bioKL0001">The abbreviation marker in line 5 is encoded
+                        as a combining curl, but it is in fact a combining curl flipped 180 degrees.
+                        This may not be the best encoding for the symbol.</note>
+                    <l xml:id="bodllaudmisc108.14.6"><unclear reason="torn" cert="medium"
+                            >&thorn;</unclear>at yn poynte a man no frende fynde <rhyme label="c"
+                            >&slong;halle</rhyme></l>
+                    <l xml:id="bodllaudmisc108.14.7"><unclear reason="torn" cert="high"
+                            >&THORN;</unclear>erfore be<sg/>ware of tru&slong;t after my <rhyme
+                            label="d">devi<unclear reason="rubbed" cert="high"
+                            >&slong;e</unclear></rhyme></l>
+                    <l xml:id="bodllaudmisc108.14.8"><supplied reason="torn" cert="high"
+                            >T</supplied>ru&slong;t to <choice>
+                            <orig>&thorn;<am>&#x0365;</am></orig>
+                            <reg>&thorn;<ex>i</ex></reg>
+                        </choice> &slong;elfe and lerne to be <rhyme label="d"
+                        >wy&slong;e</rhyme></l>
+                </lg>
+            </div1>
+            <div1>
+                <p><supplied reason="torn" cert="high">I</supplied>&slong;ste liber con&slong;tat
+                        <hi rend="h3">h</hi>enricus perueys <choice>
+                        <orig>te&slong;tantib<am>&#xA76B;</am></orig>
+                        <reg>te&slong;tantib<ex>us</ex></reg>
+                    </choice>
+                    <choice>
+                        <abbr>Iohi</abbr>
+                        <expan>Iohanni</expan>
+                    </choice> Rede <lb/><choice>
+                        <orig>pre&slong;bt<am>&#x1DCE;</am></orig>
+                        <reg>pre&slong;btero</reg>
+                    </choice>
+                    <choice>
+                        <orig>wi<am>&#x019A;&#x019A;</am>mo</orig>
+                        <reg>will<ex>el</ex>mo</reg>
+                    </choice> Rotheley &#xF158; Aliis</p>
+            </div1>
+            <div1>
+                <lg type="prose">
+                    <l xml:id="bodllaudmisc108.15.1">Be <choice>
+                            <orig>&thorn;<am>&#x0367;</am></orig>
+                            <reg>&thorn;<ex>u</ex></reg>
+                        </choice> nau&yogh;t to bolde to blame</l>
+                    <l xml:id="bodllaudmisc108.15.2">Le&slong;te <choice>
+                            <orig>&thorn;<am>&#x0367;</am></orig>
+                            <reg>&thorn;<ex>u</ex></reg>
+                        </choice> be founde in <choice>
+                            <orig>&thorn;<am>&#x0364;</am></orig>
+                            <reg>&thorn;<ex>e</ex></reg>
+                        </choice> &slong;ame</l>
+                    <l xml:id="bodllaudmisc108.15.3"><unclear reason="torn" cert="high"
+                        >L</unclear>oue <unclear reason="ill-formed" cert="medium">g</unclear>od and
+                        d&rrot;ede &slong;hame</l>
+                    <l xml:id="bodllaudmisc108.15.4"><unclear reason="ill-formed" cert="high"
+                            >&#xF158;</unclear> &slong;o in worship kepe <choice>
+                            <orig>&thorn;<am>&#x0365;</am></orig>
+                            <reg>&thorn;<ex>i</ex></reg>
+                        </choice> name</l>
+                    <note type="pal">The ampersand is clearly of the crossed Tironian et type with a
+                        bar above it, but it looks nothing like a classical Tironian et.</note>
+                </lg>
+            </div1>
+            <div1>
+                <lg type="prose">
+                    <l n="bodllaudmisc108.16.1"><supplied reason="torn" cert="medium">B</supplied>e
+                        &thorn;e wise and wel i<sg/>tau&yogh;t</l>
+                    <l n="bodllaudmisc108.16.2">can <choice>
+                            <orig>ber<am>&#x0364;</am></orig>
+                            <reg>ber<ex>e</ex></reg>
+                        </choice> an horne &#xF158; blow it na<unclear reason="faded" cert="high"
+                            >u&yogh;t</unclear></l>
+                    <note type="pal" resp="#bioKL0001">The ampersand in line 2 the Tironian et with
+                        a bar or curl over it.</note>
+                </lg>
+            </div1>
+            <div1>
+                <note type="text" resp="#bioKL0001">This couplet is tentatively coded with a rhyme
+                    scheme because it follows without a gap from the previous text, which is written
+                    out as prose. A light angular 7 shape connecting line 1 to line 2--possibly by
+                    the scribe--appears to represent a bracket for the couplet.</note>
+                <lg rhyme="aa">
+                    <l xml:id="bodllaudmisc108.17.1">
+                        <choice>
+                            <orig>Bett<am>&#x1DCE;</am></orig>
+                            <reg>Bett<ex>er</ex></reg>
+                        </choice> ys to <choice>
+                            <orig>&slong;uff<am>&#x1DCE;</am></orig>
+                            <reg>suff<ex>er</ex></reg>
+                        </choice> and fortune <rhyme label="a">abide</rhyme></l>
+                    <note type="text" resp="#bioKL0001">The combining curl in the first word of line
+                        1 is very light and may be a mere flourish, in which case the word would be
+                        "Bett". It is interpreted as an abbreviation marker because of the presence
+                        of a somewhat darker combining curl in "suffer" in the same line.</note>
+                    <l xml:id="bodllaudmisc108.17.2"><unclear reason="torn" cert="high"
+                            >&thorn;</unclear>an ha&slong;tyly falle &#xF158; &slong;o&thorn;enly
+                            <rhyme label="a">&slong;lyde</rhyme></l>
+                </lg>
+            </div1>
+        </body>
+    </text>
+</TEI>
