@@ -8,7 +8,7 @@ This repository contains the development code for the Archive of Early Middle En
 The top-level directory contains the oXygen project file (currently aeme0.2.xpr). The other contents of the repository are described below with notes regarding their use:
 
 ## The transcription folder
-This contains one file, aeme-proofing.xsl, which is used to generate an html version of encoded texts for proofreading. Instructions for using the file can be found here.
+This contains one file, aeme-proofing.xsl, which is used to generate an html version of encoded texts for proofreading. Instructions for using the file can be found [here](https://github.com/scottkleinman/aeme/wiki/Transforming-XML-Files).
 
 ## The validation folder
 This folder contains the AEME schema files and associated oXygen code templates:
