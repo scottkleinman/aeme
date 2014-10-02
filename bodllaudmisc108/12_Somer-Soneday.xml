@@ -3,18 +3,20 @@
 <TEI xml:id="laudmisc108" xmlns="http://www.tei-c.org/ns/1.0">
   <!-- Standoff <teiHeader> and <facsimile> files --> &teiHeader; &facsimile;
   <!-- End of Standoff <teiHeader> and <facsimile> files -->
-  <text>
-    <body>
-      <div1>
-        <pb n="236v"/>
-        <cb n="1"/>
-        <note type="enc" resp="#bioKL0001">
-          <p>The text of Somer Soneday was proofed against the Google scan by Scott Kleinman on 3
+    <text>
+        <!-- Change log:
+		Version with standoff documents prepared by Scott Kleinman.
+The text of Somer Soneday was proofed against the Google scan by Scott Kleinman on 3
             August 2010, then read against Thorlac Turville-Petre's edition (1989) by Sharon Goetz
             on 3 August 2010. It was converted to XML by Scott Kleinman on 4 August 2010.
             Turville-Petre's (T-P) lineation and readings of thorn, yogh, u, and v silently adopted
             over Wright and Halliwell's (WH) normalisations. WH's readings and MS readings for T-P's
-            emendations supplied in XML comments.</p></note>
+            emendations supplied in XML comments. 
+Last Update: Oct 2 2014. -->
+    <body>
+      <div1>
+        <pb n="236v"/>
+        <cb n="1"/>
         <p>Here bigynneth Somer Soneday.</p>
         <lg>
           <l xml:id="bodllaudmisc108.12.1">Opon a somer soneday se I &thorn;e sonne,</l>

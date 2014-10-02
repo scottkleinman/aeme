@@ -4,6 +4,12 @@
     <!-- Standoff <teiHeader> and <facsimile> files --> &teiHeader; &facsimile;
     <!-- End of Standoff <teiHeader> and <facsimile> files -->
     <text>
+        <!-- Change log:
+		Version with standoff documents prepared by Scott Kleinman.
+Line numbers and litterae notabiliores have been added algorithmically.
+Horstmann's punctuation is retained and his notes are contained in note[@type="enc"].
+Horstmann's superscripts are in retained as <hi rend="Horstmann-superscript">. 
+Last Update: Oct 2 2014. -->
         <body>
             <div1>
                 <note type="enc" resp="#bioKL0001">OCR from Google scan and conversion to XML by

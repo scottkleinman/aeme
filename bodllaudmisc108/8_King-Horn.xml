@@ -4,10 +4,12 @@
   <!-- Standoff <teiHeader> and <facsimile> files --> &teiHeader; &facsimile;
   <!-- End of Standoff <teiHeader> and <facsimile> files -->
   <text>
-    <body>
-      <note type="enc" resp="#KL0001">Line-initial capitalisation and all punctuation taken from the
+    <!-- Change log:
+Line-initial capitalisation and all punctuation taken from the
         TEAMS edition, not Hall. Some punctuation changed to fit changes in the text. Line groups
-        correspond to the location of paragraph markers as listed in Hall's edition.</note>
+        correspond to the location of paragraph markers as listed in Hall's edition.
+    Last Update: Oct 2 2014. -->
+    <body>
       <div1>
         <lg>
           <l xml:id="bodllaudmisc108.8.1">Alle ben he bli&thorn;e</l>
