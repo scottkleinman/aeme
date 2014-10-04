@@ -18,6 +18,14 @@
         <title>Archive of Early Middle English :: <xsl:value-of select="$doc.title"/></title>
         <link href="http://www.emesoc.org/schema/aeme-proofing.css" media="screen" rel="stylesheet" type="text/css"/>
         <link href="http://www.emesoc.org/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+        <style type="text/css">
+          body{
+          margin:10px 10px 10px 10px;
+          padding:10px;
+          width: 95%;
+          font-size: larger;
+          }
+        </style>
       </head>
       <body>
         <!--<a class="jump-to-content" href="#content">Jump to Content</a>-->
