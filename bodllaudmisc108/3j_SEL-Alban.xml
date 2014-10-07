@@ -18,7 +18,11 @@ Last Update: Oct 4 2014. -->
             <div1>
                 <ab xml:lang="lat">
                     <hi rend="blue-ink">&para;</hi>
-                    <hi rend="red-ink">vita <name ref="#bioAlban0001" type="person"><choice>
+                    <hi rend="red-ink"><choice>
+                            <orig>Vita</orig>
+                            <reg>vita></reg>
+                        </choice>
+                        <name ref="#bioAlban0001" type="person"><choice>
                                 <orig>Sat<am>&combmacr;</am>i</orig>
                                 <reg>Sa<ex>nc</ex>ti</reg>
                             </choice>
@@ -54,7 +58,7 @@ Last Update: Oct 4 2014. -->
                         />o&rrot;me&slong;t he wa&slong; he&thorn;ene man<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd of he&thorn;ene men he cam</l>
                     <l xml:id="bodllaudmisc108.3j.4"><hi rend="touched-red">A</hi><sg type="ln"/>nd
-                        &slong;eth&thorn;e, a&slong;e o&rrot;e louerd it wolde<pc> &punctelev;
+                        &slong;eth&thorn;e a&slong;e o&rrot;e louerd it wolde<pc> &punctelev;
                             </pc><hi rend="touched-red">h</hi>e to&rrot;nede to <choice>
                             <orig>cri&slong;tindom</orig>
                             <reg>Cristindom</reg>
@@ -249,7 +253,7 @@ Last Update: Oct 4 2014. -->
                         &yogh;wat kunne ich am i<sg/>come<pc> &punctelev; </pc><hi
                             rend="touched-red">l</hi>uyte &thorn;ou ha&slong;t to<sg/>done</l>
                     <l xml:id="bodllaudmisc108.3j.37"><hi rend="touched-red">A</hi><sg type="ln"
-                        />lban i&slong; mi name, i<sg/>wis<pc> &punctelev; </pc><hi
+                        />lban i&slong; mi name i<sg/>wis<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd ich hono&rrot;i al<sg/>so</l>
                     <l xml:id="bodllaudmisc108.3j.38"><hi rend="touched-red">G</hi><sg type="ln"/>od
                         &thorn;at &slong;chop alle &thorn;ing<pc> &punctelev; </pc>and
@@ -275,7 +279,7 @@ Last Update: Oct 4 2014. -->
                         />noure o&rrot;e <choice>
                             <orig>godes</orig>
                             <reg>Godes</reg>
-                        </choice> ich rede, a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red"
+                        </choice> ich rede a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red"
                             >a</hi>nd heom &slong;acrefise</l>
                     <l xml:id="bodllaudmisc108.3j.44"><hi rend="touched-red">O</hi><sg type="ln"
                         />&thorn;ur ichulle &thorn;e to&rrot;menti &slong;o<pc> &punctelev; </pc><hi
@@ -501,7 +505,7 @@ Last Update: Oct 4 2014. -->
                         owene ey&yogh;ene out of is heued<pc> &punctelev; </pc><hi
                             rend="touched-red">&thorn;</hi>are ri&yogh;ht fullen to grounde</l>
                     <l xml:id="bodllaudmisc108.3j.99"><hi rend="touched-red">L</hi><sg type="ln"
-                        />ouerd, muche is &thorn;i mi&yogh;hte<pc> &punctelev; </pc><hi
+                        />ouerd muche is &thorn;i mi&yogh;hte<pc> &punctelev; </pc><hi
                             rend="touched-red">h</hi>o<sg/>&slong;o him wole
                         onder<sg/>&slong;tonde</l>
                     <l xml:id="bodllaudmisc108.3j.100"><hi rend="touched-red">A</hi><sg type="ln"
@@ -524,7 +528,7 @@ Last Update: Oct 4 2014. -->
                         />i<sg/>&slong;ide ane toune &thorn;at <choice>
                             <orig>widince&slong;tre</orig>
                             <reg>Widincestre</reg>
-                        </choice><pc> &punctelev; </pc>men cleopeden, ich onder<sg/>&slong;tonde</l>
+                        </choice><pc> &punctelev; </pc>men cleopeden ich onder<sg/>&slong;tonde</l>
                     <l xml:id="bodllaudmisc108.3j.103"><hi rend="touched-red">&THORN;</hi><sg
                             type="ln"/>are i&slong; nou&thorn;e a churche a<sg/>rerd<pc> &punctelev;
                             </pc><hi rend="touched-red">a</hi>nd a gret <choice>
