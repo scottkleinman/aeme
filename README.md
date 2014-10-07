@@ -25,6 +25,8 @@ This folder contains all the files for Oxford, Bodleian Library, Laud Misc. 108.
 * teiheader.xml -- the common <teiHeader> element used in all texts in the manuscript
 * facsimile.xml -- the common <facsimile> element used in all texts in the manuscript
 
+There is also a folder for glossary files. Glossary files are at present created in a an AEME schema-compatible format designed to record MED headword IDs for each word as references. They will probably not be used directly for output.
+
 In order to produce valid documents, the xml files for each text must begin with the following code:
 
 ```xml
@@ -36,7 +38,6 @@ In order to produce valid documents, the xml files for each text must begin with
 	<text>
 	...
 ```
-
 This will include all three standoff documents listed above.
 
 Changes to the <teiHeader> should be appropriately documented in <revisionDesc>. Although changes to all files will be recorded in git commits, editors should also describe changes to the texts in the xml comments at the top of each file immediately after the `<text>` element.
