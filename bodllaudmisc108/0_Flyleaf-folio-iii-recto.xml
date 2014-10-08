@@ -1,66 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.emesoc.org/schema/aeme.rng" type="xml"?>
-<!DOCTYPE TEI SYSTEM "../entities.dtd">
+<!DOCTYPE TEI SYSTEM "entities.dtd">
 <TEI xml:id="laudmisc108" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- Standoff <teiHeader> and <facsimile> files --> &teiHeader; &facsimile;
     <!-- End of Standoff <teiHeader> and <facsimile> files -->
     <!-- Change log:
         by SKG, 20140618: quick and dirty expansions, for now.
         skg means to return and fix the carets and [] as well as these blithe <ex>s during a second reading against scan.
-Last Update: Sept 30 2014. -->
+        SK added very provisional entities for carets and abbreviations, and also add <pc> for compliance with latest schema.
+        Named entities still need to be wrapped in <name>.
+Last Update: Oct 7 2014. -->
     <text>
         <body>
             <div1 xml:id="dv0000">
                 <pb n="iii-r" xml:id="f3flyr"/>
 
                 <p><handShift new="#bioUN008"/><lb/><choice>
-                        <orig>I&#x127;u</orig>
-                        <reg>Ih<ex>es</ex>u</reg>
-                    </choice> m<ex>er</ex>cy <choice>
-                        <orig>I&#x127;u</orig>
-                        <reg>Ih<ex>es</ex>u</reg>
-                    </choice> m<ex>er</ex>cy. <choice>
-                        <orig>I&#x127;u</orig>
+                        <orig>I<am>&#x127;</am>u</orig>
                         <reg>Ih<ex>es</ex>u</reg>
                     </choice>
-                    <gap reason="erasure"/> &#x17F;onne &#x17F;ent ^ <lb/>Lady ^ Mary m<ex>er</ex>cy <choice>
-                        <orig>I&#x127;u</orig>
+                    <choice>
+                        <orig>m<am>&#x035B;</am>cy</orig>
+                        <reg>m<ex>er</ex>cy</reg>
+                    </choice>
+                    <choice>
+                        <orig>I<am>&#x127;</am>u</orig>
                         <reg>Ih<ex>es</ex>u</reg>
                     </choice>
-                    <lb/>sauyour of all &#xFE;e worlde mercy. Ih[]t* nazaren<ex>us</ex>
-                    <lb/>rex in deor<ex>um</ex> fili dei mi&#x17F;erer<ex>e</ex> mei &#x0026;
-                        toti<ex>us</ex> p[o]p[u]li <lb/><choice>
-                        <orig>xpiani<ex>us</ex></orig>
+                    <choice>
+                        <orig>m<am>&#x035B;</am>cy</orig>
+                        <reg>m<ex>er</ex>cy</reg>
+                    </choice><pc>.</pc>
+                    <choice>
+                        <orig>I<am>&#x127;</am>u</orig>
+                        <reg>Ih<ex>es</ex>u</reg>
+                    </choice>
+                    <gap reason="erasure"/> &#x17F;onne &#x17F;ent &#x2227; <lb/>Lady &#x2227; Mary <choice>
+                        <orig>m<am>&#x035B;</am>cy</orig>
+                        <reg>m<ex>er</ex>cy</reg>
+                    </choice>
+                    <choice>
+                        <orig>I<am>&#x127;</am>u</orig>
+                        <reg>Ih<ex>es</ex>u</reg>
+                    </choice>
+                    <lb/>sauyour of all &#xFE;e worlde mercy<pc>.</pc>
+                    <choice>
+                        <abbr>Ihc&#x0302;</abbr>
+                        <expan>Ihesus</expan>
+                    </choice>
+                    <choice>
+                        <orig>nazaren<am>&#xF1A5;</am></orig>
+                        <reg>nazaren<ex>us</ex></reg>
+                    </choice>
+                    <lb/>rex <choice>
+                        <orig>in<sg> </sg>deo<am>&#xA75D;</am></orig>
+                        <reg>in deo<ex>rum</ex></reg>
+                    </choice> fili dei <choice>
+                        <orig>mi&#x17F;erer<am>&#xF1C8;</am></orig>
+                        <reg>mi&#x17F;erer<ex>e</ex></reg>
+                    </choice> mei &#x0026; toti<ex>us</ex>
+                    <choice>
+                        <abbr>&#xA751;&#xA751;&#x019A;i</abbr>
+                        <expan>populi</expan>
+                    </choice>
+                    <lb/><choice>
+                        <orig>xp&#xFB05;<am>&#x1DCD;</am>iani<am>&#x1DD2;</am></orig>
                         <reg><ex>crist</ex>ian<ex>us</ex></reg>
-                    </choice> Amen. pater m<ex>ei</ex>. Aue maria credo</p>
+                    </choice> Amen<pc>.</pc> pater <choice>
+                        <orig>m<am>&#x1DCD;</am></orig>
+                        <reg>m<ex>ei</ex></reg>
+                    </choice><pc>.</pc> Aue maria credo</p>
             </div1>
             <div1 xml:id="dv0001">
-                <p><handShift new="#bioUN009"/><lb/>K. 60. <lb/>The&#x17F;e ben &#xFE;e namys of
-                    &#x17F;eyntys lyfys <choice>
+                <p><handShift new="#bioUN009"/><lb/>K<pc>.</pc> 60<pc>.</pc>
+                    <lb/>The&#x17F;e ben &#xFE;e namys of &#x17F;eyntys lyfys <choice>
                         <orig>&#xFE;<hi rend="superscript">t</hi></orig>
                         <reg>&#xFE;<ex>a</ex>t</reg>
-                    </choice> w[re]tyn in <lb/>this books/ In p<ex>ri</ex>mis Seynt Stevyn Itm
-                    &#x17F;eynt <lb/>luke. Itm Seynt Valentyne. Itm &#x17F;eynt <lb/>^sen[]s
-                        O&#x17F;wald<ex>us</ex> confe&#x17F;&#x17F;or. <lb/>Iulyan. &#xFE;e virgine
-                    ^ It<corr>m</corr> seynt Chadde <lb/>Itm Seynt langens. <del rend="linedThrough"
-                        >Itm Seynt Patr <lb/>of Irlande</del> Itm &#x17F;eynt Benet Itm ri
-                        <lb/>p<ex>ro</ex>[]e&#x17F;&#x17F;e of holdyng of &#xFE;e v.<hi
-                        rend="superscript">is</hi> fe&#x17F;tis in &#xFE;e yere <lb/>Itm &#xFE;e
-                        p<ex>ro</ex>evirb of Iudas <choice>
-                        <orig>&#xFE;<hi rend="superscript">t</hi></orig>
+                    </choice>
+                    <choice>
+                        <orig>w&#x1DCD;tyn</orig>
+                        <reg>w<ex>re</ex>tyn</reg>
+                    </choice> in <lb/>this books<pc>/</pc> In <choice>
+                        <orig>p<am>&#x035B;</am>mis</orig>
+                        <reg>p<ex>ri</ex>mis</reg>
+                    </choice> Seynt Stevyn <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt <lb/>luke<pc>.</pc>
+                    <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> Seynt Valentyne<pc>.</pc>
+                    <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt <lb/>
+                    <lb/>Iulyan<pc>.</pc> &#xFE;e &#x2227; <choice>
+                        <orig>sen<am>&#xF30B;</am>s</orig>
+                        <reg>sen<ex>t</ex>s</reg>
+                    </choice>
+                    <choice>
+                        <orig>O&#x17F;wald<am>&#xF1A6;</am></orig>
+                        <reg>Oswald<ex>us</ex></reg>
+                    </choice> confe&#x17F;&#x17F;or<pc>.</pc> virgine &#x2227; <choice>
+                        <abbr>It<unclear reason="rubbed">m</unclear></abbr>
+                        <expan>Item</expan>
+                    </choice> seynt Chadde <lb/>Itm Seynt langens<pc>.</pc>
+                    <del rend="linedThrough">Itm Seynt Patr <lb/>of Irlande</del>
+                    <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Benet <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> ri <lb/><choice>
+                        <orig><am>&#xA753;</am><unclear>c</unclear>e&#x17F;&#x17F;e</orig>
+                        <reg><ex>pro</ex><unclear>c</unclear>esse</reg>
+                    </choice> of holdyng of &#xFE;e v<pc>.</pc><hi rend="superscript">is</hi>
+                    fe&#x17F;tis in &#xFE;e yere <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#xFE;e <choice>
+                        <orig><am>&#xA753;</am>virb</orig>
+                        <reg><ex>pro</ex>virb</reg>
+                    </choice> of Iudas <choice>
+                        <orig>&#xFE;<hi rend="superscript"><am>t</am></hi></orig>
                         <reg>&#xFE;<ex>a</ex>t</reg>
-                    </choice> &#x17F;lowe hym &#x17F;ylue <lb/>Itm Seynt <del rend="linedThrough"
-                        >Aphe</del> Alphe Itm &#xFE;e cau&#x17F;es <lb/>of &#xFE;e <del
-                        rend="linedThrough subpointed">latenyes</del> latenyes
-                        &#x17F;eynt<ex>es</ex> in &#xFE;e <lb/>Rogac<ex>i</ex>on dayes Itm
-                        &#x17F;ey<corr>n</corr>t Querack <lb/>Itm &#x17F;eynt Aldeline Itm
-                    &#x17F;eynt Theoph <lb/>Itm Seynt Petyr Itm &#x17F;eynt Ponte I <lb/>&#x17F;eynt
-                    &#x17F;wythyne Itm &#x17F;eynt Margarete <lb/>Itm &#x17F;eynt Cri&#x17F;tine Itm
-                    &#x17F;eynt martha <lb/>Itm <corr>&#xFE;</corr><hi rend="superscript">e</hi>
-                        vij.<hi rend="superscript">e</hi> sleperis Itm &#x17F;eynt Gyle <lb/>Itm
-                    &#x17F;eynt Aue&#x17F;tac. Itm &#x17F;eynt Rertyn <lb/>Itm &#x17F;eynt
-                    Iu&#x17F;tyne Itm &#x17F;eynt Ierolime <lb/>Itm &#x17F;eynt demyc<ex>us</ex> Itm
-                    &#x17F;eynt Symond <lb/>and Iude Itm &#x17F;eynt quyntyme Itm <lb/>&#x17F;eynt
-                    Andrewe</p>
+                    </choice> &#x17F;lowe hym &#x17F;ylue <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> Seynt <del rend="linedThrough">Aphe</del> Alphe Itm &#xFE;e
+                    cau&#x17F;es <lb/>of &#xFE;e <del rend="linedThrough subpointed">latenyes</del>
+                    latenyes &#x17F;eynt<ex>es</ex> in &#xFE;e <lb/>Rogac<ex>i</ex>on dayes <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;ey<corr>n</corr>t Querack <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Aldeline <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Theoph <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> Seynt Petyr <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Ponte I <lb/>&#x17F;eynt &#x17F;wythyne <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Margarete <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Cri&#x17F;tine <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt martha <lb/><choice>
+                        <abbr>It<unclear reason="rubbed">m</unclear></abbr>
+                        <expan>Item</expan>
+                    </choice>
+                    <supplied reason="rubbed">&#xFE;</supplied><hi rend="superscript">e</hi> vij<choice>
+                        <sic><hi rend="superscript">e</hi></sic>
+                        <corr/>
+                    </choice><pc>.</pc><hi rend="superscript">e</hi> sleperis <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Gyle <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Aue&#x17F;tac<pc>.</pc>
+                    <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Rertyn <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Iu&#x17F;tyne <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Ierolime <lb/><choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt demyc<ex>us</ex>
+                    <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt Symond <lb/>and Iude <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice> &#x17F;eynt quyntyme <choice>
+                        <abbr>Itm</abbr>
+                        <expan>Item</expan>
+                    </choice>
+                    <lb/>&#x17F;eynt Andrewe</p>
             </div1>
         </body>
     </text>
