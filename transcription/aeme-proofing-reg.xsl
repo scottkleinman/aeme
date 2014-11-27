@@ -82,9 +82,9 @@
                 $(this).html(html);
                });
              };
+             // Works only if the containing TEI element is transformed to HTML p. 
+             //Possibly other HTML elements need to be added.              
              $('p').replaceCharacters();
-             $('ab').replaceCharacters();
-             $('l').replaceCharacters();
         });
         </script>
 		</head>
