@@ -5,7 +5,7 @@
     <!-- End of Standoff <teiHeader> and <facsimile> files -->
     <text>
         <!-- Change log:
-Line numbers and litterae notabiliors have been added algorithmically. Some of 
+Line numbers and litterae notabiliores have been added algorithmically. Some of 
 Horstmann's punctuation is retained and his notes are contained in note[@type="enc"]. 
 Horstmann's superscripts are in retained as <hi rend="Horstmann-superscript">. 
 Generic pre-processing done.
@@ -22,16 +22,14 @@ Named entities:
 #bioNicholas0001
 #bioPaul0001
 #bioPeter0001
-#locAsisi01
+#locAssisi01
 #locAverna
 #locRome01
 #locTerraDiLavorro
 Last Update: Feb 1 2015. -->
         <body>
             <div1>
-                <head>18 France&ydot;s.<note type="enc" resp="#bioHO001"><hi rend="touched-red"
-                            >[</hi>This life is based on the Vita s. Fr. b&ydot; S. Bonaventura in
-                        Act. SS. Boll. Oct. 4 p. 742 ff.]</note></head>
+                <head>18 France&ydot;s.</head>
                 <lg>
                     <l xml:id="bodllaudmisc108.3i.1"><hi rend="touched-red">S</hi><sg type="ln"
                         />Eint <name type="person" ref="#bioFrancis0001">Fraunce&ydot;s</name> þe
@@ -52,7 +50,7 @@ Last Update: Feb 1 2015. -->
                         </choice> he maude a<note type="enc" resp="#bioHO001"><hi rend="touched-red"
                                 >[</hi><hi rend="italic">al.</hi> al]</note> da&ydot;<pc>
                             &punctelev; </pc><hi rend="touched-red">i</hi>n þe cite of <name
-                            type="place" ref="#locAsisi01">Asise</name></l>
+                            type="place" ref="#locAssisi01">Asise</name></l>
                     <l xml:id="bodllaudmisc108.3i.4"><hi rend="touched-red">A</hi><sg type="ln"/>nd
                         in almesdede he spendede an<note type="enc" resp="#bioHO001"><hi
                                 rend="touched-red">[</hi>om. an]</note> on pouere <choice>
