@@ -5,18 +5,16 @@
     <!-- End of Standoff <teiHeader> and <facsimile> files -->
     <text>
         <!-- Change log:
-Line numbers and litterae notabiliors have been added algorithmically. Some of 
-Horstmann's punctuation is retained and his notes are contained in note[@type="enc"]. 
-Horstmann's superscripts are in retained as <hi rend="Horstmann-superscript">. 
-Punctus elevatus is encoded.
-Generic pre-processing done.
 Named entities:
+#bioAbiatar0001
 #bioHermogenes0001
+#bioHerod0001
 #bioJames0001
 #bioJohn0001
 #bioJosiah0001
 #bioMary0001
 #bioMichael0001
+#bioPhilet0001
 #bioPhilete0001
 #locGalicia01
 #locJudea01
@@ -24,48 +22,57 @@ Named entities:
 #locSamaria01
 #locSpain01
 #locToulouse01
-Last Update: Feb 2 2015. -->
+Last Update: Feb 26 2015. -->
         <body>
             <div1>
-                <head>15 <name type="person" ref="#bioJames0001">Iames</name>.</head>
                 <lg>
-                    <l xml:id="bodllaudmisc108.3f.1"><hi rend="touched-red">S</hi><sg type="ln"
-                        />Eint <name type="person" ref="#bioJames0001">Iemes</name> þe holi
-                            Apo&slong;tle<pc> &punctelev; </pc><hi rend="touched-red">g</hi>uod is
-                        to habbe in mone</l>
-                    <l xml:id="bodllaudmisc108.3f.2"><hi rend="touched-red">S</hi><sg type="ln"
-                        />eint <name type="person" ref="#bioJohn0001">Iohanes</name> b&rrot;oþur þe
+                    <!-- folio 34 -->
+                    <pb n="34r"/>
+                    <cb n="1"/>
+                    <fw type="guideWords" place="marginRight"><unclear>seint Iames</unclear></fw>
+                    <fw type="guideLetters" place="marginRight">14</fw>
+                    <l xml:id="bodllaudmisc108.3f.1"><hi rend="h2 blue-ink">S</hi><sg type="ln"/><hi
+                            rend="touched-red">E</hi>int <name type="person" ref="#bioJames0001"><hi
+                                rend="touched-red">I</hi>eme&slong;</name> þe holi Apo&slong;tle<pc>
+                            &punctelev; </pc><hi rend="touched-red">g</hi>uod is to habbe in
+                        mone</l>
+                    <fw type="guideLetters" place="marginRight"><unclear>Iacob</unclear></fw>
+                    <l xml:id="bodllaudmisc108.3f.2"><hi rend="touched-red">S</hi>eint <name
+                            type="person" ref="#bioJohn0001">Iohane&slong;</name> broþur þe
                             Ewangeli&slong;t<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd
-                        o&rrot;e louerdes aunte sone</l>
+                        o&rrot;e louerde&slong; aunte &slong;one</l>
                     <l xml:id="bodllaudmisc108.3f.3"><hi rend="touched-red">h</hi><sg type="ln"/>is <choice>
                             <orig>Moder</orig>
                             <reg>moder</reg>
-                        </choice> was o&rrot;e leuedi so&slong;ter<pc> &punctelev; </pc><name
+                        </choice> was o&rrot;e leuedi &slong;o&slong;ter<pc> &punctelev; </pc><name
                             type="person" ref="#bioMary0001"><hi rend="touched-red"
                             >M</hi>arie</name> cleophe</l>
                     <l xml:id="bodllaudmisc108.3f.4"><hi rend="touched-red">O</hi><sg type="ln"/>f
-                        guode kunne he was i<sg/>come<pc> &punctelev; </pc><hi rend="touched-red"
-                            >n</hi>on betere ne miȝhte be</l>
+                        guode kunne he wa&slong; i<sg/>come<pc> &punctelev; </pc><hi
+                            rend="touched-red">n</hi>on betere ne miȝhte be</l>
                     <l xml:id="bodllaudmisc108.3f.5"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        auȝhte wel him<sg/>self beo guod<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>se ȝe mowe alle i<sg/>se</l>
+                        auȝhte wel him<sg/>&slong;elf beo guod<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e ȝe mowe alle ise</l>
                     <l xml:id="bodllaudmisc108.3f.6"><hi rend="touched-red">I</hi><sg type="ln"/>n
                         þe londe of <name type="place" ref="#locSamaria01">Samarie</name> he
                             p&rrot;echede<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd
-                        al<sg/>so in <name type="place" ref="#locJudea01">Ivde</name></l>
+                        al<sg/>&slong;o in <name type="place" ref="#locJudea01">Ivde</name></l>
                     <l xml:id="bodllaudmisc108.3f.7"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />o&rrot;uȝ is p&rrot;echingue mani on<pc> &punctelev; </pc><hi
-                            rend="touched-red">h</hi>e turnde to cri&slong;tindom</l>
+                            rend="touched-red">h</hi>e turnde to <choice>
+                            <orig>c<am>&combtildevert;</am>&slong;tindom</orig>
+                            <reg>C<ex>ri</ex>stindom</reg>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.8"><hi rend="touched-red">T</hi><sg type="ln"/>o
                             <name type="person" ref="#bioHermogenes0001"><choice>
                                 <orig>hermogenes</orig>
                                 <reg>Hermogenes</reg>
                             </choice></name> þe luþere p&rrot;ince<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>e tiþingue sone com</l>
-                    <l xml:id="bodllaudmisc108.3f.9"><hi rend="h0 red-ink">&para;</hi><hi
+                            rend="touched-red">þ</hi>e tiþingue &slong;one com</l>
+                    <l xml:id="bodllaudmisc108.3f.9"><hi rend="blue-ink">&para;</hi><hi
                             rend="touched-red">Þ</hi><sg type="ln"/>ilke p&rrot;ince was wichche
                             &slong;trong<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd
-                        enchauntour also</l>
+                        enchauntour al&slong;o</l>
                     <l xml:id="bodllaudmisc108.3f.10"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />o&rrot;uȝ þe deuel he wolde al da&ydot;<pc> &punctelev; </pc><hi
                             rend="touched-red">g</hi>ret <choice>
@@ -73,154 +80,181 @@ Last Update: Feb 2 2015. -->
                             <reg>miracle</reg>
                         </choice> do</l>
                     <l xml:id="bodllaudmisc108.3f.11"><hi rend="touched-red">A</hi><sg type="ln"/>ne
-                        desciple he hadde of is <choice>
-                            <orig>Arte</orig>
+                        de&slong;ciple he hadde of is <choice>
+                            <orig>Art</orig>
                             <reg>art</reg>
-                        </choice><pc> &punctelev; </pc><hi rend="touched-red">p</hi>hilet was is
-                        name</l>
-                    <l xml:id="bodllaudmisc108.3f.12"><hi rend="touched-red">h</hi><sg type="ln"/>im
-                        he sende to <choice>
-                            <orig>seint</orig>
+                        </choice><pc> &punctelev; </pc><name type="person" ref="#bioPhilet0001"><choice>
+                                <orig><hi rend="touched-red">p</hi>hilet</orig>
+                                <reg>Philet</reg>
+                            </choice></name> wa&slong; is name</l>
+                    <l xml:id="bodllaudmisc108.3f.12"><hi rend="touched-red">h</hi><sg type="ln"
+                            /><del rend="overwritten">e</del><add place="inline">i</add>m he
+                        &slong;ende to <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name><pc> &punctelev; </pc><hi
-                            rend="touched-red">t</hi>o fondi to don him schame</l>
+                            rend="touched-red">t</hi>o fondi to don him &slong;chame</l>
                     <l xml:id="bodllaudmisc108.3f.13"><hi rend="touched-red">Ȝ</hi><sg type="ln"/>if
                         þat he miȝhte with is <choice>
-                            <orig>Arte</orig>
+                            <orig>Art</orig>
                             <reg>art</reg>
                         </choice><pc> &punctelev; </pc><hi rend="touched-red">s</hi>eint <name
                             type="person" ref="#bioJames0001">Ieme</name> ouer<sg/>come</l>
                     <l xml:id="bodllaudmisc108.3f.14"><hi rend="touched-red">T</hi><sg type="ln"
                         />o<sg/>gadere hu&ydot; comen fo&rrot;to pla&ydot;di<pc> &punctelev;
-                            </pc><hi rend="touched-red">a</hi>se þe da&ydot; was i<sg/>nome</l>
+                            </pc><hi rend="touched-red">a</hi>&slong;e þe da&ydot; was
+                        i<sg/>nome</l>
                     <l xml:id="bodllaudmisc108.3f.15"><hi rend="touched-red">G</hi><sg type="ln"
-                        />odes desciple and þe feondes<pc> &punctelev; </pc><hi rend="touched-red"
-                            >b</hi>i<sg/>gonne to pla&ydot;di fa&slong;te</l>
+                        />ode&slong; de&slong;ciple and þe feonde&slong;<pc> &punctelev; </pc><hi
+                            rend="touched-red">b</hi>i<sg/>gonne to pla&ydot;di fa&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.16"><hi rend="touched-red">A</hi><sg type="ln"/>c <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> þat was <choice>
+                        <name type="person" ref="#bioJames0001">Ieme</name> þat wa&slong; <choice>
                             <orig>gode&slong;</orig>
                             <reg>Godes</reg>
-                        </choice> desciple<pc> &punctelev; </pc><hi rend="touched-red"
-                        >a</hi><sg/>boue was atþe la&slong;te</l>
+                        </choice> de&slong;ciple<pc> &punctelev; </pc><hi rend="touched-red"
+                        >a</hi><sg/>boue wa&slong; atþe la&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.17"><hi rend="touched-red">B</hi><sg type="ln"
-                        />linde men he ȝaf heo&rrot;e sijȝht<pc> &punctelev; </pc><hi
+                        />linde men he ȝaf heo&rrot;e &slong;ijȝht<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd maude hole in þe place</l>
                     <l xml:id="bodllaudmisc108.3f.18"><hi rend="touched-red">M</hi><sg type="ln"
-                        />eseles and þe crokede al<sg/>so<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>l þo&rrot;uȝ o&rrot;e louerdes grace</l>
-                    <l xml:id="bodllaudmisc108.3f.19"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> Þo philet i<sg/>saiȝ him þus ouer<sg/>come<pc> &punctelev; </pc><hi
-                            rend="touched-red">t</hi>o is mai&slong;ter he wende sone</l>
-                    <l xml:id="bodllaudmisc108.3f.20"><hi rend="touched-red">H</hi><sg type="ln"
-                        />ermogenes and tolde him fo&rrot;e<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>se is riȝhte was to done</l>
+                        />e&slong;eles and þe crokede al<sg/>&slong;o<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>l þo&rrot;uȝ o&rrot;e louerde&slong; grace</l>
+                    <l xml:id="bodllaudmisc108.3f.19"><hi rend="h3 red-ink">&para;</hi><sg type="ln"
+                        /> Þo <name type="person" ref="#bioPhilet0001"><choice>
+                                <orig>philet</orig>
+                                <reg>Philet</reg>
+                            </choice></name> i&slong;aiȝ him þus ouer<sg/>come<pc> &punctelev;
+                            </pc><hi rend="touched-red">t</hi>o is mai&slong;ter he wende
+                        &slong;one</l>
+                    <l xml:id="bodllaudmisc108.3f.20"><name type="person" ref="#bioHermogenes0001"
+                                ><hi rend="touched-red">H</hi><sg type="ln"/>ermogene&slong;</name>
+                        and tolde him fo&rrot;e<pc> &punctelev; </pc><hi rend="touched-red"
+                        >a</hi>&slong;e is riȝhte wa&slong; to done</l>
                     <l xml:id="bodllaudmisc108.3f.21"><hi rend="touched-red">S</hi><sg type="ln"
-                        />ire he seide ne hope þov nouȝt<pc> &punctelev; </pc><hi rend="touched-red"
-                            >t</hi>o come <choice>
-                            <orig>seint</orig>
+                        />ire he &slong;eide ne hope þov nouȝt<pc> &punctelev; </pc><hi
+                            rend="touched-red">t</hi>o come <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> with|Inne</l>
+                        <name type="person" ref="#bioJames0001">Ieme</name>
+                        <choice>
+                            <orig>with<sg/>Inne</orig>
+                            <reg>withinne</reg>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.22"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; nauȝt it is fo&rrot; þov ne schalt nouȝt<pc> &punctelev; </pc><hi
-                            rend="touched-red">o</hi>uer<sg/>come him with al þi ginne</l>
+                        />o&rrot; nauȝt it is fo&rrot; þov ne &slong;chalt nouȝt<pc> &punctelev;
+                            </pc><hi rend="touched-red">o</hi>uer<sg/>come him with al þi ginne</l>
                     <l xml:id="bodllaudmisc108.3f.23"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />are<sg/>fo&rrot;e do ase ichulle þe rede<pc> &punctelev; </pc><hi
+                        />are<sg/>fo&rrot;e do a&slong;e ichulle þe rede<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd go we to him we tweiȝe</l>
                     <l xml:id="bodllaudmisc108.3f.24"><hi rend="touched-red">A</hi><sg type="ln"/>nd
                         crie him merci and bicome we<pc> &punctelev; </pc><hi rend="touched-red"
-                            >h</hi>is desciples be&ydot;e</l>
+                            >h</hi>is de&slong;ciple&slong; be&ydot;e</l>
                     <l xml:id="bodllaudmisc108.3f.25"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; siker þou beo ichulle it do<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>ei þou nelle nouȝt also.</l>
+                        />o&rrot; &slong;iker þou beo ichulle it do<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>ei þou nelle nouȝt al&slong;o</l>
                     <l xml:id="bodllaudmisc108.3f.26"><hi rend="touched-red">S</hi><sg type="ln"/>o
-                        wroth was þe p&rrot;ince þat he nu&slong;te<pc> &punctelev; </pc><hi
-                            rend="touched-red">ȝ</hi>wat fo&rrot; wrathþe do</l>
-                    <l xml:id="bodllaudmisc108.3f.27"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />o&rrot;uȝ &slong;trencþe of þe deueles <choice>
-                            <orig>Arte</orig>
-                            <reg>art</reg>
-                        </choice><pc> &punctelev; </pc><hi rend="touched-red">h</hi>e made philet
-                        a<sg/>non</l>
+                        wroth wa&slong; þe p&rrot;ince<pc>&middot;</pc>þat he nu&slong;te<pc>
+                            &punctelev; </pc><hi rend="touched-red">ȝ</hi>wat fo&rrot; w&rrot;athþe
+                        do</l>
+                    <note type="cod" resp="#bioKL0001">The last eleven lines of the page show some
+                        water staining; however, all of the text is readable.</note>
                     <!-- folio 34b -->
+                    <pb n="34v"/>
+                    <cb n="1"/>
+                    <fw type="guideLetters" place="topCenter">14&middot;</fw>
+                    <fw type="guideWords" place="bottomCenter"><unclear>seint Iames</unclear></fw>
+                    <l xml:id="bodllaudmisc108.3f.27"><hi rend="touched-red">Þ</hi><sg type="ln"
+                        />o&rrot;uȝ &slong;trencþe of þe deuele&slong; <choice>
+                            <orig>Art</orig>
+                            <reg>art</reg>
+                        </choice><pc> &punctelev; </pc><hi rend="touched-red">h</hi>e made <name
+                            type="person" ref="#bioPhilet0001"><choice>
+                                <orig>philet</orig>
+                                <reg>Philet</reg>
+                            </choice></name> a<sg/>non</l>
                     <l xml:id="bodllaudmisc108.3f.28"><hi rend="touched-red">Þ</hi><sg type="ln"/>at
                         he ne miȝhte non mo&rrot;e þane a &slong;tok<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi> fot of þat &slong;tude gon</l>
-                    <l xml:id="bodllaudmisc108.3f.29"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> Nov he seide we schullen i<sg/>seo<pc> &punctelev; </pc><hi
-                            rend="touched-red">ȝ</hi>wat <name type="person" ref="#bioJames0001"
-                            >Iemes</name> þe mai don here</l>
+                    <l xml:id="bodllaudmisc108.3f.29"><hi rend="red-ink">&para;</hi><sg type="ln"/>
+                        Nov he &slong;eide we &slong;chullen i<sg/>&slong;eo<pc> &punctelev;
+                            </pc><hi rend="touched-red">ȝ</hi>wat <name type="person"
+                            ref="#bioJames0001">Ieme&slong;</name> þe mai don here</l>
                     <l xml:id="bodllaudmisc108.3f.30"><hi rend="touched-red">Ȝ</hi><sg type="ln"
                         />weþer he þe mai a<sg/>ȝein me vndo<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd a<sg/>ȝein mine <choice>
-                            <orig>gode&slong;</orig>
-                            <reg>Godes</reg>
-                        </choice> pouwere.</l>
+                            rend="touched-red">a</hi>nd a<sg/>ȝein mine gode&slong; pouwere</l>
                     <l xml:id="bodllaudmisc108.3f.31"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        liet him ligge þare ase a&slong;tok<pc> &punctelev; </pc><hi
+                        liet him ligge þare a&slong;e a<sg> </sg>&slong;tok<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd fo&rrot;th a<sg/>wei fram him wende</l>
-                    <l xml:id="bodllaudmisc108.3f.32"><hi rend="touched-red">P</hi><sg type="ln"
-                        />hilet nam ane man a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd <choice>
-                            <orig>seint</orig>
+                    <l xml:id="bodllaudmisc108.3f.32"><name type="person" ref="#bioPhilet0001"><hi
+                                rend="touched-red">P</hi><sg type="ln"/>hilet</name> nam ane man
+                            a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> wo&rrot;d sende</l>
+                        <name type="person" ref="#bioJames0001">Ieme</name> wo&rrot;d
+                        &slong;ende</l>
                     <l xml:id="bodllaudmisc108.3f.33"><hi rend="touched-red">h</hi><sg type="ln"/>ou
-                        fa&slong;te þo&rrot;u þe deueles miȝhte<pc> &punctelev; </pc><hi
+                        fa&slong;te þo&rrot;u þe deuele&slong; miȝhte<pc> &punctelev; </pc><hi
                             rend="touched-red">h</hi>e lai þer i<sg/>bounde</l>
                     <l xml:id="bodllaudmisc108.3f.34"><hi rend="touched-red">A</hi><sg type="ln"/>nd
-                        bad him helpe his desciple<pc> &punctelev; </pc><hi rend="touched-red"
+                        bad him helpe his de&slong;ciple<pc> &punctelev; </pc><hi rend="touched-red"
                             >a</hi>nd b&rrot;ingue þene deuel to grounde</l>
-                    <l xml:id="bodllaudmisc108.3f.35"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> Seint <name type="person" ref="#bioJames0001">Ieme</name> him sende a
+                    <l xml:id="bodllaudmisc108.3f.35"><hi rend="blue-ink">&para;</hi><sg type="ln"/>
+                        Seint <name type="person" ref="#bioJames0001">Ieme</name> him &slong;ende a
                         lu&ydot;te cloth<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>at he
-                        with him ber</l>
+                        with <add place="sublinear">&caret;</add><add place="marginRight"
+                                ><pc>&middot;</pc>him<pc>&middot;</pc><lb/>&caret;</add> ber</l>
                     <l xml:id="bodllaudmisc108.3f.36"><hi rend="touched-red">Þ</hi><sg type="ln"/>at
                         he touchede him þare<sg/>with<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd seide þeos two vers of þe sauter</l>
+                            >a</hi>nd &slong;eide þeos two vers of þe &slong;auter</l>
                     <l xml:id="bodllaudmisc108.3f.37"><hi rend="touched-red">O</hi><sg type="ln"/>re
                         louerd vn<sg/>bind þat beoth i<sg/>bounde<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd ȝif þe blinde is siȝhte</l>
+                            rend="touched-red">a</hi>nd ȝif þe blinde is &slong;iȝhte</l>
                     <l xml:id="bodllaudmisc108.3f.38"><hi rend="touched-red">O</hi><sg type="ln"/>re
                         louerd riȝtht heom þat buth vn<sg/>riȝht<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>o&rrot; þou loue&slong;t<note type="enc"
-                            resp="#bioHO001"><hi rend="touched-red">[</hi><hi rend="italic">al.</hi>
-                            oure louerd loueþ]</note> alle riȝhte.</l>
-                    <l xml:id="bodllaudmisc108.3f.39"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> Þo philet hadde þis i<sg/>do<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>se <choice>
-                            <orig>seint</orig>
+                            rend="touched-red">f</hi>o&rrot; þou loue&slong;t alle riȝhte</l>
+                    <l xml:id="bodllaudmisc108.3f.39"><hi rend="h2 red-ink">&para;</hi><sg type="ln"
+                        /> Þo <name type="person" ref="#bioPhilet0001"><choice>
+                                <orig>philet</orig>
+                                <reg>Philet</reg>
+                            </choice></name> hadde þis i<sg/>do<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> wo&rrot;d him sende</l>
+                        <name type="person" ref="#bioJames0001"><hi rend="touched-red"
+                            >I</hi>eme</name> wo&rrot;d him &slong;ende</l>
                     <l xml:id="bodllaudmisc108.3f.40"><hi rend="touched-red">O</hi><sg type="ln"
-                        />n<sg/>bounde he was of þe deueles bendes<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd ȝwodere he wolde he wende</l>
+                        />n<sg/>bounde he wa&slong; of þe deuele&slong; bende&slong;<pc> &punctelev;
+                            </pc><hi rend="touched-red">a</hi>nd ȝwodere he wolde he wende</l>
                     <l xml:id="bodllaudmisc108.3f.41"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        þrettnede fa&slong;te <name type="person" ref="#bioHermogenes0001"><choice>
-                                <orig>hermogenes</orig>
+                        þ&rrot;ettnede fa&slong;te <name type="person" ref="#bioHermogenes0001"><choice>
+                                <orig>hermogene&slong;</orig>
                                 <reg>Hermogenes</reg>
-                            </choice></name>.<pc> &punctelev; </pc><hi rend="touched-red">t</hi>o <choice>
-                            <orig>seint</orig>
+                            </choice></name><pc> &punctelev; </pc><hi rend="touched-red">t</hi>o <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> sone he cam</l>
+                        <name type="person" ref="#bioJames0001">Ieme</name> &slong;one he cam</l>
                     <l xml:id="bodllaudmisc108.3f.42"><hi rend="touched-red">A</hi><sg type="ln"/>nd <choice>
                             <orig>gode&slong;</orig>
                             <reg>Godes</reg>
-                        </choice> desciple was and is<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd aveng cri&slong;tindom</l>
+                        </choice> de&slong;ciple wa&slong; and is<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd aveng <choice>
+                            <orig>c<am>&combtildevert;</am>&slong;tindom</orig>
+                            <reg>C<ex>ri</ex>stindom</reg>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.43"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
                             <name type="person" ref="#bioHermogenes0001"><choice>
-                                <orig>hermogenes</orig>
+                                <orig>hermogene&slong;</orig>
                                 <reg>Hermogenes</reg>
-                            </choice></name> i<sg/>herde þis<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at he was so vn<sg/>bounde</l>
+                            </choice></name> iherde þis<pc> &punctelev; </pc><hi rend="touched-red"
+                            >þ</hi>at he wa&slong; &slong;o vn<sg/>bounde</l>
                     <l xml:id="bodllaudmisc108.3f.44"><hi rend="touched-red">A</hi><sg type="ln"/>nd
                         þat <choice>
                             <orig>seint</orig>
@@ -229,20 +263,22 @@ Last Update: Feb 2 2015. -->
                         <name type="person" ref="#bioJames0001">Ieme</name> hadde
                             i<sg/>b&rrot;ouȝt<pc> &punctelev; </pc><hi rend="touched-red">a</hi>l is
                         dede to grounde</l>
-                    <l xml:id="bodllaudmisc108.3f.45"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">M</hi><sg type="ln"/>anie deuelene he conIurede<pc>
-                            &punctelev; </pc><hi rend="touched-red">þ</hi>at hu&ydot; to him
-                        wende</l>
+                    <l xml:id="bodllaudmisc108.3f.45"><hi rend="h2 blue-ink">&para;</hi><hi
+                            rend="touched-red">M</hi><sg type="ln"/>anie deuelene he <choice>
+                            <orig>conIurede</orig>
+                            <reg>coniurede</reg>
+                        </choice><pc> &punctelev; </pc><hi rend="touched-red">þ</hi>at hu&ydot; to
+                        him wende</l>
                     <l xml:id="bodllaudmisc108.3f.46"><hi rend="touched-red">W</hi><sg type="ln"/>el
-                        ȝe wutez he seide ȝwi it is<pc> &punctelev; </pc><hi rend="touched-red"
-                            >þ</hi>at ich after eov sende</l>
+                        ȝe wutez he &slong;eide ȝwi it is<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at ich after eov &slong;ende</l>
                     <l xml:id="bodllaudmisc108.3f.47"><hi rend="touched-red">O</hi><sg type="ln"/>re
-                        alre fo <name type="person" ref="#bioJames0001">Iemes</name> hath<pc>
-                            &punctelev; </pc><hi rend="touched-red">m</hi>ine desciple me
+                        alre fo <name type="person" ref="#bioJames0001">Ieme&slong;</name> hath<pc>
+                            &punctelev; </pc><hi rend="touched-red">m</hi>ine de&slong;ciple me
                         bi<sg/>nome</l>
                     <l xml:id="bodllaudmisc108.3f.48"><hi rend="touched-red">B</hi><sg type="ln"
                         />ote ȝe beon &slong;trengo&rrot;e þane ich am<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi><sg/>wis we beoth ouer<sg/>come</l>
+                            rend="touched-red">i</hi>wis we beoth ouer<sg/>come</l>
                     <l xml:id="bodllaudmisc108.3f.49"><hi rend="touched-red">I</hi><sg type="ln"/>ch
                         hote eov þat ȝe wenden a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red"
                             >a</hi>nd doth a <choice>
@@ -253,19 +289,19 @@ Last Update: Feb 2 2015. -->
                         />imeth and b&rrot;inguet heom to me<pc> &punctelev; </pc><hi
                             rend="touched-red">f</hi>a&slong;te i<sg/>bounde beiȝe</l>
                     <l xml:id="bodllaudmisc108.3f.51"><hi rend="touched-red">C</hi><sg type="ln"
-                        />ertes bote ȝe it mouwen do<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>se ȝe wel i<sg/>seoth</l>
+                        />erte&slong; bote ȝe it mouwen do<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e ȝe wel i<sg/>&slong;eoth</l>
                     <l xml:id="bodllaudmisc108.3f.52"><hi rend="touched-red">O</hi><sg type="ln"
-                        />uwer power nis nouȝt wurth an hawe<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>o&rrot; ouer<sg/>come we beoth.</l>
-                    <l xml:id="bodllaudmisc108.3f.53"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> We schulle sone þe deuelene seiden<pc> &punctelev; </pc><hi
-                            rend="touched-red">w</hi>ith heom on vrþe<note type="enc"
-                            resp="#bioHO001"><hi rend="touched-red">[</hi>Vern. a noþur]</note>
-                        pleiȝe</l>
+                        />uwer power ni&slong; nouȝt wurth an hawe<pc> &punctelev; </pc><hi
+                            rend="touched-red">f</hi>o&rrot; ouer<sg/>come we beoth</l>
+                    <l xml:id="bodllaudmisc108.3f.53"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">W</hi><sg type="ln"/>e &slong;chulle &slong;one þe
+                        deuelene &slong;eiden<pc> &punctelev; </pc><hi rend="touched-red">w</hi>ith
+                        heom on v&rrot;þe pleiȝe</l>
                     <l xml:id="bodllaudmisc108.3f.54"><hi rend="touched-red">F</hi><sg type="ln"
                         />a&slong;te i<sg/>bounde al to þine wille<pc> &punctelev; </pc><hi
-                            rend="touched-red">w</hi>e schulle heom b&rrot;ingue be&ydot;ȝe</l>
+                            rend="touched-red">w</hi>e &slong;chulle heom b&rrot;ingue
+                        be&ydot;ȝe</l>
                     <l xml:id="bodllaudmisc108.3f.55"><hi rend="touched-red">h</hi><sg type="ln"
                         />u&ydot; comen fleo oppe in þe loft<pc> &punctelev; </pc><hi
                             rend="touched-red">o</hi>uer þe apo&slong;tle <choice>
@@ -274,145 +310,162 @@ Last Update: Feb 2 2015. -->
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name></l>
                     <l xml:id="bodllaudmisc108.3f.56"><hi rend="touched-red">A</hi><sg type="ln"/>nd
-                        a<sg/>non so hu&ydot; weren ouer him i<sg/>come<pc> &punctelev; </pc><hi
-                            rend="touched-red">h</hi>u&ydot; guonne to grenne and reme<note
-                            type="enc" resp="#bioHO001"><hi rend="touched-red">[</hi><hi
-                                rend="italic">al.</hi> feme]</note></l>
+                        a<sg/>non &slong;o hu&ydot; weren ouer him i<sg/>come<pc> &punctelev;
+                            </pc><hi rend="touched-red">h</hi>u&ydot; guonne to grenne and reme</l>
                     <l xml:id="bodllaudmisc108.3f.57"><hi rend="touched-red">B</hi><sg type="ln"
                         />elewi and wel foule crie<pc> &punctelev; </pc><name type="person"
-                            ref="#bioJames0001"><hi rend="touched-red">I</hi>emes</name>
-                        <name type="person" ref="#bioJames0001">Iemes</name> þin o&rrot;e</l>
+                            ref="#bioJames0001"><hi rend="touched-red">I</hi>eme<add
+                                place="supralinear">s</add></name>
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> þin o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.58"><hi rend="touched-red">W</hi><sg type="ln"/>e
                         b&rrot;ennez here are it o&rrot;e t&ydot;me be<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd beth i<sg/>to&rrot;mented ful so&rrot;e.</l>
+                            rend="touched-red">a</hi>nd beth i<sg/>to&rrot;mented ful
+                        &slong;o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.59"><hi rend="touched-red">H</hi><sg type="ln"/>o
-                            to&rrot;mentede<note type="enc" resp="#bioHO001"><hi rend="touched-red"
-                                >[</hi><hi rend="italic">al.</hi> to&rrot;menteþ]</note> eov quath <choice>
-                            <orig>seint</orig>
+                        to&rrot;mentede eov quath <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name><pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd ȝwat wolde ȝe nouþe here?</l>
+                            rend="touched-red">a</hi>nd ȝwat wolde ȝe nouþe here</l>
                     <l xml:id="bodllaudmisc108.3f.60"><hi rend="touched-red">B</hi><sg type="ln"
-                        />ote we buth i<sg/>come þe feondes seiden<pc> &punctelev; </pc><hi
-                            rend="touched-red">t</hi>o nime þe and þi fere</l>
-                    <l xml:id="bodllaudmisc108.3f.61"><hi rend="touched-red">H</hi><sg type="ln"
-                        />ermogenes us made hidere wiende<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>o&rrot;uȝ is conIuringue</l>
+                        />ote we buth i<sg/>come þe feonde&slong; &slong;eiden<pc> &punctelev;
+                            </pc><hi rend="touched-red">t</hi>o nime þe and þi fere</l>
+                    <l xml:id="bodllaudmisc108.3f.61"><name type="person" ref="#bioHermogenes0001"
+                                ><hi rend="touched-red">H</hi><sg type="ln"/>ermogene&slong;</name>
+                        u&slong; made hidere wiende<pc> &punctelev; </pc><hi rend="touched-red"
+                            >þ</hi>o&rrot;uȝ is <choice>
+                            <orig>conIuringue</orig>
+                            <reg>coniuringue</reg>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.62"><hi rend="touched-red">Þ</hi><sg type="ln"/>at
-                        we eov scholden fa&slong;te i<sg/>bounde<pc> &punctelev; </pc><hi
+                        we eov &slong;cholden fa&slong;te i<sg/>bounde<pc> &punctelev; </pc><hi
                             rend="touched-red">b</hi>eiȝe to him b&rrot;ingue</l>
                     <l xml:id="bodllaudmisc108.3f.63"><hi rend="touched-red">B</hi><sg type="ln"
-                        />ote a<sg/>non so we comen here ouer þe<pc> &punctelev; </pc><choice>
-                            <orig><hi rend="touched-red">A</hi>ungles</orig>
+                        />ote a<sg/>non &slong;o we comen here ouer þe<pc> &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red">A</hi>ungle&slong;</orig>
                             <reg>aungles</reg>
                         </choice> to us come</l>
                     <l xml:id="bodllaudmisc108.3f.64"><hi rend="touched-red">W</hi><sg type="ln"
                         />ith b&rrot;enninde raketeiȝene<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd fa&slong;te vs bounde and nome</l>
+                            >a</hi>nd fa&slong;te <choice>
+                            <sic>vsi bounde</sic>
+                            <corr>vs bounde</corr>
+                        </choice> and nome</l>
                     <l xml:id="bodllaudmisc108.3f.65"><hi rend="touched-red">h</hi><sg type="ln"
-                        />ere hu&ydot; us beteth and to&rrot;mentieth<pc> &punctelev; </pc><hi
-                            rend="touched-red">w</hi>ith b&rrot;enninde fu&ydot;re</l>
+                        />ere hu&ydot; u&slong; beteth and to&rrot;mentieth<pc> &punctelev; </pc><hi
+                            rend="touched-red">w</hi>ith b&rrot;enninde fu&ydot;&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.66"><hi rend="touched-red">A</hi><sg type="ln"/>
-                        we&ydot; wei <name type="person" ref="#bioJames0001">Iemes</name> ȝwat
-                        schulle we do?<pc> &punctelev; </pc><hi rend="touched-red">w</hi>e ne mowen
-                        nouȝt þis du&ydot;re</l>
+                        we&ydot; wei <name type="person" ref="#bioJames0001">Ieme&slong;</name> ȝwat
+                        &slong;chulle we do<pc> &punctelev; </pc><hi rend="touched-red">w</hi>e ne
+                        mowen nouȝt þis du&ydot;&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.67"><hi rend="touched-red">A</hi><sg type="ln"/>
-                        <name type="person" ref="#bioJames0001">Iemes</name>
-                        <name type="person" ref="#bioJames0001">Iemes</name> leoue louerd<pc>
-                            &punctelev; </pc><hi rend="touched-red">o</hi>f us wrechches haue
-                        reuþe</l>
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name>
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> leoue louerd<pc>
+                            &punctelev; </pc><hi rend="touched-red">o</hi>f u&slong;
+                        w&rrot;echche&slong; haue reuþe</l>
                     <l xml:id="bodllaudmisc108.3f.68"><hi rend="touched-red">A</hi><sg type="ln"/>nd
-                        neuereft we nelleth neiȝ þe come<pc> &punctelev; </pc><hi rend="touched-red"
-                            >p</hi>liȝhte we wolleth o&rrot;e treouþe</l>
-                    <l xml:id="bodllaudmisc108.3f.69"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">Ȝ</hi><sg type="ln"/>e wrechche foles quath <choice>
+                        neuereft we nelleth neiȝ <hi rend="pointed-red">þ</hi>e come<pc> &punctelev;
+                            </pc><hi rend="touched-red">p</hi>liȝhte we wolleth o&rrot;e treouþe</l>
+                    <l xml:id="bodllaudmisc108.3f.69"><hi rend="h2 blue-ink">&para;</hi><hi
+                            rend="touched-red">Ȝ</hi><sg type="ln"/>e wrechche fole&slong; quath <choice>
                             <orig>seint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name><pc> &punctelev; </pc><hi
                             rend="touched-red">I</hi> not ȝwat ȝe wolden here</l>
                     <l xml:id="bodllaudmisc108.3f.70"><hi rend="touched-red">O</hi><sg type="ln"/>f
-                        þat ȝe þouȝten me a<sg/>nu&ydot;e<pc> &punctelev; </pc><hi
-                            rend="touched-red">d</hi>&rrot;awe ȝe schullen a<sg/>rere</l>
+                        þat ȝe þouȝten me a<sg/>nu&ydot;e<pc> &punctelev; </pc>d&rrot;awe ȝe
+                        &slong;chullen a<sg/>rere</l>
                     <l xml:id="bodllaudmisc108.3f.71"><hi rend="touched-red">A</hi><sg type="ln"/>l
                         on<sg/>bounde ich ȝ&ydot;ue eov leue<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi><sg/>ȝein fo&rrot;to fleo</l>
                     <!-- folio 35 -->
+                    <pb n="35r"/>
+                    <fw type="guideLetters" place="topCenter">&midddot;14&middot;</fw>
+                    <fw type="guideWords" place="bottomCenter"><unclear>Iames</unclear></fw>
+                    <fw type="fol" place="topRight">35</fw>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3f.72"><hi rend="touched-red">A</hi><sg type="ln"/>nd
-                        b&rrot;inguth him þat hidere eov sende<pc> &punctelev; </pc><hi
+                        b&rrot;inguth him þat hidere eov &slong;ende<pc> &punctelev; </pc><hi
                             rend="touched-red">f</hi>a&slong;te i<sg/>bounde to me</l>
                     <l xml:id="bodllaudmisc108.3f.73"><hi rend="touched-red">Þ</hi><sg type="ln"/>at
                         ȝe ne don him non oþur harm<pc> &punctelev; </pc><hi rend="touched-red"
-                            >f</hi>o&rrot; icholde with him speke.</l>
+                            >f</hi>o&rrot; icholde with him &slong;peke</l>
                     <l xml:id="bodllaudmisc108.3f.74"><hi rend="touched-red">W</hi><sg type="ln"/>el
-                        is us nouþe þe schrewen seide<pc> &punctelev; </pc><hi rend="touched-red"
-                            >w</hi>e wo&rrot;þet wel a<sg/>wreke</l>
-                    <l xml:id="bodllaudmisc108.3f.75"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> To <name type="person" ref="#bioHermogenes0001"><choice>
-                                <orig>hermogenes</orig>
+                        is u&slong; nouþe þe sch&rrot;ewen &slong;eide<pc> &punctelev; </pc><hi
+                            rend="touched-red">w</hi>e wo&rrot;þet wel a<sg/>w&rrot;eke</l>
+                    <l xml:id="bodllaudmisc108.3f.75"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">T</hi><sg type="ln"/>o <name type="person"
+                            ref="#bioHermogenes0001"><choice>
+                                <orig>hermogene&slong;</orig>
                                 <reg>Hermogenes</reg>
-                            </choice></name> hu&ydot; comen sone<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd to grounde him ca&slong;te</l>
+                            </choice></name> hu&ydot; comen<sg> </sg>&slong;one<pc> &punctelev;
+                            </pc><hi rend="touched-red">a</hi>nd to grounde him ca&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.76"><hi rend="touched-red">h</hi><sg type="ln"
                         />u&ydot; d&rrot;owen him and is hondene bounden<pc> &punctelev; </pc><hi
                             rend="touched-red">b</hi>i<sg/>hinden him wel fa&slong;te</l>
-                    <l xml:id="bodllaudmisc108.3f.77"><hi rend="touched-red">Þ</hi><sg type="ln"
-                            />us<note type="enc" resp="#bioHO001"><hi rend="touched-red">[</hi><hi
-                                rend="italic">al.</hi> þef]</note> hu&ydot; seiden þou sende&slong;t
-                            us<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>are we gret wo
-                        i<sg/>fielde</l>
+                    <l xml:id="bodllaudmisc108.3f.77"><hi rend="touched-red">Þ</hi><sg type="ln"/>us
+                        hu&ydot; &slong;eiden þou &slong;nde&slong;t us<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>are we gret wo ifielde</l>
                     <l xml:id="bodllaudmisc108.3f.78"><hi rend="touched-red">I</hi><sg type="ln"/>n
                         gret to&rrot;ment and b&rrot;enningue<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd nouþe we wollez þe ȝelde</l>
                     <l xml:id="bodllaudmisc108.3f.79"><hi rend="touched-red">h</hi><sg type="ln"
-                        />u&ydot; harleden fo&rrot;th þusne wrechche<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd to <choice>
-                            <orig>seint</orig>
+                        />u&ydot; harleden fo&rrot;th þu&slong;ne w&rrot;echche<pc> &punctelev;
+                            </pc><hi rend="touched-red">a</hi>nd to <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> heo him b&rrot;ouȝte</l>
                     <l xml:id="bodllaudmisc108.3f.80"><hi rend="touched-red">A</hi><sg type="ln"/>nd
-                        seiden lo sire ȝware he is her<pc> &punctelev; </pc><hi rend="touched-red"
-                            >þ</hi>at to swuche to&rrot;ment us wrouȝte</l>
+                        &slong;eiden lo &slong;ire ȝware he is her<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at to &slong;wuche to&rrot;ment us
+                        w&rrot;ouȝte</l>
                     <l xml:id="bodllaudmisc108.3f.81"><hi rend="touched-red">Ȝ</hi><sg type="ln"/>if
-                        us fer&slong;t leue þat we moten<pc> &punctelev; </pc><hi rend="touched-red"
-                            >o</hi>&rrot;e to&rrot;mens a<sg/>wreke</l>
+                        u&slong; fer&slong;t leue þat we moten<pc> &punctelev; </pc><hi
+                            rend="touched-red">o</hi>&rrot;e to&rrot;mens a<sg/>w&rrot;eke</l>
                     <l xml:id="bodllaudmisc108.3f.82"><hi rend="touched-red">A</hi><sg type="ln"/>nd
-                        þe muchele vnriȝht þat he us hath ido<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>re þou with him speke!</l>
-                    <l xml:id="bodllaudmisc108.3f.83"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> Na&ydot; certes quath þis holie man<pc> &punctelev; </pc><hi
-                            rend="touched-red">ȝ</hi>e ne schullen nouȝt so</l>
+                        þe muchele vnriȝht þat he u&slong; hath ido<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>re þou with him &slong;peke</l>
+                    <l xml:id="bodllaudmisc108.3f.83"><hi rend="h2 blue-ink">&para;</hi><hi
+                            rend="touched-red">N</hi><sg type="ln"/>a&ydot; certe&slong; quath þis
+                        holie man<pc> &punctelev; </pc><hi rend="touched-red">ȝ</hi>e ne
+                        &slong;chullen nouȝt so</l>
                     <l xml:id="bodllaudmisc108.3f.84"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; o&rrot;e louerd us hiet þat we scholden<pc> &punctelev; </pc><hi
-                            rend="touched-red">g</hi>uod fo&rrot; vuele do</l>
+                        />o&rrot; o&rrot;e louerd us hiet þat we &slong;cholden<pc> &punctelev;
+                            </pc><hi rend="touched-red">g</hi>uod fo&rrot; vuele do</l>
                     <l xml:id="bodllaudmisc108.3f.85"><hi rend="touched-red">Ȝ</hi><sg type="ln"
-                        />w&ydot; ne come [ȝe] nouȝt neiȝ philet<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at &slong;tant here bi me?</l>
+                        />w&ydot; ne come [ȝe] nouȝt neiȝ <name type="person" ref="#bioPhilet0001"><choice>
+                                <orig>philet</orig>
+                                <reg>Philet</reg>
+                            </choice></name><pc> &punctelev; </pc><hi rend="touched-red">þ</hi>at
+                        &slong;tant here bi me</l>
                     <l xml:id="bodllaudmisc108.3f.86"><hi rend="touched-red">W</hi><sg type="ln"/>el
-                        þou wo&slong;t þis oþure seiden<pc> &punctelev; </pc><hi rend="touched-red"
-                            >þ</hi>at we ne moten fo&rrot; þe</l>
-                    <l xml:id="bodllaudmisc108.3f.87"><hi rend="touched-red">N</hi><sg type="ln"/>o.
+                        þou wo&slong;t þis oþure &slong;eiden<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at we ne moten fo&rrot; þe</l>
+                    <l xml:id="bodllaudmisc108.3f.87"><hi rend="touched-red">N</hi><sg type="ln"/>o
                         goth þanne quath <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name><pc> &punctelev; </pc><hi
                             rend="touched-red">t</hi>o eower ku&ydot;nde &slong;tude</l>
                     <l xml:id="bodllaudmisc108.3f.88"><hi rend="touched-red">A</hi><sg type="ln"/>nd
                         ne cometh neuer<sg/>eft neiȝ no guod man<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>ei a fol eov habbe i<sg/>bede</l>
-                    <l xml:id="bodllaudmisc108.3f.89"><hi rend="h0 red-ink">&para;</hi><hi
+                            rend="touched-red">þ</hi>ei a fol eov habbe ibede</l>
+                    <l xml:id="bodllaudmisc108.3f.89"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">E</hi><sg type="ln"/>uere &slong;tod <name
                             type="person" ref="#bioHermogenes0001"><choice>
-                                <orig>hermogenes</orig>
+                                <orig>hermogene&slong;</orig>
                                 <reg>Hermogenes</reg>
                             </choice></name><pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd
                         criede milce and o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.90"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        quakede fo&rrot; d&rrot;ede and fo&rrot; pine<pc> &punctelev; </pc><hi
-                            rend="touched-red">A</hi>nd wep swiþe so&rrot;e</l>
+                        quakede fo&rrot; d&rrot;ede and fo&rrot; pine<pc> &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red">A</hi>nd</orig>
+                            <reg>and</reg>
+                        </choice> wep &slong;wiþe &slong;o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.91"><hi rend="h0 red-ink">&para;</hi><name
                             type="person" ref="#bioPhilete0001"><hi rend="touched-red">P</hi><sg
                                 type="ln"/>hilete</name>
@@ -424,26 +477,31 @@ Last Update: Feb 2 2015. -->
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name><pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>es hath þe schame ido</l>
+                            rend="touched-red">þ</hi>es hath þe &slong;chame ido</l>
                     <l xml:id="bodllaudmisc108.3f.92"><hi rend="touched-red">Þ</hi><sg type="ln"/>ov
-                        schalt don him guod a<sg/>ȝein vuel<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>o&rrot; mi louerd het me so</l>
+                        &slong;chalt don him guod a<sg/>ȝein vuel<pc> &punctelev; </pc><hi
+                            rend="touched-red">f</hi>o&rrot; mi louerd het me &slong;o</l>
                     <l xml:id="bodllaudmisc108.3f.93"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        bond þe þo þov were vn<sg/>bounde<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd aȝein þulke luþere dede<note type="enc"
-                            resp="#bioHO001"><hi rend="touched-red">[</hi>The la&slong;t
-                            half<sg/>lines are transposed in the MS.]</note></l>
+                        bond þe þo þov were vn<sg/>bounde<pc> &punctelev; </pc><seg xml:id="line94b"
+                                ><hi rend="touched-red">f</hi>o&rrot; so mi louerd sede</seg></l>
                     <l xml:id="bodllaudmisc108.3f.94"><hi rend="touched-red">Þ</hi><sg type="ln"/>ov
-                        schalt vn<sg/>binde him þat is bounde<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>o&rrot; so mi louerd sede.<note type="enc"
-                            resp="#bioHO001"><hi rend="touched-red">[</hi>The la&slong;t
-                            half<sg/>lines are transposed in the MS.]</note></l>
-                    <l xml:id="bodllaudmisc108.3f.95"><hi rend="touched-red">P</hi><sg type="ln"
-                        />hilet vn<sg/>bond þane wrechche<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd dude him vuel fo&rrot; guod</l>
+                            &slong;<del rend="overwritten">a</del><add place="inline">c</add>halt
+                        vn<sg/>binde him þat is <del rend="erased">vn</del>bounde<pc> &punctelev;
+                            </pc><seg xml:id="line93b"><hi rend="touched-red">a</hi>nd aȝein þulke
+                            luþere dede</seg></l>
+                    <listTranspose>
+                        <transpose>
+                            <ptr target="#line94b"/>
+                            <ptr target="#line93"/>
+                        </transpose>
+                    </listTranspose>
+                    <l xml:id="bodllaudmisc108.3f.95"><name type="person" ref="#bioPhilet0001"><hi
+                                rend="touched-red">P</hi><sg type="ln"/>hilet</name> vn<sg/>bond
+                        þane wrechche<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd dude him
+                        vuel fo&rrot; guod</l>
                     <l xml:id="bodllaudmisc108.3f.96"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
-                        wrechche ne do&rrot;&slong;te nouȝwoder gon fo&rrot; fere<pc> &punctelev;
-                            </pc><hi rend="touched-red">a</hi>ke quak&ydot;inde þare he
+                        w&rrot;echche ne do&rrot;&slong;te nouȝwoder gon fo&rrot; fere<pc>
+                            &punctelev; </pc><hi rend="touched-red">a</hi>ke quak&ydot;inde þare he
                         &slong;tod</l>
                     <l xml:id="bodllaudmisc108.3f.97"><hi rend="touched-red">G</hi><sg type="ln"/>o
                         ȝware þov wolt quath <choice>
@@ -454,121 +512,156 @@ Last Update: Feb 2 2015. -->
                             rend="touched-red">f</hi>o&rrot; mi louerd nele it nouȝt</l>
                     <l xml:id="bodllaudmisc108.3f.98"><hi rend="touched-red">Þ</hi><sg type="ln"/>at
                         euere ani man a<sg/>ȝein is wille<pc> &punctelev; </pc><hi
-                            rend="touched-red">t</hi>o him beo i<sg/>b&rrot;ouȝt.</l>
-                    <l xml:id="bodllaudmisc108.3f.99"><hi rend="h0 red-ink">&para;</hi><sg type="ln"
-                        /> A merci quath <name type="person" ref="#bioHermogenes0001"><choice>
+                            rend="touched-red">t</hi>o him beo i<sg/>b&rrot;ouȝt</l>
+                    <l xml:id="bodllaudmisc108.3f.99"><hi rend="h3 red-ink">&para;</hi><hi
+                            rend="touched-red">A</hi><sg type="ln"/> merci quath <name type="person"
+                            ref="#bioHermogenes0001"><choice>
                                 <orig>hermogenes</orig>
                                 <reg>Hermogenes</reg>
                             </choice></name><pc> &punctelev; </pc><hi rend="touched-red">þ</hi>is
-                        deuelen me beteh<note type="enc" resp="#bioHO001"><hi rend="touched-red"
-                                >[</hi>r. beten]</note> so so&rrot;e</l>
+                        deuelen me <choice>
+                            <sic>beteh</sic>
+                            <corr>beten</corr>
+                        </choice> &slong;o &slong;o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.100"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at I<sg> </sg>ne dar anne fot fram þe go<pc> &punctelev; </pc><hi
                             rend="touched-red">l</hi>a&slong;te hu&ydot; me nimen mo&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.101"><hi rend="touched-red">h</hi><sg type="ln"
-                        />u&ydot; me wullez a<sg/>sle ȝif hu&ydot; me a<sg/>fongueth eft<pc>
-                            &punctelev; </pc><hi rend="touched-red">a</hi>nd þare<sg/>fo&rrot;e ich
-                        bidde þe</l>
+                        />u&ydot; me wullez asle ȝif hu&ydot; me a<sg/>fongueth eft<pc> &punctelev;
+                        </pc>and þare<sg/>fo&rrot;e ich bidde þe</l>
                     <l xml:id="bodllaudmisc108.3f.102"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at þov me take sum þing þat ich mouwe<pc> &punctelev; </pc><hi
                             rend="touched-red">f</hi>o&rrot; heom bere with me</l>
                     <l xml:id="bodllaudmisc108.3f.103"><hi rend="touched-red">S</hi><sg type="ln"
                         />eint <name type="person" ref="#bioJames0001">Ieme</name> him tok is
                         &slong;taf on honde<pc> &punctelev; </pc><hi rend="touched-red">g</hi>o nov
-                        fo&rrot;th he seide</l>
+                        fo&rrot;th he &slong;eide</l>
                     <l xml:id="bodllaudmisc108.3f.104"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />ere nis no deuel þat do&rrot;re nouþe<pc> &punctelev; </pc><hi
-                            rend="touched-red">n</hi>eiȝ þe come fo&rrot; d&rrot;ede.</l>
-                    <l xml:id="bodllaudmisc108.3f.105"><hi rend="touched-red">H</hi><sg type="ln"
-                        />ermogenes wende him fo&rrot;th.<pc> &punctelev; </pc><hi
-                            rend="touched-red">h</hi>is bokes alle he nam</l>
+                        />ere ni&slong; no deuel þat do&rrot;re nouþe<pc> &punctelev; </pc><hi
+                            rend="touched-red">n</hi>eiȝ þe come fo&rrot; d&rrot;ede</l>
+                    <l xml:id="bodllaudmisc108.3f.105"><name type="person" ref="#bioHermogenes0001"
+                                ><hi rend="touched-red">H</hi><sg type="ln"/>ermogene&slong;</name>
+                        wende him fo&rrot;th<pc> &punctelev; </pc><hi rend="touched-red">h</hi>is
+                        boke&slong; alle he nam</l>
                     <l xml:id="bodllaudmisc108.3f.106"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at he hadde of his enchauntemenz<pc> &punctelev; </pc><hi
                             rend="touched-red">t</hi>o þe Apo&slong;tle a<sg/>ȝein he cam</l>
                     <l xml:id="bodllaudmisc108.3f.107"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd bad þat he as fo&rrot;<sg/>b&rrot;enne scholde.<pc> &punctelev;
-                            </pc><hi rend="touched-red">þ</hi>e Apo&slong;tle sone heom nam</l>
+                        />nd bad þat he a&slong; fo&rrot;<sg/>b&rrot;enne &slong;cholde<pc>
+                            &punctelev; </pc><hi rend="touched-red">þ</hi>e Apo&slong;tle &slong;one
+                        heom nam</l>
                     <l xml:id="bodllaudmisc108.3f.108"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd ca&slong;te heom in þe deope .se<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>a&slong;te i<sg/>bounde echon</l>
-                    <l xml:id="bodllaudmisc108.3f.109"><hi rend="h0 red-ink">&para;</hi><sg
-                            type="ln"/>
-                        <name type="person" ref="#bioHermogenes0001">Hermogenes</name> criede him
-                            merci<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd wilnede
-                        cri&slong;tindom</l>
+                        />nd ca&slong;te heom in þe deope<pc>&middot;</pc>se<pc> &punctelev;
+                            </pc><hi rend="touched-red">f</hi>a&slong;te i<sg/>bounde echon</l>
+                    <l xml:id="bodllaudmisc108.3f.109"><hi rend="h2 blue-ink">&para;</hi><name
+                            type="person" ref="#bioHermogenes0001"><hi rend="touched-red">H</hi><sg
+                                type="ln"/>ermogene&slong;</name> criede him merci<pc> &punctelev;
+                            </pc><hi rend="touched-red">a</hi>nd wilnede cri&slong;tindom</l>
                     <l xml:id="bodllaudmisc108.3f.110"><hi rend="touched-red">S</hi><sg type="ln"/>o
                         þat he i<sg/>cri&slong;tned was<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd swiþe holi man bi<sg/>cam.\</l>
-                    <l xml:id="bodllaudmisc108.3f.111"><hi rend="touched-red">A</hi><sg type="ln"
-                        />biatar þat þo was<pc> &punctelev; </pc><hi rend="touched-red"
-                        >I</hi>u&slong;tise luþur i<sg/>novȝ</l>
+                            >a</hi>nd &slong;wiþe holi man bi<sg/>cam</l>
+                    <l xml:id="bodllaudmisc108.3f.111"><name type="person" ref="#bioAbiatar0001"><hi
+                                rend="touched-red">A</hi><sg type="ln"/>biatar</name> þat þo
+                            wa&slong;<pc> &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red">I</hi>u&slong;ti&slong;e</orig>
+                            <reg>iustise</reg>
+                        </choice> luþur i<sg/>novȝ</l>
                     <l xml:id="bodllaudmisc108.3f.112"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; þis dede he was wroth<pc> &punctelev; </pc><hi rend="touched-red"
+                        />o&rrot; þis dede he wa&slong; wr<del rend="overwritten">a</del><add
+                            place="inline">o</add>th<pc> &punctelev; </pc><hi rend="touched-red"
                             >t</hi>oward <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> with gret wouȝ</l>
                     <l xml:id="bodllaudmisc108.3f.113"><hi rend="touched-red">h</hi><sg type="ln"/>e
                         nam him fa&slong;te and swo&rrot; is othþ<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at he it scholde a<sg/>bugge deo&rrot;e</l>
+                            rend="touched-red">þ</hi>at he it &slong;cholde a<sg/>bugge
+                        deo&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.114"><hi rend="touched-red">t</hi><sg type="ln"/>o
-                        þe k&ydot;ingue heroudes he liet him lede<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi> rop a<sg/>boute is swere</l>
-                    <l xml:id="bodllaudmisc108.3f.115"><hi rend="touched-red">H</hi><sg type="ln"
-                        />eroudes ȝaf his dom a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red"
-                            >h</hi>is þrote to smite a<sg/>two</l>
+                        þe k&ydot;ingue <name type="person" ref="#bioHerod0001"><choice>
+                                <orig>heroude&slong;</orig>
+                                <reg>Heroudes</reg>
+                            </choice></name> he liet him lede<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi> rop a<sg/>boute is &slong;were</l>
+                    <l xml:id="bodllaudmisc108.3f.115"><name type="person" ref="#bioHerod0001"><hi
+                                rend="touched-red">H</hi><sg type="ln"/>eroudes</name> ȝaf his dom
+                            a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red">h</hi>is
+                        þ&rrot;rote to &slong;mite a<sg/>two</l>
                     <l xml:id="bodllaudmisc108.3f.116"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd Iosie þe quellare he was bi<sg/>take<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>ulke dede fo&rrot;<sg/>to do</l>
-                    <l xml:id="bodllaudmisc108.3f.117"><hi rend="touched-red">A</hi><sg type="ln"
-                        />ne Rop he dude a<sg/>boute is necke<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd ladde him toward is dome</l>
+                        />nd <name type="person" ref="#bioJosiah0001">Io&slong;ie</name> þe quellare
+                        he was bi<sg/>take<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>ulke
+                        dede fo&rrot;<sg/>to do</l>
                     <!-- folio 35b -->
+                    <pb n="35v"/>
+                    <fw type="guideLetters" place="topCenter">14</fw>
+                    <cb n="1"/>
+                    <l xml:id="bodllaudmisc108.3f.117"><hi rend="touched-red">A</hi><sg type="ln"
+                        />ne <choice>
+                            <orig>Rop</orig>
+                            <reg>rop</reg>
+                        </choice> he dude a<sg/>boute is necke<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd ladde him toward is dome</l>
                     <l xml:id="bodllaudmisc108.3f.118"><hi rend="touched-red">A</hi><sg type="ln"
                         />ne <choice>
                             <orig>Man</orig>
                             <reg>man</reg>
-                        </choice> he helde of þe palasie<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>re heo þudere come</l>
+                        </choice> he helde of þe pala&slong;ie<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>re heo þudere come</l>
                     <l xml:id="bodllaudmisc108.3f.119"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
-                            <name type="person" ref="#bioJosiah0001">Iosie</name> þis isaiȝ<pc>
-                            &punctelev; </pc><hi rend="touched-red">m</hi>erci anon he criede</l>
+                            <name type="person" ref="#bioJosiah0001">Io&slong;ie</name> þis
+                            i&slong;aiȝ<pc> &punctelev; </pc>merci anon he criede</l>
                     <l xml:id="bodllaudmisc108.3f.120"><hi rend="touched-red">S</hi><sg type="ln"
                         />eint <name type="person" ref="#bioJames0001">Ieme</name> þe holie
                             Apo&slong;tle<pc> &punctelev; </pc><hi rend="touched-red">h</hi>e bad
-                        wel sone a<sg/>bide</l>
+                        wel &slong;one a<sg/>bide</l>
                     <l xml:id="bodllaudmisc108.3f.121"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd cri&slong;tni him in þe place<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi><sg/>non<sg/>riȝtes þere</l>
+                        />nd <choice>
+                            <orig>c<am>&combtildevert;</am>&slong;tni</orig>
+                            <reg>c<ex>ri</ex>stni</reg>
+                        </choice> him in þe place<pc> &punctelev; </pc><hi rend="touched-red"
+                        >a</hi><sg/>non<sg/>riȝte&slong; þere</l>
                     <l xml:id="bodllaudmisc108.3f.122"><hi rend="touched-red">A</hi><sg type="ln"
-                        />seinte marie da&ydot; in leinte<pc> &punctelev; </pc><hi
-                            rend="touched-red">b</hi>i<sg/>haueded boþe heo were</l>
+                        />&slong;einte <name type="person" ref="#bioMary0001"><choice>
+                                <orig>marie</orig>
+                                <reg>Marie</reg>
+                            </choice></name> da&ydot; in <choice>
+                            <orig>leinte</orig>
+                            <reg>Leinte</reg>
+                        </choice><pc> &punctelev; </pc><hi rend="touched-red">b</hi>i<sg/>haueded
+                        boþe heo were</l>
                     <l xml:id="bodllaudmisc108.3f.123"><hi rend="touched-red">A</hi><sg type="ln"
-                        />ke holie curche halt of o&rrot;e leuedi<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>e&slong;te þat ilke da&ydot;</l>
+                        />ke holie <choice>
+                            <sic>curche</sic>
+                            <corr>churche</corr>
+                        </choice> halt of o&rrot;e leuedi<pc> &punctelev; </pc>fe&slong;te þat ilke
+                        da&ydot;</l>
                     <l xml:id="bodllaudmisc108.3f.124"><hi rend="touched-red">B</hi><sg type="ln"
-                        />i<sg/>fo&rrot;e lamasse seueniȝht<pc> &punctelev; </pc><hi
-                            rend="touched-red">w</hi>e holdeth is da&ydot; þer<sg/>fo&rrot;e<note
-                            type="enc" resp="#bioHO001"><hi rend="touched-red">[</hi>MS.
-                            bi<sg/>fo&rrot;e]</note></l>
+                        />i<sg/>fo&rrot;e <choice>
+                            <orig>lama&slong;&slong;e</orig>
+                            <reg>Lamasse</reg>
+                        </choice> seueniȝht<pc> &punctelev; </pc><hi rend="touched-red">w</hi>e
+                        holdeth is da&ydot; <choice>
+                            <sic>bi<sg/>fo&rrot;e</sic>
+                            <corr resp="#bioHO0001">þer<sg/>fo&rrot;e</corr>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.125"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; þulke da&ydot;e is bodi was<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi>n<sg/>to schrine i<sg/>bo&rrot;e</l>
-                    <l xml:id="bodllaudmisc108.3f.126"><hi rend="h0 red-ink">&para;</hi><sg
-                            type="ln"/> A<sg/>non so <choice>
+                        />o&rrot; þulke da&ydot;e is bodi wa&slong;<pc> &punctelev; </pc>in<sg/>to
+                        &slong;ch&rrot;ine i<sg/>bo&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.3f.126"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">A</hi><sg type="ln"/>non &slong;o <choice>
                             <orig>seint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> þe holie man<pc>
                             &punctelev; </pc><hi rend="touched-red">b</hi>i<sg/>haueded was þere</l>
                     <l xml:id="bodllaudmisc108.3f.127"><hi rend="touched-red">h</hi><sg type="ln"
-                        />is desciples him wolden lede a<sg/>wei<pc> &punctelev; </pc><hi
+                        />is de&slong;ciples him wolden lede a<sg/>wei<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>c hu&ydot; ne do&rrot;&slong;ten fo&rrot;
                         fere</l>
                     <l xml:id="bodllaudmisc108.3f.128"><hi rend="touched-red">h</hi><sg type="ln"
                         />eo&rrot;e t&ydot;me hu&ydot; a<sg/>wa&ydot;teden wel<pc> &punctelev;
-                            </pc><hi rend="touched-red">ȝ</hi>wanne none <choice>
+                        </pc>ȝwanne none <choice>
                             <orig>Men</orig>
                             <reg>men</reg>
                         </choice> þare neiȝ nere</l>
@@ -580,21 +673,23 @@ Last Update: Feb 2 2015. -->
                             rend="touched-red">a</hi>nd fo&rrot;th þare<sg/>withþ hu&ydot; wende</l>
                     <l xml:id="bodllaudmisc108.3f.131"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd none ȝeme ne nomen ȝwoderward fare<pc> &punctelev; </pc><hi
-                            rend="touched-red">b</hi>ote ase <choice>
+                            rend="touched-red">b</hi>ote a&slong;e <choice>
                             <orig>god</orig>
                             <reg>God</reg>
                         </choice> he[m] kende</l>
                     <l xml:id="bodllaudmisc108.3f.132"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at schip wende fo&rrot;th bi him<sg/>seolf<pc> &punctelev; </pc><hi
+                        />at schip wende fo&rrot;th bi him<sg/>&slong;eolf<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd hit cam on a da&ydot;</l>
                     <l xml:id="bodllaudmisc108.3f.133"><hi rend="touched-red">I</hi><sg type="ln"
-                        />nto þe lond of <name type="place" ref="#locGalicia01">Galeis</name><pc>
-                            &punctelev; </pc><hi rend="touched-red">þ</hi>are ase þe quene
-                        la&ydot;</l>
+                        />nto þe lond of <name type="place" ref="#locGalicia01"><hi
+                                rend="touched-red">G</hi>aleis</name><pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>are a&slong;e þe quene la&ydot;</l>
                     <l xml:id="bodllaudmisc108.3f.134"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at luþur [was] and schrewe inovȝ.<pc> &punctelev; </pc><hi
-                            rend="touched-red">s</hi>eint <name type="person" ref="#bioJames0001"
-                            >Iemes</name>
+                        />at luþur <choice>
+                            <sic/>
+                            <corr resp="#bioHO0001">was</corr>
+                        </choice> and sch&rrot;ewe inovȝ<pc> &punctelev; </pc><hi rend="touched-red"
+                            >&slong;</hi>eint <name type="person" ref="#bioJames0001">Iemes</name>
                         <choice>
                             <orig>Men</orig>
                             <reg>men</reg>
@@ -606,49 +701,56 @@ Last Update: Feb 2 2015. -->
                         &slong;ton bi<sg/>gan to wexe a<sg/>b&rrot;od<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd holuȝ bi<sg/>cam a<sg/>midde</l>
                     <l xml:id="bodllaudmisc108.3f.137"><hi rend="touched-red">A</hi><sg type="ln"
-                        />se euene i<sg/>maud to þe holie bodi<pc> &punctelev; </pc><hi
+                        />&slong;e euene i<sg/>maud to þe holie bodi<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>s ani man wolde bidde</l>
-                    <l xml:id="bodllaudmisc108.3f.138"><hi rend="h0 red-ink">&para;</hi><sg
-                            type="ln"/>e scholde no man so euene a þrovȝ<pc> &punctelev; </pc><hi
-                            rend="touched-red">N</hi><hi rend="touched-red">i</hi>n lengþe and i[n]
-                        b&rrot;ede</l>
-                    <l xml:id="bodllaudmisc108.3f.139"><hi rend="touched-red">T</hi><sg type="ln"
-                            />o<note type="enc" resp="#bioHO001"><hi rend="touched-red">[</hi><hi
-                                rend="italic">al.</hi> make to]</note> him ase þat &slong;ton
-                            bi<sg/>cam<pc> &punctelev; </pc><hi rend="touched-red">a</hi>se ech man
-                        þat it i<sg/>saiȝ seide</l>
+                    <l xml:id="bodllaudmisc108.3f.138"><hi rend="h2 blue-ink">&para;</hi><sg
+                            type="ln"/>e scholde no man so euene a þ&rrot;ovȝ<pc> &punctelev;
+                            </pc><hi rend="touched-red">N</hi><hi rend="touched-red">i</hi>n lengþe
+                        and <choice>
+                            <sic>i</sic>
+                            <corr>in</corr>
+                        </choice> b&rrot;ede</l>
+                    <l xml:id="bodllaudmisc108.3f.139"><hi rend="touched-red">T</hi><sg type="ln"/>o
+                        him a&slong;e þat &slong;ton bi<sg/>cam<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e ech man þat it i&slong;aiȝ
+                        &slong;eide</l>
                     <l xml:id="bodllaudmisc108.3f.140"><hi rend="touched-red">h</hi><sg type="ln"
-                        />is desciples ase it was riȝht<pc> &punctelev; </pc><hi rend="touched-red"
-                            >t</hi>o þe <choice>
+                        />is de&slong;ciples a&slong;e it was riȝht<pc> &punctelev; </pc><hi
+                            rend="touched-red">t</hi>o þe <choice>
                             <orig>Quene</orig>
                             <reg>quene</reg>
                         </choice> ere&slong;t wende </l>
                     <l xml:id="bodllaudmisc108.3f.141"><hi rend="touched-red">D</hi><sg type="ln"
-                        />ame hu&ydot; seiden we habbeth i<sg/>b&rrot;ouȝt<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at o&rrot;e louerd þe hider sende</l>
+                        />ame hu&ydot; &slong;eiden we habbeth i<sg/>b&rrot;ouȝt<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>at o&rrot;e louerd þe hider
+                        &slong;ende</l>
                     <l xml:id="bodllaudmisc108.3f.142"><hi rend="touched-red">S</hi><sg type="ln"
-                        />eint <name type="person" ref="#bioJames0001">Iemes</name> bodi his
+                        />eint <name type="person" ref="#bioJames0001">Ieme&slong;</name> bodi his
                             Apo&slong;tle<pc> &punctelev; </pc><hi rend="touched-red">o</hi>f ȝwam
                         þov nome ofte þi red</l>
                     <l xml:id="bodllaudmisc108.3f.143"><hi rend="touched-red">T</hi><sg type="ln"/>o
-                        laten him nime þe ȝw&ydot;le he was quik<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>se mani men it habbeth i<sg/>seid</l>
+                        laten him nime þe ȝw&ydot;le he wa&slong; quik<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e mani men it habbeth
+                        i<sg/>&slong;eid</l>
                     <l xml:id="bodllaudmisc108.3f.144"><hi rend="touched-red">O</hi><sg type="ln"
-                        />re louerd him hath hidere i<sg/>sent<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>se he him<sg/>seolf bed.<note type="enc"
-                            resp="#bioHO001"><hi rend="touched-red">[</hi>o&rrot;ig. bad]</note></l>
+                        />re louerd him hath hidere i<sg/>&slong;ent<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e he him<sg/>&slong;eolf b<del
+                            rend="subpointed">a</del><add place="supralinear">e</add>d</l>
                     <l xml:id="bodllaudmisc108.3f.145"><hi rend="touched-red">L</hi><sg type="ln"
                         />oke ȝware þov him legge wolt<pc> &punctelev; </pc><hi rend="touched-red"
-                            >f</hi>o&rrot; i<sg/>come he is to þe ded.</l>
-                    <l xml:id="bodllaudmisc108.3f.146"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">E</hi><sg type="ln"/>&ydot; tra&ydot;tours quath þe
-                        luþere <choice>
+                            >f</hi>o&rrot; icome he is to þe ded</l>
+                    <l xml:id="bodllaudmisc108.3f.146"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">E</hi><sg type="ln"/>&ydot; tra&ydot;tour&slong;
+                        quath þe luþere <choice>
                             <orig>Quen</orig>
                             <reg>quen</reg>
                         </choice><pc> &punctelev; </pc><hi rend="touched-red">ȝ</hi>weþer ȝe beon of
                         his</l>
                     <l xml:id="bodllaudmisc108.3f.147"><hi rend="touched-red">Ȝ</hi><sg type="ln"
-                        />wane i<sg/>ne miȝhte of him beo a<sg/>wreke<pc> &punctelev; </pc><hi
+                        />wane <choice>
+                            <orig>i</orig>
+                            <reg>I</reg>
+                        </choice> ne miȝhte of him beo a<sg/>wreke<pc> &punctelev; </pc><hi
                             rend="touched-red">o</hi>f eov ichulle i<sg/>wis</l>
                     <l xml:id="bodllaudmisc108.3f.148"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />is guode <choice>
@@ -656,89 +758,99 @@ Last Update: Feb 2 2015. -->
                             <reg>men</reg>
                         </choice> he nam ech<sg/>one<pc> &punctelev; </pc><hi rend="touched-red"
                             >a</hi>nd to þe king of <name type="place" ref="#locSpain01"><choice>
-                                <orig>spa&ydot;gne</orig>
+                                <orig>&slong;pa&ydot;gne</orig>
                                 <reg>Spaygne</reg>
-                            </choice></name> heom sende</l>
+                            </choice></name> heom &slong;ende</l>
                     <l xml:id="bodllaudmisc108.3f.149"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at he heom b&rrot;ouȝte to &slong;trong dethþe<pc> &punctelev; </pc><hi
                             rend="touched-red">o</hi>þur don heom heo&rrot;e lawe wende</l>
                     <l xml:id="bodllaudmisc108.3f.150"><hi rend="touched-red">E</hi><sg type="ln"
                         />chone þe king nam a<sg/>non<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd in &slong;trongue p&rrot;isone heom b&rrot;ouȝte</l>
+                            >a</hi>nd in &slong;trongue p&rrot;i&slong;one heom b&rrot;ouȝte</l>
                     <l xml:id="bodllaudmisc108.3f.151"><hi rend="touched-red">A</hi><sg type="ln"/>c
                         o&rrot;e louerd ne fo&rrot;<sg/>ȝat heom nouȝt<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>ke wel sone on heom þouȝte </l>
+                            rend="touched-red">a</hi>ke wel &slong;one on heom þouȝte </l>
                     <l xml:id="bodllaudmisc108.3f.152"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot; an <choice>
                             <orig>Aungel</orig>
                             <reg>aungel</reg>
                         </choice> fram heouene cam<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd þat p&rrot;isoun b&rrot;ak wel sone</l>
+                            >a</hi>nd þat p&rrot;i&slong;oun b&rrot;ak wel sone</l>
                     <l xml:id="bodllaudmisc108.3f.153"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
-                        þe k&ydot;ng was þar<sg/>of i<sg/>war<pc> &punctelev; </pc><hi
-                            rend="touched-red">h</hi>e nu&slong;te ȝwat was to done</l>
-                    <l xml:id="bodllaudmisc108.3f.154"><hi rend="h0 red-ink">&para;</hi><sg
-                            type="ln"/>
+                        þe k&ydot;ng wa&slong; þar<sg/>of i<sg/>war<pc> &punctelev; </pc><hi
+                            rend="touched-red">h</hi>e nu&slong;te ȝwat wa&slong; to done</l>
+                    <l xml:id="bodllaudmisc108.3f.154"><hi rend="h2 blue-ink">&para;</hi>
                         <choice>
-                            <orig>Kn&ydot;ȝhtes</orig>
+                            <orig><hi rend="touched-red">K</hi><sg type="ln"
+                                />n&ydot;ȝhte&slong;</orig>
                             <reg>knyȝhtes</reg>
-                        </choice> he liet siende i<sg/>nowe<pc> &punctelev; </pc><hi
+                        </choice> he liet &slong;iende i<sg/>nowe<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>ftur heom wel wide</l>
                     <l xml:id="bodllaudmisc108.3f.155"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at febleliche a<sg/>gonne in heo&rrot;e neodes<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>o&rrot; schame heom gan bi<sg/>tide</l>
+                        />at febleliche a<sg/>gonne in heo&rrot;e neode&slong;<pc> &punctelev;
+                            </pc><hi rend="touched-red">f</hi>o&rrot; &slong;chame heom gan
+                        bi<sg/>tide</l>
                     <l xml:id="bodllaudmisc108.3f.156"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; ase hu&ydot; wolden ouer ane heiȝe b&rrot;ugge<pc> &punctelev;
-                            </pc><hi rend="touched-red">a</hi>fter þis guode men gon</l>
+                        />o&rrot; a&slong;e hu&ydot; wolden ouer ane heiȝe b&rrot;ugge<pc>
+                            &punctelev; </pc><hi rend="touched-red">a</hi>fter þis guode men gon</l>
                     <l xml:id="bodllaudmisc108.3f.157"><hi rend="touched-red">V</hi><sg type="ln"
                         />nder heom þe b&rrot;ugge b&rrot;ak<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd hu&ydot; a<sg/>d&rrot;ounken ech<sg/>on</l>
-                    <l xml:id="bodllaudmisc108.3f.158"><hi rend="h0 red-ink">&para;</hi><hi
+                            rend="touched-red">a</hi>nd hu&ydot; ad&rrot;ounken ech<sg/>on</l>
+                    <l xml:id="bodllaudmisc108.3f.158"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">Þ</hi><sg type="ln"/>o þe t&ydot;þingue to þe kingue
-                            cam<pc> &punctelev; </pc><hi rend="touched-red">s</hi>o&rrot;i he was
-                        i<sg/>novȝ</l>
+                            cam<pc> &punctelev; </pc><hi rend="touched-red">&slong;</hi>o&rrot;i he
+                        wa&slong; i<sg/>novȝ</l>
                     <l xml:id="bodllaudmisc108.3f.159"><hi rend="touched-red">O</hi><sg type="ln"/>f
-                        is luþere [þouȝt]<note type="enc" resp="#bioHO001"><hi rend="touched-red"
-                                >[</hi>om.]</note> þat he þouȝte<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>o&rrot; d&rrot;ede he him
-                        with<sg/>d&rrot;ovȝ</l>
+                        is luþere <choice>
+                            <sic/>
+                            <corr resp="#bioHO001">þouȝt</corr>
+                        </choice> þat he þouȝte<pc> &punctelev; </pc><hi rend="touched-red"
+                        >f</hi>o&rrot; d&rrot;ede he him with<sg/>d&rrot;ovȝ</l>
                     <l xml:id="bodllaudmisc108.3f.160"><hi rend="touched-red">M</hi><sg type="ln"
-                        />ildeliche he to heom he sende<pc> &punctelev; </pc><hi rend="touched-red"
-                            >þ</hi>at hu&ydot; a<sg/>ȝein comen him to</l>
+                        />ildeliche he to heom he &slong;ende<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at hu&ydot; a<sg/>ȝein comen him to</l>
                     <l xml:id="bodllaudmisc108.3f.161"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd þat he heom wolde a<sg/>mendi faire<pc> &punctelev; </pc><hi
-                            rend="touched-red">o</hi>f al þat he hadde heom mis<sg/>do</l>
+                            rend="touched-red">o</hi>f al þat he hadde heom mi&slong;<sg/>do</l>
+                    <!-- folio 36 -->
+                    <pb n="36r"/>
+                    <fw type="guideLetters" place="topCenter">14</fw>
+                    <fw type="guideWords" place="topCenter">Iames</fw>
+                    <fw type="fol" place="topRight">36</fw>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3f.162"><hi rend="touched-red">A</hi><sg type="ln"
                         />ȝein hu&ydot; wenden to þe k&ydot;ng<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd he faire a<sg/>ȝein heom cam</l>
-                    <!-- folio 36 -->
+                            rend="touched-red">a</hi>nd he faire aȝein heom cam</l>
                     <l xml:id="bodllaudmisc108.3f.163"><hi rend="touched-red">Ȝ</hi><sg type="ln"
                         />ware<sg/>þo&rrot;uȝ he and al is <choice>
                             <orig>Men</orig>
                             <reg>men</reg>
                         </choice><pc> &punctelev; </pc><hi rend="touched-red">a</hi><sg/>fenguen
                         cri&slong;tinedom</l>
-                    <l xml:id="bodllaudmisc108.3f.164"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">Þ</hi><sg type="ln"/>e king sende þe <choice>
+                    <l xml:id="bodllaudmisc108.3f.164"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">Þ</hi><sg type="ln"/>e king &slong;ende þe <choice>
                             <orig>Quene</orig>
                             <reg>quene</reg>
                         </choice> wo&rrot;d<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>at heo
-                        scholde heo&rrot;e wille al do</l>
+                        &slong;cholde heo&rrot;e wille al do</l>
                     <l xml:id="bodllaudmisc108.3f.165"><hi rend="touched-red">F</hi><sg type="ln"
-                        />ul so&rrot;i was þe <choice>
+                        />ul &slong;o&rrot;i wa&slong; þe <choice>
                             <orig>Quene</orig>
                             <reg>quene</reg>
-                        </choice> þo<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd so&rrot;e
-                        a<sg/>nu&ydot;d al<sg/>so</l>
+                        </choice> þo<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd
+                        &slong;o&rrot;e a<sg/>nu&ydot;d al<sg/>&slong;o</l>
                     <l xml:id="bodllaudmisc108.3f.166"><hi rend="touched-red">A</hi><sg type="ln"
                         />ke heo ne do&rrot;&slong;te nouȝt beo aȝein is he&slong;te<pc> &punctelev;
-                            </pc><hi rend="touched-red">n</hi>ere hire no so [wo]</l>
+                            </pc><hi rend="touched-red">n</hi>ere hire no &slong;o <choice>
+                            <sic/>
+                            <corr resp="#bioHO0001">wo</corr>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.167"><hi rend="touched-red">W</hi><sg type="ln"
                         />ilde bollokes heo wu&slong;te fale<pc> &punctelev; </pc><hi
-                            rend="touched-red">o</hi>pe ane heiȝe hulle go </l>
+                            rend="touched-red">o</hi>pe ane heiȝe hulle go</l>
                     <l xml:id="bodllaudmisc108.3f.168"><hi rend="touched-red">G</hi><sg type="ln"
-                        />othþ heo seide ope þulke hulle<pc> &punctelev; </pc><hi rend="touched-red"
-                            >f</hi>inde ȝe mowen þere</l>
+                        />othþ heo &slong;eide ope þulke hulle<pc> &punctelev; </pc><hi
+                            rend="touched-red">f</hi>inde ȝe mowen þere</l>
                     <l xml:id="bodllaudmisc108.3f.169"><hi rend="touched-red">O</hi><sg type="ln"
                         />xene and <choice>
                             <orig>Bolen</orig>
@@ -749,158 +861,180 @@ Last Update: Feb 2 2015. -->
                         />eiȝeth heom to þulke wa&ydot;ne<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd þat bodi leggez þar<sg/>inne</l>
                     <l xml:id="bodllaudmisc108.3f.171"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd ledeth it ȝware eouwere wille beo<pc> &punctelev; </pc><hi
-                            rend="touched-red">g</hi>odes leue ȝe habbe and minne.</l>
-                    <l xml:id="bodllaudmisc108.3f.172"><hi rend="h0 red-ink">&para;</hi><sg
-                            type="ln"/> Fo&rrot; þe <choice>
-                            <orig>Bollokes</orig>
+                        />nd ledeth it ȝware eouwere wille beo<pc> &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red">g</hi>ode&slong;</orig>
+                            <reg>Godes</reg>
+                        </choice> leue ȝe habbe and minne</l>
+                    <l xml:id="bodllaudmisc108.3f.172"><hi rend="h2 blue-ink">&para;</hi><hi
+                            rend="touched-red">F</hi><sg type="ln"/>o&rrot; þe <choice>
+                            <orig>Bolloke&slong;</orig>
                             <reg>bollokes</reg>
                         </choice> wilde were<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>e
                         luþere <choice>
                             <orig>Quene</orig>
                             <reg>quene</reg>
-                        </choice> so seide</l>
+                        </choice> &slong;o &slong;eide</l>
                     <l xml:id="bodllaudmisc108.3f.173"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; hu&ydot; ne scholden heom temie nouȝt<pc> &punctelev; </pc><hi
-                            rend="touched-red">e</hi>ni<sg/>þing fo&rrot;<sg/>to lede</l>
+                        />o&rrot; hu&ydot; ne &slong;cholden heom temie nouȝt<pc> &punctelev;
+                            </pc><hi rend="touched-red">e</hi>ni<sg/>þing fo&rrot;<sg/>to lede</l>
                     <l xml:id="bodllaudmisc108.3f.174"><hi rend="touched-red">h</hi><sg type="ln"
-                        />is desciples wenden fo&rrot;th<pc> &punctelev; </pc><hi rend="touched-red"
-                            >t</hi>o þulke hulle heiȝe </l>
+                        />is de&slong;ciples wenden fo&rrot;th<pc> &punctelev; </pc><hi
+                            rend="touched-red">t</hi>o þulke hulle heiȝe </l>
                     <l xml:id="bodllaudmisc108.3f.175"><hi rend="touched-red">A</hi><sg type="ln"/>
-                        fu&ydot;r <choice>
-                            <orig>Drake</orig>
+                        fu&ydot;&rrot; <choice>
+                            <orig>D&rrot;ake</orig>
                             <reg>drake</reg>
                         </choice> þar<sg/>opon<pc> &punctelev; </pc><hi rend="touched-red"
-                        >a</hi><sg/>ȝein heom cominde hu&ydot; seiȝe</l>
+                        >a</hi><sg/>ȝein heom cominde hu&ydot; &slong;eiȝe</l>
                     <l xml:id="bodllaudmisc108.3f.176"><hi rend="touched-red">S</hi><sg type="ln"
-                        />wiþe ferliche he bla&slong;te fu&ydot;r<pc> &punctelev; </pc><hi
+                        />wiþe ferliche he bla&slong;te fu&ydot;&rrot;<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd a<sg/>sa&ydot;llede heom fa&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.177"><hi rend="touched-red">M</hi><sg type="ln"
                         />ani a man he hadde a<sg/>slawe<pc> &punctelev; </pc><hi rend="touched-red"
                             >a</hi>nd al þe contreie of him a<sg/>ga&slong;te</l>
-                    <l xml:id="bodllaudmisc108.3f.178"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">Þ</hi><sg type="ln"/>is desciples mauden þe signe
-                            sone<pc> &punctelev; </pc><hi rend="touched-red">o</hi>f þe Creo&ydot;z
-                        heom bi<sg/>fo&rrot;e </l>
+                    <l xml:id="bodllaudmisc108.3f.178"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">Þ</hi><sg type="ln"/>is de&slong;ciples mauden þe
+                        &slong;igne &slong;one<pc> &punctelev; </pc><hi rend="touched-red">o</hi>f
+                        þe Creo&ydot;z heom bi<sg/>fo&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.179"><hi rend="touched-red">A</hi><sg type="ln"
                         />non hadde þis luþere wo&rrot;m<pc> &punctelev; </pc><hi rend="touched-red"
                             >i</hi>s pouwer al ilo&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.180"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at hit ne miȝhte ane fot fo&rrot;þere passe.<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>is desciples fo&rrot;th wende</l>
+                        />at hit ne miȝhte ane fot fo&rrot;þere pa&slong;&slong;e<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>is de&slong;ciple&slong; fo&rrot;th
+                        wende</l>
                     <l xml:id="bodllaudmisc108.3f.181"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd to<sg/>pouneden it al to deþe<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd ech lime fram oþur rende</l>
                     <l xml:id="bodllaudmisc108.3f.182"><hi rend="touched-red">Þ</hi><sg type="ln"/>e <choice>
-                            <orig>Bollokes</orig>
+                            <orig>Bolloke&slong;</orig>
                             <reg>bollokes</reg>
-                        </choice> and þe ȝoungue &slong;teo&rrot;es<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at weren er so wilde</l>
+                        </choice> and þe ȝoungue &slong;teo&rrot;e&slong;<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at weren er &slong;o wilde</l>
                     <l xml:id="bodllaudmisc108.3f.183"><hi rend="touched-red">A</hi><sg type="ln"
-                        />non so hu&ydot; touward heom<note type="enc" resp="#bioHO001"><hi
-                                rend="touched-red">[</hi>superscribed.]</note> come<pc> &punctelev;
-                            </pc><hi rend="touched-red">h</hi>u&ydot; woxen tame and milde</l>
+                        />non &slong;o hu&ydot; touward <add place="sublinear">&caret;</add><add
+                            place="supralinear">heom</add> come<pc> &punctelev; </pc><hi
+                            rend="touched-red">h</hi>u&ydot; woxen tame and milde</l>
                     <l xml:id="bodllaudmisc108.3f.184"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
                         be&slong;te hu&ydot; chosen þat hu&ydot; wolden<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd to þe wa&ydot;ne heom ladde</l>
                     <l xml:id="bodllaudmisc108.3f.185"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd hu&ydot; d&rrot;owen þat bodi so mildeliche<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>at ech man þarof wonder hadde</l>
-                    <l xml:id="bodllaudmisc108.3f.186"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">Þ</hi><sg type="ln"/>is desciples nomen <choice>
-                            <orig>seint</orig>
+                    <l xml:id="bodllaudmisc108.3f.186"><hi rend="h2 blue-ink">&para;</hi><hi
+                            rend="touched-red">Þ</hi><sg type="ln"/>is de&slong;ciple&slong; nomen <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Iemes</name> bodi<pc> &punctelev;
-                            </pc><hi rend="touched-red">a</hi>nd opon þe wa&ydot;ne it leide</l>
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> bodi<pc>
+                            &punctelev; </pc><hi rend="touched-red">a</hi>nd opon þe wa&ydot;ne it
+                        leide</l>
                     <l xml:id="bodllaudmisc108.3f.187"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
                         be&slong;tes it d&rrot;owen fo&rrot;th wel mildeliche<pc> &punctelev;
                             </pc><hi rend="touched-red">w</hi>ith<sg/>oute eche fole b&rrot;eide</l>
                     <l xml:id="bodllaudmisc108.3f.188"><hi rend="touched-red">h</hi><sg type="ln"
                         />u&ydot; comen and d&rrot;iue þane wa&ydot;n<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>are as þe <choice>
-                            <orig>Quene</orig>
+                            rend="touched-red">þ</hi>are a&slong; þe <choice>
+                            <orig><hi rend="touched-red">Q</hi>uene</orig>
                             <reg>quene</reg>
-                        </choice> was</l>
+                        </choice> wa&slong;</l>
                     <l xml:id="bodllaudmisc108.3f.189"><hi rend="touched-red">h</hi><sg type="ln"
-                        />ire wond&rrot;ede muche and d&rrot;adde so&rrot;e<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>o heo iseiȝ þat cas</l>
-                    <l xml:id="bodllaudmisc108.3f.190"><hi rend="h0 red-ink">&para;</hi><sg
-                            type="ln"/> Heo fo&rrot;<sg/>sok hire false bi<sg/>leue<pc> &punctelev;
-                            </pc><hi rend="touched-red">a</hi>nd tok hire to cri&slong;tindom</l>
+                        />ire wond&rrot;ede muche and d&rrot;adde &slong;o&rrot;e<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>o heo i&slong;eiȝ þat cas</l>
+                    <l xml:id="bodllaudmisc108.3f.190"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">H</hi><sg type="ln"/>eo fo&rrot;<sg/>&slong;ok hire
+                        fal&slong;e bi<sg/>leue<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd
+                        tok hire to cri&slong;tindom</l>
                     <l xml:id="bodllaudmisc108.3f.191"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; þe wonder þat heo iseiȝ<pc> &punctelev; </pc><hi
+                        />o&rrot; þe wonder þat heo i&slong;eiȝ<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd guod womman bicom</l>
                     <l xml:id="bodllaudmisc108.3f.192"><hi rend="touched-red">A</hi><sg type="ln"/>l
-                        hure pale&ydot;s þat heo was inne<pc> &punctelev; </pc><hi
+                        hure pale&ydot;s þat heo wa&slong; inne<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd al heo&rrot;e oþure bone</l>
                     <l xml:id="bodllaudmisc108.3f.193"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot;<sg/>to honouri þat holie bodi<pc> &punctelev; </pc><hi
-                            rend="touched-red">h</hi>eo grauntede heom wel sone</l>
+                            rend="touched-red">h</hi>eo grauntede heom wel &slong;one</l>
                     <l xml:id="bodllaudmisc108.3f.194"><hi rend="touched-red">A</hi><sg type="ln"
-                        />midde þe pale&ydot;s þis holi bodi<pc> &punctelev; </pc><hi
+                        />midde þe pale&ydot;&slong; þis holi bodi<pc> &punctelev; </pc><hi
                             rend="touched-red">h</hi>u&ydot; bureden with grete p&rrot;u&ydot;te</l>
                     <l xml:id="bodllaudmisc108.3f.195"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />are he hath euereft to þis dai i<sg/>beo<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd so he is ȝu&ydot;te</l>
-                    <l xml:id="bodllaudmisc108.3f.196"><hi rend="h0 red-ink">&para;</hi><hi
+                        />are he hath euereft to þis dai ibeo<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd &slong;o he is ȝu&ydot;te</l>
+                    <l xml:id="bodllaudmisc108.3f.196"><hi rend="h2 blue-ink">&para;</hi><hi
                             rend="touched-red">H</hi><sg type="ln"/>eo liet arere ane noble
                             churche<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd gret
-                        treso&rrot; he ȝaf þar<sg/>to</l>
+                        tre&slong;o&rrot; he ȝaf þar<sg/>to</l>
                     <l xml:id="bodllaudmisc108.3f.197"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd gret lond þat ȝu&ydot;t þare<sg/>to lijth<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd grete rentes al<sg/>so </l>
+                            rend="touched-red">a</hi>nd grete rente&slong; al<sg/>&slong;o </l>
                     <l xml:id="bodllaudmisc108.3f.198"><hi rend="touched-red">Ȝ</hi><sg type="ln"
                         />ware<sg/>þo&rrot;uȝ of religioun<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi> gret hous nouþe þare is</l>
                     <l xml:id="bodllaudmisc108.3f.199"><hi rend="touched-red">O</hi><sg type="ln"/>f <choice>
-                            <orig>Chanones</orig>
+                            <orig><hi rend="touched-red">C</hi>hanone&slong;</orig>
                             <reg>chanones</reg>
                         </choice> þat <choice>
                             <orig>Men</orig>
                             <reg>men</reg>
-                        </choice> ȝeot i<sg/>seoth and sechethþ<pc> &punctelev; </pc><hi
+                        </choice> ȝeot i<sg/>&slong;eoth and &slong;echethþ<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>t <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Iemes</name> of Gal&ydot;s</l>
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> of Gal&ydot;s</l>
                     <l xml:id="bodllaudmisc108.3f.200"><hi rend="touched-red">A</hi><sg type="ln"/>
-                        gret pilegrimage it is i<sg/>holde<pc> &punctelev; </pc><hi
-                            rend="touched-red">o</hi>uer<sg/>al ase ȝe i<sg/>seothþ</l>
+                        gret <choice>
+                            <orig>pileg<am>&combtildevert;</am>mage</orig>
+                            <reg>pileg<ex>ri</ex>mage</reg>
+                        </choice> it is i<sg/>holde<pc> &punctelev; </pc><hi rend="touched-red"
+                            >o</hi>uer<sg/>al a&slong;e <del rend="subpointed">i</del>ȝe iseothþ</l>
                     <l xml:id="bodllaudmisc108.3f.201"><hi rend="touched-red">T</hi><sg type="ln"/>o
-                        sechen þat ilke holie &slong;tude<pc> &punctelev; </pc><hi
+                        &slong;echen þat ilke holie &slong;tude<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>are <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Iemes</name> bones beothþ</l>
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> bone&slong;
+                        beothþ</l>
                     <l xml:id="bodllaudmisc108.3f.202"><hi rend="touched-red">M</hi><sg type="ln"
-                        />ani miracle is pilegrimes seggeth<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at þare hath ofte i<sg/>come</l>
+                        />ani miracle is <choice>
+                            <orig>pileg<am>&combtildevert;</am>mes</orig>
+                            <reg>pileg<ex>ri</ex>me&slong;</reg>
+                        </choice> &slong;eggeth<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>at
+                        þare hath ofte icome</l>
                     <l xml:id="bodllaudmisc108.3f.203"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />ei we ne mouwen nouȝt alle telle<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>enche we moten on some.</l>
-                    <l xml:id="bodllaudmisc108.3f.204"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">Þ</hi><sg type="ln"/>ritti <choice>
+                            rend="touched-red">þ</hi>enche we moten on &slong;ome</l>
+                    <l xml:id="bodllaudmisc108.3f.204"><hi rend="h2 red-ink"><unclear
+                                reason="rubbed" cert="high">&para;</unclear></hi><hi
+                            rend="touched-red">Þ</hi><sg type="ln"/>&rrot;itti <choice>
                             <orig>Men</orig>
                             <reg>men</reg>
-                        </choice> at one t&ydot;me<pc> &punctelev; </pc><hi rend="touched-red"
-                            >p</hi>ilegrimes bi<sg/>come</l>
+                        </choice> at one t&ydot;me<pc> &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red"
+                                >p</hi>ileg<am>&combtildevert;</am>mes</orig>
+                            <reg>pileg<ex>ri</ex>me&slong;</reg>
+                        </choice> bi<sg/>come</l>
                     <l xml:id="bodllaudmisc108.3f.205"><hi rend="touched-red">T</hi><sg type="ln"/>o <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Iemes</name> þe holie
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> þe holie
                             &slong;tude<pc> &punctelev; </pc><hi rend="touched-red">a</hi>lle þene
                         wei hu&ydot; nome</l>
                     <l xml:id="bodllaudmisc108.3f.206"><hi rend="touched-red">A</hi><sg type="ln"
-                        />se hu&ydot; wenden bi þe weiȝe<pc> &punctelev; </pc><hi rend="touched-red"
-                            >s</hi>o gret loue hu&ydot; hadden and trewe</l>
+                        />&slong;e hu&ydot; wenden bi þe weiȝe<pc> &punctelev; </pc><hi
+                            rend="touched-red">&slong;</hi>o gret loue hu&ydot; hadden and trewe</l>
+                    <!-- folio 36b -->
+                    <pb n="36v"/>
+                    <fw type="guideLetters" place="topCenter">14&middot;</fw>
+                    <fw type="guideWords" place="topCenter">Iames</fw>
+                    <fw type="guideLetters" place="topRight">14</fw>
+                    <fw type="fol" place="topRight">37</fw>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3f.207"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd so guod heo&rrot;te ech to oþur hadde<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>at a fo&rrot;eward hu&ydot; mauden newe</l>
-                    <!-- folio 36b -->
                     <l xml:id="bodllaudmisc108.3f.208"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at non ne scholde failli oþur<pc> &punctelev; </pc><hi rend="touched-red"
                             >i</hi>n perile ne in neode</l>
@@ -1089,30 +1223,42 @@ Last Update: Feb 2 2015. -->
                         þe cite of <name type="place" ref="#locToulouse01">Tolouse</name><pc>
                             &punctelev; </pc><hi rend="touched-red">a</hi><sg/>ȝein eue hu&ydot; hem
                         kende</l>
+                    <!-- folio 37 -->
+                    <pb n="37r"/>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3f.252"><hi rend="touched-red">A</hi><sg type="ln"/>l
                         niȝht hu&ydot; bi<sg/>lefden þere<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>t ane luþere mannes <choice>
+                            rend="touched-red">a</hi>t ane luþere manne&slong; <choice>
                             <orig>Inne</orig>
                             <reg>inne</reg>
                         </choice></l>
-                    <!-- folio 37-->
                     <l xml:id="bodllaudmisc108.3f.253"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        þouȝte with ȝwuche tricherie<pc> &punctelev; </pc><hi rend="touched-red"
-                            >h</hi>e miȝhte panewes winne</l>
-                    <l xml:id="bodllaudmisc108.3f.254"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">N</hi><sg type="ln"/>ou was þe lawe in þulke
-                            &slong;tude<pc> &punctelev; </pc><hi rend="touched-red">a</hi>s þe
-                        schrewe wel onder<sg/>&slong;tod</l>
+                        þouȝte with ȝwuche <choice>
+                            <orig>t<am>&combtildevert;</am>cherie</orig>
+                            <reg>t<ex>ri</ex>cherie</reg>
+                        </choice><pc> &punctelev; </pc><hi rend="touched-red">h</hi>e miȝhte
+                        panewe&slong; winne</l>
+                    <l xml:id="bodllaudmisc108.3f.254"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">N</hi><sg type="ln"/>ou wa&slong; þe lawe in þulke
+                            &slong;tude<pc> &punctelev; </pc><hi rend="touched-red"
+                            >a</hi>&slong;<sg> </sg>þe &slong;ch&rrot;ewe wel
+                        onder<sg/>&slong;tod</l>
                     <l xml:id="bodllaudmisc108.3f.255"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at ho<sg/>so an<sg/>hengue anine<note type="enc" resp="#bioHO001"><hi
-                                rend="touched-red">[</hi>r. anne]</note> man<pc> &punctelev;
-                            </pc><hi rend="touched-red">h</hi>e scholde habbe al is guod</l>
+                        />at ho<sg/>&slong;o an<sg/>hengue <choice>
+                            <sic>anine</sic>
+                            <corr resp="#bioHO0001">anne</corr>
+                        </choice> man<pc> &punctelev; </pc><hi rend="touched-red">h</hi>e scholde
+                        habbe al is guod<note type="text" resp="#bioKL0001">Horstmann corrects
+                            "anine" to "anne", but "ani" is another possibility. It seems likely
+                            that the latter was what the scribe first intended. If he intended to
+                            correct the word to "anne", he left no deletion mark for the
+                        "i".</note></l>
                     <l xml:id="bodllaudmisc108.3f.256"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
-                        schrewe heom made fair semblaunt<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>se is manere was to done</l>
+                        sch&rrot;ewe heom made fair &slong;emblaunt<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e is manere wa&slong; to done</l>
                     <l xml:id="bodllaudmisc108.3f.257"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at hu&ydot; were fo&rrot;<sg/>d&rrot;onke beie<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd a<sg/>slepe leiȝen sone</l>
+                            rend="touched-red">a</hi>nd a<sg/>&slong;lepe leiȝen &slong;one</l>
                     <l xml:id="bodllaudmisc108.3f.258"><hi rend="touched-red">A</hi><sg type="ln"/>
                         coppe of seluer &slong;tilleliche<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>is luþere <choice>
@@ -1120,119 +1266,133 @@ Last Update: Feb 2 2015. -->
                             <reg>man</reg>
                         </choice> gan b&rrot;ingue</l>
                     <l xml:id="bodllaudmisc108.3f.259"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd dude in heo&rrot;e schrippe softeliche<pc> &punctelev; </pc><hi
+                        />nd dude in heo&rrot;e schrippe &slong;ofteliche<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi><sg/>mong heo&rrot;e oþur þingue</l>
-                    <l xml:id="bodllaudmisc108.3f.260"><hi rend="h0 red-ink">&para;</hi><hi
+                    <l xml:id="bodllaudmisc108.3f.260"><hi rend="blue-ink">&para;</hi><hi
                             rend="touched-red">Þ</hi><sg type="ln"/>is guode <choice>
                             <orig>Man</orig>
                             <reg>man</reg>
-                        </choice> a<sg/>wok and is sone<pc> &punctelev; </pc><hi rend="touched-red"
-                            >s</hi>o sone so it dai was</l>
+                        </choice> a<sg/>wok and is &slong;one<pc> &punctelev; </pc><hi
+                            rend="touched-red">&slong;</hi>o &slong;one &slong;o it <add
+                            place="supralinear">&dsol;</add><add place="sublinear">&dsol;</add><seg
+                            xml:id="line260b2">wa&slong;</seg>
+                        <add place="supralinear">&dsol;</add><seg xml:id="line260b1">dai</seg><add
+                            place="sublinear">&dsol;</add></l>
+                    <listTranspose>
+                        <transpose>
+                            <ptr target="#line260b2"/>
+                            <ptr target="#line260b1"/>
+                        </transpose>
+                    </listTranspose>
                     <l xml:id="bodllaudmisc108.3f.261"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd nomen heo&rrot;e leue and wenden fo&rrot;th<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd nu&slong;ten nouȝt of þat cas</l>
                     <l xml:id="bodllaudmisc108.3f.262"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
-                        hu&ydot; come with<sg/>oute toune a lu&ydot;te<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>is luþere man aftur cam</l>
+                        hu&ydot; come with<sg/>oute toune a<sg> </sg>lu&ydot;te<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>i&slong; luþere man aftur cam</l>
                     <l xml:id="bodllaudmisc108.3f.263"><hi rend="touched-red">h</hi><sg type="ln"
-                        />otinde out with grete siwte<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd þis trewe men beie he nam</l>
+                        />otinde out with grete &slong;iwte<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd þis trewe men beie he nam</l>
                     <l xml:id="bodllaudmisc108.3f.264"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd seide hu&ydot; hadden is coppe i<sg/>&slong;tole<pc> &punctelev;
-                            </pc><hi rend="touched-red">a</hi>nd in heo&rrot;e scrippe
+                        />nd &slong;eide hu&ydot; hadden is coppe i<sg/>&slong;tole<pc> &punctelev;
+                            </pc><hi rend="touched-red">a</hi>nd in heo&rrot;e &slong;crippe
                         i<sg/>bounde</l>
                     <l xml:id="bodllaudmisc108.3f.265"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at folk þis i<sg/>liefde a<sg/>non<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>o hu&ydot; þe coppe founde</l>
-                    <l xml:id="bodllaudmisc108.3f.266"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">Þ</hi><sg type="ln"/>is pilegrimes þei hu&ydot;
+                    <l xml:id="bodllaudmisc108.3f.266"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">Þ</hi><sg type="ln"/>is pilegrime&slong; þei hu&ydot;
                         treowe weren<pc> &punctelev; </pc><hi rend="touched-red">t</hi>o dome weren
                         i<sg/>b&rrot;ouȝt</l>
                     <l xml:id="bodllaudmisc108.3f.267"><hi rend="touched-red">E</hi><sg type="ln"
-                        />che manere þeofþe hu&ydot; fur<sg/>soken<pc> &punctelev; </pc><hi
+                        />che manere þeofþe hu&ydot; fur<sg/>&slong;oken<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>ke þat folk ne liefde heom nouȝt</l>
                     <l xml:id="bodllaudmisc108.3f.268"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot; hu&ydot; weren i<sg/>nome hond habbinde<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>e court lokede a<sg/>non</l>
                     <l xml:id="bodllaudmisc108.3f.269"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at hu&ydot; heo&rrot;e dom with heom beren<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd hangu&ydot; scholde þat on</l>
-                    <l xml:id="bodllaudmisc108.3f.270"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">A</hi><sg type="ln"/>las alas þe fader seide<pc>
-                            &punctelev; </pc><hi rend="touched-red">ȝ</hi>weþur i schulle novþe
-                        hongue</l>
+                            rend="touched-red">a</hi>nd hangu&ydot; &slong;cholde þat on</l>
+                    <l xml:id="bodllaudmisc108.3f.270"><hi rend="h2 blue-ink">&para;</hi><hi
+                            rend="touched-red">A</hi><sg type="ln"/>las alas þe fader
+                            &slong;eide<pc> &punctelev; </pc><add place="supralinear">ȝ</add><hi
+                            rend="touched-red">w</hi>eþur i &slong;chulle novþe hongue</l>
                     <l xml:id="bodllaudmisc108.3f.271"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd are ich habbe <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> i<sg/>souȝt<pc>
-                            &punctelev; </pc><hi rend="touched-red">þ</hi>is file dethþ
-                        a<sg/>fongue?</l>
+                        <name type="person" ref="#bioJames0001">Ieme</name> i<sg/>&slong;ouȝt<pc>
+                            &punctelev; </pc><hi rend="touched-red">þ</hi>i&slong; file dethþ
+                        a<sg/>fongue</l>
                     <l xml:id="bodllaudmisc108.3f.272"><hi rend="touched-red">N</hi><sg type="ln"
-                        />ai certes quath is sone<pc> &punctelev; </pc><hi rend="touched-red"
-                        >þ</hi>at nolde ich graunti þe</l>
+                        />ai certe&slong; quath is &slong;one<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at nolde ich g<add place="supralinear"
+                        >r</add>aunti þe</l>
                     <l xml:id="bodllaudmisc108.3f.273"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot; to beo louerd of al þe wo&rrot;ld<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>at þov deide&slong;t bi<sg/>fo&rrot;e me</l>
                     <l xml:id="bodllaudmisc108.3f.274"><hi rend="touched-red">h</hi><sg type="ln"
-                        />angu&ydot; ichulle fo&rrot; us boþe<pc> &punctelev; </pc><hi
+                        />angu&ydot; ichulle fo&rrot; u&slong; boþe<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>ene deth i<sg/>nelle nouȝt
-                        fo&rrot;<sg/>sake</l>
+                        fo&rrot;<sg/>&slong;ake</l>
                     <l xml:id="bodllaudmisc108.3f.275"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd al<sg/>so wis ase we gultlese beoth<pc> &punctelev; </pc><hi
-                            rend="touched-red">m</hi>ine soule ich <choice>
+                        />nd al&slong;o wi&slong; a&slong;e we gultle&slong;e beoth<pc> &punctelev;
+                            </pc><hi rend="touched-red">m</hi>ine &slong;oule ich <choice>
                             <orig>god</orig>
                             <reg>God</reg>
                         </choice> bi<sg/>take</l>
                     <l xml:id="bodllaudmisc108.3f.276"><hi rend="touched-red">A</hi><sg type="ln"/>
-                        mi leoue sone quath þe fader<pc> &punctelev; </pc><hi rend="touched-red"
-                            >s</hi>o ne schal it nouȝt beo</l>
+                        mi leoue &slong;one quath þe fader<pc> &punctelev; </pc><hi
+                            rend="touched-red">s</hi>o ne &slong;chal it nouȝt beo</l>
                     <l xml:id="bodllaudmisc108.3f.277"><hi rend="touched-red">S</hi><sg type="ln"
                         />cholde&slong;t þou deiȝe and ich libbe<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi><sg/>nelle neuere þane da&ydot; i<sg/>seo</l>
+                            rend="touched-red">i</hi><sg/>nelle neuere þane da&ydot;
+                        i<sg/>&slong;eo</l>
                     <l xml:id="bodllaudmisc108.3f.278"><hi rend="touched-red">S</hi><sg type="ln"
-                        />wuch a child touward as þou art<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi><sg/>loked it were wroþe</l>
+                        />wuch a child touward a&slong; þou art<pc> &punctelev; </pc><hi
+                            rend="touched-red">i</hi><sg/>loked it were w&rrot;oþe</l>
                     <l xml:id="bodllaudmisc108.3f.279"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at þov scholde&slong;t hangu&ydot; and ich libbe<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi>chulle hang&ydot; fo&rrot; us boþe</l>
+                        />at þov &slong;cholde&slong;t hangu&ydot; and ich libbe<pc> &punctelev;
+                            </pc><hi rend="touched-red">i</hi>chulle hang&ydot; fo&rrot; us boþe</l>
                     <l xml:id="bodllaudmisc108.3f.280"><hi rend="touched-red">A</hi><sg type="ln"/>
-                        fader fader quath þe sone<pc> &punctelev; </pc><hi rend="touched-red"
-                        >b</hi>e &slong;tille ich bidde þe</l>
+                        fader fader quath þe &slong;one<pc> &punctelev; </pc><hi rend="touched-red"
+                            >b</hi>e &slong;tille ich bidde þe</l>
                     <l xml:id="bodllaudmisc108.3f.281"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot; I nelle neuere þane da&ydot; a<sg/>bide<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at þou schulle hongue bi<sg/>fo&rrot;e me</l>
-                    <l xml:id="bodllaudmisc108.3f.282"><hi rend="h0 red-ink">&para;</hi><hi
+                            rend="touched-red">þ</hi>at þou &slong;chulle hongue bi<sg/>fo&rrot;e
+                        me</l>
+                    <l xml:id="bodllaudmisc108.3f.282"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">A</hi><sg type="ln"/>ke go þane we&ydot; fo&rrot; us
                             boþe<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd ichulle
                         hang&ydot; fo&rrot; us be&ydot;e</l>
                     <l xml:id="bodllaudmisc108.3f.283"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd bide <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> þat he me graunti<pc>
-                            &punctelev; </pc><hi rend="touched-red">s</hi>um part of þine
-                        we&ydot;e.</l>
+                            &punctelev; </pc><hi rend="touched-red">&slong;</hi>um part of þine
+                        we&ydot;e</l>
                     <l xml:id="bodllaudmisc108.3f.284"><hi rend="touched-red">B</hi><sg type="ln"
                         />i<sg/>twene þe fader and þe sone<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>e &slong;triuingue la&slong;te longue</l>
                     <l xml:id="bodllaudmisc108.3f.285"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at ech man hadde deol þerof<pc> &punctelev; </pc><hi rend="touched-red"
+                        />at ech man hadde deol þerof<pc> &punctelev; </pc><hi rend="pointed-red"
                             >ȝ</hi>weþur scholde þene dethþ a<sg/>fongue</l>
                     <l xml:id="bodllaudmisc108.3f.286"><hi rend="touched-red">S</hi><sg type="ln"/>o
                         þat it ful atþenende<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>ei it
-                        were with wrongue</l>
+                        were with w&rrot;ongue</l>
                     <l xml:id="bodllaudmisc108.3f.287"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at þe sone fo&rrot; heom beiȝe<pc> &punctelev; </pc><hi rend="touched-red"
-                            >g</hi>ulteles was an<sg/>hongue</l>
+                        />at þe &slong;one fo&rrot; heom beiȝe<pc> &punctelev; </pc><hi
+                            rend="touched-red">g</hi>ulteles wa&slong; an<sg/>hongue</l>
                     <l xml:id="bodllaudmisc108.3f.288"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">A</hi><sg type="ln"/>las alas þe deolfole cas<pc>
-                            &punctelev; </pc><hi rend="touched-red">t</hi>o heo&rrot;e so muche
-                        falshede</l>
+                            rend="touched-red">A</hi><sg type="ln"
+                            />las<pc>&middot;</pc>alas<pc>&middot;</pc>þe deolfole cas<pc>
+                            &punctelev; </pc><hi rend="touched-red">t</hi>o heo&rrot;e &slong;o
+                        muche fal&slong;hede</l>
                     <l xml:id="bodllaudmisc108.3f.289"><hi rend="touched-red">W</hi><sg type="ln"
-                        />el ȝeo&rrot;ne boþe fader and sone<pc> &punctelev; </pc><choice>
+                        />el ȝeo&rrot;ne boþe fader and &slong;one<pc> &punctelev; </pc><choice>
                             <orig><hi rend="touched-red">s</hi>eint</orig>
                             <reg>Seint</reg>
                         </choice>
@@ -1241,24 +1401,25 @@ Last Update: Feb 2 2015. -->
                         />elle louerd þe deol of þe fader<pc> &punctelev; </pc><hi
                             rend="touched-red">g</hi>retto&rrot;e neuere non nas</l>
                     <l xml:id="bodllaudmisc108.3f.291"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
-                        he isaiȝ is sone an<sg/>hongue<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd fo&rrot; he gulteles was</l>
+                        he i&slong;aiȝ is &slong;one an<sg/>hongue<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd fo&rrot; he gultele&slong; was</l>
                     <l xml:id="bodllaudmisc108.3f.292"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        bi<sg/>te&ydot;ȝte is soule Iesu <choice>
+                        bi<sg/>te&ydot;ȝte is &slong;oule Ie&slong;u <choice>
                             <orig>cri&slong;t</orig>
                             <reg>Crist</reg>
-                        </choice><pc> &punctelev; </pc><hi rend="touched-red">þ</hi>o þare nas non
-                        oþur won</l>
+                        </choice><pc> &punctelev; </pc><hi rend="touched-red">þ</hi>o þare na&slong;
+                        non oþur won</l>
                     <l xml:id="bodllaudmisc108.3f.293"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd is wei with so&rrot;ewe i<sg/>nov<pc> &punctelev; </pc><hi
+                        />nd is wei with &slong;o&rrot;ewe i<sg/>nov<pc> &punctelev; </pc><hi
                             rend="touched-red">t</hi>o <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Iemes</name> he gan gon</l>
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> he gan gon</l>
                     <l xml:id="bodllaudmisc108.3f.294"><hi rend="touched-red">A</hi><sg type="ln"
-                        />lso wel fo&rrot; is sone ase fo&rrot; him<pc> &punctelev; </pc><choice>
-                            <orig><hi rend="touched-red">s</hi>eint</orig>
+                        />l&slong;o wel fo&rrot; is &slong;one a&slong;e fo&rrot; him<pc>
+                            &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red">&slong;</hi>eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> he bad fa&slong;te</l>
@@ -1266,26 +1427,29 @@ Last Update: Feb 2 2015. -->
                         />nd wende þo he hadde al ido<pc> &punctelev; </pc><hi rend="touched-red"
                             >h</hi>amward at þe la&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.296"><hi rend="touched-red">A</hi><sg type="ln"
-                        />re he come þare is sone was<pc> &punctelev; </pc><hi rend="touched-red"
-                            >h</hi>im þouȝte sw&ydot;þe longue</l>
-                    <l xml:id="bodllaudmisc108.3f.297"><hi rend="touched-red">Ȝ</hi><sg type="ln"
-                        />if he miȝhte finde oþur i<sg/>seo<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>ni lime of him hongue</l>
+                        />re he come þare is<sg> </sg>&slong;one was<pc> &punctelev; </pc><hi
+                            rend="touched-red">h</hi>im þouȝte sw&ydot;þe longue</l>
                     <!-- folio 37b -->
+                    <pb n="37v"/>
+                    <fw type="guideWords" place="topLeft"><unclear>...</unclear></fw>
+                    <fw type="guideLetters" place="topCenter">&middot;14&middot;</fw>
+                    <cb n="1"/>
+                    <l xml:id="bodllaudmisc108.3f.297"><hi rend="touched-red">Ȝ</hi><sg type="ln"
+                        />if he miȝhte finde oþur i<sg/>&slong;eo<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>ni lime of him hongue</l>
                     <l xml:id="bodllaudmisc108.3f.298"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; þe lawe was þere þat euerech man<pc> &punctelev; </pc><hi
+                        />o&rrot; þe lawe wa&slong; þere þat euerech man<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>at an<sg/>hangued were</l>
                     <l xml:id="bodllaudmisc108.3f.299"><hi rend="touched-red">h</hi><sg type="ln"
-                        />angu&ydot; scholde þe ȝw&ydot;le i<sg/>la&slong;te<note type="enc"
-                            resp="#bioHO001"><hi rend="touched-red">[</hi><hi rend="italic">al.</hi>
-                            he la&slong;te]</note><pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd fo&rrot;<sg/>to ech lime fram oþur to<sg/>tere</l>
-                    <l xml:id="bodllaudmisc108.3f.300"><hi rend="h0 red-ink">&para;</hi><hi
+                        />angu&ydot; &slong;cholde þe ȝw&ydot;le i<sg/>la&slong;te<pc> &punctelev;
+                            </pc><hi rend="touched-red">a</hi>nd fo&rrot;<sg/>to ech lime fram oþur
+                        to<sg/>tere</l>
+                    <l xml:id="bodllaudmisc108.3f.300"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">Þ</hi><sg type="ln"/>is ȝoungue <choice>
                             <orig>Man</orig>
                             <reg>man</reg>
-                        </choice> sixe and þritti dawes<pc> &punctelev; </pc><hi rend="touched-red"
-                            >h</hi>eng up<sg/>on þe galu<sg/>treo</l>
+                        </choice> sixe and þ&rrot;itti dawe&slong;<pc> &punctelev; </pc><hi
+                            rend="touched-red">h</hi>eng up<sg/>on þe galu<sg/>treo</l>
                     <l xml:id="bodllaudmisc108.3f.301"><hi rend="touched-red">A</hi><sg type="ln"
                         />re is fader a<sg/>ȝein to him come<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>at i<sg/>roted he auȝte to beo</l>
@@ -1293,20 +1457,20 @@ Last Update: Feb 2 2015. -->
                         cam and fond him ȝu&ydot;t<pc> &punctelev; </pc><hi rend="touched-red"
                             >a</hi>nd ner him he gan teo</l>
                     <l xml:id="bodllaudmisc108.3f.303"><hi rend="touched-red">h</hi><sg type="ln"/>e
-                        weop and criede and wrong is hondene<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at deol it was to seo</l>
-                    <l xml:id="bodllaudmisc108.3f.304"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">L</hi><sg type="ln"/>eoue fader þe sone seide<pc>
-                            &punctelev; </pc><hi rend="touched-red">n</hi>e weop þou nouȝt to
-                        bliue</l>
+                        weop and criede and w&rrot;ong is hondene<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at deol it wa&slong; to seo</l>
+                    <l xml:id="bodllaudmisc108.3f.304"><hi rend="h2 blue-ink">&para;</hi><hi
+                            rend="touched-red">L</hi><sg type="ln"/>eoue fader þe sone
+                            &slong;eide<pc> &punctelev; </pc><hi rend="touched-red">n</hi>e weop þou
+                        nouȝt to bliue</l>
                     <l xml:id="bodllaudmisc108.3f.305"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot; ich nam to bi<sg/>weope nouȝt<pc> &punctelev; </pc><hi
                             rend="touched-red">ȝ</hi>eot ich am a<sg/>liue</l>
                     <l xml:id="bodllaudmisc108.3f.306"><hi rend="touched-red">M</hi><sg type="ln"/>e
-                        nas neuere on eo&rrot;þe so wel<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>se me hath sethþe i<sg/>beo</l>
+                        na&slong; neuere on eo&rrot;þe &slong;o wel<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>&slong;e me hath &slong;ethþe ibeo</l>
                     <l xml:id="bodllaudmisc108.3f.307"><hi rend="touched-red">I</hi><sg type="ln"
-                        />ch am ase þei ich were in heouene<pc> &punctelev; </pc><hi
+                        />ch am a&slong;e þei ich were in heouene<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>ei ich hangu&ydot; here on þis treo</l>
                     <l xml:id="bodllaudmisc108.3f.308"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot; <choice>
@@ -1319,7 +1483,7 @@ Last Update: Feb 2 2015. -->
                             <reg>ioye</reg>
                         </choice> i<sg/>novȝ me dieth make</l>
                     <l xml:id="bodllaudmisc108.3f.309"><hi rend="touched-red">M</hi><sg type="ln"/>e
-                        of<sg/>þuncheth þat þou so sone come<pc> &punctelev; </pc><hi
+                        of<sg/>þuncheth þat þou &slong;o &slong;one come<pc> &punctelev; </pc><hi
                             rend="touched-red">l</hi>a&slong;te þov me a<sg/>doun take</l>
                     <l xml:id="bodllaudmisc108.3f.310"><hi rend="touched-red">L</hi><sg type="ln"
                         />ouerd þe <choice>
@@ -1329,16 +1493,16 @@ Last Update: Feb 2 2015. -->
                         >h</hi>adde þulke &slong;tounde</l>
                     <l xml:id="bodllaudmisc108.3f.311"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
                         he aftur al is so&rrot;<pc> &punctelev; </pc><hi rend="touched-red">h</hi>is
-                        sone a<sg/>liue founde</l>
-                    <l xml:id="bodllaudmisc108.3f.312"><hi rend="h0 red-ink">&para;</hi><hi
+                        &slong;one a<sg/>liue founde</l>
+                    <l xml:id="bodllaudmisc108.3f.312"><hi rend="h3 red-ink">&para;</hi><hi
                             rend="touched-red">T</hi><sg type="ln"/>o toune he o&rrot;n with <choice>
-                            <orig>Io&ydot;e</orig>
+                            <orig><hi rend="touched-red">I</hi>o&ydot;e</orig>
                             <reg>ioye</reg>
                         </choice> i<sg/>nouȝ<pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd
                         cleopede folk wel fa&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.313"><hi rend="touched-red">M</hi><sg type="ln"
-                        />uche folk him siwede and al þe soþe<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi><sg/>seiȝen atþe la&slong;te</l>
+                        />uche folk him &slong;iwede and al þe &slong;oþe<pc> &punctelev; </pc><hi
+                            rend="touched-red">i</hi>&slong;eiȝen atþe la&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.314"><hi rend="touched-red">W</hi><sg type="ln"
                         />ithþ gret <choice>
                             <orig>Io&ydot;e</orig>
@@ -1347,18 +1511,19 @@ Last Update: Feb 2 2015. -->
                             rend="touched-red">a</hi>nd to þe toune him b&rrot;ouȝten</l>
                     <l xml:id="bodllaudmisc108.3f.315"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />ene traitur þat him maude an<sg/>hongue<pc> &punctelev; </pc><hi
-                            rend="touched-red">w</hi>el sone out hu&ydot; souȝten</l>
+                            rend="touched-red">w</hi>el &slong;one out hu&ydot; &slong;ouȝten</l>
                     <l xml:id="bodllaudmisc108.3f.316"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd an<sg/>henguen him wel heiȝe a<sg/>non<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd nouȝt bote he wu&ydot;rþe were</l>
+                            rend="touched-red">a</hi>nd nouȝt bote he wu&ydot;&rrot;þe<sg
+                        > </sg>were</l>
                     <l xml:id="bodllaudmisc108.3f.317"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />us <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> þe holie man<pc>
                             &punctelev; </pc><hi rend="touched-red">i</hi>s pilegrim halp þere</l>
-                    <l xml:id="bodllaudmisc108.3f.318"><hi rend="h0 red-ink">&para;</hi><hi
+                    <l xml:id="bodllaudmisc108.3f.318"><hi rend="h3 blue-ink">&para;</hi><hi
                             rend="touched-red">I</hi><sg type="ln"/>n þe <choice>
                             <orig>Cite</orig>
                             <reg>cite</reg>
@@ -1366,95 +1531,102 @@ Last Update: Feb 2 2015. -->
                                 <orig>leouns</orig>
                                 <reg>Leouns</reg>
                             </choice></name><pc> &punctelev; </pc><hi rend="touched-red">a</hi>
-                        ȝoung man þare was al<sg/>so</l>
+                        ȝoung man þare wa&slong; al<sg/>&slong;o</l>
                     <l xml:id="bodllaudmisc108.3f.319"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at ofte wende to <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Iemes</name><pc> &punctelev;
                             </pc><hi rend="touched-red">a</hi>nd gret loue hadde þar<sg/>to</l>
                     <l xml:id="bodllaudmisc108.3f.320"><hi rend="touched-red">A</hi><sg type="ln"/>t
-                        one t&ydot;me ase he þudere wolde<pc> &punctelev; </pc><hi
+                        one t&ydot;me a&slong;e he þudere wolde<pc> &punctelev; </pc><hi
                             rend="touched-red">h</hi>e dude er ane folie</l>
                     <l xml:id="bodllaudmisc108.3f.321"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />at manie <choice>
                             <orig>Men</orig>
                             <reg>men</reg>
                         </choice> to helle b&rrot;ingueth<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>e sunne of lecherie</l>
+                            rend="touched-red">þ</hi>e &slong;unne of lecherie</l>
                     <l xml:id="bodllaudmisc108.3f.322"><hi rend="touched-red">T</hi><sg type="ln"
                         />oward <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Iemes</name> he wende
+                        <name type="person" ref="#bioJames0001">Ieme&slong;</name> he wende
                             fo&rrot;thþ<pc> &punctelev; </pc><hi rend="touched-red">a</hi>re he
-                        i<sg/>schriue were</l>
+                        i<sg/>&slong;ch&rrot;iue were</l>
                     <l xml:id="bodllaudmisc108.3f.323"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
-                        deuel was wel ȝeo&rrot;ne a<sg/>boute<pc> &punctelev; </pc><hi
-                            rend="touched-red">ȝ</hi>if he miȝhte him mis<sg/>lere</l>
-                    <l xml:id="bodllaudmisc108.3f.324"><hi rend="h0 red-ink">&para;</hi><hi
+                        deuel wa&slong; wel ȝeo&rrot;ne a<sg/>boute<pc> &punctelev; </pc><hi
+                            rend="touched-red">ȝ</hi>if he miȝhte him mi&slong;<sg/>lere</l>
+                    <l xml:id="bodllaudmisc108.3f.324"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">A</hi><sg type="ln"/>ȝein him he cam in þe wei<pc>
-                            &punctelev; </pc><hi rend="touched-red">s</hi>wiþe milde and softe</l>
+                            &punctelev; </pc><hi rend="touched-red">&slong;</hi>wiþe milde and
+                        &slong;ofte</l>
                     <l xml:id="bodllaudmisc108.3f.325"><hi rend="touched-red">R</hi><sg type="ln"
-                        />iȝht ase it <choice>
-                            <orig>seint</orig>
+                        />iȝht a&slong;e it <choice>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> were<pc> &punctelev;
-                            </pc><hi rend="touched-red">a</hi>se þe schrewe g&ydot;leth men wel
-                        ofte</l>
+                            </pc><hi rend="touched-red">a</hi>&slong;e þe &slong;ch&rrot;ewe
+                        g&ydot;leth men wel ofte</l>
                     <l xml:id="bodllaudmisc108.3f.326"><hi rend="touched-red">Ȝ</hi><sg type="ln"
-                        />wo&slong;t þou euere he seide ho ich am<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>e ȝoungue man seide na&ydot;</l>
+                        />wo&slong;t þou euere he &slong;eide ho ich am<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>e ȝoungue man &slong;eide na&ydot;</l>
                     <l xml:id="bodllaudmisc108.3f.327"><hi rend="touched-red">I</hi><sg type="ln"
-                        />cham þilke he seide þat þov ha&slong;t<pc> &punctelev; </pc><hi
-                            rend="touched-red">I</hi><sg/>serued wel mani a da&ydot;</l>
+                        />cham þilke he &slong;eide þat þov ha&slong;t<pc> &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red">I</hi><sg/>&slong;erued</orig>
+                            <reg>iserued</reg>
+                        </choice> wel mani a da&ydot;</l>
                     <l xml:id="bodllaudmisc108.3f.328"><hi rend="touched-red">S</hi><sg type="ln"
                         />eint <name type="person" ref="#bioJames0001">Ieme</name> to<sg/>ward ȝwam
-                        þou art.<pc> &punctelev; </pc><hi rend="touched-red">I</hi> ne ma&ydot; make
+                        þou art<pc> &punctelev; </pc><hi rend="touched-red">I</hi> ne ma&ydot; make
                         no mone</l>
                     <l xml:id="bodllaudmisc108.3f.329"><hi rend="touched-red">O</hi><sg type="ln"/>f
                         þe þat þov wel ne de&slong;t<pc> &punctelev; </pc><hi rend="touched-red"
-                            >o</hi>f eche þingue bote of one </l>
+                            >o</hi>f eche þingue bote of one</l>
                     <l xml:id="bodllaudmisc108.3f.330"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at þou du&slong;t<note type="enc" resp="#bioHO001"><hi rend="touched-red"
-                                >[</hi>MS. dẹ<hi rend="Horstmann-superscript">u</hi>&slong;t;
-                            du&slong;t=dude&slong;t]</note> lecherie<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>re þou wende&slong;t to me</l>
+                        />at þou d<del rend="subpointed">e</del><add place="supralinear"
+                        >u</add>&slong;t lecherie<pc> &punctelev; </pc><hi rend="touched-red"
+                        >a</hi>re þou wende&slong;t to me</l>
                     <l xml:id="bodllaudmisc108.3f.331"><hi rend="touched-red">A</hi><sg type="ln"
                         />mong alle men ȝif þat nere<pc> &punctelev; </pc><hi rend="touched-red"
-                            >m</hi>e&slong;t ich p&rrot;eisie þe.</l>
-                    <l xml:id="bodllaudmisc108.3f.332"><hi rend="h0 red-ink">&para;</hi><hi
+                            >m</hi>e&slong;t ich p&rrot;ei&slong;ie þe</l>
+                    <l xml:id="bodllaudmisc108.3f.332"><hi rend="h3 blue-ink">&para;</hi><hi
                             rend="touched-red">S</hi><sg type="ln"/>eint <name type="person"
                             ref="#bioJames0001">Ieme</name> merci quath þis man<pc> &punctelev;
                             </pc><hi rend="touched-red">i</hi>ch crie þe milce and o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.333"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot;ȝif me þulke luþere sunne<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi><sg/>nelle don as neuereft mo&rrot;e.</l>
+                        />o&rrot;ȝif me þulke luþere &slong;unne<pc> &punctelev; </pc><hi
+                            rend="touched-red">i</hi><sg> </sg>nelle don a&slong; neuereft
+                        mo&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.334"><hi rend="touched-red">O</hi><sg type="ln"/>v
-                        beau frere quath þe schrewe<pc> &punctelev; </pc><hi rend="touched-red"
-                            >&slong;</hi>trong is þe mis<sg/>dede</l>
+                            <seg xml:lang="fr">beau frere</seg> quath þe &slong;ch&rrot;ewe<pc>
+                            &punctelev; </pc><hi rend="touched-red">&slong;</hi>trong is þe
+                        mi&slong;<sg/>dede</l>
                     <l xml:id="bodllaudmisc108.3f.335"><hi rend="touched-red">Þ</hi><sg type="ln"
                         />ov ne miȝht me neuere pa&ydot;e wel<pc> &punctelev; </pc><hi
-                            rend="touched-red">b</hi>ote þov do ase ich rede </l>
+                            rend="touched-red">b</hi>ote þov do a&slong;e ich rede </l>
                     <l xml:id="bodllaudmisc108.3f.336"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
-                        menb&rrot;e þov mo&slong;t keruen of<pc> &punctelev; </pc><hi
-                            rend="touched-red">ȝ</hi>ware<sg/>withþ þou i<sg/>sunegut ha&slong;t</l>
+                        menb&rrot;e þov mo&slong;t keruen of<pc> &punctelev; </pc>ȝ<hi
+                            rend="touched-red">w</hi>are<sg/>withþ þou i<sg/>&slong;unegut<add
+                            place="supralinear">|</add>ha&slong;t<pc>&middot;</pc></l>
                     <l xml:id="bodllaudmisc108.3f.337"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
-                        sunne ichulle fo&rrot;<sg/>ȝiue þe þanne<pc> &punctelev; </pc><hi
-                            rend="touched-red">ȝ</hi>wanne he is fram þe i<sg/>ca&slong;t</l>
+                        &slong;unne ichulle fo&rrot;<sg/>ȝiue þe þanne<pc> &punctelev; </pc><hi
+                            rend="touched-red">ȝ</hi>wanne he i&slong;<sg> </sg>fram þe
+                        ica&slong;t</l>
                     <l xml:id="bodllaudmisc108.3f.338"><hi rend="touched-red">A</hi><sg type="ln"/>k
-                        next me þou scholde&slong;t in <choice>
+                        next me þou &slong;cholde&slong;t in <choice>
                             <orig>Io&ydot;e</orig>
                             <reg>ioye</reg>
-                        </choice> beo<pc> &punctelev; </pc><hi rend="touched-red">i</hi>n þe blisse
-                        of heouene a<sg/>boue</l>
+                        </choice> beo<pc> &punctelev; </pc><hi rend="touched-red">i</hi>n þe
+                        bli&slong;&slong;e of heouene a<sg/>boue</l>
                     <l xml:id="bodllaudmisc108.3f.339"><hi rend="touched-red">Ȝ</hi><sg type="ln"
-                        />if þou wolde&slong;t beon a mart&ydot;r<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd þi<sg/>seolf martri fo&rrot; mi loue</l>
-                    <l xml:id="bodllaudmisc108.3f.340"><hi rend="h0 red-ink">&para;</hi><hi
+                        />if þou wolde&slong;t beon a mart&ydot;&rrot;<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd <hi rend="touched-red">þ</hi>i<sg/>seolf
+                        martri fo&rrot; mi loue</l>
+                    <l xml:id="bodllaudmisc108.3f.340"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">A</hi><sg type="ln"/> louerd <choice>
                             <orig>seint</orig>
                             <reg>Seint</reg>
@@ -1462,176 +1634,223 @@ Last Update: Feb 2 2015. -->
                         <name type="person" ref="#bioJames0001">Ieme</name> quath þis man<pc>
                             &punctelev; </pc><hi rend="touched-red">þ</hi>ov haue merci of me</l>
                     <l xml:id="bodllaudmisc108.3f.341"><hi rend="touched-red">I</hi><sg type="ln"
-                        />chulle mine sunnes to bete mi<sg/>sulf martri<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd fo&rrot;to pa&ydot;ȝe þe.</l>
+                        />chulle mine &slong;unne&slong; to bete mi<sg/>&slong;ulf martri<pc>
+                            &punctelev; </pc><hi rend="touched-red">a</hi>nd fo&rrot;to pa&ydot;ȝe
+                        þe</l>
+                    <!-- folio 38 -->
+                    <pb n="38r"/>
+                    <fw type="guideLetters" place="topCenter"><unclear>..</unclear></fw>
+                    <fw type="guideLetters" place="topCenter">&middot;14&middot;</fw>
+                    <fw type="guideWords" place="topCenter">Iames <choice>
+                            <orig>Ame<am>&combtilde;</am></orig>
+                            <reg>Amen</reg>
+                        </choice></fw>
+                    <fw type="fol" place="topRight">38</fw>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3f.342"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />is wrechche <choice>
+                        />i&slong; wrechche <choice>
                             <orig>Man</orig>
                             <reg>man</reg>
-                        </choice> carf of is memb&rrot;es<pc> &punctelev; </pc><hi
+                        </choice> carf of i&slong; memb&rrot;e&slong;<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>nd a<sg/>wei fram him ca&slong;te</l>
-                    <!-- folio 38 -->
                     <l xml:id="bodllaudmisc108.3f.343"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd sethþe þo&rrot;uȝ þe false þeues rede<pc> &punctelev; </pc><hi
-                            rend="touched-red">h</hi>im<sg/>self he a<sg/>slovȝ atþe la&slong;te</l>
+                        />nd &slong;ethþe þo&rrot;uȝ þe fal&slong;e þeue&slong; rede<pc> &punctelev;
+                            </pc><hi rend="touched-red">h</hi>im<sg/>&slong;elf he a<sg/>slovȝ atþe
+                        la&slong;te</l>
                     <l xml:id="bodllaudmisc108.3f.344"><hi rend="touched-red">F</hi><sg type="ln"
-                        />ul redi was þe schrewe þer<pc> &punctelev; </pc><hi rend="touched-red"
-                            >þ</hi>e soule he nam a<sg/>non</l>
+                        />ul redi wa&slong; þe &slong;ch&rrot;ewe þer<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>e &slong;oule he nam a<sg/>non</l>
                     <l xml:id="bodllaudmisc108.3f.345"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd wel glad þare<sg/>with in his manere<pc> &punctelev; </pc><hi
                             rend="touched-red">t</hi>o<sg/>ward helle he gan gon</l>
                     <l xml:id="bodllaudmisc108.3f.346"><hi rend="touched-red">N</hi><sg type="ln"/>e
                         fur<sg/>ȝat nouȝt <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> is pilegrim<pc>
-                            &punctelev; </pc><hi rend="touched-red">f</hi>o&rrot; þat cas þat him
-                        gan bi|tide </l>
+                        <name type="person" ref="#bioJames0001">Ieme</name> is <choice>
+                            <orig>pileg<am>&combtildevert;</am>m</orig>
+                            <reg>pileg<ex>ri</ex>m</reg>
+                        </choice><pc> &punctelev; </pc><hi rend="touched-red">f</hi>o&rrot; þat cas
+                        þat him gan <unclear reason="stained" agent="water">bitide</unclear></l>
                     <l xml:id="bodllaudmisc108.3f.347"><hi rend="touched-red">A</hi><sg type="ln"
                         />ȝein þe deuel he cam a<sg/>doun<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd bad þane schrewe a<sg/>bide</l>
+                            rend="touched-red">a</hi>nd bad þane &slong;ch&rrot;ewe a<sg/>bide</l>
                     <l xml:id="bodllaudmisc108.3f.348"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd seide þou ber&slong;t mo&rrot;e þane þin owe.<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at i schal ku&ydot;þe þe</l>
+                        />nd &slong;eide þou ber&slong;t mo&rrot;e þane þin owe<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>at i &slong;chal ku&ydot;þe þe</l>
                     <l xml:id="bodllaudmisc108.3f.349"><hi rend="touched-red">Ȝ</hi><sg type="ln"
-                        />wi ha&slong;t þou mine pilegrim bi<sg/>traid?<pc> &punctelev; </pc><hi
-                            rend="touched-red">g</hi>ret schame þou de&slong;t me.</l>
+                        />wi ha&slong;t þou mine <choice>
+                            <orig>pileg<am>&combtildevert;</am>m</orig>
+                            <reg>pileg<ex>ri</ex>m</reg>
+                        </choice> bi<sg/>traid?<pc> &punctelev; </pc><hi rend="touched-red"
+                        >g</hi>ret schame þou de&slong;t me</l>
                     <l xml:id="bodllaudmisc108.3f.350"><hi rend="touched-red">Ȝ</hi><sg type="ln"/>e
-                        al fo&rrot; nauȝt quath þe schrewe<pc> &punctelev; </pc><hi
+                        al fo&rrot; nauȝt quath þe &slong;ch&rrot;ewe<pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>ou art hidere i<sg/>come </l>
                     <l xml:id="bodllaudmisc108.3f.351"><hi rend="touched-red">I</hi><sg type="ln"/>n
-                        his sunne him<sg/>sulf he a<sg/>slouȝ<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd þare<sg/>with ich him habbe i<sg/>nome</l>
+                        his &slong;unne him<sg/>&slong;ulf he aslouȝ<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd þare<sg/>with ich him habbe inome</l>
                     <l xml:id="bodllaudmisc108.3f.352"><hi rend="touched-red">N</hi><sg type="ln"/>e
-                        ma&ydot; no man in dedlich sunne<pc> &punctelev; </pc><hi rend="touched-red"
-                            >i</hi>n<sg/>to heuene wende</l>
+                        ma&ydot; no man in dedlich &slong;unne<pc> &punctelev; </pc><hi
+                            rend="touched-red">i</hi>n<sg/>to heuene wende</l>
                     <l xml:id="bodllaudmisc108.3f.353"><hi rend="touched-red">A</hi><sg type="ln"
-                        />se wel þou miȝht gon hom a<sg/>ȝein<pc> &punctelev; </pc><hi
+                        />&slong;e wel þou miȝht gon hom a<sg/>ȝein<pc> &punctelev; </pc><hi
                             rend="touched-red">h</hi>e is min with<sg/>outen enden</l>
-                    <l xml:id="bodllaudmisc108.3f.354"><hi rend="h0 red-ink">&para;</hi><seg
+                    <l xml:id="bodllaudmisc108.3f.354"><hi rend="h3 blue-ink">&para;</hi><seg
                             xml:lang="fr"><hi rend="touched-red">B</hi><sg type="ln"/>el
                             am&ydot;</seg> quath <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name><pc> &punctelev; </pc><hi
                             rend="touched-red">þ</hi>ou bi<sg/>traide&slong;t him with
-                        fals<sg/>hede</l>
+                        fal&slong;<sg/>hede</l>
                     <l xml:id="bodllaudmisc108.3f.355"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd with tricherie þou to him come.<pc> &punctelev; </pc><hi
-                            rend="touched-red">l</hi>at him gon ich rede!</l>
+                        />nd with <choice>
+                            <orig>t<am>&combtildevert;</am>cherie</orig>
+                            <reg>t<ex>ri</ex>cherie</reg>
+                        </choice> þou to him come<pc> &punctelev; </pc><hi rend="touched-red"
+                        >l</hi>at him gon ich rede</l>
                     <l xml:id="bodllaudmisc108.3f.356"><hi rend="touched-red">I</hi><sg type="ln"
-                        />ch habbe leue quath þe schrewe<pc> &punctelev; </pc><hi rend="touched-red"
-                            >t</hi>o bi<sg/>g&ydot;li and bi<sg/>tra&ydot;e al<sg/>so</l>
+                        />ch habbe leue quath þe &slong;ch&rrot;ewe<pc> &punctelev; </pc><hi
+                            rend="touched-red">t</hi>o bi<sg/>g&ydot;li and bi<sg/>tra&ydot;e <add
+                            place="sublinear">&caret;</add><add place="supralinear">al</add>so</l>
                     <l xml:id="bodllaudmisc108.3f.357"><hi rend="touched-red">M</hi><sg type="ln"
-                        />id eche quointise þat ich mai.<pc> &punctelev; </pc><hi rend="touched-red"
-                            >ȝ</hi>wi wolde he aftur me do?</l>
+                        />id eche quointi&slong;e þat ich mai<pc> &punctelev; </pc><hi
+                            rend="touched-red">ȝ</hi>wi wolde he aftur me do</l>
                     <l xml:id="bodllaudmisc108.3f.358"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />is &slong;trif i<sg/>la&slong;te bi<sg/>twene hem longue.<pc> &punctelev;
+                        />is &slong;trif i<sg/>la&slong;te bi<sg/>twene hem longue<pc> &punctelev;
                             </pc><hi rend="touched-red">a</hi>ke þo <choice>
-                            <orig>seint</orig>
+                            <orig>&slong;eint</orig>
                             <reg>Seint</reg>
                         </choice>
                         <name type="person" ref="#bioJames0001">Ieme</name> ne miȝhte</l>
                     <l xml:id="bodllaudmisc108.3f.359"><hi rend="touched-red">h</hi><sg type="ln"
-                        />abbe þe soule ne with<sg/>inne him come<pc> &punctelev; </pc><hi
-                            rend="touched-red">w</hi>ith no resun ne riȝhte</l>
+                        />abbe þe &slong;oule ne with<sg/>inne him come<pc> &punctelev; </pc><hi
+                            rend="touched-red">w</hi>ith no re&slong;un ne riȝhte</l>
                     <l xml:id="bodllaudmisc108.3f.360"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />ou schalt he seide come with me<pc> &punctelev; </pc><hi
+                        />ou &slong;chalt he &slong;eide come with me<pc> &punctelev; </pc><hi
                             rend="touched-red">t</hi>o an herre <choice>
-                            <orig>Iu&slong;tise</orig>
+                            <orig>Iu&slong;ti&slong;e</orig>
                             <reg>iustise</reg>
                         </choice></l>
                     <l xml:id="bodllaudmisc108.3f.361"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at þe schal cu&ydot;þe þi tricherie<pc> &punctelev; </pc><hi
-                            rend="touched-red">o</hi>f ȝwam þe schal a<sg/>grise</l>
+                        />at þe &slong;chal cu&ydot;þe þi tricherie<pc> &punctelev; </pc><hi
+                            rend="touched-red">o</hi>f ȝwam þe schal <choice>
+                            <orig>a<sg/>g<am>&combtildevert;</am>se</orig>
+                            <reg>ag<ex>ri</ex>se</reg>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.362"><hi rend="touched-red">B</hi><sg type="ln"
-                        />i<sg/>fo&rrot;e o&rrot;e leuedi swete and milde<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>ane schrewe he gan lede</l>
+                        />i<sg/>fo&rrot;e o&rrot;e leuedi &slong;wete and milde<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>ane &slong;ch&rrot;ewe he gan lede</l>
                     <l xml:id="bodllaudmisc108.3f.363"><hi rend="touched-red">h</hi><sg type="ln"/>e
                         ȝal and quakede deolfulliche<pc> &punctelev; </pc><hi rend="touched-red"
-                            >þ</hi>o he i<sg/>seiȝ hire fo&rrot; d&rrot;ede</l>
-                    <l xml:id="bodllaudmisc108.3f.364"><hi rend="h0 red-ink">&para;</hi><hi
+                            >þ</hi>o he i<sg/>&slong;eiȝ hire fo&rrot; d&rrot;ede</l>
+                    <l xml:id="bodllaudmisc108.3f.364"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">Þ</hi><sg type="ln"/>ov luþere þing o&rrot;e leuedi
-                            seide<pc> &punctelev; </pc><hi rend="touched-red">ȝ</hi>wi
-                        fonde&slong;te in alle wise</l>
+                            &slong;eide<pc> &punctelev; </pc><hi rend="touched-red">ȝ</hi>wi
+                        fonde&slong;te in alle wi&slong;e</l>
                     <l xml:id="bodllaudmisc108.3f.365"><hi rend="touched-red">T</hi><sg type="ln"/>o
-                        bi<sg/>nime us and bi<sg/>traiȝe men<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at beth in ovre seruise</l>
+                        bi<sg/>nime u&slong; and bi<sg/>traiȝe men<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at beth in o<add place="supralinear">v</add>re
+                        &slong;erui&slong;e</l>
                     <l xml:id="bodllaudmisc108.3f.366"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />ou ne schalt neuere þe soule b&rrot;ouke<pc> &punctelev; </pc><hi
-                            rend="touched-red">f</hi>o&rrot; þine tricherie</l>
+                        />ou ne &slong;chalt neuere þe &slong;oule b&rrot;ouke<pc> &punctelev;
+                            </pc><hi rend="touched-red">f</hi>o&rrot; þine <choice>
+                            <orig>t<am>&combtildevert;</am>cherie</orig>
+                            <reg>t<ex>ri</ex>cherie</reg>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3f.367"><hi rend="touched-red">l</hi><sg type="ln"
-                        />eoue leuedi quath þe schrewe<pc> &punctelev; </pc><hi rend="touched-red"
-                            >m</hi>erci ich þe crie</l>
+                        />eoue leuedi quath þe &slong;ch&rrot;ewe<pc> &punctelev; </pc><hi
+                            rend="touched-red">m</hi>erci ich þe crie</l>
                     <l xml:id="bodllaudmisc108.3f.368"><hi rend="touched-red">V</hi><sg type="ln"
                         />nder<sg/>&slong;tond þat ich habbe leue<pc> &punctelev; </pc><hi
                             rend="touched-red">t</hi>o bi<sg/>g&ydot;lie men inouȝ</l>
                     <l xml:id="bodllaudmisc108.3f.369"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd þat ich fond him in dedlich sunne<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd þare<sg/>inne him<sg/>sulf he slov</l>
+                        />nd þat ich fond him in dedlich &slong;unne<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd þare<sg/>inne him<sg/>&slong;ulf he
+                        &slong;lov</l>
                     <l xml:id="bodllaudmisc108.3f.370"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd no man neuere in swuch cas<pc> &punctelev; </pc><hi rend="touched-red"
-                            >t</hi>o heuene come ne miȝhte</l>
+                        />nd no man neuere in &slong;wuch ca&slong;<pc> &punctelev; </pc><hi
+                            rend="touched-red">t</hi>o heuene come ne miȝhte</l>
                     <l xml:id="bodllaudmisc108.3f.371"><hi rend="touched-red">A</hi><sg type="ln"
-                        />se he is min mid alle lawe<pc> &punctelev; </pc><hi rend="touched-red"
-                            >h</hi>old me ich bidde to riȝhte!</l>
-                    <l xml:id="bodllaudmisc108.3f.372"><hi rend="h0 red-ink">&para;</hi><hi
+                        />&slong;e he i&slong; min mid alle lawe<pc> &punctelev; </pc><hi
+                            rend="touched-red">h</hi>old me ich bidde to riȝhte</l>
+                    <l xml:id="bodllaudmisc108.3f.372"><hi rend="blue-ink">&para;</hi><hi
                             rend="touched-red">Þ</hi><sg type="ln"/>ov luþere be&slong;t o&rrot;e
-                        leuedi seide<pc> &punctelev; </pc><hi rend="touched-red">t</hi>o muche ower
-                        pouwer is</l>
+                        leuedi &slong;eide<pc> &punctelev; </pc><hi rend="touched-red">t</hi>o muche
+                        ower pouwer is</l>
                     <l xml:id="bodllaudmisc108.3f.373"><hi rend="touched-red">A</hi><sg type="ln"
-                        />las þat men nellez beon i<sg/>war<pc> &punctelev; </pc><hi
+                        />la&slong; þat men nellez beon i<sg/>war<pc> &punctelev; </pc><hi
                             rend="touched-red">a</hi>re hu&ydot; don a<sg/>mis</l>
                     <l xml:id="bodllaudmisc108.3f.374"><hi rend="touched-red">A</hi><sg type="ln"
-                        />se þou mid þine tricherie<pc> &punctelev; </pc><hi rend="touched-red"
-                            >h</hi>is lijf him bi<sg/>nome</l>
+                        />&slong;e þou mid þine tricherie<pc> &punctelev; </pc><hi
+                            rend="touched-red">h</hi>is lijf him bi<sg/>nome</l>
                     <l xml:id="bodllaudmisc108.3f.375"><hi rend="touched-red">A</hi><sg type="ln"
-                        />l<sg/>so ichulle him ȝiuen a<sg/>ȝein<pc> &punctelev; </pc><hi
-                            rend="touched-red">i</hi>s lijf with riȝhte dome</l>
-                    <l xml:id="bodllaudmisc108.3f.376"><hi rend="touched-red">S</hi><sg type="ln"/>o
-                        þat þe ne tit of him no part<pc> &punctelev; </pc><hi rend="touched-red"
-                            >f</hi>o&rrot; guod man he wo[l] ȝeot be</l>
+                        />l<sg/>&slong;o ichulle him ȝiuen a<sg/>ȝein<pc> &punctelev; </pc>is lijf
+                        with riȝhte dome</l>
+                    <l xml:id="bodllaudmisc108.3f.376"><hi rend="touched-red">S</hi><sg type="ln"
+                            />o<sg> </sg>þat þe ne tit of him no part<pc> &punctelev; </pc><hi
+                            rend="touched-red">f</hi>o&rrot; guod man he <choice>
+                            <sic>wo</sic>
+                            <corr>wol</corr>
+                        </choice> ȝeot be</l>
                     <l xml:id="bodllaudmisc108.3f.377"><hi rend="touched-red">O</hi><sg type="ln"
-                        />re leuedi made þe soule a<sg/>non<pc> &punctelev; </pc><hi
-                            rend="touched-red">t</hi>o þe bodi aȝen fleo</l>
+                        />re leuedi made þe &slong;oule a<sg/>non<del rend="subpointed">o</del><pc>
+                            &punctelev; </pc><hi rend="touched-red">t</hi>o þe bodi aȝen fleo</l>
                     <l xml:id="bodllaudmisc108.3f.378"><hi rend="touched-red">F</hi><sg type="ln"
                         />ram deþe to liue he a<sg/>ros<pc> &punctelev; </pc><hi rend="touched-red"
                             >þ</hi>o&rrot;uȝ o&rrot;e leuedi o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.379"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd guod lijf ladde euere aftur<sg/>ward<pc> &punctelev; </pc><hi
-                            rend="touched-red">a</hi>nd þe deuel doutede þe mo&rrot;e</l>
-                    <l xml:id="bodllaudmisc108.3f.380"><hi rend="h0 red-ink">&para;</hi><hi
-                            rend="touched-red">H</hi><sg type="ln"/>is menb&rrot;es þat he carf
-                            of<pc> &punctelev; </pc><hi rend="touched-red">e</hi>uer<sg/>eft he dude
-                        misse</l>
+                            rend="touched-red">a</hi>nd þe <unclear reason="stained" agent="water"
+                            >de</unclear>uel <unclear reason="stained" agent="water"
+                        >do</unclear>utede þe mo&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.3f.380"><hi rend="h2 red-ink">&para;</hi><hi
+                            rend="touched-red">H</hi><sg type="ln"/>is menb&rrot;e&slong; þat he
+                        carf of<pc> &punctelev; </pc><hi rend="touched-red">e</hi>uer<sg/>eft he
+                        dude mi&slong;&slong;e</l>
                     <l xml:id="bodllaudmisc108.3f.381"><hi rend="touched-red">B</hi><sg type="ln"
-                        />ote a lu&ydot;tel wise ȝware<sg/>þo&rrot;uȝ he miȝhte<pc> &punctelev;
-                            </pc><hi rend="touched-red">ȝ</hi>wane he wolde pisse</l>
+                        />ote a lu&ydot;tel wi&slong;e ȝware þo&rrot;uȝ he miȝh<unclear
+                            reason="stained" agent="water">te</unclear><pc> &punctelev;
+                            </pc><unclear reason="stained" agent="water"><hi rend="touched-red"
+                                >ȝ</hi>wane</unclear> he wolde pi&slong;&slong;e</l>
                     <l xml:id="bodllaudmisc108.3f.382"><hi rend="touched-red">M</hi><sg type="ln"
                         />anie <choice>
                             <orig>Men</orig>
                             <reg>men</reg>
                         </choice> fo&rrot; þulke miracle<pc> &punctelev; </pc><hi rend="touched-red"
-                            >s</hi>eint <name type="person" ref="#bioJames0001">Ieme</name> louieth
-                        þe mo&rrot;e</l>
+                            >&slong;</hi>eint <name type="person" ref="#bioJames0001">Ieme</name>
+                        louieth þe mo&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.383"><hi rend="touched-red">N</hi><sg type="ln"
-                        />ou bidde we ȝeo&rrot;ne euerech<sg/>one<pc> &punctelev; </pc><choice>
-                            <orig><hi rend="touched-red">s</hi>eint</orig>
+                        />ou bidde we ȝeo&rrot;ne euer<add place="supralinear">e</add>ch<sg/>one<pc>
+                            &punctelev; </pc><choice>
+                            <orig><hi rend="touched-red">&slong;</hi>eint</orig>
                             <reg>Seint</reg>
                         </choice>
-                        <name type="person" ref="#bioJames0001">Ieme</name> milse and o&rrot;e</l>
+                        <name type="person" ref="#bioJames0001">Ieme</name>
+                        <unclear reason="stained" agent="water">mil</unclear>&slong;e and
+                        o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3f.384"><hi rend="touched-red">Þ</hi><sg type="ln"
-                        />at he fo&rrot; þat holie &slong;tude<pc> &punctelev; </pc><hi
-                            rend="touched-red">þ</hi>at he hath in <name type="place"
-                            ref="#locGalicia01"><choice>
+                        />at he fo&rrot; þat <unclear reason="stained" agent="water">holie</unclear>
+                            &slong;tude<pc> &punctelev; </pc><hi rend="touched-red">þ</hi>at he
+                            ha<unclear reason="stained" agent="water">t</unclear>h in <name
+                            type="place" ref="#locGalicia01"><choice>
                                 <orig>galiz</orig>
                                 <reg>Galiz</reg>
                             </choice></name></l>
                     <l xml:id="bodllaudmisc108.3f.385"><hi rend="touched-red">h</hi><sg type="ln"
-                        />elpe us and alle is pilegrimes<pc> &punctelev; </pc><hi rend="touched-red"
-                            >a</hi>nd b&rrot;ingue us to heouene blis</l>
+                            />e<unclear reason="stained" agent="water">l</unclear>pe u&slong; and
+                        alle is <choice>
+                            <orig>pileg<am>&combtildevert;</am>me&slong;</orig>
+                            <reg>pileg<ex>ri</ex>mes</reg>
+                        </choice><pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd b&rrot;ingue
+                        u&slong; to heouene blis</l>
+                    <note type="cod" resp="#bioKL0001">The last ten lines of the page and, to a
+                        lesser extent, the first fifteen lines show considerable water staining.
+                        Almost all the text is readable with high certainty, but some of the least
+                        clear words are indicated in the markup.</note>
                 </lg>
             </div1>
         </body>
