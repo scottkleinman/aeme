@@ -7,81 +7,172 @@
         <!-- Change log:
 Line numbers and litterae notabiliores have been added algorithmically. 
 Horstmann's punctuation is retained and his notes are contained in note[@type="enc"]. 
-Horstmann's superscripts are in retained as <hi rend="Horstmann-superscript">. 
-Last Update: Sept 30 2014. -->
+Horstmann's superscripts are in retained as <hi rend="Horstmann-superscript">.
+Basic pre-processing done.
+Named entities:
+#bioJames0001
+#bioPhilip0001
+#locScythia01
+Last Update: Mar 7 2014. -->
         <body>
             <div1>
                 <head>53 Apostolorum Philippi et Iacobi.</head>
                 <lg>
-                    <l xml:id="bodllaudmisc108.3aq.1">S<sg type="ln"/>Eint phelipe and seint Iacob :
-                        Apostles weren twei&yogh;e:</l>
-                    <l xml:id="bodllaudmisc108.3aq.2">&THORN;<sg type="ln"/>e formeste dai &thorn;at
-                        comez in may : deth huy &thorn;oleden bei&yogh;e.</l>
-                    <l xml:id="bodllaudmisc108.3aq.3">A<sg type="ln"/>ftur ore louerdes passione :
-                        in &thorn;e twenti&thorn;e &yogh;ere</l>
-                    <l xml:id="bodllaudmisc108.3aq.4">S<sg type="ln"/>eint phelipe prechede in
-                        Sythie : to men &thorn;at lu&thorn;ere weren. <!-- folio 156b --></l>
-                    <l xml:id="bodllaudmisc108.3aq.5">&THORN;<sg type="ln"/>is men nomen seint
-                        phelipe : and to heore Maumates<note type="enc" resp="#bioHO001">[al.
-                            maumet]</note> him ladde.</l>
-                    <l xml:id="bodllaudmisc108.3aq.6">A<sg type="ln"/>nd sone so he bi-foren hem cam
-                        : &thorn;is maumates loude gradde;</l>
-                    <l xml:id="bodllaudmisc108.3aq.7">F<sg type="ln"/>uyr huy bleuwen out of heore
-                        Mou&thorn;es : &thorn;at &thorn;are-with huy brou&yogh;ten of dawe</l>
-                    <l xml:id="bodllaudmisc108.3aq.8">&THORN;<sg type="ln"/>e princes sone of
-                        &thorn;e lond : and tweie constables of &thorn;e lawe;</l>
-                    <l xml:id="bodllaudmisc108.3aq.9">A<sg type="ln"/>nd manie men &thorn;at
-                        &thorn;are-nei&yogh; weren : wel grete siknesse to heom nome,</l>
-                    <l xml:id="bodllaudmisc108.3aq.10">S<sg type="ln"/>ome fullen in-to &thorn;e
-                        dropesie : and some meoseles bi-come.</l>
-                    <l xml:id="bodllaudmisc108.3aq.11">M<sg type="ln"/>uche reu&thorn;e was into al
-                        &thorn;at lond : of &thorn;is misauenture.</l>
-                    <l xml:id="bodllaudmisc108.3aq.12">"W<sg type="ln"/>ulle &yogh;e," seide seint
-                        phelip &thorn;o : "mi conseil alle i-huyre,</l>
-                    <l xml:id="bodllaudmisc108.3aq.13">A<sg type="ln"/>nd ichulle &thorn;oru&yogh;
-                        godes grace : helen eov euer[e]ch-on."</l>
-                    <l xml:id="bodllaudmisc108.3aq.14">G<sg type="ln"/>lad was &thorn;is folk of
-                        &thorn;at word : and graunteden him a-non.</l>
-                    <l xml:id="bodllaudmisc108.3aq.15">"b<sg type="ln"/>erez awei," he seide,
-                        "&thorn;is foule wi&yogh;t : &thorn;at &yogh;e habbez to i-bede,</l>
-                    <l xml:id="bodllaudmisc108.3aq.16">A<sg type="ln"/>nd nimez &thorn;e fourme of
-                        &thorn;e holie croiz : and settez in his stude!"</l>
-                    <l xml:id="bodllaudmisc108.3aq.17">&THORN;<sg type="ln"/>at folk was fayn of his
-                        bi-heste : i-redie &thorn;are weren i-nowe,</l>
-                    <l xml:id="bodllaudmisc108.3aq.18">A<sg type="ln"/>ne rode huy setten up on
-                        hei&yogh; : &thorn;e maumates huy al-to-drowe.</l>
-                    <l xml:id="bodllaudmisc108.3aq.19">S<sg type="ln"/>eint pheolip &thorn;oru&yogh;
-                        godes grace : drof out bi-fore heore ei&yogh;e</l>
-                    <l xml:id="bodllaudmisc108.3aq.20">A foul deouel of &thorn;at on : &thorn;at huy
-                        alle i-sei&yogh;e.</l>
-                    <l xml:id="bodllaudmisc108.3aq.21">&THORN;<sg type="ln"/>o &thorn;is rode was up
-                        i-set : and &thorn;e Maumet i-brou&yogh;t to grounde,</l>
-                    <l xml:id="bodllaudmisc108.3aq.22">A<sg type="ln"/>lle &thorn;e sike men
-                        &thorn;at &thorn;are-nei&yogh; weren : bi-comen hole and sounde,</l>
-                    <l xml:id="bodllaudmisc108.3aq.23">A<sg type="ln"/>nd &thorn;e &thorn;reo men
-                        &thorn;at weren a-slawe : a-&yogh;ein to liue come—</l>
-                    <l xml:id="bodllaudmisc108.3aq.24">M<sg type="ln"/>uche was &thorn;e Ioye into
-                        al &thorn;at lond : &thorn;at men &thorn;are-of nome.</l>
-                    <l xml:id="bodllaudmisc108.3aq.25">C<sg type="ln"/>ristinedom huy guonne
-                        a-fongue : and Anouri &thorn;e swete rode,</l>
-                    <l xml:id="bodllaudmisc108.3aq.26">A<sg type="ln"/>nd bi-lieueden on him
-                        &thorn;at bou&yogh;te us alle : &thorn;are-on with is blode.</l>
-                    <l xml:id="bodllaudmisc108.3aq.27">&THORN;<sg type="ln"/>oru&yogh; &thorn;e
-                        vertuwe of &thorn;is faire miracle : muche folk of &thorn;e londe</l>
-                    <l xml:id="bodllaudmisc108.3aq.28">b<sg type="ln"/>i-gan cristine for-to beo :
-                        and &thorn;e ri&yogh;te bi-leue onder-stonde;</l>
-                    <l xml:id="bodllaudmisc108.3aq.29">A<sg type="ln"/>fter &thorn;e wissingue of
-                        seint phelip : alle heore lijf huy guonne lede—</l>
-                    <l xml:id="bodllaudmisc108.3aq.30">F<sg type="ln"/>or prophesie and
-                        ri&yogh;t-w[i]snesse : huy heolden al &thorn;at he seide.</l>
-                    <l xml:id="bodllaudmisc108.3aq.31">&THORN;<sg type="ln"/>o phelipe was sixti
-                        &yogh;er : and seouene and twenti old,</l>
-                    <l xml:id="bodllaudmisc108.3aq.32">I<sg type="ln"/>n pays he deide in his bed :
-                        ase &thorn;e bok us hath i-told.</l>
-                    <l xml:id="bodllaudmisc108.3aq.33">G<sg type="ln"/>ret deol &thorn;at folk made
-                        &thorn;o : and wel faire huy him nome</l>
-                    <l xml:id="bodllaudmisc108.3aq.34">A<sg type="ln"/>nd bureden him with gret
-                        honour : ase a swuch man to bi-come.</l>
+                    <l xml:id="bodllaudmisc108.3aq.1"><hi rend="touched-red">S</hi><sg type="ln"
+                        />Eint <name type="person" ref="#bioPhilip0001"><choice>
+                                <orig>phelipe</orig>
+                                <reg>Phelipe</reg>
+                            </choice></name> and <choice>
+                            <orig>seint</orig>
+                            <reg>Seint</reg>
+                        </choice>
+                        <name type="person" ref="#bioJames0001">Iacob</name><pc> &punctelev;
+                            </pc><hi rend="touched-red">A</hi>po&slong;tles weren tweiȝe</l>
+                    <l xml:id="bodllaudmisc108.3aq.2"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
+                        fo&rrot;me&slong;te dai þat comez in ma&ydot;<pc> &punctelev; </pc><hi
+                            rend="touched-red">d</hi>eth hu&ydot; þoleden beiȝe</l>
+                    <l xml:id="bodllaudmisc108.3aq.3"><hi rend="touched-red">A</hi><sg type="ln"
+                        />ftur o&rrot;e louerdes passione<pc> &punctelev; </pc><hi
+                            rend="touched-red">i</hi>n þe twentiþe ȝer</l>
+                    <!-- folio 156b -->
+                    <pb n="56v"/>
+                    <cb n="1"/>
+                    <l xml:id="bodllaudmisc108.3aq.4"><hi rend="touched-red">S</hi><sg type="ln"
+                        />eint <name type="person" ref="#bioPhilip0001"><choice>
+                                <orig>phelipe</orig>
+                                <reg>Phelipe</reg>
+                            </choice></name> p&rrot;echede in <name type="place" ref="#locScythia01"
+                            >S&ydot;thie</name><pc> &punctelev; </pc><hi rend="touched-red">t</hi>o
+                        men þat luþere weren</l>
+                    <l xml:id="bodllaudmisc108.3aq.5"><hi rend="touched-red">Þ</hi><sg type="ln"/>is
+                        men nomen <choice>
+                            <orig>seint</orig>
+                            <reg>Seint</reg>
+                        </choice>
+                        <name type="person" ref="#bioPhilip0001"><choice>
+                                <orig>phelipe</orig>
+                                <reg>Phelipe</reg>
+                            </choice></name><pc> &punctelev; </pc><hi rend="touched-red">a</hi>nd to
+                        heo&rrot;e Maumates<note type="enc" resp="#bioHO001">[al. maumet]</note> him
+                        ladde</l>
+                    <l xml:id="bodllaudmisc108.3aq.6"><hi rend="touched-red">A</hi><sg type="ln"/>nd
+                        sone so he bi<sg/>fo&rrot;en hem cam <pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>is maumates loude gradde</l>
+                    <l xml:id="bodllaudmisc108.3aq.7"><hi rend="touched-red">F</hi><sg type="ln"
+                        />u&ydot;r hu&ydot; bleuwen out of heo&rrot;e Mouþes<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>at þare<sg/>with hu&ydot;
+                        b&rrot;ouȝten of daw</l>
+                    <l xml:id="bodllaudmisc108.3aq.8"><hi rend="touched-red">Þ</hi><sg type="ln"/>e
+                        p&rrot;inces sone of þe lond<pc> &punctelev; </pc><hi rend="touched-red"
+                            >a</hi>nd tweie con&slong;tables of þe lawe</l>
+                    <l xml:id="bodllaudmisc108.3aq.9"><hi rend="touched-red">A</hi><sg type="ln"/>nd
+                        manie men þat þare<sg/>neiȝ weren<pc> &punctelev; </pc><hi
+                            rend="touched-red">w</hi>el grete siknesse to heom nome</l>
+                    <l xml:id="bodllaudmisc108.3aq.10"><hi rend="touched-red">S</hi><sg type="ln"
+                        />ome fullen in<sg/>to þe d&rrot;opesie<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd some meoseles bi<sg/>come</l>
+                    <l xml:id="bodllaudmisc108.3aq.11"><hi rend="touched-red">M</hi><sg type="ln"
+                        />uche reuþe was into al þat lond<pc> &punctelev; </pc><hi
+                            rend="touched-red">o</hi>f þis misauenture</l>
+                    <l xml:id="bodllaudmisc108.3aq.12"><hi rend="touched-red">W</hi><sg type="ln"
+                        />ulle ȝe seide <choice>
+                            <orig>seint</orig>
+                            <reg>Seint</reg>
+                        </choice>
+                        <name type="person" ref="#bioPhilip0001"><choice>
+                                <orig>phelip</orig>
+                                <reg>Phelip</reg>
+                            </choice></name> þo<pc> &punctelev; </pc><hi rend="touched-red">"</hi>mi
+                        conseil alle i<sg/>hu&ydot;re</l>
+                    <l xml:id="bodllaudmisc108.3aq.13"><hi rend="touched-red">A</hi><sg type="ln"
+                        />nd ichulle þo&rrot;uȝ <choice>
+                            <orig>godes</orig>
+                            <reg>Godes</reg>
+                        </choice> grace<pc> &punctelev; </pc><hi rend="touched-red">h</hi>elen eov
+                        euer[e]ch<sg/>on.</l>
+                    <l xml:id="bodllaudmisc108.3aq.14"><hi rend="touched-red">G</hi><sg type="ln"
+                        />lad was þis folk of þat wo&rrot;d<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd graunteden him a<sg/>non</l>
+                    <l xml:id="bodllaudmisc108.3aq.15"><hi rend="touched-red">b</hi><sg type="ln"
+                        />erez awei he seide þis foule wiȝt<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>at ȝe habbez to i<sg/>bede</l>
+                    <l xml:id="bodllaudmisc108.3aq.16"><hi rend="touched-red">A</hi><sg type="ln"
+                        />nd nimez þe fourme of þe holie croiz<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd settez in his &slong;tude!</l>
+                    <l xml:id="bodllaudmisc108.3aq.17"><hi rend="touched-red">Þ</hi><sg type="ln"
+                        />at folk was fa&ydot;n of his bi<sg/>he&slong;te<pc> &punctelev; </pc><hi
+                            rend="touched-red">i</hi><sg/>redie þare weren i<sg/>nowe</l>
+                    <l xml:id="bodllaudmisc108.3aq.18"><hi rend="touched-red">A</hi><sg type="ln"
+                        />ne rode hu&ydot; setten up on heiȝ<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>e maumates hu&ydot;
+                        al<sg/>to<sg/>d&rrot;owe</l>
+                    <l xml:id="bodllaudmisc108.3aq.19"><hi rend="touched-red">S</hi><sg type="ln"
+                        />eint <name type="person" ref="#bioPhilip0001"><choice>
+                                <orig>pheolip</orig>
+                                <reg>Pheolip</reg>
+                            </choice></name> þo&rrot;uȝ <choice>
+                            <orig>godes</orig>
+                            <reg>Godes</reg>
+                        </choice> grace<pc> &punctelev; </pc><hi rend="touched-red">d</hi>&rrot;of
+                        out bi<sg/>fo&rrot;e heo&rrot;e eiȝ</l>
+                    <l xml:id="bodllaudmisc108.3aq.20">A foul deouel of þat on<pc> &punctelev;
+                            </pc><hi rend="touched-red">þ</hi>at hu&ydot; alle i<sg/>seiȝe</l>
+                    <l xml:id="bodllaudmisc108.3aq.21"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
+                        þis rode was up i<sg/>set<pc> &punctelev; </pc><hi rend="touched-red"
+                        >a</hi>nd þe Maumet i<sg/>b&rrot;ouȝt to grounde</l>
+                    <l xml:id="bodllaudmisc108.3aq.22"><hi rend="touched-red">A</hi><sg type="ln"
+                        />lle þe sike men þat þare<sg/>neiȝ weren<pc> &punctelev; </pc><hi
+                            rend="touched-red">b</hi>i<sg/>comen hole and sounde</l>
+                    <l xml:id="bodllaudmisc108.3aq.23"><hi rend="touched-red">A</hi><sg type="ln"
+                        />nd þe þreo men þat weren a<sg/>slawe<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi><sg/>ȝein to liue come</l>
+                    <l xml:id="bodllaudmisc108.3aq.24"><hi rend="touched-red">M</hi><sg type="ln"
+                        />uche was þe <choice>
+                            <orig>Io&ydot;e</orig>
+                            <reg>ioye</reg>
+                        </choice> into al þat lond<pc> &punctelev; </pc><hi rend="touched-red"
+                            >þ</hi>at men þare<sg/>of nome</l>
+                    <l xml:id="bodllaudmisc108.3aq.25"><hi rend="touched-red">C</hi><sg type="ln"
+                        />ri&slong;tinedom hu&ydot; guonne a<sg/>fongue<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd Anouri þe swete rode</l>
+                    <l xml:id="bodllaudmisc108.3aq.26"><hi rend="touched-red">A</hi><sg type="ln"
+                        />nd bi<sg/>lieueden on him þat bouȝte us alle<pc> &punctelev; </pc><hi
+                            rend="touched-red">þ</hi>are<sg/>on with is blode</l>
+                    <l xml:id="bodllaudmisc108.3aq.27"><hi rend="touched-red">Þ</hi><sg type="ln"
+                        />o&rrot;uȝ þe vertuwe of þis faire miracle<pc> &punctelev; </pc><hi
+                            rend="touched-red">m</hi>uche folk of þe lond</l>
+                    <l xml:id="bodllaudmisc108.3aq.28"><hi rend="touched-red">b</hi><sg type="ln"
+                        />i<sg/>gan cri&slong;tine fo&rrot;<sg/>to beo<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd þe riȝte bi<sg/>leue
+                        onder<sg/>&slong;tonde</l>
+                    <l xml:id="bodllaudmisc108.3aq.29"><hi rend="touched-red">A</hi><sg type="ln"
+                        />fter þe wissingue of <choice>
+                            <orig>seint</orig>
+                            <reg>Seint</reg>
+                        </choice>
+                        <name type="person" ref="#bioPhilip0001"><choice>
+                                <orig>phelip</orig>
+                                <reg>Phelip</reg>
+                            </choice></name><pc> &punctelev; </pc><hi rend="touched-red">a</hi>lle
+                        heo&rrot;e lijf hu&ydot; guonne lede</l>
+                    <l xml:id="bodllaudmisc108.3aq.30"><hi rend="touched-red">F</hi><sg type="ln"
+                        />o&rrot; p&rrot;ophesie and riȝt<sg/>w[i]snesse<pc> &punctelev; </pc><hi
+                            rend="touched-red">h</hi>u&ydot; heolden al þat he seide</l>
+                    <l xml:id="bodllaudmisc108.3aq.31"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
+                            <name type="person" ref="#bioPhilip0001"><choice>
+                                <orig>phelipe</orig>
+                                <reg>Phelipe</reg>
+                            </choice></name> was sixti ȝer<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>nd seouene and twenti old</l>
+                    <l xml:id="bodllaudmisc108.3aq.32"><hi rend="touched-red">I</hi><sg type="ln"/>n
+                        pa&ydot;s he deide in his bed<pc> &punctelev; </pc><hi rend="touched-red"
+                            >a</hi>se þe bok us hath i<sg/>told</l>
+                    <l xml:id="bodllaudmisc108.3aq.33"><hi rend="touched-red">G</hi><sg type="ln"
+                        />ret deol þat folk made þo<pc> &punctelev; </pc><hi rend="touched-red"
+                            >a</hi>nd wel faire hu&ydot; him nom</l>
+                    <l xml:id="bodllaudmisc108.3aq.34"><hi rend="touched-red">A</hi><sg type="ln"
+                        />nd bureden him with gret honour<pc> &punctelev; </pc><hi
+                            rend="touched-red">a</hi>se a swuch man to bi<sg/>com</l>
                 </lg>
             </div1>
         </body>
