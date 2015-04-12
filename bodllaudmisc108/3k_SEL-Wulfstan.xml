@@ -11,7 +11,7 @@ Shay Hopkins has added and tagged more named entities.
 Shay Hopkins has properly formatted punctuation.
 Shay Hopkins condensed "round r" and r" in the critical markup.
 Shay Hopkins condensed "long s" and "s" in the critical markup.
-Shay Hopkins condensing allographs in the critical markup.
+Shay Hopkins condensed allographs in the critical markup.
 Named entities:
 #bioWulfstan01: Wulfstan, Bishop of Worcester, 1062-1095
 #bioWilliam01: William the Conqueror
@@ -26,7 +26,9 @@ Last Update: Oct 31 2014.
 Last update: Nov 10 2014.
 Last Update: Nov 11 2014.
 Last Update: Decemeber 21 2014.
-Last Update: March 25 2015-->
+Last Update: March 25 2015.
+Last Update: March 29 2015.
+Last Update: April 8 2015.-->
         <body>
             <div1>
                 <lg>
@@ -617,8 +619,7 @@ Last Update: March 25 2015-->
                         <choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
-                        </choice> to al <name type="place" ref="#locEngland"
-                            >engelonde</name>
+                        </choice> to al <name type="place" ref="#locEngland">engelonde</name>
                         <pc> &punctelev; </pc>
                         <choice>
                             <orig></orig>
@@ -1021,16 +1022,16 @@ Last Update: March 25 2015-->
                             <orig>bas&slong;tard</orig>
                             <reg>basstard</reg>
                         </choice> &thorn;at <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice>wa&slong; king <pc> &punctelev; </pc>
+                            <orig>wa&slong;</orig>
+                            <reg>was</reg>
+                       </choice> king <pc> &punctelev; </pc>
                         <hi rend="touched-red">&slong;<choice>
                             <orig></orig>
                             <reg></reg>
                         </choice></hi>eth&thorn;e him <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice>onder<sg/>&slong;tod</l>
+                            <orig>onder<sg/>&slong;tod</orig>
+                            <reg>onder<sg/>&slong;tod</reg>
+                        </choice></l>
                     <l xml:id="bodllaudmisc108.3k.94"><hi rend="touched-red">&THORN;</hi><sg
                             type="ln"/>at he mid vnri&yogh;hte hadde
                         <choice>
@@ -1108,9 +1109,9 @@ Last Update: March 25 2015-->
                             <reg>Bischop</reg>
                         </choice> seint <name type="person" ref="#bioWulfstan01">
                             <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice>wol&slong;ton</name>
+                                <orig>wol&slong;ton</orig>
+                                <reg>wolston</reg>
+                        </choice></name>
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">w</hi>el ofte him with <choice>
                             <orig>&slong;eide</orig>
@@ -1229,9 +1230,9 @@ Last Update: March 25 2015-->
                         </choice>
                         <name type="person" ref="#bioWulfstan01">
                             <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice>wul&slong;ton</name> <pc> &punctelev; </pc>
+                                <orig>wul&slong;ton</orig>
+                                <reg>wulston</reg>
+                        </choice></name> <pc> &punctelev; </pc>
                         <hi rend="touched-red">w</hi>el gret clerk in 
                         <choice>
                             <orig>lo&rrot;e</orig>
@@ -1291,14 +1292,20 @@ Last Update: March 25 2015-->
                     />nd &thorn;e  <choice>
                         <orig>bi&slong;chop</orig>
                         <reg>bischop</reg>
-                    </choice> Gondolf of <name type="place" ref="#locRoucester">Rouce&slong;tre</name> <pc> &punctelev; </pc>
+                    </choice> Gondolf of <name type="place" ref="#locRoucester"> <choice>
+                        <orig>Rouce&slong;tre</orig>
+                        <reg>Roucestre</reg>
+                    </choice></name> <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>lle to don him  
                         <choice>
                             <orig>&slong;chame</orig>
                             <reg>schame</reg>
                         </choice></l>
                     <l xml:id="bodllaudmisc108.3k.115"><hi rend="touched-red">S</hi><sg type="ln"
-                    />eint <name type="person" ref="#bioWulfstan01">wol&slong;ton</name> bi<sg/> heom cam <pc> &punctelev; </pc>
+                    />eint <name type="person" ref="#bioWulfstan01"><choice>
+                        <orig>wol&slong;ton</orig>
+                        <reg>wolston</reg>
+                    </choice></name> bi<sg/> heom cam <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>at a<sg/>&yogh;ein him weren  <choice>
                             <orig>&slong;o</orig>
                             <reg>so</reg>
@@ -1407,7 +1414,11 @@ Last Update: March 25 2015-->
                         </choice> folliche onder<sg/>fongue <pc> &punctelev; </pc>
                         <hi rend="touched-red">h</hi>u&ydot; wolden don him out with ri&yogh;hte</l>
                     <l xml:id="bodllaudmisc108.3k.123"><hi rend="h2 red-ink">&para;</hi><hi
-                        rend="touched-red">S</hi><sg type="ln"/>eint <name type="person" ref="#bioWulfstan01">wol&slong;ton</name> 
+                        rend="touched-red">S</hi><sg type="ln"/>eint <name type="person" ref="#bioWulfstan01"><choice>
+                            <orig> wol&slong;ton</orig>
+                            <reg> wolston</reg>
+                        </choice>
+                           </name> 
                         <choice>
                             <orig>&slong;tod</orig>
                             <reg>stod</reg>
@@ -1753,7 +1764,10 @@ Last Update: March 25 2015-->
                         <choice>
                             <orig></orig>
                             <reg></reg>
-                        </choice><hi rend="touched-red">b</hi>i&slong;chop of <name type="place" ref="#locRoucester">rouce&slong;tre</name></l>
+                        </choice><hi rend="touched-red">b</hi>i&slong;chop of <name type="place" ref="#locRoucester"><choice>
+                            <orig> rouce&slong;tre</orig>
+                            <reg> roucestre</reg>
+                        </choice> </name></l>
                     <l xml:id="bodllaudmisc108.3k.151"><hi rend="touched-red">&THORN;</hi><sg
                         type="ln"/>at he 
                         <choice>
@@ -1768,11 +1782,11 @@ Last Update: March 25 2015-->
                         <hi rend="touched-red">b</hi>eon <choice>
                             <orig>Bi&slong;chop</orig>
                             <reg>Bischop</reg>
-                        </choice> of <name type="place" ref="#locWorcester">wirece&slong;tre</name>
+                        </choice> of <name type="place" ref="#locWorcester">
                         <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice></l>
+                            <orig>wirece&slong;tre</orig>
+                            <reg>wirecestre</reg>
+                        </choice></name></l>
                     <l xml:id="bodllaudmisc108.3k.152"><hi rend="h2 red-ink">&para;</hi><hi
                         rend="touched-red">&THORN;</hi><sg type="ln"/>e 
                         <choice>
@@ -1791,11 +1805,11 @@ Last Update: March 25 2015-->
                         <choice>
                             <orig>Bi&slong;chop</orig>
                             <reg>Bischop</reg>
-                        </choice> of <name type="place" ref="#locRoucester">Rouce&slong;tre</name> 
+                        </choice> of <name type="place" ref="#locRoucester">
                         <choice>
-                        <orig></orig>
-                        <reg></reg>
-                        </choice> wel baldeliche
+                            <orig>Rouce&slong;tre</orig>
+                            <reg>Roucestre</reg>
+                        </choice></name>  wel baldeliche
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>udere<sg/>ward gan gon</l>
                     <l xml:id="bodllaudmisc108.3k.154"><hi rend="touched-red">&THORN;</hi><sg
@@ -1858,10 +1872,10 @@ Last Update: March 25 2015-->
                            <reg>heore</reg>
                     </choice> dede <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>fter <hi rend="touched-red">s</hi>eint
-                        <name type="person" ref="#bioWulfstan01">wol&slong;ton</name> <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice> 
+                        <name type="person" ref="#bioWulfstan01"><choice>
+                            <orig>wol&slong;ton</orig>
+                            <reg>wolston</reg>
+                        </choice> </name> 
                         <choice>
                             <orig>&slong;ende</orig>
                             <reg>sende</reg>
@@ -1990,11 +2004,11 @@ Last Update: March 25 2015-->
                         <choice>
                             <orig>&slong;ire&slong;</orig>
                             <reg>sires</reg>
-                        </choice> quath Seint <name type="person" ref="#bioWulfstan01">Wol&slong;ton</name> 
+                        </choice> quath Seint <name type="person" ref="#bioWulfstan01"> 
                         <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice> <pc> &punctelev; </pc>
+                            <orig>Wol&slong;ton</orig>
+                            <reg>Wolston</reg>
+                        </choice></name> <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>at nere me nou&yogh;t to do
                         <choice>
                             <orig>wu&ydot;&rrot;&thorn;e</orig>
@@ -2420,11 +2434,11 @@ Last Update: March 25 2015-->
                         <choice>
                             <orig>p&rrot;io&rrot;ie</orig>
                             <reg>priorie</reg>
-                        </choice> of <name type="place" ref="#locWorcester">wirece&slong;tre</name>
+                        </choice> of <name type="place" ref="#locWorcester">
                         <choice>
-                            <orig></orig>
-                            <reg></reg>
-                        </choice> <pc> &punctelev; </pc>
+                            <orig>wirece&slong;tre</orig>
+                            <reg>wirecestre</reg>
+                        </choice></name> <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd duden &thorn;at   
                         <choice>
                             <orig>wa&slong;</orig>
