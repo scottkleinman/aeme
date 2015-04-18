@@ -74,7 +74,7 @@
   </Property>
   <Property>
     <name>db$local$InitialArea</name>
-    <value xsi:type="xsd:string">lists</value>
+    <value xsi:type="xsd:string">lexicon</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -156,7 +156,7 @@
   </Property>
   <Property>
     <name>db$local$entries-Index</name>
-    <value xsi:type="xsd:int">1467</value>
+    <value xsi:type="xsd:int">1475</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -168,13 +168,12 @@
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSlicePartName</name>
-    <value xsi:type="xsd:string">MoForm-Detail-AsLexemeForm</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">75c9eb72-6aa3-4ffd-8e7a-9526b20452f5</value>
+    <value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -226,19 +225,19 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--IndexOfParagraph</name>
-    <value xsi:type="xsd:int">1</value>
+    <value xsi:type="xsd:int">145</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--CharBeginOffset</name>
-    <value xsi:type="xsd:int">49</value>
+    <value xsi:type="xsd:int">0</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--CharEndOffset</name>
-    <value xsi:type="xsd:int">53</value>
+    <value xsi:type="xsd:int">7</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
