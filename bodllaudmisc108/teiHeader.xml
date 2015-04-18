@@ -30,11 +30,11 @@
                             target="http://www.dimev.net/Records.php?MSS=BodLauMis108" type="DIMEV"
                             >http://www.dimev.net/Records.php?MSS=BodLauMis108</ref>. All items
                         belong to the <ref type="LAEME">LAEME</ref>
-                        <term>literary</term> category. A full description can be found in the 
-                        Manuscripts of the West Midlands at 
-                        <ref target="http://www.hrionline.ac.uk/mwm/browse?type=ms&amp;id=118" type="MWM">
-                            http://www.hrionline.ac.uk/mwm/browse?type=ms&amp;id=118</ref>.
-                    </summary>
+                        <term>literary</term> category. A full description can be found in the
+                        Manuscripts of the West Midlands at <ref
+                            target="http://www.hrionline.ac.uk/mwm/browse?type=ms&amp;id=118"
+                            type="MWM">
+                            http://www.hrionline.ac.uk/mwm/browse?type=ms&amp;id=118</ref>. </summary>
                     <!-- Folio numbers given <locus> are taken DIMEV and Edwards' table of contents. 
 						They may need to be corrected. -->
                     <!-- Saints' names in <title> are given according to the form in David Hugh Farmer, 
@@ -169,8 +169,9 @@
                                         >http://www.dimev.net/record.php?recID=4597#wit-4597-3</ref>
                                 </bibl>
                             </listBibl>
-                            <note type="text" resp="#bioKL0001">According to Horstmann, this vita is based on 
-                                the Vita sanctus Franciscus by Saint Bonaventure in Act. SS. Boll. Oct. 4 p. 742 ff.</note>
+                            <note type="text" resp="#bioKL0001">According to Horstmann, this vita is
+                                based on the Vita sanctus Franciscus by Saint Bonaventure in Act.
+                                SS. Boll. Oct. 4 p. 742 ff.</note>
                         </msItem>
                         <msItem n="3j" xml:id="mc00013">
                             <locus>ff. 46v–47v</locus>
@@ -677,6 +678,11 @@
                                 <ref type="DIMEV"
                                     >http://www.dimev.net/record.php?recID=5215#wit-5215-3</ref>
                             </bibl>
+                            <bibl> Furnivall, Frederick James, ed. <title>The Minor Poems of the
+                                    Vernon Manuscript, Part 2.</title> EETS o.s. 117 (1901; repr.
+                                1973): 2.511-22, 757-63. <ref type="DIMEV"
+                                    >https://books.google.com/books?id=gnA7AQAAMAAJ&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false</ref>
+                            </bibl>
                         </listBibl>
                     </msItem>
                     <msItem n="5" xml:id="mc00063">
@@ -697,6 +703,14 @@
                                 <ref type="DIMEV"
                                     >http://www.dimev.net/record.php?recID=605#wit-605-3</ref>
                             </bibl>
+                            <bibl>W. Linow, <title>Þe Disputisoun bitwen þe bodi and þe
+                                    Soule</title>, Erlanger Beiträge zur englischen Philologie 1
+                                (Erlangen and Leipzig, 1889), pp. 25-65:
+                                    <ref>https://archive.org/stream/erlangerbeitrge00varngoog#page/n42/mode/2up</ref>.</bibl>
+                            <bibl>A transcription showing variations with other manuscripts can be
+                                found on the <title>Final Revisions</title> website, Ed. by Sarah
+                                Garner (July 26, 2006):
+                                    <ref>http://digital.wustl.edu/r/revision/Debate_Transmission/laud108trans.html</ref>.</bibl>
                         </listBibl>
                     </msItem>
                     <msItem n="7" xml:id="mc00065">
@@ -835,9 +849,9 @@
                         <supportDesc>
                             <collation>
                                 <!-- Formulation now based on DaRold 2014 -->
-                                <formula>1(12,-1,2), 2(12), 3(12,-4,7), 4(12), 5(12), 6(12), 7(12), 8(12), 9(12), 
-                                    10(12,-2,3), 11(12,-2), 12(12), 13(12), 14(12), 15(12), 16(12), 17(12), 18(12), 
-                                    19(12), 20(12), 21(5), 22(7)
+                                <formula>1(12,-1,2), 2(12), 3(12,-4,7), 4(12), 5(12), 6(12), 7(12),
+                                    8(12), 9(12), 10(12,-2,3), 11(12,-2), 12(12), 13(12), 14(12),
+                                    15(12), 16(12), 17(12), 18(12), 19(12), 20(12), 21(5), 22(7)
                                 </formula>
                             </collation>
                         </supportDesc>
@@ -954,7 +968,8 @@
                                 >http://www.dimev.net/Records.php?MSS=BodLauMis108</ref>
                         </bibl>
                         <bibl>
-                            <ref type="MWM"><![CDATA[http://www.hrionline.ac.uk/mwm/browse?type=ms&id=118]]></ref>
+                            <ref type="MWM"
+                                ><![CDATA[http://www.hrionline.ac.uk/mwm/browse?type=ms&id=118]]></ref>
                         </bibl>
                     </listBibl>
                 </additional>
@@ -973,8 +988,8 @@
             </taxonomy>
             <taxonomy xml:id="MWM">
                 <bibl>
-                    <title>Manuscripts of the West Midlands:  A Catalogue of Vernacular Manuscript Books 
-                        of the English West Midlands, c. 1300 - c. 1475</title>
+                    <title>Manuscripts of the West Midlands: A Catalogue of Vernacular Manuscript
+                        Books of the English West Midlands, c. 1300 - c. 1475</title>
                     <author>Wendy Scase</author>
                     <edition>2009</edition>
                 </bibl>
