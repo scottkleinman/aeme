@@ -28,13 +28,15 @@ Named entities:
 #locRoucester: Roucester
 #locCanterbury: Canterbury
 #orgEnglish01: English
+#orgNorman01: Norman
 Last Update: Oct 31 2014.
 Last update: Nov 10 2014.
 Last Update: Nov 11 2014.
 Last Update: Decemeber 21 2014.
 Last Update: March 25 2015.
 Last Update: March 29 2015.
-Last Update: April 8 2015.-->
+Last Update: April 8 2015.
+Last update: April 23 2015.-->
         <body>
             <div1>
                 <lg>
@@ -885,14 +887,15 @@ Last Update: April 8 2015.-->
                             <pc> &punctelev; </pc> &thorn;at so muche heom truste to</l>
                     <l xml:id="bodllaudmisc108.3k.79"><hi rend="h2 red-ink">&para;</hi><hi
                             rend="touched-red">&THORN;</hi><sg type="ln"/>is 
+                        <name type="organization" ref="#orgNorman01">
                         <choice>
                             <orig>No&rrot;emauns</orig>
                             <reg>Noremauns</reg>
-                        </choice> and &thorn;is 
-                        <choice>
+                        </choice> </name> and &thorn;is 
+                        <name type="organization" ref="#orgEnglish01"><choice>
                             <orig>Engli&slong;che</orig>
                             <reg>Englische</reg>
-                        </choice> men <pc> &punctelev; </pc>
+                        </choice> </name> men <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>ne dai of bataile hu&ydot; nome </l>
                     <l xml:id="bodllaudmisc108.3k.80"><hi rend="touched-red">&THORN;</hi><sg
                             type="ln"/>are 
@@ -2544,10 +2547,11 @@ Last Update: April 8 2015.-->
                       <choice>
                           <orig>a&slong;e</orig>
                         <reg>ase</reg>
-                    </choice> he a<sg/>wei&yogh;hte heom <pc> &punctelev; </pc>
-                        <hi rend="touched-red">&slong;</hi>umdel gan heom chide </l>
-                    <l xml:id="bodllaudmisc108.3k.220"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at hu&ydot; nolden with 
+                    </choice> he a<sg/>wei&yogh;hte heom <pc> &punctelev; </pc> 
+                        <hi rend="touched-red">&slong;</hi>umdel gan heom chide <ab>
+                            <add place="marginLeft"> &caret;be </add>
+                        </ab></l>
+                    <l xml:id="bodllaudmisc108.3k.220"><hi rend="touched-red">&THORN;</hi><sg type="ln"/>at hu&ydot; nolden with 
                         <choice>
                             <orig>heo&rrot;e</orig>
                             <reg>heore</reg>
