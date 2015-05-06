@@ -41,6 +41,7 @@ Last update: April 23 2015.-->
             <div1>
                 <lg>
                     <pb n="48r"/>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3k.1"><hi rend="h2 blue-ink touched-red">S</hi><sg
                             type="ln"/>
                         <hi rend="touched-red">E</hi>int <name type="person" ref="#bioWulfstan01">
@@ -79,16 +80,22 @@ Last update: April 23 2015.-->
                             <orig>under&slong;tonde</orig>
                             <reg>understonde</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.3"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>e &yogh;wile he 
+                    <l xml:id="bodllaudmisc108.3k.3">
+                        <choice>
+                            <orig><hi rend="touched-red">&thorn;</hi><sg type="ln"/>e</orig>
+                            <reg><hi rend="touched-red">&THORN;</hi><sg type="ln"/>e</reg>
+                        </choice> &yogh;wile he 
                         <choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
                         </choice>a &yogh;ong child
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">c</hi>lene lif he ladde i<sg/>nov&yogh;</l>
-                    <l xml:id="bodllaudmisc108.3k.4"><hi rend="touched-red">&YOGH;</hi><sg type="ln"
-                        />wane o&thorn;ur 
+                    <l xml:id="bodllaudmisc108.3k.4">
+                     <choice>
+                         <orig><hi rend="touched-red">&yogh;</hi><sg type="ln"/>wane</orig>
+                         <reg><hi rend="touched-red">&YOGH;</hi><sg type="ln"/>wane</reg>
+                    </choice> o&thorn;ur 
                        <choice> 
                            <orig>child&rrot;en</orig>
                            <reg>children</reg>
@@ -133,15 +140,19 @@ Last update: April 23 2015.-->
                        <choice>    
                             <orig>a&slong;e</orig>
                             <reg>ase</reg>
-                       </choice>
-                        it fel <pc> &punctelev; </pc>
+                       </choice> it fel <pc> &punctelev; </pc>
                         <hi rend="touched-red">s</hi>o &thorn;at he 
                         <choice>
                             <orig>p&rrot;eost</orig>
                             <reg>preost</reg>
                         </choice> bi<sg/>cam</l>
-                    <l xml:id="bodllaudmisc108.3k.9"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>sge bi&slong;chop vnder feng him &slong;eth&thorn;e
+                    <l xml:id="bodllaudmisc108.3k.9">
+                        <choice>
+                            <orig><hi rend="touched-red">&thorn;</hi><sg
+                                type="ln"/>e</orig>
+                            <reg><hi rend="touched-red">&THORN;</hi><sg
+                                type="ln"/>e</reg>
+                        </choice>  bi&slong;chop vnder feng him &slong;eth&thorn;e
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd yonk him makede i<sg/>wis</l>
                     <l xml:id="bodllaudmisc108.3k.10"><hi rend="touched-red">I</hi><sg type="ln"/>n
@@ -178,9 +189,11 @@ Last update: April 23 2015.-->
                         none bedde he nolde come<pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>ke &yogh;wane o&thorn;ere &yogh;eoden
                         &thorn;ar<sg/>to</l>
-                    <l xml:id="bodllaudmisc108.3k.14"><hi rend="touched-red">B</hi><sg type="ln"
-                        />
+                    <l xml:id="bodllaudmisc108.3k.14">
                         <choice>
+                            <orig><hi rend="touched-red">b</hi><sg type="ln"/></orig>
+                            <reg><hi rend="touched-red">B</hi><sg type="ln"/></reg>
+                        </choice><choice>
                             <orig>ifo&rrot;e </orig>
                             <reg>ifore</reg>
                         </choice>on auter he wolde go <pc> &punctelev; </pc>
@@ -194,11 +207,16 @@ Last update: April 23 2015.-->
                             <reg>for</reg>
                         </choice>
                          <sg/>to do</l>
-                    <l xml:id="bodllaudmisc108.3k.15"><hi rend="touched-red">&YOGH;</hi><sg
-                            type="ln"/>wane &thorn;e dede slep him ouer eode <pc> &punctelev; </pc>
+                    <l xml:id="bodllaudmisc108.3k.15">
+                        <choice>
+                            <orig><hi rend="touched-red">&yogh;</hi><sg type="ln"/></orig>
+                            <reg><hi rend="touched-red">&YOGH;</hi><sg type="ln"/></reg>
+                        </choice>wane &thorn;e dede slep him ouer eode <pc> &punctelev; </pc>
                         &thorn;at he ne mi&yogh;te no leng gon</l>
-                    <l xml:id="bodllaudmisc108.3k.16"><hi rend="touched-red">H</hi><sg type="ln"/>is
-                        heued he wolde legge a<sg/>doun <pc> &punctelev; </pc>
+                    <l xml:id="bodllaudmisc108.3k.16"><choice>
+                        <orig><hi rend="touched-red">h</hi><sg type="ln"/></orig>
+                        <reg><hi rend="touched-red">H</hi><sg type="ln"/></reg>
+                    </choice>is heued he wolde legge a<sg/>doun <pc> &punctelev; </pc>
                         <hi rend="touched-red">o</hi>pon &thorn;e harde 
                         <choice>
                             <orig>&slong;ton</orig>
@@ -228,7 +246,10 @@ Last update: April 23 2015.-->
                             <orig>&slong;cholde</orig>
                             <reg>scholde</reg>
                         </choice> beon so</l>
-                    <l xml:id="bodllaudmisc108.3k.19"><hi rend="touched-red">H</hi><sg type="ln"/>e nolde 
+                    <l xml:id="bodllaudmisc108.3k.19"><choice>
+                        <orig><hi rend="touched-red">h</hi><sg type="ln"/></orig>
+                        <reg><hi rend="touched-red">H</hi><sg type="ln"/></reg>
+                    </choice>e nolde 
                         <choice>
                             <orig>p&rrot;eo</orig>
                             <reg>preo</reg>
@@ -247,15 +268,22 @@ Last update: April 23 2015.-->
                         </choice> bote his beden <pc> &punctelev; </pc>
                         <hi rend="touched-red">f</hi>o&rrot; nou&yogh;t &thorn;at mi&yogh;te
                         bi<sg/>falle</l>
-                    <l xml:id="bodllaudmisc108.3k.21"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>e o&thorn;ur dawes wel lu&ydot;tel <pc> &punctelev; </pc>
+                    <l xml:id="bodllaudmisc108.3k.21">
+                        <choice>
+                            <orig><hi rend="touched-red">&thorn;</hi><sg
+                                type="ln"/></orig>
+                            <reg><hi rend="touched-red">&THORN;</hi><sg
+                                type="ln"/></reg>
+                        </choice>e o&thorn;ur dawes wel lu&ydot;tel <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd wel lu&ydot;tel he eat 
                         <choice>
                             <orig>al&slong;o</orig>
                             <reg>also</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.22"><hi rend="touched-red">B</hi><sg type="ln"
-                        />ote it were a lu&ydot;te potage <pc> &punctelev; </pc>
+                    <l xml:id="bodllaudmisc108.3k.22"><choice>
+                        <orig><hi rend="touched-red">b</hi><sg type="ln" /></orig>
+                        <reg><hi rend="touched-red">B</hi><sg type="ln"/></reg>
+                    </choice>ote it were a lu&ydot;te potage <pc> &punctelev; </pc>
                         <hi rend="touched-red">h</hi>olde he wolde him &thorn;er to</l>
                     <l xml:id="bodllaudmisc108.3k.23"><hi rend="touched-red">S</hi><sg type="ln"/>o
                         longue he leouede at <name type="place" ref="#locWorcester">
@@ -268,8 +296,13 @@ Last update: April 23 2015.-->
                             <orig>&slong;tille</orig>
                             <reg>stille</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.24"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at he 
+                    <l xml:id="bodllaudmisc108.3k.24">
+                        <choice>
+                            <orig><hi rend="touched-red">&thorn;</hi><sg
+                                type="ln"/></orig>
+                            <reg><hi rend="touched-red">&THORN;</hi><sg
+                                type="ln"/></reg>
+                        </choice>at he 
                         <choice>
                             <orig> wa&slong;</orig>
                             <reg>was</reg>
@@ -279,7 +312,10 @@ Last update: April 23 2015.-->
                             <reg>prior</reg>   
                         </choice> of &thorn;at hous
                             <pc> &punctelev; </pc> muche a<sg/>&yogh;ein is wille</l>
-                    <l xml:id="bodllaudmisc108.3k.25"><hi rend="touched-red">H</hi><sg type="ln"/>is
+                    <l xml:id="bodllaudmisc108.3k.25"><choice>
+                        <orig><hi rend="touched-red">h</hi><sg type="ln"/></orig>
+                        <reg><hi rend="touched-red">H</hi><sg type="ln"/></reg>
+                    </choice>is
                             <hi rend="touched-red">C</hi>ouent he 
                         <choice>
                             <orig>wu&slong;te</orig>
@@ -301,8 +337,13 @@ Last update: April 23 2015.-->
                     <l xml:id="bodllaudmisc108.3k.26"><hi rend="touched-red">O</hi><sg type="ln"/>f
                         god and alle guode men <pc> &punctelev; </pc>
                         <hi rend="touched-red">h</hi>e hadde i<sg/>nou&yogh;</l>
-                    <l xml:id="bodllaudmisc108.3k.27"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e 
+                    <l xml:id="bodllaudmisc108.3k.27">
+                        <choice>
+                            <orig><hi rend="touched-red">&thorn;</hi><sg
+                                type="ln"/></orig>
+                            <reg><hi rend="touched-red">&THORN;</hi><sg
+                                type="ln"/></reg>
+                        </choice>e 
                         <choice>
                             <orig>p&rrot;io&rrot;</orig>
                             <reg>prior</reg>
@@ -318,8 +359,12 @@ Last update: April 23 2015.-->
                               <orig>o&slong;wold</orig>
                                <reg>Oswold</reg>
                            </choice> </name> bi<sg/>gan er</l>
-                    <l xml:id="bodllaudmisc108.3k.28"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at 
+                    <l xml:id="bodllaudmisc108.3k.28"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at 
                         <choice>
                             <orig>o&slong;wold</orig>
                             <reg>Oswold</reg>
@@ -398,8 +443,12 @@ Last update: April 23 2015.-->
                             <reg>was</reg>
                         </choice>
                         up on hei&yogh;</l>
-                    <l xml:id="bodllaudmisc108.3k.36"><hi rend="touched-red">F</hi><sg type="ln"
-                        />reum 
+                    <l xml:id="bodllaudmisc108.3k.36"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>reum 
                         <choice>
                             <orig>eo&rrot;&thorn;e</orig>
                             <reg>eor&thorn;e</reg>
@@ -434,7 +483,11 @@ Last update: April 23 2015.-->
                                     <hi rend="touched-red">h</hi>ou he was a dounward faste </reg>
                             </choice>
                         </l>
-                    <l xml:id="bodllaudmisc108.3k.39"><hi rend="touched-red">H</hi><sg type="ln"/>e
+                    <l xml:id="bodllaudmisc108.3k.39"><hi rend="touched-red">
+                        <choice>
+                            <orig>h</orig>
+                            <reg>H</reg>
+                        </choice></hi><sg type="ln"/>e
                         made &thorn;e 
                         <choice>
                             <orig> &slong;igne of &thorn;e cro&yogh;z <pc> &punctelev; </pc>
@@ -447,7 +500,10 @@ Last update: April 23 2015.-->
                        </l>
                     <l xml:id="bodllaudmisc108.3k.40">
                         <choice>
-                            <orig><hi rend="touched-red">H</hi><sg type="ln"
+                            <orig><hi rend="touched-red"><choice>
+                                <orig>h</orig>
+                                <reg>H</reg>
+                            </choice></hi><sg type="ln"
                             />armle&slong; he feol and hol man inov&yogh; <pc> &punctelev; </pc>
                                 <hi rend="touched-red">h</hi>is lime&slong; weren hole and &slong;ounde</orig>
                             <reg><hi rend="touched-red">H</hi><sg type="ln"
@@ -474,8 +530,12 @@ Last update: April 23 2015.-->
                                 <hi rend="touched-red">a</hi>nd <hi rend="touched-red">&thorn;</hi>at
                                 &thorn;ou cuddest wel &thorn;ere</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.43"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at 
+                    <l xml:id="bodllaudmisc108.3k.43"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at 
                         <choice>
                             <orig>&slong;o harde fram &slong;o hei&yogh;e feol
                                 <pc> &punctelev; </pc>
@@ -485,8 +545,12 @@ Last update: April 23 2015.-->
                                 <hi rend="touched-red">a</hi>nd of eche harme was sker</reg>
                         </choice>
                         </l>
-                    <l xml:id="bodllaudmisc108.3k.44"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>ou art a louerd &thorn;at 
+                    <l xml:id="bodllaudmisc108.3k.44"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>ou art a louerd &thorn;at 
                         <choice>
                             <orig>wondere&slong; de&slong;t <pc> &punctelev; </pc>
                                 <hi rend="touched-red">a</hi>&slong;e &slong;eith &thorn;e sauter</orig>
@@ -506,6 +570,7 @@ Last update: April 23 2015.-->
                         </choice>
                        </l>
                     <pb n="48v"/>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3k.46"><hi rend="touched-red">A</hi><sg type="ln"/>
                         clerk 
                         <choice>
@@ -519,8 +584,12 @@ Last update: April 23 2015.-->
                             <reg>aldred </reg>
                         </choice>
                         </l>
-                    <l xml:id="bodllaudmisc108.3k.47"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at 
+                    <l xml:id="bodllaudmisc108.3k.47"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at 
                         <name type="person" ref="#bioWulfstan01"><choice>
                             <orig>&slong;eint 
                                 wol&slong;ton</orig>
@@ -533,8 +602,12 @@ Last update: April 23 2015.-->
                             <orig>al&slong;o</orig>
                             <reg>also</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.48"><hi rend="touched-red">F</hi><sg type="ln"/>or
-                        ech guod man wole louien o&thorn;ur <pc> &punctelev; </pc>
+                    <l xml:id="bodllaudmisc108.3k.48"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>or ech guod man wole louien o&thorn;ur <pc> &punctelev; </pc>
                         <hi rend="touched-red">i</hi>ht were elle&slong; vuele i<sg/>do</l>
                     <l xml:id="bodllaudmisc108.3k.49"><hi rend="touched-red">S</hi><sg type="ln"
                         />eth&thorn; it bi<sg/>fel &thorn;at &thorn;e 
@@ -586,7 +659,10 @@ Last update: April 23 2015.-->
                             <orig>&slong;taf</orig>
                             <reg>staf</reg>
                         </choice> and ring</l>
-                    <l xml:id="bodllaudmisc108.3k.54"><hi rend="touched-red">H</hi><sg type="ln"/>is
+                    <l xml:id="bodllaudmisc108.3k.54"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"/>is
                         <choice>
                             <orig>bi&slong;chop&rrot;iche</orig>
                             <reg>bischopr;iche</reg>
@@ -617,16 +693,24 @@ Last update: April 23 2015.-->
                             <orig>&slong;eint</orig>
                             <reg>seint</reg>
                         </choice> Marie</l>
-                    <l xml:id="bodllaudmisc108.3k.56"><hi rend="touched-red">F</hi><sg type="ln"
-                        />our &yogh;er he hadde 
+                    <l xml:id="bodllaudmisc108.3k.56"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>our &yogh;er he hadde 
                         <choice>
                             <orig>bi&slong;chop</orig>
                             <reg>bischop</reg>
                         </choice>
                          i<sg/>beo <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd nou&yogh;t Fulliche fiue</l>
-                    <l xml:id="bodllaudmisc108.3k.57"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>o seint <name type="name" ref="#bioWulfstan"><hi rend="touched-red">E</hi>dward</name> &THORN;e holie
+                    <l xml:id="bodllaudmisc108.3k.57"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>o seint <name type="name" ref="#bioWulfstan"><hi rend="touched-red">E</hi>dward</name> &THORN;e holie
                         k&ydot;ng <pc> &punctelev; </pc>
                         <hi rend="touched-red">w</hi>ende out of &thorn;is line</l>
                     <l xml:id="bodllaudmisc108.3k.58"><hi rend="touched-red">G</hi><sg type="ln"/>ret reu&thorn;e it 
@@ -643,8 +727,12 @@ Last update: April 23 2015.-->
                             <orig>&slong;tounde</orig>
                             <reg>stounde</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.59"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; straunge men &thorn;ere comen 
+                    <l xml:id="bodllaudmisc108.3k.59"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>o&rrot; straunge men &thorn;ere comen 
                         <choice>
                             <orig>&slong;eth&thorn;e</orig>
                             <reg>seth&thorn;e</reg>
@@ -661,7 +749,10 @@ Last update: April 23 2015.-->
                                 <reg>Enguelond</reg>
                             </choice></name> to grounde</l>
                     <l xml:id="bodllaudmisc108.3k.60"><hi rend="h3 blue-ink">&para;</hi><name type="person" ref="#bioHarold01">
-                        <hi rend="touched-red">H</hi><sg type="ln"/>arold </name><choice>
+                        <hi rend="touched-red"><choice>
+                            <orig>h</orig>
+                            <reg>H</reg>
+                        </choice></hi><sg type="ln"/>arold </name><choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
                         </choice> &thorn;o
@@ -670,8 +761,12 @@ Last update: April 23 2015.-->
                             <reg>ri&yogh;htes;t</reg>
                         </choice> e&ydot;r <pc> &punctelev; </pc>
                         <hi rend="touched-red">f</hi>o&rrot; non o&thorn;ur &thorn;ere nas </l>
-                    <l xml:id="bodllaudmisc108.3k.61"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>e croune he bar of <name type="place" ref="#locEngland"
+                    <l xml:id="bodllaudmisc108.3k.61"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e croune he bar of <name type="place" ref="#locEngland"
                             >Enguelonde</name>
                         <pc> &punctelev; </pc> &yogh;wuche &yogh;wile so it 
                         <choice>
@@ -679,7 +774,12 @@ Last update: April 23 2015.-->
                             <reg>was</reg>
                         </choice>
                         </l>
-                    <l xml:id="bodllaudmisc108.3k.62"><hi rend="touched-red">F</hi><sg type="ln"/>or
+                    <l xml:id="bodllaudmisc108.3k.62"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice> or
                         <name type="name" ref="#bioWilliam01">
                             <choice>
                                 <orig>willame</orig>
@@ -696,8 +796,12 @@ Last update: April 23 2015.-->
                         </choice> &thorn;o <pc> &punctelev; </pc>
                         <hi rend="touched-red">E</hi>orl in <hi rend="touched-red"
                         >N</hi>oremaundie</l>
-                    <l xml:id="bodllaudmisc108.3k.63"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>ou&yogh;te to winne <name type="place" ref="#locEngland">Enguelond</name>
+                    <l xml:id="bodllaudmisc108.3k.63"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>ou&yogh;te to winne <name type="place" ref="#locEngland">Enguelond</name>
                         <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>o<choice>
                             <orig>&rrot;</orig>
@@ -707,7 +811,10 @@ Last update: April 23 2015.-->
                             <reg>strenc&thorn;e</reg>
                         </choice> and
                         tricherie</l>
-                    <l xml:id="bodllaudmisc108.3k.64"><hi rend="touched-red">H</hi><sg type="ln"/>e
+                    <l xml:id="bodllaudmisc108.3k.64"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"/>e
                         let him grei&thorn;i folk i<sg/>nou&yogh; <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd gret poer with nam</l>
                     <l xml:id="bodllaudmisc108.3k.65"><hi rend="touched-red">A</hi><sg type="ln"/>nd
@@ -732,7 +839,10 @@ Last update: April 23 2015.-->
                         </choice>
                         a<sg/>ferde</l>
                     <l xml:id="bodllaudmisc108.3k.67"><hi rend="h2 red-ink">&para;</hi><hi
-                            rend="touched-red">H</hi><sg type="ln"/>arold 
+                        rend="touched-red"><choice>
+                            <orig>h</orig>
+                            <reg>H</reg>
+                        </choice></hi><sg type="ln"/>arold 
                         <choice>
                             <orig>heo&rrot;de</orig>
                             <reg>heorde</reg>
@@ -740,7 +850,10 @@ Last update: April 23 2015.-->
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>e king of <name type="place"
                             ref="#locEngland">Engueldonde</name></l>
-                    <l xml:id="bodllaudmisc108.3k.68"><hi rend="touched-red">H</hi><sg type="ln"/>e
+                    <l xml:id="bodllaudmisc108.3k.68"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"/>e
                         liet grei&thorn;ie 
                         <choice>
                             <orig>fa&slong;te</orig>
@@ -756,8 +869,12 @@ Last update: April 23 2015.-->
                             <orig>&slong;tonde</orig>
                             <reg>stonde</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.69"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>e baronie of <name type="place" ref="#locEngland"
+                    <l xml:id="bodllaudmisc108.3k.69"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e baronie of <name type="place" ref="#locEngland"
                             >Enguelonde</name>
                         <pc> &punctelev; </pc>
                         <hi rend="touched-red">r</hi>edi 
@@ -770,8 +887,12 @@ Last update: April 23 2015.-->
                             <orig>&slong;one</orig>
                             <reg>sone</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.70"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>e king to help and heom 
+                    <l xml:id="bodllaudmisc108.3k.70"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e king to help and heom 
                         &slong;ulue <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi><choice><orig>&slong;</orig><reg>s</reg></choice>e ri&yogh;ht 
                         <choice>
@@ -783,8 +904,12 @@ Last update: April 23 2015.-->
                             <reg>for</reg>
                         </choice>
                               to done</l>
-                    <l xml:id="bodllaudmisc108.3k.71"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>e 
+                    <l xml:id="bodllaudmisc108.3k.71"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e 
                         <choice>
                             <orig>weo&rrot;re</orig>
                             <reg>weorre</reg>
@@ -843,8 +968,12 @@ Last update: April 23 2015.-->
                             <reg>was</reg>
                         </choice>
                          and &yogh;eot is</l>
-                    <l xml:id="bodllaudmisc108.3k.76"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at 
+                    <l xml:id="bodllaudmisc108.3k.76"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at 
                         <choice>
                             <orig>b&rrot;ou&yogh;te</orig>
                             <reg>brou&yogh;te</reg>
@@ -853,8 +982,12 @@ Last update: April 23 2015.-->
                             ref="#locEngland">Enguelond</name>
                         <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>l to grounde i<sg/>wis</l>
-                    <l xml:id="bodllaudmisc108.3k.77"><hi rend="touched-red">F</hi><sg type="ln"
-                        />o&rrot; &thorn;e 
+                    <l xml:id="bodllaudmisc108.3k.77"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>o&rrot; &thorn;e 
                         <name type="organization" ref="#orgEnglish01">
                         <choice>
                             <orig>engli&slong;che</orig>
@@ -885,8 +1018,12 @@ Last update: April 23 2015.-->
                             <reg>heore</reg>
                         </choice> k&ydot;ng
                             <pc> &punctelev; </pc> &thorn;at so muche heom truste to</l>
-                    <l xml:id="bodllaudmisc108.3k.79"><hi rend="h2 red-ink">&para;</hi><hi
-                            rend="touched-red">&THORN;</hi><sg type="ln"/>is 
+                    <l xml:id="bodllaudmisc108.3k.79"><hi rend="h2 red-ink">&para;</hi><choice>
+                            <orig><hi rend="touched-red">&thorn;</hi><sg
+                                type="ln"/></orig>
+                            <reg><hi rend="touched-red">&THORN;</hi><sg
+                                type="ln"/></reg>
+                        </choice>is 
                         <name type="organization" ref="#orgNorman01">
                         <choice>
                             <orig>No&rrot;emauns</orig>
@@ -897,8 +1034,12 @@ Last update: April 23 2015.-->
                             <reg>Englische</reg>
                         </choice> </name> men <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>ne dai of bataile hu&ydot; nome </l>
-                    <l xml:id="bodllaudmisc108.3k.80"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>are 
+                    <l xml:id="bodllaudmisc108.3k.80"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>are 
                         <choice>
                             <orig>a&slong;e</orig>
                             <reg>ase</reg>
@@ -948,8 +1089,13 @@ Last update: April 23 2015.-->
                             <orig>i<sg/>b&rrot;ou&yogh;t</orig>
                             <reg>i<sg/>brou&yogh;t</reg>
                         </choice> to grounde</l>
-                    <l xml:id="bodllaudmisc108.3k.83"><hi rend="touched-red">F</hi><sg type="ln"/>
-                        or &thorn;ulke &thorn;at &thorn;e king 
+                    <l xml:id="bodllaudmisc108.3k.83"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>or 
+                        &thorn;ulke &thorn;at &thorn;e king 
                         <choice>
                             <orig>tru&slong;te</orig>
                             <reg>truste</reg>
@@ -1013,6 +1159,7 @@ Last update: April 23 2015.-->
                         </choice> &yogh;eot hu&ydot; beoth&thorn; <pc> &punctelev; </pc>
                         <hi rend="touched-red">o</hi>&rrot;e kingues ech<sg/>one</l>
                     <pb n="49r"/>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3k.89"><hi rend="touched-red">A</hi><sg type="ln"/>nd
                         nei&yogh;h &yogh;wat alle &thorn;is hei&yogh;e <hi rend="touched-red"
                         >M</hi>en <pc> &punctelev; </pc>
@@ -1021,8 +1168,12 @@ Last update: April 23 2015.-->
                             <orig>Al&slong;o</orig>
                             <reg>Also</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.90"><hi rend="touched-red">F</hi><sg type="ln"
-                    />o&rrot; <name type="name" ref="#bioWilliam01">
+                    <l xml:id="bodllaudmisc108.3k.90"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>o&rrot; <name type="name" ref="#bioWilliam01">
                         <choice>
                             <orig>willam</orig>
                             <reg>William</reg>
@@ -1038,8 +1189,12 @@ Last update: April 23 2015.-->
                     <l xml:id="bodllaudmisc108.3k.92"><hi rend="touched-red">N</hi><sg type="ln"
                         />euere&slong;t to is cu&ydot;nde heritage <pc> &punctelev; </pc>
                         <hi rend="touched-red">n</hi>e cam it ich onder<sg/>&slong;tonde</l>
-                    <l xml:id="bodllaudmisc108.3k.93"><hi rend="h2 red-ink">&para;</hi><hi
-                        rend="touched-red">&THORN;</hi><sg type="ln"/>is <name type="name" ref="#bioWilliam01"><choice>
+                    <l xml:id="bodllaudmisc108.3k.93"><hi rend="h2 red-ink">&para;</hi><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>is <name type="name" ref="#bioWilliam01"><choice>
                             <orig>willam</orig>
                             <reg>William</reg>
                         </choice></name> 
@@ -1054,8 +1209,12 @@ Last update: April 23 2015.-->
                             <orig>onder<sg/>&slong;tod</orig>
                             <reg>onderstod</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.94"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at he mid vnri&yogh;hte hadde
+                    <l xml:id="bodllaudmisc108.3k.94"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at he mid vnri&yogh;hte hadde
                         <choice>
                             <orig>i<sg/>&slong;ched</orig>
                             <reg>isched</reg>
@@ -1070,18 +1229,27 @@ Last update: April 23 2015.-->
                             <reg>was</reg>
                         </choice> <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>ne Abbei&yogh;e he het a<sg/>rere</l>
-                    <l xml:id="bodllaudmisc108.3k.96"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/><sg/>at &thorn;e Abbeie of &thorn;e bataille is i<sg/>cleoped
+                    <l xml:id="bodllaudmisc108.3k.96"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at &thorn;e Abbeie of &thorn;e bataille is i<sg/>cleoped
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>at wel noble 
                         <choice>
                             <orig>&slong;tand</orig>
                             <reg>stand</reg>
                         </choice> &yogh;eot &thorn;ere</l>
-                    <l xml:id="bodllaudmisc108.3k.97"><hi rend="touched-red">F</hi><sg type="ln"/>or
+                    <l xml:id="bodllaudmisc108.3k.97"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>or
                         <choice>
-                            <orig>heo&rrot;e </orig>
-                            <reg>heore </reg>
+                            <orig>heo&rrot;e</orig>
+                            <reg>heore</reg>
                         </choice>
                         <choice>
                             <orig>&slong;oulene</orig>
@@ -1128,8 +1296,12 @@ Last update: April 23 2015.-->
                             <reg>straunge men</reg>
                     </choice> <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd no man ne mi&yogh;hte him lette</l>
-                    <l xml:id="bodllaudmisc108.3k.101"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>is holie <choice>
+                    <l xml:id="bodllaudmisc108.3k.101"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>is holie <choice>
                             <orig>Bi&slong;chop</orig>
                             <reg>Bischop</reg>
                         </choice> seint <name type="person" ref="#bioWulfstan01">
@@ -1142,8 +1314,12 @@ Last update: April 23 2015.-->
                             <orig>&slong;eide</orig>
                             <reg>seide</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.102"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>at he with on ri&yogh;hte hadde i<sg/>do <pc> &punctelev; </pc>
+                    <l xml:id="bodllaudmisc108.3k.102"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at he with on ri&yogh;hte hadde i<sg/>do <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi> 
                         <choice>
                             <orig>&slong;wuch</orig>
@@ -1167,8 +1343,12 @@ Last update: April 23 2015.-->
                             <orig>d&rrot;ede</orig>
                             <reg>drede</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.104"><hi rend="touched-red">F</hi><sg type="ln"
-                    />or he <choice>
+                    <l xml:id="bodllaudmisc108.3k.104"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>or he <choice>
                         <orig>wa&slong;</orig>
                         <reg>was</reg>
                     </choice> &thorn;o &thorn;e <choice>
@@ -1198,8 +1378,12 @@ Last update: April 23 2015.-->
                             <reg>was</reg>
                         </choice> with heom
                         wroth&thorn;</l>
-                    <l xml:id="bodllaudmisc108.3k.106"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>at he 
+                    <l xml:id="bodllaudmisc108.3k.106"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at he 
                         <choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
@@ -1264,8 +1448,12 @@ Last update: April 23 2015.-->
                             <orig>lo&rrot;e</orig>
                             <reg>lore</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.110"><hi rend="touched-red">F</hi><sg type="ln"
-                    />o&rrot; &thorn;o he 
+                    <l xml:id="bodllaudmisc108.3k.110"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>o&rrot; &thorn;o he 
                         <choice>
                             <orig>&slong;cholde</orig>
                             <reg>scholde</reg>
@@ -1293,8 +1481,12 @@ Last update: April 23 2015.-->
                             <reg>isomoned</reg>
                         </choice>
                         er</l>
-                    <l xml:id="bodllaudmisc108.3k.112"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e king 
+                    <l xml:id="bodllaudmisc108.3k.112"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e king 
                         <choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
@@ -1350,8 +1542,12 @@ Last update: April 23 2015.-->
                     </choice>
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">h</hi>is dom to vnder<sg/>fongue</l>
-                    <l xml:id="bodllaudmisc108.3k.117"><hi rend="h2 blue-ink">&para;</hi><hi
-                            rend="touched-red">&THORN;</hi><sg type="ln"/>e king and &thorn;e
+                    <l xml:id="bodllaudmisc108.3k.117"><hi rend="h2 blue-ink">&para;</hi><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e king and &thorn;e
                         <choice>
                             <orig>Erchebi&slong;chop </orig>
                             <reg>erchebischop</reg>
@@ -1362,8 +1558,12 @@ Last update: April 23 2015.-->
                         </choice> <pc> &punctelev; </pc>
                         <hi rend="touched-red">&slong;</hi>peken to him  
                         wo&rrot;de&slong; grete</l>
-                    <l xml:id="bodllaudmisc108.3k.118"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>at he  
+                    <l xml:id="bodllaudmisc108.3k.118"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at he  
                         <choice>
                             <orig>&slong;cholde</orig>
                             <reg>scholde</reg>
@@ -1385,8 +1585,12 @@ Last update: April 23 2015.-->
                             <orig>bi&slong;chop&rrot;iche</orig>
                             <reg>bischopriche</reg>
                         </choice> lete</l>
-                    <l xml:id="bodllaudmisc108.3k.119"><hi rend="touched-red">F</hi><sg type="ln"
-                    />or<sg/>to holden  
+                    <l xml:id="bodllaudmisc108.3k.119"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>or<sg/>to holden  
                         <choice>
                             <orig>&slong;wuch</orig>
                             <reg>swuch</reg>
@@ -1464,8 +1668,12 @@ Last update: April 23 2015.-->
                             <orig>he&slong;te</orig>
                             <reg>heste</reg>
                         </choice> do</l>
-                    <l xml:id="bodllaudmisc108.3k.126"><hi rend="touched-red">F</hi><sg type="ln"
-                    />or 
+                    <l xml:id="bodllaudmisc108.3k.126"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>or 
                         <choice>
                             <orig>&slong;ire</orig>
                             <reg>sire</reg>
@@ -1483,8 +1691,12 @@ Last update: April 23 2015.-->
                             <orig>al&slong;o</orig>
                             <reg>also</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.127"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e croce ich habbe &yogh;are 
+                    <l xml:id="bodllaudmisc108.3k.127"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e croce ich habbe &yogh;are 
                         <choice>
                             <orig>i<sg/>bo&rrot;e</orig>
                             <reg>ibore</reg>
@@ -1502,7 +1714,11 @@ Last update: April 23 2015.-->
                             <orig>wu&ydot;&rrot;&thorn;e</orig>
                             <reg>wu&ydot;r&thorn;e</reg>
                         </choice> &thorn;er to</l>
-                    <l xml:id="bodllaudmisc108.3k.129"><hi rend="touched-red">&YOGH;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.129"><hi rend="touched-red">
+                        <choice>
+                            <orig>&yogh;</orig>
+                            <reg>&YOGH;</reg>
+                        </choice></hi><sg
                         type="ln"/>wane &yogh;e wollez &thorn;at ich 
                         <choice>
                             <orig>a&slong;</orig>
@@ -1523,7 +1739,11 @@ Last update: April 23 2015.-->
                             <reg>souereines</reg>
                         </choice>
                         i<sg/>wis</l>
-                    <l xml:id="bodllaudmisc108.3k.131"><hi rend="touched-red">V</hi><sg type="ln"
+                    <l xml:id="bodllaudmisc108.3k.131"><hi rend="touched-red">
+                        <choice>
+                            <orig>v</orig>
+                            <reg>V</reg>
+                        </choice></hi><sg type="ln"
                     />n<sg/>bou&yogh;h&slong;ome  
                         to holie churche <pc> &punctelev; </pc>
                         <hi rend="touched-red">i</hi><sg/>wis i<sg/>nelle be nou&yogh;t</l>
@@ -1551,6 +1771,7 @@ Last update: April 23 2015.-->
                         me nou&yogh;t <pc> &punctelev; </pc>
                         <hi rend="touched-red">I</hi> nelle eou take non</l>
                     <pb n="49v"/>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3k.134"><hi rend="touched-red">A</hi><sg type="ln"
                         />ke him &thorn;at 
                         <choice>
@@ -1558,8 +1779,12 @@ Last update: April 23 2015.-->
                             <reg>as</reg>
                         </choice> me bi<sg/>tok <pc> &punctelev; </pc>
                         <hi rend="touched-red">b</hi>i<sg/>fo&rrot;e eov euerech<sg/>on</l>
-                    <l xml:id="bodllaudmisc108.3k.135"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e guode Man &thorn;at 
+                    <l xml:id="bodllaudmisc108.3k.135"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e guode Man &thorn;at 
                         <choice>
                             <orig>a&slong;</orig>
                             <reg>as</reg>
@@ -1600,8 +1825,12 @@ Last update: April 23 2015.-->
                             <reg>smot</reg>
                         </choice> &thorn;e point
                         &thorn;ar<sg/>on</l>
-                    <l xml:id="bodllaudmisc108.3k.139"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e 
+                    <l xml:id="bodllaudmisc108.3k.139"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e 
                         <choice>
                             <orig>&slong;taf</orig>
                             <reg>staf</reg>
@@ -1649,7 +1878,9 @@ Last update: April 23 2015.-->
                             <reg>more</reg>
                         </choice></l>
                     <l xml:id="bodllaudmisc108.3k.144"><hi rend="h2 blue-ink">&para;</hi><hi
-                            rend="touched-red">&THORN;</hi><sg type="ln"/>i&slong; holie Man wende
+                            rend="touched-red"><choice><orig>&thorn;</orig>
+                                <reg>&THORN;</reg>
+                            </choice></hi><sg type="ln"/>i&slong; holie Man wende
                         <choice>
                             <orig>fo&rrot;th</orig>
                             <reg>forth</reg>
@@ -1660,8 +1891,12 @@ Last update: April 23 2015.-->
                             <orig>&slong;ofte</orig>
                             <reg>softe</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.145"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>at folk 
+                    <l xml:id="bodllaudmisc108.3k.145"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>at folk 
                         <choice>
                             <orig>&slong;tod</orig>
                             <reg>stod</reg>
@@ -1672,7 +1907,11 @@ Last update: April 23 2015.-->
                         </choice> it were i<sg/>nome
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd bi<sg/>heolden &thorn;e croce wel ofte</l>
-                    <l xml:id="bodllaudmisc108.3k.146"><hi rend="touched-red">H</hi><sg type="ln"
+                    <l xml:id="bodllaudmisc108.3k.146"><hi rend="touched-red">
+                        <choice>
+                            <orig>h</orig>
+                            <reg>H</reg>
+                        </choice></hi><sg type="ln"
                         />ou heo 
                         <choice>
                             <orig> &slong;tod </orig>
@@ -1730,8 +1969,12 @@ Last update: April 23 2015.-->
                             <orig>d&rrot;awe</orig>
                             <reg>drawe</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.149"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>are 
+                    <l xml:id="bodllaudmisc108.3k.149"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>are 
                         <choice>
                             <orig>na&slong;</orig>
                             <reg>nas</reg>
@@ -1750,7 +1993,10 @@ Last update: April 23 2015.-->
                             <orig>ene&slong;</orig>
                             <reg>enes</reg>
                         </choice> wawe</l>
-                    <l xml:id="bodllaudmisc108.3k.150"><hi rend="touched-red">H</hi><sg type="ln"
+                    <l xml:id="bodllaudmisc108.3k.150"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"
                         /><sg/>u&ydot; 
                         <choice>
                             <orig>po&rrot;ueiden</orig>
@@ -1767,7 +2013,11 @@ Last update: April 23 2015.-->
                             <orig> rouce&slong;tre</orig>
                             <reg> Roucestre</reg>
                         </choice> </name></l>
-                    <l xml:id="bodllaudmisc108.3k.151"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.151"><hi rend="touched-red">
+                        <choice>
+                            <orig>&thorn;</orig>
+                            <reg>&THORN;</reg>
+                        </choice></hi><sg
                         type="ln"/>at he 
                         <choice>
                             <orig>&slong;cholde</orig>
@@ -1786,8 +2036,12 @@ Last update: April 23 2015.-->
                             <orig>wirece&slong;tre</orig>
                             <reg>wirecestre</reg>
                         </choice></name></l>
-                    <l xml:id="bodllaudmisc108.3k.152"><hi rend="h2 red-ink">&para;</hi><hi
-                        rend="touched-red">&THORN;</hi><sg type="ln"/>e 
+                    <l xml:id="bodllaudmisc108.3k.152"><hi rend="h2 red-ink">&para;</hi><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e 
                         <choice>
                             <orig>Erchebi&slong;chop</orig>
                             <reg>erchebischop</reg>
@@ -1799,8 +2053,12 @@ Last update: April 23 2015.-->
                             <reg>saisi</reg>
                         </choice> &thorn;e croiz
                         a<sg/>non</l>
-                    <l xml:id="bodllaudmisc108.3k.153"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e 
+                    <l xml:id="bodllaudmisc108.3k.153"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e 
                         <choice>
                             <orig>Bi&slong;chop</orig>
                             <reg>Bischop</reg>
@@ -1811,8 +2069,12 @@ Last update: April 23 2015.-->
                         </choice></name>  wel baldeliche
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>udere<sg/>ward gan gon</l>
-                    <l xml:id="bodllaudmisc108.3k.154"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/> croiz he nam and 
+                    <l xml:id="bodllaudmisc108.3k.154"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e croiz he nam and 
                         <choice>
                             <orig>fa&slong;te</orig>
                             <reg>faste</reg>
@@ -1830,7 +2092,11 @@ Last update: April 23 2015.-->
                             <orig>&slong;ton</orig>
                             <reg>ston</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.155"><hi rend="touched-red">H</hi><sg type="ln"/>e
+                    <l xml:id="bodllaudmisc108.3k.155"><hi rend="touched-red">
+                        <choice>
+                            <orig>h</orig>
+                            <reg>H</reg>
+                        </choice></hi><sg type="ln"/>e
                         no mi&yogh;hte hire nou&yogh;t 
                         <choice>
                             <orig>ene&slong;</orig>
@@ -1852,8 +2118,12 @@ Last update: April 23 2015.-->
                             <orig>&slong;eo</orig>
                             <reg>seo</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.157"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>o &thorn;e king and &thorn;e 
+                    <l xml:id="bodllaudmisc108.3k.157"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>o &thorn;e king and &thorn;e 
                         <choice>
                             <orig>Erchebi&slong;chop</orig>
                             <reg>Erchebischop</reg>
@@ -1864,7 +2134,10 @@ Last update: April 23 2015.-->
                         </choice> <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>at non o&thorn;ur it ne mi&yogh;hte
                         beo</l>
-                    <l xml:id="bodllaudmisc108.3k.158"><hi rend="touched-red">H</hi><sg type="ln"
+                    <l xml:id="bodllaudmisc108.3k.158"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"
                     />eom of &thorn;ou&yogh;te 
                        <choice>
                            <orig>heo&rrot;e</orig>
@@ -1884,15 +2157,22 @@ Last update: April 23 2015.-->
                         <hi rend="touched-red">h</hi>eo&rrot;e 
                             <orig>tre&slong;pa&slong;</orig>
                             <reg>trespas</reg> a mede</l>
-                    <l xml:id="bodllaudmisc108.3k.160"><hi rend="h3 blue-ink">&para;</hi><hi
-                            rend="touched-red">&THORN;</hi><sg type="ln"/>e Messagers i<sg/>redie
+                    <l xml:id="bodllaudmisc108.3k.160"><hi rend="h3 blue-ink">&para;</hi><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e Messagers i<sg/>redie
                         weren <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd aftur him 
                         <choice>
                             <orig>&slong;one</orig>
                             <reg>sone</reg>
                         </choice> wenden</l>
-                    <l xml:id="bodllaudmisc108.3k.161"><hi rend="touched-red">&YOGH;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.161"><hi rend="touched-red"><choice>
+                        <orig>&yogh;</orig>
+                        <reg>&YOGH;</reg>
+                    </choice></hi><sg
                             type="ln"/>eot &thorn;is holie Man for al &thorn;e gult
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">i</hi>&slong; 
@@ -1913,16 +2193,24 @@ Last update: April 23 2015.-->
                             <orig>&slong;tille</orig>
                             <reg>stille</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.164"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>o he 
+                    <l xml:id="bodllaudmisc108.3k.164"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>o he 
                         <choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
                         </choice> to court i<sg/>come <pc> &punctelev; </pc>
                         <hi rend="touched-red">h</hi>u&ydot; a<sg/>risen a<sg/>&yogh;ein him
                         &thorn;ere</l>
-                    <l xml:id="bodllaudmisc108.3k.165"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e king and &thorn;e 
+                    <l xml:id="bodllaudmisc108.3k.165"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e king and &thorn;e 
                         <choice>
                             <orig>Erchebi&slong;chop</orig>
                             <reg>Erchebischop</reg>
@@ -1960,8 +2248,12 @@ Last update: April 23 2015.-->
                             <orig>heo&rrot;e</orig>
                             <reg>heore</reg>
                         </choice> rede</l>
-                    <l xml:id="bodllaudmisc108.3k.169"><hi rend="touched-red">F</hi><sg type="ln"
-                    />o&rrot; he 
+                    <l xml:id="bodllaudmisc108.3k.169"><choice>
+                        <orig><hi rend="touched-red">f</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">F</hi><sg
+                            type="ln"/></reg>
+                    </choice>o&rrot; he 
                         <choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
@@ -2002,11 +2294,15 @@ Last update: April 23 2015.-->
                             <orig>mo&rrot;e</orig>
                             <reg>more</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.172"><hi rend="touched-red">&THORN;</hi><sg
-                            type="ln"/>e k&ydot;ng and &thorn;e 
+                    <l xml:id="bodllaudmisc108.3k.172"><choice>
+                        <orig><hi rend="touched-red">&thorn;</hi><sg
+                            type="ln"/></orig>
+                        <reg><hi rend="touched-red">&THORN;</hi><sg
+                            type="ln"/></reg>
+                    </choice>e k&ydot;ng and &thorn;e 
                         <choice>
                             <orig>Erchebischop </orig>
-                            <reg></reg>
+                            <reg>erchebischop</reg>
                         </choice>
                         <choice>
                             <orig>al&slong;o</orig>
@@ -2038,7 +2334,11 @@ Last update: April 23 2015.-->
                             <reg>wu&ydot;r;&thorn;e</reg>
                         </choice> were
                         &thorn;are to</l>
-                    <l xml:id="bodllaudmisc108.3k.174"><hi rend="touched-red">L</hi><sg type="ln"
+                    <l xml:id="bodllaudmisc108.3k.174"><hi rend="touched-red">
+                        <choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice></hi><sg type="ln"
                     />ongue it <choice>
                         <orig>wa&slong;</orig>
                         <reg>was</reg>
@@ -2081,6 +2381,7 @@ Last update: April 23 2015.-->
                             <reg>faste</reg>
                         </choice></l>
                     <pb n="50r"/>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3k.177"><hi rend="h2 red-ink">&para;</hi><hi
                         rend="touched-red">A</hi><sg type="ln"/>lso li&yogh;htliche 
                         <choice>
@@ -2093,14 +2394,21 @@ Last update: April 23 2015.-->
                             <orig>d&rrot;awe</orig>
                             <reg>drawe</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.178"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.178"><hi rend="touched-red">
+                        <choice>
+                            <orig>&thorn;</orig>
+                            <reg>&THORN;</reg>
+                        </choice></hi><sg
                             type="ln"/>at so mani men fondeden er <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd ne mi&yogh;hten hire 
                         <choice>
                             <orig>ene&slong;</orig>
                             <reg>enes</reg>
                         </choice> wawe</l>
-                    <l xml:id="bodllaudmisc108.3k.179"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.179"><hi rend="touched-red"><choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg
                         type="ln"/>icke 
                         <choice>
                             <orig>o&rrot;n</orig>
@@ -2112,7 +2420,11 @@ Last update: April 23 2015.-->
                             <orig>na&slong;</orig>
                             <reg>nas</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.180"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.180"><hi rend="touched-red">
+                    <choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg
                             type="ln"/>e miracle 
                         <choice>
                             <orig>wa&slong;</orig>
@@ -2133,15 +2445,21 @@ Last update: April 23 2015.-->
                             <reg>was</reg>
                         </choice></l>
                     <l xml:id="bodllaudmisc108.3k.181"><hi rend="touched-red">M</hi><sg type="ln"
-                        />en anoureden &thorn;is holie Man <pc> &punctelev; </pc>
+                        />en anoureden &thorn;is holie 
+                        <choice>
+                            <orig>Man</orig>
+                            <reg>man</reg>
+                        </choice> <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>l&slong;o muche 
                         <choice>
                             <orig>a&slong;e</orig>
                             <reg>ase</reg>
                         </choice> hu&ydot;
                         mi&yogh;hte</l>
-                    <l xml:id="bodllaudmisc108.3k.182"><hi rend="touched-red">H</hi><sg type="ln"
-                        />is power &thorn;at him 
+                    <l xml:id="bodllaudmisc108.3k.182"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"/>is power &thorn;at him 
                         <choice>
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
@@ -2162,17 +2480,27 @@ Last update: April 23 2015.-->
                             <orig>d&rrot;ou&yogh;</orig>
                             <reg>drou&yogh;</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.184"><hi rend="touched-red">H</hi><sg type="ln"
-                        />is Couent vnder<sg/>feng him faire <pc> &punctelev; </pc>
+                    <l xml:id="bodllaudmisc108.3k.184"><hi rend="touched-red">
+                        <choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"/>is Couent vnder<sg/>feng him faire <pc> &punctelev; </pc>
                         <hi rend="touched-red">w</hi>ith grete noblei&yogh;e i<sg/>nou&yogh;</l>
                     <l xml:id="bodllaudmisc108.3k.185"><hi rend="h2 blue-ink">&para;</hi><hi
-                            rend="touched-red">&THORN;</hi><sg type="ln"/>is holie Man ladde al is
+                        rend="touched-red"><choice>
+                            <orig>&thorn;</orig>
+                            <reg>&THORN;</reg>
+                        </choice></hi><sg type="ln"/>is holie Man ladde al is
                         lif <pc> &punctelev; </pc>
                         <hi rend="touched-red">s</hi>w&ydot;&thorn;e faire and clene</l>
                     <l xml:id="bodllaudmisc108.3k.186"><hi rend="touched-red">S</hi><sg type="ln"
                     />ijkne&slong;&slong;es &thorn;are weren wel fewe <pc> &punctelev; </pc>
                         <hi rend="touched-red">&thorn;</hi>at man wolde him offe mene</l>
-                    <l xml:id="bodllaudmisc108.3k.187"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.187"><hi rend="touched-red">
+                    <choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg
                         type="ln"/>at he ne 
                         <choice>
                             <orig>b&rrot;ou&yogh;te</orig>
@@ -2219,8 +2547,10 @@ Last update: April 23 2015.-->
                             <orig>wa&slong;</orig>
                             <reg>was</reg>
                         </choice> of grete elde</l>
-                    <l xml:id="bodllaudmisc108.3k.192"><hi rend="touched-red">H</hi><sg type="ln"
-                        />is bodi bi<sg/>gan to heneg&ydot; 
+                    <l xml:id="bodllaudmisc108.3k.192"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"/>is bodi bi<sg/>gan to heneg&ydot; 
                         <choice>
                             <orig>&slong;wi&thorn;e</orig>
                             <reg>swi&thorn;e</reg>
@@ -2292,7 +2622,10 @@ Last update: April 23 2015.-->
                             <reg>schal</reg>
                         </choice> a&ydot; bi<sg/>leue</l>
                     <l xml:id="bodllaudmisc108.3k.198"><hi rend="touched-red">I</hi><sg type="ln"/>n
-                        &thorn;e Mon&thorn;e of Jeneuer <pc> &punctelev; </pc>
+                        &thorn;e <choice>
+                            <orig>Mon&thorn;e</orig>
+                            <reg>mon&thorn;e</reg>
+                        </choice> of Jeneuer <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi> 
                         <name type="person" ref="#bioFabian01">
                         <choice>
@@ -2351,15 +2684,23 @@ Last update: April 23 2015.-->
                             <orig>al&slong;o</orig>
                             <reg>also</reg>
                         </choice> <pc> &punctelev; </pc> of &thorn;e
-                        kinedom <pc>?</pc>
+                        kinedom <pc> &middot; </pc>
                         <hi rend="touched-red">O</hi>f <name type="name" ref="#bioWilliam01"><choice>
                             <orig>willam</orig>
                             <reg>William</reg>
                         </choice></name> &thorn;e rede king <pc> &punctelev; </pc>
-                        <hi rend="touched-red">&thorn;</hi>at aftur <name type="name" ref="#bioWilliam02">willa</name> bastard cam
-                            <pc>?</pc></l>
+                        <hi rend="touched-red">&thorn;</hi>at aftur <name type="name" ref="#bioWilliam02">
+                            <choice>
+                                <orig>will<am>&combmacr;a</am></orig>
+                                <reg>Will<ex>am</ex></reg>
+                            </choice></name> bastard cam
+                            <pc>&middot;</pc></l>
                     <l xml:id="bodllaudmisc108.3k.202"><hi rend="touched-red">A</hi><sg type="ln"
-                        />nd four Mon&thorn;es and four 
+                        />nd four 
+                        <choice>
+                            <orig>Mon&thorn;es</orig>
+                            <reg>mon&thorn;es</reg>
+                        </choice> and four 
                         <choice>
                             <orig>dawe&slong;</orig>
                             <reg>dawes</reg>
@@ -2369,8 +2710,11 @@ Last update: April 23 2015.-->
                             <orig>wo&rrot;lde</orig>
                             <reg>worlde</reg>
                         </choice> her</l>
-                    <l xml:id="bodllaudmisc108.3k.203"><hi rend="touched-red">F</hi><sg type="ln"
-                        />our 
+                    <l xml:id="bodllaudmisc108.3k.203"><hi rend="touched-red">
+                        <choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice></hi><sg type="ln"/>our 
                         <choice>
                             <orig>&slong;co&rrot;e</orig>
                             <reg>score</reg>
@@ -2391,7 +2735,10 @@ Last update: April 23 2015.-->
                     <l xml:id="bodllaudmisc108.3k.204"><hi rend="touched-red">A</hi><sg type="ln"
                         />re he wende out of &thorn;is lijf <pc> &punctelev; </pc>
                         <hi rend="touched-red">t</hi>o &thorn;e Jo&ydot;e of heuene an hei&yogh;</l>
-                    <l xml:id="bodllaudmisc108.3k.205"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.205"><hi rend="touched-red"><choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg
                             type="ln"/>o &thorn;is holie man 
                         <choice>
                             <orig>wa&slong;</orig>
@@ -2414,7 +2761,7 @@ Last update: April 23 2015.-->
                         </choice> of <name type="place" ref="#locWorcester">
                         <choice>
                             <orig>wirece&slong;tre</orig>
-                            <reg>wirecestre</reg>
+                            <reg>Wirecestre</reg>
                         </choice></name> <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd duden &thorn;at   
                         <choice>
@@ -2444,8 +2791,10 @@ Last update: April 23 2015.-->
                             <orig>b&rrot;e&thorn;erne</orig>
                             <reg>bre&thorn;erne</reg>
                         </choice> were</l>
-                    <l xml:id="bodllaudmisc108.3k.209"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>e   
+                    <l xml:id="bodllaudmisc108.3k.209"><hi rend="touched-red"><choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg type="ln"/>e   
                         <choice>
                             <orig>&slong;erui&slong;e</orig>
                             <reg>seruise</reg>
@@ -2478,8 +2827,10 @@ Last update: April 23 2015.-->
                         <hi rend="touched-red">&thorn;</hi>are bi hu&ydot; woken
                         a<sg/>ni&yogh;ht</l>
                     <l xml:id="bodllaudmisc108.3k.211"><hi rend="h3 blue-ink">&para;</hi><hi
-                            rend="touched-red">&THORN;</hi><sg type="ln"/>o it was wel with inne
-                        ni&yogh;ht <pc> &punctelev; </pc>
+                        rend="touched-red"><choice>
+                            <orig>&thorn;</orig>
+                            <reg>&THORN;</reg>
+                        </choice></hi><sg type="ln"/>o it was wel with inne ni&yogh;ht <pc> &punctelev; </pc>
                       <hi rend="touched-red">a</hi>&slong;e hu&ydot;   
                         <choice>
                             <orig>&slong;eiden</orig>
@@ -2490,8 +2841,10 @@ Last update: April 23 2015.-->
                             <reg>heore</reg>
                         </choice>
                         boke</l>
-                    <l xml:id="bodllaudmisc108.3k.212"><hi rend="touched-red">H</hi><sg type="ln"
-                        />eom 
+                    <l xml:id="bodllaudmisc108.3k.212"><hi rend="touched-red"><choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                    </choice></hi><sg type="ln"/>eom 
                         <choice>
                             <orig>lu&slong;te</orig>
                             <reg>luste</reg>
@@ -2524,7 +2877,10 @@ Last update: April 23 2015.-->
                             <orig>ca&slong;te</orig>
                             <reg>caste</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.3k.215"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.215"><hi rend="touched-red"><choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg
                             type="ln"/>at holie bodi &thorn;at lai &thorn;are ded
                             <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi><sg/>mong heom in &thorn;e bere</l>
@@ -2548,16 +2904,20 @@ Last update: April 23 2015.-->
                           <orig>a&slong;e</orig>
                         <reg>ase</reg>
                     </choice> he a<sg/>wei&yogh;hte heom <pc> &punctelev; </pc> 
-                        <hi rend="touched-red">&slong;</hi>umdel gan heom chide <ab>
-                            <add place="marginLeft"> &caret;be </add>
-                        </ab></l>
-                    <l xml:id="bodllaudmisc108.3k.220"><hi rend="touched-red">&THORN;</hi><sg type="ln"/>at hu&ydot; nolden with 
+                        <hi rend="touched-red">&slong;</hi>umdel gan heom chide
+                            <fw type="guideLetters" place="marginLeft"><pc> &middot; </pc> be <pc> &middot; </pc></fw>
+                        </l>
+                    <l xml:id="bodllaudmisc108.3k.220"><hi rend="touched-red"><choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg type="ln"/>at hu&ydot; nolden with 
                         <choice>
                             <orig>heo&rrot;e</orig>
                             <reg>heore</reg>
                         </choice> slep <pc> &punctelev; </pc>
                         <hi rend="touched-red">h</hi>eo&rrot;e ri&yogh;hte t&ydot;me a<sg/>bide</l>
                     <pb n="50v"/>
+                    <cb n="1"/>
                     <l xml:id="bodllaudmisc108.3k.221"><hi rend="h1 red-ink">&para;</hi><hi
                             rend="touched-red">S</hi><sg type="ln"/>o muche is holi 
                         <choice>
@@ -2574,15 +2934,28 @@ Last update: April 23 2015.-->
                             <orig>fo&rrot;</orig>
                             <reg>for</reg>
                         </choice> to wite</l>
-                    <l xml:id="bodllaudmisc108.3k.222"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.222"><hi rend="touched-red">
+                        <choice>
+                            <orig>&thorn;</orig>
+                            <reg>&THORN;</reg>
+                        </choice></hi><sg
                             type="ln"/>at he nolde &thorn;ei he were ded <pc> &punctelev; </pc>
                         <hi rend="touched-red">h</hi>is 
                         <choice>
                             <orig>b&rrot;e&thorn;erne</orig>
                             <reg>bre&thorn;erne</reg>
                         </choice> fur<sg/>&yogh;ite</l>
-                    <l xml:id="bodllaudmisc108.3k.223"><hi rend="touched-red">&THORN;</hi><sg
-                        type="ln"/>is Miracle   <choice>
+                    <l xml:id="bodllaudmisc108.3k.223"><hi rend="touched-red">
+                       <choice>
+                        <orig>&thorn;</orig>
+                        <reg>&THORN;</reg>
+                    </choice></hi><sg
+                        type="ln"/>is 
+                        <choice>
+                            <orig>Miracle</orig>
+                            <reg>miracle</reg>
+                        </choice>
+                          <choice>
                             <orig>wa&slong; </orig>
                             <reg>was</reg>
                         </choice>
@@ -2611,7 +2984,11 @@ Last update: April 23 2015.-->
                             <reg>ibured</reg>
                         </choice> <pc> &punctelev; </pc>
                         <hi rend="touched-red">a</hi>nd &yogh;u&ydot; he liht &thorn;ere</l>
-                    <l xml:id="bodllaudmisc108.3k.225"><hi rend="touched-red">&THORN;</hi><sg
+                    <l xml:id="bodllaudmisc108.3k.225"><hi rend="touched-red">
+                        <choice>
+                            <orig>&thorn;</orig>
+                            <reg>&THORN;</reg>
+                        </choice></hi><sg
                             type="ln"/>are Man ma&ydot; 
                         <choice>
                             <orig>fo&rrot;</orig>
