@@ -5,151 +5,173 @@
     <!-- End of Standoff <teiHeader> and <facsimile> files -->
     <text>
         <!-- Change log:
-OCR by Scott Kleinman from Google scan. Proofread by Andrea Lankin on 9 August 2010. XML conversion by Scott Kleinman on 9 August 2010.
-Editing begun by Scott Kleinman. NB. Horstmann's edition is very different from Laud 108. Check all spellings and wording.
-8-line stanzas rhyming abab abab
-Last Update: Mar 12 2015. -->
+Editing begun by Scott Kleinman.
+All B-verse-initial capitals are those found in the manuscript. All A-verse-initial capitals are those given in 
+Linow's edition. The assumption is that they will be converted to capitals in the critical view anyway.
+Need to devise system for ydot on verse-initial capitals.
+Named entities:
+#bioMary0001
+#locBoston01
+#locBewis01
+Last Update: May 12 2015. -->
         <body>
             <pb n="200v"/>
+            <cb n="3"/>
             <note type="enc" resp="#bioKL0001">The preceding text is in two columns, whereas this
-                one, beginning halfway down the page is in one column. How do we encode this layout?
-                Also, the lines are written Right now, I have simply added @rend="prose" to
-                div1.</note>
-            <div1 rend="prose">
+                one, beginning halfway down the page is in one column. It is numbered 3, and the
+                layout will presumably be handled in the facsimile markup. Also, the lines are
+                written with line breaks after each ab couplet and punctus elevatus between the
+                a-verse and the b-verse. Right now, I have simply added @rend="halfline" to div1,
+                but extra markup will have to indicate where line breaks will have to be inserted in
+                the views.</note>
+            <div1 rend="halfline">
                 <fw type="guideLetters" place="marginLeft">10</fw>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.1"><choice>
+                    <l xml:id="bodllaudmisc108.6.1" rhyme="A"><choice>
                             <sic><space unit="letters" quantity="1"/>ls</sic>
                             <corr>Als</corr>
-                        </choice> i<sg> </sg>lay in <add place="supralinear">a</add> winteri&slong;
-                            nyt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.2">in a <choice>
+                        </choice> i<sg> </sg>la&ydot; in <add place="supralinear">a</add>
+                        winteri&slong; n&ydot;t<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.2" rhyme="B">in a <choice>
                             <orig>d&rrot;oukeni<am>&combmacr;</am>g</orig>
                             <reg>droukeni<ex>n</ex>g</reg>
-                        </choice> bifo&rrot; þe day<metamark xml:id="meta0001"
+                        </choice> bi<sg/>fo&rrot; þe da&ydot;<metamark xml:id="meta0001"
                             function="verse-clarifiction" rend="wavy-line"
                             target="#bodllaudmisc108.6.6"/></l>
-                    <l xml:id="bodllaudmisc108.6.3">space unit="letters" quantity="1"/>vo&rrot;
-                        &slong;oþe i &slong;auȝ a<sg> </sg>&slong;elly syt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.4">a body on a bere lay<metamark
-                            function="verse-clarifiction" rend="wavy-line" target="#meta0001"/></l>
-                    <l xml:id="bodllaudmisc108.6.5">Þ<sg type="ln"/>at havede ben a<sg> </sg>mody
-                            knyȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.6">and lutel served <choice>
+                    <l xml:id="bodllaudmisc108.6.3" rhyme="A"><space unit="letters" quantity="1"
+                        />vo&rrot; &slong;oþe i &slong;auȝ a<sg> </sg>&slong;ell&ydot;
+                            s&ydot;t<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.4" rhyme="B">a bod&ydot; on a bere
+                            la&ydot;<metamark function="verse-clarifiction" rend="wavy-line"
+                            target="#meta0001"/></l>
+                    <l xml:id="bodllaudmisc108.6.5" rhyme="A">Þ<sg type="ln"/>at hauede ben
+                            a<sg> </sg>mod&ydot; kn&ydot;ȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.6" rhyme="B">and lutel serued <choice>
                             <orig>god</orig>
                             <reg>God</reg>
-                        </choice> to payȝ<metamark target="#meta0001" function="verse-clarifiction"
-                            rend="wavy-line"/></l>
-                    <l xml:id="bodllaudmisc108.6.7">L<sg type="ln"/>o&rrot;en he haved þe lives
-                            lyȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.8">þe go&slong;t was oute and &slong;cholde
-                        away</l>
+                        </choice> to pa&ydot;ȝ<metamark target="#meta0001"
+                            function="verse-clarifiction" rend="wavy-line"/></l>
+                    <l xml:id="bodllaudmisc108.6.7" rhyme="A">L<sg type="ln"/>o&rrot;en he haued þe
+                        liues l&ydot;ȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.8" rhyme="B">þe go&slong;t was oute and
+                        &slong;cholde awa&ydot;</l>
                     <note type="pal" resp="#bioKL0001">In the first stanza the b-rhymes are
                         connected by wavy lines in brown ink (possibly by a later hand). This was
                         presumably to clarify the rhyme scheme.</note>
                 </lg>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.9">w<sg type="ln"/>an þe gost it scholde
+                    <l xml:id="bodllaudmisc108.6.9" rhyme="A">w<sg type="ln"/>an þe gost it scholde
                             go<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.10">yt bi<sg/>wente and with<sg/>&slong;tod</l>
-                    <l xml:id="bodllaudmisc108.6.11"><choice>
+                    <l xml:id="bodllaudmisc108.6.10" rhyme="B">&ydot;t bi<sg/>wente and
+                        with<sg/>&slong;tod</l>
+                    <l xml:id="bodllaudmisc108.6.11" rhyme="A"><choice>
                             <sic>b<sg type="ln"/>i<sg/>helod</sic>
                             <corr>biheold</corr>
-                        </choice> the body þere it cam fro&punctelev;</l>
-                    <l xml:id="bodllaudmisc108.6.12">So &slong;erfulli with d&rrot;edli <choice>
+                        </choice> the bod&ydot; þere it cam fro&punctelev;</l>
+                    <l xml:id="bodllaudmisc108.6.12" rhyme="B">so &slong;erfulli with d&rrot;edli <choice>
                             <orig>Mod</orig>
                             <reg>mod</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.6.13">I<sg type="ln"/>t &slong;eide weile and
-                            walawo<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.14">wo wo&rrot;þe þi fleys þi foule blod</l>
-                    <l xml:id="bodllaudmisc108.6.15">w<sg type="ln"/>reche bodi wȝy listouȝ
-                            so<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.16">þat ȝwilene were &slong;o wilde and wod</l>
+                    <l xml:id="bodllaudmisc108.6.13" rhyme="A">I<sg type="ln"/>t &slong;eide weile
+                        and walawo<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.14" rhyme="B">wo wo&rrot;þe þi fle&ydot;s þi foule
+                        blod</l>
+                    <l xml:id="bodllaudmisc108.6.15" rhyme="A">w<sg type="ln"/>reche bodi wȝ&ydot;
+                        listouȝ so<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.16" rhyme="B">þat ȝwilene were &slong;o wilde and
+                        wod</l>
                 </lg>
                 <note type="enc" resp="#bioKL0001">The page appears to have been marked with the
                     double solidus for the rubricator to add pilcrows later. These are indicated in
                     anonymous blocks.</note>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.17">Þ<sg type="ln"/>ow þat were woned to
+                    <l xml:id="bodllaudmisc108.6.17" rhyme="A">Þ<sg type="ln"/>ow þat were woned to
                             ride<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.18">heyȝe on ho&rrot;&slong;e in and out</l>
-                    <l xml:id="bodllaudmisc108.6.19">S<sg type="ln"/>o koweynte knit i<sg/>kud
-                        &slong;o wide<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.20">as a<sg> </sg>lyun fers and p&rrot;oud</l>
-                    <l xml:id="bodllaudmisc108.6.21">Ȝ<sg type="ln"/>were is al þi <choice>
+                    <l xml:id="bodllaudmisc108.6.18" rhyme="B">he&ydot;<unclear>ȝ</unclear>e on
+                        ho&rrot;&slong;e in and out</l>
+                    <l xml:id="bodllaudmisc108.6.19" rhyme="A">S<sg type="ln"/>o kowe&ydot;nte knit <choice>
+                            <orig>I<sg/>kud</orig>
+                            <reg>ikud</reg>
+                        </choice> &slong;o wide<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.20" rhyme="B">as a<sg> </sg>l&ydot;un fers and
+                        p&rrot;oud</l>
+                    <l xml:id="bodllaudmisc108.6.21" rhyme="A">Ȝ<sg type="ln"/>were is al þi <choice>
                             <orig>Michele</orig>
                             <reg>michele</reg>
                         </choice> p&rrot;ide<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.22">and þi lede þat was &slong;o loud</l>
-                    <l xml:id="bodllaudmisc108.6.23">Ȝ<sg type="ln"/>wi listou here &slong;o
-                            bare<sg/>&slong;ide<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.24"><choice>
+                    <l xml:id="bodllaudmisc108.6.22" rhyme="B">and þi lede þat was &slong;o loud</l>
+                    <l xml:id="bodllaudmisc108.6.23" rhyme="A">Ȝ<sg type="ln"/>wi listou here
+                        &slong;o bare<sg/>&slong;ide<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.24" rhyme="B"><choice>
                             <orig>I<sg/>p&rrot;icked</orig>
                             <reg>ipricked</reg>
                         </choice> in þat po&rrot;e sch&rrot;oud</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.33">Ȝ<sg type="ln"/>were beon þi ca&slong;tles and
-                        þi toure&slong;<pc>&punctlev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.34">þi chaumb&rrot;e&slong; and þi riche halle<hi
-                            rend="supralinear">s</hi></l>
-                    <l xml:id="bodllaudmisc108.6.35">I<sg type="ln"/>peynted with &slong;o riche
-                            floures<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.36">and þi riche robe&slong; alle</l>
-                    <l xml:id="bodllaudmisc108.6.37">Þ<sg type="ln"/>ine cowlte&slong; and þi
-                        covertoure&slong;</l>
-                    <l xml:id="bodllaudmisc108.6.38">þi cendel&slong; and þi riche palles</l>
-                    <l xml:id="bodllaudmisc108.6.39">W<sg type="ln"/>rechede it is nouȝ þi
+                    <l xml:id="bodllaudmisc108.6.25" rhyme="A">Ȝ<sg type="ln"/>were beon þi
+                        ca&slong;tles and þi toure&slong;<pc>&punctlev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.26" rhyme="B">þi chaumb&rrot;e&slong; and þi riche
+                            halle<add place="supralinear">s</add></l>
+                    <l xml:id="bodllaudmisc108.6.27" rhyme="A">I<sg type="ln"/>pe&ydot;nted with
+                        &slong;o riche floures<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.28" rhyme="B">and þi riche robe&slong; alle</l>
+                    <l xml:id="bodllaudmisc108.6.29" rhyme="A">Þ<sg type="ln"/>ine cowlte&slong; and
+                        þi couertoure&slong;</l>
+                    <l xml:id="bodllaudmisc108.6.30" rhyme="B">þi cendel&slong; and þi riche
+                        palles</l>
+                    <l xml:id="bodllaudmisc108.6.31" rhyme="A">W<sg type="ln"/>rechede it is nouȝ þi
                             bour<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.40"><choice>
+                    <l xml:id="bodllaudmisc108.6.32" rhyme="B"><choice>
                             <orig>to<sg/>Moruwe</orig>
                             <reg>tomoruwe</reg>
                         </choice> þouȝ schalt þer<sg/>inne falle</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.25">Ȝ<sg type="ln"/>were ben þi <choice>
+                    <l xml:id="bodllaudmisc108.6.33" rhyme="A">Ȝ<sg type="ln"/>were ben þi <choice>
                             <sic>Murdli</sic>
                             <corr>wurdli</corr>
                         </choice> wede&slong;<pc>&punctlev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.26">þi &slong;omer&slong; with þi riche
+                    <l xml:id="bodllaudmisc108.6.34" rhyme="B">þi &slong;omer&slong; with þi riche
                         bedde&slong;</l>
-                    <l xml:id="bodllaudmisc108.6.27">Þ<sg type="ln"/>i p&rrot;oude palefrey&slong;
-                        and þi &slong;tede&slong;<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.28">þat þouȝ hadde&slong;t in de&slong;ter
-                        ledde&slong;</l>
-                    <l xml:id="bodllaudmisc108.6.29">Þ<sg type="ln"/>i faucoun&slong; þat were wont
-                        to grede<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.30">and þine hounde&slong; þat þou ledde</l>
-                    <l xml:id="bodllaudmisc108.6.31">M<sg type="ln"/>e<sg/>þinkeþ <choice>
+                    <l xml:id="bodllaudmisc108.6.35" rhyme="A">Þ<sg type="ln"/>i p&rrot;oude
+                        palefre&ydot;&slong; and þi &slong;tede&slong;<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.36" rhyme="B">þat þouȝ hadde&slong;t in
+                        de&slong;ter ledde&slong;</l>
+                    <l xml:id="bodllaudmisc108.6.37" rhyme="A">Þ<sg type="ln"/>i faucoun&slong; þat
+                        were wont to grede<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.38" rhyme="B">and þine hounde&slong; þat þou
+                        ledde</l>
+                    <l xml:id="bodllaudmisc108.6.39" rhyme="A">M<sg type="ln"/>e<sg/>þinkeþ <choice>
                             <orig>god</orig>
                             <reg>God</reg>
                         </choice> is þe to gnede<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.32">þat alle þine frend beon fro þe fledde</l>
+                    <l xml:id="bodllaudmisc108.6.40" rhyme="B">þat alle þine frend beon fro þe
+                        fledde</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.41">Ȝ<sg type="ln"/>were ben þine cokes
+                    <l xml:id="bodllaudmisc108.6.41" rhyme="A">Ȝ<sg type="ln"/>were ben þine cokes
                             &slong;nelle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.42">þat &slong;cholden gon greiþe þi <choice>
+                    <l xml:id="bodllaudmisc108.6.42" rhyme="B">þat &slong;cholden gon greiþe þi <choice>
                             <orig>Mete</orig>
                             <reg>mete</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.6.43">W<sg type="ln"/>ith spece&slong; swete for to
-                            smelle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.44">þat þouȝ neuere <choice>
+                    <l xml:id="bodllaudmisc108.6.43" rhyme="A">W<sg type="ln"/>ith spece&slong;
+                        swete for to smelle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.44" rhyme="B">þat þouȝ neuere <choice>
                             <sic>werere</sic>
                             <corr>were</corr>
                         </choice> fol of frete</l>
-                    <l xml:id="bodllaudmisc108.6.45">T<sg type="ln"/>o do þat foule fley&slong; to
-                            suwelle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.46">þat foule wo&rrot;me&slong; scholden ete</l>
-                    <l xml:id="bodllaudmisc108.6.47">A<sg type="ln"/>nd þouȝ haue&slong;t þe pine of
-                            helle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.48">With glotonye me bi<sg/>gete</l>
+                    <l xml:id="bodllaudmisc108.6.45" rhyme="A">T<sg type="ln"/>o do þat foule
+                        fle&ydot;&slong; to suwelle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.46" rhyme="B">þat foule wo&rrot;me&slong; scholden
+                        ete</l>
+                    <l xml:id="bodllaudmisc108.6.47" rhyme="A">A<sg type="ln"/>nd þouȝ haue&slong;t
+                        þe pine of helle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.48" rhyme="B">with gloton&ydot;e me bi<sg/>gete</l>
                 </lg>
                 <pb n="201r"/>
                 <fw type="guideLetters" place="topCenter">10</fw>
@@ -157,935 +179,1241 @@ Last Update: Mar 12 2015. -->
                 <cb n="1"/>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.49">F<sg type="ln"/>or <choice>
+                    <l xml:id="bodllaudmisc108.6.49" rhyme="A">F<sg type="ln"/>or <choice>
                             <orig>god</orig>
                             <reg>God</reg>
-                        </choice> &slong;chop be aftir his &slong;chap<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.50">And gaf þe boþe wyt and &slong;kil</l>
-                    <l xml:id="bodllaudmisc108.6.51">I<sg type="ln"/>n<sg> </sg>þi loking wa&slong;
-                            ilaft<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.52">To wi&slong;&slong;e aftir þin<sg> </sg>oune
-                        wil</l>
-                    <l xml:id="bodllaudmisc108.6.53">N<sg type="ln"/>e toc i nevere
-                            wyche<sg/>craft<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.54">Ne wi&slong;t i ȝwat wa&slong; guod no&rrot;
-                        il</l>
-                    <l xml:id="bodllaudmisc108.6.55">B<sg type="ln"/>ute as a<sg> </sg>wretche dumb
-                        and mad<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.56">Bote a&slong; touȝ tauȝte&slong;t <choice>
+                        </choice> &slong;chop þe aftir his &slong;chap<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.50" rhyme="B">and gaf þe boþe w&ydot;t and
+                        &slong;kil</l>
+                    <l xml:id="bodllaudmisc108.6.51" rhyme="A">I<sg type="ln"/>n<sg
+                            > </sg>þi<sg> </sg>loking wa&slong; ilaft<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.52" rhyme="B">to wi&slong;&slong;e aftir
+                            þin<sg> </sg>oune wil</l>
+                    <l xml:id="bodllaudmisc108.6.53" rhyme="A">N<sg type="ln"/>e toc i<sg
+                        > </sg>nevere w&ydot;che<sg/>craft<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.54" rhyme="B">ne wi&slong;t i ȝwat wa&slong; guod
+                        no&rrot; il</l>
+                    <l xml:id="bodllaudmisc108.6.55" rhyme="A">B<sg type="ln"/>ute as a<sg
+                        > </sg>wretche dumb and mad<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.56" rhyme="B">bote a&slong; touȝ tauȝte&slong;t <choice>
                             <sic/>
-                            <corr resp="#bioHO0001">me</corr>
+                            <corr resp="#bioLinow0001">me</corr>
                         </choice> þer<sg/>til</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.57">S<sg type="ln"/>et to &slong;eruen þe to
-                            queme<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.58">Boþe at even and a<sg/>m&orrot;uen</l>
-                    <l xml:id="bodllaudmisc108.6.59">S<sg type="ln"/>iþin i was þe bi<sg/>tauȝt to
-                            ȝeme<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.60">Fro þe time þat þouȝ was b&orrot;n</l>
-                    <l xml:id="bodllaudmisc108.6.61">Þ<sg type="ln"/>ouȝ þat dede&slong;
+                    <l xml:id="bodllaudmisc108.6.57" rhyme="A">S<sg type="ln"/>et to &slong;eruen þe
+                        to queme<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.58" rhyme="B">boþe at even and
+                        a<sg/>mo&rrot;uen</l>
+                    <l xml:id="bodllaudmisc108.6.59" rhyme="A">S<sg type="ln"/>iþin i was þe
+                        bi<sg/>tauȝt to ȝeme<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.60" rhyme="B">fro þe time þat þouȝ was
+                        bo&rrot;n</l>
+                    <l xml:id="bodllaudmisc108.6.61" rhyme="A">Þ<sg type="ln"/>ouȝ þat dede&slong;
                         couþe&slong;t deme<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.62">&slong;cholde&slong;t habbe be war
-                        bif&orrot;n</l>
-                    <l xml:id="bodllaudmisc108.6.63">O<sg type="ln"/>f mi folye a&slong; it
-                            semet<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.64">Nouȝ wiþ þiselve thouȝ art
-                        f&orrot;<sg/>l&orrot;n</l>
+                    <l xml:id="bodllaudmisc108.6.62" rhyme="B">&slong;cholde&slong;t habbe be war
+                        bifo&rrot;n</l>
+                    <l xml:id="bodllaudmisc108.6.63" rhyme="A">O<sg type="ln"/>f mi fol&ydot;e
+                        a&slong; it semet<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.64" rhyme="B">nouȝ wiþ þiselue thouȝ art
+                        fo&rrot;<sg/>lo&rrot;n</l>
                 </lg>
                 <ab rend="marginLeft"><unclear>&dsol;</unclear></ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.65">Þ<sg type="ln"/>e ga&slong;t it seyde bodi be
-                            &slong;tille<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.66">Ȝwo haþ lered þe al þis wite</l>
-                    <l xml:id="bodllaudmisc108.6.67">Þ<sg type="ln"/>at give&slong;t me þe&slong;e
-                        w&orrot;de&slong; grille<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.68">Þat li&slong;t þer bollen a&slong; a bite</l>
-                    <l xml:id="bodllaudmisc108.6.69">W<sg type="ln"/>ene&slong;touȝ wretche þor þouȝ
-                            fille<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.70">Wid þi foule fleich&slong; a<sg/>pite</l>
-                    <l xml:id="bodllaudmisc108.6.71">O<sg type="ln"/>f alle dedes thouȝ dide&slong;t
-                            ille<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.72">Þat þouȝ &slong;o<sg> </sg>litel &slong;chalt
-                        be quite</l>
+                    <l xml:id="bodllaudmisc108.6.65" rhyme="A">Þ<sg type="ln"/>e ga&slong;t it
+                        se&ydot;de bodi be &slong;tille<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.66" rhyme="B">ȝwo haþ lered þe al þis wite</l>
+                    <l xml:id="bodllaudmisc108.6.67" rhyme="A">Þ<sg type="ln"/>at giue&slong;t me
+                        þe&slong;e wo&rrot;de&slong; grille<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.68" rhyme="B">þat li&slong;t þer bollen a&slong; a
+                        bite</l>
+                    <l xml:id="bodllaudmisc108.6.69" rhyme="A">W<sg type="ln"/>ene&slong;touȝ
+                        wretche þor þouȝ fille<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.70" rhyme="B">wid þi foule fleich&slong;
+                        a<sg/>pite</l>
+                    <l xml:id="bodllaudmisc108.6.71" rhyme="A">O<sg type="ln"/>f alle dedes thouȝ
+                        dide&slong;t ille<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.72" rhyme="B">þat þouȝ &slong;o<sg> </sg>litel
+                        &slong;chalt be quite</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.73">W<sg type="ln"/>ene&slong;tou nou gete þe
-                            griþ<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.74">Þer þouȝ li&slong;t roten in þe clay</l>
-                    <l xml:id="bodllaudmisc108.6.75">Þ<sg type="ln"/>ey þouȝ be rotin pile and
-                            pid<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.76">And blowen wiþ þe wind a<sg/>way</l>
-                    <l xml:id="bodllaudmisc108.6.77">Ȝ<sg type="ln"/>eot &slong;chaltouȝ come wiþ
-                        lime and lyþ<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.78">A<sg/>gein to me on dome&slong;<sg/>day</l>
-                    <l xml:id="bodllaudmisc108.6.79">A<sg type="ln"/>nd come to court and i þe
-                            wiþ<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.80">F&orrot; to kepen oure ha&rrot;de pay<note
-                            type="pal" resp="#bioKL0001">Horstmann reads "ha" for the slightly
-                            ill-formed first two letters of "harde", but the word may also be read
-                            as "borde", which is perhaps likelier since the vowel is followed by a
-                            round r.</note></l>
+                    <l xml:id="bodllaudmisc108.6.73" rhyme="A">W<sg type="ln"/>ene&slong;tou nou
+                        gete þe griþ<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.74" rhyme="B">þer þouȝ li&slong;t roten in þe
+                        cla&ydot;</l>
+                    <l xml:id="bodllaudmisc108.6.75" rhyme="A">Þ<sg type="ln"/>e&ydot; þouȝ be rotin
+                        pile and pid<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.76" rhyme="B">and blowen wiþ þe wind
+                        a<sg/>wa&ydot;</l>
+                    <l xml:id="bodllaudmisc108.6.77" rhyme="A">Ȝ<sg type="ln"/>eot &slong;chaltouȝ
+                        come wiþ lime and l&ydot;þ<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.78" rhyme="B">a<sg/>gein to me on
+                        dome&slong;<sg/>da&ydot;</l>
+                    <l xml:id="bodllaudmisc108.6.79" rhyme="A">A<sg type="ln"/>nd come to court and
+                        i þe wiþ<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.80" rhyme="B">fo&rrot; to kepen oure ha&rrot;de
+                            pay<note type="pal" resp="#bioKL0001">Horstmann reads "ha" for the
+                            slightly ill-formed first two letters of "harde", but the word may also
+                            be read as "borde", which is perhaps likelier since the vowel is
+                            followed by a round r.</note></l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.81">T<sg type="ln"/>o teche ȝwere þouȝ me
+                    <l xml:id="bodllaudmisc108.6.81" rhyme="A">T<sg type="ln"/>o teche ȝwere þouȝ me
                             bi<sg/>tauȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.82">Ac ȝwan þouȝ þouȝte&slong;t of the qued</l>
-                    <l xml:id="bodllaudmisc108.6.83">W<sg type="ln"/>iþ þi<sg> </sg>teþ þe<sg
-                        > </sg>b&rrot;idel þouȝ lauȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.84">Þouȝ di&slong;t al þat i þe
-                        f&orrot;<sg/>bed</l>
-                    <l xml:id="bodllaudmisc108.6.85">T<sg type="ln"/>o &slong;unne and &slong;chame
-                        it was þi d&rrot;auȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.86">Til vntid and til wikkede<sg/>hed</l>
-                    <l xml:id="bodllaudmisc108.6.87">I<sg type="ln"/>nouȝ i &slong;tod a<sg/>geyn
-                        and fauȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.88">Bot ai þouȝ nome þin oune red</l>
+                    <l xml:id="bodllaudmisc108.6.82" rhyme="B">ac ȝwan þouȝ þouȝte&slong;t of the
+                        qued</l>
+                    <l xml:id="bodllaudmisc108.6.83" rhyme="A">W<sg type="ln"/>iþ þi<sg> </sg>teþ
+                            þe<sg> </sg>b&rrot;idel þouȝ lauȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.84" rhyme="B">þouȝ di&slong;t al þat i þe
+                        fo&rrot;<sg/>bed</l>
+                    <l xml:id="bodllaudmisc108.6.85" rhyme="A">T<sg type="ln"/>o &slong;unne and
+                        &slong;chame it was þi d&rrot;auȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.86" rhyme="B">til vntid and til wikkede<sg/>hed</l>
+                    <l xml:id="bodllaudmisc108.6.87" rhyme="A">I<sg type="ln"/>nouȝ i &slong;tod
+                        a<sg/>ge&ydot;n and fauȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.88" rhyme="B">bot ai þouȝ nome þin oune red</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.89">W<sg type="ln"/>an i þe wolde teme and
-                            teche<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.90"><add place="supralinear">+</add><add
+                    <l xml:id="bodllaudmisc108.6.89" rhyme="A">W<sg type="ln"/>an i þe wolde teme
+                        and teche<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.90" rhyme="B"><add place="supralinear">+</add><add
                             place="marginRight">+<lb/>ȝwat</add> was uuel and ȝwat was guod</l>
-                    <l xml:id="bodllaudmisc108.6.91">O<sg type="ln"/>f <choice>
+                    <l xml:id="bodllaudmisc108.6.91" rhyme="A">O<sg type="ln"/>f <choice>
                             <orig>cri&slong;t</orig>
                             <reg>Crist</reg>
                         </choice> ne kirke was no &slong;peche<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.92">Bote renne aboute and b&rrot;eyd wod</l>
-                    <l xml:id="bodllaudmisc108.6.93">I<sg type="ln"/>nouȝ i miȝte p&rrot;eye and
-                            p&rrot;eche<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.94">Ne miȝte i nevere wende þi mod</l>
-                    <l xml:id="bodllaudmisc108.6.95">Þ<sg type="ln"/>at þouȝ wolde&slong;t <choice>
+                    <l xml:id="bodllaudmisc108.6.92" rhyme="B">bote renne aboute and b&rrot;e&ydot;d
+                        wod</l>
+                    <l xml:id="bodllaudmisc108.6.93" rhyme="A">I<sg type="ln"/>nouȝ i miȝte
+                        p&rrot;e&ydot;e and p&rrot;eche<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.94" rhyme="B">ne miȝte i nevere wende þi mod</l>
+                    <l xml:id="bodllaudmisc108.6.95" rhyme="A">Þ<sg type="ln"/>at þouȝ wolde&slong;t <choice>
                             <orig>god</orig>
                             <reg>God</reg>
-                        </choice> knouleche<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.96">But don al þat þin herte <choice>
+                        </choice> knouleche</l>
+                    <l xml:id="bodllaudmisc108.6.96" rhyme="B">but don al þat þin herte <choice>
                             <sic/>
-                            <corr resp="#bioHO0001">to</corr>
+                            <corr resp="#bioLinow0001">to</corr>
                         </choice> &slong;tod</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.97">I<sg type="ln"/> bad þe þenke on
+                    <l xml:id="bodllaudmisc108.6.97" rhyme="A">I<sg type="ln"/> bad þe þenke on
                             soulenede<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.98"><choice>
+                    <l xml:id="bodllaudmisc108.6.98" rhyme="B"><choice>
                             <orig>Matine&slong;</orig>
                             <reg>matines</reg>
-                        </choice> ma&slong;&slong;e and eve&slong;ong</l>
-                    <l xml:id="bodllaudmisc108.6.99">Þ<sg type="ln"/>ouȝ mo&slong;ti&slong;t
-                        fir&slong;t don oþere dede<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.100">Þou &slong;eidi&slong;t al was <choice>
+                        </choice> ma&slong;&slong;e and eue&slong;ong</l>
+                    <l xml:id="bodllaudmisc108.6.99" rhyme="A">Þ<sg type="ln"/>ouȝ
+                        mo&slong;ti&slong;t fir&slong;t don oþere dede<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.100" rhyme="B">þou &slong;eidi&slong;t al was <choice>
                             <orig>Idel</orig>
                             <reg>idel</reg>
                         </choice>idel<sg> </sg>gong</l>
-                    <l xml:id="bodllaudmisc108.6.101">T<sg type="ln"/>o wode and water and feld þouȝ
-                            ede&slong;t<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.102">o&rrot; to <choice>
+                    <l xml:id="bodllaudmisc108.6.101" rhyme="A">T<sg type="ln"/>o wode and water and
+                        feld þouȝ ede&slong;t<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.102" rhyme="B">o&rrot; to <choice>
                             <sic>cour</sic>
                             <corr>court</corr>
                         </choice> to do men wrong</l>
-                    <l xml:id="bodllaudmisc108.6.103">B<sg type="ln"/>ote f&orrot; p&rrot;ide
-                        &orrot; grett&orrot;e mede<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.104">Lutel þouȝ du&slong;t guod a<sg/>mong</l>
+                    <l xml:id="bodllaudmisc108.6.103" rhyme="A">B<sg type="ln"/>ote fo&rrot;
+                        p&rrot;ide o&rrot; gretto&rrot;e mede<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.104" rhyme="B">lutel þouȝ du&slong;t guod
+                        a<sg/>mong</l>
                 </lg>
-                <ab rend="marginLeft">&dsol;</ab>
-                <!-- This &slong;tanza appears to be missing from our text
-                <ab rend="marginLeft">&dsol;</ab><lg>
-                    <l xml:id="bodllaudmisc108.6.105">Ho may m&orrot;e trayson do</l>
-                    <l xml:id="bodllaudmisc108.6.106">Or is loverd betere engine</l>
-                    <l xml:id="bodllaudmisc108.6.107">Þan he but al is tri&slong;t is to</l>
-                    <l xml:id="bodllaudmisc108.6.108">In and ouȝt as oune hyn</l>
-                    <l xml:id="bodllaudmisc108.6.109">Ay seþþe þouȝ was þriven and þro</l>
-                    <l xml:id="bodllaudmisc108.6.110">Mittis ded i alle mine</l>
-                    <l xml:id="bodllaudmisc108.6.111">To p&orrot;veȝe þe re&slong;t and ro</l>
-                    <l xml:id="bodllaudmisc108.6.112">And þouȝ to b&rrot;inge me in pine</l>
-                </lg>
-                -->
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.113">N<sg type="ln"/>ouȝ mouwe be wilde
+                    <l xml:id="bodllaudmisc108.6.105" rhyme="A">N<sg type="ln"/>ouȝ mouwe be wilde
                         be&slong;tes renne<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.114">And lien vnder linde and lef</l>
-                    <l xml:id="bodllaudmisc108.6.115">A<sg type="ln"/>nd foule&slong; flie bi feld
-                        and fenne<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.116">Siþin þi<sg> </sg>fal&slong;e herte clef</l>
-                    <l xml:id="bodllaudmisc108.6.117">Þ<sg type="ln"/>ine eiȝene are blinde and
-                        connen nouȝt kenne<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.118">Þi<sg> </sg>mouth is <choice>
+                    <l xml:id="bodllaudmisc108.6.106" rhyme="B">and lien vnder linde and lef</l>
+                    <l xml:id="bodllaudmisc108.6.107" rhyme="A">A<sg type="ln"/>nd foule&slong; flie
+                        bi feld and fenne<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.108" rhyme="B">siþin þi<sg> </sg>fal&slong;e herte
+                        clef</l>
+                    <l xml:id="bodllaudmisc108.6.109" rhyme="A">Þ<sg type="ln"/>ine eiȝene are
+                        blinde and connen nouȝt kenne<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.110" rhyme="B">þi<sg> </sg>mouth is <choice>
                             <orig>du<am>&combtilde;</am>b</orig>
                             <reg>du<ex>m</ex>b</reg>
                         </choice><pc>&middot;</pc>þin<sg> </sg>ere is def <note type="cod"
                             resp="#bioKL0001">A vertical ink stroke follows "def". It may only be a
-                            stray mark, but it may also be evidence of the scribe's attempt to
+                            stray mark, but it ma&ydot; also be evidence of the scribe's attempt to
                             ascertain the rhyme scheme.</note></l>
-                    <l xml:id="bodllaudmisc108.6.119">A<sg type="ln"/>nd nouȝ &slong;o lodly þouȝ
-                        li&slong;t grenne<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.120">Fro þe comeþ a wikke wef</l>
+                    <l xml:id="bodllaudmisc108.6.111" rhyme="A">A<sg type="ln"/>nd nouȝ &slong;o
+                        lodl&ydot; þouȝ li&slong;t grenne<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.112" rhyme="B">fro þe comeþ a wikke wef</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.121">N<sg type="ln"/>e ni&slong; no leuedi
-                        b&rrot;iȝt on ble<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.122">Þat wel weren <choice>
+                    <l xml:id="bodllaudmisc108.6.113" rhyme="A">N<sg type="ln"/>e ni&slong; no
+                        leuedi b&rrot;iȝt on ble<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.114" rhyme="B">þat wel weren <choice>
                             <orig>Iwoned</orig>
                             <reg>iwoned</reg>
                         </choice> of þe to lete</l>
-                    <l xml:id="bodllaudmisc108.6.123">Þ<sg type="ln"/>at wolde lye a<sg/>niȝth bi
-                            þe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.124">F&orrot; nouȝth but men miȝte hem
+                    <l xml:id="bodllaudmisc108.6.115" rhyme="A">Þ<sg type="ln"/>at wolde l&ydot;e
+                        a<sg/>niȝth bi þe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.116" rhyme="B">fo&rrot; nouȝth but men miȝte hem
                         bi<sg/>hete</l>
-                    <l xml:id="bodllaudmisc108.6.125">Þ<sg type="ln"/>ouȝ art vnsemly f&orrot; to
-                            &slong;e<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.126">vncomli f&orrot;<sg/>to cu&slong;&slong;en
-                        &slong;uwete</l>
-                    <l xml:id="bodllaudmisc108.6.127">Þ<sg type="ln"/>ouȝ ne have&slong;t frend þat
-                        ne wolde fle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.128">Come þouȝ &slong;t<unclear reason="ill-formed"
-                            >er</unclear>tlinde <choice>
+                    <l xml:id="bodllaudmisc108.6.117" rhyme="A">Þ<sg type="ln"/>ouȝ art vnseml&ydot;
+                        fo&rrot; to &slong;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.118" rhyme="B">vncomli fo&rrot;<sg/>to
+                        cu&slong;&slong;en &slong;uwete</l>
+                    <l xml:id="bodllaudmisc108.6.119" rhyme="A">Þ<sg type="ln"/>ouȝ ne haue&slong;t
+                        frend þat ne wolde fle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.120" rhyme="B">Come þouȝ &slong;t<unclear
+                            reason="ill-formed">er</unclear>tlinde <choice>
                             <orig>i<am>&combtilde;</am></orig>
                             <reg>i<ex>n</ex></reg>
                         </choice> þe &slong;trete</l>
                 </lg>
                 <pb n="201v"/>
+                <cb n="1"/>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.129">Þ<sg type="ln"/>e bodi it &slong;eide ic
-                            &slong;eyȝe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.130">ga<unclear reason="ill-formed"
-                            >&slong;</unclear>t þouȝ ha&slong;t wrong i<sg/>wys</l>
-                    <l xml:id="bodllaudmisc108.6.131">A<sg type="ln"/>l þe wyt on me to
-                            leye<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.132">Þat þouȝ ha&slong;t l&orrot;n þi mikil
-                        blis</l>
-                    <l xml:id="bodllaudmisc108.6.133">W<sg type="ln"/>ere wa&slong; i bi wode
-                        &orrot; weyȝe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.134">Sat &orrot; &slong;tud &orrot; dide ouȝt <choice>
-                            <orig>Mys</orig>
-                            <reg>mys</reg>
+                    <l xml:id="bodllaudmisc108.6.121" rhyme="A">Þ<sg type="ln"/>e bodi it
+                        &slong;eide ic &slong;e&ydot;ȝe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.122" rhyme="B">ga<unclear reason="ill-formed"
+                            >&slong;</unclear>t þouȝ ha&slong;t wrong i<sg/>w&ydot;s</l>
+                    <l xml:id="bodllaudmisc108.6.123" rhyme="A">A<sg type="ln"/>l þe w&ydot;t on me
+                        to le&ydot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.124" rhyme="B">þat þouȝ ha&slong;t lo&rrot;n þi
+                        mikil blis</l>
+                    <l xml:id="bodllaudmisc108.6.125" rhyme="A">W<sg type="ln"/>ere wa&slong; i bi
+                        wode o&rrot; we&ydot;ȝe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.126" rhyme="B">sat o&rrot; &slong;tud o&rrot; dide
+                        ouȝt <choice>
+                            <orig>M&ydot;s</orig>
+                            <reg>m&ydot;s</reg>
                         </choice></l>
-                    <l xml:id="bodllaudmisc108.6.135">Þ<sg type="ln"/>at i ne wa&slong; ay under þin
-                            eyȝe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.136">Wel þouȝ wo&slong;t þat soth it ys</l>
+                    <l xml:id="bodllaudmisc108.6.127" rhyme="A">Þ<sg type="ln"/>at i ne wa&slong;
+                        a&ydot; vnder þin e&ydot;ȝe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.128" rhyme="B">wel þouȝ wo&slong;t þat soth it
+                        &ydot;s</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.137">W<sg type="ln"/>edir i<choice>
+                    <l xml:id="bodllaudmisc108.6.129" rhyme="A">W<sg type="ln"/>edir i<choice>
                             <orig><add place="inline">|</add></orig>
                             <reg> </reg>
-                        </choice>ede up &orrot; doun<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.138">Þat i ne bar þe on my bac</l>
-                    <l xml:id="bodllaudmisc108.6.139">A<sg type="ln"/>ls þin as fro toun to
-                            toun<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.140">Als<sg> </sg>&slong;e þouȝ me lete have rap
-                        and rac</l>
-                    <l xml:id="bodllaudmisc108.6.141">Þ<sg type="ln"/>at tou ne were and red
-                            roun<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.142">Neuere did<sg> </sg>i þing ne &slong;pac</l>
-                    <l xml:id="bodllaudmisc108.6.143">H<sg type="ln"/>ere þe &slong;oþe &slong;e men <choice>
+                        </choice>ede vp o&rrot; doun<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.130" rhyme="B">þat i ne bar þe on m&ydot; bac</l>
+                    <l xml:id="bodllaudmisc108.6.131" rhyme="A">A<sg type="ln"/>ls þin as fro toun
+                        to toun<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.132" rhyme="B">als<sg> </sg>&slong;e þouȝ me lete
+                        have rap and rac</l>
+                    <l xml:id="bodllaudmisc108.6.133" rhyme="A">Þ<sg type="ln"/>at tou ne were and
+                        red roun<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.134" rhyme="B">neuere did<sg> </sg>i þing ne
+                        &slong;pac</l>
+                    <l xml:id="bodllaudmisc108.6.135" rhyme="A">H<sg type="ln"/>ere þe &slong;oþe
+                        &slong;e men <choice>
                             <orig>Mouen</orig>
                             <reg>mouen</reg>
                         </choice><pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.144">On me þat ligge here &slong;o blo and blac</l>
+                    <l xml:id="bodllaudmisc108.6.136" rhyme="B">on me þat ligge here &slong;o blo
+                        and blac</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.145">F<sg type="ln"/>&orrot; al be wile þouȝ were
-                        mi fere<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.146">I hadde al þat me was ned</l>
-                    <l xml:id="bodllaudmisc108.6.147">I<sg type="ln"/> miȝte &slong;peke se and
-                            here<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.148">I ede and rod and d&rrot;ank and et</l>
-                    <l xml:id="bodllaudmisc108.6.149">L<sg type="ln"/>odli chaunched is my
-                            chere<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.150">Sin þe tyme þat þouȝ me let</l>
-                    <l xml:id="bodllaudmisc108.6.151">D<sg type="ln"/>ef and dumb i<sg> </sg>ligge
-                        on bere<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.152">Þat i ne may &slong;terin hand ne fet</l>
+                    <l xml:id="bodllaudmisc108.6.137" rhyme="A">F<sg type="ln"/>o&rrot; al be wile
+                        þouȝ were mi fere<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.138" rhyme="B">I hadde al þat me was ned</l>
+                    <l xml:id="bodllaudmisc108.6.139" rhyme="A">I<sg type="ln"/> miȝte &slong;peke
+                        se and here<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.140" rhyme="B">I ede and rod and d&rrot;ank and
+                        et</l>
+                    <l xml:id="bodllaudmisc108.6.141" rhyme="A">L<sg type="ln"/>odli chaunched is
+                        m&ydot; chere<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.142" rhyme="B">sin þe t&ydot;me þat þouȝ me let</l>
+                    <l xml:id="bodllaudmisc108.6.143" rhyme="A">D<sg type="ln"/>ef and dumb
+                            i<sg> </sg>ligge on bere<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.144" rhyme="B">þat i ne ma&ydot; &slong;terin hand
+                        ne fet</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.153">I<sg type="ln"/> &slong;cholde have ben dumb
-                        as a schep<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.154">Or as is nouwe &orrot; as a suyn</l>
-                    <l xml:id="bodllaudmisc108.6.155">Þ<sg type="ln"/>at et and d&rrot;ank and lei <choice>
+                    <l xml:id="bodllaudmisc108.6.145" rhyme="A">I<sg type="ln"/> &slong;cholde have
+                        ben dumb as a schep<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.146" rhyme="B">or as is nouwe o&rrot; as a
+                        su&ydot;n</l>
+                    <l xml:id="bodllaudmisc108.6.147" rhyme="A">Þ<sg type="ln"/>at et and d&rrot;ank
+                        and lei <choice>
                             <sic>ad<add place="supralinear">n</add></sic>
                             <corr>and</corr>
                         </choice>and slep<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.156">Slayn and pa&slong;&slong;id al his pin</l>
-                    <l xml:id="bodllaudmisc108.6.157">N<sg type="ln"/>euere of catel he ne
+                    <l xml:id="bodllaudmisc108.6.148" rhyme="B">sla&ydot;n and pa&slong;&slong;id al
+                        his pin</l>
+                    <l xml:id="bodllaudmisc108.6.149" rhyme="A">N<sg type="ln"/>euere of catel he ne
                             kep<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.158">Ne wy&slong;te wat was water ne wyn</l>
-                    <l xml:id="bodllaudmisc108.6.159">N<sg type="ln"/>e leyn in helle þat is
-                        &slong;o dep<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.160">Neuere ne wi&slong;t i of al þat al
+                    <l xml:id="bodllaudmisc108.6.150" rhyme="B">ne w&ydot;&slong;te wat was water ne
+                        w&ydot;n</l>
+                    <l xml:id="bodllaudmisc108.6.151" rhyme="A">N<sg type="ln"/>e le&ydot;n in helle
+                        þat is &slong;o dep<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.152" rhyme="B">neuere ne wi&slong;t i of al þat al
                             was<sg> </sg>tin</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.161">Þ<sg type="ln"/>e ga&slong;t yt &slong;eide is
-                        no doute<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.162">Abouten bodi þouȝ me bar</l>
-                    <l xml:id="bodllaudmisc108.6.163">Þ<sg type="ln"/>ou mo&slong;ti&slong;t nede i
-                        was wiþ<sg/>oute<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.164">Hand and fot i was wel war</l>
-                    <l xml:id="bodllaudmisc108.6.165">B<sg type="ln"/>ute as tou bere me
+                    <l xml:id="bodllaudmisc108.6.153" rhyme="A">Þ<sg type="ln"/>e ga&slong;t &ydot;t
+                        &slong;eide is no doute<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.154" rhyme="B">abouten bodi þouȝ me bar</l>
+                    <l xml:id="bodllaudmisc108.6.155" rhyme="A">Þ<sg type="ln"/>ou
+                        mo&slong;ti&slong;t nede i was wiþ<sg/>oute<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.156" rhyme="B">hand and fot i was wel war</l>
+                    <l xml:id="bodllaudmisc108.6.157" rhyme="A">B<sg type="ln"/>ute as tou bere me
                             aboute<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.166">Ne miȝt i do be le&slong;te char</l>
-                    <l xml:id="bodllaudmisc108.6.167">Þ<sg type="ln"/>&orrot;f&orrot;e mo&slong;t i
-                        nede loute<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.168">So doth þat non oþer dar</l>
+                    <l xml:id="bodllaudmisc108.6.158" rhyme="B">ne miȝt i do be le&slong;te char</l>
+                    <l xml:id="bodllaudmisc108.6.159" rhyme="A">Þ<sg type="ln"/>o&rrot;fo&rrot;e
+                        mo&slong;t i nede loute<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.160" rhyme="B">so doth þat non oþer dar</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.169">O<sg type="ln"/>f o wymman b&orrot;n and
-                            b&rrot;edde<pc>&punctelev;</pc><note type="pal" resp="#bioKL0001">The
-                            initial "O" resembles a capital "M", which may be a slip or an
-                            indication that the scribe began writing something else.</note></l>
-                    <l xml:id="bodllaudmisc108.6.170">Body were we boþe tvo</l>
-                    <l xml:id="bodllaudmisc108.6.171">T<sg type="ln"/>o<sg/>gid&rrot;e fo&slong;trid
-                        fayre and fedde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.172">Til þou couþi&slong;t &slong;speke and go</l>
-                    <l xml:id="bodllaudmisc108.6.173">S<sg type="ln"/>ofte þe f&orrot; loue
-                            i<sg> </sg>ledde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.174">Ne d&orrot;&slong;t i neuere do þe wo</l>
-                    <l xml:id="bodllaudmisc108.6.175">T<sg type="ln"/>o le&slong;e þe so
-                        &slong;&orrot;e i d&rrot;edde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.176">And wel i wi&slong;te to getin namo</l>
+                    <l xml:id="bodllaudmisc108.6.161" rhyme="A">O<sg type="ln"/>f o w&ydot;mman
+                        bo&rrot;n and b&rrot;edde<pc>&punctelev;</pc><note type="pal"
+                            resp="#bioKL0001">The initial "O" resembles a capital "M", which may be
+                            a slip or an indication that the scribe began writing something
+                            else.</note></l>
+                    <l xml:id="bodllaudmisc108.6.162" rhyme="B">bod&ydot; were we boþe tvo</l>
+                    <l xml:id="bodllaudmisc108.6.163" rhyme="A">T<sg type="ln"/>o<sg/>gid&rrot;e
+                        fo&slong;trid fa&ydot;re and fedde<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.164" rhyme="B">til þou couþi&slong;t &slong;speke
+                        and go</l>
+                    <l xml:id="bodllaudmisc108.6.165" rhyme="A">S<sg type="ln"/>ofte þe fo&rrot;
+                        loue i<sg> </sg>ledde<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.166" rhyme="B">ne do&rrot;&slong;t i neuere do þe
+                        wo</l>
+                    <l xml:id="bodllaudmisc108.6.167" rhyme="A">T<sg type="ln"/>o le&slong;e þe so
+                        &slong;o&rrot;e i d&rrot;edde<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.168" rhyme="B">and wel i wi&slong;te to getin
+                        namo</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.177">F<sg type="ln"/>&orrot; me þou wolde&slong;t
-                        &slong;umwat do<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.178">Wȝile þou were ȝong a litil fir&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.179">F<sg type="ln"/>&orrot; frende&slong; eyȝe þat
-                        þe &slong;tod to<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.180">Þe wile þou were betin and bir&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.181">O<sg type="ln"/>c wan þouȝ were þriuen and
-                            þro<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.182">And knewe honger cold and uir&slong;t<note
-                            type="text" resp="#bioKL0001">Read "þirst"?</note></l>
-                    <l xml:id="bodllaudmisc108.6.183">A<sg type="ln"/>nd ȝhwilk was ey&slong;e
-                        re&slong;t and ro<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.184">Al þin oune wil þou di&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.169" rhyme="A">F<sg type="ln"/>o&rrot; me þou
+                        wolde&slong;t &slong;umwat do<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.170" rhyme="B">wȝile þou were ȝong a litil
+                        fir&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.171" rhyme="A">F<sg type="ln"/>o&rrot;
+                        frende&slong; e&ydot;ȝe þat þe &slong;tod to<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.172" rhyme="B">þe wile þou were betin and
+                        bir&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.173" rhyme="A">O<sg type="ln"/>c wan þouȝ were
+                        þriuen and þro<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.174" rhyme="B">and knewe honger cold and
+                            uir&slong;t<note type="text" resp="#bioKL0001">Read "þirst"?</note></l>
+                    <l xml:id="bodllaudmisc108.6.175" rhyme="A">A<sg type="ln"/>nd ȝhwilk was
+                        e&ydot;&slong;e re&slong;t and ro<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.176" rhyme="B">al þin oune wil þou di&slong;t</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.185">I<sg type="ln"/> sau þe fair on fleych&slong;
-                        and blod<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.186">And al mi loue on þe i ke&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.187">Þ<sg type="ln"/>at þou þrive me þouȝte
-                            guod<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.188">And let þe hauen ro and re&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.189">Þ<sg type="ln"/>at made þe &slong;o
+                    <l xml:id="bodllaudmisc108.6.177" rhyme="A">I<sg type="ln"/> sau þe fair on
+                        fle&ydot;ch&slong; and blod<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.178" rhyme="B">and al mi loue on þe i
+                        ke&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.179" rhyme="A">Þ<sg type="ln"/>at þou þrive me
+                        þouȝte guod<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.180" rhyme="B">And let þe hauen ro and
+                        re&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.181" rhyme="A">Þ<sg type="ln"/>at made þe &slong;o
                         &slong;turne of mod<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.190">And of werke&slong; so vn<sg/>wre&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.191">T<sg type="ln"/>o fiȝte with þe ne was no
-                            bot<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.192"><choice>
+                    <l xml:id="bodllaudmisc108.6.182" rhyme="B">and of werke&slong; so
+                        vn<sg/>wre&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.183" rhyme="A">T<sg type="ln"/>o fiȝte with þe ne
+                        was no bot<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.184" rhyme="B"><choice>
                             <orig>Me</orig>
                             <reg>me</reg>
                         </choice> þat þouȝ bar in þi b&rrot;e&slong;t</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.193"><choice>
+                    <l xml:id="bodllaudmisc108.6.185" rhyme="A"><choice>
                             <sic>G<sg type="ln"/>loterie</sic>
                             <corr>Glotenie</corr>
                         </choice> and lecherie<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.194">Prude and wicke coueyti&slong;e</l>
-                    <l xml:id="bodllaudmisc108.6.195">N<sg type="ln"/>iþe and onde and
+                    <l xml:id="bodllaudmisc108.6.186" rhyme="B">p&rrot;ude and wicke
+                        coue&ydot;ti&slong;e</l>
+                    <l xml:id="bodllaudmisc108.6.187" rhyme="A">N<sg type="ln"/>iþe and onde and
                             enuie<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.196">To <choice>
+                    <l xml:id="bodllaudmisc108.6.188" rhyme="B">to <choice>
                             <orig>god</orig>
                             <reg>God</reg>
                         </choice> of heuene and alle hi&slong;e</l>
-                    <l xml:id="bodllaudmisc108.6.197">A<sg type="ln"/>nd in vnlu&slong;t
-                        f&orrot;<sg/>to lye<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.198">Wa&slong;<sg> </sg>te wane in al
+                    <l xml:id="bodllaudmisc108.6.189" rhyme="A">A<sg type="ln"/>nd in vnlu&slong;t
+                        fo&rrot;<sg/>to l&ydot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.190" rhyme="B">wa&slong;<sg> </sg>te wane in al
                             þi&slong;e<note type="pal" resp="#bioKL0001">The first letter looks like
                             "þise", as Garner reads. However, Linow interprets the word as "wise".
                             The initial letter could be a remnant of a wynn in an
-                        exemplare</note></l>
-                    <l xml:id="bodllaudmisc108.6.199">T<sg type="ln"/>hat i &slong;chal nouȝ ful
-                        dere abye<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.200">A weyle &slong;&orrot;e may me gri&slong;e</l>
+                        exemplar.</note></l>
+                    <l xml:id="bodllaudmisc108.6.191" rhyme="A">T<sg type="ln"/>hat i &slong;chal
+                        nouȝ ful dere ab&ydot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.192" rhyme="B">A we&ydot;le &slong;o&rrot;e
+                        ma&ydot; me gri&slong;e</l>
                 </lg>
                 <pb n="202r"/>
+                <fw type="guideLetters" place="topCenter">10</fw>
+                <fw type="fol" place="topRight">202</fw>
+                <cb n="1"/>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.201">Þ<sg type="ln"/>ou was warned her
-                            bif&orrot;e<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.202">Ȝwat [we] boþe scholden have</l>
-                    <l xml:id="bodllaudmisc108.6.203">I<sg type="ln"/>del tale held tou þat
-                            þ&orrot;e<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.204">[Þoȝ] þou sauȝ fele bi dun in grave</l>
-                    <l xml:id="bodllaudmisc108.6.205">Þ<sg type="ln"/>ou di&slong;t al þat þe werld
-                        þe bad<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.206">And þat þi fleys þe wolde crave</l>
-                    <l xml:id="bodllaudmisc108.6.207">I<sg type="ln"/> þolede þe and [dude] as
-                            mad<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.208">To be mai&slong;ter and i þi cnave.</l>
+                    <l xml:id="bodllaudmisc108.6.193" rhyme="A">Þ<sg type="ln"/>ou wa&slong; warned
+                        her bi<sg/>fo&rrot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.194" rhyme="B">ȝwat <choice>
+                            <sic/>
+                            <corr>we</corr>
+                        </choice> boþe &slong;cholden haue<note type="text">The deleted "we" in the
+                            next line suggest that the word was in the scribe's exemplar.</note></l>
+                    <l xml:id="bodllaudmisc108.6.195" rhyme="A">I<sg type="ln"/>del tale held tou
+                        þat þo&rrot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.196" rhyme="B"><choice>
+                            <sic/>
+                            <corr resp="#bioLinow0001">Þoȝ</corr>
+                        </choice> þou &slong;auȝ fele bi dun in graue</l>
+                    <l xml:id="bodllaudmisc108.6.197" rhyme="A">Þ<sg type="ln"/>ou di&slong;t <space
+                            quantity="2" unit="letters"/> al þat þe werld þe
+                            bad<pc>&punctelev;</pc><note type="cod">The space is possibly; an
+                            erasure which was not overwritten, but no text is detectable
+                        now.</note></l>
+                    <l xml:id="bodllaudmisc108.6.198" rhyme="B">and þat þi fle&ydot;s þe wolde
+                        craue</l>
+                    <l xml:id="bodllaudmisc108.6.199" rhyme="A">I<sg type="ln"/> þolede þe and <choice>
+                            <sic/>
+                            <corr resp="#bioLinow0001">dude</corr>
+                        </choice> as mad<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.200" rhyme="B">to be mai&slong;ter and i þi
+                        cnaue</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.209">I<sg type="ln"/>wene&slong;te þouȝ,
-                        go&slong;t, þe geyned out<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.210">F&orrot; to quite þe wiþ al</l>
-                    <l xml:id="bodllaudmisc108.6.211">Þ<sg type="ln"/>ouȝ þat was so w&orrot;dly
-                            wrouȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.212">To seye i made þe my þral</l>
-                    <l xml:id="bodllaudmisc108.6.213">D<sg type="ln"/>ud i nevere on live
-                            nouȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.214">I ne rafte ne i ne &slong;tal</l>
-                    <l xml:id="bodllaudmisc108.6.215">Þ<sg type="ln"/>at fur&slong;t of þe ne kam þe
-                            þouȝt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.216">Aby yt þat abyȝe schal</l>
+                    <l xml:id="bodllaudmisc108.6.201" rhyme="A">I<sg type="ln"/>wene&slong;te þouȝ
+                        go&slong;t þe ge&ydot;ned out<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.202" rhyme="B">fo&rrot;<sg/>to quite þe wiþ al</l>
+                    <l xml:id="bodllaudmisc108.6.203" rhyme="A">Þ<sg type="ln"/>ouȝ þat was &slong;o
+                        wo&rrot;dl&ydot; wrouȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.204" rhyme="B">to &slong;e&ydot;e i made þe m&ydot;
+                        þ&rrot;al</l>
+                    <l xml:id="bodllaudmisc108.6.205" rhyme="A">D<sg type="ln"/>ud<sg> </sg>i neuere
+                        on liue nouȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.206" rhyme="B">I ne rafte ne i ne &slong;tal</l>
+                    <l xml:id="bodllaudmisc108.6.207" rhyme="A">Þ<sg type="ln"/>at fur&slong;t of þe
+                        ne kam þe þouȝt<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.208" rhyme="B">Ab&ydot;<sg> </sg>&ydot;t þat
+                        ab&ydot;ȝe schal</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.217">Ȝ<sg type="ln"/>wat wi&slong;t i wat was wrong
-                        &orrot; rith<pc>&punctelev;</pc><note type="enc" resp="#bioKL0001">Garner:
-                            Line 209 is incorrectly marked by the scribe as ending on the word
-                            "wrong"; to maintain the rhyme scheme, this first line should have ended
-                            with "or rith," which currently begins line two of stanza
-                            twenty-seven.</note></l>
-                    <l xml:id="bodllaudmisc108.6.218">Wat to take &orrot; ȝwat to schone</l>
-                    <l xml:id="bodllaudmisc108.6.219">B<sg type="ln"/>ote þat þouȝ potti&slong;t in
-                        mi siȝth<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.220">Þat al þe wisdom scholde&slong;t cone</l>
-                    <l xml:id="bodllaudmisc108.6.221">Ȝ<sg type="ln"/>wanne þouȝ me tauȝti&slong;t
-                        on untiȝth<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.222">An me gan þeroffe mone</l>
-                    <l xml:id="bodllaudmisc108.6.223">Þ<sg type="ln"/>anne dud i al my
-                            miȝth<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.224">Anoþer time to have my wone</l>
+                    <l xml:id="bodllaudmisc108.6.209" rhyme="A">Ȝ<sg type="ln"/>wat
+                            wi&slong;t<sg> </sg>i wat wa&slong; wrong<pc>&punctelev;</pc> o&rrot;
+                            rith<note type="text" resp="#bioKL0001"> The scribe misplaces the
+                            punctus elevatus after "wrong". Given the rhyme scheme, the line
+                            correctly ends after "or rith".</note></l>
+                    <l xml:id="bodllaudmisc108.6.210" rhyme="B">wWat to take o&rrot; ȝwat to
+                        schone</l>
+                    <l xml:id="bodllaudmisc108.6.211" rhyme="A">B<sg type="ln"/>ote þat þouȝ
+                        potti&slong;t in mi &slong;iȝth<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.212" rhyme="B">þat al þe wi&slong;dom
+                        scholde&slong;t cone</l>
+                    <l xml:id="bodllaudmisc108.6.213" rhyme="A">Ȝ<sg type="ln"/>wanne þouȝ me
+                        tauȝti&slong;t on vntiȝth<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.214" rhyme="B"><choice>
+                            <orig>An</orig>
+                            <reg>an</reg>
+                        </choice> me gan þer<sg/>offe mone</l>
+                    <l xml:id="bodllaudmisc108.6.215" rhyme="A">Þ<sg type="ln"/>anne dud i al
+                        m&ydot; miȝth<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.216" rhyme="B"><choice>
+                            <orig>Anoþer</orig>
+                            <reg>anoþer</reg>
+                        </choice> time to have m&ydot; wone</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.225">O<sg type="ln"/>c haddi&slong;t þouȝ, þat
-                        Cri&slong;t it ouþe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.226">Given me hunger, vur&slong;t and cold</l>
-                    <l xml:id="bodllaudmisc108.6.227">A<sg type="ln"/>nd þouȝ wite&slong;t me, þat
-                        no guod couþe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.228">In bismere ȝwan i was so bold</l>
-                    <l xml:id="bodllaudmisc108.6.229">Þ<sg type="ln"/>at i hadde undernomen in
-                            ȝouþe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.230">I havede holden old</l>
-                    <l xml:id="bodllaudmisc108.6.231">Þ<sg type="ln"/>ou let me rekyn n&orrot;th and
-                            south<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.232">And haven al my wille on wold</l>
+                    <l xml:id="bodllaudmisc108.6.217" rhyme="A">O<sg type="ln"/>c haddi&slong;t þouȝ
+                        þat <choice>
+                            <orig>cri&slong;t</orig>
+                            <reg>Crist</reg>
+                        </choice> it<sg> </sg>ovþe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.218" rhyme="B">giuen me hunger uur&slong;t and
+                        cold</l>
+                    <l xml:id="bodllaudmisc108.6.219" rhyme="A">A<sg type="ln"/>nd þouȝ wite&slong;t
+                        me þat no guod couþe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.220" rhyme="B">In bismere ȝwan i was &slong;o
+                        bold</l>
+                    <l xml:id="bodllaudmisc108.6.221" rhyme="A">Þ<sg type="ln"/>at i hadde
+                        vnder<sg/>nomen in ȝouþe</l>
+                    <l xml:id="bodllaudmisc108.6.222" rhyme="B">I hauede holden old</l>
+                    <l xml:id="bodllaudmisc108.6.223" rhyme="A">Þ<sg type="ln"/>ou<sg> </sg>let me
+                        rek&ydot;n no&rrot;th and &slong;outh<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.224" rhyme="B">and hauen al m&ydot; wille on
+                        wold</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.233">Þ<sg type="ln"/>ouȝ scholdi&slong;t f&orrot;
-                        no lif ne f&orrot; lond<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.234">Ne f&orrot; non oþer w&orrot;ldes winne</l>
-                    <l xml:id="bodllaudmisc108.6.235">H<sg type="ln"/>ave soffrid me to lein on
-                            hond<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.236">Þat havede t&orrot;nd to schame &orrot;
-                        sunne</l>
-                    <l xml:id="bodllaudmisc108.6.237">O<sg type="ln"/>c f&orrot; i be so eise
-                            fond<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.238">And þi wretche wit so þunne</l>
-                    <l xml:id="bodllaudmisc108.6.239">Þ<sg type="ln"/>at ay was wriþinde as a
-                            wond<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.240">Þe[r]f&orrot;e couþe i nevere blinne</l>
+                    <l xml:id="bodllaudmisc108.6.225" rhyme="A">Þ<sg type="ln"/>ouȝ
+                        &slong;choldi&slong;t fo&rrot; no lif ne fo&rrot;
+                        lond<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.226" rhyme="B">ne fo&rrot; non oþer wo&rrot;ldes
+                        winne</l>
+                    <l xml:id="bodllaudmisc108.6.227" rhyme="A">H<sg type="ln"/>aue &slong;offrid me
+                        to lein on hond<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.228" rhyme="B">þat hauede to&rrot;nd to
+                        &slong;chame o&rrot; &slong;unne</l>
+                    <l xml:id="bodllaudmisc108.6.229" rhyme="A">O<sg type="ln"/>c fo&rrot; i be
+                        &slong;o ei&slong;e fond<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.230" rhyme="B"><choice>
+                            <orig>And</orig>
+                            <reg>and</reg>
+                        </choice> þi wretche wit so þunne</l>
+                    <l xml:id="bodllaudmisc108.6.231" rhyme="A">Þ<sg type="ln"/>at a&ydot; was
+                        wriþinde as a wond<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.232" rhyme="B"><choice>
+                            <sic>þe<sg/>fo&rrot;e</sic>
+                            <corr>þerfo&rrot;e</corr>
+                        </choice> couþe i neuere blinne</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.241">T<sg type="ln"/>o sunne þouȝ
-                        wi&slong;ti&slong;t was my kinde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.242">As mankinne it is al so</l>
-                    <l xml:id="bodllaudmisc108.6.243">A<sg type="ln"/>nd to þe wretche w&orrot;ld so
-                            minde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.244">And to þe fend that is &orrot;e fo</l>
-                    <l xml:id="bodllaudmisc108.6.245">Þ<sg type="ln"/>ouȝ scholde&slong;t er have
-                        late me binde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.246">Wan i misdede, and don me wo</l>
-                    <l xml:id="bodllaudmisc108.6.247">A<sg type="ln"/>c ȝwanne þe blinde lat þe
-                            blinde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.248">In dike he fallen boþe two.</l>
+                    <l xml:id="bodllaudmisc108.6.233" rhyme="A">T<sg type="ln"/>o &slong;unne þouȝ
+                        wi&slong;ti&slong;t was m&ydot; kinde<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.234" rhyme="B">as <choice>
+                            <orig>Mankinne</orig>
+                            <reg>mankinne</reg>
+                        </choice> it is al<sg/>so</l>
+                    <l xml:id="bodllaudmisc108.6.235" rhyme="A">A<sg type="ln"/>nd to þe wretche
+                            <space quantity="4" unit="letters"/>wo&rrot;ld so <choice>
+                            <orig>Minde</orig>
+                            <reg>minde</reg>
+                        </choice></l>
+                    <l xml:id="bodllaudmisc108.6.236" rhyme="B">and to þe fend that is o&rrot;e
+                        fo</l>
+                    <l xml:id="bodllaudmisc108.6.237" rhyme="A">Þ<sg type="ln"/>ouȝ
+                        &slong;cholde&slong;t er haue late me binde<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.238" rhyme="B">wan i mi&slong;dede and don me
+                        wo</l>
+                    <l xml:id="bodllaudmisc108.6.239" rhyme="A">A<sg type="ln"/>c ȝwanne þe blinde
+                        lat þe blinde<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.240" rhyme="B"><choice>
+                            <orig>In</orig>
+                            <reg>in</reg>
+                        </choice> dike he fallen boþe two</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.249">T<sg type="ln"/>ho bigan be go&slong;t to
-                            wepe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.250">An seide: "Bodi, allas! allas</l>
-                    <l xml:id="bodllaudmisc108.6.251">Þ<sg type="ln"/>at i þe lovede evere
-                            ȝete<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.252">F&orrot; al mi love on þe i las</l>
-                    <l xml:id="bodllaudmisc108.6.253">Þ<sg type="ln"/>at tou lovede&slong;t me þouȝ
-                            lete<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.254">And made&slong;t me an houue of glas</l>
-                    <l xml:id="bodllaudmisc108.6.255">I<sg type="ln"/> dide al þat þe was
+                    <l xml:id="bodllaudmisc108.6.241" rhyme="A">Þ<sg type="ln"/>o bigan þe
+                        go&slong;t to wepe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.242" rhyme="B"><choice>
+                            <sic>An</sic>
+                            <corr>and</corr>
+                        </choice> &slong;eide bodi allas allas</l>
+                    <l xml:id="bodllaudmisc108.6.243" rhyme="A">Þ<sg type="ln"/>at i þe louede
+                            euere<sg> </sg>ȝete</l>
+                    <l xml:id="bodllaudmisc108.6.244" rhyme="B">fo&rrot; al mi loue on þe i las</l>
+                    <l xml:id="bodllaudmisc108.6.245" rhyme="A">Þ<sg type="ln"/>at tou
+                        louede&slong;t me þouȝ <choice>
+                            <sic>le</sic>
+                            <corr>lete</corr>
+                        </choice><pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.246" rhyme="B">and made&slong;t me an houue of
+                        glas</l>
+                    <l xml:id="bodllaudmisc108.6.247" rhyme="A">I<sg type="ln"/> dide al þat þe was
                             sete<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.256">And þouȝ my trayt&orrot; evere was</l>
+                    <l xml:id="bodllaudmisc108.6.248" rhyme="B">and þouȝ m&ydot; tra&ydot;to&rrot;
+                        euere was</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.257">Þ<sg type="ln"/>e fend of helle þat havep
-                            enviȝe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.258">To mankune, and evere haþ had</l>
-                    <l xml:id="bodllaudmisc108.6.259">W<sg type="ln"/>as in us as a
-                            spie<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.260">To do sum <choice>
-                            <orig>god</orig>
-                            <reg>God</reg>
-                        </choice> ȝwan i þe bad</l>
-                    <l xml:id="bodllaudmisc108.6.261">T<sg type="ln"/>he werld he toc to
-                            cumpayniȝe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.262">Þat mani a soule haved f&orrot;rad</l>
+                    <l xml:id="bodllaudmisc108.6.249" rhyme="A">h<sg type="ln"/>o ma&ydot; mo&rrot;E
+                        tra&ydot;&slong;on do<pc>&punctuelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.250" rhyme="B">o&rrot; is louerd betere engine</l>
+                    <l xml:id="bodllaudmisc108.6.251" rhyme="A">þ<sg type="ln"/>an he þat al is
+                        tri&slong;t i&slong; to<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.252" rhyme="B">In and ouȝt a&slong; ovne
+                        h&ydot;n</l>
+                    <l xml:id="bodllaudmisc108.6.253" rhyme="A">a<sg type="ln"/>&ydot; &slong;eþþe
+                        þouȝ was þ&rrot;iuen and þ&rrot;o<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.254" rhyme="B"><choice>
+                            <orig>Mitti&slong;</orig>
+                            <reg>mittis</reg>
+                        </choice> dedi alle <choice>
+                            <orig>Mine</orig>
+                            <reg>mine</reg>
+                        </choice></l>
+                    <l xml:id="bodllaudmisc108.6.255" rhyme="A">T<sg type="ln"/>o po&rrot;ueȝe þe
+                        re&slong; and ro<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.256" rhyme="B"><choice>
+                            <orig>And</orig>
+                            <reg>and</reg>
+                        </choice> þouȝ to b&rrot;inge me in pine</l>
+                </lg>
+                <ab rend="marginLeft">&dsol;</ab>
+                <lg>
+                    <l xml:id="bodllaudmisc108.6.257" rhyme="A">Þ<sg type="ln"/>e fend of helle þat
+                        haueþ enuiȝe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.258" rhyme="B">To mankune and<sg> </sg>euere haþ
+                        had</l>
+                    <l xml:id="bodllaudmisc108.6.259" rhyme="A">W<sg type="ln"/>a&slong; in v&slong;
+                        a&slong; a &slong;pie<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.260" rhyme="B">To do &slong;um god ȝwan i þe
+                        bad</l>
+                    <l xml:id="bodllaudmisc108.6.261" rhyme="A">Þ<sg type="ln"/>e werld he toc to
+                            cumpa&ydot;niȝe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.262" rhyme="B">þat mani a<sg> </sg>&slong;oule
+                        haued fo&rrot;<sg/>rad</l>
                     <pb n="202v"/>
-                    <l xml:id="bodllaudmisc108.6.263">Þ<sg type="ln"/>ey þre wi&slong;ten þi
-                            folye<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.264">And madin, wretche, þe al mad</l>
+                    <fw type="guideLetters" place="topCenter">10</fw>
+                    <cb n="1"/>
+                    <l xml:id="bodllaudmisc108.6.263" rhyme="A">Þ<sg type="ln"/>e&ydot; þ&rrot;e
+                        wi&slong;ten þi fol&ydot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.264" rhyme="B"><choice>
+                            <orig>And</orig>
+                            <reg>and</reg>
+                        </choice> madin wretche þe al mad</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.265">Ȝ<sg type="ln"/>wan i bad þe re&slong;te
-                            take<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.266">F&orrot;sake sunne ay and oo</l>
-                    <l xml:id="bodllaudmisc108.6.267">D<sg type="ln"/>o penaunce, fa&slong;te and
+                    <l xml:id="bodllaudmisc108.6.265" rhyme="A">Ȝ<sg type="ln"/>wan i<sg> </sg>bad
+                        þe re&slong;te take<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.266" rhyme="B">fo&rrot;<sg/>&slong;ake &slong;unne
+                        a&ydot; and oo</l>
+                    <l xml:id="bodllaudmisc108.6.267" rhyme="A">D<sg type="ln"/>o
+                            penaunce<pc>&middot;</pc>fa&slong;te<pc>&middot;</pc>and
                             wake<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.268">Þe fe[nd] seide: ‘Þouȝ schalt nouȝt so</l>
-                    <l xml:id="bodllaudmisc108.6.269">Þ<sg type="ln"/>os sone al þi blisse
-                            f&orrot;sake<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.270">To liven ay in pine and wo</l>
-                    <l xml:id="bodllaudmisc108.6.271">I<sg type="ln"/>oyȝe and blisse i rede þouȝ
-                            make<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.272">And þenke to live ȝeres mo!’</l>
+                    <l xml:id="bodllaudmisc108.6.268" rhyme="B">þe <choice>
+                            <sic>fe</sic>
+                            <corr>fend</corr>
+                        </choice> &slong;eide þouȝ schalt nouȝt so</l>
+                    <l xml:id="bodllaudmisc108.6.269" rhyme="A">Þ<sg type="ln"/>o&slong; &slong;one
+                        al þi bli&slong;&slong;e fo&rrot;<sg/>&slong;ake<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.270" rhyme="B">To liuen a&ydot; in pine and wo</l>
+                    <l xml:id="bodllaudmisc108.6.271" rhyme="A">I<sg type="ln"/>o&ydot;ȝe and
+                        bli&slong;&slong;e i<sg> </sg>rede þouȝ make<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.272" rhyme="B">And þenke to liue ȝeres mo</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.273">Ȝ<sg type="ln"/>wan i bad te leve
-                            p&rrot;ide<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.274">Þi manie mes, þi riche schroud</l>
-                    <l xml:id="bodllaudmisc108.6.275">Þ<sg type="ln"/>e false w&orrot;ld þat
-                        &slong;tod bi side<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.276">Bad þe be ful quoynte and p&rrot;oud</l>
-                    <l xml:id="bodllaudmisc108.6.277">Þ<sg type="ln"/>i fleychs with riche robes
-                            schride<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.278">Nouȝt als a beggare in a clouȝt</l>
-                    <l xml:id="bodllaudmisc108.6.279">A<sg type="ln"/>nd on heiȝe h&orrot;se to
-                            ride<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.280">With mikel meyne in and ouȝt</l>
+                    <l xml:id="bodllaudmisc108.6.273" rhyme="A">Ȝ<sg type="ln"/>wan i<sg> </sg>bad
+                        te leue p&rrot;ide</l>
+                    <l xml:id="bodllaudmisc108.6.274" rhyme="B">Þi manie <choice>
+                            <orig>Mes</orig>
+                            <reg>mes</reg>
+                        </choice> þi riche sch&rrot;oud</l>
+                    <l xml:id="bodllaudmisc108.6.275" rhyme="A">Þ<sg type="ln"/>e fal&slong;e
+                        wo&rrot;ld þat &slong;tod bi<del rend="subpointed"
+                            >de</del><sg/>&slong;ide<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.276" rhyme="B">bad þe be ful quo&ydot;nte and
+                        p&rrot;oud</l>
+                    <l xml:id="bodllaudmisc108.6.277" rhyme="A">Þ<sg type="ln"/>i fle&ydot;ch&slong;
+                        with riche robes sch&rrot;ide<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.278" rhyme="B"><choice>
+                            <orig>Nouȝt</orig>
+                            <reg>nouȝt</reg>
+                        </choice> al&slong; a beggare in<sg> </sg>a clouȝt</l>
+                    <l xml:id="bodllaudmisc108.6.279" rhyme="A">A<sg type="ln"/>nd on heiȝe
+                        ho&rrot;&slong;e to ride<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.280" rhyme="B">with mikel me&ydot;ne in and
+                        ouȝt</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.281">Ȝ<sg type="ln"/>wan i bad þe erliche to
-                            rise<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.282">Nim of me, þi soule, kep</l>
-                    <l xml:id="bodllaudmisc108.6.283">Þ<sg type="ln"/>ouȝ seide&slong;t, thou
-                        miȝte&slong;t a none wise<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.284">F&orrot;gon þe murie m&orrot;weslep</l>
-                    <l xml:id="bodllaudmisc108.6.285">W<sg type="ln"/>ȝan ȝe hadden set your
-                            sise<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.286">Ȝe þre traytours, s&orrot;e i wep</l>
-                    <l xml:id="bodllaudmisc108.6.287">Y<sg type="ln"/>e ladde me wid oure
-                            enp&rrot;ise<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.288">As þe boþelere doþ is schep</l>
+                    <l xml:id="bodllaudmisc108.6.281" rhyme="A">Ȝ<sg type="ln"/>wan i<sg> </sg>bad
+                        þe erliche to ri&slong;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.282" rhyme="B">nim of me þi<sg> </sg>&slong;oule
+                        kep</l>
+                    <l xml:id="bodllaudmisc108.6.283" rhyme="A">Þ<sg type="ln"/>ouȝ
+                        &slong;eide&slong;t þo<add place="supralinear">u</add><sg> </sg>
+                        miȝte&slong;t a none wi&slong;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.284" rhyme="B">fo&rrot;gon þe murie
+                            mo&rrot;we<sg> </sg>slep</l>
+                    <l xml:id="bodllaudmisc108.6.285" rhyme="A"><choice>
+                            <sic>W<sg type="ln"/>ȝau</sic>
+                            <corr>Wȝan</corr>
+                        </choice> ȝe hadden &slong;et &ydot;our
+                        &slong;i&slong;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.286" rhyme="B"><choice>
+                            <sic>þe</sic>
+                            <corr resp="#bioLinow0001">Ȝe</corr>
+                        </choice> þre tra&ydot;tou<unclear reason="smudged">r</unclear>&slong;
+                        &slong;o&rrot;e i wep <note type="text" resp="#bioKL0001">Linow's emendation
+                            is supported by; the following line, which appears to begin with "ye",
+                            rather than "þe". However, that would suggest that the emendation in
+                            this line should also be to "ye". Both lines are characterised by
+                            larger, less precise, ductus.</note></l>
+                    <l xml:id="bodllaudmisc108.6.287" rhyme="A">Y<sg type="ln"/>e ladde me wid oure
+                            <del rend="erased"><unclear cert="low">&slong;i&slong;e</unclear></del>
+                            enp&rrot;i&slong;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.288" rhyme="B">As þe boþelere doþ is schep</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.289">Ȝ<sg type="ln"/>wan [ȝe] þre traitours at o
-                            tale<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.290">Togidere weren agein me sw&orrot;n</l>
-                    <l xml:id="bodllaudmisc108.6.291">A<sg type="ln"/>l ȝe maden
-                            trotevale<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.292">Þat i haved seid bif&orrot;n</l>
-                    <l xml:id="bodllaudmisc108.6.293">Ȝ<sg type="ln"/>e ledde me bi doune and
-                            dale<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.294">As an oxe bi þe h&orrot;n</l>
-                    <l xml:id="bodllaudmisc108.6.295">T<sg type="ln"/>il þer as him is þrowen
-                            bale<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.296">Þer his þrote schal be sch&orrot;n</l>
+                    <l xml:id="bodllaudmisc108.6.289" rhyme="A">Ȝ<sg type="ln"/>wan <choice>
+                            <sic/>
+                            <corr resp="#bioLinow0001">ȝe</corr>
+                        </choice> þ&rrot;e traitour&slong; at o tale<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.290" rhyme="B">to<sg/>gidere weren a<sg/>gein me
+                        swo&rrot;n</l>
+                    <l xml:id="bodllaudmisc108.6.291" rhyme="A">A<sg type="ln"/>l <choice>
+                            <sic>þe</sic>
+                            <corr resp="#bioLinow0001">ȝe</corr>
+                        </choice> maden troteuale<pc>&punctelev;</pc>
+                        <note type="enc" resp="#bioKL0001">At this point the scribe is starting to
+                            use thorn for yogh, which Linow silentl&ydot; corrects. The thorn may be
+                            an undotted "y", in which case it should be represented as an undotted y
+                            and no correction should be made. The text will have to be checked
+                            carefully for examples of this phenomenon.</note>
+                    </l>
+                    <l xml:id="bodllaudmisc108.6.292" rhyme="B">þat i<sg/>haued &slong;eid
+                        bi<sg/>fo&rrot;n</l>
+                    <l xml:id="bodllaudmisc108.6.293" rhyme="A">Ȝ<sg type="ln"/>e ledde me bi doune
+                        and dale<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.294" rhyme="B">As <choice>
+                            <orig>a noxe</orig>
+                            <reg>an oxe</reg>
+                        </choice> bi þe ho&rrot;n</l>
+                    <l xml:id="bodllaudmisc108.6.295" rhyme="A">T<sg type="ln"/>il þer as him
+                        i&slong; <choice>
+                            <sic>b&rrot;wen</sic>
+                            <corr>þrowen</corr>
+                        </choice> bale<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.296" rhyme="B">þer his þ&rrot;ote schal be
+                        scho&rrot;n</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.297">F<sg type="ln"/>&orrot; love þi wille i
-                        folewede al<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.298">And to min oune deth i d&rrot;ouȝ</l>
-                    <l xml:id="bodllaudmisc108.6.299">T<sg type="ln"/>o foluwe þe, þat was mi
-                            þral<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.300">Þat evere were false and frouȝ</l>
-                    <l xml:id="bodllaudmisc108.6.301">Þ<sg type="ln"/>ouȝ it di&slong;t and i
-                            f&orrot;hal<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.302">We wi&slong;tin wel it was wouȝ</l>
-                    <l xml:id="bodllaudmisc108.6.303">Þ<sg type="ln"/>erf&orrot;e mote we keþe
-                        &orrot;e fal<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.304">Pine and schame and s&orrot;ewe inouȝ</l>
+                    <l xml:id="bodllaudmisc108.6.297" rhyme="A">F<sg type="ln"/>o&rrot; loue þi
+                        wille i folewede al<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.298" rhyme="B">And to min oune deth i
+                        d&rrot;ouȝ</l>
+                    <l xml:id="bodllaudmisc108.6.299" rhyme="A">T<sg type="ln"/>o foluwe þe þat was
+                        mi þ&rrot;al<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.300" rhyme="B">þat euere <unclear reason="smudged"
+                            >w</unclear>ere fal&slong;e and frouȝ</l>
+                    <l xml:id="bodllaudmisc108.6.301" rhyme="A">Þ<sg type="ln"/>ouȝ it di&slong;t
+                        and i fo&rrot;<sg/>hal</l>
+                    <l xml:id="bodllaudmisc108.6.302" rhyme="B">we wi&slong;tin wel it was wouȝ</l>
+                    <l xml:id="bodllaudmisc108.6.303" rhyme="A">Þ<sg type="ln"/>er<sg/>fo&rrot;e
+                        mote we keþe o&rrot;e fal<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.304" rhyme="B">pine and schame and
+                        &slong;o&rrot;ewe i<sg/>nouȝ</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.305">Þ<sg type="ln"/>eiȝ alle þe men nouȝ under
-                            mone<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.306">To demen weren sete on benche</l>
-                    <l xml:id="bodllaudmisc108.6.307">Þ<sg type="ln"/>e schames þat us schullen be
-                            done<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.308">Ne schuldin halven del biþenke</l>
-                    <l xml:id="bodllaudmisc108.6.309">N<sg type="ln"/>e helpeþ us no bede ne
-                            bone<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.310">Ne may us nou no wyl towrenche</l>
-                    <l xml:id="bodllaudmisc108.6.311">H<sg type="ln"/>ellehoundes cometh nou
-                            sone<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.312">F&orrot;þi ne mouwe we noyþer blenche.</l>
+                    <l xml:id="bodllaudmisc108.6.305" rhyme="A">Þ<sg type="ln"/>eiȝ alle þe men nouȝ
+                        vnder mone<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.306" rhyme="B">to demen weren &slong;ete on
+                        benche</l>
+                    <l xml:id="bodllaudmisc108.6.307" rhyme="A">Þ<sg type="ln"/>e
+                        &slong;chame&slong; þat v&slong; &slong;chullen be
+                        done<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.308" rhyme="B">ne &slong;chuldin haluendel
+                        bi<sg/>þenke</l>
+                    <l xml:id="bodllaudmisc108.6.309" rhyme="A">N<sg type="ln"/>e helpeþ vs no bede
+                        ne bone<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.310" rhyme="B">ne ma&ydot; v&slong; nou no w&ydot;l
+                        to<sg/>wrenche</l>
+                    <l xml:id="bodllaudmisc108.6.311" rhyme="A">H<sg type="ln"
+                        />elle<sg/>hounde&slong; cometh nou &slong;one<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.312" rhyme="B"><choice>
+                            <sic>fo&rrot;<sg/>bi</sic>
+                            <corr>Fo&rrot;þi</corr>
+                        </choice> ne mouwe we no&ydot;þer blenche</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.313">Ȝ<sg type="ln"/>wan þat bodi say þat
-                            go&slong;t<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.314">Þat mone and al þat s&orrot;uwe make</l>
-                    <l xml:id="bodllaudmisc108.6.315">I<sg type="ln"/>t seyde: "Allas! þat my lif
-                        hath la&slong;t<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.316">Þat i have lived f&orrot; sunne sake</l>
-                    <l xml:id="bodllaudmisc108.6.317">Þ<sg type="ln"/>at min herte anon ne hadde
-                            tob&orrot;&slong;te<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.318">Ȝwan i was fram mi moder take</l>
-                    <l xml:id="bodllaudmisc108.6.319">I<sg type="ln"/> miȝte have ben in erþe
-                            ke&slong;t<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.320">And ileiȝen and iroted in a lake</l>
+                    <l xml:id="bodllaudmisc108.6.313" rhyme="A">Ȝ<sg type="ln"/>wan þat bodi
+                        &slong;a&ydot; þat go&slong;t<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.314" rhyme="B">þat <choice>
+                            <orig>Mone</orig>
+                            <reg>mone</reg>
+                        </choice> and al þat &slong;o&rrot;uwe make</l>
+                    <l xml:id="bodllaudmisc108.6.315" rhyme="A">I<sg type="ln"/>t &slong;e&ydot;de
+                        allas þat m&ydot; lif hath la&slong;t<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.316" rhyme="B">Þat i<sg> </sg>haue liued
+                        fo&rrot;<sg/>&slong;unne &slong;ake</l>
+                    <l xml:id="bodllaudmisc108.6.317" rhyme="A">M<sg type="ln"/>in<sg> </sg>herte
+                        þat a<sg/>non ne hadde to<sg/>bo&rrot;&slong;te<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.318" rhyme="B">ȝwan i was fram mi <choice>
+                            <orig>Moder</orig>
+                            <reg>moder</reg>
+                        </choice> take</l>
+                    <l xml:id="bodllaudmisc108.6.319" rhyme="A">I<sg type="ln"/>
+                        <choice>
+                            <orig>Miȝte</orig>
+                            <reg>miȝte</reg>
+                        </choice> have ben in erþe ke&slong;t<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.320" rhyme="B">And i<sg/>leiȝen and i<sg/>roted in
+                            a<sg> </sg>lake</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.321">Þ<sg type="ln"/>anne haved i nevere
-                            lerned<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.322">Ȝwat was uvel ne ȝwat was guod</l>
-                    <l xml:id="bodllaudmisc108.6.323">N<sg type="ln"/>e no þing with wrong
+                    <l xml:id="bodllaudmisc108.6.321" rhyme="A">Þ<sg type="ln"/>anne haued<sg
+                        > </sg>i neuere lerned<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.322" rhyme="B">ȝwat wa&slong; vuel ne ȝwat was
+                        guod</l>
+                    <l xml:id="bodllaudmisc108.6.323" rhyme="A">N<sg type="ln"/>e no þing with wrong
                             ȝernd<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.324">Ne pine þoled, as i mot</l>
-                    <l xml:id="bodllaudmisc108.6.325">Ȝ<sg type="ln"/>were no seint miȝte beren
-                        &orrot;e ernde<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.326">To him þat bouȝte us with is blod</l>
-                    <l xml:id="bodllaudmisc108.6.327">I<sg type="ln"/>n helle hwanne we ben
-                            b&rrot;end<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.328">Of sum merci to don us bot.</l>
+                    <l xml:id="bodllaudmisc108.6.324" rhyme="B">ne pine þoled as i <choice>
+                            <orig>Mot</orig>
+                            <reg>mot</reg>
+                        </choice></l>
+                    <l xml:id="bodllaudmisc108.6.325" rhyme="A">Ȝ<sg type="ln"/>were no &slong;eint
+                        miȝte beren o&rrot;e ernde<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.326" rhyme="B">to him þat bouȝte v&slong; with is
+                        blod</l>
+                    <l xml:id="bodllaudmisc108.6.327" rhyme="A">I<sg type="ln"/>n helle hwanne we
+                        ben b&rrot;end<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.328" rhyme="B">of &slong;um merci to don v&slong;
+                        bot</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.329">N<sg type="ln"/>ay, bodi, nouȝ is to
-                            late<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.330">F&orrot; to p&rrot;eiȝe and to p&rrot;eche</l>
-                    <l xml:id="bodllaudmisc108.6.331">N<sg type="ln"/>ou þe wayn is ate
-                            ȝate<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.332">And þi tonge haþ leid þe speche</l>
-                    <l xml:id="bodllaudmisc108.6.333">O<sg type="ln"/> poynt of &orrot;e pine to
-                            bate<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.334">In þe w&orrot;ld ne is no leche</l>
-                    <l xml:id="bodllaudmisc108.6.335">A<sg type="ln"/>l tegidere we gon o
-                            gate<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.336">Swilk is <choice>
-                            <orig>god</orig>
-                            <reg>God</reg>
-                        </choice>es harde wreche</l>
+                    <l xml:id="bodllaudmisc108.6.329" rhyme="A">N<sg type="ln"/>a&ydot; bodi nouȝ
+                        i&slong; to<sg> </sg>late<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.330" rhyme="B">o&rrot;<sg/>to p&rrot;eiȝe and to
+                        p&rrot;eche</l>
+                    <l xml:id="bodllaudmisc108.6.331" rhyme="A">N<sg type="ln"/>ou þe wa&ydot;n
+                            i&slong;<sg> </sg>ate ȝate<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.332" rhyme="B">And þi tonge haþ leid þe
+                        &slong;peche</l>
+                    <l xml:id="bodllaudmisc108.6.333" rhyme="A">O<sg type="ln"/> po&ydot;nt of
+                        o&rrot;e pine to bate<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.334" rhyme="B">In þe wo&rrot;ld ne is no leche</l>
+                    <l xml:id="bodllaudmisc108.6.335" rhyme="A">A<sg type="ln"/>l te<sg/>gidere we
+                        gon o gate<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.336" rhyme="B">swilk is <choice>
+                            <orig>gode&slong;</orig>
+                            <reg>Godes</reg>
+                        </choice> harde wreche</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.337">A<sg type="ln"/>c hadde&slong;t þouȝ a litel
-                            er<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.338">Ȝwile us was lif togid&rrot;e lent</l>
-                    <l xml:id="bodllaudmisc108.6.339">Þ<sg type="ln"/>o þat was so sek and
-                            ser<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.340">Us schriven and þe devel schent</l>
+                    <l xml:id="bodllaudmisc108.6.337" rhyme="A">A<sg type="ln"/>c hadde&slong;t þouȝ
+                            a<sg> </sg>lutel er<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.338" rhyme="B">ȝwile v&slong; was lif
+                        to<sg/>gid&rrot;e lent</l>
+                    <l xml:id="bodllaudmisc108.6.339" rhyme="A">Þ<sg type="ln"/>o þat was &slong;o
+                        &slong; ek and ser<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.340" rhyme="B">v&slong; &slong;ch&rrot;iuen and þe
+                        deuel schent</l>
                     <pb n="203r"/>
-                    <l xml:id="bodllaudmisc108.6.341">A<sg type="ln"/>nd laten renne a reuly
-                            ter<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.342">And bihiȝt amendement</l>
-                    <l xml:id="bodllaudmisc108.6.343">N<sg type="ln"/>e þ&orrot;te us have friȝt ne
-                            fer<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.344">Þat <choice>
+                    <fw type="guideLetters" place="topCenter">10</fw>
+                    <fw type="fol" place="topRight">203</fw>
+                    <cb n="1"/>
+                    <l xml:id="bodllaudmisc108.6.341" rhyme="A">A<sg type="ln"/>nd laten renne a
+                        reul&ydot; ter<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.342" rhyme="B">and bihiȝt amendement</l>
+                    <l xml:id="bodllaudmisc108.6.343" rhyme="A">N<sg type="ln"/>e þo&rrot;te
+                        v&slong; haue friȝt ne fer<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.344" rhyme="B">þat <choice>
                             <orig>god</orig>
                             <reg>God</reg>
-                        </choice> ne wolde his blisse us sent</l>
+                        </choice> ne wolde his bli&slong;&slong;e v&slong; &slong;ent</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.345">Þ<sg type="ln"/>ey alle þe men þat ben o
-                            lyves<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.346">Weren p&rrot;e&slong;tes, messes to singe</l>
-                    <l xml:id="bodllaudmisc108.6.347">A<sg type="ln"/>nd alle þe maidenes and þe
-                            wyves<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.348">Wydewes, hondene f&orrot; to wringe</l>
-                    <l xml:id="bodllaudmisc108.6.349">A<sg type="ln"/>nd miȝte suweche
-                            fyve<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.350">Als is in werld of alle þinge</l>
-                    <l xml:id="bodllaudmisc108.6.351">S<sg type="ln"/>iþin we ne mouwen us sulven
-                            schrive<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.352">Ne schulde us into blisse b&rrot;inge</l>
+                    <l xml:id="bodllaudmisc108.6.345" rhyme="A">Þ<sg type="ln"/>e&ydot; alle þe men
+                        þat ben o l&ydot;ue&slong;</l>
+                    <l xml:id="bodllaudmisc108.6.346" rhyme="B">weren p&rrot;e&slong;tes
+                        me&slong;&slong;es to &slong;inge</l>
+                    <l xml:id="bodllaudmisc108.6.347" rhyme="A">A<sg type="ln"/>nd alle þe
+                        maidene&slong; and þe w&ydot;ues<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.348" rhyme="B">w&ydot;dewes hondene fo&rrot;<sg/>to
+                        wringe</l>
+                    <l xml:id="bodllaudmisc108.6.349" rhyme="A">A<sg type="ln"/>nd <choice>
+                            <orig>Miȝte</orig>
+                            <reg>miȝte</reg>
+                        </choice> suweche f&ydot;ue<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.350" rhyme="B">als is in werld of alle þinge</l>
+                    <l xml:id="bodllaudmisc108.6.351" rhyme="A">S<sg type="ln"/>iþin we ne <choice>
+                            <orig>Mouwen</orig>
+                            <reg>mouwen</reg>
+                        </choice>
+                        <del rend="subpointed">n</del> v&slong; suluen
+                            sch&rrot;iue<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.352" rhyme="B">Ne schulde v&slong; into
+                        bli&slong;&slong;e b&rrot;inge</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.353">B<sg type="ln"/>odi, i may no m&orrot;e
-                            duelle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.354">No &slong;tonde f&orrot; to speke with þe</l>
-                    <l xml:id="bodllaudmisc108.6.355">H<sg type="ln"/>ellehoundes here i
-                            ȝelle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.356">And fendes mo þan men mowe se</l>
-                    <l xml:id="bodllaudmisc108.6.357">Þ<sg type="ln"/>at comen to fette me to
-                            helle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.358">Ne may i noweder from hem fle</l>
-                    <l xml:id="bodllaudmisc108.6.359">A<sg type="ln"/>nd þouȝ schalt comen with
-                        fleys and felle<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.360">A domesday to wonie with me.</l>
+                    <l xml:id="bodllaudmisc108.6.353" rhyme="A">B<sg type="ln"/>odi i ma&ydot; no
+                        mo&rrot;e duelle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.354" rhyme="B">ne &slong;tonde fo&rrot;<sg/>to
+                        &slong;peke with þe</l>
+                    <l xml:id="bodllaudmisc108.6.355" rhyme="A">H<sg type="ln"
+                        />elle<sg/>hounde&slong; here i ȝelle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.356" rhyme="B">And fendes <choice>
+                            <orig>Mo</orig>
+                            <reg>mo</reg>
+                        </choice> þan men mowe se</l>
+                    <l xml:id="bodllaudmisc108.6.357" rhyme="A">Þ<sg type="ln"/>at comen to fette me
+                        to helle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.358" rhyme="B">ne ma&ydot; i noweder from hem
+                        fle</l>
+                    <l xml:id="bodllaudmisc108.6.359" rhyme="A">A<sg type="ln"/>nd þouȝ schalt comen
+                        with fle&ydot;s and felle<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.360" rhyme="B">A dome&slong;da&ydot; to wonie with
+                        me</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.361">N<sg type="ln"/>e havede it non er þe
-                        w&orrot;d iseyd<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.362">It ne wi&slong;te ȝwider it scholde go</l>
-                    <l xml:id="bodllaudmisc108.6.363">I<sg type="ln"/>n ab&rrot;eken at a
+                    <l xml:id="bodllaudmisc108.6.361" rhyme="A">N<sg type="ln"/>e hauede it non er
+                        þe wo&rrot;d i<sg/>&slong;e&ydot;d<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.362" rhyme="B">þat wi&slong;te ȝwider it
+                        &slong;cholde go</l>
+                    <l xml:id="bodllaudmisc108.6.363" rhyme="A">I<sg type="ln"/>n a b&rrot;eken at a
                             b&rrot;eid<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.364">A þousend develene and ȝet mo</l>
-                    <l xml:id="bodllaudmisc108.6.365">Ȝ<sg type="ln"/>wan thei haddin on him
-                            leyd<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.366">Here scharpe cloches alle þo</l>
-                    <l xml:id="bodllaudmisc108.6.367">Y<sg type="ln"/>t was in a s&orrot;i
-                            pleyt<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.368">Reuliche toyled to and fro</l>
+                    <l xml:id="bodllaudmisc108.6.364" rhyme="B">A þou&slong;end deuelene and ȝet <choice>
+                            <orig>Mo</orig>
+                            <reg>mo</reg>
+                        </choice></l>
+                    <l xml:id="bodllaudmisc108.6.365" rhyme="A">Ȝ<sg type="ln"/>wan thei haddin on
+                        him le&ydot;d<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.366" rhyme="B">here &slong;charpe cloches alle
+                        þo</l>
+                    <l xml:id="bodllaudmisc108.6.367" rhyme="A">Y<sg type="ln"/>t was in a so&rrot;i
+                            ple&ydot;t<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.368" rhyme="B">Reuliche to&ydot;led to and fro</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.369">F<sg type="ln"/>&orrot; thei weren ragged,
-                        rone and tayled<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.370">With b&rrot;ode bulches on here bac</l>
-                    <l xml:id="bodllaudmisc108.6.371">S<sg type="ln"/>charpe clauwes, longe
-                            nayled<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.372">No was no lime withoute lac</l>
-                    <l xml:id="bodllaudmisc108.6.373">O<sg type="ln"/>n alle halve it was
-                            asayled<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.374">With mani a devel, foul and blac</l>
-                    <l xml:id="bodllaudmisc108.6.375">M<sg type="ln"/>erci criende lutel
-                            availede<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.376">Ȝwan Cri&slong;t it wolde so harde wrac</l>
+                    <l xml:id="bodllaudmisc108.6.369" rhyme="A">F<sg type="ln"/>o&rrot; þei weren
+                        ragged rone and ta&ydot;led<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.370" rhyme="B">with b&rrot;ode bulches on here
+                        bac</l>
+                    <l xml:id="bodllaudmisc108.6.371" rhyme="A">S<sg type="ln"/>charpe clauwes longe
+                        na&ydot;led</l>
+                    <l xml:id="bodllaudmisc108.6.372" rhyme="B"><choice>
+                            <sic>no</sic>
+                            <corr>ne</corr>
+                        </choice> was no lime with<sg/>oute lac</l>
+                    <l xml:id="bodllaudmisc108.6.373" rhyme="A">O<sg type="ln"/>n alle<del
+                            rend="erased"><unclear cert="low">ȝ</unclear></del> halue it was
+                        a<sg/>&slong;a&ydot;led</l>
+                    <l xml:id="bodllaudmisc108.6.374" rhyme="B">With mani a deuel foul and blac</l>
+                    <l xml:id="bodllaudmisc108.6.375" rhyme="A">M<sg type="ln"/>erci <choice>
+                            <orig>crie<am>&combtilde;</am>de</orig>
+                            <reg>crie<ex>n</ex>de</reg>
+                        </choice> lutel a<sg/>uailede<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.376" rhyme="B">ȝwan <choice>
+                            <orig>cri&slong;t</orig>
+                            <reg>Crist</reg>
+                        </choice> it wolde &slong;o harde wrac</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.377">S<sg type="ln"/>ome þe chaules it
-                            towra&slong;ten<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.378">And ȝoten in þe led al hot</l>
-                    <l xml:id="bodllaudmisc108.6.379">A<sg type="ln"/>nd bedin him to d&rrot;inke
-                            fa&slong;te<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.380">And senke abouten him a b&rrot;od</l>
-                    <l xml:id="bodllaudmisc108.6.381">A<sg type="ln"/> devil kam þer ate
+                    <l xml:id="bodllaudmisc108.6.377" rhyme="A">S<sg type="ln"/>ome þe chaule&slong;
+                        it towra&slong;ten<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.378" rhyme="B">And ȝoten in þe led al hot</l>
+                    <l xml:id="bodllaudmisc108.6.379" rhyme="A">A<sg type="ln"/>nd bedin him to
+                        d&rrot;inke fa&slong;te<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.380" rhyme="B">And &slong;enke abo<del
+                            rend="erased"><unclear cert="low">n</unclear></del>uten him
+                        a<sg/>b&rrot;od</l>
+                    <l xml:id="bodllaudmisc108.6.381" rhyme="A">A<sg type="ln"/> deuil kam þer ate
                             la&slong;te<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.382">Þ<sg type="ln"/>at was mai&slong;ter, wel i
-                        wot</l>
-                    <l xml:id="bodllaudmisc108.6.383">A colter glowende in him he
-                            þra&slong;te<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.384">Þ<sg type="ln"/>at it þ&orrot;uȝ þe herte it
-                        smot</l>
+                    <l xml:id="bodllaudmisc108.6.382" rhyme="B">þat was mai&slong;ter wel i wot</l>
+                    <l xml:id="bodllaudmisc108.6.383" rhyme="A">A colter glowende in him he
+                            þ&rrot;a&slong;te<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.384" rhyme="B">þat it þ<add place="supralinear"
+                            >o</add>o&rrot;uȝ þe herte it smot</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.385">G<sg type="ln"/>leyves glowende some
-                            setten<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.386">To bac and b&rrot;e&slong;t and boþe sides</l>
-                    <l xml:id="bodllaudmisc108.6.387">Þ<sg type="ln"/>at in his herte þe poyntes
-                            mettin<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.388">And maden him þo woundes wide</l>
-                    <l xml:id="bodllaudmisc108.6.389">A<sg type="ln"/>nd seiden him, fol wel he
-                            lette<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.390">Þe herte, þat was so fol of p&rrot;ide</l>
-                    <l xml:id="bodllaudmisc108.6.391">W<sg type="ln"/>el he it hadde þat men him
-                            bihette<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.392">F&orrot; m&orrot;e scholde it bitide</l>
+                    <l xml:id="bodllaudmisc108.6.385" rhyme="A">G<sg type="ln"/>le&ydot;ues glowende
+                        &slong;ome &slong;etten<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.386" rhyme="B">To bac <del rend="erased">a</del>
+                        and b&rrot;e&slong;t and boþe &slong;ide&slong;</l>
+                    <l xml:id="bodllaudmisc108.6.387" rhyme="A">Þ<sg type="ln"/>at in his herte þe
+                        po&ydot;nte&slong; mettin<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.388" rhyme="B">And <add place="supralinear"
+                            >#</add><add place="marginRight">| #<lb/>maden</add> him þo
+                        wounde&slong; wide</l>
+                    <l xml:id="bodllaudmisc108.6.389" rhyme="A">A<sg type="ln"/>nd &slong;eiden him
+                        fol wel he lette<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.390" rhyme="B">þe herte þat was &slong;o fol of
+                        p&rrot;ide</l>
+                    <l xml:id="bodllaudmisc108.6.391" rhyme="A">W<sg type="ln"/>el he it hadde þat
+                        men him bihette<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.392" rhyme="B">fo&rrot; mo&rrot;e &slong;cholde it
+                        bi<sg/>tide</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.393">W<sg type="ln"/>&orrot;dly wedes f&orrot; to
-                            were<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.394">Þei seiden þat he lovede be&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.395">A<sg type="ln"/> develes cope f&orrot; to
-                            bere<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.396">Al b&rrot;ennynde on him was ke&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.397">W<sg type="ln"/>ith hote haspes imad to
-                            spere<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.398">Þat &slong;treite sat to bac and
-                        b&rrot;e&slong;t</l>
-                    <l xml:id="bodllaudmisc108.6.399">A<sg type="ln"/>n helm þat was lutel to
-                            here<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.400">Kam him and an h&orrot;s al
+                    <l xml:id="bodllaudmisc108.6.393" rhyme="A">W<sg type="ln"/>o&rrot;dl&ydot;
+                        wedes fo&rrot;<sg/>to were<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.394" rhyme="B">þei &slong;eiden þat he louede
+                        be&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.395" rhyme="A">A<sg type="ln"/> deuele&slong; cope
+                        fo&rrot;<sg/>to bere<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.396" rhyme="B">Al b&rrot;enn&ydot;nde on him
+                        wa&slong; ke&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.397" rhyme="A">W<sg type="ln"/>ith hote
+                        ha&slong;pes i<sg/>mad to &slong;pere<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.398" rhyme="B">þat &slong;treite &slong;at to bac
+                        and b&rrot;e&slong;t</l>
+                    <l xml:id="bodllaudmisc108.6.399" rhyme="A">A<sg type="ln"/>n helm þat was lutel
+                            to<sg> </sg>here<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.400" rhyme="B">anon him kam an ho&rrot;s al
                         p&rrot;e&slong;t</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.401">F<sg type="ln"/>&orrot;th was b&rrot;ouȝt here
-                        with a b&rrot;idel<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.402">A c&orrot;sed devel als a cote</l>
-                    <l xml:id="bodllaudmisc108.6.403">Þ<sg type="ln"/>at grisliche grennede and
-                        ȝenede wide<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.404">Þe leyȝe it lemede of his þrote</l>
-                    <l xml:id="bodllaudmisc108.6.405">W<sg type="ln"/>ith a sadel to the
-                            midside<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.406">Fol of scharpe pikes schote</l>
-                    <l xml:id="bodllaudmisc108.6.407">A<sg type="ln"/>lse an hechele onne to
-                            ride<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.408">Al was glowende ilke a grote</l>
+                    <l xml:id="bodllaudmisc108.6.401" rhyme="A">F<sg type="ln"/>o&rrot;th was
+                        b&rrot;ouȝt þere with a<sg> </sg>b&rrot;idel<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.402" rhyme="B">A co&rrot;sed deuel als a<sg
+                        > </sg>cote</l>
+                    <l xml:id="bodllaudmisc108.6.403" rhyme="A">Þ<sg type="ln"/>at gri&slong;liche
+                        grennede and ȝenede wide<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.404" rhyme="B">þe le&ydot;ȝe it lemede of his
+                        þ&rrot;ote</l>
+                    <l xml:id="bodllaudmisc108.6.405" rhyme="A">W<sg type="ln"/>ith a &slong;adel to
+                        the mid<sg> </sg>&slong;ide<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.406" rhyme="B">fol of scharpe pike&slong;
+                        schote</l>
+                    <l xml:id="bodllaudmisc108.6.407" rhyme="A">A<sg type="ln"/>lse an hechele onne
+                        to ride<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.408" rhyme="B">Al wa&slong; glowende ilke a
+                        grote</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.409">O<sg type="ln"/>pon þat sadil he was
-                            sloungen<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.410">As he scholde to þe t&orrot;nement</l>
-                    <l xml:id="bodllaudmisc108.6.411">A<sg type="ln"/>n hund&rrot;ed devel on him
-                            dongen<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.412">Her and þer þan he was hent</l>
-                    <l xml:id="bodllaudmisc108.6.413">W<sg type="ln"/>ith hote speres þ&orrot;uȝ was
-                            &slong;tongen<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.414">And wiþ oules al t&orrot;ent</l>
-                    <l xml:id="bodllaudmisc108.6.415">A<sg type="ln"/>t ilke a dint þe sparkles
-                            sp&rrot;ongen<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.416">As of a b&rrot;ond þat were
-                        f&orrot;b&rrot;end</l>
+                    <l xml:id="bodllaudmisc108.6.409" rhyme="A">O<sg type="ln"/>pon þat sadil he
+                        wa&slong; sloungen<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.410" rhyme="B">as he &slong;cholde to þe
+                        to&rrot;nement</l>
+                    <l xml:id="bodllaudmisc108.6.411" rhyme="A">A<sg type="ln"/>n<sg
+                        > </sg>hund&rrot;ed deuel on<sg> </sg>him dongen<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.412" rhyme="B">her and þer þan he was hent</l>
+                    <l xml:id="bodllaudmisc108.6.413" rhyme="A">W<sg type="ln"/>ith hote
+                        &slong;pere&slong; þo&rrot;uȝ was &slong;tongen<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.414" rhyme="B">And <del rend="subpointed"
+                            >houle&slong;</del> wiþ oule&slong; al to<sg/>&rrot;ent</l>
+                    <l xml:id="bodllaudmisc108.6.415" rhyme="A">A<sg type="ln"/>t ilke a<sg
+                        > </sg>dint þe &slong;parkle&slong;
+                        &slong;p&rrot;ongen<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.416" rhyme="B">A&slong; of a b&rrot;ond þat were
+                        fo&rrot;<sg/>b&rrot;end</l>
                 </lg>
                 <pb n="203v"/>
+                <cb n="1"/>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.417">Ȝ<sg type="ln"/>wan he hadde riden þat
-                            rode<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.418">Opon þe sadil þer he was set</l>
-                    <l xml:id="bodllaudmisc108.6.419">H<sg type="ln"/>e was ka&slong;t doun as a
-                            tode<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.420">And hellehoundes to him were led</l>
-                    <l xml:id="bodllaudmisc108.6.421">Þ<sg type="ln"/>at b&rrot;oiden out þo peces
-                            b&rrot;ode<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.422">Als he to helle ward was fet</l>
-                    <l xml:id="bodllaudmisc108.6.423">T<sg type="ln"/>her alle þe fendes fet it
-                            trode<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.424">Men miȝte of blod foluwe þe tred</l>
+                    <l xml:id="bodllaudmisc108.6.417" rhyme="A">Ȝ<sg type="ln"/>wan he hadde riden
+                        þat rode<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.418" rhyme="B">op<sg/>on þe &slong;adil þer he was
+                        &slong;et</l>
+                    <l xml:id="bodllaudmisc108.6.419" rhyme="A"><hi rend="touched-red">H</hi><sg
+                            type="ln"/>e was ka&slong;t doun as a tode<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.420" rhyme="B"><hi rend="touched-red">A</hi>nd
+                        helle<sg/>hounde&slong; to him were led</l>
+                    <l xml:id="bodllaudmisc108.6.421" rhyme="A"><hi rend="touched-red">Þ</hi><sg
+                            type="ln"/>at b&rrot;oiden out þo peces
+                        b&rrot;ode<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.422" rhyme="B"><hi rend="touched-red"
+                        >A</hi>l&slong; he to helle<sg/>ward was fet</l>
+                    <l xml:id="bodllaudmisc108.6.423" rhyme="A"><hi rend="touched-red">T</hi><sg
+                            type="ln"/>her alle þe fende&slong; fet it trode<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.424" rhyme="B">Men miȝte of blod foluwe þe tred</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.425">H<sg type="ln"/>e beden him hontin and
-                            blowen<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.426">Crien on Bau&slong;ton and Bewis</l>
-                    <l xml:id="bodllaudmisc108.6.427">Þ<sg type="ln"/>e ratches þat him were woned
-                        te knowen<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.428">He scholden sone blowe þe p&rrot;is</l>
-                    <l xml:id="bodllaudmisc108.6.429">A<sg type="ln"/>n hund&rrot;ed develes,
-                        ratches on a rowe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.430">With &slong;tringes him d&rrot;owen, unþanc
-                        his</l>
-                    <l xml:id="bodllaudmisc108.6.431">T<sg type="ln"/>il he kome to þat lodli
-                            lowe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.432">Þer helle was, i wot to wis</l>
+                    <l xml:id="bodllaudmisc108.6.425" rhyme="A"><hi rend="touched-red">H</hi><sg
+                            type="ln"/>e beden him hontin and blowen<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.426" rhyme="B"><choice>
+                            <orig>Crien</orig>
+                            <reg>crien</reg>
+                        </choice> on <name type="place" ref="#locBoston01">Bau&slong;ton</name> and
+                            <name type="place" ref="#locBewis01">Bewi&slong;</name></l>
+                    <l xml:id="bodllaudmisc108.6.427" rhyme="A"><hi rend="touched-red">Þ</hi><sg
+                            type="ln"/>e ratche&slong; þat him were woned te k<add
+                            place="supralinear">n</add>owen<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.428" rhyme="B">he scholden &slong;one blowe þe
+                        p&rrot;is</l>
+                    <l xml:id="bodllaudmisc108.6.429" rhyme="A"><hi rend="touched-red">A</hi><sg
+                            type="ln"/>n hund&rrot;ed deuele&slong; ratche&slong; on a
+                            rowe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.430" rhyme="B">with &slong;tringe&slong; him
+                        d&rrot;owen vnþanc his</l>
+                    <l xml:id="bodllaudmisc108.6.431" rhyme="A"><hi rend="touched-red">T</hi><sg
+                            type="ln"/>il he kome to þat lodli lowe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.432" rhyme="B">þer helle was i wot to wi&slong;</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.433">W<sg type="ln"/>ȝan it kam to þat wikke
-                            won<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.434">Þe fendes ka&slong;ten suwilk a ȝel</l>
-                    <l xml:id="bodllaudmisc108.6.435">Þ<sg type="ln"/>e erþe it openede
-                            anon<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.436">Smoke and smoþer op it wal</l>
-                    <l xml:id="bodllaudmisc108.6.437">B<sg type="ln"/>oþe pich and
-                            b&rrot;um&slong;ton<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.438">Men myȝte fif mile have þe smel</l>
-                    <l xml:id="bodllaudmisc108.6.439">L<sg type="ln"/>overd, wo schal him be
-                            bigon<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.440">Þat haþ þeroffe be tenþe del</l>
+                    <l xml:id="bodllaudmisc108.6.433" rhyme="A"><hi rend="touched-red">W</hi><sg
+                            type="ln"/>ȝan it kam to þat wikke won<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.434" rhyme="B">þe fendes ka&slong;ten suwilk a <hi
+                            rend="touched-red">ȝ</hi>el</l>
+                    <l xml:id="bodllaudmisc108.6.435" rhyme="A"><hi rend="touched-red">Þ</hi><sg
+                            type="ln"/>e erþe it openede anon<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.436" rhyme="B">smoke and smoþer op it wal</l>
+                    <l xml:id="bodllaudmisc108.6.437" rhyme="A"><hi rend="touched-red">B</hi><sg
+                            type="ln"/>oþe pich and b&rrot;um&slong;ton<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.438" rhyme="B">Men m&ydot;ȝte fif mile haue þe
+                        smel</l>
+                    <l xml:id="bodllaudmisc108.6.439" rhyme="A"><hi rend="touched-red">L</hi><sg
+                            type="ln"/>ouerd wo schal him be bi<sg/>gon<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.440" rhyme="B">þat haþ þer<sg/>offe be tenþe
+                        del</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.441">W<sg type="ln"/>ȝan þe go&slong;t þe soþe
-                            isey<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.442">Wȝide[r] it scholde, it ka&slong;te a cri</l>
-                    <l xml:id="bodllaudmisc108.6.443">A<sg type="ln"/>nd seide: "Jhesu Cri&slong;t,
-                        that sitte&slong;t on hey<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.444">On me, þi schap, nouȝ have merci</l>
-                    <l xml:id="bodllaudmisc108.6.445">N<sg type="ln"/>e schope þouȝ me þat art so
-                            slyȝ<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.446">Þi creature al so was i</l>
-                    <l xml:id="bodllaudmisc108.6.447">A<sg type="ln"/>ls man þat sittes þe so
-                            ny<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.448">Þat þou have&slong;t so wel don by</l>
+                    <l xml:id="bodllaudmisc108.6.441" rhyme="A"><hi rend="touched-red">W</hi><sg
+                            type="ln"/>ȝan þe go&slong;t þe &slong;oþe
+                            i<sg/>&slong;e&ydot;<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.442" rhyme="B">wȝide it scholde it ka&slong;te
+                            a<sg> </sg>cri</l>
+                    <l xml:id="bodllaudmisc108.6.443" rhyme="A"><hi rend="touched-red">A</hi><sg
+                            type="ln"/>nd &slong;eide <choice>
+                            <abbr>ih&combcurl;</abbr>
+                            <expan>Ihesu</expan>
+                        </choice>
+                        <choice>
+                            <orig>cri&slong;t</orig>
+                            <reg>Crist</reg>
+                        </choice> þat &slong;itte&slong;t on he&ydot;<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.444" rhyme="B">on me þi schap nouȝ haue <choice>
+                            <orig><hi rend="touched-red">M</hi>erci</orig>
+                            <reg>merci</reg>
+                        </choice></l>
+                    <l xml:id="bodllaudmisc108.6.445" rhyme="A">N<sg type="ln"/>e schope þouȝ me þat
+                        art &slong;o sl&ydot;ȝ<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.446" rhyme="B">þi creature al<sg/>so was I</l>
+                    <l xml:id="bodllaudmisc108.6.447" rhyme="A">A<sg type="ln"/>ls man þat
+                        sitte&slong; þe so n&ydot;<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.448" rhyme="B">þat þou haue&slong;t &slong;o wel
+                        don b&ydot;</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.449">Þ<sg type="ln"/>ouȝ þat wi&slong;te&slong;t al
-                            bif&orrot;<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.450">Wȝi schope þou me to wroþer hele</l>
-                    <l xml:id="bodllaudmisc108.6.451">T<sg type="ln"/>o be þus togged and
-                            tot&orrot;en<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.452">And oþere to haven al mi wele</l>
-                    <l xml:id="bodllaudmisc108.6.453">Þ<sg type="ln"/>o þat scholden be
-                            f&orrot;l&orrot;n<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.454">Wretches þat tou miȝte&slong;t spele</l>
-                    <l xml:id="bodllaudmisc108.6.455">A<sg type="ln"/>! weile! wȝi le&slong;touȝ hem
-                        be b&orrot;n<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.456">To ȝeve þe foule fend so fele</l>
+                    <l xml:id="bodllaudmisc108.6.449" rhyme="A">Þ<sg type="ln"/>ouȝ þat
+                        wi&slong;te&slong;t al bi<sg/>fo&rrot;</l>
+                    <l xml:id="bodllaudmisc108.6.450" rhyme="B">wȝi schope þou me to
+                            wroþer<sg> </sg>hele</l>
+                    <l xml:id="bodllaudmisc108.6.451" rhyme="A">T<sg type="ln"/>o be þu&slong;
+                        togged and to<sg/>to&rrot;en<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.452" rhyme="B">And oþere to hauen al mi wele</l>
+                    <l xml:id="bodllaudmisc108.6.453" rhyme="A">Þ<sg type="ln"/>o þat scholden be
+                            fo&rrot;<sg/>lo&rrot;n<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.454" rhyme="B">wretche&slong; þat tou miȝte&slong;t
+                        spele</l>
+                    <l xml:id="bodllaudmisc108.6.455" rhyme="A">A<sg type="ln"/> weile wȝi
+                        le&slong;touȝ hem be bo&rrot;n<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.456" rhyme="B">to ȝeue þe foule fend &slong;o
+                        fele</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.457">A<sg type="ln"/>gein him þe fendes gonnen
-                            criȝe<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.458">Caitif, helpeþ þe na m&orrot;e</l>
-                    <l xml:id="bodllaudmisc108.6.459">T<sg type="ln"/>o calle on Jhesus ne
-                            Marie<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.460">Ne to crie Cri&slong;tes &orrot;e</l>
-                    <l xml:id="bodllaudmisc108.6.461">L<sg type="ln"/>&orrot;en þouȝ have&slong;t
-                        the cumpainye<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.462">Þou have&slong;t served us so ȝ&orrot;e</l>
-                    <l xml:id="bodllaudmisc108.6.463">Þ<sg type="ln"/>arf&orrot;e nou þou schalt
-                            abye<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.464">As oþere þat leven on oure l&orrot;e.</l>
+                    <l xml:id="bodllaudmisc108.6.457" rhyme="A">A<sg type="ln"/>gein him þe
+                        fende&slong; gonnen criȝe<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.458" rhyme="B">Caitif helpeþ þe
+                        na<sg/>mo&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.6.459" rhyme="A">T<sg type="ln"/>o calle on <choice>
+                            <orig>ihe&slong;us</orig>
+                            <reg>Ihesus</reg>
+                        </choice> ne <name type="person" ref="#bioMar&ydot;0001"
+                            >Marie</name><pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.460" rhyme="B">Ne to crie <choice>
+                            <orig>cri&slong;te&slong;</orig>
+                            <reg>Cristes</reg>
+                        </choice> o&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.6.461" rhyme="A">L<sg type="ln"/>o&rrot;en þouȝ
+                        haue&slong;t the cumpain&ydot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.462" rhyme="B">þou haue&slong;t serued vs so
+                        ȝo&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.6.463" rhyme="A">Þ<sg type="ln"/>ar<sg/>fo&rrot;e nou
+                        þou schalt ab&ydot;e<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.464" rhyme="B">as oþere þat leuen on oure
+                        lo&rrot;e</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.465">Þ<sg type="ln"/>e foule fendes þat weren
-                            fayn<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.466">Bi top and tail he slongen hit</l>
-                    <l xml:id="bodllaudmisc108.6.467">A<sg type="ln"/>nd ke&slong;ten it with myȝt
-                        and mayn<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.468">Doun into the develes pit</l>
-                    <l xml:id="bodllaudmisc108.6.469">Þ<sg type="ln"/>er sonne ne schal nevere be
-                            seyn<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.470">Hemself he sonken in þermit</l>
-                    <l xml:id="bodllaudmisc108.6.471">Þ<sg type="ln"/>e erþe hemsulf it lek
-                            aȝeyn<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.472">Anon þe donge it was f&orrot;dit</l>
+                    <l xml:id="bodllaudmisc108.6.465" rhyme="A">Þ<sg type="ln"/>e foule fende&slong;
+                        þat weren fa&ydot;n<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.466" rhyme="B">bi top and tail he slongen hit</l>
+                    <l xml:id="bodllaudmisc108.6.467" rhyme="A">A<sg type="ln"/>nd ke&slong;ten it
+                        with m&ydot;ȝt and ma&ydot;n<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.468" rhyme="B">doun into the deuele&slong; pit</l>
+                    <l xml:id="bodllaudmisc108.6.469" rhyme="A">Þ<sg type="ln"/>er &slong;onne ne
+                        schal neuere be &slong;e&ydot;n<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.470" rhyme="B">hem<sg/>self he &slong;onken in
+                        þer<sg/>mit</l>
+                    <l xml:id="bodllaudmisc108.6.471" rhyme="A">Þ<sg type="ln"/>e erþe hem<sg/>sulf
+                        it lek a<sg/>ȝe&ydot;n<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.472" rhyme="B">anon þe donge it was
+                        fo&rrot;<sg/>dit</l>
                 </lg>
-                <p>Sou ke parla cely ki ce&slong;te avision aveit weu e dit issi:</p>
+                <p xml:lang="fr"><hi rend="red-ink">Sou<sg> </sg>ke parla cel&ydot; ki ce&slong;te
+                        aui&slong;ion aueit weu e dit i&slong;&slong;i<pc>&middot;</pc></hi></p>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.473">W<sg type="ln"/>ȝan it was f&orrot;th, þat
-                        foule lod<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.474">To hellewel, &orrot; it were day</l>
-                    <l xml:id="bodllaudmisc108.6.475">O<sg type="ln"/>u ilk a her a d&rrot;ope
-                            &slong;tod<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.476">F&orrot; friȝt and fer þer as i lay</l>
-                    <l xml:id="bodllaudmisc108.6.477">T<sg type="ln"/>o Jhesu Cri&slong;t with mild
-                            mod<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.478">Ȝerne i kalde and lokede ay</l>
-                    <l xml:id="bodllaudmisc108.6.479">Ȝ<sg type="ln"/>wan þo fendes hot
-                            fot<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.480">Come to fette me away</l>
-                </lg>
-                <ab rend="marginLeft">&dsol;</ab>
-                <lg>
-                    <l xml:id="bodllaudmisc108.6.481">I<sg type="ln"/> þonke him þat þolede
-                            deth<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.482">His muchele merci and his &orrot;e</l>
-                    <l xml:id="bodllaudmisc108.6.483">Þ<sg type="ln"/>at schilde me fram mani a
-                            qued<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.484">A sunful man as i lai þ&orrot;e</l>
-                    <l xml:id="bodllaudmisc108.6.485">Þ<sg type="ln"/>o þat sunfol ben, i rede hem
-                            red<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.486">To schriven hem and rewen s&orrot;e</l>
-                    <l xml:id="bodllaudmisc108.6.487">N<sg type="ln"/>evere was sunne idon so
-                            gret<pc>&punctelev;</pc></l>
-                    <l xml:id="bodllaudmisc108.6.488">Þat Cri&slong;tes merci ne is wel
-                        m&orrot;e</l>
+                    <l xml:id="bodllaudmisc108.6.473" rhyme="A">W<sg type="ln"/>ȝan it was
+                        fo&rrot;th þat foule lod<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.474" rhyme="B">to helle wel o&rrot; it were
+                        da&ydot;</l>
+                    <l xml:id="bodllaudmisc108.6.475" rhyme="A">O<sg type="ln"/>u ilk a<sg> </sg>her
+                        a d&rrot;ope &slong;tod<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.476" rhyme="B">fo&rrot; friȝt and fer þe&rrot; as i
+                        la&ydot;</l>
+                    <l xml:id="bodllaudmisc108.6.477" rhyme="A">T<sg type="ln"/>o <choice>
+                            <abbr>ih&combtilde;u</abbr>
+                            <expan>Ihesu</expan>
+                        </choice>
+                        <choice>
+                            <orig>cri&slong;t</orig>
+                            <reg>Crist</reg>
+                        </choice> with mild mod<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.478" rhyme="B">ȝerne i kalde and lokede a&ydot;</l>
+                    <l xml:id="bodllaudmisc108.6.479" rhyme="A">Ȝ<sg type="ln"/>wan þo fende&slong;
+                        hot fot</l>
+                    <l xml:id="bodllaudmisc108.6.480" rhyme="B">come to fette me a<sg/>wa&ydot;</l>
                 </lg>
                 <ab rend="marginLeft">&dsol;</ab>
                 <lg>
-                    <l xml:id="bodllaudmisc108.6.489">Sa grace ly doine Jhesu Crist</l>
-                    <l xml:id="bodllaudmisc108.6.490">Ki ce dite de meins escrit</l>
-                    <l xml:id="bodllaudmisc108.6.491">De li server de quer parfit</l>
-                    <l xml:id="bodllaudmisc108.6.492">A tous otreie ly seint espirit</l>
+                    <l xml:id="bodllaudmisc108.6.481" rhyme="A">I<sg type="ln"/> þonke him þat
+                        þolede deth<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.482" rhyme="B">his muchele merci and his
+                        o&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.6.483" rhyme="A">Þ<sg type="ln"/>at schilde me fram
+                        mani a<sg> </sg>qued<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.484" rhyme="B">A &slong;unful man as i<sg> </sg>lai
+                        þo&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.6.485" rhyme="A">Þ<sg type="ln"/>o þat &slong;unfol
+                        ben i<sg> </sg>rede hem red<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.486" rhyme="B">to <del rend="subpointed">sr</del>
+                        sch&rrot;iuen hem and rewen &slong;o&rrot;e</l>
+                    <l xml:id="bodllaudmisc108.6.487" rhyme="A">N<sg type="ln"/>euere was
+                        &slong;unne i<sg/>don &slong;o gret<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.488" rhyme="B">þat <choice>
+                            <orig>cri&slong;te&slong;</orig>
+                            <reg>Cristes</reg>
+                        </choice> merci ne is wel mo&rrot;e</l>
+                </lg>
+                <ab rend="marginLeft">&dsol;</ab>
+                <lg>
+                    <l xml:id="bodllaudmisc108.6.489" xml:lang="fr" rhyme="A"><hi rend="red-ink">Sa
+                            grace l&ydot; doine <choice>
+                                <abbr>ih&combtilde;u</abbr>
+                                <expan>Ihesu</expan>
+                            </choice>
+                            <choice>
+                                <orig>cri&slong;t</orig>
+                                <reg>Crist</reg>
+                            </choice></hi><pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.490" xml:lang="fr" rhyme="B">ki ce dite de
+                        mein&slong; e&slong;crit</l>
+                    <l xml:id="bodllaudmisc108.6.491" xml:lang="fr" rhyme="A">De li seruer de quer
+                            parfit<pc>&punctelev;</pc></l>
+                    <l xml:id="bodllaudmisc108.6.492" xml:lang="fr" rhyme="B"><hi rend="red-ink">a
+                            tou&slong; otreie l&ydot; &slong;eint
+                            e&slong;pirit<pc>&middot;</pc></hi></l>
                 </lg>
             </div1>
         </body>
