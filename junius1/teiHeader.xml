@@ -1,0 +1,138 @@
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title type="codexfull">Oxford, Bodleian Library, Junius 1</title>
+            <respStmt>
+                <resp>Transcribed from the digital images and encoded by</resp>
+                <name type="person" ref="#bioWO001">Meg Worley</name>
+                <name type="person" ref="#bioZ001">Zach ?</name>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>Archive of Early Middle English</publisher>
+            <!-- Presumably this is a final publication date, so it will be incorrect until then. -->
+            <date when="2015-10-31">2015</date>
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <settlement>Oxford</settlement>
+                    <repository>Bodleian Library</repository>
+                    <collection>Junius</collection>
+                    <idno>1</idno>
+                </msIdentifier>
+                <msContents>
+                    <summary>The manuscript contents are catalogued in DIMEV entry <ref
+                            target="http://www.dimev.net/Records.php?MSS=BodLauMis108" type="DIMEV"
+                            >http://www.dimev.net/Records.php?MSS=BodJunius1</ref>. All items belong
+                        to the <ref type="LAEME">LAEME</ref>
+                        <term>literary</term> category. A full description can be found at ??? . </summary>
+                    <msItem n="1" xml:id="mc00001" class="#literary">
+                        <locus>ff. 1r</locus>
+                        <title>The Ormulum</title>
+                        <bibl>
+                            <ref type="DIMEV"
+                                >http://www.dimev.net/record.php?recID=3722#wit-3722-1</ref>
+                        </bibl>
+                        <listBibl>
+                            <bibl xml:id="HoltWhite1878">White, Robert Meadows, ed.
+                                    <title>Ormulum</title>. 2 vols. Oxford: University Press, 1852;
+                                rev. ed. Robert Holt, 1878.</bibl>
+                        </listBibl>
+                    </msItem>
+                </msContents>
+                <physDesc>
+                    <objectDesc>
+                        <!-- The <supportDesc> section added for testing Dot Porter's collation visualisation tool. -->
+                        <supportDesc>
+                            <collation>
+                                <!-- A collation formula can go here. -->
+                                <formula/>
+                            </collation>
+                        </supportDesc>
+                    </objectDesc>
+                    <!-- The description below omits hands not responsible for the above items. -->
+                    <handDesc hands="1">
+                        <handNote n="1" scope="major" xml:id="bioOR0001">
+                            <!-- The description below is not for Junius 1; it's just to illustrate the format. -->
+                            <p>The first part of the manuscript, <locus from="1r" to="200r">ff.
+                                    1r-200r</locus> written in the <date from="1275-01-01"
+                                    to="1299-12-31">last quarter of the thirteenth
+                                century</date>.</p>
+                        </handNote>
+
+                    </handDesc>
+                    <scriptDesc>
+                        <!-- Currently empty. -->
+                        <p/>
+                    </scriptDesc>
+                    <decoDesc>
+                        <!-- Currently empty. -->
+                        <p/>
+                    </decoDesc>
+                </physDesc>
+                <history>
+                    <origin>
+                        <!-- The description below is not for Junius 1; it's just to illustrate the format. -->
+                        <p>ff. 1-198r are written in a <name type="place">W Oxon</name> dialect from
+                            around the <date from="1275-01-01" to="1299-12-31">last quarter of the
+                                thirteenth century</date>.</p>
+                    </origin>
+                    <!-- The description below is not for Junius 1; it's just to illustrate the format. -->
+                    <provenance>
+                        <p>The manuscript was owned by <name ref="#bioPE001" role="owner"
+                                type="person">Henry Perveys</name> around <date from="1450"
+                                to="1475">1450-1475</date>.</p>
+                    </provenance>
+                    <!-- The description below is not for Junius 1; it's just to illustrate the format. -->
+                    <acquisition>The manuscript was donated to the <name ref="#orgBodL001"
+                            role="owner" type="org">Bodleian Library</name> by <name ref="#bioLA002"
+                            role="owner" type="person">William Laud</name> in <date when="1635"
+                            >1635</date>.</acquisition>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl>
+                            <ref type="LAEME">All items belong to the LAEME <term>literary</term>
+                                category.</ref>
+                        </bibl>
+                        <bibl>
+                            <ref type="DIMEV">http://www.dimev.net/Records.php?MSS=BodJunius1</ref>
+                        </bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <classDecl>
+            <taxonomy xml:id="LAEME">
+                <bibl>
+                    <title>Catalogue of Sources for a Linguistic Atlas of Early Medieval
+                        English</title>
+                    <author>Margaret Laing</author>
+                    <edition>1993</edition>
+                </bibl>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+        <textClass>
+            <keywords scheme="#LAEME">
+                <term>literary</term>
+            </keywords>
+            <!-- These are sample keywords. Replace them with whatever is relevant to the conents of Junius 1 -->
+            <keywords>
+                <term>hagiography</term>
+                <term>romance</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    <revisionDesc>
+        <!-- Entries below are just to illustrate format. -->
+        <change when="2013-11-07" who="#bioKL001">Modified multiple sections based on revisions to
+            schema.</change>
+        <change when="2014-01-11" who="#bioGO001">Relocated in laudmisc108_sk-corrSKG.xml teiHeader
+            subsections to enable validation; converted some character entities.</change>
+    </revisionDesc>
+</teiHeader>
