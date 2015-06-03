@@ -17,7 +17,8 @@ Named Entities:
 #orgChristendom: Christendom
 Last Update: Sept 30 2014.
 Shay Hopkins began updating Sylvester 24 April 2015
-Last Update: 27 April 2015-->
+Last Update: 27 April 2015
+Last Update May 31 2015-->
         <body>
             <div1>
                 <pb n="166r"/>
@@ -72,7 +73,7 @@ Last Update: 27 April 2015-->
                         p&rrot;echede &thorn;e 
                         <choice>
                             <orig>Aum<am>&pbardes;</am>oure</orig>
-                            <reg>Aum<ex ref="#g_pbardes">per</ex>oure</reg>
+                            <reg>Aum<ex>per</ex>oure</reg>
                         </choice> <pc> &punctelev; </pc> <name type="person" ref="#bioConstantine01">
                         <hi rend="touched-red">C</hi>o&slong;tantin </name> &thorn;at was &thorn;o</l>
                     <l xml:id="bodllaudmisc108.3av.8"><hi rend="touched-red">&thorn;</hi><sg type="ln"/>at he grauntede him
@@ -91,7 +92,7 @@ Last Update: 27 April 2015-->
                             <orig>c<am>&combtildevert;</am>&slong;tine</orig>
                             <reg>C<ex>ri</ex>stine</reg>
                         </choice>men <pc> &punctelev; </pc>
-                        <hi rend="touched-red">a</hi>nd to<note type="enc" resp="#bioHO001">[overlined.]</note> harli with gret
+                        <hi rend="touched-red">a</hi>nd <note type="enc" resp="#bioHO001"><add place="supralinear">to</add></note> harli with gret
                         route</l>
                     <l xml:id="bodllaudmisc108.3av.13">
                         <choice>
@@ -148,12 +149,12 @@ Last Update: 27 April 2015-->
                     <l xml:id="bodllaudmisc108.3av.21"><hi rend="touched-red">A</hi><sg type="ln"/>ke &thorn;ou art swuch on
                         ich wot it wel <pc> &punctelev; </pc> <hi rend="touched-red">a</hi>nd godes 
                         <choice>
-                            <orig>m<am></am>rt&ydot;r</orig>
+                            <orig>m<am>&rabar;</am>rt&ydot;r</orig>
                             <reg>m<ex>a</ex>rt&ydot;r</reg>
                         </choice> he is</l>
-                    <l xml:id="bodllaudmisc108.3av.22"><hi rend="touched-red">A</hi><sg type="ln"/>nd &thorn;at &thorn;ou
-                        &thorn;are of &thorn;e so&thorn;e i<sg/>seo <pc> &punctelev; </pc> <hi rend="touched-red">t</hi>o<sg/>ni&yogh;ht &thorn;ou &slong;chalt
-                        i<sg/>wis</l>
+                    <l xml:id="bodllaudmisc108.3av.22"><hi rend="touched-red">A</hi><sg type="ln"/>nd &thorn;at 
+                        &thorn;<add place="sublinear">&caret;</add><add place="supralinear">ou</add><del rend="subpointed">at</del>
+                        &thorn;are of &thorn;e so&thorn;e i<sg/>seo <pc> &punctelev; </pc> <hi rend="touched-red">t</hi>o<sg/>ni&yogh;ht &thorn;ou &slong;chalt i<sg/>wis</l>     
                     <l xml:id="bodllaudmisc108.3av.23"><hi rend="touched-red">I</hi><sg type="ln"/>n &slong;trongue de&thorn;e
                         a<sg/>&slong;trangled <pc> &punctelev; </pc> <hi rend="touched-red">a</hi>nd wiende to &thorn;e pine of helle</l>
                     <l xml:id="bodllaudmisc108.3av.24"><hi rend="touched-red">A</hi><sg type="ln"/> &thorn;eof traitour
@@ -346,9 +347,10 @@ Last Update: 27 April 2015-->
                         </choice> &thorn;reo</l>
                     <l xml:id="bodllaudmisc108.3av.65"><hi rend="touched-red">N</hi><sg type="ln"/>ou god fo&rrot; is &slong;wete loue <pc> &punctelev; </pc> <hi rend="touched-red">u</hi>s
                         <choice>
-                            <orig>g<am></am>unti</orig>
-                            <reg>g<ex>ra</ex>unti</reg>
-                        </choice> &thorn;ulke bli&slong;&slong;e</l>
+                            <orig>g<am>&rabar;</am>unti</orig>
+                            <reg>g<ex>ra</ex>unti</reg> 
+                        </choice> <note type="enc" resp="#bioSMH001">The scribe has not completed the bar in the abbreviation marker, but I've encoded this abbreviation
+                            as an &rabar;</note> &thorn;ulke bli&slong;&slong;e</l>
                     <l xml:id="bodllaudmisc108.3av.66">
                         <choice>
                             <orig><hi rend="touched-red">&thorn;</hi><sg type="ln"/>at</orig>
