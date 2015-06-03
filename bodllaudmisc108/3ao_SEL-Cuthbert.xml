@@ -12,18 +12,30 @@ Basic pre-processing done.
 Shay  Hopkins added proofread, allographs, <hi>, <name> elements. 
 Named Entities:
 #bioCuthbert0001: Saint Cuthbert
+#bioAidan001: Saint Aidan
 #locDurham01: Durham
 #locEngland01: England
 #locFrance01: France
 Last Update: Apr 8 2015
 Last Update: May 6 2015
-Last Update: May 7 2015. -->
+Last Update: May 7 2015
+Last Update May 31 2015. -->
         <body>
             <div1>
                 <lg>
                     <!-- folio 154b -->
                     <pb n="154v"/>
                     <cb n="1"/>
+                    <fw type="guideWords" place="marginRight" xml:lang="lat"> Vita 
+                        <choice>
+                            <abbr>&slong;c&combtilde;i&combtilde;</abbr>
+                            <expan>sancti</expan>
+                        </choice> 
+                        <choice>
+                            <abbr>Cuthb&apos;ti</abbr>
+                            <expan>Cuthberti</expan>
+                        </choice><pc>&middot;</pc> <hi rend="red-ink">hic incipit vita</hi></fw>
+                    <note type="enc" resp="#bioSMH001"> These guide words are actually in line with the final line of St Gregory </note>
                     <l xml:id="bodllaudmisc108.3ao.1"><hi rend="h2 blue-ink">S</hi><sg type="ln"/>
                         <choice>
                             <orig><hi rend="touched-red">E</hi></orig>
@@ -139,13 +151,13 @@ Last Update: May 7 2015. -->
                             <reg>Cristes</reg>
                         </choice> o&rrot;e</l>
                     <l xml:id="bodllaudmisc108.3ao.29"><hi rend="touched-red">Þ</hi><sg type="ln"/>o
-                        he in gretto&rrot;e eolde wa&slong;<pc> &punctelev; </pc>a&slong;e þe bok us hauez
+                        he in gretto&rrot;e eolde wa&slong;<pc> &punctelev; </pc> a&slong;e þe bok us hauez
                         i<sg/>&slong;eid</l>
                     <l xml:id="bodllaudmisc108.3ao.30">
                         <choice>
                             <orig><hi rend="touched-red">h</hi></orig>
                             <reg><hi rend="touched-red">H</hi></reg>
-                        </choice><sg type="ln"/>it bi<sg/>feol þat þe bi&slong;chop seint A&ydot;dan<pc> &punctelev; </pc>&slong;one
+                        </choice><sg type="ln"/>it bi<sg/>feol þat þe bi&slong;chop seint <name type="person" ref="#bioAidan001">A&ydot;dan</name> <pc> &punctelev; </pc> &slong;one
                         þare<sg/><choice>
                             <orig>A</orig>
                             <reg>a</reg>
