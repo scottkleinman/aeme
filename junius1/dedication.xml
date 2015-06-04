@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!-- June 4 2015 -->
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+         </titleStmt>
+         <publicationStmt>
+            <p></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- added <tagsDecl so I'll be able to just use <hi> instead of <hi rend="superscrtipt"> every time, can be replaced easily enough if it doesn't work -->
+         <tagsDecl>
+            <namespace name="junius1">
+               <tagUsage gi="hi" render="superscript"></tagUsage>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+  </teiHeader>
+  <text>
+      <body xml:id="junius1">
+         <div1>
+            <pb/>
+            <l xml:id="junius1.1"><hi rend="h6">N</hi>u bro&#xFE;err &#x1BF;allt<hi>></hi><pc>.</pc> bro&#xFE;er<hi>r</hi> min<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.2">Afft<hi>></hi> &#xFE;e fl&#xE6;shess ki&#xAF;de<pc>.</pc>&amp; bro&#xFE;er<hi>r</hi></l>
+            <l xml:id="junius1.3">min i cri&#x17F;&#x17F;tenndom<pc>.</pc>&#xFE;urrh ful<pc>-</pc></l>
+            <l xml:id="junius1.4">luhht<pc>.</pc> &amp; &#xFE;urrh tro&#x1BF;&#x1BF;&#xFE;e<pc>.</pc> &amp; bro<pc>-</pc></l>
+            <l xml:id="junius1.5">&#xFE;err min i gode&#x17F;&#x17F; hu&#x17F;<pc>.</pc> &#x21C;et j &#xFE;e &#xFE;ri<pc>-</pc>-</l>
+            <l xml:id="junius1.6">de &#x1BF;i&#x17F;e<pc>.</pc> &#xDE;urrh &#xFE;att &#x1BF;itt hafenn</l>
+            <l xml:id="junius1.7">taken<hi>n</hi> ba<pc>&#xB7;</pc> an re&#x21D;<hi>h</hi>ellboc to foll&#x21D;<hi>h</hi>enn<pc>.</pc> Unn<pc>-</pc></l>
+            <l xml:id="junius1.8">derr kanunnke&#x17F;&#x17F; had<pc>.</pc> &amp; lif<pc>&#xB7;</pc> S&#x1BF;a &#x17F;um<hi>m</hi> &#x17F;annt</l>
+            <l xml:id="junius1.9">a&#x1BF;&#x1BF;&#x17F;tin &#x17F;ette<pc>.</pc> Icc<hi>cc</hi> hafe don &#x17F;&#x1BF;a &#x17F;um<hi>m</hi> &#xFE;u badd<pc>&#xF161;</pc> &amp;</l>
+            <l xml:id="junius1.10">for&#xFE;edd te &#xFE;i<hi>n</hi> &#x1BF;ille<pc>.</pc><pc>&#xB6;</pc> Icc<hi>cc</hi>hafe &#x1BF;en<hi>n</hi>d in<hi>n</hi>till enn<pc>-</pc></l>
+            <l xml:id="junius1.11">&#x21D;li&#x17F;&#x17F;h<pc>.</pc> godd&#x17F;pelle&#x17F;&#x17F; hall&#x21D;<hi>h</hi>e la&#xB4;re<pc>&#xF161;</pc> Afft<hi>></hi> &#xFE;&#xB4; lit<hi>t</hi>le</l>
+            <l xml:id="junius1.12">&#x1BF;itt &#xFE;att me<pc>.</pc> min drihhtin hafe&#xFE;&#xFE; lenedd<pc>.</pc></l>
+            <l xml:id="junius1.13">&#xB6; &#xDE;u &#xFE;ohhte&#x17F;&#x17F;t tatt itt mihhte &#x1BF;el<pc>.</pc> till mi<pc>-</pc></l>
+            <l xml:id="junius1.14">kell frame tur<hi>r</hi>nen<hi>n</hi><pc>&#xB7;</pc> &#x21C;iff enngli&#x17F;&#x17F; follc<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.15">forr lufeoff cri&#x17F;t<pc>.</pc> Itt &#x1BF;ollde &#x21D;erne lernenn<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.16">&amp; foll&#x21D;<hi>h</hi>en<hi>n</hi> itt &amp; fillenn itt<pc>.</pc> &#x1F7;i&#xFE;&#xFE; &#xFE;ohht &#x1BF;i&#xFE;&#xFE; &#x1BF;ord</l>
+            <l xml:id="junius1.17">&#x1BF;i&#xFE;&#xFE; dede<pc>.</pc> &amp; for<hi>r</hi>&#xFE;i &#x21D;errnde&#x17F;&#x17F;t tu &#xFE;&#xB4; icc<pc>.</pc>&#xFE;i&#x17F;&#x17F; &#x1BF;er<hi>r</hi>c</l>
+            <l xml:id="junius1.18">&#xFE;e &#x17F;hollde &#x1BF;ir<hi>r</hi>ken<hi>n</hi><pc>&#xB7;</pc> &amp; icc itt hafe for&#xFE;eddte<pc>&#xF161;</pc></l>
+            <l xml:id="junius1.19">Acc all &#xFE;urrh cri&#x17F;te&#x17F;&#x17F; hellpe<pc>:</pc> &amp; un<hi>n</hi>c birr&#xFE; ba&#xFE;</l>
+            <l xml:id="junius1.20">&#xFE;an<hi>n</hi>kenn cris&#x17F;t<pc>&#xF161;</pc> &#xFE;&#xB4; itt i&#x17F;&#x17F;bhjhht till ende<pc>&#xF161;</pc></l>
+            <l xml:id="junius1.21"><pc>&#xB6;</pc> Icc hafe &#x17F;am<hi>m</hi>nedd o &#xFE;e me&#x17F;&#x17F;e boc<pc>.</pc> &#xDE;a godd&#x17F;pelle&#x17F;&#x17F; neh</l>
+            <l xml:id="junius1.22">alle<pc>&#xF161;</pc> &#xFE;att &#x17F;inndenn o &#xFE;e me&#x17F;&#x17F;eboc<pc>&#xB7;</pc> In<hi>n</hi> all &#xFE;e &#x21D;er</l>
+            <l xml:id="junius1.23">att me&#x17F;&#x17F;e<pc>:</pc> <pc>&#xB6;</pc> &amp; a&#x21D;&#x21D; affter<hi>r</hi> &#xFE;e godd&#x17F;pell &#x17F;tannt<pc>.</pc> &#xFE;&#xB4;</l>
+            <!-- I only started putting stacked thorns and stacked wynns with the second as superscript after this point, will go back and fix others -->
+            <l xml:id="junius1.24">tatt te godd&#x17F; mene&#xFE;&#xFE;<pc>.</pc> &#xDE;att mann birr&#xFE; &#x17F;pel<pc>-</pc></l>
+            <l xml:id="junius1.25">lenn to &#xFE;e follc<pc>.</pc> Off &#xFE;e&#x21D;&#x21D;re &#x17F;a&#x1BF;le nede<pc>.</pc> &amp; &#x21D;et t&#xE6;r te<pc>-</pc></l>
+            <l xml:id="junius1.26">kenn mare inoh<pc>.</pc> &#xFE;u &#x17F;allt t&#xE6;r onne findenn<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.27">Off &#xFE;att tatt cri&#x17F;te&#x17F;&#x17F; hall&#x21D;<hi>h</hi> &#xFE;ed<pc>&#xF161;</pc> Bir<hi>r</hi>&#xFE; tro&#x1BF;&#x1BF;en<hi>n</hi></l>
+            <l xml:id="junius1.28">&#x1BF;el<pc>.</pc> &amp; foll&#x21D;<hi>h</hi>enn<pc>.&#xB6;</pc> Icc hafe &#x17F;ett her o &#xFE;i&#x17F;&#x17F; boc<pc>&#xB7;</pc> Ama&#xAF;g</l>
+            <l xml:id="junius1.29">godd&#x17F;pell&#x17F;&#x17F; &#x1BF;orde&#x17F;&#x17F;<pc>&#xB7;</pc> All &#xFE;urrh me &#x17F;ellfen<hi>n</hi>mani&#x21D;</l>
+            <l xml:id="junius1.30">&#x1BF;ord<pc>&#xB7;</pc> &#xFE;e rime &#x17F;&#x1BF;a to fillenn<pc>.</pc> Acc &#xFE;u &#x17F;hallt findenn</l>
+            <l xml:id="junius1.31">&#xFE;att min &#x1BF;ord<pc>.</pc> e&#x21D;&#x21D;&#x1BF;h&#xE6;r &#xFE;&#xE6;r itt i&#x17F;&#x17F; ekedd<pc>&#xF161;</pc> Ma&#x21D;&#x21D;</l>
+            <l xml:id="junius1.32">hellpen<hi>n</hi> &#xFE;a &#xFE;&#xB4; redenn itt<pc>&#xB7;</pc> To &#x17F;en<pc>.</pc> &amp; tunnder<hi>r</hi>&#x17F;tannden<hi>n</hi><pc>.</pc></l>
+            <l xml:id="junius1.33">All &#xFE;e&#x17F;&#x17F; bettre hu &#xFE;e&#x21D;&#x21D;m birr&#xFE;<pc>.</pc>&#xFE;e godd&#x17F;pell</l>
+            <l xml:id="junius1.34">unnderr&#x17F;tanndenn<pc>&#xB7;</pc> &amp; forr&#xFE;i tro&#x1BF;&#x1BF;e icc &#xFE;att te</l>
+            <l xml:id="junius1.35">birr&#xFE;<pc>.</pc> &#x1BF;el &#xFE;olenn mine &#x1BF;orde&#x17F;&#x17F;<pc>&#xB7;</pc> E&#x21D;&#x21D;&#x1BF;h&#xE6;r &#xFE;&#xE6;r &#xFE;u</l>
+            <l xml:id="junius1.36">&#x17F;hallt finden<hi>n</hi> he&#x2DD;<pc>&#xF161;</pc> ama&#xAF;g godd&#x17F;pelle&#x17F;&#x17F; &#x1BF;orde&#x17F;&#x17F;<pc>.</pc> For<hi>r</hi></l>
+            <l xml:id="junius1.37">&#x1BF;ha&#x17F;e mo&#x2DD;t to l&#xE6;&#x1BF;edd follc<pc>.</pc> Lar&#x17F;pell off godd&#x17F;pell</l>
+            <l xml:id="junius1.38">tellen<pc>&#xF161;</pc> He mo&#x2DD;t &#x1BF;el ekenn mani&#x21D; &#x1BF;ord<pc>.</pc> Amang</l>
+            <l xml:id="junius1.39">godd&#x17F;pelle&#x17F;&#x17F; &#x1BF;orde&#x17F;&#x17F;<pc>.</pc> &amp; icc ne mihhte nohht min</l>
+            <l xml:id="junius1.40">fer<hi>r</hi>&#x17F;<pc>&#xB7;</pc> A&#x21D;&#x21D; &#x1BF;i&#xFE;<hi>&#xFE;</hi> godd&#x17F;pelle&#x17F;&#x17F; &#x1BF;orde&#x17F;&#x17F;<pc>&#xB7;</pc> &#x1F7;el fillen<hi>n</hi> all<pc>.</pc> &amp; all</l>
+            <l xml:id="junius1.41">forr&#xFE;i<pc>.</pc> shollde icc &#x1BF;ell offte nede<pc>:</pc> Ama&#xAf;g godd&#x17F;pelle&#x17F;&#x17F;</l>
+            <l xml:id="junius1.42">&#x1BF;orde&#x17F;&#x17F; don<pc>.</pc> min &#x1BF;ord<pc>.</pc>min fer<hi>r</hi>&#x17F; to fillen<hi>n</hi><pc>&#xB7;&#xB6;</pc> &amp; te bit&#xE6;<pc>-</pc></l>
+            <l xml:id="junius1.43">che icc off<pc>&#xB7;</pc> &#xFE;i&#x17F;&#x17F; boc<pc>.</pc> heh &#x1BF;ikenn<pc>.</pc> all&#x17F;itt &#x17F;em&#xFE;<hi>&#xFE;</hi><pc>.</pc> All to</l>
+            <l xml:id="junius1.44">&#xFE;urrh&#x17F;eken<hi>n</hi> illc an fer<hi>r</hi>&#x17F;<pc>&#xB7;</pc> &amp; to &#xFE;urrhloken<hi>n</hi> offte &#xF161; &#xFE;at<hi>t</hi></l>
+            <l xml:id="junius1.45">upponn all &#xFE;i&#x17F;&#x17F; boc ne be<pc>&#xB7;</pc> nan &#x1BF;ord &#x21D;&#xE6;n cris&#x17F;tes&#x17F;&#x17F; lare<pc>:</pc></l>
+            <l xml:id="junius1.46">Nan &#x1BF;ord tatt &#x17F;&#x1BF;i&#xFE;e &#x1BF;el ne be<pc>.</pc> to troppen<hi>n</hi><pc>&#xB7;</pc> &amp; to foll&#x21D;<hi>h</hi>enn<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.47"><pc>&#xB6;</pc>&#x1F7;itt &#x17F;hulen<hi>n</hi> tredenn unnderr fo&#x2DD;t<pc>.</pc> &amp; all &#xFE;&#x1BF;errt u&#x2DD;t</l>
+            <l xml:id="junius1.48">forr&#x1BF;er<hi>r</hi>penn<pc>.</pc> &#xFE;e dom off all &#xFE;att la&#xFE;e flocc<pc>&#xB7;</pc> &#xFE;att i&#x17F;&#x17F;</l>
+            <l xml:id="junius1.49">&#xFE;urrh ni&#xFE; for<hi>r</hi>blededd<pc>&#xB7;</pc> &#xFE;att t&#xE6;le&#xFE;<hi>&#xFE;</hi> &#xFE;&#xB4; to lofen<hi>n</hi> i&#x17F;&#x17F;<pc>&#xF161;</pc> &#xfE;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.50">ni&#xFE;full modi&#x21D;ne&#x17F;&#x17F;e<pc>.&#xB6;</pc> &#xFE;e&#x21D;&#x21D; &#x17F;hulen<hi>n</hi> l&#xE6;&#xB4;tenn h&#xE6;&#xFE;eli&#x21D;<pc>&#xF161;</pc></l>
+            <l xml:id="junius1.51">Off unnkur<hi>r</hi> &#x17F;&#x1BF;i&#x2DD;c lef bro&#xFE;er<hi>r</hi><pc>&#xB7;</pc> &amp; all &#xFE;e&#x21D;&#x21D; &#x17F;hulenn taken<hi>n</hi></l>
+            <l xml:id="junius1.52">itt<pc>&#xB7;</pc> Onn unnitt<pc>.</pc> &amp; onn idell<pc>.</pc> Ac<hi>c</hi> nohht &#xFE;ur<hi>r</hi>h &#x17F;kill<pc>.</pc>acc all</l>
+            <l xml:id="junius1.53">&#xFE;urrh ni&#xFE;<pc>.</pc> &amp; all &#xFE;urrh &#xFE;e&#x21D;&#x21D;re &#x17F;inne<pc>.</pc>&amp; un<hi>n</hi>c bir<hi>r</hi>&#xFE; bid<pc>-</pc></l>
+            <l xml:id="junius1.54">denn godd tatt he<pc>&#xF161;</pc> forr&#x21D;ife he&#xAF; he&#x2D8;re &#x17F;inne<pc>.</pc> &amp; unnc</l>
+            <l xml:id="junius1.55">birr&#xFE; ba&#xFE;e lofen<hi>n</hi> godd<pc>.</pc> Off &#xFE;att itt &#x1BF;a&#x17F;&#x17F; bigu&#xAF;nenn<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.56">&amp; &#xFE;annkenn godd tatt itt i&#x17F;&#x17F; brohht till ende &#xFE;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.57">hi&#x17F;&#x17F; hellpe<pc>.</pc> Forr itt ma&#x21D;&#x21D; hellpenn alle &#xFE;a<pc>&#xF161;</pc> &#xFE;att</l>
+            <l xml:id="junius1.58">blie&#xFE;elike itt herenn<pc>.</pc> &amp; lufen<hi>n</hi> itt<pc>.</pc> &amp; foll&#x21D;<hi>h</hi>en<hi>n</hi> itt<pc>.</pc> &#x1BF;i&#xFE;<hi>&#xFE;</hi></l>
+            <l xml:id="junius1.59">&#xFE;ohht<pc>&#xB7;</pc> &#x1BF;i&#xFE;<hi>&#xFE;</hi><pc>&#xB7;</pc> &#x1BF;i&#xFE;<hi>&#xFE;</hi> dede<pc>&#xB7;</pc> <!-- two parallel horizontal lines go until the end of the parchment --></l>
+            <pb/>
+            <l xml:id="junius1.60"><pc>&#xB6;.</pc> &amp; pha&#x17F;e &#x1BF;ilenn &#x17F;hall &#xFE;i&#x17F;&#x17F; boc<pc>&#xB7;</pc> efft o<pc>-</pc></l>
+            <l xml:id="junius1.61">&#xFE;er<hi>r</hi> &#x17F;i&#xFE;e &#x1BF;ritenn<pc>&#xF161;</pc> Him<hi>m</hi> bidde icc &#xFE;&#xB4; he&#x2DD;t</l>
+            <l xml:id="junius1.62">&#x1BF;ri&#xB4;te rihht<pc>.</pc> S&#x1BF;a&#x17F;um<hi>m</hi> &#xFE;i&#x17F;&#x17F; boc hi&#xAF; t&#xE6;che&#xFE;<hi>&#xFE;</hi></l>
+            <l xml:id="junius1.63">All &#xFE;&#x1BF;errt u&#x2DD;t affterr &#xFE;att itt i&#x17F;&#x17F;<pc>&#xF161;</pc> uppo</l>
+            <l xml:id="junius1.64">&#xFE;i&#x17F;&#x17F; firr&#x17F;te bi&#x17F;ne<pc>.</pc> &#x1F7;i&#xFE;<hi>&#xFE;</hi> all &#x17F;&#x1BF;illc rime all&#x17F;</l>
+            <l xml:id="junius1.65">her i&#x17F;&#x17F; &#x17F;ett<pc>.</pc> &#x1BF;i&#xFE;<hi>&#xFE;</hi> all &#x17F;e fete &#x1BF;orde&#x17F;&#x17F;<pc>.</pc> &amp; tatt</l>
+            <l xml:id="junius1.66">he loke &#x1BF;el &#xFE;att he<pc>.</pc> an boc&#x17F;ta&#x17F;&#x17F; &#x1BF;rite tri&#x21D;<pc>-</pc></l>
+            <l xml:id="junius1.67">&#x21D;&#x17F;&#x17F;<pc>&#xB7;</pc> E&#x21D;&#x21D;&#x1BF;h&#xE6;r &#xFE;&#xe6;r itt upp o &#xFE;i&#x17F;&#x17F; boc<pc>&#xF161;</pc> I&#x17F;&#x17F; &#x1BF;ri&#x2D8;<pc>-</pc></l>
+            <l xml:id="junius1.68">ten o &#xFE;att &#x1BF;i&#x17F;e<pc>.</pc> Loke he &#x1BF;el &#xFE;&#xE6; he&#x2DD;t &#x1BF;rite &#x17F;&#x1BF;a<pc>.</pc></l>
+            <l xml:id="junius1.69">For<hi>r</hi> he ne ma&#x21D;&#x21D; nohht elle&#x17F;&#x17F;<pc>.</pc> Onn en<hi>n</hi>gli&#x17F;&#x17F;h</l>
+            <l xml:id="junius1.70">&#x1BF;ri&#xB4;ttenn rihht te &#x1BF;ord<pc>&#xB7;</pc> &#xFE;att &#x1BF;ite he &#x1BF;el to</l>
+            <l xml:id="junius1.71">&#x17F;of&#xFE;e<pc>&#xB7;&#xB6;</pc> &amp; &#x21D;iff <!-- large blot &#x1BF;ith line going out to side that adds one &#x1BF;ord: --> mann &#x1BF;ile <!-- other box mark --> &#x1BF;iten<hi>n</hi> &#x1BF;hi<pc>&#xB7;</pc> Ic<hi>c</hi> hafe</l>
+            <l xml:id="junius1.72">don &#xFE;i&#x17F;&#x17F; dede<pc>.</pc> &#x1F7;hi icc till enngli&#x17F;&#x17F;h hafe &#x1BF;e&#x2DD;d<pc>.</pc></l>
+            <l xml:id="junius1.73">godd&#x17F;pelle&#x17F;&#x17F; hall&#x21D;<hi>h</hi>e lare<pc>.</pc> Icc hafe it<hi>t</hi> don for<hi>r</hi></l>
+            <l xml:id="junius1.74">&#xFE;i &#xFE;&#xB4; all<pc>.</pc> cri&#x17F;&#x17F;tene follke&#x17F;&#x17F; ber<hi>r</hi>hle&#x17F;&#x17F;<pc>&#xB7;</pc>I&#x17f;&#x17f; la&#xAf;g up<hi>p</hi></l>
+            <l xml:id="junius1.75">o &#xFE;&#xB4; an<pc>.</pc> &#xFE;&#xB4; te&#x21D;&#x21D;<pc>.</pc> godd&#x17F;pelle&#x17F;&#x17F; hall&#x21D;<hi>h</hi>e lare<pc>&#xB7;</pc> &#x1F7;i&#xFE;<hi>&#xFE;</hi></l>
+            <l xml:id="junius1.76">fulle mahhte foll&#x21D;<hi>h</hi>e rihht<pc>.</pc> &#xFE;urrh &#xFE;ohht<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.77">&#xFE;urrh &#x1BF;ord<pc>&#xB7;</pc> &#xFE;urrh dede<pc>.</pc> Forr all &#xfe;att &#xe6;fre</l>
+            <l xml:id="junius1.78">onn er&#xFE;e i&#x17F;&#x17F; ned<pc>.</pc> cri&#x17F;&#x17F;tene follc to foll&#x21D;<hi>h</hi>enn<pc>.</pc></l>
+            <l xml:id="junius1.79">I tro&#x1BF;&#x1BF;&#xFE;e<pc>&#xB7;</pc> i dede<pc>&#xF161;</pc> all t&#xe6;che&#xFE;<hi>&#xFE;</hi> he&#x2DD;<pc>.</pc> godd&#x17F;pelle&#x17F;&#x17F;</l>
+            <l xml:id="junius1.80">hall&#x21D;<hi>h</hi>e lare<pc>&#xB7;</pc> &amp; for<hi>r</hi>&#xFE;i &#x1BF;ha&#x17F;e lerne&#xFE;<hi>&#xFE;</hi> it<hi>t</hi><pc>.</pc> &amp; foll&#x21D;<hi>h</hi>enn<pc>.</pc></l>
+            <l xml:id="junius1.81">itt &#x1BF;i&#xFE;<hi>&#xFE;</hi> dede<pc>&#xF161;</pc> He &#x17F;hall on<hi>n</hi> ende &#x1BF;urr&#xFE;i ben<pc>&#xB7;</pc> &#xFE;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.82">godd to &#x1BF;urr&#xFE;enn borr&#x21D;<hi>h</hi>enn<pc>.</pc> &amp; t&#xE6;rfore hafe</l>
+            <l xml:id="junius1.83">Icc tur<hi>r</hi>nedd itt<pc>.</pc> In<hi>n</hi>till enngli&#x17F;&#x17F;h &#x17F;p&#xe6;che<pc>&#xF161;</pc> For<hi>r</hi></l>
+            <l xml:id="junius1.84">&#xFE;att i &#x1BF;ollde bli&#xFE;eli&#x21D;<pc>.</pc> &#xFE;att all englis&#x17F;&#x17F;he lede<pc>.</pc> &#x1F7;i&#xFE;<hi>&#xFE;</hi></l>
+            <l xml:id="junius1.85">&#xe6;re &#x17F;hollde li&#x17f;&#x17F;ten<hi>n</hi> itt<pc>&#xB7;</pc> &#x1F7;i&#xfe;<hi>&#xfe;</hi> herrte &#x17F;hollde itt tro&#x1BF;<pc>-</pc></l>
+            <l xml:id="junius1.86">penn<pc>&#xb7;</pc> &#x1F7;i&#xfe;<hi>&#xFE;</hi> tunge &#x17f;hollde &#x17F;pellenn itt<pc>.</pc> &#x1F7;i&#xfe;<hi>&#xFE;</hi> dede &#x17f;holl<pc>-</pc></l>
+            <l xml:id="junius1.87">de itt foll&#x21D;<hi>h</hi>enn<pc>.</pc> To &#x1BF;i&#xaf;nenn unnderr cri&#x17F;&#x17F;tenndom<pc>&#xB7;</pc></l>
+            <l xml:id="junius1.88">att godd &#x17F;o&#xFE; &#x17F;a&#x1BF;le berrhle&#x17F;&#x17F;<pc>.</pc> &amp; &#x21D;iff &#xFE;e&#x21D;&#x21D; &#x1BF;ilen<hi>n</hi> heren<hi>n</hi></l>
+            <l xml:id="junius1.89">itt<pc>.</pc> &amp; foll&#x21D;<hi>h</hi>en<hi>n</hi> it<hi>t</hi> &#x1BF;i&#xfe;<hi>&#xfe;</hi> dede<pc>&#xB7;</pc> Ic<hi>c</hi> hafe he&#x2DD; hollpenn unn<pc>-</pc></l>
+            <l xml:id="junius1.90">derr cri&#x17F;t<pc>.</pc> to &#x1BF;i&#xaf;nenn &#xfe;e&#x21D;<hi>&#x21D;</hi>re berrhle&#x17f;&#x17F;<pc>&#xb7;</pc> &amp; i &#x17F;hall</l>
+            <l xml:id="junius1.91">hafen<hi>n</hi> forr mi<hi>n</hi> &#x17F;&#x1BF;innc<pc>.</pc> god l&#xe6;n att godd onn ende<pc>&#xF161;</pc></l>
+            <l xml:id="junius1.92">&#x21C;iff &#xfe;att i for<hi>r</hi> &#xfe;e lufe off godd<pc>.</pc> &amp; for<hi>r</hi> &#xfe;e me<!-- hard to read -->de off</l>
+            <l xml:id="junius1.93">heffne<pc>&#xF161;</pc> He<hi>m</hi> hafe itt inntill en<hi>n</hi>gli&#x17F;&#x17F;h &#x1BF;en<hi>n</hi>d<pc>.</pc> Forr</l>
+            <l xml:id="junius1.94">&#xfe;e&#x21D;&#x21D;re &#x17f;a&#x1BF;le nede<pc>.</pc> &amp; &#x21D;iff &#xfe;e&#x21D;&#x21d; all for<hi>r</hi>&#x1BF;er<hi>r</hi>pen<hi>n</hi> it<hi>t</hi><pc>&#xF161;</pc> icc</l>
+            <l xml:id="junius1.95">turrne&#xfe;<hi>&#xfe;</hi> he&#x2DD; till finne<pc>.</pc> &amp; i &#x17F;hall hafenn addledd me<pc>.</pc></l>
+            <l xml:id="junius1.96">&#xfe;e laferrd cri&#x17F;te&#x17f;&#x17f; are<pc>.</pc> &#xDE;urrh &#xfe;&#xB4; icc hafe he&#x2dd; &#x1BF;rohht</l>
+            <l xml:id="junius1.97">ti&#x17f;&#x17f; boc<pc>&#xb7;</pc> to &#xfe;e&#x21D;&#x21D;re &#x17F;a&#x1BF;le nede<pc>&#xb7;</pc> &#xfe;ohh &#xfe;&#xb4; te&#x21D;&#x21d; all for<hi>r</hi>&#x1BF;er<hi>r</hi><pc>-</pc></l>
+            <l xml:id="junius1.98">pen<hi>n</hi> itt<pc>.</pc>&#xfe;urrh &#xfe;e&#x21D;&#x21d;re modi&#x21D;ne&#x17F;&#x17F;e <!-- some block thing --> <pc>&#xb6;</pc> Godd&#x17F;pell on<hi>n</hi></l>
+            <l xml:id="junius1.99">enngli&#x17F;&#x17F;h nem<hi>m</hi>nedd i&#x17F;&#x17F;<pc>&#xb7;</pc> god &#x1BF;ord<pc>.</pc> &amp; god<pc>-</pc>ti&#xfe;ennde<pc>.</pc></l>
+            <l xml:id="junius1.100">god errnde<pc>&#xb7;</pc> forr&#xfe;i &#xfe;att itt &#x1BF;a&#x17F;&#x17F;<pc>&#xb7;</pc> &#xfe;urrh hall&#x21D;<hi>n</hi>e godd<pc>-</pc></l>
+            <l xml:id="junius1.101">&#x17F;pell&#x1BF;rihhte&#x17F;&#x17F;<pc>&#xb7;</pc> All &#x1BF;rohht<pc>.</pc> &amp; &#x1BF;r&#x2d8;iten<hi>n</hi> upp o boc<pc>&#xf161;</pc> Off</l>
+            <l xml:id="junius1.102">cris&#x17F;te&#x17F;&#x17F; fir&#x17F;te come<pc>&#xb7;</pc> Off hu &#x17F;o&#xfe; godd &#x1BF;a&#x17F;&#x17F; &#x1BF;urr&#xfe;en man<hi>n</hi><pc>&#xf161;</pc></l>
+            <l xml:id="junius1.103">for<hi>r</hi> all mannkinne nede<pc>.&#xb6;</pc> &amp; off &#xfe;&#xb4; mannkinn &#xfe;urrh</l>
+            <l xml:id="junius1.104">hi&#x17F;&#x17F; d&#xe6;&#xfe;<pc>&#xf161;</pc> &#x1F7;a&#x17F;&#x17f; le&#x17f;edd ut&#x2DD; <!-- next word reinserted -->off helle<pc>.&#xb6;</pc> &amp; off &#xfe;att he &#x1BF;i&#x17f;&#x17F;like ra&#x17F;<pc>&#xF161;</pc></l>
+            <l xml:id="junius1.105">&#xfe;e &#xfe;ridde da&#x21D;&#x21D; off d&#xe6;&#xfe;e<pc>.</pc> &amp; off &#xfe;at<hi>t</hi> he &#x1BF;isslike &#x17F;tah<pc>.</pc> &#xfe;a &#x17F;i&#xfe;<pc>-</pc></l>
+            <l xml:id="junius1.106">&#xfe;enn upp till heffne<pc>.&#xb6;</pc> <!-- marked out section --><pc>.&#xb6;</pc> &amp; off</l>
+            <l xml:id="junius1.107">&#xfe;att he &#x17F;hall cumen<hi>n</hi> efft<pc>.</pc> to demen<hi>n</hi> alle &#xfe;ede<pc>.</pc> &amp; for<hi>r</hi> to &#x21D;el<pc>-</pc></l>
+            <l xml:id="junius1.108">den<hi>n</hi> i&#x1BF;hillc man<hi>n</hi><pc>&#xf161;</pc> affterr hi&#x17F;&#x17F; a&#x21D;<hi>h</hi>en<hi>n</hi> dede<pc>.</pc> Off all &#xfe;i&#x17F;&#x17F; god</l>
+            <l xml:id="junius1.109"><!-- here is where the 'off' from earlier is -->u&#x17F;&#x17F; brinnge&#xfe;<hi>&#xfe;</hi> &#x1BF;ord<pc>.</pc> &amp; er<hi>r</hi>nde<pc>.</pc> &amp; god ti&#xfe;en<hi>n</hi>de<pc>.</pc> Godd&#x17F;pell<pc>.</pc></l>
+            <l xml:id="junius1.110">&amp; forr&#xfe;i ma&#x21d;&#x21d; itt &#x1BF;el<pc>.</pc>god errnde ben &#x21D;ehaten<hi>n</hi><pc>&#xb7;</pc> For<hi>r</hi></l>
+            <l xml:id="junius1.111"><!--hard to read triangle mark extends down 5-6 lines -->mann ma&#x21d;&#x21d; upp o godd &#x17f;pell boc<pc>&#xb7;</pc> godne&#x17F;&#x17F;e&#x17F;&#x17F; finden<hi>n</hi> &#x17F;eff<pc>-</pc></l>
+            <l xml:id="junius1.112">ne &#xfe;att ure laferrd ie&#x17F;u cri&#x17F;t<pc>&#xb7;</pc> U&#x17F;&#x17F; hafe&#xfe;<hi>&#xfe;</hi> don onn er<pc>-</pc></l>
+            <l xml:id="junius1.113">&#xfe;e<pc>.</pc> &#xfe;urrh &#xfe;att he com<hi>m</hi> to m&#xaf;ane<pc>.</pc> &amp; &#xfe;urrh<pc>.</pc>&#xfe;att he &#x1BF;arr&#xfe;</l>
+            <l xml:id="junius1.114">man<hi>n</hi> on<hi>n</hi> er&#xfe;<pc>.&#xb6;</pc> Forr an godne&#x17F;&#x17F;e u&#x17F;&#x17F; hafe&#xfe;<hi>&#xfe;</hi> don<pc>.</pc> &#xfe;e la<pc>-</pc></l>
+            <l xml:id="junius1.115">ferrd cri&#x17F;t on<hi>n</hi> er&#xfe;<pc>&#xb7;</pc> &#xfe;urrh &#xfe;att he com<hi>m</hi> to &#x1BF;urr&#xfe;en<hi>n</hi></l>
+            <l xml:id="junius1.116">mann<pc>&#xb7;</pc> forr allman<hi>n</hi>ki&#xaf;ne nede<pc>.&#xb6;</pc> O&#xfe;err goddne&#x17F;&#x17F;e u&#x17F;&#x17F;</l>
+            <pb/>
+            <cb/>
+            <l xml:id="junius1.117">hafe&#xfe;<hi>&#xfe;</hi> don<pc>&#xb7;</pc> &#xfe;e laferrd cri&#x17F;t</l>
+            <l xml:id="junius1.118">onn er&#xfe;e<pc>&#xb7;</pc> &#xfe;urrh &#xfe;att he &#x1BF;a&#x17F;&#x17F;</l>
+            <l xml:id="junius1.119">i flum<hi>m</hi> <name type="place">iordan</name><pc>&#xb7;</pc> fullhtnedd for<hi>r</hi></l>
+            <l xml:id="junius1.120">ure nede<pc>&#xb7;</pc> forr &#xfe;att he &#x1BF;ollde</l>
+            <l xml:id="junius1.121">u&#x17f;&#x17f; &#x1BF;aterkinn<pc>&#xb7;</pc> till ure ful<pc>-</pc></l>
+            <l xml:id="junius1.122">luhht hall&#x21D;<hi>h</hi>enn<pc>&#xb7;</pc> &#xfe;urrh &#xfe;att</l>
+            <l xml:id="junius1.123"><!--mark-->he &#x1BF;ollde ben him<hi>m</hi> &#x17F;ellf<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.124">onn er&#xfe;e i &#x1BF;aterr fullhtnedd<pc>.</pc></l>
+            <l xml:id="junius1.125"><pc>&#xb6;</pc> &#xDE;e &#xfe;ridde god u&#x17F;&#x17F; hafe&#xfe;<hi>&#xfe;</hi> don<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.126">&#xfe;e lafer<hi>r</hi>d cri&#x17F;t on<hi>n</hi> er&#xfe;e<pc>.</pc> &#xfe;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.127">&#xfe;att  he &#x21D;aff hi&#x17F;&#x17F; a&#x21d;<hi>h</hi>en<hi>n</hi> lif<pc>.</pc> &#x1F7;i&#xfe;<hi>&#xfe;</hi></l>
+            <l xml:id="junius1.128">all hi&#x17f;&#x17F; fulle &#x1BF;ille<pc>.</pc> To &#xfe;olen<hi>n</hi> d&#xe6;&#xfe;<hi>&#xfe;</hi></l>
+            <l xml:id="junius1.129">o rodetre<pc>&#xf161;</pc> saccl&#xe6;f &#x1BF;i&#xfe;<hi>&#xfe;</hi>utenn</l>
+            <l xml:id="junius1.130">&#x1BF;rihhte<pc>.</pc> To le&#x17F;enn man<hi>n</hi>kin<hi>n</hi></l>
+            <l xml:id="junius1.131">&#xfe;urrh hi&#x17F;&#x17F; d&#xe6;&#xfe;<pc>&#xb7;</pc> U&#x2DD;t off &#xfe;e defle&#x17F;&#x17F;</l>
+            <l xml:id="junius1.132">&#x1BF;alde<pc>.&#xfeb6;</pc> &#xfe;e fer&#xfe;e god u&#x17F;&#x17F; hafe&#xfe;<hi>&#xfe;</hi></l>
+            <l xml:id="junius1.133">don<pc>.</pc> &#xfe;e lafer<hi>r</hi>d 'c&#x17F;t on<hi>n</hi> er&#xfe;e<pc>.</pc> &#xDE;urrh &#xfe;&#xb4; hi&#x17F;&#x17F;<!-- hiss extends up&#x1BF;ards after line --></l>
+            <l xml:id="junius1.134"><!-- indent? -->hall&#x21D;<hi>h</hi>e &#x17F;a&#x1BF;le &#x17F;tah<pc>&#xb7;</pc> fra rode dun</l>
+            <l xml:id="junius1.135">till helle<pc>.</pc> To t&#x2d8;aken<hi>n</hi> u&#x2dd;t off helle</l>
+            <l xml:id="junius1.136">&#x1BF;a<pc>.</pc> &#xfe;a gode &#x17F;a&#x1BF;le&#x17F;&#x17F; alle<pc>&#xb7;</pc> &#xDE;att</l>
+            <l xml:id="junius1.137">haffdenn c&#x1BF;em<hi>m</hi>d hi&#x2dd; i &#xfe;i&#x17F;&#x17F; lif<pc>&#xF161;</pc></l>
+            <l xml:id="junius1.138">&#xfe;ur<hi>r</hi>h &#x17F;o&#xfe; un<hi>n</hi>&#x17F;ha&#xfe;i&#x21d;ne&#x17F;&#x17F;e<pc>.&#xb6;</pc> &#xfe;e</l>
+            <l xml:id="junius1.139">fifte god u&#x17F;&#x17F; hafe&#xfe;<hi>&#xfe;</hi> don<pc>.</pc> &#xfe;e lafer<hi>r</hi>d</l>
+            <l xml:id="junius1.140">cri&#x17F;t on<hi>n</hi> er&#xfe;e<pc>.</pc> &#xfe;ur<hi>r</hi>h &#xfe;&#xb4; he &#x1BF;a&#x17F; for<hi>r</hi></l>
+            <l xml:id="junius1.141">ure god<pc>&#xb7;</pc> &#xfe;e &#xfe;ridde da&#x21D;&#x21D; off d&#xe6;&#xfe;e<pc>.</pc></l>
+            <l xml:id="junius1.142">&amp; le&#x2dd;t te po&#x17F;&#x17F;tle&#x17F;&#x17F; &#x17F;en hi&#x2dd; &#x1BF;el<pc>.</pc></l>
+            <l xml:id="junius1.143">Inn hi&#x17F;&#x17F; menni&#x17F;&#x17F;ke ki&#xaf;de<pc>&#xb7;</pc> For<hi>r</hi></l>
+            <l xml:id="junius1.144">&#xfe;att he &#x1BF;ollde fe&#x17F;&#x17F;tnen<hi>n</hi> &#x17F;&#x1BF;a<pc>.</pc> So&#xfe;</l>
+            <l xml:id="junius1.145">tro&#x1BF;<hi>&#x1BF;</hi>&#xfe; i &#xfe;e&#x21D;&#x21D;re bre&#x17F;te&#x17F;&#x17F;<pc>.</pc> Off</l>
+            <l xml:id="junius1.146">&#xfe;att he &#x1BF;i&#x17F;&#x17f;<pc>.</pc> to fulle &#x17F;o&#xfe;<pc>&#xb7;</pc> &#x1BF;a&#x17F;&#x17F; re<pc>-</pc></l>
+            <l xml:id="junius1.147">&#x17f;en<hi>n</hi> upp off d&#xe6;&#xfe;e<pc>.</pc> &amp; i &#xfe;&#xb4; illke fl&#xe6;&#x17F;h</l>
+            <l xml:id="junius1.148">&#xfe;att &#x1BF;a&#x17F;&#x17F;<pc>&#xb7;</pc> forr u&#x17F;&#x17F; o rode na&#x21D;&#x21d;<pc>-</pc></l>
+            <l xml:id="junius1.149">ledd<pc>&#xb7;</pc> For<hi>r</hi> &#xfe;att he &#x1BF;ollde fe&#x17F;&#x17F;tne<hi>nn</hi></l>
+            <l xml:id="junius1.150">&#x1BF;el<pc>.</pc> &#xfe;i&#x17F;&#x17F; tro&#x1BF;&#x1BF;&#xfe;e i &#xfe;e&#x21d;&#x21d;re bre&#x17F;<pc>-</pc></l>
+            <l xml:id="junius1.151">te&#x17f;&#x17F;<pc>&#xf161;</pc> He le&#x2dd;t te ro&#x17F;&#x17F;tle&#x17F;&#x17F; &#x17F;en hi&#x2dd;</l>
+            <l xml:id="junius1.152">&#x1BF;el<pc>.</pc> &#x1BF;ell offte &#x17F;i&#xfe;e on<hi>n</hi> er&#xfe;e<pc>&#xb7;</pc> &#x1F7;i&#xfe;<hi>&#xfe;</hi></l>
+            <l xml:id="junius1.153">innenn da&#x21D;&#x21D;e&#x17f;&#x17F; fo&#x1BF;&#x1BF;errti&#x21D;<pc>&#xf161;</pc> fra</l>
+            <l xml:id="junius1.154">&#xfe;att he &#x1BF;a&#x17F; off d&#xe6;&#xfe;e<pc>.&#xb6;</pc>&#xDe;e &#x17F;exte</l>
+            <l xml:id="junius1.155">god u&#x17F;&#x17F; hafe&#xfe;<hi>&#xfe;</hi> don<pc>&#xb7;</pc> &#xfe;e laferrd cri&#x17F;t</l>
+            <l xml:id="junius1.156">on<hi>n</hi> er&#xfe;e<pc>.</pc> &#xfe;urrh &#xfe;&#xb4; he &#x17F;tah for<hi>r</hi> u<pc>-</pc></l>
+            <l xml:id="junius1.157">re god<pc>&#xb7;</pc> <!-- &#x1BF;eird looking u -->Upp inntill heffne&#x17F;&#x17F; bli&#x17F;<pc>-</pc></l>
+            <l xml:id="junius1.158">&#x17F;e<pc>.</pc> &amp; &#x17f;en<hi>n</hi>de &#x17F;i&#xfe;&#xfe;en<hi>n</hi> hali&#x21d; ga&#x17f;t<pc>.</pc></l>
+            <l xml:id="junius1.159">till hi&#x17F;e lernin<hi>n</hi>gcnihhte&#x17F;&#x17F;<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.160">To frofren &amp; to belden<hi>n</hi> h&#x2dd;e<pc>.</pc> to</l>
+            <l xml:id="junius1.161">&#x17F;tan<hi>n</hi>denn &#x21D;&#xe6;n &#xfe;e defell<pc>.</pc> To gi<pc>-</pc></l>
+            <l xml:id="junius1.162">fen<hi>n</hi> h&#x2dd;e god &#x1BF;eitt inoh<pc>&#xf161;</pc> Off all hi&#x17F;&#x17F;</l>
+            <l xml:id="junius1.163">hall&#x21d;<hi>h</hi>e lare<pc>.</pc> To gifen<hi>n</hi> h&#x2dd;e god lu&#x17F;&#x17F;t<pc>.</pc></l>
+            <l xml:id="junius1.164">god mahht<pc>.</pc>to &#xfe;olenn all &#x1BF;a&#x1BF;en<hi>n</hi><pc>.</pc></l>
+            <l xml:id="junius1.165">All for<hi>r</hi>&#xfe;e lufe off godd<pc>.</pc> &amp; nohht<pc>.</pc></l>
+            <l xml:id="junius1.166">for<hi>r</hi> er&#xfe;li&#x21d; loff to &#x1BF;innen<hi>n</hi><pc>.&#xb6;</pc> &#xfe;e</l>
+            <l xml:id="junius1.167">&#x17f;effnde god u&#x17F;&#x17F; &#x17F;hall &#x21d;et&#x2dd; don<pc>.</pc> &#xfe;e la<pc>-</pc></l>
+            <l xml:id="junius1.168">ferrd cri&#x17F;t on<hi>n</hi> ende<pc>.</pc> &#xfe;ur<hi>r</hi>h &#xfe;att he</l>
+            <cb/>
+            <l xml:id="junius1.169">&#x17F;hall o dome&#x17f;&#x17F; da&#x21D;&#x21D;<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.170">u&#x17F;&#x17F; gifen<hi>n</hi> heffne&#x17F;&#x17F;</l>
+            <l xml:id="junius1.171">bli&#x17F;&#x17F;<pc>&#xf161;</pc> &#x21C;iff &#xfe;att &#x1BF;e</l>
+            <l xml:id="junius1.172">&#x17f;hulenn &#x1BF;urr&#xfe;i ben<pc>&#xf161;</pc></l>
+            <l xml:id="junius1.173">to findenn gode&#x17F;&#x17F; are</l>
+            <l xml:id="junius1.174"><pc>&#xb6;</pc> &#xfe;u&#x17f;&#x17F; hafe&#xfe;<hi>&#xfe;</hi> ure la<pc>-</pc></l>
+            <l xml:id="junius1.175">fer<hi>r</hi>d cri&#x17f;t<pc>.</pc> U&#x17f;&#x17F; don god<pc>-</pc></l>
+            <l xml:id="junius1.176">ne&#x17F;&#x17F;e&#x17F;&#x17F; &#x17F;effne<pc>.</pc> &#xfe;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.177">&#xfe;att tatt he to ma&#xaf;<pc>-</pc></l>
+            <l xml:id="junius1.178">ne co&#x2dd;<pc>&#xb7;</pc> to &#x1BF;urr&#xfe;enn</l>
+            <l xml:id="junius1.179">man<hi>n</hi> on<hi>n</hi> er&#xfe;e<pc>.&#xb6;</pc> &amp; o</l>
+            <l xml:id="junius1.180">&#xfe;&#xb4; hall&#x21d;<hi>h</hi>e boc &#xfe;&#xb4; i&#x17f;&#x17F;<pc>.</pc></l>
+            <l xml:id="junius1.181">apokalj<!-- or y? -->p&#x17f;i&#x17f;</l>
+            <l xml:id="junius1.182">nem<hi>m</hi>nedd<pc>.</pc> U&#x17F;&#x17F;</l>
+            <l xml:id="junius1.183">&#x1BF;rat te po&#x17f;&#x17F;tell</l>
+            <l xml:id="junius1.184">&#x17f;an<hi>n</hi>t <name type="person">iohan</name><pc>.</pc> &#xfe;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.185">hali&#x21d; ga&#x17f;te&#x17f;&#x17f; lare<pc>.</pc></l>
+            <l xml:id="junius1.186">&#xfe;att he &#x17f;ahh upp inn</l>
+            <l xml:id="junius1.187">heffne an <!-- blot -->boc<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.188">Bi&#x17f;ett &#x1BF;i&#xfe;<hi>&#xfe;</hi> &#x17f;effne</l>
+            <l xml:id="junius1.189">inn&#x17f;e&#x21d;&#x21d;le&#x17f;&#x17f;<pc>.</pc> &amp; &#x17f;&#x1BF;er<hi>r</hi>d</l>
+            <l xml:id="junius1.190">&#x17f;&#x1BF;a &#x17f;&#x1BF;i&#xfe;e &#x1BF;el &#xfe;&#xb4; itt<pc>.</pc></l>
+            <l xml:id="junius1.191">ne mihhte</l>
+            <l xml:id="junius1.192">nan rihht</l>
+            <l xml:id="junius1.193">opnenn<pc>&#xf161;</pc> &#x1F7;i&#xfe;<hi>&#xfe;</hi></l>
+            <l xml:id="junius1.194">utenn gode&#x17f;&#x17f;</l>
+            <l xml:id="junius1.195">hall&#x17f;<hi>h</hi>e la&#xaf;b<pc>&#xf161;</pc> &#xfe;&#xb4;</l>
+            <l xml:id="junius1.196">he &#x17f;ahh ec i&#x2dd; heff<pc>-</pc></l>
+            <l xml:id="junius1.197">ne<pc>.</pc> &amp; &#xfe;urrh &#xfe;a</l>
+            <l xml:id="junius1.198">&#x17f;effne inn&#x17f;e&#x21d;<hi>&#x21d;</hi>le&#x17f;&#x17f;</l>
+            <l xml:id="junius1.199">&#x1BF;a&#x17f;&#x17f;<pc>&#xb7;</pc> Rihht &#x17f;&#x1BF;i&#xfe;e</l>
+            <l xml:id="junius1.200">&#x1BF;el bitacnedd<pc>.</pc> &#xfe;att</l>
+            <l xml:id="junius1.201">&#x17f;efen<hi>n</hi>fald godl&#x21d;&#x21d;c<pc>.</pc></l>
+            <l xml:id="junius1.202">&#xfe;att cri&#x17f;t<pc>.</pc> U&#x17f;&#x17f; di<pc>-</pc></l>
+            <l xml:id="junius1.203">de &#xfe;urrh hi&#x17f;&#x17f; co<pc>-</pc></l>
+            <l xml:id="junius1.204">me<pc>.&#xb6;</pc> &amp; tatt</l>
+            <l xml:id="junius1.205">nan &#x1BF;ih<hi>h</hi>t ne</l>
+            <l xml:id="junius1.206">mihhte nohht<pc>.</pc></l>
+            <l xml:id="junius1.207">Oppnenn &#xfe;a &#x17f;eff<pc>-</pc></l>
+            <l xml:id="junius1.208">ne inn&#x17f;e&#x21d;&#x21d;le&#x17f;&#x17f;<pc>.</pc> &#x1F7;i&#xFE;&#xFE;</l>
+            <l xml:id="junius1.209">utenn god&#x17F;&#x17F; la&#xaf;b<pc>&#xf161;</pc></l>
+            <l xml:id="junius1.210">&#xfe;&#xb4; co&#xaf;<pc>.</pc> for<hi>r</hi> &#xfe;&#xb4; itt</l>
+            <l xml:id="junius1.211">&#x17f;hollde tacnen<hi>n</hi><pc>&#xb7;</pc></l>
+            <l xml:id="junius1.212">&#xfe;att nan &#x1BF;ih<hi>h</hi>t<pc>.</pc></l>
+            <l xml:id="junius1.213">nan en<hi>n</hi>gell<pc>.</pc></l>
+            <l xml:id="junius1.214">nan mann<pc>.</pc> ne<pc>-</pc></l>
+            <l xml:id="junius1.215">nane&#x17f;&#x17f;</l>
+            <l xml:id="junius1.216">kinne&#x17f;&#x17f;</l>
+            <pb/>
+            <cb/>
+            <l xml:id="junius1.217">&#x17f;haffte<pc>&#xf161;</pc> Ne mihhte &#xfe;urrh hi&#x2dd;</l>
+            <l xml:id="junius1.218">&#x17f;ellfenn &#xfe;a<pc>.</pc> Seffne godne&#x17f;&#x17F;e&#x17f;&#x17f;</l>
+            <l xml:id="junius1.219">&#x17f;h&#xe6;renn<pc>&#xb7;</pc> O mannkinn<pc>.</pc> &#x17f;&#x1BF;a &#xfe;&#xb4; itt</l>
+            <l xml:id="junius1.220">mannkinn<pc>.</pc> off helle mihhte</l>
+            <l xml:id="junius1.221">lefenn<pc>&#xb7;</pc> Ne gifenn man<hi>n</hi>kin<hi>n</hi></l>
+            <l xml:id="junius1.222">lufft<pc>&#xb7;</pc> ne mahht to &#x1BF;i&#xaf;nen<hi>n</hi> heff<pc>-</pc></l>
+            <l xml:id="junius1.223">ne&#x17f;&#x17f; bli&#x17f;&#x17f;<pc>.</pc> &amp; all all &#x17f;&#x1BF;a &#x17f;e go<pc>-</pc></l>
+            <l xml:id="junius1.224">de&#x17f;&#x17f; la&#xaf;b<pc>&#xb7;</pc> All &#xfe;urrh hi&#x17f;&#x17f; a&#x21d;<hi>h</hi>en<hi>n</hi></l>
+            <l xml:id="junius1.225">mahhte<pc>.</pc> Lihhtelike mihhte<pc>.</pc></l>
+            <l xml:id="junius1.226">&amp; &#x1BF;el inoh<pc>.</pc> &#xfe;a &#x17f;effne i&#xaf;&#x17f;e&#x21d;&#x21d;le&#x17f;&#x17f;</l>
+            <l xml:id="junius1.227">oppnenn<pc>&#xf161;</pc> All &#x17f;&#x1BF;a &#xfe;e lafer<hi>r</hi>d</l>
+            <l xml:id="junius1.228">ie&#x17f;u cri&#x17F;t<pc>.</pc> all &#xfe;ur<hi>rh hi&#x17f;&#x17f; a<pc>-</pc></hi></l>
+            <l xml:id="junius1.229">&#x21d;<hi>h</hi>enn mahhte<pc>.</pc> &#x1F7;i&#xfe;<hi>&#xfe;</hi> fa<pc>-</pc></l>
+            <l xml:id="junius1.230">derr<pc>.</pc> &amp; &#x1BF;i&#xfe;<hi>&#xfe;</hi> hali&#x21d; ga&#x17f;t<pc>.</pc></l>
+            <l xml:id="junius1.231">an godd<pc>.</pc> &amp; all an</l>
+            <l xml:id="junius1.232">kinde<pc>&#xf161;</pc> All &#x17f;&#x1BF;a</l>
+            <l xml:id="junius1.233">rihht he lihht<pc>-</pc></l>
+            <l xml:id="junius1.234">like inoh<pc>.</pc> &amp; &#x1BF;el</l>
+            <l xml:id="junius1.235">&#x1BF;i&#xfe;<hi>&#xfe;</hi> alle <!-- blot --> mih<hi>h</hi><pc>-</pc></l>
+            <l xml:id="junius1.236">te<pc>.</pc> O man<hi>n</hi></l>
+            <l xml:id="junius1.237">kinn &#xfe;urrh</l>
+            <l xml:id="junius1.238">hi&#x2dd; &#x17f;ellfenn<pc>.</pc> &#xfe;a<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.239">Seffne godne&#x17f;<pc>-</pc></l>
+            <l xml:id="junius1.240">&#x17f;e&#x17f;&#x17f; &#x17f;h&#xe6;&#x1BF;en<hi>n</hi><pc>.</pc> <!-- big blog next to this line continuing do&#x1BF;n for 5 lines --></l>
+            <l xml:id="junius1.241">S&#x1BF;a &#xfe;att he</l>
+            <l xml:id="junius1.242">mannkinn</l>
+            <l xml:id="junius1.243">&#x1BF;el inoh<pc>&#xb7;</pc> Off</l>
+            <l xml:id="junius1.244">helle mihhte</l>
+            <l xml:id="junius1.245">lefen<hi>n</hi><pc>.</pc> &amp; gifen<hi>n</hi></l>
+            <l xml:id="junius1.246">mannkinn lufe<pc>.</pc> &amp;</l>
+            <l xml:id="junius1.247">lu&#x17f;&#x17f;t<pc>.</pc> &amp; mahht<pc>.</pc> &amp; &#x1BF;itt<pc>.</pc></l>
+            <l xml:id="junius1.248">&amp; &#x1BF;ille<pc>.</pc> To &#x17f;tan<hi>n</hi>den<hi>n</hi> i&#x2dd;</l>
+            <l xml:id="junius1.249">to c&#x1BF;emenn godd<pc>.</pc>to &#x1BF;i&#x2d8;<pc>-</pc></l>
+            <l xml:id="junius1.250">nenn heffne&#x17f;&#x17f; bli&#x17f;&#x17f;e<pc>.&#xb6;</pc> &amp;</l>
+            <l xml:id="junius1.251">For<hi>r</hi> &#xfe;&#xb4; hali&#x21d; godd&#x17f;pell boc<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.252">All &#xfe;i&#x17f;&#x17f; godne&#x17f;&#x17f;e u&#x17f;&#x17f; &#x17f;h&#xe6;<pc>-</pc></l>
+            <l xml:id="junius1.253">&#x1BF;e&#xfe;<hi>&#xfe;</hi><pc>&#xb7;</pc> &#x1BF;i&#x17f;&#x17f; &#x17f;efen<hi>n</hi>fald godle&#x21d;&#x21d;c</l>
+            <l xml:id="junius1.254">&#xfe;att cri&#x17f;t<pc>.</pc> U&#x17f;&#x17f; dide &#xfe;ur<hi>r</hi>h hi&#x17f;&#x17f;</l>
+            <l xml:id="junius1.255">are<pc>&#xf161;</pc> For<hi>r</hi>&#xfe;i birr&#xfe; all cri&#x17f;&#x17f;te<pc>-</pc></l>
+            <l xml:id="junius1.256">ne follc<pc>&#xb7;</pc> godd&#x17f;pelle&#x17f;&#x17f; lare foll<pc>-</pc></l>
+            <l xml:id="junius1.257">&#x21d;<hi>h</hi>enn<pc>&#xb7;</pc> &amp; t&#xe6;r fore hafe icc</l>
+            <l xml:id="junius1.258">tur<hi>r</hi>nedd itt<pc>.</pc> Inntill enn<pc>-</pc></l>
+            <l xml:id="junius1.259">gli&#x17f;&#x17f;he &#x17f;&#x1BF;&#xe6;che<pc>&#xf161;</pc> For<hi>r</hi> &#xfe;&#xb4; i &#x1BF;oll<pc>-</pc></l>
+            <l xml:id="junius1.260">de bli&#xfe;eli&#x21d;<pc>.</pc> &#xfe;att all en<hi>n</hi>gli&#x17f;<pc>-</pc></l>
+            <l xml:id="junius1.261">&#x17f;he lede<pc>&#xb7;</pc> &#x1F7;i&#xfe;<hi>&#xfe;</hi> &#xe6;re &#x17f;hollde li&#x17f;&#x17f;<pc>-</pc></l>
+            <l xml:id="junius1.262">tenn itt<pc>.</pc> &#x1BF;i&#xfe;<hi>&#xfe;</hi> her<hi>r</hi>te &#x17f;holld<hi>e</hi></l>
+            <cb/>
+            <l xml:id="junius1.263">itt tro&#x1BF;&#x1BF;enn<pc>.</pc></l>
+            <l xml:id="junius1.264">&#x1F7;i&#xfe;<hi>&#xfe;</hi> tunge &#x17f;holl<pc>-</pc></l>
+            <l xml:id="junius1.265">de &#x17f;pellenn</l>
+            <l xml:id="junius1.266">itt<pc>&#xb7;</pc> &#x1BF;i&#xfe;<hi>&#xfe;</hi> dede</l>
+            <l xml:id="junius1.267">&#x17f;hollde itt foll<pc>-</pc></l>
+            <l xml:id="junius1.268">&#x21d;<hi>h</hi>enn<pc>.</pc> To &#x1BF;i&#xaf;nenn</l>
+            <l xml:id="junius1.269">unnderr cri&#x17F;&#x17f;<pc>-</pc></l>
+            <l xml:id="junius1.270">tenndom<pc>&#xf161;</pc> att</l>
+            <l xml:id="junius1.271">cri&#x17f;t &#x17f;o&#xfe; &#x17f;a&#x1BF;le</l>
+            <l xml:id="junius1.272">berrhle&#x17f;&#x17f;<!--period inserted--><pc>.&#xb6;</pc> &amp;</l>
+            <l xml:id="junius1.273">godd allmah<hi>h</hi>ti&#x21d;</l>
+            <l xml:id="junius1.274">gife u&#x17f;&#x17f; mahht<pc>.</pc> &amp;</l>
+            <l xml:id="junius1.275">lufft<pc>.</pc> &amp; &#x1BF;itt<pc>.</pc> &amp; &#x1BF;ille<pc>.</pc></l>
+            <l xml:id="junius1.276">To foll&#x21d;<hi>h</hi>en<hi>n</hi> &#xfe;i&#x17f;&#x17f; en<hi>n</hi>gli&#x17f;<pc>-</pc></l>
+            <l xml:id="junius1.277">&#x17f;he boc<pc>&#xb7;</pc> &#xfe;at all <!-- little hard to read? -->ii&#x17f;&#x17f;</l>
+            <l xml:id="junius1.278">hali&#x21d; lare<pc>.</pc> S&#x1BF;a &#xfe;&#xb4; &#x1BF;e mo<pc>-</pc></l>
+            <l xml:id="junius1.279">ten<hi>n</hi> &#x1BF;urr&#xfe;i ben<pc>.</pc> to bruken<hi>n</hi></l>
+            <l xml:id="junius1.280">heffne&#x17f;&#x17f; bli&#x17f;&#x17f;e<pc>.</pc> am&#xaf;<pc>.</pc> am&#xaf;<pc>.</pc> am&#xaf;<pc>:&#xb7;</pc></l>
+            <l xml:id="junius1.281"><hi rend="h4">I</hi>cc &#xfe;&#xb4; &#xfe;i&#x17f;&#x17f;en<hi>n</hi>gli&#x17f;&#x17f;h hafe &#x17f;et<hi>t</hi></l>
+            <l xml:id="junius1.282">en<hi>n</hi>gli&#x17f;&#x17f;hemenn to lare<pc>&#xf161;</pc></l>
+            <l xml:id="junius1.283">Icc &#x1BF;a&#x17f;&#x17f; &#xfe;&#xe6;r &#xfe;&#xe6;r i cri&#x17f;&#x17f;t<pc>-</pc></l>
+            <l xml:id="junius1.284">nedd &#x1BF;a&#x17f;&#x17f;<pc>.</pc> <name type="person">Or<hi>r</hi>min</name> bi na<pc>-</pc></l>
+            <l xml:id="junius1.285">me nem<hi>m</hi>nedd<pc>&#xb7;</pc> &amp; icc <!-- name here but spills over line -->or<hi>r</hi><pc>-</pc></l>
+            <l xml:id="junius1.286">min full inn&#x1BF;arrdli&#x21d;<pc>.</pc></l>
+            <l xml:id="junius1.287">&#x1BF;i&#xfe;<hi>&#xfe;</hi> mu&#xfe;<pc>.</pc> &amp; ec &#x1BF;i&#xfe;<hi>&#xfe;</hi> her<hi>r</hi>te<pc>.</pc></l>
+            <l xml:id="junius1.288">Her bidde &#xfe;a cri&#x17f;&#x17f;tenne</l>
+            <l xml:id="junius1.289">menn<pc>&#xb7;</pc> &#xfe;att heren<hi>n</hi> o&#xfe;er<hi>r</hi></l>
+            <l xml:id="junius1.290">re&#xb4;denn<pc>&#xb7;</pc> &#xfe;i&#x17f;&#x17f; boc<pc>&#xf161;</pc> he&#x2dd; bid<pc>-</pc></l>
+            <l xml:id="junius1.291">de icc her &#xfe;att te&#x21d;&#x21d;<pc>.</pc> for<hi>r</hi></l>
+            <l xml:id="junius1.292">me &#xfe;i&#x17f;&#x17f; bede biddenn<pc>&#xb7;</pc></l>
+            <l xml:id="junius1.293"><pc>&#xb6;</pc> &#xfe;att bro&#xfe;err &#xfe;att</l>
+            <l xml:id="junius1.294">ti&#x17f;&#x17f; enngli&#x17f;&#x17f;h &#x1BF;ritt</l>
+            <l xml:id="junius1.295">Allr &#xe6;re&#x17f;&#x17f;t &#x1BF;ra&#x2dd;t</l>
+            <l xml:id="junius1.296">&amp; &#x1BF;rohhte<pc>&#xf161;</pc> &#xfe;&#xb4;</l>
+            <l xml:id="junius1.297">bro&#xfe;err for<hi>r</hi></l>
+            <l xml:id="junius1.298">hi&#x17f;&#x17f; &#x17f;&#x1BF;i&#x2dd;c to</l>
+            <l xml:id="junius1.299">l&#xe6;n<pc>&#xf161;</pc> So&#xfe;</l>
+            <l xml:id="junius1.300">bli&#x17f;&#x17f;e mo&#xb4;te</l>
+            <l xml:id="junius1.301">finden<hi>n</hi><pc>.</pc> am&#xaf;<pc>.</pc></l>
+            <!-- in the above used double acutes for double macron looking things, no differentiation, should fix that -->
+            <!--
+            thorn  &#xFE;  THORN &#xDE;
+            yogh   &#x21D; YOGH  &#x21C;
+            wynn   &#x1BF; WYNN  &#x1F7;
+            slong  &#x17F; aelig  &#xE6;
+            middot &#xB7;  punctelev &#xF161;
+            pilcro&#x1BF; &#xB6; breve &#x2D8;  
+            acute  &#xB4;  macron &#xAF;  double acute &#x2DD;
+            -->
+         </div1>
+      </body>
+  </text>
+</TEI>
+
