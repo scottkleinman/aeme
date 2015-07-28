@@ -68,6 +68,11 @@
           #content-primary .wavy-underline{
           -moz-text-decoration-style:none;
           }
+          
+          p {margin:0;}
+          .halfline p {display: inline;}
+          .halfline p.B:before { content: ' ';}
+          .halfline p.B:after {content: '\A'; white-space: pre;}
         </style>
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
         <script type="text/javascript">

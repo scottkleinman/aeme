@@ -69,7 +69,7 @@
           -moz-text-decoration-style:none;
           }
         </style>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
+ <!--        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
         <script type="text/javascript">
           $(window).load(function() {
             $.fn.replaceCharacters = function() {
@@ -87,7 +87,7 @@
              $('p').replaceCharacters();
         });
         </script>
-		</head>
+ -->		</head>
       <body>
         <!--<a class="jump-to-content" href="#content">Jump to Content</a>-->
         <div id="content">
@@ -111,6 +111,13 @@
   <!-- ELEMENT: ab -->
   <xsl:template exclude-result-prefixes="#all" match="tei:ab[@type]">
     <xsl:apply-templates/>
+  </xsl:template>
+
+  <!-- ELEMENT: abbr -->
+  <xsl:template exclude-result-prefixes="#all" match="tei:abbr">
+    <span>
+      <xsl:apply-templates/>
+    </span>
   </xsl:template>
 
   <!-- ELEMENT: acquisition -->
@@ -358,6 +365,13 @@
   <!-- ELEMENT: ex -->
   <xsl:template exclude-result-prefixes="#all" match="tei:ex">
     <span>
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+
+  <!-- ELEMENT: expan -->
+  <xsl:template exclude-result-prefixes="#all" match="tei:expan">
+    <span style="display:none;">
       <xsl:apply-templates/>
     </span>
   </xsl:template>

@@ -68,8 +68,13 @@
           #content-primary .wavy-underline{
           -moz-text-decoration-style:none;
           }
+          
+          p {margin:0;}
+          .halfline p {display: inline;}
+          .halfline p.B:before { content: ' ';}
+          .halfline p.B:after {content: '\A'; white-space: pre;}
         </style>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
+        <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
         <script type="text/javascript">
           $(window).load(function() {
             $.fn.replaceCharacters = function() {
@@ -86,13 +91,13 @@
              //Possibly other HTML elements need to be added.              
              $('p').replaceCharacters();
         });
-        </script>
+        </script>-->
 		</head>
       <body>
         <!--<a class="jump-to-content" href="#content">Jump to Content</a>-->
         <div id="content">
           <a name="content"/>
-          <div id="content-primary">
+          <div id="content-primary" class="halfline">
             <xsl:apply-templates select="//tei:front/*"/>
             <xsl:apply-templates select="//tei:body/*"/>
 <!--            <xsl:variable name="s1" select="//tei:body/*"/>
@@ -111,6 +116,13 @@
   <!-- ELEMENT: ab -->
   <xsl:template exclude-result-prefixes="#all" match="tei:ab[@type]">
     <xsl:apply-templates/>
+  </xsl:template>
+
+  <!-- ELEMENT: abbr -->
+  <xsl:template exclude-result-prefixes="#all" match="tei:abbr">
+    <span>
+      <xsl:apply-templates/>
+    </span>
   </xsl:template>
 
   <!-- ELEMENT: acquisition -->
@@ -209,6 +221,7 @@
   <!-- ELEMENT: choice -->
   <xsl:template exclude-result-prefixes="#all" match="tei:choice">
     <xsl:apply-templates/>
+    <xsl:text> </xsl:text>
   </xsl:template>
 
   <!-- ELEMENT: classDecl -->
@@ -357,7 +370,14 @@
 
   <!-- ELEMENT: ex -->
   <xsl:template exclude-result-prefixes="#all" match="tei:ex">
-    <span>
+    <span class="display:none;">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+
+  <!-- ELEMENT: expan -->
+  <xsl:template exclude-result-prefixes="#all" match="tei:expan">
+    <span style="display:none;">
       <xsl:apply-templates/>
     </span>
   </xsl:template>
@@ -605,7 +625,7 @@
 
   <!-- ELEMENT: orig -->
   <xsl:template exclude-result-prefixes="#all" match="tei:orig">
-    <span style="display:none;">
+    <span>
       <xsl:apply-templates/>
     </span>
   </xsl:template>
@@ -625,7 +645,7 @@
 
   <!-- ELEMENT: pb -->
   <xsl:template exclude-result-prefixes="#all" match="tei:pb">
-    <span style="display:none;">
+    <span>
       <xsl:text> [</xsl:text>
       <xsl:value-of select="@n"/>
       <xsl:text>] </xsl:text>
@@ -694,7 +714,7 @@
 
   <!-- ELEMENT: reg -->
   <xsl:template exclude-result-prefixes="#all" match="tei:reg">
-    <span>
+    <span style="display:none;">
       <xsl:text> </xsl:text>
       <xsl:apply-templates/>
       <xsl:text> </xsl:text>
@@ -744,12 +764,15 @@
   <!-- ELEMENT: sg -->
   <xsl:template exclude-result-prefixes="#all" match="tei:sg">
     <xsl:choose>
-      <xsl:when test="@type='ln'"></xsl:when>
+      <!-- <xsl:when test="@type='ln'">
+        <span class="sg">&#xA0;</span>
+      </xsl:when> -->
       <xsl:when test="text()=' '">
         <span class="sg">&#xA0;</span>
       </xsl:when>
       <xsl:otherwise>
-        <span class="sg">
+        <!-- <span class="sg"> -->
+        <span class="sg">&#xA0;
           <xsl:apply-templates/>
         </span>
       </xsl:otherwise>
