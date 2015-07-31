@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--June 17 2015-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+         </titleStmt>
+         <publicationStmt>
+            <p></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- added <tagsDecl so I'll be able to just use <hi> instead of <hi rend="superscrtipt"> every time, can be replaced easily enough if it doesn't work -->
+         <tagsDecl>
+            <namespace name="junius1">
+               <tagUsage gi="hi" render="superscript"></tagUsage>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <!-- Modern equivalents for names tagged in section:
+      Ananias
+      Augustus
+      Bethany
+      Bethlehem
+      Bethphage
+      Bethsaida
+      Caparnaum
+      Cenofegia
+      Chana Galilee?
+      David
+      Egypt
+      Elisabeth
+      Encenia
+      England
+      Galilee
+      Gerasa
+      Ginosar
+      Helias
+      Herod
+      Isaiah? (Ysaye)
+      Israel
+      Jacob
+      Jericho
+      Jerusalem
+      Jesus
+      John the Apostle
+      John the Baptist
+      John the Evangelist
+      Jordan
+      Joseph
+      Judea
+      Lazarus
+      Luke
+      Magedan
+      Maria
+      Mark
+      Martha
+      Mary
+      Mary Jacobi
+      Mary Magdalene
+      Matthew
+      Matthew the Evangelist
+      Moses
+      Mount Olivet
+      Naim
+      Nazareth
+      Nephthalim
+      Nicodemus
+      Omelia
+      Paska Judeorum?
+      Peter
+      Pharisees
+      Philip
+      Phillipi
+      Pontifices
+      Pontius Pilate
+      Saducees
+      Salome
+      Samaria
+      Sapphira
+      Shechem
+      Sidon
+      Simon
+      Stephen
+      Tiberias
+      Tiberius
+      Tyre
+      Zacharias
+      Zacheus
+      Zebulun
+   -->
+  <text>
+      <body xml:id="junius1">
+         <div1>
+            <l xml:id="junius1.302">&#xfe;a godd<pc>-</pc></l>
+            <l xml:id="junius1.303">&#x17f;pelle&#x17f;&#x17f; al<pc>-</pc></l>
+            <l xml:id="junius1.304">le &#xfe;att icc<pc>.</pc></l>
+            <l xml:id="junius1.305">her o &#xfe;i&#x17f;&#x17f;</l>
+            <l xml:id="junius1.306">boc ma&#x21d;&#x21d;</l>
+            <pb/>
+            <cb/>
+            <l xml:id="junius1.307">findenn<pc>&#xf161;</pc> Hem<hi>m</hi> alle &#x1bf;ile</l>
+            <l xml:id="junius1.308">icc nem<hi>m</hi>nenn her<pc>.</pc> Bi &#xfe;e&#x21d;<hi>&#x21d;</hi><pc>-</pc></l>
+            <l xml:id="junius1.309">re firr&#x17f;te &#x1bf;ord&#x17f;&#x17f;<pc>&#xb7;</pc> &amp; ta<pc>-</pc></l>
+            <l xml:id="junius1.310">le &#x1bf;ile icc &#x17f;ettenn to<pc>&#xb7;</pc> To</l>
+            <l xml:id="junius1.311">don &#x21d;u&#x1bf; tunnderr&#x17f;tann<pc>-</pc></l>
+            <l xml:id="junius1.312">denn<pc>.</pc> Hu fe&#xb4;le &#x17f;inndenn o</l>
+            <l xml:id="junius1.313">&#xfe;i&#x17f;&#x17f; boc<pc>.</pc> godd&#x17f;pelle&#x17f;&#x17f; un<hi>n</hi>der<hi>r</hi></l>
+            <l xml:id="junius1.314">alle<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.315"><!--indent--><pc>&#xb6;</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="1"><pc>.</pc>i<pc>.</pc></num><!-- I am unclear about the placement of punctuation within the <num> tag, but I believe that is what the guidelines said to do--><!-- whole bit is underlined, not sure if by Orm or not --></l>
+            <l xml:lang="lat" xml:id="junius1.316">Fuit i&#xb4; dieb; <name type="person">herodi&#x17f;</name> regi&#x17f; <name type="place">iudee</name> &#x17f;ac&#xf1c7;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.317">do&#x17f; q<hi>i</hi>da&#xaf; no&#xaf;i&#xaf;e <name type="person">zachar&#x1E8F;a&#x17f;</name><pc>.</pc> Scd&#xb4;m <name type="person">luc</name> <num value="2"><pc>.</pc>ii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.318">Dix&#xaf; <name type="person">zachar&#x1e8f;a&#x17f;</name><pc>,<!-- maybe? --></pc> an<hi>ad</hi>glm&#xaf;<pc>.</pc> Un&#xaf; ho&#x60;c &#x17f;cia&#xb4;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.319">ego eni&#xaf; &#x17f;u&#xaf; &#x17f;enex<pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="3"><pc>.</pc>iii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.320"><!-- line crossed out --></l>
+            <l xml:lang="lat" xml:id="junius1.321"><!-- line crossed out --></l>
+            <l xml:lang="lat" xml:id="junius1.322">Mi&#x17f;&#x17f;u&#x17f; e&#x17f;t a&#xaf;gi&#xb4;&#x17f; gabel a&#xb4; do&#xaf; i&#xaf; ciuita<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.323">tem<pc>&#xb7;<!-- a bit high and a bit faint, not sure if Orm --></pc><name type="place">galilee</name><pc>.</pc> Sd&#xb4;m <name type="person">luc&#xf1c7;</name> <num value="4"><pc>.</pc>iiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.324">Ex&#x17f;urge&#xaf;&#x17f; <name type="person">maria</name> abi&#xb4;i&#xb4;t i&#xaf; m&#xaf;otana</l>
+            <l xml:lang="lat" xml:id="junius1.325">cum fe&#x17f;tinat&#xf1c7;one<pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="5"><pc>.</pc>u<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.326"><name type="person">El&#x1e8f;&#x17f;abeth</name> i&#xaf;pletum e&#xaf; tp&#xaf;&#x17f; parie&#xaf;di<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.327">&amp; pep<!--crossed-->it filiu&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="6"><pc>.</pc>ui<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.328">Cu&#xaf; ee&#xaf;t de&#x17f;po&#xaf;&#x17f;ata mat&#xf1c7; <name type="person">iesu</name> <name type="person">maria</name> <!-- name spill over -->io<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.329">&#x17f;eph<pc>.</pc> an&#xaf;&#xf14d;&#x1dd3; &#xa76f;uenire&#xaf;t<pc>.</pc> Scd&#xb4;m <name type="person">luc&#xf1c7;</name> <num value="7"><pc>.</pc>uii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.330">Exi&#xb4;i&#xb4;t edictu&#xaf; a <name type="person">ce&#x17f;are augu&#x17f;to</name><pc>&#xf161;</pc> ut</l>
+            <l xml:lang="lat" xml:id="junius1.331">de&#x17f;criberet<hi>~</hi><pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="8"><pc>.</pc>uiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.332">Pa&#x17f;tore&#x17f; loq&#xaf;ba&#xaf;t<hi>a</hi> ad i&#xaf;uice&#xaf;<pc>.</pc> T^n<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.333">&#x17f;eam&#xf1a6; u&#x17f;q; <name type="place">bethl&#xb4;</name><pc>.</pc> <!-- rest of line blacked out --></l>
+            <l xml:lang="lat" xml:id="junius1.334"><!-- line blacked out --></l>
+            <l xml:lang="lat" xml:id="junius1.335"><!-- beginning of line blacked out -->Scd&#xb4;m lucam<pc>.</pc><!-- smudge or something? --><num value="9">ix</num><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.336">Po&#x17f;t&#xf14d;&#x1dd3; &#xa76f;&#x17f;u&#xaf;mati &#x17f;t&#xaf; die&#x17f; octo<pc>&#xb7;</pc> ut c<hi>i</hi>c&#xaf;ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.337">deret<!-- unclear what's on top --> puer<pc>.</pc> Scd&#xb4;m <name type="person">matheu&#xaf;</name> <num value="10"><pc>.</pc>x<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.338">Cu&#xaf; nat<hi>&#xa76f;</hi> ee&#xaf;t <name type="person">ie&#x17f;u&#x17f;</name> i&#xaf; <name type="place">bethleem</name> <name type="place">iude</name></l>
+            <l xml:lang="lat" xml:id="junius1.339">in dieb; <name type="person">herod&#xb4;</name><pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="11"><pc>.</pc>xi<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.340">Po&#x17f;t&#xf14d;&#x1dd3; i&#xaf;pleti &#x17f;t&#xaf; die&#x17f; purificat&#xf1c7;o&#xaf;i&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.341"><name type="person">marie</name> mat<hi>i</hi>&#x17f; <name type="person">ihu</name><pc>&#xb7;</pc> Scdm <name type="person">luca&#xaf;</name> <num value="12"><pc>.</pc>xii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.342">Erat <name type="person">io&#x17f;eph</name><pc>.</pc> &amp; <name type="person">maria</name> mat&#xf1c7; <name type="person">ih&#xaf;u</name> mi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.343">rante&#x17f; &#x17f;r&#xaf; hi&#x17f;<pc>&#xb7;</pc> Sc&#xb4;m <name type="person">math&#xb4;m</name> <num value="13"><pc>.</pc>xiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.344">Ecce a&#xaf;gi&#xaf;&#x17f; dn&#xaf;i apparuit i&#xaf; fo&#xaf;rni&#x17f; <name type="person">io&#x17f;eph</name></l>
+            <l xml:lang="lat" xml:id="junius1.345">dice&#xaf;&#x17f;<pc>.</pc> surge &amp; accipe pueru&#xaf;<pc>.</pc> &amp; matre&#xaf; ei&#xf1a6;</l>
+            <l xml:lang="lat" xml:id="junius1.346">&amp; fuge i&#xaf; <name type="place">egyptu&#xaf;</name><pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="14"><pc>.</pc>xiiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.347">Defu&#xaf;cto<pc>,<!-- maybe --></pc> au&#xaf; <name type="person">herode</name><pc>&#xf161;</pc> ecce agl&#xb4;&#x17f; dn&#xaf;i</l>
+            <l xml:lang="lat" xml:id="junius1.348">apparuit i&#xaf; &#x17f;o&#xaf;rni&#x17f; <name type="person">io&#x17f;eph</name> i&#xaf; <name type="place">egipto</name> dice&#xaf;&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.349">surge<pc>.</pc> &amp; accipe pueru&#xaf;<pc>.</pc> &amp; matre&#xaf; ei&#xf1a6;<pc>. &amp; uad&#xb4;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.350">in t&#xf1c7;ra&#xaf; <name type="place">i&#x17f;rl&#xb4;</name><pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="15"><pc>.</pc>xu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.351">Cu&#xaf; fact&#xf1a6; e&#x17f;&#x17f;et <name type="person">ie&#x17f;u&#x17f;</name> anno&#xa75d; duodeci&#xaf;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.352">a&#x17f;&#x17f;ce&#xaf;dentib; itt<pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="16"><pc>.</pc>xui<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.353">Anno q<hi>i</hi>nto decimo i&#xaf;pi&#xb4;i&#xb4; <name type="person">t&#x1e8f;beri&#xb4;i&#xb4;</name> <!-- name spill over, if you wanted to include cesaris -->ce<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.354">&#x17f;ari&#x17f;<pc>.</pc> &#xa753;cura&#xaf;te<pc>.</pc><!-- rest of line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.355"><!-- line blacked out --></l>
+            <l xml:lang="lat" xml:id="junius1.356"><!-- beginning of line blacked out -->Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="17"><pc>.</pc>xuii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.357">Venit <name type="person">ioh&#xb4;e&#x17f;</name> bapti&#x17f;ta p&#xf1c7;dica&#xaf;&#x17f; i&#xb4; de&#x17f;erto</l>
+            <l xml:lang="lat" xml:id="junius1.358"><name type="place">iudee</name><pc>&#xf161;</pc> &amp; dice&#x17f;<pc>.</pc> penitetia&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;m</name> <num value="18"><pc>.</pc>xvi<hi>ii</hi><pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.359">Mi&#x17f;ert&#xaf; <name type="place">iudei</name> ab <name type="place">iero&#x17f;olimi&#x17f;</name> &#x17f;ac&#xf1c7;doter<pc>.</pc> &amp;</l>
+            <l xml:lang="lat" xml:id="junius1.360">leuita&#x17f; ad <name type="person">ioh&#xb4;e&#xaf;</name><pc>.</pc> Scd&#xb4;m <name type="person">Matheu&#xaf;</name> <num value="19"><pc>.</pc>xix<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.361">Venit <name type="person">ie&#x17f;u&#x17f;</name> a <name type="place">galilea</name> i&#xaf; <name type="place">io&#xa75b;danem</name> ad</l>
+            <l xml:lang="lat" xml:id="junius1.362"><name type="person">ioha&#xaf;ne&#xaf;</name><pc>&#xf161;</pc> ut baptizar&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">math&#xaf;</name> <num value="20"><pc>.</pc>xx<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.363">Duct&#xf1a6; e&#xaf; <name type="person">ih&#xb4;&#x17f;</name> i&#xaf; de&#x17f;ertu&#xaf; a &#x17f;p&#xaf;u<pc>.</pc> ut tem<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.364">taret<hi>a</hi> a diabl&#xb4;o<pc>.</pc> Scd&#xb4;m <name type="person">ioha&#xaf;ne&#xaf;</name> <num value="21"><pc>.</pc>xxi<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.365">Alt&#xf1c7;a die uidit <name type="person">ioh&#xb4;e&#x17f;</name> <name type="person">ih&#xb4;m</name> uenie&#xaf;te&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.366">ad &#x17f;e<pc>&#xf161;</pc> &amp; ait<pc>.</pc> ecce agn&#xf1a6;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;em</name> <num value="22"><pc>.</pc>xxii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.367">Alt&#xf1c7;a a&#xf1c7; die it&#xf1c7;u&#xaf; &#x17f;tabat <name type="person">ioh&#xb4;e&#x17f;</name><pc>.</pc> &amp; ex di&#x17f;ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.368">pl&#xb4;i&#x17f; ei&#xf1a6; duo<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="23"><pc>.</pc>xxiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.369">Nuptie facte &#x17f;t&#xaf; in <name type="place">chana</name> <!-- name runs over -->gali</l>
+            <l xml:lang="lat" xml:id="junius1.370">lee<pc>.</pc> &amp; erat<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="24"><pc>.</pc>xxiiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.371">Prope erat <name type="place">pa&#x17f;ra</name> <name type="place">iude&#xa75d;</name><pc>.</pc> &amp; a&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.372">cenndit <name type="person">ie&#x17f;u&#x17f;</name> <name type="place">iero&#x17f;olima&#xaf;</name><pc>.</pc> &amp; i&#xaf;ue</l>
+            <l xml:lang="lat" xml:id="junius1.373">nit in te&#xaf;plo ue&#xaf;de&#xaf;te&#x17f;&#x17f; boue&#x17f;<pc>.</pc> &amp; oue&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.374">icolu&#xaf;ba&#x17f;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xb4;</name> <num value="25"><pc>.</pc>xxu<pc>.</pc></num></l>
+            <cb/>
+            <l xml:lang="lat" xml:id="junius1.375">Erat</l>
+            <l xml:lang="lat" xml:id="junius1.376">ho&#xaf; ex</l>
+            <l xml:lang="lat" xml:id="junius1.377"><name type="organization">phar&#x1e8f;&#x17f;ei&#x17f;</name></l>
+            <l xml:lang="lat" xml:id="junius1.378"><name type="person">nicodemu&#xf1a6;</name> no&#xaf;i&#xaf;e<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.379">pri&#xaf;cep&#x17f;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e</name> <num value="26"><pc>.</pc>xxui<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.380">Sic d&#x17f;&#xaf; dilexit mundu&#xaf;<pc>.</pc> ut fi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.381">liu&#xaf; &#x17f;uu&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="27"><pc>.</pc>xxuii</num><pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.382">Po&#x17f;tea uenit <name type="person">ie&#x17f;u&#x17f;</name><pc>.<!-- unclear --></pc> i&#xb4; <!--name spills over -->iu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.383">dea&#xaf; t<pc>></pc>ra&#xaf;<pc>.</pc> &amp; di&#x17f;cipl&#xb4;i ei&#xf1a6;<pc>.</pc> &amp; il<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.384">lic m&#x153;abatur<pc>.</pc> &amp; bapti<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.385">zabat<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="28"><pc>.</pc>xxui<hi>i</hi>i</num><pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.386">Qu&#xaf;e eni&#xaf; mi&#x17f;it deu&#x17f;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.387">u&#xf1c7;ba dei loq<hi>i</hi>t<hi>~</hi><pc>.</pc> Non <!--some character, can't distinguish--> ad m&#xaf;&#x17f;u<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.388">ra&#xaf; dat d&#x17f;&#xaf; &#x17f;pm&#xaf;<pc>.</pc> Scd&#xb4;m ioh&#xb4;a<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.389">nem<num value="29"><pc>.</pc>xxix<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.390">In p<hi>i</hi>ncipio erat u&#xf1c7;bu&#xaf;<pc>.</pc> &amp;</l>
+            <l xml:lang="lat" xml:id="junius1.391">u&#xf1c7;u&#xaf; erat<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="30"><pc>.</pc>xxx<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.392"><name type="person">Ie&#x17f;u&#x17f;</name> audien&#x17f; qe&#xa75b; murmur<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.394">tizar&amp;<pc>&#xf161;</pc> reliq<hi>i</hi>t <name type="place">iudeam</name></l>
+            <l xml:lang="lat" xml:id="junius1.395">&amp; iuit in <name type="place">galea&#xaf;</name> cu&#xaf; di&#x17f;ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.396">pl&#xb4;i&#x17f; &#x17f;ui&#x17f;<pc>.</pc> Sd&#xb4;m <name type="person">luca&#xaf;</name> <num value="31"><pc>.</pc>xxxi</num><pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.397"><name type="person">Herode&#x17f;</name> mi&#x17f;it<pc>.</pc> &amp; tenuit</l>
+            <l xml:lang="lat" xml:id="junius1.398"><name type="person">iohane&#xaf;</name><pc>.</pc> &amp; ligauit in carce<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.399">re pp<!-- both crossed --> <name type="place">herod&#x1e8f;ade&#xaf;</name><pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;</name> <num value="32"><pc>.</pc>xxxii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.400">Uenit g<hi>o</hi> <name type="person">ie&#x17f;u&#x17f;</name> i&#xb4; ciuitate&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.401"><name type="place">&#x17f;amarei</name><pc>.</pc> q&#xaf; dr&#xaf; <name type="place">&#x17f;&#x1e8f;car</name><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.402">Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="33"><pc>.</pc>xxxiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.403">Po&#x17f;t duo&#x17f; a&#xf1c7;  die&#x17f; abi&#xb4;i&#xb4;t</l>
+            <l xml:lang="lat" xml:id="junius1.404">de <name type="place">&#x17f;amaria</name><pc>.</pc> &amp; uenit i&#xaf; <!-- name overflow -->ga<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.405">lilea<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="34"><pc>.</pc>xxxiiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.406">Erat quida&#xaf; regulu&#x17f;<pc>.</pc> cui&#xf1a6; fi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.407">li&#xf1a6; i&#xaf;firm&#xf1c7;<pc>.</pc> Scd&#xb4;m <name type="person">luc&#xf1c7;</name> <num value="35"><pc>.</pc>xxxu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.408">Regre&#x17f;&#x17f;u&#x17f;&#x17f; e&#xaf; <name type="person">ie&#x17f;&#x17f;</name> i&#xaf; u<hi>i</hi>tute</l>
+            <l xml:lang="lat" xml:id="junius1.409">&#x17f;p&#xaf;&#x17f; in <name type="place">galilea&#xaf;</name><pc>.</pc>&amp; fama exi</l>
+            <l xml:lang="lat" xml:id="junius1.410">it p<!-- crossed --> uniu&#xf1c7;&#xaf;a&#xaf; regio&#xaf;e&#xaf; de illo<pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.411">ip&#x17f;e docebat in &#x17f;inagogi&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.412">eo&#xa75d;<pc>.</pc>&amp; magnificanbatur ab</l>
+            <l xml:lang="lat" xml:id="junius1.413">oi&#xaf;b;<!--next two words and et inserted from below--> &amp; uenit <name type="place">nazar&amp;</name><pc>.</pc>&amp; int&#x1dd3;uit &#x17f;<!--crossed--> &#xa76f;&#x17f;uetuid<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.414">ne&#xaf; &#x17f;ua&#xaf; die &#x17f;ab&#xaf;b&#xaf;ti i&#xaf; &#x17f;&#x1e8f;na<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.415">goga&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">math&#xf1c7;</name> <num value="36"><pc>.</pc>x<hi>x</hi>xui.</num></l>
+            <l xml:lang="lat" xml:id="junius1.416">Et relicta ciuitate <!--name overflow-->na<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.417"><!-- here is where the inserted words a few lines up are-->zar&amp;<pc>&#xf161;</pc> uinit<pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.418">habitauit in <!--name overflow-->ca</l>
+            <l xml:lang="lat" xml:id="junius1.419">farnau&#xaf; mariti<pc>-</pc>;</l>
+            <l xml:lang="lat" xml:id="junius1.420">ma&#xaf; in finib; <name type="place">zabulon</name><pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.421"><name type="place">nept&#xf1c7;</name><pc>.</pc> Scd&#xb4;m <name type="person">marc&#xaf;</name> <num value="37"><pc>.</pc>xxxuii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.422">Et erat i&#xaf; &#xaf;&#x1e8f;nagoga eo&#xa75d;</l>
+            <l xml:lang="lat" xml:id="junius1.423">ho&#xaf; i&#xaf; &#x17f;pu&#xaf; i&#xaf;mu&#xaf;do<pc>.</pc>&amp; excla</l>
+            <l xml:lang="lat" xml:id="junius1.424">mauit dice&#xaf;&#x17f;<pc>.</pc> Q<hi>i</hi>d nob&#xb4;<pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.425">tibi <name type="person">ih&#xb4;u</name> <name type="place">mazarene</name><!-- some sort of punctuation--></l>
+            <l xml:lang="lat" xml:id="junius1.426">Scd&#xb4;m <name type="person">luca</name> <num value="38"><pc>.</pc>xxxuiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.427">Surge&#xaf;&#x17f; a&#xf1c7; <name type="person">ih&#xb4;&#x17f;</name> de</l>
+            <l xml:lang="lat" xml:id="junius1.428">&#x17f;&#x1e8f;nagoga<pc>&#xf161;</pc> int<hi>o</hi>iuit</l>
+            <l xml:lang="lat" xml:id="junius1.429">i&#xaf; domu&#xaf; <name type="person">&#x17f;imo&#xaf;i&#x17f;</name><pc>.</pc> socru&#x71f;</l>
+            <l xml:lang="lat" xml:id="junius1.430">a&#xf1c7; <name type="person">&#x17f;imo&#xaf;i&#x17f;</name> tenebatur</l>
+            <l xml:lang="lat" xml:id="junius1.431">magni&#x17f; febribu&#x17f;<pc>.</pc>&amp;c&#xf1c7;<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.432">Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="39"><pc>.</pc>xxxix</num><pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.433">Factu&#xaf; e&#xaf; a&#xf1c7; cu&#xaf; turbe</l>
+            <l xml:lang="lat" xml:id="junius1.434">irruerent ad eum<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.435">ut audiret uerbu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.436">di&#xaf;<pc>&#xf161;</pc>&amp; ip&#x17f;e &#x17f;tabat &#x17f;e</l>
+            <l xml:lang="lat" xml:id="junius1.437">cu&#x17f; &#x17f;tagnu gene&#x17f;ar&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.438">Scd&#xb4;m <name type="person">matheum</name> <num value="40"><pc>.</pc>xl<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.439">Circuibat <name type="person">ie&#x17f;u&#x17f;</name> tota&#xaf; <!--name overflow-->gali<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.440">lea&#xaf; doce&#xaf;&#x17f; i&#x17f; &#x17f;inagogi&#x17f; eo&#xa75d;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.441">Scd&#xb4;m <name type="person">matheu&#xaf;</name> <num value="41"><pc>.</pc>xli<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.442">Ambula&#xaf;&#x17f; <name type="person">ih&#xaf;&#x17f;</name> iu&#xaf;xta <!--name overflow-->ma</l>
+            <l xml:lang="lat" xml:id="junius1.443">re galilee<pc>&#xf161;</pc> uidit duo&#x17f;<pc>&#xb7;</pc></l>
+            <pb/>
+            <cb/>
+            <l xml:lang="lat" xml:id="junius1.444">Scd&#xb4;m math&#xb4;m<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.445"><num value="42">.xlii</num><pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.446">Et cu&#xaf; tra&#xaf;&#x17f;ire&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.447">in&#xaf; <name type="person">ie&#x17f;u&#x17f;</name><pc>&#xf161;</pc> uidit</l>
+            <l xml:lang="lat" xml:id="junius1.448">ho&#xaf;ie&#xaf; &#x17f;edente&#xaf; i&#xaf; teloneo<pc>.</pc> <name type="person">matheu&#xaf;</name></l>
+            <l xml:lang="lat" xml:id="junius1.449">noi&#xaf;e<pc>.</pc> Scd&#xb4;m <name type="person">math&#xf1c7;</name> <num value="43"><pc>.</pc>xliii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.450">Loq<!--q is crossed-->&#xaf;te <name type="person">ie&#x17f;u</name> ad turba&#x17f;<pc>&#xf161;</pc> ec</l>
+            <l xml:lang="lat" xml:id="junius1.451">ce pri&#xaf;cep&#x17f; un<hi>n</hi> acce&#x17f;&#x17f;it<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.452">&amp; ad&#x153;bat eu&#xaf; dice&#xaf;&#x17f;<pc>.</pc> dn&#xaf;e</l>
+            <l xml:lang="lat" xml:id="junius1.453">filia<pc>.</pc> Scd&#xb4;m <name type="person">math&#xf1c7;</name> <num value="44"><pc>.</pc>xliii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.454">Tra&#xaf;&#x17f;eu&#xaf;te i&#xaf;n <name type="person">ie&#x17f;u</name><pc>&#xf161;</pc> &#x17f;ecuti</l>
+            <l xml:lang="lat" xml:id="junius1.455">&#x17f;t&#xaf; eu&#xaf; duo ceci<pc>.</pc> clama&#xaf;te&#x17f; &amp; dice&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.456">te&#x17f;<pc>.</pc> fili <name type="person">dauid</name><pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="45"><pc>.</pc>xlu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.457">Circuibat <name type="person">ie&#x17f;u&#x17f;</name>  ciuitate&#x17f; o&#xaf;&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.458">&amp; ca&#x17f;tella<pc>.</pc> docen&#x17f; i&#xaf; &#x17f;&#x1e8f;nagogi&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.459">eo&#xa75d;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;e&#xaf;</name> <num value="46"><pc>.</pc>xlui<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.460"><pc>&#xb7;</pc>Erat a&#xf1c7; die&#x17f; fe&#x17f;tu&#x17f; <name type="place">iudo&#xa75d;</name><pc>.</pc>&amp; a&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.461">cendit <name type="person">ie&#x17f;u&#x17f;</name> <name type="place">iero&#x17f;olima&#xaf;</name><pc>.</pc> erat</l>
+            <l xml:lang="lat" xml:id="junius1.462">a&#xf1c7; <name type="place">iero&#x17f;olimi&#x17f;</name> &#xa753;batica pi&#x17f;ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.463">na qui&#xaf; q; po&#xa75b;t&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;</name> <num value="47"><pc>.</pc>xluii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.464">&#xa752;pt&#xaf;ea p<!--crossed-->&#x17f;eq&#xaf;ba&#xaf;tur <name type="place">iudei</name> <name type="person">ih&#xb4;m</name><pc>&#xf161;</pc> q&#xa75b;</l>
+            <l xml:lang="lat" xml:id="junius1.465">hec faciebat i&#xaf; &#x17f;abb&#xb4;to<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.466">Scd&#xb4;m <name type="person">iohanne</name> <num value="48"><pc>.</pc>xluiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.467">Non po&#x17f;&#x17f;u&#xaf; ego a mem&amp; ip&#x17f;o face&#xf1c7;e</l>
+            <l xml:lang="lat" xml:id="junius1.468">qui&#xf14d;<pc>&#xb7;</pc> &#x17f;; &#x17f;i&#xaf; audio<pc>&#xf161;</pc> iudico<pc>.</pc>&amp; iudi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.469">tiu&#xaf; meu&#xaf; i<hi>&#xa76f;<!--unclear, doesn't make sense as an abbreviation--></hi>tu&#xaf; e&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">ioh&#xb4;</name> <num value="49"><pc>.</pc>xlix<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.470">Abi&#xb4;i&#xb4;t <name type="person">ih&#xb4;&#x17f;</name> t&#x1dd3;n&#x17f; <name type="place">mare <name type="place">galilee</name></name><pc>.</pc> q&#xb4;<!--q also extends up a bit like a backwards thorn--></l>
+            <l xml:lang="lat" xml:id="junius1.471">e&#x17f;t <name type="place">t&#x1e8f;beriadi&#x17f;</name><pc>.</pc>&amp; &#x17f;eq&#xaf;bat<hi>~</hi> eu&#xaf; mul<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.472">titudo m&#x2E35;<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="50"><pc>.</pc>l<pc>.</pc></num><!--some non Ormin writing--></l>
+            <l xml:lang="lat" xml:id="junius1.473">Uide&#xaf;&#x17f; a&#xf1c7; <name type="person">ih&#xb4;&#x17f;</name> t<hi>~</hi>ba&#x17f;<pc>&#xf161;</pc> a&#x17f;&#x17f;cendit i&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.474">mo&#xaf;te&#xaf;<pc>.</pc>&amp; c&#xaf; &#x17f;edi&#x17f;&#x17f;et<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="51"><pc>.</pc>li<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.475">Uo&#x17f; e&#x17f;ti&#x17f; &#x17f;al t&#xf1c7;re<pc>.</pc> Quod &#x17f;i &#x17f;al eua<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.476">nuerit<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="52"><pc>.</pc>lii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.477">Ni&#x17f;i abundauerit iu&#x17f;titia ur&#xaf;a</l>
+            <l xml:lang="lat" xml:id="junius1.478">pl&#xf1a6; &#xf14d;&#xaf; &#x17f;c<!--some superscript char, can't read-->b&#xf1c7;<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="53"><pc>.</pc>lii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.479">E&#x17f;to &#xa76f;&#x17f;entie&#xaf;&#x17f; adu&#xf1c7;&#x17f;ario tuo cito<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.480">du&#xaf; e&#x17f; i&#xaf; uia c&#xaf; eo<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="54"><pc>.</pc>liii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.481">Dictu&#xaf; e&#xaf; a&#xaf;tiqui&#x17f;<pc>.</pc> Q<hi>i</hi>c&#xaf;q; dimi&#x17f;erit</l>
+            <l xml:lang="lat" xml:id="junius1.482">ux&#x153;e&#xaf; &#x17f;ua&#xaf;<pc>&#xf161;</pc> det illi libellu&#xaf; repudi<hi>i</hi><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.483">ego a&#xf1c7; dico uobi&#x17f;<pc>.</pc> q&#xa75b; oi&#xaf;&#x17f; qui dimi&#x17f;erit</l>
+            <l xml:lang="lat" xml:id="junius1.484">uxo&#xa75b;e&#xaf; &#x17f;ua&#xaf; excepta fo&#xa75b;nico&#xf1c7;i&#xaf;&#x17f; cau&#x17f;a<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.485">Fac&#xaf; ea&#xaf; mecari<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="55"><pc>.</pc>lu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.486">Audi&#x17f;ti&#x17f; q&#xa75b; dcm&#xaf; e&#xaf;<pc>.</pc> dilige&#x17f; &#xa753;ximu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.487">tuu&#xaf;<pc>.</pc>&amp; odio habebi&#x17f; inimicu&#xaf;<pc>.</pc> ego a&#xf1c7;</l>
+            <l xml:lang="lat" xml:id="junius1.488">dico uobi&#x17f;<pc>.</pc> diligite inimio&#x17f; uro&#xaf;&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.489">Scd&#xb4;m <name type="person">matheum</name> <num value="56"><pc>.</pc>lui<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.490">Cu&#xaf; g<hi>o</hi> faci&#x17f; ele&#x17f;&#x1e8f;na&#xaf;<pc>&#xf161;</pc> noli tuba can<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.491">nere an&#xaf; te<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="57"><pc>.</pc>luii<pc>.</pc></num><!--line extends into other column--> Pat&#xf1c7; nr&#xaf; q<hi>i</hi> e&#x17f; in celi&#x17f;<pc>&#xb7;</pc>&amp; ceta<pc>&#xb7;</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="58"><pc>.</pc>lui<hi>i</hi>i<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.492">Si a&#xf1c7; dimi&#x17f;eriti&#x17f; ho&#xaf;ib; peccata</l>
+            <l xml:lang="lat" xml:id="junius1.493">eo&#xa75d; &amp; cet&#xf1c7;a<pc>.</pc> Cu&#xaf; a&#xf1c7; ie&#xb4;iunati&#x17f;<pc>&#xf161;</pc> no<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.494">lite fieri<pc>&#xb7;</pc> &#x17f;icut &#x1e8f;pocrite tri&#x17f;te&#x17f;<!--may be punctuation here--></l>
+            <l xml:lang="lat" xml:id="junius1.495">Scd&#xb4;m <name type="person">matheum</name> <num value="59"><pc>.</pc>lixi.</num></l>
+            <l xml:lang="lat" xml:id="junius1.496">Luc&#xf1c7;na co&#xa75b;p<!--crossed p-->i&#x17f; tui<pc>&#xf161;</pc> e&#x17f;t</l>
+            <l xml:lang="lat" xml:id="junius1.497">ocl&#xb4;&#x17f; tuu&#x17f;<pc>.</pc>Scd&#xb4;m <name type="person">matheu&#xaf;</name> <num value="60"><pc>.</pc>lx<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.498">Nemo pote&#x17f;t duob; dni&#xaf;&#x17f; &#x17f;er<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.499">uire<pc>.</pc> Scd&#xb4;m <name type="person">matheu&#xaf;</name> <num value="61"><pc>.</pc>lxi<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.500">Nolite iudicare<pc>&#xf161;</pc> ut n&#xaf; iudice<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.501">mini<pc>.</pc> Scd&#xb4;m m<name type="person">matheu&#xaf;</name> <num value="62"><pc>.</pc>lxii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.502">Atte&#xaf;dite a fal&#x17f;i&#x17f; &#xa753;ph&#xb4;i&#x17f; q<hi>i</hi> ueni<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.503">u&#xaf;t ad uo&#x17f;<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="63"><pc>.</pc>lxiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.504">Cu&#xaf; a&#xf1c7; de&#x17f;cendi&#x17f;&#x17f;et demo&#xaf;te<pc>&#xf161;</pc> &#x17f;ecu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.505">te &#x17f;t&#xaf; eu&#xaf; t<hi>~</hi>be m&#xaf;lte<pc>.</pc>&amp; ecce le&#xa753;&#x17f;&#xf1a6; ue<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.506">nie&#x17f; ado&#xa75b;abat eu&#xaf; dice&#xaf;&#x17f;<pc>.</pc> dn&#xaf;e &#x17f;i ui&#x17f;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.507">poe<pc>&#xb7;</pc> me<pc>.</pc> mu&#xaf;<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="64"><pc>.</pc>lxiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.508">Uiden&#x17f; a&#xf1c7; <name type="person">ih&#xb4;&#x17f;</name> m&#xaf;lta&#x17f; turba&#x17f; circu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.509">&#x17f;e<pc>&#xf161;</pc> iu&#x17f;&#x17f;it ire tra&#xaf;&#x17f; fretum<pc>.</pc>&amp; ac<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.510">ceden&#x17f; un&#xf1a6; &#x17f;criba ait illi<pc>&#xb7;</pc> <!-- gets fairly faded-->magi&#x17f;t&#xf1c7;<pc>.</pc></l>
+            <cb/>
+            <l xml:lang="lat" xml:id="junius1.511">&#x17f;eq&#x1dd3;r te<pc>&#xf161;</pc> quoc&#xaf;q;</l>
+            <l xml:lang="lat" xml:id="junius1.512">ieri&#x17f;<pc>.</pc> Scd&#xb4;m ma<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.513">theum<num value="65"><pc>.</pc>lxu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.514">A&#x17f;cendente <name type="person">ih&#xb4;u</name> i&#xaf; naui<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.515">cl&#xaf;m&#xaf;<pc>&#xf161;</pc> &#x17f;ecuti &#x17f;t&#xaf; eu&#xaf; di&#x17f;cipl&#xb4;i</l>
+            <l xml:lang="lat" xml:id="junius1.516">ei&#xf1a6;<pc>.</pc>&amp; ecce motu&#x17f; magn&#xf1a6; fc&#x17f;&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.517">e&#xaf; i&#xaf;<pc>&#xb7;</pc> m&#xaf;<pc>.</pc> Sd&#xb4;m <name type="person">math&#xb4;m</name> <num value="66"><pc>.</pc>lxui<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.518">Et c&#xaf; ueni&#x17f;&#x17f;et tra&#xaf;&#x17f; fretu&#xaf; i&#xaf; regi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.519">one&#xaf; <name type="place">gera&#x17f;eno&#xa75d;</name><pc>&#xf161;</pc> occurrert&#xaf; ei duo</l>
+            <l xml:lang="lat" xml:id="junius1.520">habe&#xaf;te&#x17f; demo&#xaf;ia<pc>.</pc> S&#xf1c7;<pc>.</pc><name type="person">math&#xb4;</name> <num value="67"><pc>.</pc>lxuii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.521">A&#x17f;ce&#xaf;de&#xaf;&#x17f; <name type="person">ih&#xb4;&#x17f;</name> i&#xaf; nauicl&#xb4;a&#xaf; t&#x1dd3;n&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.522">fretauit<pc>.</pc>&amp; uenit i&#xaf; ciuitate&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.523">&#x17f;ua&#xaf;<pc>.</pc>&amp; ecce offereba&#xaf;t ei para<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.524">liticu&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="68"><pc>.</pc>lxuiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.525">Co&#xaf;uocati&#x17f; duodeci&#xaf; di&#x17f;ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.526">pl&#xb4;i&#x17f; &#x17f;iu&#x17f;<pc>&#xf161;</pc> dedit ei&#x17f; pote&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.527">tate&#xaf; &#x17f;p&#xaf;uu&#xaf; i&#xaf;mu&#xaf;do&#xa75d;<pc>.</pc> Duo<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.528">deci&#xaf; a&#xf1c7; apl&#xb4;o&#xa75d; no&#xaf;i&#xaf;a &#x17f;t&#xaf; hec<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.529">Scd&#xb4;m <name type="person">matheu&#xaf;</name> <num value="69"><pc>.</pc>lxix<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.530">Mi&#x17f;it <name type="person">ih&#xb4;&#x17f;</name> apl&#xb4;o&#x17f; &#x17f;uo&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.531">ad p&#xf1c7;dica&#xaf;du&#xaf; dice&#xaf;&#x17f;<pc>.</pc> In via&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.532">ge&#xaf;tiu&#xaf; ne abieriti&#x17f;<pc>.</pc>&amp;c<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.533">Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="70"><pc>&#xb7;</pc>lxx<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.534">Ecce ego mitto uo&#x17f; &#x17f;ic&#xaf; o<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.535">ue&#x17f; i&#xaf; medio lupo&#xa75d;<pc>.</pc> E&#x17f;tote</l>
+            <l xml:lang="lat" xml:id="junius1.536">ergo<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="71"><pc>.</pc>lxxi<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.537">Nichil optu&#xaf;<pc>.</pc> quod n&#xaf; re<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.538">uelabr&#xaf;<pc>.</pc>&amp; occulltu&#xaf;<pc>&#xb7;</pc> q&#xaf; n&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.539">&#x17f;ciet<hi>~</hi><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="72"><pc>.</pc>lxxii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.540">Nolite arbitrari</l>
+            <l xml:lang="lat" xml:id="junius1.541">q&#xa75b; uen&#xf1c7;i&#xaf;  pace&#xaf; mitt&#xf1c7;e in</l>
+            <l xml:lang="lat" xml:id="junius1.542">t&#xf1c7;ra&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="73"><pc>.</pc>lxxiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.543">Qu&#xaf;ata audiuim&#xf1a6;</l>
+            <l xml:lang="lat" xml:id="junius1.544">facta i&#xaf; cafarnau&#xaf;<pc>&#xf161;</pc> fac</l>
+            <l xml:lang="lat" xml:id="junius1.545">&amp; hic i&#xaf; patria tua<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.546">Reuer&#x17f;i &#x17f;t&#xaf; apl&#xb4;i a p&#xf1c7;di<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.547">catio&#xaf;e<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="74"><pc>.</pc>lxxiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.548">Ibat <name type="person">ie&#x17f;u&#x17f;</name> i&#xaf; ciuitate&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.549">que uocat<hi>~</hi> <name type="place">na&#x1e8f;m</name><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.550">Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="75"><pc>.</pc>lxxu<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.551">Int&#x1dd3;uit <name type="person">ih&#xb4;&#x17f;</name> i&#xaf; domu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.552">cui&#xf1a6;da&#xaf; p<hi>i</hi><!--maybe some underlining here-->ncipi&#x17f; <!--name spill over-->far&#x1e8f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.553">&#x17f;eo&#xa75d; &#x17f;abbato mandu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.554">care panen<pc>.</pc>&amp; ip&#x17f;i</l>
+            <l xml:lang="lat" xml:id="junius1.555">ob&#x17f;eruaba&#xaf;t eum<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.556"><!--this is where the bleed over happened on the other column-->Scd&#xb4;m</l>
+            <l xml:lang="lat" xml:id="junius1.557">marcum<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.558"><num value="76">.lxxui<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.559">Re&#x17f;po&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.560">de&#x17f; un&#xf1a6;</l>
+            <l xml:lang="lat" xml:id="junius1.561">de turba</l>
+            <l xml:lang="lat" xml:id="junius1.562">dix&#xaf;<pc>.</pc> magi&#x17f;ter att<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.563">li filiu&#xaf; meu&#xaf; ad te ha<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.564">be&#xaf;te&#xaf; &#x17f;p&#xaf;m mutum<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.565">S&#xf1c7;<pc>.</pc><name type="person">luca&#xaf;</name> <num value="77"><pc>.</pc>lxxuii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.566">Po&#x17f;t h&#xb4; a&#xf1c7; de&#x17f;igna<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.567">uit dn&#xaf;&#x17f; &amp; alio&#x17f; &#x17f;ep<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.568">tuagi&#xaf;ta duo&#x17f;<pc>.</pc>&amp; dixit</l>
+            <l xml:lang="lat" xml:id="junius1.569">ill&#xb4;<pc>.</pc> me&#x17f;&#x17f;i&#x17f; q&#xb4;<!--q extends up and is crossed--> multa<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.570">Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="78"><pc>.</pc>lxxuiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.571">Rogabat <name type="person">ih&#xb4;m</name> q<hi>i</hi><pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.572">da&#xaf; <name type="organization">fari&#x17f;e&#xf1a6;</name> ut ma&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.573">ducar&amp; cu&#xaf; eo<pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.574">ingre&#x17f;&#x17f;&#xf1a6; domu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.575"><name type="organizaiton">fari&#x17f;ei</name> di&#x17f;cbuit<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.576">&amp; ecce mulier</l>
+            <pb/>
+            <l xml:lang="lat" xml:id="junius1.577">que erat in ciuitate<pc>:</pc> pec<pc>.</pc> S&#xf1c7; <name type="person">math&#xb4;</name> <num value="79"><pc>.</pc>lxxix<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.578"><name type="person">Ioh&#xaf;e&#x17f;</name> a&#xf1c7; c&#xaf; audi&#x17f;&#x17f;&amp; i&#xaf; ui&#xaf;cl&#xb4;i&#x17f; op<!--crossed-->a x<hi>i</hi><pc>&#xf161;</pc> mitte&#xaf;&#x17f; duo&#x17f;<!--8 or d like mark here that doesn't appear in HW--></l>
+            <l xml:lang="lat" xml:id="junius1.579">de di&#x17f;cipil&#xb4;i&#x17f; &#x17f;ui&#x17f; ait illi<pc>.</pc> Tu e&#x17f; q<hi>i</hi> ue&#xaf;t&#xf1c7;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math</name> <num value="80"><pc>&#xb7;</pc>lxxx<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.580">Am&#xaf; dico uob&#xaf;<pc>.</pc> n&#xaf; &#x17f;urrex&#xaf;<!-- overlines are unclear here--> i&#xaf;t&#xf1c7; nato&#x17f; mulieru&#xaf; maio<!--next char unclear-->2 <!--name spill over-->ioh&#xb4;e</l>
+            <l xml:lang="lat" xml:id="junius1.581">bapapti&#x17f;ta<pc>.</pc> Se&#xa76f;du&#xaf; <name type="person">matheum</name> <num value="81"><pc>.</pc>lxxxi<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.582">In illo tp&#xaf;r<pc>&#xf161;</pc> Re&#x17f;ponde&#xaf;&#x17f; <name type="person">ih&#xaf;&#x17f;</name> dix&#xaf;<pc>&#xb7;</pc> Confiteo&#xa75b; t<hi>i</hi> pr&#xaf;<pc>.</pc> dn&#xaf;e</l>
+            <l xml:lang="lat" xml:id="junius1.583">celi <!--HW has an et, I don't see it-->ci terre<pc>.</pc> Scd&#xb4;m <name type="person">lucam</name> <num value="82"><pc>&#xb7;</pc>lxxxii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.584">Reuer&#x17f;i &#x17f;t&#xaf; aute&#xaf; &#x17f;eptuagi&#xaf;ta duo cu&#xaf; gaudio dicete&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.585">dn&#xaf;e &amp;&#xaf; d<hi>e<!--maybe--></hi>mo&#xaf;ia &#x17f;ubiciu&#xaf;t<hi>~</hi> nob&#xaf; i&#xaf;.n&#xf1c7;.t&#xf1c7;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="83"><pc>.</pc>lxxxiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.586">Fcm&#xaf; e&#x17f;t a&#xf1c7; cu&#xaf; t&#x1dd3;n&#x17f;iret p<!--crossed--> &#x17f;ata i&#xaf; &#x17f;abb<!--crossed-->to<pc>&#xf161;</pc> uelleba&#xaf;t di&#x17f;ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.587">pl&#xb4;i ei&#xf1a6; &#x17f;pica&#x17f;<pc>.</pc>&amp; mad&#xaf;ducaba&#xaf;t<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="84"><pc>.</pc>lxxxiiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.588">Fcm&#xaf; e&#xaf; a&#xf1c7; ut i&#xaf;t&#x1dd3;r&amp; i&#xaf; &#x17f;&#x1e8f;nagogam i&#xaf; &#x17f;abb<!--crossed-->to<pc>.</pc>&amp; docer&amp;<pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.589">erat ibi ho&#xaf;<pc>.</pc>&amp; man&#xf1a6; ei&#xf1a6; dext&#xf1c7;a arida<pc>.</pc>S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="85"><pc>.</pc>lxxxu<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.590">Exeu&#xaf;te&#x17f; a&#xf1c7; <name type="organization">fari&#x17f;ei</name> &#xa76f;&#x17f;ilium facieba&#xaf;t aduer&#x17f;u&#x17f; eu&#xaf; q<hi>o</hi></l>
+            <l xml:lang="lat" xml:id="junius1.591">modo eu&#xaf; p<!--crossed-->dere&#xaf;t<pc>.</pc> Scd&#xb4;m <name type="person">luca&#xaf;</name> <num value="86"><pc>.</pc>lxxxui<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.592">Erat <name type="person">ih&#xaf;&#x17f;</name> eicie&#xaf;&#x17f; demo&#xaf;iu&#xaf;<pc>.</pc>&amp; ill<!--crossed-->d erat mutu&#xaf;<pc>.</pc>&amp; cu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.593">eieci&#x17f;&#x17f;&amp; dem&#xaf;iu&#xaf;<pc>.</pc> Scdm&#xaf; <name type="person">matheu&#xaf;</name> <num value="87"><pc>.</pc>lxxxuii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.594">Q<hi>i</hi> n&#x17f; e&#x17f;t mecu&#xaf;<pc>&#xf161;</pc> &#xa76f;tra me e&#x17f;t<pc>.</pc>&amp; qui non colligit</l>
+            <l xml:lang="lat" xml:id="junius1.595">mecu&#xaf;<pc>&#xf161;</pc> &#x17f;pargit<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="88"><pc>.</pc>lxxxuiii.</num></l>
+            <l xml:lang="lat" xml:id="junius1.596">Re&#x17f;po&#xaf;dert&#xaf; ei q<hi>i</hi>dam de&#x17f;cribi&#x17f;<pc>.</pc>&amp; de &#x17f;cribi&#x17f;<pc>.</pc>&amp; de <name type="organization">fari&#x17f;ei&#x17f; dice&#xaf;te<hi>s</hi><pc>.</pc></name></l>
+            <l xml:lang="lat" xml:id="junius1.597">magi&#x17f;t&#xf1c7; uolum&#xf1a6; a te &#x17f;ign&#xaf;<pc>.</pc> uid&#xf1c7;e<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="89"><pc>.</pc>lxxxix<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.598">Loque&#xaf;te <name type="person">ih&#xaf;u</name> ad tura&#x17f;<pc>&#xbf161;</pc> extolle&#xaf;&#x17f; uocem q&#xaf;da&#xaf; mu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.599">lier de t<hi>~</hi>ba dix&#xaf; illi<pc>.</pc> Beat&#xf1a6; ue&#xaf;t&#xf1c7;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="90"><pc>.</pc>lxxxx<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.600">Cu&#xaf; turba plurima &#xa76f;uenire&amp;<pc>.</pc>&amp; de ciuitatib; &#xa753;p<!--crossed-->a<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.601">rent ad eum<pc>&#xf161;</pc> dix&#xaf; p<!--crossed--> &#x17f;imilitudine&#xaf;<pc>.</pc> Exi&#xb4;i&#xb4;t qui</l>
+            <l xml:lang="lat" xml:id="junius1.602">&#x17f;eminat<pc>.</pc> Scd&#xb4;m <name type="person">math&#xaf;</name> <num value="91"><pc>.</pc>lxxxxi<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.603">Simile fcm&#xaf; e&#xaf; regnu&#xaf; celo&#xa75d; ho&#xaf;i&#xaf; q<hi>i</hi> &#x17f;eminauit</l>
+            <l xml:lang="lat" xml:id="junius1.604">bonu&#xaf; &#x17f;em&#xaf; i&#xaf; ag<hi>o</hi> &#x17f;uo<pc>&#xb7;</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="92"><pc>.</pc>lxxxxii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.605">Simile e&#xaf; regnu&#xaf; celo&#xa75d; g&#x1dd3;no &#x17f;ianapi&#x17f; &amp; cet&#xf1c7;a<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.606">Secundu&#xaf; <name type="person">matheum</name> <num value="93"><pc>&#xb7;</pc>lxxxxiii</num><pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.607">Simile e&#xaf; regnu&#xaf; celo&#xa75d; the&#x17f;auro ab&#x17f;no&#xaf;dito</l>
+            <l xml:lang="lat" xml:id="junius1.608">in agro<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;</name> <num value="94"><pc>.</pc>lxxxxiiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.609">Cu&#xaf; &#x1fb;&#x17f;u&#xaf;ma&#x17f;&#x17f;et <name type="person">ih&#xaf;&#x17f;</name> parabola&#x17f; i&#x17f;ta&#x17f;<pc>&#xf161;</pc> t&#x1dd3;n&#x17f;i&#xb4;i&#xb4;t</l>
+            <l xml:lang="lat" xml:id="junius1.610">inde<pc>.</pc>&amp; uinie&#xaf;&#x17f; i&#xaf; pata<hi>i</hi>a&#xaf; &#x17f;ua&#xaf; docebat eo&#x17f; i&#xaf; &#x17f;&#x1e8f;na<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.611">gogi&#x17f; eo&#xa75d;<pc>.</pc> Scd&#xaf;m <name type="person">marcu&#xaf;</name> <num value="95"><pc>.</pc>lxxxxu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.612"><name type="person">Herode&#x17f;</name> mi&#x17f;it<pc>.</pc>&amp; tenuit <name type="person">ioh&#xaf;e</name><pc>.</pc>&amp; uinx&#xaf; eu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.613">incarcere pp<!--both crossed--> <name type="person">herody</name><pc>.</pc> uxo&#xa75b;&#xf1c7; <name type="person">philip</name><pc>.</pc> fr&#xaf;i&#x17f; &#x17f;ui<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.614">q&#xa75b; dux&#xf1c7;<pc>.</pc> &amp;c&#xaf; die&#x17f; oportun&#xf1a6; accidi&#x17f;&#x17f;&amp;<pc>.</pc> S&#xf1c7;<pc>.</pc> math&#xaf;eum<pc>&#xb7;</pc> </l>
+            <l xml:lang="lat" xml:id="junius1.615"><num value="96">.lxxxxui<pc>&#xb7;</pc></num> Cu&#xaf; audi&#x17f;&#x17f;&amp; <name type="person">ih&#xaf;&#x17f;</name> q&#xa75b; decollat&#xf1a6; e&#x17f;t</l>
+            <l xml:lang="lat" xml:id="junius1.616"><name type="person">ioh&#xaf;e&#x17f;</name><pc>&#xf161;</pc> rece&#x17f;&#x17f;it in&#xaf; i&#xaf; nauicla&#xaf; i&#xaf; de&#x17f;ertu&#xaf; locu&#xaf; &#x17f;eo&#xa75b;&#x17f;u&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.617">&amp; turbe ml&#xaf;te uen&#xf1c7;u&#xaf;t ad eu&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xaf;e&#xaf;</name> <num value="97"><pc>.</pc>lxxxxuii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.618">Subiit g<hi>o</hi> i&#xaf; mo&#xaf;te&#xaf; <name type="person">ih&#xaf;&#x17f;</name><pc>.</pc>&amp;ibi &#x17f;edebat c&#xaf; di&#x17f;c&#x2e35;<!--maybe--> &#x17f;ui&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.619">erat a&#xf1c7; &#xa753;ximu&#xaf; <name type="location"><!--maybe-->pa&#x17f;ca</name><pc>.</pc> Scd&#xb4;m <name type="person">luca</name> <num value="98"><pc>.</pc>lxxxxuiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.620">Cu&#xaf; &#x17f;ero fcm&#xaf; ee&#xaf;t<pc>&#xf161;</pc> era naui&#x17f; i&#xaf; medio mari<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.621">&amp; ip&#x17f;e &#x17f;ot&#xf1a6; i&#xaf; t&#xf1c7;ra<pc>.</pc> Scd&#xb4;m iho&#xaf;e&#xaf;<num value="99"><pc>.</pc>lxxxxix<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.622">Alta&#xf1c7;a die turba que &#x17f;tabat tra&#xaf;&#x17f; mare ui<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.623">dit q&#xa75b; n&#xaf; erat ibi ali nauicl<!--crossed-->a n<hi>i</hi> una<pc>.</pc> S&#xf1c7; ioh&#xb4;e&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.624"><num value="100"><pc>.</pc>c<pc>&#xb7;</pc></num> Op<!--crossed-->amini n&#xaf; cibu&#xaf; q<hi>i</hi> p<!--crossed-->it<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xb4;e&#xaf;</name> <num value="101"><pc>.</pc>ci<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.625">Ome&#xaf; q&#xb4;<!--extends up--> dat m<hi>i</hi> pr&#xaf; ad me ueni&amp;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xb4;e&#xaf;</name> <num value="102"><pc>.</pc>cii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.626">Murmuraba&#xaf;t ergo iui&#xaf; de illo q&#xa75b; dixi&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.627">&#x17f;et<pc>.</pc> ego &#x17f;e&#xaf; pani&#x17f; uiuu&#x17f;<pc>.</pc> q<hi>i</hi> <!--d/8 thing again--> ce<pc>.</pc> de&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xb4;e&#xaf;</name> <num value="103"><pc>.</pc>c<pc>.</pc>iii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.628">Ego &#x17f;u&#xaf; pani&#x17f; uiuu&#x17f;<pc>.</pc> q<hi>i</hi> d<hi>e</hi><!--d/8 thing?--> ce<pc>.</pc> de&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xb4;e&#xaf;</name> <num value="104"><pc>.</pc>c<pc>.</pc>ii<hi>ii</hi></num><pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.629">Am&#xaf; am&#xaf; dico uob&#xaf;<pc>.</pc> n<hi>i</hi> ma&#xaf;ducaueriti&#x17f; car<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.630">nem fili&#xb4;i&#xb4; hoi&#xaf;&#x17f;<pc>.</pc> Scd&#xaf;m <name type="person">math&#xaf;</name> <num value="105"><pc>.</pc>c<pc>.</pc>u<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.631">&amp; c&#xaf; t&#x1dd3;n&#x17f;freta&#x17f;&#x17f;et&#xaf;<pc>&#xf161;</pc> unert&#xaf; i&#xaf; t&#xf1c7;ra&#xaf; <name type="place">gene&#x17f;ar</name><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.632">&amp; c&#xaf; cognoui&#x17f;&#x17f;et&#xaf; eu&#xaf; uiri lo<pc>.</pc> il<pc>.</pc><!--these dots are smaller and for abbreviation purposes, not sure how to distinguish--> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="106"><pc>.</pc>c<pc>.</pc>ui<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.633">Tc&#xaf; acce&#x17f;&#x17f;ert&#xaf; ad eu&#xaf; ab <name type="place">iero&#x17f;ol<!--crossed-->i&#x17f;</name> &#x17f;c<hi>i</hi>be &amp; <!--name spill over-->fari<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.634">&#x17f;ei dice&#xaf;te&#x17f;<pc>.</pc> Q&#x1dd3;re di&#x17f;cipl<!--crossed-->i tui<pc>.</pc> t&#x1dd3;n&#x17f;g&#xf1c7;<pc>&#xb7;</pc> t&#x1dd3;oic&#xf1c7;<pc>.</pc><!-- last bit a bit unclear--> pa<pc>.</pc> &#x17f;u<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.635">n&#xaf; <!--char here, looks like little H--> man&#xf1a6; laua&#xaf;t<pc>.</pc> c&#xaf; pa<pc>.</pc> ma&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Math&#xaf;</name> <num value="107"><pc>.</pc>c<pc>.</pc>uii<pc>&#xb7;</pc></num><!--cross type thing here--></l>
+            <l xml:lang="lat" xml:id="junius1.636">Egre&#x17f;&#x17f;u&#x17f; in&#xaf; <name type="person">ih&#xaf;&#x17f;</name> &#x17f;ece&#x17f;&#x17f;it i&#xaf; parte&#x17f; <name type="place">t&#x1e8f;ri</name><pc>.</pc>&amp; <!--name overflow-->&#x17f;i<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.637">doni&#x17f;<pc>.</pc>&amp; ecce mulier <name type="place"><!--not sure if this counts, it's an adjective-->can&#xf1c7;</name><pc>.</pc>S&#xf1c7;<pc>.</pc> <name type="person">marcu&#xaf;</name> <num value="108"><pc>.</pc>c<pc>.</pc>uiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.638">Exie&#xaf;&#x17f; de finib; <name type="place">t&#x1e8f;ri</name> uenit p<!--crossed--> <name type="place">&#x17f;&#x1e8f;done&#xaf;</name> ad ma<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.639">re <name type="place">galilee</name><pc>.</pc> i&#xaf;t&#xf1c7; medio<hi>s</hi><pc>.</pc> fi<pc>.</pc> d<hi>e</hi><!--d/8-->cap&#xf1c7;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="109"><pc>.</pc>c<pc>.</pc>ix<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.640">A&#x17f;ce&#xaf;de&#xaf;&#x17f; <name type="person">ih&#xaf;&#x17f;</name> i&#xaf; mo&#xaf;te&#xaf;<pc>&#xf161;</pc> &#x17f;edebat ibi<pc>&#xb7;</pc>&amp; acce&#x17f;&#x17f;ert&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.641">ad eu&#xaf; t<hi>~</hi>be m&#xaf;lte c&#xaf; m&#xaf;lti&#x17f; i&#xaf;firm<hi>i&#x17f;</hi><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">marcu&#xaf;</name> <num value="110"><pc>.</pc>c<pc>.</pc>x<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.642">Cu&#xaf; m&#xaf;lta turba ee&#xaf;t c&#xaf; <name type="person">ih&#xaf;u</name> nec hr&#xaf;et&#xaf; q&#xb4;<!--extended--> ma&#xaf;duca<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.643">ret<pc>&#xf161;</pc> &#xa76f;uocati&#x17f;<pc>.</pc> di&#x17f;c&#xf1c7;<pc>.</pc> ait ill<!--crossed?--><pc>.</pc> Mi&#x17f;ereo&#xa75b; &#x17f;r&#xaf; turba&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.644">q&#xa75b; ecce ia&#xaf; tri duo<pc>&#xb7;</pc> &#x17f;uft&#xf1c7;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="111"><pc>.</pc>c<pc>.</pc>xi<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.645">&amp;<!--but not a tironian et, our ampersand--> dimi&#x17f;&#x17f;a t&#x1dd3;ba<pc>&#xf161;</pc> a&#x17f;ce&#xaf;dit i&#xaf; nauicl<!--crossed-->am<pc>.</pc>&amp; ue<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.646">nit i&#xaf; fine&#x17f; <name type="place">mageda</name><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">marcu&#xaf;</name> <num value="112"><pc>.</pc>c<pc>.</pc>xii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.647">&amp; ueniut <name type="place">beth&#x17f;a&#x1e8f;da&#xaf;</name><pc>.</pc>&amp; adducut&#xaf; ei ce<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.648">cu&#xaf;<pc>.</pc>&amp; rogaba&#xaf;t eu&#xaf;<pc>.</pc> ut eu&#xaf; ta&#xaf;g&#xf1c7;&amp;<pc>.</pc> Et app&#xf1c7;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.649">he&#xaf;de&#xaf;&#x17f; manu&#xaf; ei&#xf1a6;<pc>.</pc> S&#xf1c7; <name type="person">math&#xaf;</name> <num value="113"><pc>.</pc>c.xiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.650">Uenit <name type="person">ie&#x17f;u&#x17f;</name> i&#xaf; parte&#x17f; ce&#x17f;aree</l>
+            <l xml:lang="lat" xml:id="junius1.651"><name type="place">philippi</name><pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="114"><pc>.</pc>c.xiiii<pc>&#xb7;</pc></num></l>
+            <pb/>
+            <l xml:lang="lat" xml:id="junius1.652">Tc&#xaf; precept di&#x17f;ipl&#xb4;i&#x17f; &#x17f;ui&#x17f; ut nemini d<!--unclear-->r&#xf1c7;e&#xaf;t q&#xb4;<!--crossed--> <!--hard to read-->e&#xaf;tt</l>
+            <l xml:lang="lat" xml:id="junius1.653">xp&#xaf;c <name type="person">ih&#xb4;&#x17f;</name><pc>.</pc> Scd&#xb4;m <name type="person">matheu&#xaf;</name> <num value="115"><pc>.</pc>c.xu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.654">Si q<!--crossed-->&#x17f; uult po&#x17f;t me uenire<pc>&#xf161;</pc> abneg&amp; &#x17f;em&amp;ip<pc>.</pc>&amp; tol<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.655">cruce &#x17f;ua&#xaf;<pc>.</pc>&amp; &#x17f;eq<hi>ua</hi>t<!--not sure--> me<pc>.</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="116"><pc>.</pc>c.xui<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.656">&amp; po&#x17f;t die&#x17f; &#x17f;ex<pc>&#xf161;</pc> a&#x17f;&#x17f;u&#xaf;p&#x17f;it <name type="person">ih&#xaf;&#x17f;</name> <name type="person">petru&#xaf;</name><pc>.</pc>&amp; <name type="person">iacobu&#xaf;</name><pc>.</pc>&amp; <!--name overspill-->io<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.657">ha&#xaf;ne<pc>.</pc>&amp; ducit eo&#x17f; i&#xaf; mo&#xaf;te&#xaf; excel&#x17f;u&#xaf; &#x17f;eo&#xa75b;&#x17f;u&#xaf;<pc>.</pc>&amp; t&#x1dd3;n&#x17f;fi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.658">guratu&#x17f; e&#x17f;t an&#xaf; eo&#x17f;<pc>&#xb7;</pc> Scd&#xb4;m <name type="person">math&#xb4;m</name> <num value="117"><pc>.</pc>c.xuii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.659">Int&#xf1c7;rogauert&#xaf; <name type="person">ih&#xaf;m</name> di&#x17f;cipl&#xb4;i ei&#xf1a6; dice&#xaf;te&#x17f;<pc>.</pc> Quid g<hi>o</hi> &#x17f;c<hi>i</hi>be</l>
+            <l xml:lang="lat" xml:id="junius1.660">dn&#xaf;t<pc>.</pc> qd <name type="person">helia&#xaf;</name> opo&#xa75b;tent primu&#xaf; uenire<pc>&#x2e35;</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="118"><pc>.</pc>c.xuiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.661">Cu&#xaf; uni&#x17f;&#x17f;&amp; <name type="person">ih&#xaf;&#x17f;</name> ad turba&#xaf;<pc>&#xf161;</pc> acce&#x17f;&#x17f;it ad eu&#xaf; homo<pc>.</pc> geni<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.662">b; &#xa753;uolutu&#x17f; an&#xaf; eu&#xaf; dice&#xaf;&#x17f;<pc>&#xb7;</pc> dn&#xaf;e mi&#x17f;er&#xf1c7;e filio meo<pc>.</pc> q&#xa75b; luna<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.663">ticu&#x17f; e&#x17f;t<pc>.</pc> Scd&#xaf;m <name type="person">marcu&#xaf;</name> <num value="119"><pc>.</pc>xix<pc>.</pc></num> In&#xaf; &#xa753;fci&#xaf; p&#xf1c7;t&#xf1c7;gredieba&#xaf;t&#x1dd3;</l>
+            <l xml:lang="lat" xml:id="junius1.664"><name type="place">galilea</name><pc>.</pc> nec uolebat q<!--crossed-->&#xaf;q<!--crossed-->&#x1dd3; &#x17f;cire<pc>.</pc>Scd&#xaf;m <name type="person">marcu&#xaf;</name> <num value="120"><pc>.</pc>c.xx<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.665">Re&#x17f;po&#xaf;dit illi <name type="person">ioh&#xaf;e&#x17f;</name> dice&#xaf;&#x17f;<pc>.</pc> magi&#x17f;t&#xf1c7; uidim&#xf1a6; q<!--crossed-->&#xaf;da&#xaf; in noi&#xaf;e</l>
+            <l xml:lang="lat" xml:id="junius1.666">tuo eiciente&#xaf; demo&#xaf;ia<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="21"><pc>.</pc>c.xxi<pc>&#xb7;</pc></num> In illa ho&#xa75b;a ac<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.667">ce&#x17f;&#x17f;ert di&#x17f;cipl&#xb4;i ad <name type="person">ie&#x17f;u&#xaf;</name> dice&#xaf;te&#x17f;<pc>.</pc> Q<hi>i</hi>&#x17f; puta&#x17f; maio&#xa75b; e&#x17f;t i&#xaf; reg<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.668">no ceo&#xa75d;<pc>&#xf161;</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="122"><pc>.</pc>c.xxii<pc>.</pc></num> Si au&#xaf; peccau&#xf1c7;it in te fr&#xaf; tuu&#xf1a6;<!--unclear--><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.669">uade &amp; co&#xa75b;ripe eu&#xaf; i&#xaf;t&#xf1c7; te<pc>.</pc>&amp; ip&#x17f;u&#xaf; &#x17f;olu&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="123"><pc>.</pc>c.xxiii<pc>.</pc></num> It&#xf1c7;u&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.670">dico uob&#xb4;<pc>.</pc> q&#xa75b; &#x17f;i duo ex uobi&#x17f; &#xa76f;&#x17f;e&#xaf;&#x17f;eri&#xaf;t &#x17f;r&#xaf; t&#xf1c7;ra&#xaf; de oi&#xaf; re<pc>.</pc> q<!--crossed-->&#x1dd3;c&#xaf;q;<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.671">S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="124"><pc>.</pc>c.xxiiii<pc>&#xb7;</pc></num> Io&#xaf; a&#x17f;&#x17f;imilatu&#xaf; e&#xaf; regnu&#xaf; celo&#xa75d; hoi&#xaf; re<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.672">gi<pc>.</pc> q<hi>i</hi> uoluit r&#xf1c7;o&#xaf;e&#xaf; ponere cu&#xaf; &#x17f;erui&#x17f; &#x17f;ui&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="125"><pc>.</pc>cxxu<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.673">&amp; fcm&#xaf; e&#xaf; c&#xaf; &#xa76f;&#x17f;u&#xaf;ma&#x17f;&#x17f;&amp; <name type="person">ih&#xaf;&#x17f;</name> &#x17f;ermo&#xaf;e&#x17f; i&#x17f;to&#x17f;<pc>&#xf161;</pc> mig&#x1dd3;uit a <!--name spill over-->gali<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.674">lea<pc>.</pc>&amp; uenit i&#xaf; fine&#x17f; <name type="place">iudee</name> t&#x1dd3;n&#x17f; <name type="place">io&#xa75b;dane&#xaf;</name><pc>.</pc>&amp; &#x17f;ecute &#x17f;t&#xaf; eu&#xaf; t<hi>~</hi>be</l>
+            <l xml:lang="lat" xml:id="junius1.675">m&#xaf;lte<pc>.</pc>&amp; curauit eo&#x17f; ibi<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="126"><pc>.</pc>c.xxui<pc>.</pc></num> Tc&#xaf; oblati &#x17f;t&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.676">ei paruuli ut man&#xf1a6; ei&#x17f; inpon&#xf1c7;&amp;<pc>.</pc>&amp; o&#xa75b;ar&amp;<pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="127"><pc>.</pc>ccu<hi>ii.</hi></num><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.677">Tc&#xaf; un&#xf1a6; accede&#xaf;&#x17f; ait illi<pc>.</pc> magi&#x17f;t&#xf1c7; bone q<hi>i</hi>d boni facia&#xaf; ut</l>
+            <l xml:lang="lat" xml:id="junius1.678">habea&#xaf; uita&#xaf; et&#xf1c7;na&#xaf;<pc>&#xf161;</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;m</name> <num value="128"><pc>.</pc>c.xxuiii<pc>.</pc></num> Ecce no&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.679">reliq<hi>i</hi>m&#xf1a6; oi&#xaf;a<pc>.</pc>&amp; &#x17f;ecuti &#x17f;um&#xf1a6; te<pc>.</pc> Quid g<hi>o</hi> erit nob&#xb4; p&#xf1c7;mii<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.680">S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="129"><pc>.</pc>c.xxix<pc>&#xb7;</pc></num> Simile e&#xaf; regnu&#xaf; celo&#xa75d; ho&#xaf;i pri&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.681">familia&#x17f;<pc>&#xf161;</pc> qui exiit p<hi>i</hi>mo mane &#xa76f;duc&#xf1c7;e op<!--crossed-->ario&#x17f; in vi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.682">nea&#xaf;<pc>.</pc> &#x17f;u<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="130"><pc>.</pc>c.xxx<pc>&#xb7;</pc></num>&amp; &#xa76f;u&#xf1c7;&#x17f;u&#x17f; ad di&#x17f;cipl<!--crossed-->o&#x17f; &#x17f;uo&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.683">aliqn&#xaf; ait<pc>.</pc> Beati ocl&#xb4;i qui uide&#xaf;t q&#xaf;uo&#x17f; uideti&#x17f;<pc>.</pc> dico a&#xf1c7; uo</l>
+            <l xml:lang="lat" xml:id="junius1.684">bi&#x17f;<pc>.</pc> q&#xaf;<!--extended--> mu<!--long line over it, but no abbreviation?-->lti &#xa753;ph&#xaf;e &amp; rege&#x17f;<pc>.</pc> uolu<pc>.</pc> uid&#xf1c7;e q&#xaf; uo&#x17f;<pc>.</pc> uid&#xf1c7;<pc>.</pc>&amp; n&#xaf; uid&#xf1c7;ut<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.685">&amp; audi&#xf1c7;<pc>.</pc> q<pc>.</pc> aud<!--unclear-->&amp; n&#xaf; audi&#xf1c7;<pc>.</pc>&amp; ecce q<hi>i</hi>da&#xaf; legi&#x17f;p<!--crossed-->it&#xf1a6; &#x17f;urrext<!--other mark?--></l>
+            <l xml:lang="lat" xml:id="junius1.686">S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="131"><pc>.</pc>c.xxxi</num> Int&#x1dd3;uit <name type="person">ih&#xaf;&#x17f;</name> in q<!--extended-->da&#xaf; ca&#x17f;tellu&#xaf;<pc>.</pc>&amp; mu</l>
+            <l xml:lang="lat" xml:id="junius1.687">lier queda&#xaf; <name type="person">martha</name> no<!--filled in-->i&#xaf;e excep&#xaf;<pc>.</pc> illu&#xaf;<!--overline extends to next--> i&#xaf; domu&#xaf; &#x17f;ua&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.688">S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="132"><pc>.</pc>c.xxxii</num> Rogauit <name type="person">ih&#xaf;m</name> quida <name type="organization">far&#x1e8f;&#x17f;e&#xf1a6;</name> ut</l>
+            <l xml:lang="lat" xml:id="junius1.689">prander&amp; apd<!--crossed--> &#x17f;e<pc>&#xf161;<!--unclear--></pc>&amp; i&#xaf;gre&#x17f;&#x17f;&#xf1a6; di&#x17f;cubuit<pc>.</pc> <name type="organization">phari&#x17f;eu&#x17f;</name></l>
+            <l xml:lang="lat" xml:id="junius1.690">a&#xf1c7; cep i&#xaf;t&#x1dd3; &#x17f;e reuta&#xaf;&#x17f; d&#xf1c7;re<pc>&#xb7;</pc> Q&#x1dd3;re n&#xaf; baptizat&#xf1a6; ee&#xaf;t an&#xaf; p&#x1dd3;n<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.691">diu&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="133"><pc>.</pc>c.xxxiii</num> Ait a&#xf1c7; quida&#xaf; ei de turba</l>
+            <l xml:lang="lat" xml:id="junius1.692">magi&#x17f;t&#xf1c7; dic fri&#xaf; meo ut diuidat mec&#xaf; hereditate&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.693">&amp; ille dix&#xaf; ei<pc>.</pc> ho&#xaf; qui&#x17f; me &#xa76f;&#x17f;tituit iudice&#xaf; aut diui</l>
+            <l xml:lang="lat" xml:id="junius1.694">&#x17f;o&#xa75b;e&#xaf; &#x17f;up<!--crossed--> uo&#x17f;<pc>.</pc><!--then there's a line here, just a line-->S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="134"><pc>.</pc>c.xxxiiii</num> Nolite ti<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.695">mere pu&#x17f;illu&#x17f; grex<pc>.</pc> q&#xa75b; &#xa76f;placuit pr&#xaf;i medo da<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.696">re uobi&#x17f; regnum<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="135"><pc>.</pc>c.xxxu<pc>&#xb7;</pc></num> Sint</l>
+            <l xml:lang="lat" xml:id="junius1.697">lu&#xaf;bi uri&#xaf; preci&#xaf;cti<pc>.</pc>&amp; luc&#xf1c7;ne arde&#xaf;te&#x17f; i&#xaf; mani</l>
+            <l xml:lang="lat" xml:id="junius1.698">b; uri&#xaf;&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="136"><pc>.</pc>c.xxxui</num> Qd&#xb4; &#x17f;i dix&#xf1c7;it &#x17f;er<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.699">uu&#x17f; ille<pc>.</pc> mo&#xa75b;a&#xaf; facit dn&#xaf;&#x17f; uenire<pc>.</pc>&amp; cepit</l>
+            <l xml:lang="lat" xml:id="junius1.700">p<!--crossed-->cut&#xf1c7;e puero&#x17f;<pc>.</pc>&amp; ancilla&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="137"><pc>.</pc>c.xxxui<hi>i</hi><pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.701">Adera&#xaf;t a&#xf1c7; q<hi>i</hi>da&#xaf; ip&#x17f;o i&#xaf; tp&#xaf;r<pc>.</pc> nu&#xaf;tia&#xaf;te&#x17f; illi de</l>
+            <l xml:lang="lat" xml:id="junius1.702"><name type="place">galilei&#x17f;</name><pc>.</pc> q<hi>o</hi>&#xa75d; &#x17f;agui&#xaf;e&#xaf; <name type="person">pilatu&#x17f;</name> mi&#x17f;uit cu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.703">&#x17f;acrificii&#x17f; eo&#xa75d;<pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="138"><pc>.</pc>c<pc>.</pc>xxxuiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.704">Dicebat a&#xf1c7; ha&#xaf;c &#x17f;imilitudinem<pc>&#xb7;</pc> Arbo<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.705">re&#xaf; fici habebat quida&#xaf; pla&#xaf;tatam in ui<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.706">nea &#x17f;ua<pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="139"><pc>.</pc>c<pc>.</pc>xxxix<pc>&#xb7;</pc></num> In illo te&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.707">po&#xa75b;e acce&#x17f;&#x17f;ert&#xaf; quidam <name type="organization">far&#x1e8f;&#x17f;eo&#xa75d;</name> dice&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.708">te&#x17f; illi<pc>&#xb7;</pc> Exi<pc>.</pc>&amp; uade hi&#xaf;c<pc>.</pc> q&#xa75b; <name type="person">herode&#x17f;</name> uult te</l>
+            <l xml:lang="lat" xml:id="junius1.709">occidere<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="140"><pc>.</pc>c<pc>.</pc>xxxx<pc>&#xb7;</pc></num> Cu&#xaf; faci&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.710">pra&#xaf;diu&#xaf; aut cena&#xaf;<pc>&#xf161;</pc> noli uocare amico&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.711">tuo&#x17f;<pc>.</pc> neq; fr&#xf1c7;e&#x17f; tuo&#x17f;<pc>.</pc> neq; cognato&#x17f;<pc>.</pc> neq;</l>
+            <l xml:lang="lat" xml:id="junius1.712">uicino&#x17f; diuite&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">matheu&#xaf;</name> <num value="141"><pc>.</pc>c<pc>.</pc>xli</num> Si<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.713">mile fcm&#xaf; e&#xaf; regnu&#xaf; celo&#xa75d; ho&#xaf;i regi<pc>.</pc> qu:<!--?--> fe<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.714">cit nuptia&#x17f; filio &#x17f;uo<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="142"><pc>.</pc>c<pc>.</pc>xl<pc>.</pc>ii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.715">Si q<hi>i</hi>&#x17f; uenit ad me<pc>.</pc>&amp; non odit p&#xaf;re&#xaf; &#x17f;uu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.716">aut matre<pc>.</pc>&amp; uxo&#xa75b;e<pc>.</pc>&amp; filio&#x17f;<pc>&#xb7;</pc>&amp; fre&#xaf;&#x17f;<pc>.</pc>&amp; &#x17f;or<!--unclear-->&#xf1a6;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.717">S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="143"><pc>.</pc>c<pc>.</pc>xliii</num> Era&#xaf;t a&#xf1c7; appropi&#xaf;q&#x1dd3;te&#x17f; ei</l>
+            <l xml:lang="lat" xml:id="junius1.718">puplicani &amp; peccato&#xa75b;e&#x17f; ut audire&#xaf;t illu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.719">murmuraba&#xaf;t a&#xf1c7; <name type="organization">far&#x1e8f;&#x17f;ei</name> &amp; &#x17f;cribe dice&#xaf;te&#x17f;<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.720">q&#xa75b; hic pec<pc>.</pc> reci<pc>.</pc>&amp; ma&#xaf;<pc>.</pc> c&#xaf; il<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="144"><pc>.</pc>c<pc>.</pc>xl</num><pc>.</pc>iiii<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.721">Homo q<hi>i</hi>da&#xaf; habuit duo&#x17f; filio&#x17f; <!--some punctuation here-->&amp; dixit</l>
+            <l xml:lang="lat" xml:id="junius1.722">adole&#x17f;ce&#xaf;tio&#xa75b; ex ill<!--crossed, both--> pr&#xaf;i<pc>.</pc> pr&#xaf;<pc>.</pc> da m&#x1dd3; po&#xa75b;ti<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.723">one&#xaf; &#x17f;ub&#xb4;e q&#xaf; me &#xa76f;ti&#xaf;g&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Lucam</name> <num value="145"><pc>.</pc>c<pc>.</pc>xl<pc>.</pc>u<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.724">Homo quida&#xaf; erat diue&#x17f;<pc>.</pc> q<hi>i</hi> habebat uil<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.725">licu&#xaf;<pc>.</pc>&amp; hic diffamat&#x1dd3; e&#x17f;t ap&#xaf; illu&#xaf; qua&#x17f;i</l>
+            <l xml:lang="lat" xml:id="junius1.726">di&#x17f;&#x17f;ipa&#x17f;&#x17f;&amp; bona illi&#xf1a6;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="146"><pc>.</pc>c<pc>.</pc>xl<pc>.</pc>ui<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.727">Homo quida&#xaf; erat diue&#x17f;<pc>.</pc>&amp; induebat<!--unclear--></l>
+            <l xml:lang="lat" xml:id="junius1.728">purpura<pc>.</pc>&amp; bi&#x17f;&#x17f;o<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="147"><pc>.</pc>c<pc>.</pc>xluii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.729">Dix&#xaf;u&#xaf;t apl<!--crossed-->i dn&#xaf;o<pc>.</pc> adauge nob&#xb4; fid&#xb4;e<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.730">dix&#xaf; a&#xf1c7; dn&#xaf;&#x17f;<pc>.</pc> Si habueriti&#x17f; fide&#xaf; &#x17f;ic&#xaf;</l>
+            <pb/>
+            <l xml:lang="lat" xml:id="junius1.731">granu&#xaf; &#x17f;&#x1e8f;napi&#x17f;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.732">diceti&#x17f; huic arbo&#xa75b;i</l>
+            <l xml:lang="lat" xml:id="junius1.733">mo&#xa75b;o<pc>&#xb7;</pc> eradicare<pc>.</pc> S&#xf1c7;<pc>.</pc> Io<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.734">hane&#xaf; <num value="148"><pc>.</pc>c<pc>.</pc>xl<pc>.</pc>uiii</num> Erat a&#xf1c7; i&#xaf; &#xa753;xi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.735">modie&#x17f; fe&#x17f;t&#xf1a6; <name type="place">iud&#xb4;o&#xa75d;</name> <name>cenofeg&#x1e8f;a</name><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.736">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e</name> <num value="149"><pc>.</pc>c<pc>.</pc>xl<pc>.</pc>ix<pc>&#xb7;</pc></num> Ia&#xaf; a&#xf1c7; die fe&#x17f;to media&#xaf;te<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.737">a&#x17f;ce&#xaf;dit <name type="person">ih&#xaf;&#x17f;</name> i&#xaf; te&#xaf;plu&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xb4;e&#xaf;</name> <num value="150"><pc>.</pc>c<pc>.</pc>l<!--weird amount of space--></num> Audier&#xaf;t <!--name spill over-->fa<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.738">ry&#x17f;ei turba&#xaf; murmura&#xaf;te&#xaf; h&#xb4;<pc>.</pc>&amp; mi&#x17f;ert&#xaf; p<hi>i</hi>ncipe&#x17f; &amp; <!--name spill over-->fari<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.739">&#x17f;ei mini&#x17f;tro&#x17f; ut app<!--unclear-->hederet&#xaf; <name type="person">ih&#xb4;u&#xaf;</name><pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xb4;e&#xaf;</name> <num value="151"><pc>.</pc>c<pc>.</pc>li</num> Ih&#xb4;&#x17f; a&#xf1c7; p<!--crossed--><pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.740">rex&#xaf; i&#xaf; mo&#xaf;te&#xaf; <name type="place">oliueti</name><pc>&#xb7;</pc>&amp; dilucl<!--crossed-->o uenit i&#xaf; templu&#xaf;<pc>.</pc>&amp; oi&#xaf;&#x17f; ppl<!--crossed-->&#x17f; ue<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.741">niebat adeu&#xaf;<pc>.</pc>&amp; ip&#x17f;e &#x17f;ede&#x17f; docebat eo&#x17f;<pc>.</pc> adduc&#xaf;t a&#xf1c7; <name type="organization">phari&#x17f;ei</name> mulie<pc>-<!--faint--></pc></l>
+            <l xml:lang="lat" xml:id="junius1.742">re&#xaf; i&#xaf; adult&#xf1c7;io dep&#xf1c7;he&#xaf;&#x17f;a&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xb4;e&#xaf;</name> <num value="152"><pc>.</pc>c<pc>.</pc>l<pc>.</pc>ii</num> It&#xf1c7;u&#xaf; locutu&#x17f; e&#x17f; <name type="person">ih&#xb4;&#x17f;</name> dice&#xaf;&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.743">Ego &#x17f;u&#xaf; lux mu&#xaf;di<pc>&#xb7;</pc> qui &#x17f;eq&#xaf;r me n&#xaf; ambulat i&#xaf; tenebri&#x17f;<pc>.</pc> &#x17f;;</l>
+            <l xml:lang="lat" xml:id="junius1.744">hab&#xf1c7;<pc>.</pc> lu<pc>.</pc> uite<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xb4;e&#xaf;</name> <num value="153"><pc>.</pc>c<pc>.</pc>l<pc>.</pc>iii</num>  Dix&#xaf; g<hi>o</hi> it&#xf1c7;u&#xaf; ei&#x17f; <name type="person">ih&#xaf;&#x17f;</name><!--some punctuation goes here--> ego ua<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.745">do<pc>.</pc>&amp; q&#xaf;re&#xb4;ti&#x17f; me<pc>.</pc>&amp; i&#xaf; pecc&#xf1c7;o uro&#xaf; mo&#xa75b;iemini<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xb4;e&#xaf;</name> <num value="154"><pc>.</pc>c<pc>.</pc>l<pc>.</pc>iiii</num></l>
+            <l xml:lang="lat" xml:id="junius1.746">Q<hi>i</hi>&#x17f; ex uob&#xaf; argu&amp; me de pecc&#xf1c7;o<pc>&#x2e35;<!--maybe--></pc> Si u&#xf1c7;itat&#xaf;e dico<pc>.</pc> quaren&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.747">crediti&#x17f; m<hi>i</hi><pc>&#x2e35;<!--maybe--></pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xb4;e&#xaf;</name> <num value="155"><pc>.</pc>c<pc>.</pc>l<pc>.</pc>u<pc>&#xb7;</pc></num>&amp; p&#xf1c7;t&#xf1c7;ie&#x17f; <name type="person">ih&#xaf;&#x17f;</name> uidit hoi&#xaf;e&#xaf; ce<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.748">cu&#xaf; a natiuitate<pc>.</pc>&amp; it&#xf1c7;roga&#xf1c7;uu&#xaf;t eu&#xaf; di&#x17f;cipl<!--crossed-->i ei&#xf1a6;<pc>.</pc> Rabbi<pc>.</pc> qui&#x17f; pec<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.749">cauit<pc>.</pc> hic<pc>.</pc> aut parente&#x17f; ei&#xf1a6; ut cec&#xf1a6; na&#x17f;c&#xf1c7;etur<pc>&#x2e35;</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="156"><pc>.</pc>c<pc>.</pc>l<pc>.</pc>ui</num></l>
+            <l xml:lang="lat" xml:id="junius1.750">Duc&#xaf; ei&#x17f; <name type="person">ih&#xb4;&#x17f;</name><pc>.</pc> In iuditiu ego i&#xaf; hc&#xaf; mu&#xaf;du&#xaf; ueni<pc>.</pc> ut qui n&#xaf; uidet&#xaf;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.751">uideant<pc>.</pc>&amp; q<hi>i</hi> uidet&#xaf;<pc>&#xf161;</pc> ceci fia&#xaf;t<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="157"><pc>.</pc>c<pc>.</pc>l<pc>.</pc>uii</num> Am&#xaf;<pc>.</pc> am&#xaf; dico</l>
+            <l xml:lang="lat" xml:id="junius1.752">uob&#xb4;<pc>.</pc> qui n&#xaf; i&#xaf;t&#x1dd3;t p<!--crossed--> ho&#x17f;tiu&#xaf; i&#xaf; ouile ouiu&#xaf;<pc>.</pc> &#xaf;; a&#x17f;ce&#xaf;dit aliu&#xaf;de<pc>&#xf161;</pc> ille</l>
+            <l xml:lang="lat" xml:id="junius1.753">fur e&#x17f;t &amp; latro<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xb4;e&#xaf;</name> <num value="158"><pc>.</pc>c<pc>.</pc>l<pc>.</pc>uiii></num> Ego &#x17f;u&#xaf; pa&#x17f;to&#xa75b; bon&#xf1a6;<pc>.</pc> Bon&#xf1a6;</l>
+            <l xml:lang="lat" xml:id="junius1.754">pa&#x17f;to&#xa75b; ai&#xaf;a&#xaf; &#x17f;ua&#xaf; dat &#xa753; ouib; &#x17f;ui&#x17f;<pc>:</pc><!--yeah maybe--> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="159"><pc>.</pc>c<pc>.</pc>i<pc>.</pc>ix<pc>&#xb7;</pc></num> &#xa752;p<!--crossed-->ea</l>
+            <l xml:lang="lat" xml:id="junius1.755">pr&#xaf; me dilig&#xaf;<pc>.</pc> q&#xa75b; ego pono a&#xaf;ia&#xaf; mea&#xaf;<pc>.</pc>&amp; it&#xf1c7;u&#xaf; &#x17f;umo ea&#xaf;<pc>.</pc> S&#xf1c7; ioh&#xb4;e&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.756"><num value="160">c<pc>.</pc>l<pc>.</pc>x<pc>&#xb7;</pc></num> Facta &#x17f;t&#xaf; a&#xf1c7; <name>encen&#x1e8f;a</name> <name type="place">ie&#x17f;o&#x17f;olimi&#x17f;</name><pc>.</pc>&amp; hie&#xaf;&#x17f; erat<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.757">&amp; a&#xaf;bl&#xb4;abat <name type="person">ih&#xaf;&#x17f;</name> i&#xaf; te&#xaf;plo<pc>.</pc> i&#xaf; po&#xa75b;ticu <name type="person">&#x17f;alomi&#x17f;</name><pc>.</pc> S&#xf1c7;<pc>.</pc> matheu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.758"><num value="161">c<pc>.</pc>l<pc>.</pc>xi</num> A&#x17f;cede&#xaf;&#x17f; <name type="person">ih&#xaf;&#x17f;</name> <name type="place">iero&#x17f;olima&#xaf;</name><pc>&#xf161;</pc> a&#x17f;&#x17f;u&#xaf;p&#x17f;it duodecim di&#x17f;cipl&#xb4;o<hi>&#x17f;</hi></l>
+            <l xml:lang="lat" xml:id="junius1.759">&#x17f;ue&#x17f; &#x17f;ecreto<pc>.</pc>&amp; ait ill<!--crossed--><pc>.</pc> ecce a&#x17f;ce&#xaf;di&#xaf;&#xf1a6; <name type="place">iero&#x17f;ola&#x1dd3;</name><pc>.</pc>&amp; fili&#xf1a6; ho&#xaf;i&#x17f; t&#x1dd3;dat&#x1dd3;</l>
+            <l xml:lang="lat" xml:id="junius1.760">pri&#xaf;cipib; &#x17f;ac&#xf1c7;d; &amp; &#x17f;c<hi>i</hi>bi&#x17f;<pc>.</pc>&amp; &#xa76f;de&#xaf;nabt&#xaf; eu&#xaf; mo&#xa75b;te<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="162"><pc>.</pc>c<pc>.</pc>lxii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.761">Fcm&#xaf; e&#x17f;t a&#xf1c7;<pc>.</pc> cu&#xaf; appropi&#xaf;q&#x1dd3;r&amp; <name type="place">ier&#x1e8f;cho</name><pc>&#xf161;</pc> cecu&#x17f; quida&#xaf; <!--word inserted from below-->&#x17f;edebat &#x17f;ec&#xf1a6; uia&#xaf; m&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.762">dica&#xaf;&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="164"><pc>.</pc>c<pc>.</pc>lx<pc>.</pc>iii</num> &amp; i&#xaf;gre&#x17f;&#x17f;u&#x17f; p<!--crossed-->a&#xaf;bl<!--crossed-->abat</l>
+            <l xml:lang="lat" xml:id="junius1.763"><name type="place">ier&#x1e8f;cho</name><pc>.</pc>&amp; ecce uir noi&#xaf;e <name type="person">zacheu&#x17f;</name><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="165"><pc>.</pc>c<pc>.</pc>.xiiii</num> Hec</l>
+            <l xml:lang="lat" xml:id="junius1.764">ill<!--crossed--> audientib;<pc>&#xf161;</pc> adicie&#xaf;&#x17f; dix&#xaf; parabola&#xaf;<pc>.</pc> eo q&#xb4;<!--extended--> ee&#xaf;t &#xa753;pe <name type="place">i<hi>e</hi>ru&#x17f;ale&#xaf;</name><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.765">&amp; q&#xa75b; e&#x17f;timaret&#xaf; q&#xb4;<!--extended--> &#xa76f;fe&#x17f;ti&#xaf; regnu&#xaf; di&#xaf; manife&#x17f;taretur<pc>.</pc> Dix&#xaf; g<hi>o</hi><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.766">ho&#xaf; quida&#xaf; nobl&#xb4;i&#x17f; abi&#xb4;i&#xb4;t i&#xaf; regio&#xaf;e&#xaf; lo&#xaf;gi&#xaf;q<!--crossed--> accipe &#x17f;ibi reg<pc>.</pc>&amp; reu&#xf1c7;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.767">ti<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="165"><pc>.</pc>c<pc>.</pc>li<pc>.</pc>iiiii</num> Erat a&#xf1c7; q<hi>i</hi>da&#xaf; la&#xaf;gu&#xaf;e&#xaf;&#x17f; <name type="person">lazaru&#x17f;</name> a <!--name spill over-->be<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.768">thanya de ca&#x17f;tello <name type="person">marie</name><pc>.</pc>&amp; <name type="person">marthe</name> &#x17f;o&#xa75b;o&#xa75d; ei&#xf1a6;<pc>.</pc> S&#xf1c7;<pc>.</pc> Ioh&#xaf;e&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.769"><num value="166">c<pc>.</pc>lx<pc>.</pc>ui</num> Colleg&#xf1c7;u&#xaf;t g<hi>o</hi> <name type="organization">po&#xaf;tifice&#x17f;</name><pc>.</pc>&amp; <name type="organization">far&#x1e8f;&#x17f;ei</name> &#xa76f;cilum<pc>.</pc>&amp; di<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.770">ceba&#xaf;t<pc>.</pc> Quid faciem&#xf1a6;<pc>.</pc> q&#xa75b; hic hoc&#xaf; m&#xaf;lta &#x17f;igna facit<pc>.</pc> S&#xf1c7;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.771"><name type="person">ioh&#xaf;e&#xaf;</name> <num value="167"><pc>.</pc>c<pc>.</pc>lx<pc>.</pc>uii</num> An&#xaf; &#x17f;ex die&#x17f; <name>pa&#x17f;che</name>  uenit <name type="person">ih&#xaf;&#x17f;</name></l>
+            <l xml:lang="lat" xml:id="junius1.772"><name type="place">betha<!--unclear-->nya&#xaf;</name><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">matheu&#xaf;</name> <num value="168"><pc>.</pc>c<pc>.</pc>lx<pc>.</pc>uiii</num> Cu&#xaf; ap&#xa753;pi&#xaf;qua<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.773">r&amp; <name type="person">ih&#xaf;&#x17f;</name> <name type="place">iero&#x17f;olimi&#x17f;</name><pc>.</pc>&amp; ueni&#x17f;&#x17f;&amp; <name type="place">bethfage</name>ad mote&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.774"><name type="place">oliueti</name><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="169"><pc>.</pc>c<pc>.</pc>lx<pc>.</pc>uiiii</num> Cu&#xaf; ap&#xa753;pi&#xaf;q&#x1dd3;<!--unclear-->r&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.775"><name type="person">ih&#xaf;&#x17f;</name> <name type="place">iero&#x17f;olima&#xaf;</name><pc>&#xf161;</pc> uide&#xaf;&#x17f; ciuitate&#xaf; fleuit &#x17f;r&#xaf; illa&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.776">dice&#xaf;&#x17f;<pc>.</pc> q&#xa75b; &#x17f;i cognoui&#x17f;&#x17f;e&#x17f;<pc>&#xf161;</pc>&amp; tu<pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="170"><pc>.</pc>c<pc>.</pc>lxx<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.777">Am&#xaf;<pc>.</pc> am&#xaf; dico uob&#xaf;<pc>&#xb7;</pc> ni&#x17f;i g&#x1dd3;nu&#xaf; frum&#xaf;ti cade&#xaf;&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.778">in t&#xf1c7;ra mo&#xa75b;tuu&#xaf; fuerit<pc>&#xf161;</pc> ip&#x17f;u&#xaf; &#x17f;olu&#xaf; manet<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.779">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="171"><pc>.</pc>c<pc>.</pc>lxxi</num> Cu&#xaf; a&#xf1c7; ta&#xaf;ta &#x17f;igna feci&#x17f;&#x17f;&amp; co</l>
+            <l xml:lang="lat" xml:id="junius1.780">ram ei&#x17f;<pc>&#xf161;</pc> n&#xaf; credid&#xf1c7;ut&#xaf; i&#xaf; eu&#xaf;<pc>.</pc> ut &#x17f;ermoa <name type="person">&#x1e8f;&#x17f;aye</name></l>
+            <l xml:lang="lat" xml:id="junius1.781">&#xa753;ph&#xaf;e i&#xaf;pl&#xb4;etur q&#xaf; dx&#xaf;<pc>.</pc> dn&#xaf;e qui&#x17f; c<hi>e</hi>didit auditui</l>
+            <l xml:lang="lat" xml:id="junius1.782">nr&#xaf;o<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="173"><pc>.</pc>c<pc>.</pc>lxxii</num> dix <name type="person">ih&#xaf;&#x17f;</name> t<hi>~</hi>bi&#x17f; <name type="place">iudo&#xa75d;</name></l>
+            <l xml:lang="lat" xml:id="junius1.783">Q<!--there's an e hanging off of it?-->ui credit i&#xaf; me<pc>&#xf161;</pc> n&#xaf; credit i&#xaf; me<pc>.</pc> &#x17f;; i&#xaf; eu&#xaf; q<hi>i</hi></l>
+            <l xml:lang="lat" xml:id="junius1.784">mi&#x17f;it me<pc>.</pc>&amp; q<hi>i</hi> uid&amp; me<!--some marks here--><pc>.</pc> uid&amp; eu&#xaf; q<hi>i</hi> mi&#x17f;itit me<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.785">S&#xf1c7;<pc>.</pc> <name type="person">mathu&#xaf;</name> <num value="173"><pc>.</pc>c<pc>.</pc>lxxiii</num> Cu&#xaf; i&#xaf;t&#x1dd3;&#x17f;&#x17f;&amp; <name type="person">ih&#xaf;&#x17f;</name> <!--name overflow-->iero&#x17f;o<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.786">lima&#xaf;<pc>&#xf161;</pc> &#xa76f;mota e&#x17f;t uniu&#xf1c7;&#x17f;a ciuita&#x17f; dice&#xaf;&#x17f;<pc>.</pc> Q&#x17f; e&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.787">hic<pc>&#xf161;</pc><!--rest of line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.788"><!--line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.789"><!--line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.790"><!--line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.791"><!--line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.792"><!--line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.793"><!--line blacked out--></l>
+            <pb/>
+            <l xml:lang="lat" xml:id="junius1.794">S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="174"><pc>.</pc>c<pc>.</pc>lxxiiii&#xb7;</num></l>
+            <l xml:lang="lat" xml:id="junius1.795">Mane a&#xf1c7; reu&#xf1c7;te&#xaf;&#x17f; in ciui<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.796">tate&#xaf;<pc>&#xf161;</pc> e&#x17f;urii&#xb4;t<pc>.</pc>&amp; uiden&#x17f; fici arbo&#xa75b;e&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.797">una&#xaf; &#x17f;ec&#xf1a6; uia&#xaf; uinit ad ea&#xaf;<pc>.</pc>&amp; nich&#xaf; inuenit i&#xaf; ea<pc>&#xf161;</pc> ni&#x17f;i folia</l>
+            <l xml:lang="lat" xml:id="junius1.798">tantu&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="175"><pc>.</pc>c<pc>.</pc>lxxiiiii</num> Fcm&#xaf; e&#x17f;t a&#xf1c7; in una dieru&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.799">docente illo ppl&#xaf;m &amp; euua&#xaf;gl&#xb4;iza&#xaf;te<pc>.</pc> &#xa76f;ue&#xf1c7;u&#xaf;t pri&#xaf;ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.800"><!--dot?-->pe&#x17f; &#x17f;acerdotu&#xaf; &amp; &#x17f;scribe cu&#xaf; &#x17f;enio&#xa75b;ib;<pc>.</pc>&amp; aiu&#xaf;t dice&#xaf;te&#x17f; ai il<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.801">lum<pc>&#xb7;</pc> dic nobi&#x17f; in qua pote&#x17f;tate hec faci&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> matheu&#xaf;<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.802"><num value="176">c<pc>.</pc>.xx<pc>.</pc>ui</num> Q<hi>i</hi>d a&#xf1c7; uobi&#x17f; uidetur<pc>&#xf161;</pc> ho&#xaf; q<hi>i</hi>da&#xaf; habuit duo&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.803">filio&#x17f;<pc>.</pc>&amp; accede&#xaf;&#x17f; ad p<hi>i</hi>mu&#xaf; dix&#xaf;<pc>.</pc> fili uade hodie op<!--crossed-->ari i&#xaf; uinea</l>
+            <l xml:lang="lat" xml:id="junius1.804">mea<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">matheu&#xaf;</name> <num value="177"><pc>.</pc>c<pc>.</pc>lxx<pc>.</pc>uii</num> Ho&#xaf; erat pr&#xaf;familia&#x17f; q<hi>i</hi></l>
+            <l xml:lang="lat" xml:id="junius1.805">plantauit uinea&#xaf;<pc>.</pc>&amp; &#x17f;epem circ<!--maybe-->&#xaf;dedit ei<pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> matheu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.806"><num value="178">c<pc>.</pc>lxxuiii</num> Tc&#xaf; abeu&#xaf;te&#x17f; <name type="organization">phari&#x17f;ei</name> i&#xaf;ierr&#xaf;<!--could be reading that last letter wrong--> &#xa76f;filiu&#xaf; ut cap<!--crossed-->ent</l>
+            <l xml:lang="lat" xml:id="junius1.807"><name type="person">ih&#xb4;m</name> in &#x17f;ermo&#xaf;e &amp; mittu&#xaf;t ei di&#x17f;cipl&#xaf;o&#x17f; &#x17f;uo&#x17f; c&#xaf; <name type="person">herodiani&#x17f;</name></l>
+            <l xml:lang="lat" xml:id="junius1.808">S&#xf1c7; <name type="person">mathe&#xaf;m</name> <num value="179"><pc>.</pc>c<pc>.</pc>lxx<pc>&#xb7;</pc>uiiii</num> In illo die acce&#x17f;&#x17f;ert&#xaf; ad eu&#xaf; <name type="organization">&#x17f;aducei</name><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.809">qui <!--unclear-->dn&#xaf;t n&#xaf; ee&#xaf; re&#x17f;urrectio&#xafe;e&#xaf;<pc>.</pc> S<hi>.</hi><pc>.</pc> <name type="person">math&#xb4;m</name> <num value="180"><pc>.</pc>c<pc>.</pc>.lxxx<pc>.</pc></num> <!--name overflow-->phar&#x1e8f;</l>
+            <l xml:lang="lat" xml:id="junius1.810">&#x17f;ei a&#xf1c7; audie&#xaf;te&#x17f; q&#xaf; &#x17f;ile&#xaf;tiu&#xaf; in po&#x17f;ui&#x17f;&#x17f;&amp; <name type="person">ih&#xaf;&#x17f;</name> <name type="organization">&#x17f;aducei&#x17f;</name><pc>&#xf161;</pc> &#xa76f;uen&#xf1c7;ut&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.811">in unu&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">marcu&#xaf;</name> <num value="181"><pc>.</pc>c<pc>.</pc>lxxxi</num> &amp;<!--modern ampersand--> &#x17f;ede&#xaf;&#x17f; <name type="person">ie&#x17f;u&#x17f;</name> &#xa76f;&#x1dd3; gazofilatiu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.812">a&#x17f;piciebat quomodo turba iactar&amp; e&#x17f; in gazofilatiu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.813">S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="182"><pc>.</pc>c<pc>.</pc>lxxxii</num> Tc&#xaf; locut&#xf1a6; e&#x17f;t <name type="person">ih&#xaf;&#x17f;</name> ad turba&#x17f;<pc>.</pc>&amp; ad</l>
+            <l xml:lang="lat" xml:id="junius1.814">di&#x17f;cipl&#xb4;o&#x17f; &#x17f;uo&#x17f; dice&#xaf;&#x17f;<pc>.</pc> Sr&#xaf; chathedra&#xaf; <name type="person">mo&#x1e8f;&#x17f;i</name> &#x17f;ed&#xf1c7;ut&#xaf; &#x17f;cribe</l>
+            <l xml:lang="lat" xml:id="junius1.815">&amp; <name type="organization">far&#x1e8f;&#x17f;ei</name><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;m</name> <num value="183"><pc>&#xb7;</pc>c<pc>.</pc>lxxxiii</num> Ue a&#xf1c7; uobi&#x17f; &#x17f;cribe<pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.816"><name type="organization">far&#x1e8f;</name> &#x1e8f;pocrite<pc>.</pc> qui clauditi&#x17f; regnu&#xaf; celo&#xa75d; an&#xaf; hoi&#xaf;e&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.817">S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="184"><pc>.</pc>c<pc>.</pc>lxxxiiii</num> Ue uobi&#x17f; &#x17f;<pc>.</pc>&amp; <name type="organization">far&#x1e8f;&#x17f;ei</name> &#x1e8f;poc<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.818">te<pc>&#xb7;</pc> qui decimati&#x17f; menta&#xaf; &amp; rutam<pc>.</pc>&amp; o&#xaf;e hol&#xf1a6;<pc>.</pc>&amp; p&#xf1c7;t&#xf1c7;i&#xb4;iti&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.819">iuditiu&#xaf; &amp; caritate&#xaf; di&#xaf;<pc>.</pc>&amp; fide&#xaf;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">matheu&#xaf;</name> <num value="185"><pc>.</pc>c<pc>.</pc>lxxxiiiii</num></l>
+            <l xml:lang="lat" xml:id="junius1.820">Ue uobi&#x17f; &#x17f;cribe<pc>&#xb7;</pc>&amp; <name type="organization">fari&#x17f;ei</name> upocrite<pc>.</pc> q&#xa75b; &#x17f;imile&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.821">e&#x17f;ti&#x17f; &#x17f;epulcri&#x17f; dealbati&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="186"><pc>.</pc>c<pc>.</pc>lxxxui<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.822">Io&#xaf; ecce <!--next word inserted, placed below-->ego mitto ad uo&#x17f; &#xa753;ph&#xaf;a&#x17f;<pc>.</pc>&amp; &#x17f;apie&#xaf;te&#x17f;<pc>.</pc>&amp; &#x17f;criba&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.823">S&#xf1c7;<pc>.</pc> <name type="person">mathheu&#xaf;</name> <num value="187"><pc>.</pc>c<pc>.</pc>lxxx<pc>&#xb7;</pc>uii<pc>&#xb7;</pc></num> &amp; egre&#x17f;&#x17f;u&#x17f; <name type="person">ih&#xaf;&#x17f;</name> de te&#xaf;plo<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.824">ibat<pc>.</pc>&amp; acce&#x17f;&#x17f;ert&#xaf;<!--unclear--> ad eu&#xaf; di&#x17f;cipl&#xb4;i ei&#xf1a6;<pc>&#xb7;</pc> ut o&#x17f;te&#xaf;d&#xf1c7;e&#xaf;t ei e<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.825">dificato&#xf1c7;e&#xaf;&#x17f; te&#xaf;pli<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="188"><pc>.</pc>c<pc>.</pc>lxxxuiii<pc>.</pc></num>&amp; p&#xf1c7;dica<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.826">br&#xaf; hoc euua&#xaf;gl&#xb4;iu&#xaf; regni i&#xaf; toto o&#xa75b;be<pc>.</pc> in te&#x17f;timo<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.827">niu&#xaf; oi&#xaf;b; gentib;<pc>.</pc>&amp; tc&#xaf; erit &#xa76f;&#x17f;u&#xaf;matio<pc>.</pc> S&#xf1c7;<pc>.</pc> lucam<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.828"><num value="189">c<pc>.</pc>lxxxuiiii</num> Interrogatu&#x17f; a&#xf1c7; a&#xf1c7; a <name type="organization">fary&#x17f;ei&#x17f;</name> qn&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.829">uenit regnu&#xaf; di&#xaf;<pc>&#xf161;</pc> re&#x17f;po&#xaf;dit ei&#xaf; &amp; dix&#xaf;<pc>.</pc> non ue<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.830">nit regnu&#xaf; di&#xaf; cu&#xaf; ob&#x17f;eruatione<pc>.</pc> S&#xf1c7;<pc>.</pc> lucam<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.831"><num value="190">c<pc>.</pc>lxxxx<pc>&#xb7;</pc></num> Eru&#xaf;t &#x17f;igna i&#xaf; &#x17f;ole &amp; luna<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.832">&amp; &#x17f;telli&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">marcu&#xaf;</name> <num value="191"><pc>.</pc>c<pc>.</pc>lxxxxi<pc>&#xb7;</pc></num> Uidete<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.833">uigilate<pc>.</pc>&amp; o&#xa75b;ate<pc>.</pc> ne&#x17f;citi&#x17f; <!--that enim character that happened earlier, like an H--> qn&#xaf; tp&#xaf;&#x17f; &#x17f;it<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.834">S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="192"><pc>&#xb7;</pc>c<pc>.</pc>lxx<hi>x</hi>xii<pc>&#xb7;</pc></num> Uigilate ergo<pc>.</pc> q&#xa75b;</l>
+            <l xml:lang="lat" xml:id="junius1.835">ne&#x17f;citi&#x17f; qua ho&#xa75b;a dn&#xaf;&#x17f; ur&#xaf; ue&#xaf;tur&#xf1a6;</l>
+            <l xml:lang="lat" xml:id="junius1.836">&#x17f;it<pc>.</pc> ill<!--crossed-->d a&#xf1c7; &#x17f;citote q&#xa75b; &#x17f;i &#x17f;cire&amp; pr&#xaf;famili<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.837">a&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">matheu&#xaf;</name> <num value="193"><pc>.</pc>c<pc>.</pc>lxxx<hi>x</hi>iii<pc>.</pc></num> Tc&#xaf; &#x17f;imi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.838">le erit regnu&#xaf; celo&#xa75d; dece&#xaf; u<hi>i</hi>gini<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.839">b;<pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="194"><pc>.</pc>c<pc>.</pc>lxxx<hi>x</hi>iiii<pc>&#xb7;</pc></num> Dice<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.840">bat a&#xf1c7; &amp; parabolam ad illo&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.841">qm&#xaf;<!--unclear--> opo&#xa75b;t&amp; &#x17f;e&#xaf;p orare<pc>.</pc>&amp; n&#xaf; defi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.842">cere<pc>.</pc> iudex q<hi>i</hi>da&#xaf;<pc>&#xb7;</pc> erat i&#xaf; q&#x1dd3;da&#xaf; ci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.843">uitate<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">luca&#xaf;</name> <num value="195"><pc>&#xb7;</pc>c<pc>.</pc>lxxxxiiiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.844">Dixit aute&#xaf; &amp; ad q<hi>o</hi>&#x17f;dam qui in</l>
+            <l xml:lang="lat" xml:id="junius1.845">&#x17f;e &#xa76f;fideba&#xaf;t tamqua&#xaf; iu&#x17f;ti<pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.846">a&#x17f;p<!--crossed-->naba&#xaf;tu<!--mark above u?-->r cet&#xf1c7;o&#x17f;<pc>&#xf161;</pc> para<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.847">bola i&#x17f;ta&#xaf;<pc>.</pc> Duo ho&#xaf;i&#xaf;e&#x17f; a&#x17f;ce&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.848">dert&#xaf; i&#xaf; te&#xaf;plu&#xaf; <!--unclear for rest of page-->ut o<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.849">rarent<pc>.</pc></l>
+            <pb/>
+            <l xml:lang="lat" xml:id="junius1.850">S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="196"><pc>.</pc>c<pc>.</pc>lxxxxui<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.851">Ho&#xaf; q<hi>i</hi>da&#xaf; p<!--crossed-->egre &#xa753;fici&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.852">cen&#x17f;<pc>&#xf171;</pc> uocauit &#x17f;eruo&#x17f; &#x17f;uo<hi>&#x17f;</hi><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.853">&amp; tradidit illi&#x17f; bona &#x17f;ua<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.854">&amp; uni dedit qui&#xaf;q; talenta<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.855">S&#xf1c7;<pc>.</pc> <name type="person">math&#xaf;</name> <num value="197"><pc>.</pc>c<pc>.</pc>lx<hi>x</hi>xxuii<pc>&#xb7;</pc></num> Cu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.856">uenit fili&#xf1a6; hoi&#xaf;&#x17f; i&#xaf; maje&#x17f;tate</l>
+            <l xml:lang="lat" xml:id="junius1.857">&#x17f;ua<pc>.</pc>&amp; o&#xaf;&#x17f; a&#xaf;l&#xb4;i cu&#xaf; eo<pc>&#xf161;</pc> tc&#xaf; &#x17f;edebit</l>
+            <l xml:lang="lat" xml:id="junius1.858">&#x17f;r&#xaf; &#x17f;ede&#xaf; maie&#x17f;tati&#x17f; &#x17f;ue<pc>.</pc>&amp; &#xa76f;gre<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.859">gabu&#xaf;tur an&#xaf; eu&#xaf; or&#xaf; gente&#x17f;<pc>.</pc>&amp; &#x17f;epa<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.860">bit eo&#x17f; ab i&#xaf;uice&#xaf; &#xa753;cul<pc>&#xf161;</pc> &#x17f;ic&#xaf; pa&#x17f;to&#xa75b;</l>
+            <l xml:lang="lat" xml:id="junius1.861">&#x17f;egregat oue&#x17f; ab hedi&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> luca&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.862"><num value="198">clxxxxui<hi>ii</hi><pc>&#xb7;</pc></num> Erat a&#xf1c7; <name type="person">ih&#xaf;&#x17f;</name> die&#xaf;b; docen&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.863">i&#xaf; templo<pc>.</pc> noctib; u&#xf1c7;o  exie&#xaf;&#x17f; mo&#xa75b;abat<hi>~</hi></l>
+            <l xml:lang="lat" xml:id="junius1.864">i&#xaf; mo&#xaf;te q<hi>i</hi> uocatur <name type="person">oliueti</name><pc>.</pc> maneq&#xb4;<!--crossed and extended--> con</l>
+            <l xml:lang="lat" xml:id="junius1.865">fluebat ad eu&#xaf; o&#xaf;i&#x17f; pl&#xb4;&#x17f; i&#xaf; te&#xaf;plo audire eu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.866">S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;</name> <num value="199"><pc>&#xb7;</pc>c<pc>.</pc>lxxxxu<hi>i</hi>iii</num> Fcm&#xaf; e&#xaf; a&#xf1c7; cu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.867">&#xa76f;&#x17f;u&#xaf;ma&#x17f;&#x17f;&amp; <name type="person">ih&#xb4;&#x17f;</name> &#x17f;ermo&#xaf;e&#x17f; ho&#x17f; o&#xaf;&#x17f;<pc>&#xf161;</pc> dix&#xa;f di&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.868"><!--unclear, looks like et-->pl&#xb4;i&#x17f; &#x17f;ui&#x17f;<pc>.</pc> Sciti&#x17f; q&#xa75b; p<hi>o</hi> biduu&#xaf; <name>pa&#x17f;cha</name> fi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.869">et<pc>.</pc>&amp; fili&#xf1a6; ho&#xaf;i&#x17f; t&#x1dd3;detur ut crucifigatur<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.870">S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="198"><pc>.</pc>c<pc>.</pc>lxxxxuiii<pc>.</pc></num> Ap&#xa753;pinq&#x1dd3;bat a&#xf1c7;</l>
+            <l xml:lang="lat" xml:id="junius1.871">die&#x17f; fe&#x17f;t&#xf1a6; azimo&#xa75d; q<hi>i</hi> dr&#xaf; <name>pa&#x17f;cha</name><pc>&#xf161;</pc>&amp; q&#xaf;reba&#xaf;t</l>
+            <l xml:lang="lat" xml:id="junius1.872">pri&#xaf;cipe&#x17f; &#x17f;ac&#xf1c7;dotu&#xaf; &amp; &#x17f;c<hi>i</hi>be<pc>.</pc> q<hi>e</hi> m<hi>o</hi> eu&#xaf; i&#xaf;t&#xf1c7;fic&#xf1c7;et&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.873">S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="200"><pc>.</pc>c<pc>.</pc>lxxxxx<pc>.</pc></num> Uenit a&#xf1c7; die&#x17f; azi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.874">mo&#xa75d; i&#xaf; q&#x1dd3; nece&#x17f;&#x17f;e erat occidi <name>pa&#x17f;cha</name><pc>.</pc></l>
+            <cb/>
+            <l xml:lang="lat" xml:id="junius1.875">De agno <name>pa&#x17f;chali</name><!--mark down middle of page goes down 10 lines--></l>
+            <l xml:lang="lat" xml:id="junius1.876">&#x17f;eq<hi>i</hi>t&#x1dd3; duce&#xaf;te&#x17f;ima <!--word inserted from top of next column-->prima</l>
+            <l xml:lang="lat" xml:id="junius1.877"><name>omel&#x1e8f;a</name><pc>.</pc> S&#xf1c7;<pc>.</pc> Lucam<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.878"><num value="202">ccii<pc>.</pc></num> &amp;<!--ampersand, not et--> c&#xaf; fc&#xaf;a ee&#xaf;t ho<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.879">ra<pc>&#xf161;</pc> di&#x17f;cubuit<pc>.</pc>&amp; <num value="12">xii<pc>&#xb7;</pc></num><!--some mark above here--></l>
+            <l xml:lang="lat" xml:id="junius1.880">apl&#xb4;i c&#xaf; eo<pc>.</pc>&amp; ait illi&#x17f;<pc>.</pc> de<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.881">&#x17f;id&#xf1c7;io de&#x17f;id&#xf1c7;aui h<hi>.</hi> <!--name overflow?-->pa&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.882">cha ma&#xaf;duc&#xf1c7; uobi&#x17f;cu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.883">S&#xf1c7;<pc>.</pc> <name type="person">Luca&#xaf;</name> <num value="203"><pc>.</pc>cc<pc>.</pc>iii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.884">Fca&#xaf; e&#xaf; a&#xf1c7; &amp; &#xa76f;te&#xaf;tio</l>
+            <l xml:lang="lat" xml:id="junius1.885">int&#xf1c7; eo&#x17f; q<hi>i</hi>&#x17f;eo&#xa75d; ui<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.886">deretur ee&#xaf; maio&#xa75b;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.887">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="204"><pc>.</pc>cc<pc>.</pc>iiii</num> Sci<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.888">en&#x17f; <name type="person">ih&#xaf;&#x17f;</name> q&#xa75b; uenit ho<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.889">ra ut tr&#xaf;a&#x17f;eat de h<hi>.</hi> mu&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.890">do<!--I think this page scan might be bad or the binding is.  Letters fall away into the crack--> ad pr&#xaf;e&#xaf;<pc>&#xf161;</pc> cu&#xaf; dilexi&#x17f;&#x17f;et</l>
+            <l xml:lang="lat" xml:id="junius1.891">&#x17f;uo&#x17f; qui era&#xaf;t i&#xaf; mu&#xaf;do<pc>&#xf161;</pc> i&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.892">fine&#xaf; dilex&#xaf; eo&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> Ioh&#xb4;e&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.893"><num value="205">cc<pc>.</pc>iiiii</num> Am&#xaf;<pc>.</pc> am&#xaf; dico</l>
+            <l xml:lang="lat" xml:id="junius1.894">uobi&#x17f;<pc>&#xf161;</pc> n&#xaf; e&#x17f;t &#x17f;eruu&#x17f; ma<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.895">io&#xa75b; dn&#xaf;o &#x17f;uo<pc>.</pc> neq; apl&#xaf;&#x17f; ma<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.896">io&#xa75b; eo qui mi&#x17f;it illum<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.897">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="206"><pc>.</pc>cc<pc>.</pc>ui</num> Filioli<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.898">adhuc modicu&#xaf; uob&#xaf;cu&#xaf; &#x17f;u&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.899">quereti&#x17f; me<pc>.</pc>&amp; &#x17f;ic&#xaf; dixi <!--name overflow-->iu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.900">dei&#x17f;<pc>&#xf161;</pc> quo ego uado<pc>.</pc> uo&#x17f; n&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.901">pote&#x17f;ti&#x17f; <!--unclear-->uen&#xf1c7;<pc>.</pc> S&#xf1c7;<pc>></pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="207"><pc>.</pc>cc<pc>.</pc>uii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.902">Non turbetur co&#xa75b; ur&#xaf;m<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.903">crediti&#x17f; i&#xaf; dm&#xaf;<pc>.</pc>&amp; i&#xaf; me credi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.904">te<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="208"><pc>.</pc>cc<pc>.</pc>uiii</num> Si di<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.905">ligiti&#x17f; me<pc>.</pc> ma&#xaf;data mea</l>
+            <l xml:lang="lat" xml:id="junius1.906">&#x17f;eruate<pc>.</pc>&amp; ego rogabo pre&#xaf;<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.907">&amp; aliu&#xaf; paraclitu&#xaf; dabit uob&#xaf;<pc>.</pc></l>
+            <cb/>
+            <l xml:lang="lat" xml:id="junius1.908">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="209"><pc>.</pc>cc<pc>.</pc>uiiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.909">Si q<hi>i</hi>&#x17f; diligit me<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.910">&#x17f;ermo&#xaf;e&#xaf; meu&#xaf; &#x17f;er<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.911">uabit<pc>.</pc>&amp; pr&#xaf; meu&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.912">dilig&amp; eu&#xaf;<pc>.</pc>&amp; ad eu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.913">ueniem&#xf1a6;<pc>.</pc> S&#xf1c7;<pc>.</pc> Ioh&#xaf;e&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.914"><num value="210">cc<pc>.</pc>x<pc>.</pc></num> Ego &#x17f;u&#xaf; uiti<hi>&#x17f;</hi></l>
+            <l xml:lang="lat" xml:id="junius1.915">u&#xf1c7;a<pc>.</pc>&amp; pr&#xaf; meu&#x17f; ag<hi>i</hi>co<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.916">la e&#xaf;<pc>.</pc> Om&#xafe;e&#xaf; palmite&#xaf; i&#xafe; me</l>
+            <l xml:lang="lat" xml:id="junius1.917">n&#xaf; fere&#xaf;te&#xaf; fructu&#xaf;<pc>&#xf161;</pc> toll&amp; eu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.918">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="211"><pc>.</pc>cc<pc>.</pc>xi</num> Si ma&#xaf;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.919">&#x17f;eriti&#x17f; i&#xaf; me<pc>.</pc>&amp; uerba</l>
+            <l xml:lang="lat" xml:id="junius1.920">mea i&#xaf; uob&#xaf; ma&#xaf;&#x17f;eri&#xaf;t<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.921">q&#xaf;c&#xaf;q; uolueriti&#x17f;<pc>.</pc>pete&#xb4;ti<hi>&#x17f;</hi><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.922">&amp; fi&amp; uob&#xaf;<pc>&#xb7;</pc> S&#xf1c7;<pc>.</pc> Ioh&#xaf;em<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.923"><num value="212">cc<pc>.</pc>xii</num> Hoc e&#xaf; preceptu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.924">meu&#xaf; ut diligati&#x17f; i&#xaf; uice&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.925">&#x17f;ic&#xaf; dilexi uo&#x17f;<pc>.</pc>S&#xf1c7;<pc>.</pc> Ioh&#xaf;e&#xaf; <!--number inserted from bottom of column--><num value="213">cc<pc>.</pc>xiii</num></l>
+            <l xml:lang="lat" xml:id="junius1.926">Hec ma&#xaf;do uobi&#x17f;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.927">ut diligati&#x17f; i&#xaf; uice&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.928">Simu&#xaf;du&#x17f; uo&#x17f; odit<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.929">&#x17f;citote q&#xa75b; p<hi>i</hi>o&#xa75b;e&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.930">me uob&#xaf; odio</l>
+            <l xml:lang="lat" xml:id="junius1.931">habuit<pc>.</pc></l>
+            <pb/>
+            <l xml:lang="lat" xml:id="junius1.932">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="214"><pc>.</pc>cc<pc>.</pc>xiii</num> Cu&#xaf; a&#xf1c7; ue</l>
+            <l xml:lang="lat" xml:id="junius1.933">nerit p&#xb4;araclit&#xf1a6;<pc>.</pc> q&#xaf;<!--crossed--> ego mit</l>
+            <l xml:lang="lat" xml:id="junius1.934">tam nobi&#x17f; a parte<pc>.</pc> &#x17f;p&#xaf;m u&#xf1c7;ita<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.935">ti&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="215"><pc>.</pc>cc<pc>.</pc>xiiiiI</num> Hec a&#xf1c7;</l>
+            <l xml:lang="lat" xml:id="junius1.936">ab i&#xaf;itio n&#xaf; dixi uobi&#x17f;<pc>.</pc> q&#xa75b; uob&#xaf; cu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.937">era&#xaf;<pc>.</pc>&amp; ne&#xaf; uado ad eu&#xaf; qui me mi&#x17f;it<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.938">&amp; nemo ex uobi&#x17f; i&#xaf;t&#xf1c7;r&#xf1c7;gat m&#xf1c7;<pc>.</pc> q<hi>o</hi> uadi&#x17f;<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.939">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="216"><pc>.</pc>cc<pc>.</pc>xui</num> Modicu&#xaf;<pc>.</pc>&amp; ia&#xaf; n&#xaf; ui<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.940">debiti&#x17f; me<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="217"><pc>.</pc>cc<pc>.</pc>xuii</num> Am&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.941">am&#xaf;<pc>.</pc> dico uobi&#x17f;<pc>.</pc> Si q<!--extended--><hi>i</hi>d perieriti&#x17f; pr&#xaf;e&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.942">i&#xaf; noi&#xaf;e meo<pc>&#xf161;</pc> dabit uobi&#x17f;<pc>.</pc> u&#x17f;q; m<hi>o</hi> n&#xaf; pe<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.943">ti&#x17f;ti&#x17f; q<hi>i</hi>cq&#xaf;<!--crossed--> i&#xaf; no&#xaf;ie medo<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="218"><pc>.</pc>cc<pc>.</pc>xuiii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.944">Hec locut&#xf1a6; e&#xaf; <name type="person">ih&#xaf;&#x17f;</name><pc>.</pc>&amp; &#x17f;ubleuati&#x17f; ocl&#xb4;i&#x17f; i&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.945">celu&#xaf;<pc>&#xf161;</pc> dix&#xaf;<pc>.</pc> pr&#xaf;<pc>.</pc> uenit ho&#xa75b;a<pc>&#xb7;</pc> clarifica</l>
+            <l xml:lang="lat" xml:id="junius1.946">filiu&#xaf; tuu&#xaf;<pc>&#xf161;</pc> ut fili&#xf1a6; tuu&#x17f; clarificet te<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.947">S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="219"><pc>.</pc>cc<pc>.</pc>xuiiii</num> Pr&#xaf; &#x17f;ce&#xaf; &#x17f;erua eo&#x17f; <!--rest inserted from line below-->in noi&#xaf;e tuo</l>
+            <l xml:lang="lat" xml:id="junius1.948">quo&#x17f; dedi&#x17f;ti <!--unclear-->m<hi>i</hi><pc>&#xb7;</pc> ut &#x17f;int unu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.949">sicut &amp; no&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">Ioh&#xaf;e&#xaf;</name> <num value="220"><pc>.</pc>cc<pc>&#xb7;</pc>xx<pc>&#xb7;</pc></num> Hec c&#xaf; dixi&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.950">&#x17f;et <name type="person">ih&#xaf;&#x17f;</name><pc>&#xf161;</pc> egre&#x17f;&#x17f;u&#x17f; e&#x17f;t c&#xaf; di&#x17f;cipl&#xb4;i&#x17f; &#x17f;ui&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.951">S&#xf1c7;<pc>.</pc> <name type="person">marcu&#xaf;</name> <num value="221">cc<pc>.</pc>xxi</num> <name type="person">Maria</name> <!--name does overlow a bit-->magdale<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.952">ne<pc>.</pc>&amp; <name type="person">maria iacobi</name><pc>.</pc>&amp; <name type="person">&#x17f;alome</name> em&#xf1c7;u&#xaf;t aro<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.953">mata<pc>&#xf161;</pc> ut ueniente&#x17f; unguere&#xaf;t <name type="person">ie&#x17f;um</name><pc>;&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.954">S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xaf;e&#xaf;</name> <num value="222"><pc>&#xb7;</pc>cc<pc>.</pc>xxii</num> <name type="person">maria</name> &#x17f;tabat ad mo<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.955">numentu&#xaf; fori&#x17f; plo&#xa75b;a&#xaf;&#x17f;<pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">matheu&#xaf;</name> <num value="223"><pc>.</pc>cc<pc>.</pc>xx<hi>i</hi>ii<pc>.</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.956">exiert&#xaf; de monum&#xaf;to<pc>.</pc> cu&#xaf; timo&#xa75b;e &amp; gau<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.957">dio magno curr&#xaf;te&#x17f;&#x17f; nu&#xaf;tiare di&#x17f;cipl&#xb4;i&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.958">ei&#xf1a6;<pc>.</pc>&amp; ecce <name type="person">ih&#xaf;&#x17f;</name> occurrit ill<!--crossed--> dicen&#x17f;<pc>.</pc> auete<pc>.</pc></l>
+            <cb/>
+            <l xml:lang="lat" xml:id="junius1.959">S&#xf1c7;<pc>.</pc> <name type="person">math&#xb4;m</name> <num value="224"><pc>.</pc>ccxxiiii</num><!--spot starts here, splitting the page, goes down 11 lines--></l>
+            <l xml:lang="lat" xml:id="junius1.960">Cu&#xaf; a&#xf1c7; muliere&#x17f; abi&#x17f;&#x17f;e&#xaf;t</l>
+            <l xml:lang="lat" xml:id="junius1.961">ecce quida&#xaf; de cu&#x17f;todi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.962">b; uenert&#xaf; i&#xaf; ciuitate&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.963">&amp; nu&#xaf;tiauert&#xaf; pri&#xaf;cipi</l>
+            <l xml:lang="lat" xml:id="junius1.964">b; &#x17f;ac&#xf1c7;dotu&#xaf; oi&#xaf;a q&#xaf; fc&#xaf;a fu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.965">erant<pc>.</pc> S&#xf1c7;<pc>.</pc> Lucam<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.966"><num value="225">cc<pc>.</pc>xxiiiii</num> ecce duo</l>
+            <l xml:lang="lat" xml:id="junius1.967">ex di&#x17f;cipl&#xb4;i&#x17f; <name type="person">ie&#x17f;u</name> iba&#xaf;t</l>
+            <l xml:lang="lat" xml:id="junius1.968">ip&#x17f;a die i&#xaf; ca&#x17f;tellum<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.969">S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xaf;e&#xaf;</name> <num value="26"><pc>.</pc>cc<pc>.</pc>xxui</num> Cu&#xaf; e&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.970">&#x17f;et &#x17f;ero die illo una &#x17f;abb<!--crossed-->to&#xa75d;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.971">S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xaf;em</name> <num value="227"><pc>&#xb7;</pc>cc<pc>.</pc>xxuii</num> <!--rest of line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.972"><!--line blacked out--></l>
+            <l xml:lang="lat" xml:id="junius1.973"><!--beginning of line blacked out-->Po&#x17f;tea</l>
+            <l xml:lang="lat" xml:id="junius1.974">manife&#x17f;tauit &#x17f;e it&#xf1c7;um <name type="person">ih&#xaf;&#x17f;</name> ad</l>
+            <l xml:lang="lat" xml:id="junius1.975"><name type="place">mare <name type="person">tyberiadi&#x17f;</name></name><pc>.</pc> S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xaf;e&#xaf;</name> <num value="228"><pc>.</pc>ccxxuiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.976">Cu&#xaf; ergo pra&#xaf;di&#x17f;&#x17f;e&#xaf;t<pc>&#xf161;</pc> dix&#xaf; <name type="person">ih&#xaf;&#x17f;</name> <name type="person">&#x17f;&#x1e8f;moni</name></l>
+            <l xml:lang="lat" xml:id="junius1.977"><name type="person">petro</name><pc>&#xb7;</pc> <name type="person">S&#x1e8f;mon  ioh&#xaf;i&#x17f;</name> diligi&#x17f; me pl&#xf1a6; hi&#x17f;<pc>&#xf161;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.978">S&#xf1c7;<pc>.</pc> <name type="person">ioh&#xaf;e&#xaf;</name> <num value="229"><pc>.</pc>cc<pc>.</pc>xxuiiii</num> Dix&#xaf; <name type="person">ih&#xaf;&#x17f;</name> <name type="person">pet<hi>o</hi></name><pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.979">seq&#xaf;re me<pc>.</pc> co&#xaf;u&#xf1c7;&#x17f;u&#x17f; petr&#xf1a6; uidit illu&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.980">di&#x17f;cipl&#xaf;m &#x17f;eq<!--crossed-->&#xaf;te&#xaf; &amp; c&#xf1c7;<pc>.</pc> S&#xf1c7;<pc>.</pc> marcu&#xaf;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.981"><num value="230">cc<pc>.</pc>xxx<pc>.</pc></num><pc>&#xb7;</pc> Noui&#x17f;&#x17f;ie&#xaf; a&#xf1c7; recu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.982">bentib; ill<!--crossed--> undeci&#xaf; apparu<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.983">it <name type="person">ih&#xaf;&#x17f;</name><pc>.</pc>&amp; ex&#xa753;<!--extended up-->rauit i&#xaf;creduli<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.984">tatem eo&#xa75d;<pc>.</pc>&amp; duritia&#xaf; co&#xa75b;di&#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.985">De actib; apl&#xb4;o&#xa75d;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.986"><num value="231">cc<pc>&#xb7;</pc>xxxi<pc>&#xb7;</pc></num> Q<hi>o</hi> m<hi>o</hi> di&#x17f;<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.987">cipl&#xb4;i <name type="person">ie&#x17f;u</name> c&#xaf; uirgi&#xaf;e</l>
+            <l xml:lang="lat" xml:id="junius1.988"><name type="person">maria</name> regre&#x17f;&#x17f;i &#x17f;t&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.989">i&#xaf; <name type="place">ieru&#x17f;ale&#xaf;</name> mox p<hi>o</hi>q&#x1dd3;<!--crossed--></l>
+            <l xml:lang="lat" xml:id="junius1.990">dn&#xaf;&#x17f; receptu&#x17f; e&#x17f;t</l>
+            <l xml:lang="lat" xml:id="junius1.991">i&#xaf; celu&#xaf; <num value="232"><pc>c</pc>cc<pc>.</pc>xxxii<pc>&#xb7;</pc></num></l>
+            <cb/>
+            <l xml:lang="lat" xml:id="junius1.992">Q<hi>o</hi>m<hi>o</hi> &#x17f;p&#xaf;&#x17f; &#x17f;c&#xaf;&#x17f; uenit</l>
+            <l xml:lang="lat" xml:id="junius1.993">&#x17f;r&#xaf; apl&#xaf;o&#x17f; in li&#xaf;gui&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.994">ignei&#x17f; <num value="233"><pc>.</pc>cc<pc>.</pc>xxxiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.995">Q<hi>o</hi>m<hi>o</hi> <name type="person">petru&#x17f;&#x17f;</name> &amp; <!--name overflow-->io<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.996">ha&#xaf;e&#x17f;&#x17f; a&#x17f;&#x17f;ce&#xaf;d&#xaf;te&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.997">in te&#xaf;plu&#xaf; ad hora&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.998">or&#xf1c7;oi&#xaf;&#x17f; nona&#xaf; &#x17f;anaba&#xaf;t</l>
+            <l xml:lang="lat" xml:id="junius1.999">claudu&#xaf; <num value="234"><pc>.</pc>cc<pc>.</pc>xxxiiii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.1000">Q<hi>o</hi>m<hi>o</hi> <name type="person">anan&#x1e8f;a&#x17f;</name><pc>.</pc>&amp;</l>
+            <l xml:lang="lat" xml:id="junius1.1001"><name type="person">&#x17f;aph&#x1e8f;ra</name> uxo&#xa75b; ei&#xf1a6;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1002">p<!--crossed-->iert&#xaf; pp<!--both crossed--> fraude&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.1003">pecunie &#x17f;ue q<!--crossed-->&#x1dd3; fe<hi>-</hi></l>
+            <l xml:lang="lat" xml:id="junius1.1004">cert&#xaf; n&#xaf; ho&#xaf;i &#x17f;; deo<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1005"><num value="235">cc<pc>.</pc>xxxu<pc>.</pc></num> Q<hi>o</hi>m<hi>o</hi></l>
+            <l xml:lang="lat" xml:id="junius1.1006">apl&#xb4;i p<!--crossed--> <name type="place">a&#xaf;gl&#xb4;m</name> educ<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1007">ti &#x17f;t&#xaf; de carc&#xf1c7;e</l>
+            <l xml:lang="lat" xml:id="junius1.1008">&amp; iu&#x17f;&#x17f;i p&#xf1c7;dica<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1009">re i&#xaf; templo<pc>&#xb7;</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1010"><num value="236">cc<pc>.</pc>xxxui<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.1011">Q<hi>o</hi>m<hi>o</hi> apl&#xb4;i or<!--backwards et?--></l>
+            <l xml:lang="lat" xml:id="junius1.1012">dinau&#xf1c7;u&#xaf;t &#x17f;epte&#xaf;</l>
+            <l xml:lang="lat" xml:id="junius1.1013">diacono&#x17f;<pc>&#xb7;</pc> quo&#xa75d;</l>
+            <l xml:lang="lat" xml:id="junius1.1014">un&#xf1a6; erat &#xa753;tho</l>
+            <l xml:lang="lat" xml:id="junius1.1015">mart&#x1e8f;r <!--name overflow-->&#x17f;tepha</l>
+            <l xml:lang="lat" xml:id="junius1.1016">n&#xf1a6; <num value="237"><pc>.</pc>cc<pc>.</pc>xxxuii<pc>&#xb7;</pc></num></l>
+            <l xml:lang="lat" xml:id="junius1.1017">Q<hi>o</hi>m<hi>o</hi> <!--name overflow-->&#x17f;amarita<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1018">ni &#x17f;cep<!--crossed-->u&#xaf;t fid<hi>e</hi>m</l>
+            <l xml:lang="lat" xml:id="junius1.1019">p<!--crossed--> p&#xf1c7;dicat&#xf1c7;o&#xaf;e&#xaf; <!--name overflow-->fi<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1020">lippi<pc>&#xb7;</pc> q<hi>i</hi> erat</l>
+            <l xml:lang="lat" xml:id="junius1.1021">un&#xf1a6; ex <num value="7"><pc>.</pc>uii<pc>&#xb7;</pc></num> di<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1022">aconib; quo&#x17f;</l>
+            <l xml:lang="lat" xml:id="junius1.1023">apl&#xb4;i ordi&#xaf;au&#xf1c7;a&#xaf;t<pc>.</pc> In primiti<pc>-</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1024">ua eccl&#xb4;ia<pc>.</pc>&amp; q<hi>o</hi>m<hi>o</hi> &#x17f;u&#x17f;cep<!--crossed-->u&#xaf;t &#x17f;pi&#xaf;n<!--unclear--><pc>.</pc> &#x17f;<pc>.</pc></l>
+            <l xml:lang="lat" xml:id="junius1.1025">p<!--crossed--> i&#xaf;po&#x17f;itio&#xaf;e&#xaf; manu&#xf1a6; <name type="person">petri</name> &amp; <name type="person">ioh&#xaf;i&#x17f;</name><pc>.</pc></l>
+            <!--little signature?-->
+            <pb/><!--where are the rest of the texts?-->
+            <!--
+            thorn  &#xFE;  THORN &#xDE;   pflourish  &#xA753;  PFLOURISH  &#xA752;
+            yogh   &#x21D; YOGH  &#x21C;  qcross &#xF14D;
+            wynn   &#x1BF; WYNN  &#x1F7;
+            slong  &#x17F; aelig  &#xE6;  ydot &#x1E8F;
+            middot &#xB7;  punctelev &#xF161;  oe &#x153;
+            pilcrow &#xB6; breve &#x2D8;  grave &#x60; 
+            acute  &#xB4;  macron &#xAF;  double acute &#x2DD;  turnedsemicolon &#x2E35;
+            rrotunda &#xA75B; crossed-rrotunda &#xA75D;
+            er-abbreviation &#xF1C7;
+            us-abbreviation &#xF1A6;
+            con-abbreviation &#xA76F;
+            ra?-abbreviation &#x1DD3;
+            -->
+         </div1>
+      </body>
+  </text>
+</TEI>
