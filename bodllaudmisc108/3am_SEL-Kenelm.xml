@@ -92,7 +92,11 @@ Last Update: August 6 2015. -->
                                 <orig>kenelm</orig>
                                 <reg>Kenelm</reg>
                             </choice></name> þe ȝongue
-                        k&ydot;ng<pc> &punctelev; </pc> þat holi mart&ydot;r is <pc> &middot;</pc> <fw type="guideWords" place="marginRight" xml:lang="lat"> <hi rend="red-ink">Vita &slong;ancti ke</hi></fw>></l>
+                        k&ydot;ng<pc> &punctelev; </pc> þat holi mart&ydot;r is <pc> &middot;</pc> <fw type="guideWords" place="marginRight" xml:lang="lat"> <hi rend="red-ink">Vita &slong;ancti 
+                            <choice>
+                                <orig>ke</orig>
+                                <reg>Ke</reg>
+                            </choice></hi></fw>></l>
                     <l xml:id="bodllaudmisc108.3am.2"><hi rend="touched-red">h</hi><sg type="ln"/>e
                         was k&ydot;ng in <name type="place" ref="#locEngland01">Engelonde</name> <pc>
                             &punctelev; </pc> of þe <name type="place" ref="#locMarch01">
@@ -102,7 +106,7 @@ Last Update: August 6 2015. -->
                                 <orig>kenulf</orig>
                                 <reg>Kenulf</reg>
                             </choice></name> his fader hiet<pc> &punctelev; </pc> he was k&ydot;ng þare
-                        al&slong;o</l>
+                        al&slong;o <fw type="guideWords" place="marginRight" xml:lang="lat"><hi rend="red-ink"><metamark function="decoration" rend="wavy-line"/></hi></fw></l>
                     <l xml:id="bodllaudmisc108.3am.4"><hi rend="touched-red">Þ</hi><sg type="ln"/>e <choice>
                             <orig>Abbeie</orig>
                             <reg>abbeie</reg>
@@ -372,7 +376,7 @@ Last Update: August 6 2015. -->
                         bi&slong;chop&rrot;iche of <name type="place" ref="#locSalisbury01"><choice>
                                 <orig>sale&slong;buri</orig>
                                 <reg>Salesburi</reg>
-                        </choice></name><pc> &punctelev; </pc> ake þo na&slong; it <add place="sublinear">&caret;</add><add place="supralinear">&slong;o</add> nouȝt so<note
+                        </choice></name><pc> &punctelev; </pc> ake þo na&slong; it <add place="sublinear">&caret;</add><add place="supralinear">&slong;o</add> nouȝt <del rend="subpointed">so</del><note
                             type="enc" resp="#bioHO001">[orig. nouȝt so]</note></l>
                     <l xml:id="bodllaudmisc108.3am.50"><hi rend="touched-red">F</hi><sg type="ln"
                         />o&rrot; þe chief &slong;tude of þe bi&slong;chop&rrot;iche<pc> &punctelev; </pc>
@@ -1253,8 +1257,8 @@ Last Update: August 6 2015. -->
                         onder<sg/>go</l>
                     <l xml:id="bodllaudmisc108.3am.274"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd &slong;eche after þe wode of <name type="place" ref="#locClent01"><choice>
-                                <orig>cklent</orig>
-                                <reg>Cklent</reg>
+                            <orig><del rend="subpointed">c</del>klent</orig>
+                            <reg><del rend="subpointed">c</del>Klent</reg>
                             </choice></name><pc> &punctelev; </pc> ȝif ani man miȝte i<sg/>wite</l>
                     <l xml:id="bodllaudmisc108.3am.275"><hi rend="touched-red">A</hi><sg type="ln"
                         />nd seche ane þo&rrot;n in <name type="place" ref="#locCowbach01"><choice>
@@ -1557,8 +1561,8 @@ Last Update: August 6 2015. -->
                     <l xml:id="bodllaudmisc108.3am.341"><hi rend="touched-red">O</hi><sg type="ln"
                         />f co&rrot;&slong;ingue and<note type="enc" resp="#bioHO001">[al. om.]</note> of
                         luþere men<pc> &punctelev; </pc> and of man&slong;ingue i<sg/>maked heo is</l>
-                    <l xml:id="bodllaudmisc108.3am.342"><hi rend="touched-red">D</hi><sg type="ln"
-                        />eus laudem is i<sg/>cleoped.<pc> &punctelev; </pc> þis saume þe 
+                    <l xml:id="bodllaudmisc108.3am.342"><seg xml:lang="lat"><hi rend="touched-red">D</hi><sg type="ln" />eus laudem</seg> is
+                        i<sg/>cleoped <pc> &punctelev; </pc> þis saume þe 
                         <choice>
                             <orig><hi rend="touched-red">Q</hi>uiene</orig>
                             <reg>quiene</reg>
