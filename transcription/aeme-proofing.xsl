@@ -4,7 +4,11 @@
   <xsl:output doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
     doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" encoding="UTF-8" exclude-result-prefixes="#all" indent="no"
     media-type="text/html; charset=UTF-8" method="xhtml" omit-xml-declaration="yes"/>
-  <xsl:strip-space elements="*"/>
+   <!-- Strip white space within all elements -->
+   <xsl:strip-space elements="*"/>
+   <!-- Preserve white space within <pc> elements -->
+   <xsl:preserve-space elements="pc"/>
+
   <xsl:template exclude-result-prefixes="#all" match="/">
     <xsl:apply-templates select="tei:TEI"/>
   </xsl:template>
@@ -16,23 +20,40 @@
       <head>
         <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
         <title>Archive of Early Middle English :: <xsl:value-of select="$doc.title"/></title>
-        <link href="http://www.emesoc.org/schema/aeme-proofing.css" media="screen" rel="stylesheet" type="text/css"/>
-        <link href="http://www.emesoc.org/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<!--         <link href="http://www.emesoc.org/schema/aeme-proofing.css" media="screen" rel="stylesheet" type="text/css"/>
+ -->
+         <link href="../../transcription/aeme-proofing.css" media="screen" rel="stylesheet" type="text/css"/>
+         <link href="http://www.emesoc.org/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
         <style type="text/css">
-          body{
-          margin:10px 10px 10px 10px;
-          padding:10px;
-          width: 95%;
-          font-size: larger;
-          }
+
         </style>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.js"></script>
+        <script type="text/javascript">
+          $(window).load(function() {
+          
+          $.fn.addLineNumbers = function() {
+          return $("p").each(function() {
+          var html = $(this).html();
+          line = $(this).attr("title");
+          html = '<span style="margin-right:50px;">' + line + '</span>' + html;
+          $(this).html(html);
+          });
+          
+          
+          
+          };
+          // Works only if the containing TEI element is transformed to HTML p. 
+          //Possibly other HTML elements need to be added.              
+          $('p').addLineNumbers();
+          });
+        </script>
       </head>
       <body>
         <!--<a class="jump-to-content" href="#content">Jump to Content</a>-->
         <div id="content">
           <a name="content"/>
           <div id="content-primary">
-            <div style="font-size: 200%; text-align: center;">
+          <!--  <div style="font-size: 200%; text-align: center;">
               <xsl:text>[</xsl:text>
               <a href="#textstart">jump to text</a>
               <xsl:text>]</xsl:text>
@@ -42,6 +63,7 @@
             <xsl:apply-templates select="//tei:facsimile/*"/>
             <hr/>
             <a name="textstart"> </a>
+          -->
             <xsl:apply-templates select="//tei:front/*"/>
             <xsl:apply-templates select="//tei:body/*"/>
             <xsl:apply-templates select="//tei:back/*"/>
@@ -568,6 +590,13 @@
       <xsl:text> [</xsl:text>
       <xsl:value-of select="@n"/>
       <xsl:text>] </xsl:text>
+    </span>
+  </xsl:template>
+
+  <!-- ELEMENT: pc added -->
+  <xsl:template exclude-result-prefixes="#all" match="tei:pc">
+    <span class="pc">
+      <xsl:apply-templates/>
     </span>
   </xsl:template>
 
