@@ -1,11 +1,14 @@
 <teiHeader>
     <fileDesc>
         <titleStmt>
-            <title type="codexfull">Oxford, Bodleian Library, Junius 1</title>
+            <title type="codexfull">
+                <title type="main">Oxford, Bodleian Library, MS Junius 1</title>
+                <title type="alt">The Ormulum</title>
+            </title>
             <respStmt>
                 <resp>Transcribed from the digital images and encoded by</resp>
                 <name type="person" ref="#bioWO001">Meg Worley</name>
-                <name type="person" ref="#bioZ001">Zachary Abt</name>
+                <name type="person" ref="#bioAB001">Zachary Abt</name>
             </respStmt>
         </titleStmt>
         <publicationStmt>
@@ -23,10 +26,12 @@
                 </msIdentifier>
                 <msContents>
                     <summary>The manuscript contents are catalogued in DIMEV entry <ref
-                            target="http://www.dimev.net/Records.php?MSS=BodLauMis108" type="DIMEV"
+                        target="http://www.dimev.net/Records.php?MSS=BodJunius1" type="DIMEV"
                             >http://www.dimev.net/Records.php?MSS=BodJunius1</ref>. All items belong
                         to the <ref type="LAEME">LAEME</ref>
-                        <term>literary</term> category. A full description can be found at ??? . </summary>
+                        <term>literary</term> category. A full description can be found at The Production and Use 
+                        of English Manuscripts 1060-1220 at <ref target="https://www.le.ac.uk/english/em1060to1220/mss/EM.Ox.Juni.1.htm" 
+                            type="PUEM">https://www.le.ac.uk/english/em1060to1220/mss/EM.Ox.Juni.1.htm</ref>. </summary>
                     <msItem n="1" xml:id="mc00001" class="#literary">
                         <locus>ff. 1r</locus>
                         <title>The Ormulum</title>
@@ -36,7 +41,7 @@
                         </bibl>
                         <listBibl>
                             <bibl xml:id="HoltWhite1878">White, Robert Meadows, ed.
-                                    <title>Ormulum</title>. 2 vols. Oxford: University Press, 1852;
+                                    <title>The Ormulum</title>. 2 vols. Oxford: University Press, 1852;
                                 rev. ed. Robert Holt, 1878.</bibl>
                         </listBibl>
                     </msItem>
@@ -53,6 +58,7 @@
                     </objectDesc>
                     <!-- The description below omits hands not responsible for the above items. -->
                     <handDesc hands="1">
+                        <!-- Meg needs to go back and add this. -->
                         <handNote n="1" scope="major" xml:id="bioOR0001">
                             <!-- The description below is not for Junius 1; it's just to illustrate the format. -->
                             <p>The first part of the manuscript, <locus from="1r" to="200r">ff.
@@ -99,6 +105,9 @@
                         <bibl>
                             <ref type="DIMEV">http://www.dimev.net/Records.php?MSS=BodJunius1</ref>
                         </bibl>
+                        <bibl>
+                            <ref type="PUEM">https://www.le.ac.uk/english/em1060to1220/mss/EM.Ox.Juni.1.htm</ref>
+                        </bibl>
                     </listBibl>
                 </additional>
             </msDesc>
@@ -114,6 +123,13 @@
                     <edition>1993</edition>
                 </bibl>
             </taxonomy>
+            <taxonomy xml:id="PUEM">
+                <bibl
+                    <title>The Production and Use of English Manuscripts 1060-1220</title>
+                    <author>Orietta Da Rold, Takako Kato, Mary Swan, and Elaine Treharne</author>
+                    <edition>2013</edition>
+                </bibl>
+            </taxonomy>
         </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -121,7 +137,6 @@
             <keywords scheme="#LAEME">
                 <term>literary</term>
             </keywords>
-            <!-- We may wish to add more keywords later -->
             <keywords>
                 <term>gospels</term>
                 <term>homilies</term>
