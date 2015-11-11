@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.emesoc.org/schema/aeme.rng" type="xml"?>
+<?xml version="1.0" encoding="UTF&dash;8"?><?oxygen RNGSchema="http://www.emesoc.org/schema/aeme.rng" type="xml"?>
 <!DOCTYPE TEI SYSTEM "entities.dtd">
-<TEI xml:id="junius1" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="junius1" xmlns="http://www.tei&dash;c.org/ns/1.0">
    <!-- Standoff <teiHeader> and <facsimile> files --> &teiHeader; &facsimile;
    <!-- End of Standoff <teiHeader> and <facsimile> files -->
    <text>
       <!-- Change log
       Input underway, by Zach
-      First-pass review underway, by Meg
+      First&dash;pass review underway, by Meg
    Named entities:
    #bioAB0001: Zachary Abt, title undecided
    #bioWO0001: Meg Worley, editor of the Ormulum
@@ -16,203 +16,700 @@
    
    #loc
    
-   Need to deal with &wsup, &ethsup, and perhaps &urrot at a later point.
+   Need to deal with &wsup, &ethsup, and perhaps <choice>
+               <orig>&urrot;</orig>
+               <reg>er</reg>
+            </choice> at a later point.
    Also will need to add a STACKED tag so that users can search all stacked letters.
    
-   Last update: 6nov2015 -->
+   Last update: 11nov2015 -->
     
       <body xml:id="junius1">
          <div1>
-            <pb/>
-            <l xml:id="junius1.1"><hi rend="h6">N</hi>u bro&thorn;err &wynn;allt&urrot;&middot; bro&thorn;er<hi>r</hi> min&middot;</l>
-            <l xml:id="junius1.2">afft&urrot; &thorn;e fl&aelig;shess ki&combmacr;de&middot; &ET; bro&thorn;er<hi>r</hi></l>
-            <l xml:id="junius1.3">min i cri&slong;&slong;tenndom&middot; &thorn;urrh ful<pc>-</pc></l>
-            <l xml:id="junius1.4">luhht&middot; &et; &thorn;urrh tro&wynn;&wynn;&thorn;e&middot; &ET; bro<pc>-</pc></l>
-            <l xml:id="junius1.5">&thorn;err min i gode&slong;&slong; hu&slong;&middot; &Gins;et o &thorn;e &thorn;ri<pc>-</pc>-</l>
-            <l xml:id="junius1.6">de &wynn;i&slong;e&middot; &#THORN;urrh &thorn;att &wynn;itt hafenn</l>
-            <l xml:id="junius1.7">taken<hi>n</hi> ba&middot; an re&gins;<hi>h</hi>ellboc to foll&gins;<hi>h</hi>enn&middot; Vnn<pc>-</pc></l>
-            <l xml:id="junius1.8">derr kanunnke&slong;&slong; had&middot; &et; lif&middot; S&wynn;a &slong;um<hi>m</hi> &slongenl;annt</l>
-            <l xml:id="junius1.9">a&wynn;&wynn;&slong;tin &slong;ette&middot; Icc<hi>cc</hi> hafe don &slong;&wynn;a &slong;um<hi>m</hi> &thorn;u badd&punctelev; &et;</l>
-            <l xml:id="junius1.10">for&thorn;edd te &thorn;i<hi>n</hi> &wynn;ille&middot;&parag;> Icc<hi>cc</hi>hafe &wynn;en<hi>n</hi>d in<hi>n</hi>till enn<pc>-</pc></l>
-            <l xml:id="junius1.11">&gins;li&slong;&slong;h&middot; godd&slong;pelle&slong;&slong; hall&gins;<hi>h</hi>e la&#xB4;re&punctelev; Afft&urrot; &thornbar; lit<hi>t</hi>le</l>
+            <pb n="3r"/>
+            <cb n="1"/>
+          <l xml:id="junius1.1"><hi rend="h6">N</hi>u bro&thorn;err <choice>
+               <orig>&wynn;</orig>
+               <reg>&WYNN;</reg>
+            </choice>allt<choice>
+               <orig>&urrot;</orig>
+               <reg>er</reg>
+            </choice><pc rend=",">&middot;</pc> bro&thorn;er<choice>
+               <orig>&rsup;</orig>
+               <reg>r</reg>
+            </choice> min<pc>&middot;</pc></l>
+          <l xml:id="junius1.2"><lb/><choice>
+               <orig>&aenl;</orig>
+               <reg>A</reg>
+               </choice>fft<choice>
+               <orig>&urrot;</orig>
+               <reg>er</reg>
+            </choice> &thorn;e fl&aelig;she&slong;&slong; ki<choice>
+               <orig>&combmacr;</orig>
+               <reg>n</reg>
+            </choice>d<choice>
+               <orig>&#eext;</orig>
+               <reg>e</reg>
+            </choice><pc>&middot;</pc> </l>
+           <l xml:id="junius1.3">&ET; bro&thorn;er<choice>
+                <orig>&rsup;</orig>
+                <reg>r</reg>
+             </choice> <lb/>min i <choice>
+                <orig>c</orig>
+                <reg>C</reg>
+                </choice>ri&slong;&slong;tenndom<pc rend=",">&middot;</pc></l> 
+            <l xml:id="junius1.4">&thorn;urrh ful<pc>&dash;</pc></lb>luhht<pc>&middot;</pc> &et; &thorn;urrh tro&wynn;&wsup;&thorn;<choice>
+               <orig>&#eext;</orig>
+               <reg>e</reg>
+            </choice><pc rend=",">&middot;</pc> </l>
+            <l xml:id="junius1.5">&ET; bro<pc>&dash;</pc><lb/> &thorn;err min i gode&slong;&slong; hu&slong;<pc rend=",">&middot;</pc> 
+            <l xml:id="junius1.6"><choice>
+               <orig>&#GINS;</orig>
+               <reg>&gins;</reg>
+            </choice>et o &thorn;e &thorn;ri<pc>&dash;</pc><lb/>de &wynn;i&slong;e<pc rend=".">&middot;</pc> </l>              
+            <l xml:id="junius1.7">&#THORN;urrh &thorn;att &wynn;itt hafenn taken<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice> ba<pc>&middot;</pc> </l> 
+            <l xml:id="junius1.8"><choice>
+               <orig>&#aenl;</orig>
+               <reg>A</reg>
+            </choice>n re&gins;e<choice>
+               <orig>&hsup;</orig>
+               <reg>h</reg>
+            </choice>llboc to foll&gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>enn<pc rend=".">&middot;</pc> </l>
+            <l xml:id="junius1.9">Vnn<pc>&dash;</pc>derr kanunnke&slong;&slong; had&middot; &et; lif&middot; S&wynn;a &slong;um<hi>m</hi> &slongenl;annt</l>a&wynn;&wynn;&slong;tin &slong;ette&middot; Icc<hi>cc</hi> hafe don &slong;&wynn;a &slong;um<hi>m</hi> &thorn;u badd&punctelev; &et;</l>
+            <l xml:id="junius1.10">for&thorn;edd te &thorn;i<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &wynn;ille&middot;&parag;> Icc<hi>cc</hi>hafe &wynn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+d in<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+till enn<pc>&dash;</pc></l>
+            <l xml:id="junius1.11">&GINS;li&slong;&slong;h&middot; godd&slong;pelle&slong;&slong; hall&GINS;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e la&#xB4;re&punctelev; Afft<choice>
+               <orig>&urrot;</orig>
+               <reg>er</reg>
+            </choice>; &thornbar; lit<hi>t</hi>le</l>
             <l xml:id="junius1.12">&wynn;itt &thorn;att me&middot; &munc;in drihhtin hafe&thorn;&thorn; lenedd&middot;</l>
-            <l xml:id="junius1.13">&parag; &#THORN;u &thorn;ohhte&slong;&slong;t tatt itt mihhte &wynn;el&middot; till mi<pc>-</pc></l>
-            <l xml:id="junius1.14">kell frame tur<hi>r</hi>nen<hi>n</hi>&middot; &Gins;iff enngli&slong;&slong; follc&middot;</l>
-            <l xml:id="junius1.15">forr lufe off cri&slong;t&middot; Itt &wynn;ollde &gins;erne lernenn&middot;</l>
-            <l xml:id="junius1.16">&ET; foll&gins;<hi>h</hi>en<hi>n</hi> itt &et; fillenn itt&middot; &WYNN;i&thorn;&thorn; &thorn;ohht &wynn;i&thorn;&thorn; &wynn;ord</l>
-            <l xml:id="junius1.17">&wynn;i&thorn;&thorn; dede&middot; &ET; for<hi>r</hi>&thorn;i &gins;errnde&slong;&slong;t tu &thornbar; icc&middot;&thorn;i&slong;&slong; &wynn;er<hi>r</hi>c</l>
-            <l xml:id="junius1.18">&thorn;e &slong;hollde &wynn;ir<hi>r</hi>ken<hi>n</hi>&middot; &ET; icc itt hafe for&thorn;eddte&punctelev;</l>
-            <l xml:id="junius1.19">Acc all &thorn;urrh cri&slong;te&slong;&slong; hellpe&punctelev; &ET; un<hi>n</hi>c birr&thorn; ba&thorn;</l>
-            <l xml:id="junius1.20">&thorn;an<hi>n</hi>kenn cris&slong;t&punctelev; &thornbar; itt i&slong;&slong;brohht till ende&punctelev;</l>
+            <l xml:id="junius1.13">&parag; &#THORN;u &thorn;ohhte&slong;&slong;t tatt itt mihhte &wynn;el&middot; till mi<pc>&dash;</pc></l>
+            <l xml:id="junius1.14">kell frame tur<hi>r</hi>nen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot; &GINS;iff enngli&slong;&slong; follc&middot;</l>
+            <l xml:id="junius1.15">forr lufe off cri&slong;t&middot; Itt &wynn;ollde &GINS;erne lernenn&middot;</l>
+            <l xml:id="junius1.16">&ET; foll&GINS;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ itt &et; fillenn itt&middot; &WYNN;i&thorn;&thorn; &thorn;ohht &wynn;i&thorn;&thorn; &wynn;ord</l>
+            <l xml:id="junius1.17">&wynn;i&thorn;&thorn; dede&middot; &ET; for<hi>r</hi>&thorn;i &GINS;errnde&slong;&slong;t tu &thornbar; icc&middot;&thorn;i&slong;&slong; &wynn;er<hi>r</hi>c</l>
+            <l xml:id="junius1.18">&thorn;e &slong;hollde &wynn;ir<hi>r</hi>ken<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot; &ET; icc itt hafe for&thorn;eddte&punctelev;</l>
+            <l xml:id="junius1.19">Acc all &thorn;urrh cri&slong;te&slong;&slong; hellpe&punctelev; &ET; un<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+c birr&thorn; ba&thorn;</l>
+            <l xml:id="junius1.20">&thorn;an<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+kenn cris&slong;t&punctelev; &thornbar; itt i&slong;&slong;brohht till ende&punctelev;</l>
             <l xml:id="junius1.21"><pc>&parag;</pc> Icc hafe &slong;am<hi>m</hi>nedd o &thorn;i&slong;&slong; boc&middot; &thornenl;a godd&slong;pelle&slong;&slong; neh</l>
-            <l xml:id="junius1.22">alle&punctelev; &thorn;att &slong;inndenn o &thorn;e me&slong;&slong;eboc&middot; In<hi>n</hi> all &thorn;e &#gins;er</l>
+            <l xml:id="junius1.22">alle&punctelev; &thorn;att &slong;inndenn o &thorn;e me&slong;&slong;eboc&middot; In<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ all &thorn;e &#gins;er</l>
             <l xml:id="junius1.23">att me&slong;&slong;e&middot; &parag; &et; a&#gins;&#gins; affter<hi>r</hi> &thorn;e godd&slong;pell &slong;tannt&middot; &thornbar;</l>
             <!-- I only started putting stacked thorns and stacked wynns with the second as superscript after this point, will go back and fix others -->
-            <l xml:id="junius1.24">tatt te godd&slong;pell mene&thorn;&thorn;&middot; &#THORN;att mann birr&thorn; &slong;pel<pc>-</pc></l>
-            <l xml:id="junius1.25">lenn to &thorn;e follc&middot; Off &thorn;e&#gins;&#gins;re &slong;a&wynn;le nede&middot; &ET; &#gins;et t&aelig;r te<pc>-</pc></l>
+            <l xml:id="junius1.24">tatt te godd&slong;pell mene&thorn;&thorn;&middot; &#THORN;att mann birr&thorn; &slong;pel<pc>&dash;</pc></l>
+            <l xml:id="junius1.25">lenn to &thorn;e follc&middot; Off &thorn;e&#gins;&#gins;re &slong;a&wynn;le nede&middot; &ET; &#gins;et t&aelig;r te<pc>&dash;</pc></l>
             <l xml:id="junius1.26">kenn mare inoh&middot; &thornenl;u &slong;hallt t&aelig;r onne findenn&middot;</l>
-            <l xml:id="junius1.27">Off &thorn;att tatt cri&slong;te&slong;&slong; hall&#gins;<hi>h</hi>e &thorn;ed&punctelev; Bir<hi>r</hi>&thorn; tro&wynn;&wynn;en<hi>n</hi></l>
-            <l xml:id="junius1.28">&wynn;el&middot; &et; foll&#gins;<hi>h</hi>enn&middot;&parag;</pc> Icc hafe &slong;ett her o &thorn;i&slong;&slong; boc&middot; &aenl;ma&#combmacr;g </l>
-            <l xml:id="junius1.29">godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;&middot; All &thorn;urrh me &slong;ellfen<hi>n</hi>mani&#gins;</l>
+            <l xml:id="junius1.27">Off &thorn;att tatt cri&slong;te&slong;&slong; hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e &thorn;ed&punctelev; Bir<hi>r</hi>&thorn; tro&wynn;&wynn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
+            <l xml:id="junius1.28">&wynn;el&middot; &et; foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot;&parag;</pc> Icc hafe &slong;ett her o &thorn;i&slong;&slong; boc&middot; &aenl;ma&#combmacr;g </l>
+            <l xml:id="junius1.29">godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;&middot; All &thorn;urrh me &slong;ellfen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+mani&#gins;</l>
             <l xml:id="junius1.30">&wynn;ord&middot; &thornenl;e rime &slong;&wynn;a to fillenn&middot; Acc &thorn;u &slong;hallt findenn</l>
             <l xml:id="junius1.31">&thorn;att min &wynn;ord&middot; &eenl;&#gins;&#gins;&wynn;h&aelig;r &thorn;&aelig;r itt i&slong;&slong; ekedd&punctelev; &Munc;a&#gins;&#gins;</l>
-            <l xml:id="junius1.32">hellpen<hi>n</hi> &thorn;a &thornbar; redenn itt&middot; To &slong;en&middot; &et; tunnder<hi>r</hi>&slong;tannden<hi>n</hi>&middot;</l>
+            <l xml:id="junius1.32">hellpen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &thorn;a &thornbar; redenn itt&middot; To &slong;en&middot; &et; tunnder<hi>r</hi>&slong;tannden<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot;</l>
             <l xml:id="junius1.33">All &thorn;e&slong;&slong; te bettre hu &thorn;e&#gins;&#gins;m birr&thorn;&middot;&thornenl;e godd&slong;pell</l>
             <l xml:id="junius1.34">unnderr&slong;tanndenn&middot; &ET; for<hi>r</hi>&thorn;i tro&wynn;&wynn;e icc &thorn;att te</l>
             <l xml:id="junius1.35">birr&thorn;&middot; &WYNN;el &thorn;olenn mine &wynn;orde&slong;&slong;&middot; E&#gins;&#gins;&wynn;h&aelig;r &thorn;&aelig;r &thorn;u</l>
-            <l xml:id="junius1.36">&slong;hallt finden<hi>n</hi> he&combmacr;&combmacr;&punctelev; &aenl;ma&#combmacr;g godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;&middot; For<hi>r</hi></l>
+            <l xml:id="junius1.36">&slong;hallt finden<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ he&combmacr;&combmacr;&punctelev; &aenl;ma&#combmacr;g godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;&middot; For<hi>r</hi></l>
             <l xml:id="junius1.37">&wynn;ha&slong;e mot&dblac; to l&aelig;&wynn;edd follc&middot; Lar&slong;pell off godd&slong;pell</l>
             <l xml:id="junius1.38">tellen&punctelev; He mot&dblac; &wynn;el ekenn mani&#gins; &wynn;ord&middot; &aenl;mang</l>
             <l xml:id="junius1.39">godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;&middot; &ET; icc ne mihhte nohht min</l>
-            <l xml:id="junius1.40">fer<hi>r</hi>&slong;&middot; &aenl;&#gins;&#gins; &wynn;i&thorn;<hi>&thorn;</hi> godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;&middot; &WYNN;el fillen<hi>n</hi> all&middot; &et; all</l>
+            <l xml:id="junius1.40">fer<hi>r</hi>&slong;&middot; &aenl;&#gins;&#gins; &wynn;i&thorn;<hi>&thorn;</hi> godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;&middot; &WYNN;el fillen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ all&middot; &et; all</l>
             <l xml:id="junius1.41">forr&thorn;i&middot; &senl;hollde icc &wynn;ell offte nede&middot; Ama&#combmacr;g godd&slong;pelle&slong;&slong;</l>
-            <l xml:id="junius1.42">&wynn;orde&slong;&slong; don&middot; &munc;in &wynn;ord&middot;&munc;in fer<hi>r</hi>&slong; to fillen<hi>n</hi>&middot;&parag;</pc> &ET; te bit&aelig;<pc>-</pc></l>
+            <l xml:id="junius1.42">&wynn;orde&slong;&slong; don&middot; &munc;in &wynn;ord&middot;&munc;in fer<hi>r</hi>&slong; to fillen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot;&parag;</pc> &ET; te bit&aelig;<pc>&dash;</pc></l>
             <l xml:id="junius1.43">che icc off&middot; &thorn;i&slong;&slong; boc&middot; &henl;eh &wynn;ikenn&middot; all&slong; itt &slong;em&thorn;<hi>&thorn;</hi>&middot; All to</l>
-            <l xml:id="junius1.44">&thorn;urrh&slong;eken<hi>n</hi> illc an fer<hi>r</hi>&slong;&middot; &et; to &thorn;urrhloken<hi>n</hi> offte &#punctelev; &THORN;at<hi>t</hi></l>
+            <l xml:id="junius1.44">&thorn;urrh&slong;eken<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ illc an fer<hi>r</hi>&slong;&middot; &et; to &thorn;urrhloken<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ offte &#punctelev; &THORN;at<hi>t</hi></l>
             <l xml:id="junius1.45">upponn all &thorn;i&slong;&slong; boc ne be&middot; &nenl;an &wynn;ord &#gins;&aelig;n cris&slong;tes&slong;&slong; lare&middot;</l>
-            <l xml:id="junius1.46">Nan &wynn;ord tatt &slong;&wynn;i&thorn;e &wynn;el ne be&middot; to tro&wynn;&wynn;en<hi>n</hi>&middot; &et;to foll&#gins;<hi>h</hi>enn&middot;</l>
-            <l xml:id="junius1.47">&parag;&WYNN;itt &slong;hulen<hi>n</hi> tredenn unnderr fot&dblac;&middot; &ET; all &thorn;&wynn;errt ut&dblac;</l>
+            <l xml:id="junius1.46">Nan &wynn;ord tatt &slong;&wynn;i&thorn;e &wynn;el ne be&middot; to tro&wynn;&wynn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot; &et;to foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot;</l>
+            <l xml:id="junius1.47">&parag;&WYNN;itt &slong;hulen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ tredenn unnderr fot&dblac;&middot; &ET; all &thorn;&wynn;errt ut&dblac;</l>
             <l xml:id="junius1.48">forr&wynn;er<hi>r</hi>penn&middot; &THORN;e dom off all &thorn;att la&thorn;e flocc&middot; &thorn;att i&slong;&slong;&punctelev;</l>
-            <l xml:id="junius1.49">&thorn;urrh ni&thorn; for<hi>r</hi>ble&combmacr;dedd&middot; &THORN;att t&aelig;le&thorn;<hi>&thorn;</hi> &thornbar; to lofen<hi>n</hi> i&slong;&slong;&punctelev; &thorn;ur<hi>r</hi>h</l>
-            <l xml:id="junius1.50">ni&thorn;full modi&#gins;ne&slong;&slong;e&middot;&parag; &THORN;e&#gins;&#gins; &slong;hulen<hi>n</hi> l&aelig;&#xB4;tenn h&aelig;&thorn;eli&#gins;&punctelev;</l>
-            <l xml:id="junius1.51">Off unnker<hi>r</hi> &slong;&wynn;i&dblac;c lef bro&thorn;er<hi>r</hi>&middot; &ET; all &thorn;e&#gins;&#gins; &slong;hulenn taken<hi>n</hi></l>
+            <l xml:id="junius1.49">&thorn;urrh ni&thorn; for<hi>r</hi>ble&combmacr;dedd&middot; &THORN;att t&aelig;le&thorn;<hi>&thorn;</hi> &thornbar; to lofen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ i&slong;&slong;&punctelev; &thorn;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.50">ni&thorn;full modi&#gins;ne&slong;&slong;e&middot;&parag; &THORN;e&#gins;&#gins; &slong;hulen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ l&aelig;&#xB4;tenn h&aelig;&thorn;eli&#gins;&punctelev;</l>
+            <l xml:id="junius1.51">Off unnker<hi>r</hi> &slong;&wynn;i&dblac;c lef bro&thorn;er<hi>r</hi>&middot; &ET; all &thorn;e&#gins;&#gins; &slong;hulenn taken<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
             <l xml:id="junius1.52">itt&middot; Onn unnitt&middot; &et; onn idell&middot; Ac<hi>c</hi> nohht &thorn;ur<hi>r</hi>h &slong;kill&middot;acc all</l>
-            <l xml:id="junius1.53">&thorn;urrh ni&thorn;&middot; &et; all &thorn;urrh &thorn;e&#gins;&#gins;re &slong;inne&middot;&ET; un<hi>n</hi>c bir<hi>r</hi>&thorn; bid<pc>-</pc></l>
+            <l xml:id="junius1.53">&thorn;urrh ni&thorn;&middot; &et; all &thorn;urrh &thorn;e&#gins;&#gins;re &slong;inne&middot;&ET; un<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+c bir<hi>r</hi>&thorn; bid<pc>&dash;</pc></l>
             <l xml:id="junius1.54">denn godd tatt he&punctelev; Forrgife he&#combmacr;&combmacr; he&combbreve;re &slong;inne&middot; &ET; unnc</l>
-            <l xml:id="junius1.55">birr&thorn; ba&thorn;e lofen<hi>n</hi> godd&middot; Off &thorn;att itt &wynn;a&slong;&slong; bigu&#combmacr;nenn&middot;</l>
+            <l xml:id="junius1.55">birr&thorn; ba&thorn;e lofen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ godd&middot; Off &thorn;att itt &wynn;a&slong;&slong; bigu&#combmacr;nenn&middot;</l>
             <l xml:id="junius1.56">&ET; &thorn;annkenn godd tatt itt i&slong;&slong; brohht&middot; &tenl;ill ende &thorn;ur<hi>r</hi>h</l>
             <l xml:id="junius1.57">hi&slong;&slong; hellpe&middot; Forr itt ma&#gins;&#gins; hellpenn alle &thorn;a&punctelev; &THORN;att</l>
-            <l xml:id="junius1.58">bli&thorn;elike itt herenn&middot; &ET; lufen<hi>n</hi> itt&middot; &et; foll&#gins;<hi>h</hi>en<hi>n</hi> itt&middot; &wynn;i&thorn;<hi>&thorn;</hi></l>
+            <l xml:id="junius1.58">bli&thorn;elike itt herenn&middot; &ET; lufen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ itt&middot; &et; foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ itt&middot; &wynn;i&thorn;<hi>&thorn;</hi></l>
             <l xml:id="junius1.59">&thorn;ohht&middot; &wynn;i&thorn;<hi>&thorn;</hi> &wynn;ord&middot; &wynn;i&thorn;<hi>&thorn;</hi> dede&middot; <!-- two parallel horizontal lines go until the end of the parchment --></l>
             <pb/>
-            <l xml:id="junius1.60"><pc>&parag;.</pc> &amp; pha&slong;e &wynn;ilenn &slong;hall &thorn;i&slong;&slong; boc&middot; efft o<pc>-</pc></l>
+            <l xml:id="junius1.60"><pc>&parag;.</pc> &amp; pha&slong;e &wynn;ilenn &slong;hall &thorn;i&slong;&slong; boc&middot; efft o<pc>&dash;</pc></l>
             <l xml:id="junius1.61">&thorn;er<hi>r</hi> &slong;i&thorn;e &wynn;ritenn&punctelev; Him<hi>m</hi> bidde icc &thornbar; he&dblac;t</l>
             <l xml:id="junius1.62">&wynn;ri&#xB4;te rihht&middot; S&wynn;a&slong;um<hi>m</hi> &thorn;i&slong;&slong; boc hi&#combmacr; t&aelig;che&thorn;<hi>&thorn;</hi></l>
             <l xml:id="junius1.63">All &thorn;&wynn;errt u&dblac;t affterr &thorn;att itt i&slong;&slong;&punctelev; uppo</l>
             <l xml:id="junius1.64">&thorn;i&slong;&slong; firr&slong;te bi&slong;ne&middot; &WYNN;i&thorn;<hi>&thorn;</hi> all &slong;&wynn;illc rime all&slong;</l>
             <l xml:id="junius1.65">her i&slong;&slong; &slong;ett&middot; &wynn;i&thorn;<hi>&thorn;</hi> all &slong;e fete &wynn;orde&slong;&slong;&middot; &amp; tatt</l>
-            <l xml:id="junius1.66">he loke &wynn;el &thorn;att he&middot; an boc&slong;ta&slong;&slong; &wynn;rite tri&#gins;<pc>-</pc></l>
-            <l xml:id="junius1.67">&#gins;&slong;&slong;&middot; E&#gins;&#gins;&wynn;h&aelig;r &thorn;&aelig;r itt upp o &thorn;i&slong;&slong; boc&punctelev; I&slong;&slong; &wynn;ri&#x2D8;<pc>-</pc></l>
+            <l xml:id="junius1.66">he loke &wynn;el &thorn;att he&middot; an boc&slong;ta&slong;&slong; &wynn;rite tri&#gins;<pc>&dash;</pc></l>
+            <l xml:id="junius1.67">&#gins;&slong;&slong;&middot; E&#gins;&#gins;&wynn;h&aelig;r &thorn;&aelig;r itt upp o &thorn;i&slong;&slong; boc&punctelev; I&slong;&slong; &wynn;ri&#x2D8;<pc>&dash;</pc></l>
             <l xml:id="junius1.68">ten o &thorn;att &wynn;i&slong;e&middot; Loke he &wynn;el &thorn;&aelig; he&dblac;t &wynn;rite &slong;&wynn;a&middot;</l>
-            <l xml:id="junius1.69">For<hi>r</hi> he ne ma&#gins;&#gins; nohht elle&slong;&slong;&middot; Onn en<hi>n</hi>gli&slong;&slong;h</l>
+            <l xml:id="junius1.69">For<hi>r</hi> he ne ma&#gins;&#gins; nohht elle&slong;&slong;&middot; Onn en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gli&slong;&slong;h</l>
             <l xml:id="junius1.70">&wynn;ri&#xB4;ttenn rihht te &wynn;ord&middot; &thorn;att &wynn;ite he &wynn;el to</l>
-            <l xml:id="junius1.71">&slong;of&thorn;e<pc>&middot;&parag;</pc> &amp; &#gins;iff <!-- large blot &wynn;ith line going out to side that adds one &wynn;ord: --> mann &wynn;ile <!-- other box mark --> &wynn;iten<hi>n</hi> &wynn;hi&middot; Ic<hi>c</hi> hafe</l>
+            <l xml:id="junius1.71">&slong;of&thorn;e<pc>&middot;&parag;</pc> &amp; &#gins;iff <!-- large blot &wynn;ith line going out to side that adds one &wynn;ord: --> mann &wynn;ile <!-- other box mark --> &wynn;iten<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &wynn;hi&middot; Ic<hi>c</hi> hafe</l>
             <l xml:id="junius1.72">don &thorn;i&slong;&slong; dede&middot; &WYNN;hi icc till enngli&slong;&slong;h hafe &wynn;e&dblac;d&middot;</l>
-            <l xml:id="junius1.73">godd&slong;pelle&slong;&slong; hall&#gins;<hi>h</hi>e lare&middot; Icc hafe it<hi>t</hi> don for<hi>r</hi></l>
+            <l xml:id="junius1.73">godd&slong;pelle&slong;&slong; hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e lare&middot; Icc hafe it<hi>t</hi> don for<hi>r</hi></l>
             <l xml:id="junius1.74">&thorn;i &thornbar; all&middot; cri&slong;&slong;tene follke&slong;&slong; ber<hi>r</hi>hle&slong;&slong;&middot;I&slong;&slong; la&#combmacr;g up<hi>p</hi></l>
-            <l xml:id="junius1.75">o &thornbar; an&middot; &thornbar; te&#gins;&#gins;&middot; godd&slong;pelle&slong;&slong; hall&#gins;<hi>h</hi>e lare&middot; &WYNN;i&thorn;<hi>&thorn;</hi></l>
-            <l xml:id="junius1.76">fulle mahhte foll&#gins;<hi>h</hi>e rihht&middot; &thorn;urrh &thorn;ohht&middot;</l>
+            <l xml:id="junius1.75">o &thornbar; an&middot; &thornbar; te&#gins;&#gins;&middot; godd&slong;pelle&slong;&slong; hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e lare&middot; &WYNN;i&thorn;<hi>&thorn;</hi></l>
+            <l xml:id="junius1.76">fulle mahhte foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e rihht&middot; &thorn;urrh &thorn;ohht&middot;</l>
             <l xml:id="junius1.77">&thorn;urrh &wynn;ord&middot; &thorn;urrh dede&middot; Forr all &thorn;att &aelig;fre</l>
-            <l xml:id="junius1.78">onn er&thorn;e i&slong;&slong; ned&middot; cri&slong;&slong;tene follc to foll&#gins;<hi>h</hi>enn&middot;</l>
+            <l xml:id="junius1.78">onn er&thorn;e i&slong;&slong; ned&middot; cri&slong;&slong;tene follc to foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot;</l>
             <l xml:id="junius1.79">I tro&wynn;&wynn;&thorn;e&middot; i dede&punctelev; all t&aelig;che&thorn;<hi>&thorn;</hi> he&dblac;&middot; godd&slong;pelle&slong;&slong;</l>
-            <l xml:id="junius1.80">hall&#gins;<hi>h</hi>e lare&middot; &amp; for<hi>r</hi>&thorn;i &wynn;ha&slong;e lerne&thorn;<hi>&thorn;</hi> it<hi>t</hi>&middot; &amp; foll&#gins;<hi>h</hi>enn&middot;</l>
-            <l xml:id="junius1.81">itt &wynn;i&thorn;<hi>&thorn;</hi> dede&punctelev; He &slong;hall on<hi>n</hi> ende &wynn;urr&thorn;i ben&middot; &thorn;ur<hi>r</hi>h</l>
-            <l xml:id="junius1.82">godd to &wynn;urr&thorn;enn borr&#gins;<hi>h</hi>enn&middot; &amp; t&aelig;rfore hafe</l>
-            <l xml:id="junius1.83">Icc tur<hi>r</hi>nedd itt&middot; In<hi>n</hi>till enngli&slong;&slong;h &slong;p&aelig;che&punctelev; For<hi>r</hi></l>
+            <l xml:id="junius1.80">hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e lare&middot; &amp; for<hi>r</hi>&thorn;i &wynn;ha&slong;e lerne&thorn;<hi>&thorn;</hi> it<hi>t</hi>&middot; &amp; foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot;</l>
+            <l xml:id="junius1.81">itt &wynn;i&thorn;<hi>&thorn;</hi> dede&punctelev; He &slong;hall on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ ende &wynn;urr&thorn;i ben&middot; &thorn;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.82">godd to &wynn;urr&thorn;enn borr&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot; &amp; t&aelig;rfore hafe</l>
+            <l xml:id="junius1.83">Icc tur<hi>r</hi>nedd itt&middot; In<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+till enngli&slong;&slong;h &slong;p&aelig;che&punctelev; For<hi>r</hi></l>
             <l xml:id="junius1.84">&thorn;att i &wynn;ollde bli&thorn;eli&#gins;&middot; &thorn;att all englis&slong;&slong;he lede&middot; &WYNN;i&thorn;<hi>&thorn;</hi></l>
-            <l xml:id="junius1.85">&aelig;re &slong;hollde li&slong;&slong;ten<hi>n</hi> itt&middot; &WYNN;i&thorn;<hi>&thorn;</hi> herrte &slong;hollde itt tro&wynn;<pc>-</pc></l>
-            <l xml:id="junius1.86">penn&middot; &WYNN;i&thorn;<hi>&thorn;</hi> tunge &slong;hollde &slong;pellenn itt&middot; &WYNN;i&thorn;<hi>&thorn;</hi> dede &slong;holl<pc>-</pc></l>
-            <l xml:id="junius1.87">de itt foll&#gins;<hi>h</hi>enn&middot; To &wynn;i&#combmacr;nenn unnderr cri&slong;&slong;tenndom&middot;</l>
-            <l xml:id="junius1.88">att godd &slong;o&thorn; &slong;a&wynn;le berrhle&slong;&slong;&middot; &amp; &#gins;iff &thorn;e&#gins;&#gins; &wynn;ilen<hi>n</hi> heren<hi>n</hi></l>
-            <l xml:id="junius1.89">itt&middot; &amp; foll&#gins;<hi>h</hi>en<hi>n</hi> it<hi>t</hi> &wynn;i&thorn;<hi>&thorn;</hi> dede&middot; Ic<hi>c</hi> hafe he&dblac; hollpenn unn<pc>-</pc></l>
+            <l xml:id="junius1.85">&aelig;re &slong;hollde li&slong;&slong;ten<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ itt&middot; &WYNN;i&thorn;<hi>&thorn;</hi> herrte &slong;hollde itt tro&wynn;<pc>&dash;</pc></l>
+            <l xml:id="junius1.86">penn&middot; &WYNN;i&thorn;<hi>&thorn;</hi> tunge &slong;hollde &slong;pellenn itt&middot; &WYNN;i&thorn;<hi>&thorn;</hi> dede &slong;holl<pc>&dash;</pc></l>
+            <l xml:id="junius1.87">de itt foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot; To &wynn;i&#combmacr;nenn unnderr cri&slong;&slong;tenndom&middot;</l>
+            <l xml:id="junius1.88">att godd &slong;o&thorn; &slong;a&wynn;le berrhle&slong;&slong;&middot; &amp; &#gins;iff &thorn;e&#gins;&#gins; &wynn;ilen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ heren<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
+            <l xml:id="junius1.89">itt&middot; &amp; foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ it<hi>t</hi> &wynn;i&thorn;<hi>&thorn;</hi> dede&middot; Ic<hi>c</hi> hafe he&dblac; hollpenn unn<pc>&dash;</pc></l>
             <l xml:id="junius1.90">derr cri&slong;t&middot; to &wynn;i&#combmacr;nenn &thorn;e&#gins;<hi>&#gins;</hi>re berrhle&slong;&slong;&middot; &amp; i &slong;hall</l>
-            <l xml:id="junius1.91">hafen<hi>n</hi> forr mi<hi>n</hi> &slong;&wynn;innc&middot; god l&aelig;n att godd onn ende&punctelev;</l>
+            <l xml:id="junius1.91">hafen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ forr mi<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &slong;&wynn;innc&middot; god l&aelig;n att godd onn ende&punctelev;</l>
             <l xml:id="junius1.92">&#x21C;iff &thorn;att i for<hi>r</hi> &thorn;e lufe off godd&middot; &amp; for<hi>r</hi> &thorn;e me<!-- hard to read -->de off</l>
-            <l xml:id="junius1.93">heffne&punctelev; He<hi>m</hi> hafe itt inntill en<hi>n</hi>gli&slong;&slong;h &wynn;en<hi>n</hi>d&middot; Forr</l>
-            <l xml:id="junius1.94">&thorn;e&#gins;&#gins;re &slong;a&wynn;le nede&middot; &amp; &#gins;iff &thorn;e&#gins;&#gins; all for<hi>r</hi>&wynn;er<hi>r</hi>pen<hi>n</hi> it<hi>t</hi>&punctelev; icc</l>
+            <l xml:id="junius1.93">heffne&punctelev; He<hi>m</hi> hafe itt inntill en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gli&slong;&slong;h &wynn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+d&middot; Forr</l>
+            <l xml:id="junius1.94">&thorn;e&#gins;&#gins;re &slong;a&wynn;le nede&middot; &amp; &#gins;iff &thorn;e&#gins;&#gins; all for<hi>r</hi>&wynn;er<hi>r</hi>pen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ it<hi>t</hi>&punctelev; icc</l>
             <l xml:id="junius1.95">turrne&thorn;<hi>&thorn;</hi> he&dblac; till finne&middot; &amp; i &slong;hall hafenn addledd me&middot;</l>
             <l xml:id="junius1.96">&thorn;e laferrd cri&slong;te&slong;&slong; are&middot; &#THORN;urrh &thornbar; icc hafe he&dblac; &wynn;rohht</l>
-            <l xml:id="junius1.97">ti&slong;&slong; boc&middot; to &thorn;e&#gins;&#gins;re &slong;a&wynn;le nede&middot; &thorn;ohh &thornbar; te&#gins;&#gins; all for<hi>r</hi>&wynn;er<hi>r</hi><pc>-</pc></l>
-            <l xml:id="junius1.98">pen<hi>n</hi> itt&middot;&thorn;urrh &thorn;e&#gins;&#gins;re modi&#gins;ne&slong;&slong;e <!-- some block thing --> <pc>&parag;</pc> Godd&slong;pell on<hi>n</hi></l>
-            <l xml:id="junius1.99">enngli&slong;&slong;h nem<hi>m</hi>nedd i&slong;&slong;&middot; god &wynn;ord&middot; &amp; god<pc>-</pc>ti&thorn;ennde&middot;</l>
-            <l xml:id="junius1.100">god errnde&middot; forr&thorn;i &thorn;att itt &wynn;a&slong;&slong;&middot; &thorn;urrh hall&#gins;<hi>n</hi>e godd<pc>-</pc></l>
-            <l xml:id="junius1.101">&slong;pell&wynn;rihhte&slong;&slong;&middot; All &wynn;rohht&middot; &amp; &wynn;r&#x2d8;iten<hi>n</hi> upp o boc&punctelev; Off</l>
-            <l xml:id="junius1.102">cris&slong;te&slong;&slong; fir&slong;te come&middot; Off hu &slong;o&thorn; godd &wynn;a&slong;&slong; &wynn;urr&thorn;en man<hi>n</hi>&punctelev;</l>
+            <l xml:id="junius1.97">ti&slong;&slong; boc&middot; to &thorn;e&#gins;&#gins;re &slong;a&wynn;le nede&middot; &thorn;ohh &thornbar; te&#gins;&#gins; all for<hi>r</hi>&wynn;er<hi>r</hi><pc>&dash;</pc></l>
+            <l xml:id="junius1.98">pen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ itt&middot;&thorn;urrh &thorn;e&#gins;&#gins;re modi&#gins;ne&slong;&slong;e <!-- some block thing --> <pc>&parag;</pc> Godd&slong;pell on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
+            <l xml:id="junius1.99">enngli&slong;&slong;h nem<hi>m</hi>nedd i&slong;&slong;&middot; god &wynn;ord&middot; &amp; god<pc>&dash;</pc>ti&thorn;ennde&middot;</l>
+            <l xml:id="junius1.100">god errnde&middot; forr&thorn;i &thorn;att itt &wynn;a&slong;&slong;&middot; &thorn;urrh hall&#gins;<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+e godd<pc>&dash;</pc></l>
+            <l xml:id="junius1.101">&slong;pell&wynn;rihhte&slong;&slong;&middot; All &wynn;rohht&middot; &amp; &wynn;r&#x2d8;iten<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ upp o boc&punctelev; Off</l>
+            <l xml:id="junius1.102">cris&slong;te&slong;&slong; fir&slong;te come&middot; Off hu &slong;o&thorn; godd &wynn;a&slong;&slong; &wynn;urr&thorn;en man<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&punctelev;</l>
             <l xml:id="junius1.103">for<hi>r</hi> all mannkinne nede<pc>.&parag;</pc> &amp; off &thornbar; mannkinn &thorn;urrh</l>
             <l xml:id="junius1.104">hi&slong;&slong; d&aelig;&thorn;&punctelev; &WYNN;a&slong;&slong; le&slong;edd ut&dblac; <!-- next word reinserted -->off helle<pc>.&parag;</pc> &amp; off &thorn;att he &wynn;i&slong;&slong;like ra&slong;&punctelev;</l>
-            <l xml:id="junius1.105">&thorn;e &thorn;ridde da&#gins;&#gins; off d&aelig;&thorn;e&middot; &amp; off &thorn;at<hi>t</hi> he &wynn;isslike &slong;tah&middot; &thorn;a &slong;i&thorn;<pc>-</pc></l>
+            <l xml:id="junius1.105">&thorn;e &thorn;ridde da&#gins;&#gins; off d&aelig;&thorn;e&middot; &amp; off &thorn;at<hi>t</hi> he &wynn;isslike &slong;tah&middot; &thorn;a &slong;i&thorn;<pc>&dash;</pc></l>
             <l xml:id="junius1.106">&thorn;enn upp till heffne<pc>.&parag;</pc> <!-- marked out section --><pc>.&parag;</pc> &amp; off</l>
-            <l xml:id="junius1.107">&thorn;att he &slong;hall cumen<hi>n</hi> efft&middot; to demen<hi>n</hi> alle &thorn;ede&middot; &amp; for<hi>r</hi> to &#gins;el<pc>-</pc></l>
-            <l xml:id="junius1.108">den<hi>n</hi> i&wynn;hillc man<hi>n</hi>&punctelev; affterr hi&slong;&slong; a&#gins;<hi>h</hi>en<hi>n</hi> dede&middot; Off all &thorn;i&slong;&slong; god</l>
-            <l xml:id="junius1.109"><!-- here is where the 'off' from earlier is -->u&slong;&slong; brinnge&thorn;<hi>&thorn;</hi> &wynn;ord&middot; &amp; er<hi>r</hi>nde&middot; &amp; god ti&thorn;en<hi>n</hi>de&middot; Godd&slong;pell&middot;</l>
-            <l xml:id="junius1.110">&amp; forr&thorn;i ma&#gins;&#gins; itt &wynn;el&middot;god errnde ben &#gins;ehaten<hi>n</hi>&middot; For<hi>r</hi></l>
-            <l xml:id="junius1.111"><!--hard to read triangle mark extends down 5-6 lines -->mann ma&#gins;&#gins; upp o godd &slong;pell boc&middot; godne&slong;&slong;e&slong;&slong; finden<hi>n</hi> &slong;eff<pc>-</pc></l>
-            <l xml:id="junius1.112">ne &thorn;att ure laferrd ie&slong;u cri&slong;t&middot; U&slong;&slong; hafe&thorn;<hi>&thorn;</hi> don onn er<pc>-</pc></l>
+            <l xml:id="junius1.107">&thorn;att he &slong;hall cumen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ efft&middot; to demen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ alle &thorn;ede&middot; &amp; for<hi>r</hi> to &#gins;el<pc>&dash;</pc></l>
+            <l xml:id="junius1.108">den<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ i&wynn;hillc man<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&punctelev; affterr hi&slong;&slong; a&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ dede&middot; Off all &thorn;i&slong;&slong; god</l>
+            <l xml:id="junius1.109"><!-- here is where the 'off' from earlier is -->u&slong;&slong; brinnge&thorn;<hi>&thorn;</hi> &wynn;ord&middot; &amp; er<hi>r</hi>nde&middot; &amp; god ti&thorn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+de&middot; Godd&slong;pell&middot;</l>
+            <l xml:id="junius1.110">&amp; forr&thorn;i ma&#gins;&#gins; itt &wynn;el&middot;god errnde ben &#gins;ehaten<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot; For<hi>r</hi></l>
+            <l xml:id="junius1.111"><!--hard to read triangle mark extends down 5&dash;6 lines -->mann ma&#gins;&#gins; upp o godd &slong;pell boc&middot; godne&slong;&slong;e&slong;&slong; finden<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &slong;eff<pc>&dash;</pc></l>
+            <l xml:id="junius1.112">ne &thorn;att ure laferrd ie&slong;u cri&slong;t&middot; U&slong;&slong; hafe&thorn;<hi>&thorn;</hi> don onn er<pc>&dash;</pc></l>
             <l xml:id="junius1.113">&thorn;e&middot; &thorn;urrh &thorn;att he com<hi>m</hi> to m&#combmacr;ane&middot; &amp; &thorn;urrh&middot;&thorn;att he &wynn;arr&thorn;</l>
-            <l xml:id="junius1.114">man<hi>n</hi> on<hi>n</hi> er&thorn;<pc>.&parag;</pc> Forr an godne&slong;&slong;e u&slong;&slong; hafe&thorn;<hi>&thorn;</hi> don&middot; &thorn;e la<pc>-</pc></l>
-            <l xml:id="junius1.115">ferrd cri&slong;t on<hi>n</hi> er&thorn;&middot; &thorn;urrh &thorn;att he com<hi>m</hi> to &wynn;urr&thorn;en<hi>n</hi></l>
-            <l xml:id="junius1.116">mann&middot; forr allman<hi>n</hi>ki&#combmacr;ne nede<pc>.&parag;</pc> O&thorn;err goddne&slong;&slong;e u&slong;&slong;</l>
+            <l xml:id="junius1.114">man<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;<pc>.&parag;</pc> Forr an godne&slong;&slong;e u&slong;&slong; hafe&thorn;<hi>&thorn;</hi> don&middot; &thorn;e la<pc>&dash;</pc></l>
+            <l xml:id="junius1.115">ferrd cri&slong;t on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;&middot; &thorn;urrh &thorn;att he com<hi>m</hi> to &wynn;urr&thorn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
+            <l xml:id="junius1.116">mann&middot; forr allman<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ki&#combmacr;ne nede<pc>.&parag;</pc> O&thorn;err goddne&slong;&slong;e u&slong;&slong;</l>
             <pb/>
             <cb/>
             <l xml:id="junius1.117">hafe&thorn;<hi>&thorn;</hi> don&middot; &thorn;e laferrd cri&slong;t</l>
             <l xml:id="junius1.118">onn er&thorn;e&middot; &thorn;urrh &thorn;att he &wynn;a&slong;&slong;</l>
             <l xml:id="junius1.119">i flum<hi>m</hi> <name type="place">iordan</name>&middot; fullhtnedd for<hi>r</hi></l>
             <l xml:id="junius1.120">ure nede&middot; forr &thorn;att he &wynn;ollde</l>
-            <l xml:id="junius1.121">u&slong;&slong; &wynn;aterkinn&middot; till ure ful<pc>-</pc></l>
-            <l xml:id="junius1.122">luhht hall&#gins;<hi>h</hi>enn&middot; &thorn;urrh &thorn;att</l>
+            <l xml:id="junius1.121">u&slong;&slong; &wynn;aterkinn&middot; till ure ful<pc>&dash;</pc></l>
+            <l xml:id="junius1.122">luhht hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot; &thorn;urrh &thorn;att</l>
             <l xml:id="junius1.123"><!--mark-->he &wynn;ollde ben him<hi>m</hi> &slong;ellf&middot;</l>
             <l xml:id="junius1.124">onn er&thorn;e i &wynn;aterr fullhtnedd&middot;</l>
             <l xml:id="junius1.125"><pc>&parag;</pc> &#THORN;e &thorn;ridde god u&slong;&slong; hafe&thorn;<hi>&thorn;</hi> don&middot;</l>
-            <l xml:id="junius1.126">&thorn;e lafer<hi>r</hi>d cri&slong;t on<hi>n</hi> er&thorn;e&middot; &thorn;ur<hi>r</hi>h</l>
-            <l xml:id="junius1.127">&thorn;att  he &#gins;aff hi&slong;&slong; a&#gins;<hi>h</hi>en<hi>n</hi> lif&middot; &WYNN;i&thorn;<hi>&thorn;</hi></l>
-            <l xml:id="junius1.128">all hi&slong;&slong; fulle &wynn;ille&middot; To &thorn;olen<hi>n</hi> d&aelig;&thorn;<hi>&thorn;</hi></l>
+            <l xml:id="junius1.126">&thorn;e lafer<hi>r</hi>d cri&slong;t on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;e&middot; &thorn;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.127">&thorn;att  he &#gins;aff hi&slong;&slong; a&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ lif&middot; &WYNN;i&thorn;<hi>&thorn;</hi></l>
+            <l xml:id="junius1.128">all hi&slong;&slong; fulle &wynn;ille&middot; To &thorn;olen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ d&aelig;&thorn;<hi>&thorn;</hi></l>
             <l xml:id="junius1.129">o rodetre&punctelev; saccl&aelig;f &wynn;i&thorn;<hi>&thorn;</hi>utenn</l>
-            <l xml:id="junius1.130">&wynn;rihhte&middot; To le&slong;enn man<hi>n</hi>kin<hi>n</hi></l>
+            <l xml:id="junius1.130">&wynn;rihhte&middot; To le&slong;enn man<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+kin<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
             <l xml:id="junius1.131">&thorn;urrh hi&slong;&slong; d&aelig;&thorn;&middot; U&dblac;t off &thorn;e defle&slong;&slong;</l>
             <l xml:id="junius1.132">&wynn;alde<pc>.&#xfeb6;</pc> &thorn;e fer&thorn;e god u&slong;&slong; hafe&thorn;<hi>&thorn;</hi></l>
-            <l xml:id="junius1.133">don&middot; &thorn;e lafer<hi>r</hi>d 'c&slong;t on<hi>n</hi> er&thorn;e&middot; &#THORN;urrh &thornbar; hi&slong;&slong;<!-- hiss extends up&wynn;ards after line --></l>
-            <l xml:id="junius1.134"><!-- indent? -->hall&#gins;<hi>h</hi>e &slong;a&wynn;le &slong;tah&middot; fra rode dun</l>
-            <l xml:id="junius1.135">till helle&middot; To t&#x2d8;aken<hi>n</hi> u&dblac;t off helle</l>
+            <l xml:id="junius1.133">don&middot; &thorn;e lafer<hi>r</hi>d 'c&slong;t on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;e&middot; &#THORN;urrh &thornbar; hi&slong;&slong;<!-- hiss extends up&wynn;ards after line --></l>
+            <l xml:id="junius1.134"><!-- indent? -->hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e &slong;a&wynn;le &slong;tah&middot; fra rode dun</l>
+            <l xml:id="junius1.135">till helle&middot; To t&#x2d8;aken<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ u&dblac;t off helle</l>
             <l xml:id="junius1.136">&wynn;a&middot; &thorn;a gode &slong;a&wynn;le&slong;&slong; alle&middot; &#THORN;att</l>
             <l xml:id="junius1.137">haffdenn c&wynn;em<hi>m</hi>d hi&dblac; i &thorn;i&slong;&slong; lif&punctelev;</l>
-            <l xml:id="junius1.138">&thorn;ur<hi>r</hi>h &slong;o&thorn; un<hi>n</hi>&slong;ha&thorn;i&#gins;ne&slong;&slong;e<pc>.&parag;</pc> &thorn;e</l>
+            <l xml:id="junius1.138">&thorn;ur<hi>r</hi>h &slong;o&thorn; un<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&slong;ha&thorn;i&#gins;ne&slong;&slong;e<pc>.&parag;</pc> &thorn;e</l>
             <l xml:id="junius1.139">fifte god u&slong;&slong; hafe&thorn;<hi>&thorn;</hi> don&middot; &thorn;e lafer<hi>r</hi>d</l>
-            <l xml:id="junius1.140">cri&slong;t on<hi>n</hi> er&thorn;e&middot; &thorn;ur<hi>r</hi>h &thornbar; he &wynn;a&slong; for<hi>r</hi></l>
+            <l xml:id="junius1.140">cri&slong;t on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;e&middot; &thorn;ur<hi>r</hi>h &thornbar; he &wynn;a&slong; for<hi>r</hi></l>
             <l xml:id="junius1.141">ure god&middot; &thorn;e &thorn;ridde da&#gins;&#gins; off d&aelig;&thorn;e&middot;</l>
             <l xml:id="junius1.142">&amp; le&dblac;t te po&slong;&slong;tle&slong;&slong; &slong;en hi&dblac; &wynn;el&middot;</l>
             <l xml:id="junius1.143">Inn hi&slong;&slong; menni&slong;&slong;ke ki&#combmacr;de&middot; For<hi>r</hi></l>
-            <l xml:id="junius1.144">&thorn;att he &wynn;ollde fe&slong;&slong;tnen<hi>n</hi> &slong;&wynn;a&middot; So&thorn;</l>
+            <l xml:id="junius1.144">&thorn;att he &wynn;ollde fe&slong;&slong;tnen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &slong;&wynn;a&middot; So&thorn;</l>
             <l xml:id="junius1.145">tro&wynn;<hi>&wynn;</hi>&thorn; i &thorn;e&#gins;&#gins;re bre&slong;te&slong;&slong;&middot; Off</l>
-            <l xml:id="junius1.146">&thorn;att he &wynn;i&slong;&slong;&middot; to fulle &slong;o&thorn;&middot; &wynn;a&slong;&slong; re<pc>-</pc></l>
-            <l xml:id="junius1.147">&slong;en<hi>n</hi> upp off d&aelig;&thorn;e&middot; &amp; i &thornbar; illke fl&aelig;&slong;h</l>
-            <l xml:id="junius1.148">&thorn;att &wynn;a&slong;&slong;&middot; forr u&slong;&slong; o rode na&#gins;&#gins;<pc>-</pc></l>
+            <l xml:id="junius1.146">&thorn;att he &wynn;i&slong;&slong;&middot; to fulle &slong;o&thorn;&middot; &wynn;a&slong;&slong; re<pc>&dash;</pc></l>
+            <l xml:id="junius1.147">&slong;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ upp off d&aelig;&thorn;e&middot; &amp; i &thornbar; illke fl&aelig;&slong;h</l>
+            <l xml:id="junius1.148">&thorn;att &wynn;a&slong;&slong;&middot; forr u&slong;&slong; o rode na&#gins;&#gins;<pc>&dash;</pc></l>
             <l xml:id="junius1.149">ledd&middot; For<hi>r</hi> &thorn;att he &wynn;ollde fe&slong;&slong;tne<hi>nn</hi></l>
-            <l xml:id="junius1.150">&wynn;el&middot; &thorn;i&slong;&slong; tro&wynn;&wynn;&thorn;e i &thorn;e&#gins;&#gins;re bre&slong;<pc>-</pc></l>
+            <l xml:id="junius1.150">&wynn;el&middot; &thorn;i&slong;&slong; tro&wynn;&wynn;&thorn;e i &thorn;e&#gins;&#gins;re bre&slong;<pc>&dash;</pc></l>
             <l xml:id="junius1.151">te&slong;&slong;&punctelev; He le&dblac;t te ro&slong;&slong;tle&slong;&slong; &slong;en hi&dblac;</l>
-            <l xml:id="junius1.152">&wynn;el&middot; &wynn;ell offte &slong;i&thorn;e on<hi>n</hi> er&thorn;e&middot; &WYNN;i&thorn;<hi>&thorn;</hi></l>
+            <l xml:id="junius1.152">&wynn;el&middot; &wynn;ell offte &slong;i&thorn;e on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;e&middot; &WYNN;i&thorn;<hi>&thorn;</hi></l>
             <l xml:id="junius1.153">innenn da&#gins;&#gins;e&slong;&slong; fo&wynn;&wynn;errti&#gins;&punctelev; fra</l>
             <l xml:id="junius1.154">&thorn;att he &wynn;a&slong; off d&aelig;&thorn;e<pc>.&parag;</pc>&#THORN;e &slong;exte</l>
             <l xml:id="junius1.155">god u&slong;&slong; hafe&thorn;<hi>&thorn;</hi> don&middot; &thorn;e laferrd cri&slong;t</l>
-            <l xml:id="junius1.156">on<hi>n</hi> er&thorn;e&middot; &thorn;urrh &thornbar; he &slong;tah for<hi>r</hi> u<pc>-</pc></l>
-            <l xml:id="junius1.157">re god&middot; <!-- &wynn;eird looking u -->Upp inntill heffne&slong;&slong; bli&slong;<pc>-</pc></l>
-            <l xml:id="junius1.158">&slong;e&middot; &amp; &slong;en<hi>n</hi>de &slong;i&thorn;&thorn;en<hi>n</hi> hali&#gins; ga&slong;t&middot;</l>
-            <l xml:id="junius1.159">till hi&slong;e lernin<hi>n</hi>gcnihhte&slong;&slong;&middot;</l>
-            <l xml:id="junius1.160">To frofren &amp; to belden<hi>n</hi> h&dblac;e&middot; to</l>
-            <l xml:id="junius1.161">&slong;tan<hi>n</hi>denn &#gins;&aelig;n &thorn;e defell&middot; To gi<pc>-</pc></l>
-            <l xml:id="junius1.162">fen<hi>n</hi> h&dblac;e god &wynn;eitt inoh&punctelev; Off all hi&slong;&slong;</l>
-            <l xml:id="junius1.163">hall&#gins;<hi>h</hi>e lare&middot; To gifen<hi>n</hi> h&dblac;e god lu&slong;&slong;t&middot;</l>
-            <l xml:id="junius1.164">god mahht&middot;to &thorn;olenn all &wynn;a&wynn;en<hi>n</hi>&middot;</l>
+            <l xml:id="junius1.156">on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;e&middot; &thorn;urrh &thornbar; he &slong;tah for<hi>r</hi> u<pc>&dash;</pc></l>
+            <l xml:id="junius1.157">re god&middot; <!-- &wynn;eird looking u -->Upp inntill heffne&slong;&slong; bli&slong;<pc>&dash;</pc></l>
+            <l xml:id="junius1.158">&slong;e&middot; &amp; &slong;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+de &slong;i&thorn;&thorn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ hali&#gins; ga&slong;t&middot;</l>
+            <l xml:id="junius1.159">till hi&slong;e lernin<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gcnihhte&slong;&slong;&middot;</l>
+            <l xml:id="junius1.160">To frofren &amp; to belden<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ h&dblac;e&middot; to</l>
+            <l xml:id="junius1.161">&slong;tan<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+denn &#gins;&aelig;n &thorn;e defell&middot; To gi<pc>&dash;</pc></l>
+            <l xml:id="junius1.162">fen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ h&dblac;e god &wynn;eitt inoh&punctelev; Off all hi&slong;&slong;</l>
+            <l xml:id="junius1.163">hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e lare&middot; To gifen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ h&dblac;e god lu&slong;&slong;t&middot;</l>
+            <l xml:id="junius1.164">god mahht&middot;to &thorn;olenn all &wynn;a&wynn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot;</l>
             <l xml:id="junius1.165">All for<hi>r</hi>&thorn;e lufe off godd&middot; &amp; nohht&middot;</l>
-            <l xml:id="junius1.166">for<hi>r</hi> er&thorn;li&#gins; loff to &wynn;innen<hi>n</hi><pc>.&parag;</pc> &thorn;e</l>
-            <l xml:id="junius1.167">&slong;effnde god u&slong;&slong; &slong;hall &#gins;et&dblac; don&middot; &thorn;e la<pc>-</pc></l>
-            <l xml:id="junius1.168">ferrd cri&slong;t on<hi>n</hi> ende&middot; &thorn;ur<hi>r</hi>h &thorn;att he</l>
+            <l xml:id="junius1.166">for<hi>r</hi> er&thorn;li&#gins; loff to &wynn;innen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+<pc>.&parag;</pc> &thorn;e</l>
+            <l xml:id="junius1.167">&slong;effnde god u&slong;&slong; &slong;hall &#gins;et&dblac; don&middot; &thorn;e la<pc>&dash;</pc></l>
+            <l xml:id="junius1.168">ferrd cri&slong;t on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ ende&middot; &thorn;ur<hi>r</hi>h &thorn;att he</l>
             <cb/>
             <l xml:id="junius1.169">&slong;hall o dome&slong;&slong; da&#gins;&#gins;&middot;</l>
-            <l xml:id="junius1.170">u&slong;&slong; gifen<hi>n</hi> heffne&slong;&slong;</l>
+            <l xml:id="junius1.170">u&slong;&slong; gifen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ heffne&slong;&slong;</l>
             <l xml:id="junius1.171">bli&slong;&slong;&punctelev; &#x21C;iff &thorn;att &wynn;e</l>
             <l xml:id="junius1.172">&slong;hulenn &wynn;urr&thorn;i ben&punctelev;</l>
             <l xml:id="junius1.173">to findenn gode&slong;&slong; are</l>
-            <l xml:id="junius1.174"><pc>&parag;</pc> &thorn;u&slong;&slong; hafe&thorn;<hi>&thorn;</hi> ure la<pc>-</pc></l>
-            <l xml:id="junius1.175">fer<hi>r</hi>d cri&slong;t&middot; U&slong;&slong; don god<pc>-</pc></l>
+            <l xml:id="junius1.174"><pc>&parag;</pc> &thorn;u&slong;&slong; hafe&thorn;<hi>&thorn;</hi> ure la<pc>&dash;</pc></l>
+            <l xml:id="junius1.175">fer<hi>r</hi>d cri&slong;t&middot; U&slong;&slong; don god<pc>&dash;</pc></l>
             <l xml:id="junius1.176">ne&slong;&slong;e&slong;&slong; &slong;effne&middot; &thorn;ur<hi>r</hi>h</l>
-            <l xml:id="junius1.177">&thorn;att tatt he to ma&#combmacr;<pc>-</pc></l>
+            <l xml:id="junius1.177">&thorn;att tatt he to ma&#combmacr;<pc>&dash;</pc></l>
             <l xml:id="junius1.178">ne co&dblac;&middot; to &wynn;urr&thorn;enn</l>
-            <l xml:id="junius1.179">man<hi>n</hi> on<hi>n</hi> er&thorn;e<pc>.&parag;</pc> &amp; o</l>
-            <l xml:id="junius1.180">&thornbar; hall&#gins;<hi>h</hi>e boc &thornbar; i&slong;&slong;&middot;</l>
+            <l xml:id="junius1.179">man<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ on<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ er&thorn;e<pc>.&parag;</pc> &amp; o</l>
+            <l xml:id="junius1.180">&thornbar; hall&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e boc &thornbar; i&slong;&slong;&middot;</l>
             <l xml:id="junius1.181">apokalj<!-- or y? -->p&slong;i&slong;</l>
             <l xml:id="junius1.182">nem<hi>m</hi>nedd&middot; U&slong;&slong;</l>
             <l xml:id="junius1.183">&wynn;rat te po&slong;&slong;tell</l>
-            <l xml:id="junius1.184">&slong;an<hi>n</hi>t <name type="person">iohan</name>&middot; &thorn;ur<hi>r</hi>h</l>
+            <l xml:id="junius1.184">&slong;an<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+t <name type="person">iohan</name>&middot; &thorn;ur<hi>r</hi>h</l>
             <l xml:id="junius1.185">hali&#gins; ga&slong;te&slong;&slong; lare&middot;</l>
             <l xml:id="junius1.186">&thorn;att he &slong;ahh upp inn</l>
             <l xml:id="junius1.187">heffne an <!-- blot -->boc&middot;</l>
@@ -223,26 +720,53 @@
             <l xml:id="junius1.192">nan rihht</l>
             <l xml:id="junius1.193">opnenn&punctelev; &WYNN;i&thorn;<hi>&thorn;</hi></l>
             <l xml:id="junius1.194">utenn gode&slong;&slong;</l>
-            <l xml:id="junius1.195">hall&slong;<hi>h</hi>e la&#combmacr;b&punctelev; &thornbar;</l>
-            <l xml:id="junius1.196">he &slong;ahh ec i&dblac; heff<pc>-</pc></l>
+            <l xml:id="junius1.195">hall&slong;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+e la&#combmacr;b&punctelev; &thornbar;</l>
+            <l xml:id="junius1.196">he &slong;ahh ec i&dblac; heff<pc>&dash;</pc></l>
             <l xml:id="junius1.197">ne&middot; &amp; &thorn;urrh &thorn;a</l>
             <l xml:id="junius1.198">&slong;effne inn&slong;e&#gins;<hi>&#gins;</hi>le&slong;&slong;</l>
             <l xml:id="junius1.199">&wynn;a&slong;&slong;&middot; Rihht &slong;&wynn;i&thorn;e</l>
             <l xml:id="junius1.200">&wynn;el bitacnedd&middot; &thorn;att</l>
-            <l xml:id="junius1.201">&slong;efen<hi>n</hi>fald godl&#gins;&#gins;c&middot;</l>
-            <l xml:id="junius1.202">&thorn;att cri&slong;t&middot; U&slong;&slong; di<pc>-</pc></l>
-            <l xml:id="junius1.203">de &thorn;urrh hi&slong;&slong; co<pc>-</pc></l>
+            <l xml:id="junius1.201">&slong;efen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+fald godl&#gins;&#gins;c&middot;</l>
+            <l xml:id="junius1.202">&thorn;att cri&slong;t&middot; U&slong;&slong; di<pc>&dash;</pc></l>
+            <l xml:id="junius1.203">de &thorn;urrh hi&slong;&slong; co<pc>&dash;</pc></l>
             <l xml:id="junius1.204">me<pc>.&parag;</pc> &amp; tatt</l>
-            <l xml:id="junius1.205">nan &wynn;ih<hi>h</hi>t ne</l>
+            <l xml:id="junius1.205">nan &wynn;ih<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+t ne</l>
             <l xml:id="junius1.206">mihhte nohht&middot;</l>
-            <l xml:id="junius1.207">Oppnenn &thorn;a &slong;eff<pc>-</pc></l>
+            <l xml:id="junius1.207">Oppnenn &thorn;a &slong;eff<pc>&dash;</pc></l>
             <l xml:id="junius1.208">ne inn&slong;e&#gins;&#gins;le&slong;&slong;&middot; &WYNN;i&thorn;&thorn;</l>
             <l xml:id="junius1.209">utenn god&slong;&slong; la&#combmacr;b&punctelev;</l>
             <l xml:id="junius1.210">&thornbar; co&#combmacr;&middot; for<hi>r</hi> &thornbar; itt</l>
-            <l xml:id="junius1.211">&slong;hollde tacnen<hi>n</hi>&middot;</l>
-            <l xml:id="junius1.212">&thorn;att nan &wynn;ih<hi>h</hi>t&middot;</l>
-            <l xml:id="junius1.213">nan en<hi>n</hi>gell&middot;</l>
-            <l xml:id="junius1.214">nan mann&middot; ne<pc>-</pc></l>
+            <l xml:id="junius1.211">&slong;hollde tacnen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot;</l>
+            <l xml:id="junius1.212">&thorn;att nan &wynn;ih<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+t&middot;</l>
+            <l xml:id="junius1.213">nan en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gell&middot;</l>
+            <l xml:id="junius1.214">nan mann&middot; ne<pc>&dash;</pc></l>
             <l xml:id="junius1.215">nane&slong;&slong;</l>
             <l xml:id="junius1.216">kinne&slong;&slong;</l>
             <pb/>
@@ -251,77 +775,188 @@
             <l xml:id="junius1.218">&slong;ellfenn &thorn;a&middot; Seffne godne&slong;&slong;e&slong;&slong;</l>
             <l xml:id="junius1.219">&slong;h&aelig;renn&middot; O mannkinn&middot; &slong;&wynn;a &thornbar; itt</l>
             <l xml:id="junius1.220">mannkinn&middot; off helle mihhte</l>
-            <l xml:id="junius1.221">lefenn&middot; Ne gifenn man<hi>n</hi>kin<hi>n</hi></l>
-            <l xml:id="junius1.222">lufft&middot; ne mahht to &wynn;i&#combmacr;nen<hi>n</hi> heff<pc>-</pc></l>
-            <l xml:id="junius1.223">ne&slong;&slong; bli&slong;&slong;&middot; &amp; all all &slong;&wynn;a &slong;e go<pc>-</pc></l>
-            <l xml:id="junius1.224">de&slong;&slong; la&#combmacr;b&middot; All &thorn;urrh hi&slong;&slong; a&#gins;<hi>h</hi>en<hi>n</hi></l>
+            <l xml:id="junius1.221">lefenn&middot; Ne gifenn man<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+kin<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
+            <l xml:id="junius1.222">lufft&middot; ne mahht to &wynn;i&#combmacr;nen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ heff<pc>&dash;</pc></l>
+            <l xml:id="junius1.223">ne&slong;&slong; bli&slong;&slong;&middot; &amp; all all &slong;&wynn;a &slong;e go<pc>&dash;</pc></l>
+            <l xml:id="junius1.224">de&slong;&slong; la&#combmacr;b&middot; All &thorn;urrh hi&slong;&slong; a&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
             <l xml:id="junius1.225">mahhte&middot; Lihhtelike mihhte&middot;</l>
             <l xml:id="junius1.226">&amp; &wynn;el inoh&middot; &thorn;a &slong;effne i&#combmacr;&slong;e&#gins;&#gins;le&slong;&slong;</l>
             <l xml:id="junius1.227">oppnenn&punctelev; All &slong;&wynn;a &thorn;e lafer<hi>r</hi>d</l>
-            <l xml:id="junius1.228">ie&slong;u cri&slong;t&middot; all &thorn;ur<hi>rh hi&slong;&slong; a<pc>-</pc></hi></l>
-            <l xml:id="junius1.229">&#gins;<hi>h</hi>enn mahhte&middot; &WYNN;i&thorn;<hi>&thorn;</hi> fa<pc>-</pc></l>
+            <l xml:id="junius1.228">ie&slong;u cri&slong;t&middot; all &thorn;ur<hi>rh hi&slong;&slong; a<pc>&dash;</pc></hi></l>
+            <l xml:id="junius1.229">&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn mahhte&middot; &WYNN;i&thorn;<hi>&thorn;</hi> fa<pc>&dash;</pc></l>
             <l xml:id="junius1.230">derr&middot; &amp; &wynn;i&thorn;<hi>&thorn;</hi> hali&#gins; ga&slong;t&middot;</l>
             <l xml:id="junius1.231">an godd&middot; &amp; all an</l>
             <l xml:id="junius1.232">kinde&punctelev; All &slong;&wynn;a</l>
-            <l xml:id="junius1.233">rihht he lihht<pc>-</pc></l>
+            <l xml:id="junius1.233">rihht he lihht<pc>&dash;</pc></l>
             <l xml:id="junius1.234">like inoh&middot; &amp; &wynn;el</l>
-            <l xml:id="junius1.235">&wynn;i&thorn;<hi>&thorn;</hi> alle <!-- blot --> mih<hi>h</hi><pc>-</pc></l>
-            <l xml:id="junius1.236">te&middot; O man<hi>n</hi></l>
+            <l xml:id="junius1.235">&wynn;i&thorn;<hi>&thorn;</hi> alle <!-- blot --> mih<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+<pc>&dash;</pc></l>
+            <l xml:id="junius1.236">te&middot; O man<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
             <l xml:id="junius1.237">kinn &thorn;urrh</l>
             <l xml:id="junius1.238">hi&dblac; &slong;ellfenn&middot; &thorn;a&middot;</l>
-            <l xml:id="junius1.239">Seffne godne&slong;<pc>-</pc></l>
-            <l xml:id="junius1.240">&slong;e&slong;&slong; &slong;h&aelig;&wynn;en<hi>n</hi>&middot; <!-- big blog next to this line continuing do&wynn;n for 5 lines --></l>
+            <l xml:id="junius1.239">Seffne godne&slong;<pc>&dash;</pc></l>
+            <l xml:id="junius1.240">&slong;e&slong;&slong; &slong;h&aelig;&wynn;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot; <!-- big blog next to this line continuing do&wynn;n for 5 lines --></l>
             <l xml:id="junius1.241">S&wynn;a &thorn;att he</l>
             <l xml:id="junius1.242">mannkinn</l>
             <l xml:id="junius1.243">&wynn;el inoh&middot; Off</l>
             <l xml:id="junius1.244">helle mihhte</l>
-            <l xml:id="junius1.245">lefen<hi>n</hi>&middot; &amp; gifen<hi>n</hi></l>
+            <l xml:id="junius1.245">lefen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot; &amp; gifen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
             <l xml:id="junius1.246">mannkinn lufe&middot; &amp;</l>
             <l xml:id="junius1.247">lu&slong;&slong;t&middot; &amp; mahht&middot; &amp; &wynn;itt&middot;</l>
-            <l xml:id="junius1.248">&amp; &wynn;ille&middot; To &slong;tan<hi>n</hi>den<hi>n</hi> i&dblac;</l>
-            <l xml:id="junius1.249">to c&wynn;emenn godd&middot;to &wynn;i&#x2d8;<pc>-</pc></l>
+            <l xml:id="junius1.248">&amp; &wynn;ille&middot; To &slong;tan<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+den<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ i&dblac;</l>
+            <l xml:id="junius1.249">to c&wynn;emenn godd&middot;to &wynn;i&#x2d8;<pc>&dash;</pc></l>
             <l xml:id="junius1.250">nenn heffne&slong;&slong; bli&slong;&slong;e<pc>.&parag;</pc> &amp;</l>
             <l xml:id="junius1.251">For<hi>r</hi> &thornbar; hali&#gins; godd&slong;pell boc&middot;</l>
-            <l xml:id="junius1.252">All &thorn;i&slong;&slong; godne&slong;&slong;e u&slong;&slong; &slong;h&aelig;<pc>-</pc></l>
-            <l xml:id="junius1.253">&wynn;e&thorn;<hi>&thorn;</hi>&middot; &wynn;i&slong;&slong; &slong;efen<hi>n</hi>fald godle&#gins;&#gins;c</l>
+            <l xml:id="junius1.252">All &thorn;i&slong;&slong; godne&slong;&slong;e u&slong;&slong; &slong;h&aelig;<pc>&dash;</pc></l>
+            <l xml:id="junius1.253">&wynn;e&thorn;<hi>&thorn;</hi>&middot; &wynn;i&slong;&slong; &slong;efen<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+fald godle&#gins;&#gins;c</l>
             <l xml:id="junius1.254">&thorn;att cri&slong;t&middot; U&slong;&slong; dide &thorn;ur<hi>r</hi>h hi&slong;&slong;</l>
-            <l xml:id="junius1.255">are&punctelev; For<hi>r</hi>&thorn;i birr&thorn; all cri&slong;&slong;te<pc>-</pc></l>
-            <l xml:id="junius1.256">ne follc&middot; godd&slong;pelle&slong;&slong; lare foll<pc>-</pc></l>
-            <l xml:id="junius1.257">&#gins;<hi>h</hi>enn&middot; &amp; t&aelig;r fore hafe icc</l>
-            <l xml:id="junius1.258">tur<hi>r</hi>nedd itt&middot; Inntill enn<pc>-</pc></l>
-            <l xml:id="junius1.259">gli&slong;&slong;he &slong;&wynn;&aelig;che&punctelev; For<hi>r</hi> &thornbar; i &wynn;oll<pc>-</pc></l>
-            <l xml:id="junius1.260">de bli&thorn;eli&#gins;&middot; &thorn;att all en<hi>n</hi>gli&slong;<pc>-</pc></l>
-            <l xml:id="junius1.261">&slong;he lede&middot; &WYNN;i&thorn;<hi>&thorn;</hi> &aelig;re &slong;hollde li&slong;&slong;<pc>-</pc></l>
+            <l xml:id="junius1.255">are&punctelev; For<hi>r</hi>&thorn;i birr&thorn; all cri&slong;&slong;te<pc>&dash;</pc></l>
+            <l xml:id="junius1.256">ne follc&middot; godd&slong;pelle&slong;&slong; lare foll<pc>&dash;</pc></l>
+            <l xml:id="junius1.257">&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot; &amp; t&aelig;r fore hafe icc</l>
+            <l xml:id="junius1.258">tur<hi>r</hi>nedd itt&middot; Inntill enn<pc>&dash;</pc></l>
+            <l xml:id="junius1.259">gli&slong;&slong;he &slong;&wynn;&aelig;che&punctelev; For<hi>r</hi> &thornbar; i &wynn;oll<pc>&dash;</pc></l>
+            <l xml:id="junius1.260">de bli&thorn;eli&#gins;&middot; &thorn;att all en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gli&slong;<pc>&dash;</pc></l>
+            <l xml:id="junius1.261">&slong;he lede&middot; &WYNN;i&thorn;<hi>&thorn;</hi> &aelig;re &slong;hollde li&slong;&slong;<pc>&dash;</pc></l>
             <l xml:id="junius1.262">tenn itt&middot; &wynn;i&thorn;<hi>&thorn;</hi> her<hi>r</hi>te &slong;holld<hi>e</hi></l>
             <cb/>
             <l xml:id="junius1.263">itt tro&wynn;&wynn;enn&middot;</l>
-            <l xml:id="junius1.264">&WYNN;i&thorn;<hi>&thorn;</hi> tunge &slong;holl<pc>-</pc></l>
+            <l xml:id="junius1.264">&WYNN;i&thorn;<hi>&thorn;</hi> tunge &slong;holl<pc>&dash;</pc></l>
             <l xml:id="junius1.265">de &slong;pellenn</l>
             <l xml:id="junius1.266">itt&middot; &wynn;i&thorn;<hi>&thorn;</hi> dede</l>
-            <l xml:id="junius1.267">&slong;hollde itt foll<pc>-</pc></l>
-            <l xml:id="junius1.268">&#gins;<hi>h</hi>enn&middot; To &wynn;i&#combmacr;nenn</l>
-            <l xml:id="junius1.269">unnderr cri&slong;&slong;<pc>-</pc></l>
+            <l xml:id="junius1.267">&slong;hollde itt foll<pc>&dash;</pc></l>
+            <l xml:id="junius1.268">&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+enn&middot; To &wynn;i&#combmacr;nenn</l>
+            <l xml:id="junius1.269">unnderr cri&slong;&slong;<pc>&dash;</pc></l>
             <l xml:id="junius1.270">tenndom&punctelev; att</l>
             <l xml:id="junius1.271">cri&slong;t &slong;o&thorn; &slong;a&wynn;le</l>
             <l xml:id="junius1.272">berrhle&slong;&slong;<!--period inserted--><pc>.&parag;</pc> &amp;</l>
-            <l xml:id="junius1.273">godd allmah<hi>h</hi>ti&#gins;</l>
+            <l xml:id="junius1.273">godd allmah<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+ti&#gins;</l>
             <l xml:id="junius1.274">gife u&slong;&slong; mahht&middot; &amp;</l>
             <l xml:id="junius1.275">lufft&middot; &amp; &wynn;itt&middot; &amp; &wynn;ille&middot;</l>
-            <l xml:id="junius1.276">To foll&#gins;<hi>h</hi>en<hi>n</hi> &thorn;i&slong;&slong; en<hi>n</hi>gli&slong;<pc>-</pc></l>
+            <l xml:id="junius1.276">To foll&#gins;<choice>
+                <orig>&hsup;</orig>
+                <reg>h</reg>
+             </choice>
+
+en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &thorn;i&slong;&slong; en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gli&slong;<pc>&dash;</pc></l>
             <l xml:id="junius1.277">&slong;he boc&middot; &thorn;at all <!-- little hard to read? -->ii&slong;&slong;</l>
-            <l xml:id="junius1.278">hali&#gins; lare&middot; S&wynn;a &thornbar; &wynn;e mo<pc>-</pc></l>
-            <l xml:id="junius1.279">ten<hi>n</hi> &wynn;urr&thorn;i ben&middot; to bruken<hi>n</hi></l>
+            <l xml:id="junius1.278">hali&#gins; lare&middot; S&wynn;a &thornbar; &wynn;e mo<pc>&dash;</pc></l>
+            <l xml:id="junius1.279">ten<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ &wynn;urr&thorn;i ben&middot; to bruken<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+</l>
             <l xml:id="junius1.280">heffne&slong;&slong; bli&slong;&slong;e&middot; am&#combmacr;&middot; am&#combmacr;&middot; am&#combmacr;<pc>:&middot;</pc></l>
-            <l xml:id="junius1.281"><hi rend="h4">I</hi>cc &thornbar; &thorn;i&slong;&slong;en<hi>n</hi>gli&slong;&slong;h hafe &slong;et<hi>t</hi></l>
-            <l xml:id="junius1.282">en<hi>n</hi>gli&slong;&slong;hemenn to lare&punctelev;</l>
-            <l xml:id="junius1.283">Icc &wynn;a&slong;&slong; &thorn;&aelig;r &thorn;&aelig;r i cri&slong;&slong;t<pc>-</pc></l>
-            <l xml:id="junius1.284">nedd &wynn;a&slong;&slong;&middot; <name type="person">Or<hi>r</hi>min</name> bi na<pc>-</pc></l>
-            <l xml:id="junius1.285">me nem<hi>m</hi>nedd&middot; &amp; icc <!-- name here but spills over line -->or<hi>r</hi><pc>-</pc></l>
+            <l xml:id="junius1.281"><hi rend="h4">I</hi>cc &thornbar; &thorn;i&slong;&slong;en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gli&slong;&slong;h hafe &slong;et<hi>t</hi></l>
+            <l xml:id="junius1.282">en<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+gli&slong;&slong;hemenn to lare&punctelev;</l>
+            <l xml:id="junius1.283">Icc &wynn;a&slong;&slong; &thorn;&aelig;r &thorn;&aelig;r i cri&slong;&slong;t<pc>&dash;</pc></l>
+            <l xml:id="junius1.284">nedd &wynn;a&slong;&slong;&middot; <name type="person">Or<hi>r</hi>min</name> bi na<pc>&dash;</pc></l>
+            <l xml:id="junius1.285">me nem<hi>m</hi>nedd&middot; &amp; icc <!-- name here but spills over line -->or<hi>r</hi><pc>&dash;</pc></l>
             <l xml:id="junius1.286">min full inn&wynn;arrdli&#gins;&middot;</l>
             <l xml:id="junius1.287">&wynn;i&thorn;<hi>&thorn;</hi> mu&thorn;&middot; &amp; ec &wynn;i&thorn;<hi>&thorn;</hi> her<hi>r</hi>te&middot;</l>
             <l xml:id="junius1.288">Her bidde &thorn;a cri&slong;&slong;tenne</l>
-            <l xml:id="junius1.289">menn&middot; &thorn;att heren<hi>n</hi> o&thorn;er<hi>r</hi></l>
-            <l xml:id="junius1.290">re&#xb4;denn&middot; &thorn;i&slong;&slong; boc&punctelev; he&dblac; bid<pc>-</pc></l>
+            <l xml:id="junius1.289">menn&middot; &thorn;att heren<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+ o&thorn;er<hi>r</hi></l>
+            <l xml:id="junius1.290">re&#xb4;denn&middot; &thorn;i&slong;&slong; boc&punctelev; he&dblac; bid<pc>&dash;</pc></l>
             <l xml:id="junius1.291">de icc her &thorn;att te&#gins;&#gins;&middot; for<hi>r</hi></l>
             <l xml:id="junius1.292">me &thorn;i&slong;&slong; bede biddenn&middot;</l>
             <l xml:id="junius1.293"><pc>&parag;</pc> &thorn;att bro&thorn;err &thorn;att</l>
@@ -332,7 +967,11 @@
             <l xml:id="junius1.298">hi&slong;&slong; &slong;&wynn;i&dblac;c to</l>
             <l xml:id="junius1.299">l&aelig;n&punctelev; So&thorn;</l>
             <l xml:id="junius1.300">bli&slong;&slong;e mo&#xb4;te</l>
-            <l xml:id="junius1.301">finden<hi>n</hi>&middot; am&#combmacr;&middot;</l>
+            <l xml:id="junius1.301">finden<choice>
+                <orig>&nsup;</orig>
+                <reg>n</reg>
+             </choice>
+&middot; am&#combmacr;&middot;</l>
             <!-- in the above used double acutes for double macron looking things, no differentiation, should fix that -->
   
          </div1>
