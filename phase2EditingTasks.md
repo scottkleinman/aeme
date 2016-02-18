@@ -5,7 +5,7 @@ Phase 2 editing combines proofreading of Phase 1 editing output with additional 
 
 Once you have printed out the HTML proof, most Phase 2 tasks can be done by hand-annotating the text on paper. Once the paper version is annotated, the TEI file can be updated. Any ambiguous or questionable forms should be kept in a log file. This should be a plain text file so that you can add code and explanation together without oXygen complaining about validation errors. If the TEI file being edited is called `3aa_SEL-Brendan.xml`, the log file should be called `3aa_SEL-Brendan_log.txt`.
 
-The TEI file for Phase 2 editing should be kept in a Phase2 folder at the same level as the Phase1 TEI file. Inside the Phase2 TEI file, line 2 should be changed from <!DOCTYPE TEI SYSTEM "entities.dtd"> to <!DOCTYPE TEI SYSTEM "../entities.dtd">. This will ensure that our Phase 2 TEI file validates.
+The TEI file for Phase 2 editing should be kept in a Phase2 folder at the same level as the Phase1 TEI file. Inside the Phase2 TEI file, line 2 should be changed from `<!DOCTYPE TEI SYSTEM "entities.dtd">` to `<!DOCTYPE TEI SYSTEM "../entities.dtd">`. This will ensure that our Phase 2 TEI file validates.
 
 The task list below groups related tasks in the hope that this creates something of a workflow.
 
