@@ -8,15 +8,22 @@
 <!ENTITY facsimile SYSTEM "facsimile.xml">
 
 <!-- An initial set of character entities. Probably not complete. -->
+<!ENTITY  acurl "&#xE433;" > <!-- used in lieu of ae ligature? -->
+<!ENTITY ascap "&#x1D00;">
 <!ENTITY AElig "&#x00C6;">
 <!ENTITY aelig "&#x00E6;">
 <!ENTITY aeligenl "&#xEAF1;">
 <!ENTITY aenl "&#xEEE0;">
 <!ENTITY bar "&#x0305;">
+<!ENTITY barbl "&#x0332;">
 <!ENTITY bidotcomposit "&#xF1F2;">
+<!ENTITY breve "&#x0306;">
+<!ENTITY bscap "&#x299;">
 <!ENTITY caret "&#x2227;">
 <!ENTITY closeparen "&#x029;">
+<!ENTITY cenl "&#xEEE2;">
 <!ENTITY combacute "&#x301;" >
+<!ENTITY combdot "&#x0307;" >
 <!ENTITY combcurl "&#x1DCE;">
 <!ENTITY combdblac "&#x030B;">
 <!ENTITY combbreve "&#x0306;">
@@ -24,72 +31,113 @@
 <!ENTITY combmacr "&#x0304;">
 <!ENTITY combtilde "&#x0303;">
 <!ENTITY combtildevert "&#x033E;">
-<!ENTITY condes "&#xA76E;">
+<!ENTITY condes "&#xA76F;">
+<!ENTITY CONdes "&#xA76E;"> <!-- changed to accomodate little condes -->
 <!ENTITY csup "&#x0368;" >
 <!ENTITY dash "&#x2010;">
 <!ENTITY dblac "&#x02DD;">
 <!ENTITY dblovl "&#x33f;">
+<!ENTITY denl "&#xEEE3;" >
 <!ENTITY doublepipe "&#x2016;">
+<!ENTITY drot "&#xA77A;" >
+<!ENTITY Drot "&#xA779;">
 <!ENTITY eacute "&#x00E9;">
 <!ENTITY edotbl "&#x1EB9;">
 <!ENTITY eenl "&#xEEE6;">
 <!ENTITY eext "&#xF219;">
 <!ENTITY emacr "&#x0113;">
 <!ENTITY eogon "&#x0119;">
-<!ENTITY erang "&#F1C7;"> <!--  Orm uses this for "ri," as in "c[ri]st" -->
+<!ENTITY erang "&#xF1C7;"> <!--  Orm uses this for "ri," as in "c[ri]st" -->
+<!ENTITY esup "&#x0364;" >
 <!ENTITY ET "&#xF142;">
 <!ENTITY et "&#x204A;">
+<!ENTITY ETH "&#x00D0;"> <!--not quite right-->
+<!ENTITY ethenl "&#xEEE5;">
 <!ENTITY ethsup "&#x1DD9;">
+<!ENTITY Eunc "&#xF10A;" >
+<!ENTITY fenl "&#xEEE7;" >
 <!ENTITY genl "&#xEEE8;" >
 <!ENTITY gins "&#x1D79;">
 <!ENTITY Gins "&#xA77D;">
+<!ENTITY ginsenl "&#xEEE8;"> <!--no actual char for this, just using genl-->
+<!ENTITY  ginssup "&#x1DDA;" > <!--no char for this either, using gsup-->
 <!ENTITY gsup "&#x1DDA;" >
 <!ENTITY henl "&#xEEE9;">
 <!ENTITY hidot "&#xF1F8;">
 <!ENTITY horbar "&#x2015;">
+<!ENTITY hrdes "&#xF23A;" >
 <!ENTITY hstrok "&#x0127;">
 <!ENTITY hsup "&#x036A;" >
+<!ENTITY Hunc "#xF110;" >
 <!ENTITY iacute "&#xED;">
+<!ENTITY ienl "&#xEEEA;" >
+<!ENTITY isup "&#x0365;" >
+<!ENTITY lenl "&#xEEED;" >
 <!ENTITY lpar "&#x028;"> <!-- NB. lpar and rpar are MUFI names -->
 <!ENTITY mdash "&#x2014;">
 <!ENTITY medcom "&#xF1E0;">
 <!ENTITY middot "&#x00B7;">
 <!ENTITY msup "&#x36B;" >
 <!ENTITY munc "&#xF225;">
+<!ENTITY muncenl "&#xF226;"> <!-- munc with right descender -->
 <!ENTITY Munc "&#xF11A;">
 <!ENTITY nbhy "&#2011;">
 <!ENTITY nenl "&#xEEEF;">
+<!ENTITY  nscap "&#x0274;" >
 <!ENTITY nsup "&#x1DE0;" >
 <!ENTITY odotbl "&#x1ECD;">
 <!ENTITY oenl "&#xEEF0;" >
 <!ENTITY openparen "&#x028;">
+<!ENTITY osup "&#x0366;" >
 <!ENTITY para "&#x00B6;">
 <!ENTITY parag "&#xF1E1;">
-<!ENTITY pbardes "&#xA751;">
+<!ENTITY pbar "&#xA751;">
+<!ENTITY PFLOUR "&#xA752;">
 <!ENTITY pflour "&#xA753;">
 <!ENTITY pipe "&#x007C;">
+<!ENTITY psup "&#xF025;">
 <!ENTITY punctelev "&#xF161;">
+<!ENTITY punctinter "&#xF160;">
+<!ENTITY qscap "&#xEF0C;">
+<!ENTITY qslstrok "&#xA759;" >
+<!ENTITY ra "&#x1DD3;" >
 <!ENTITY rabar "&#xF1C1;">
 <!ENTITY rpar "&#x029;">
 <!ENTITY Rrot "&#xA75A;">
 <!ENTITY rrot "&#xA75B;">
+<!ENTITY rscap "&#x0280;">
 <!ENTITY rsup "&#x036C;">
+<!ENTITY rum "&#xA75D;" > <!-- crossed rotunda -->
 <!ENTITY senl "&#xEEF4;">
+<!ENTITY sem "&#xF1AC;"> <!-- e.g. dieb; into diebus -->
+<!ENTITY sins "&#xA785;">
 <!ENTITY slong "&#x17F;">
 <!ENTITY slongenl "&#xEEDF;">
+<!ENTITY slongslash "&#x1E9C;"> <!-- secundum abbreviation -->
+<!ENTITY slongsup "&#x1DE5;">
 <!ENTITY sol "&#x002F;">
 <!ENTITY sscap "&#xA731;" > <!-- standing in for Orm's sideways /s/, which he uses as linefiller -->
+<!ENTITY ssup "&#x1DE4;">
 <!ENTITY tenl "&#xEEF5;">
 <!ENTITY THORN "&#xDE;">
 <!ENTITY thorn "&#xFE;">
 <!ENTITY thornbar "&#xA765;">
 <!ENTITY thornenl "&#xEEF6;">
+<!ENTITY Trot "&#xA876;" >
 <!ENTITY tsup "&#x36D;" >
+<!ENTITY uenl "&#xEEF7;" >
+<!ENTITY urlemn "&#xF1C2;" >
 <!ENTITY urrot "&#xF153;">
 <!ENTITY us "&#x1DD2;">
+<!ENTITY  usmod "&#xA770;" > <!-- for us marks next to rather than on top -->
+<!ENTITY wenl "&#xEEF9;" > <!--in substituion for enlarged wynns-->
 <!ENTITY wsup "&#xF03C;">
-<!ENTITY WYNN "&#x0157;">
+<!ENTITY WYNN "&#x01f7;">
 <!ENTITY wynn "&#x01BF;">
+<!ENTITY xenl "&#xEEFA;" >
+<!ENTITY xldes "&#xF232;" >
+<!ENTITY xsup "&#x036F;" >
 <!ENTITY ydot "&#x1E8F;">
+<!ENTITY Ydot "&#x1E8E;">
 <!ENTITY YOGH "&#x021C;">
 <!ENTITY yogh "&#x021D;">
