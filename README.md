@@ -13,8 +13,8 @@ This contains one file, aeme-proofing.xsl, which is used to generate an html ver
 ## The validation folder
 This folder contains the AEME schema files and associated oXygen code templates:
 
-* aeme0.3.5.rng
-* aeme0.3.5.xml
+* aeme0.3.6.rng
+* aeme0.3.6.xml
 * aeme_doc0.3.3.html
 * aeme-oxygen-code-templates
 
