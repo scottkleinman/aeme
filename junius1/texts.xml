@@ -93,17 +93,14 @@
          #holPascha001: Paschal supper
 
          
-   Last update: 21feb2016 -->
+   Last update: 15may2016 -->
       
-      <body xml:id="junius1-body">
+      <body xml:id="junius1.texts.body">
          <div1>
-            <pb n="5r"/>
-            <cb n="1"/>
-            <l xml:lang="lat" xml:id="junius1.452">&parag; <choice>
+            <l xml:lang="lat" xml:id="junius1.texts.1"><pb n="5r"/><cb n="1"/><lb/> &parag; <choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
-               </choice>
-               <name type="person" ref="#bioLuke001"><choice>
+               </choice> <name type="person" ref="#bioLuke001"><choice>
                   <orig>luca<am>&combmacr;</am></orig>
                   <reg>Luca<ex>m</ex></reg>
                </choice></name> <num value="1"><pc>.</pc><choice>
@@ -119,11 +116,11 @@
                </choice> <name type="person" ref="#bioHerod001"><choice>
                   <orig>herodi&slong;</orig>
                   <reg>Herodi&slong;</reg>
-               </choice></name> regi&slong; <name type="place" ref="#locJudea"><choice>
+               </choice></name> regi&slong; <name type="place" ref="#locJudea001"><choice>
                   <orig>iudee</orig>
                   <reg>Iudee</reg>
                </choice></name> <choice>
-                  <abbr>&slong;ac<am>&erang;</am><pc>&dash;</pc><lb/>do&slong;</abbr> <!-- this is where I have my doubts -->
+                  <abbr>&slong;ac<am>&erang;</am><pc>&dash;</pc><lb/>do&slong;</abbr>
                   <expan>&slong;ac<ex>er</ex><pc>&dash;</pc><lb/>do&slong;</expan>
                </choice> <choice>
                   <abbr>q<am>&isup;</am>da<am>&combmacr;</am></abbr>
@@ -136,7 +133,7 @@
                   <reg>Zachar&ydot;a&slong;</reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.453"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.2"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -151,7 +148,7 @@
                </choice> <name type="person">zachar&ydot;a&slong;</name>
                <metamark rend="vertical-dash" function="connector" target="#ad01"/> <add xml:id="ad01" place="supralinear">ad</add> 
                <choice>
-                  <abbr>angl<am>&combtilde;</am>m</abbr>
+                  <abbr>angl<am>&combmacr;</am>m</abbr>
                   <expan>ang<ex>e</ex>l<ex>u</ex>m</expan>
                </choice><pc>.</pc> <choice>
                   <orig>&uenl;n<am>&combmacr;</am></orig>
@@ -168,7 +165,7 @@
                   <expan>&slong;u<ex>m</ex></expan>
                </choice> &slong;enex<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.454"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.3"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -183,14 +180,14 @@
                   <orig>&Munc;i&slong;&slong;u&slong;</orig>
                   <reg>Mi&slong;&slong;u&slong;</reg>
                </choice> e&slong;t <choice>
-                  <abbr>a<am>&combmacr;</am>gl<am>&combtilde;</am>&slong;</abbr>
+                  <abbr>a<am>&combmacr;</am>gl<am>&combmacr;</am>&slong;</abbr>
                   <expan>a<ex>n</ex>g<ex>e</ex>l<ex>u</ex>&slong;</expan>
                </choice> <name type="person" ref="#bioGabriel001"><choice>
                   <orig>gab<am>&isup;</am>el</orig>
                   <reg>Gab<ex>ri</ex>el</reg>
                </choice></name> a&combacute; <name type="person" ref="#bioGod001"><choice>
                   <orig>d<am>&combmacr;</am>o</orig>
-                  <reg>D<ex>e</ex></reg>
+                  <reg>D<ex>e</ex>o</reg>
                </choice></name> <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
@@ -199,7 +196,7 @@
                   <reg>Galilee</reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.455"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.4"><choice>
                   <abbr>Sdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -225,7 +222,7 @@
                   <expan>fe&slong;tinat<ex>i</ex>one</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.456"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.5"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -258,7 +255,7 @@
                   <expan>filiu<ex>m</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.457"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.6"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -296,7 +293,7 @@
                   <reg><ex>con</ex>venire<ex>n</ex>t</reg>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.458"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.7"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -322,7 +319,7 @@
                   <expan>de&slong;criberet<ex>ur</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.459"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.8"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -351,9 +348,9 @@
                   <reg>Bethl<ex>ehem</ex></reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.460"><gap quantity="2" unit="lines" reason="inked-out"/><!-- one line and two halves -->
+            <l xml:lang="lat" xml:id="junius1.texts.9"><gap quantity="2" unit="lines" reason="inked-out"/><!-- one line and two halves -->
             </l>
-            <l xml:lang="lat" xml:id="junius1.461"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.10"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001">Lucam</name> 
@@ -375,7 +372,7 @@
                   <expan>c<ex>ir</ex>c<ex>um</ex>ci<pc>&dash;</pc><lb/>deret<ex>ur</ex></expan>
                </choice> puer<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.462"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.11"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -413,7 +410,7 @@
                   <reg>Herod<ex>is</ex></reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.463"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.12"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -445,7 +442,7 @@
                   <expan>Jesu</expan>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.464"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.13"><choice>
                   <abbr>Scdm</abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -474,7 +471,7 @@
                   <expan>&slong;<ex>upe</ex>r</expan>
                </choice> hi&slong;<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.465"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.14"><choice>
                   <abbr>Scd&munc;<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -487,7 +484,7 @@
                   <orig>&Eunc;cce</orig>
                   <reg>Ecce</reg>
                </choice> <choice>
-                  <abbr>a<am>&combtilde;</am>gl<am>&combtilde;</am>&slong;</abbr>
+                  <abbr>a<am>&combmacr;</am>gl<am>&combmacr;</am>&slong;</abbr>
                   <expan>a<ex>n</ex>g<ex>e</ex>l<ex>u</ex>&slong;</expan>
                </choice> <name type="person" ref="#bioGod001"><choice>
                   <abbr>dn<am>&combmacr;</am>i</abbr>
@@ -524,7 +521,7 @@
                   <reg>Egyptu<ex>m</ex></reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.466"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.15"><choice>
                   <abbr>Scd&munc;<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -543,7 +540,7 @@
                   <orig>herode</orig>
                   <reg>Herode</reg>
                </choice></name><pc>&punctelev;</pc> ecce <choice>
-                  <abbr>a<am>&combmacr;</am>gl<am>&combtilde;</am>&slong;</abbr> <!-- maybe crossed l-->
+                  <abbr>a<am>&combmacr;</am>gl<am>&combmacr;</am>&slong;</abbr> 
                   <expan>a<ex>n</ex>g<ex>e</ex>l<ex>u</ex>&slong;</expan>
                </choice> <name type="person" ref="#bioGod001"><choice>
                   <abbr>dn<am>&combmacr;</am>i</abbr>
@@ -585,11 +582,11 @@
                   <abbr>t<am>&erang;</am>ra<am>&combmacr;</am></abbr>
                   <expan>t<ex>er</ex>ra<ex>m</ex></expan>
                </choice> <name type="place"><choice>
-                  <orig>i&slong;rl<am>&combtilde;</am></orig>
+                  <orig>i&slong;rl<am>&combmacr;</am></orig>
                   <reg>I&slong;r<ex>ae</ex>l</reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.467"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.16"><choice>
                   <abbr>Scd&munc;<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -617,11 +614,11 @@
                   <abbr>a&slong;&slong;ce<am>&combmacr;</am>dentib<am>&sem;</am></abbr>
                   <expan>a&slong;&slong;ce<ex>n</ex>dentib<ex>us</ex></expan>
                </choice> <choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
+                  <abbr>ill<am>&combmacr;</am></abbr>
                   <expan>ill<ex>is</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.468"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.17"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person"><choice>
@@ -647,9 +644,9 @@
                   <expan><ex>pro</ex>cura<ex>n</ex>te</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.469"><gap quantity="2" unit="lines" reason="inked-out"/><!-- one line two halves -->
+            <l xml:lang="lat" xml:id="junius1.texts.18"><gap quantity="2" unit="lines" reason="inked-out"/><!-- one line two halves -->
             </l>
-            <l xml:lang="lat" xml:id="junius1.470"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.19"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -675,7 +672,7 @@
                   <expan>penite<ex>n</ex>tia<ex>m</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.471"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.20"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -690,7 +687,7 @@
                </choice> <name type="place" ref="#locJudea001"><choice>
                   <orig>iudei</orig>
                   <reg>Judei</reg>
-               </choice></name> ab <name type="place" ref="#locJerusalem"><choice>
+               </choice></name> ab <name type="place" ref="#locJerusalem001"><choice>
                   <orig>iero&slong;olimi&slong;</orig>
                   <reg>Jero&slong;olimi&slong;</reg>
                </choice></name> <choice>
@@ -701,7 +698,7 @@
                   <reg>Joh<ex>ann</ex>e<ex>m</ex></reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.472"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.21"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -729,7 +726,7 @@
                   <expan>baptiaz<ex>etur</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.473"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.22"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -760,11 +757,11 @@
                   <abbr>tem<pc>&dash;</pc><lb/>taret<am>&urlemn;</am></abbr>
                   <expan>tem<pc>&dash;</pc><lb/>taret<ex>ur</ex></expan>
                </choice> a <name type="person" ref="#bioSatan001"><choice>
-                  <abbr>diabl<am>&combtilde;</am></abbr>
+                  <abbr>diabl<am>&combmacr;</am></abbr>
                   <expan>diab<ex>o</ex>lo</expan>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.474"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.23"><choice>
                   <abbr>Scd&munc;<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -793,7 +790,7 @@
                   <expan>agn<ex>us</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.475"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.24"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -815,14 +812,14 @@
                   <orig>ioh<am>&combmacr;</am>e&slong;</orig>
                   <reg>Joh<ex>ann</ex>e&slong;</reg>
                </choice></name><pc>.</pc> &et; ex <choice>
-                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;ci<pc>&dash;</pc><lb/>p<ex>u</ex>li&slong;</expan>
                </choice> <choice>
                   <abbr>ei<am>&usmod;</am></abbr>
                   <expan>ei<ex>us</ex></expan>
                </choice> duo<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.476"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.25"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person"><choice>
@@ -842,7 +839,7 @@
                   <reg>Gali<lb/>lee</reg>
                </choice></name><pc>.</pc> &et; erat<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.477"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.26"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -877,7 +874,7 @@
                   <expan>colu<ex>m</ex>ba&slong;</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.478"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.27"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -886,7 +883,7 @@
                </choice></name> <num value="25"><pc>.</pc><choice>
                   <orig>&xenl;&xenl;&uenl;</orig>
                   <reg>xxv</reg>
-               </choice><pc>.</pc></num> <lb/><cb n="2"/><choice>
+               </choice><pc>.</pc></num> <cb n="2"/><lb/><choice>
                   <orig>&Eunc;rat</orig>
                   <reg>Erat</reg>
                </choice> <lb/><choice>
@@ -908,7 +905,7 @@
                   <expan>pri<ex>n</ex>cep&slong;</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.479"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.28"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -932,7 +929,7 @@
                   <expan>&slong;uu<ex>m</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.480"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.29"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -954,7 +951,7 @@
                   <abbr>t<am>&erang;</am>ra<am>&combmacr;</am></abbr>
                   <expan>t<ex>er</ex>ra<ex>m</ex></expan>
                </choice><pc>.</pc> &et; <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;cip<ex>u</ex>li</expan>
                </choice> <choice>
                   <abbr>ei<am>&usmod;</am></abbr>
@@ -964,7 +961,7 @@
                   <expan>mo<ex>r</ex>abatur</expan>
                </choice><pc>.</pc> &et; bapti<pc>&dash;</pc><lb/>zabat<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.481"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.30"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -994,7 +991,10 @@
                </choice><pc>.</pc> <choice>
                   <orig>&nenl;on</orig>
                   <reg>Non</reg>
-               </choice> <!--some character that turns into enim?--> ad <choice>
+               </choice> <choice>
+                  <abbr>&librafren;</abbr>
+                  <expan>enim</expan>
+               </choice> ad <choice>
                   <abbr>m<am>&combmacr;</am>&slong;u<pc>&dash;</pc><lb/>ra<am>&combmacr;</am></abbr>
                   <expan>m<ex>en</ex>&slong;u<pc>&dash;</pc><lb/>ra<ex>m</ex></expan>
                </choice> dat <name type="person" ref="#bioGod001"><choice>
@@ -1005,7 +1005,7 @@
                   <expan>&slong;p<ex>iriu</ex>m</expan>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.482"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.31"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1025,7 +1025,7 @@
                   <expan>v<ex>er</ex>bu<ex>m</ex></expan>
                </choice> erat<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.483"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.32"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1062,11 +1062,11 @@
                   <abbr>cu<am>&combmacr;</am></abbr>
                   <expan>cu<ex>m</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;ci<pc>&dash;</pc><lb/>p<ex>u</ex>li&slong;</expan>
                </choice> &slong;ui&slong;<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.484"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.33"><choice>
                   <abbr>Sd<am>&combmacr;</am>m</abbr>
                   <expan>S<ex>ecun</ex>d<ex>a</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -1087,7 +1087,7 @@
                   <reg>herod&ydot;ade<am>&combmacr;</am></reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.485"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.34"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1122,7 +1122,7 @@
                   <reg>S&ydot;car</reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.486"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.35"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1145,7 +1145,7 @@
                   <reg>Ga<pc>&dash;</pc><lb/>lilea<ex>m</ex></reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.487"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.36"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1168,7 +1168,7 @@
                   <expan>i<ex>n</ex>firm<ex>abatur</ex><pc>.</pc></expan>
                </choice>
             </l>
-            <l xml:lang="lat" xml:id="junius1.488"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.37"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke003"><choice>
@@ -1210,7 +1210,7 @@
                </choice><pc>.</pc> &et; magnificanbatur ab <lb/><choice>
                   <abbr>oi<am>&combmacr;</am>b<am>&sem;</am></abbr>
                   <expan>o<ex>mn</ex>ib<ex>us</ex></expan>
-               </choice> <metamark rend="line" function="connector" target="#etvenit01"/> <add xml:id="etvenit01" place="marginCenter">&et; uenit <name type="place" ref="#locNazareth001"><choice>
+               </choice> <metamark rend="line" function="connector" target="#etvenit01"/> <add xml:id="etvenit01" place="intercolumnar">&et; uenit <name type="place" ref="#locNazareth001"><choice>
                   <orig>nazar<am>&et;</am></orig>
                   <reg>nazar&et;</reg>
                </choice></name><pc>.</pc></add> &et; <choice>
@@ -1236,7 +1236,7 @@
                   <expan>&slong;&ydot;na<pc>&dash;</pc><lb/>goga<ex>m</ex>></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.489"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.38"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1268,7 +1268,7 @@
                   <reg>Nept<ex>halim</ex></reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.490"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.39"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMark001"><choice>
@@ -1295,7 +1295,7 @@
                </choice> <choice>
                   <abbr>i<am>&combmacr;</am>mu<am>&combmacr;</am>do<pc>.</pc>&et;</abbr>
                   <expan>i<ex>m</ex>mu<ex>n</ex>do<pc>.</pc>&et;</expan>
-               </choice> excla<pc>-</pc><lb/>mauit <choice>
+               </choice> excla<pc>&dash;</pc><lb/>mauit <choice>
                   <abbr>dice<am>&combmacr;</am>&slong;</abbr>
                   <expan>dice<ex>n</ex>&slong;</expan>
                </choice><pc>.</pc> <choice>
@@ -1312,7 +1312,7 @@
                   <reg>Nazarene</reg>
                </choice></name><pc>&punctinter;</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.491"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.40"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -1356,7 +1356,7 @@
                   <expan>et cetera</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.492"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.41"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -1391,7 +1391,7 @@
                   <reg>gene&slong;ar<ex>et</ex></reg>
                </choice></name>
             </l>
-            <l xml:lang="lat" xml:id="junius1.493"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.42"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001">><choice>
@@ -1417,7 +1417,7 @@
                   <expan>eo<ex>rum</ex></expan>
                </choice><pc>.</pc>
             </l>   
-            <l xml:lang="lat" xml:id="junius1.494"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.43"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1440,9 +1440,7 @@
                   <reg>Galilee</reg>
                </choice></name></name><pc>&punctelev;</pc> uidit duo&slong;<pc>.</pc>
             </l>
-            <pb n="5v"/>
-            <cb n="1"/>
-            <l xml:lang="lat" xml:id="junius1.495"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.44"><pb n="5v"/><cb n="1"/><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1483,7 +1481,7 @@
                   <expan>noi<ex>m</ex>i<ex>n</ex>e</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.496"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.45"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1518,7 +1516,7 @@
                   <reg>D<ex>omi</ex>ne</reg>
                </choice></name> <lb/>filia<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.497"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.46"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person"><choice>
@@ -1553,7 +1551,7 @@
                   <reg>David</reg>
                </choice></name><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.498"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.47"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1576,7 +1574,7 @@
                   <expan>eo<ex>rum</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.499"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.48"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1620,7 +1618,7 @@
                   <expan>port<ex>icus</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.500"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.49"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1652,7 +1650,7 @@
                   <expan>&slong;abb<ex>a</ex>to</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.501"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.50"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1694,7 +1692,7 @@
                   <expan>e<ex>st</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.502"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.51"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -1732,7 +1730,7 @@
                   <expan>m<ex>agna</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.503"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.52"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1764,7 +1762,7 @@
                   <expan>c<ex>um</ex></expan>
                </choice> &slong;edi&slong;&slong;et<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.504"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.53"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1778,7 +1776,7 @@
                   <expan>t<ex>er</ex>re</expan>
                </choice><pc>.</pc> Quod &slong;i &slong;al eua<pc>&dash;</pc><lb/>nuerit<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.505"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.54"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1801,7 +1799,7 @@
                   <expan>&slong;c<ex>ri</ex>b<ex>arum</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.506"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.55"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person"><choice>
@@ -1830,7 +1828,7 @@
                   <expan>c<ex>m</ex></expan>
                </choice> eo<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.507"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.56"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1889,7 +1887,7 @@
                   <expan>ea<ex>m</ex></expan>
                </choice> mecari<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.508"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.57"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1927,7 +1925,7 @@
                   <expan>u<ex>est</ex>ro&slong;</expan>
                </choice>
             </l>
-            <l xml:lang="lat" xml:id="junius1.509"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.58"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMark001"><choice>
@@ -1950,7 +1948,7 @@
                   <expan>an<ex>te</ex></expan>
                </choice> te<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.510"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.59"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -1959,7 +1957,7 @@
                </choice></name> <num value="57"><pc>.</pc><choice>
                   <orig>&lenl;&uenl;&ienl;&ienl;</orig>
                   <reg>lvii</reg>
-               </choice><pc>.</pc></num> <metamark rend="line" function="connector" target="#Pater01 #Secundum01"/><!-- maybe legal? --><add xml:id="Pater01" place="marginCenter"><choice>
+               </choice><pc>.</pc></num> <metamark rend="line" function="connector" target="#Pater01 #Secundum01"/><!-- maybe legal? --><add xml:id="Pater01" place="intercolumnar"><choice>
                   <abbr>Pat<am>&erang;</am></abbr>
                   <expan>Pat<ex>er</ex></expan>
                </choice> <choice>
@@ -1973,7 +1971,7 @@
                   <expan>cet<ex>er</ex>a</expan>
                </choice><pc>.</pc></add>
             </l>
-            <l xml:lang="lat" xml:id="junius1.511"><lb/><add xml:id="Secundum01" place="marginCenter"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.60"><lb/><add xml:id="Secundum01" place="intercolumnar"><choice>
                   <abbr>Scd&munc;<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person"><choice>
@@ -2002,7 +2000,7 @@
                   <expan>a<ex>utem</ex></expan>
                </choice> ie&combacute;iunati&slong;<pc>&punctelev;</pc> no<pc>&dash;</pc><lb/>lite fieri<pc>.</pc> &slong;icut &ydot;pocrite tri&slong;te&slong;<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.512"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.61"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person"><choice>
@@ -2018,11 +2016,11 @@
                   <abbr>co&rrot;<am>&pbar;</am>i&slong;</abbr>
                   <expan>cor<ex>por</ex>i&slong;</expan>
                </choice> tui<pc>&punctelev;</pc> e&slong;t <lb/><choice>
-                  <abbr>ocl<am>&combtilde;</am>&slong;</abbr>
+                  <abbr>ocl<am>&combmacr;</am>&slong;</abbr>
                   <expan>oc<ex>u</ex>l<ex>i</ex>&slong;</expan>
                </choice> tuu&slong;<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.513"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.62"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2039,7 +2037,7 @@
                   <reg>D<ex>omi</ex>ni&slong;</reg>
                </choice></name> &slong;er<pc>&dash;</pc><lb/>uire<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.514"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.63"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2053,7 +2051,7 @@
                   <expan>n<ex>on</ex></expan>
                </choice> iudice<pc>&dash;</pc><lb/>mini<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.515"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.64"><choice>
                   <abbr>Scd&munc;<am>&combmacr;</am></abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2076,7 +2074,7 @@
                   <expan>veni<pc>&dash;</pc><lb/>u<ex>n</ex>t</expan>
                </choice> ad uo&slong;<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.515b"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.65"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew"><choice>
@@ -2129,7 +2127,7 @@
                   <expan>mu<ex>ndare</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.516"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.66"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2159,7 +2157,7 @@
                </choice> &slong;criba ait illi<pc>.</pc> <choice>
                   <abbr>magi&slong;t<am>&erang;</am></abbr>
                   <expan>magi&slong;t<ex>er</ex></expan>
-               </choice><pc>.</pc> <lb/><cb n="2"/><choice>
+               </choice><pc>.</pc> <cb n="2"/><lb/><choice>
                   <abbr>&slong;eq<am>&ra;</am>r</abbr>
                   <expan>&slong;eq<ex>ua</ex>r</expan>
                </choice> te<pc>&punctelev;</pc> <choice>
@@ -2167,7 +2165,7 @@
                   <expan>quoc<ex>um</ex>q<ex>ue</ex></expan>
                </choice> <lb/>ieri&slong;<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.516b"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.67"><!--why was this also marked as b?--><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2183,7 +2181,7 @@
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
                </choice> <choice>
-                  <abbr>naui<pc>&dash;</pc><lb/>cl<am>&combtilde;</am>a<am>&combmacr;</am></abbr>
+                  <abbr>naui<pc>&dash;</pc><lb/>cl<am>&combmacr;</am>a<am>&combmacr;</am></abbr>
                   <expan>naui<pc>&dash;</pc><lb/>c<ex>u</ex>la<ex>m</ex></expan>
                </choice><pc>&punctelev;</pc> &slong;ecuti <choice>
                   <abbr>&slong;t<am>&combmacr;</am></abbr>
@@ -2192,7 +2190,7 @@
                   <abbr>eu<am>&combmacr;</am></abbr>
                   <expan>eu<ex>m</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;cip<ex>u</ex>li</expan>
                </choice> <lb/><choice>
                   <abbr>ei<am>&usmod;</am></abbr>
@@ -2214,7 +2212,7 @@
                   <expan>m<ex>ari</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.517"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.68"><choice>
                   <abbr>Sd<am>&combmacr;</am>m</abbr>
                   <expan>S<ex>ecun</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2255,7 +2253,7 @@
                   <expan>demo<ex>n</ex>ia</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.518"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.69"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundam</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -2274,7 +2272,7 @@
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
                </choice> <choice>
-                  <abbr>nauicl<am>&combtilde;</am>a<am>&combmacr;</am></abbr>
+                  <abbr>nauicl<am>&combmacr;</am>a<am>&combmacr;</am></abbr>
                   <expan>nauic<ex>u</ex>la<ex>m</ex></expan>
                </choice> <choice>
                   <abbr>t<am>&ra;</am>n&slong;<pc>&dash;</pc><lb/>fretauit</abbr>
@@ -2296,7 +2294,7 @@
                   <expan>para<pc>&dash;</pc><lb/>liticu<ex>m</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.519"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.70"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundam</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -2312,7 +2310,7 @@
                   <abbr>duodeci<am>&combmacr;</am></abbr>
                   <expan>duodeci<ex>m</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;ci<pc>&dash;</pc><lb/>p<ex>u</ex>li&slong;</expan>
                </choice> &slong;ui&slong;<pc>&punctelev;</pc> dedit ei&slong; <choice>
                   <abbr>pote&slong;<pc>&dash;</pc><lb/>tate<am>&combmacr;</am></abbr>
@@ -2330,7 +2328,7 @@
                   <abbr>a<am>&combtildevert;</am></abbr>
                   <expan>a<ex>utem</ex></expan>
                </choice> <choice>
-                  <abbr>apl<am>&combtilde;</am>o<am>&rum;</am></abbr>
+                  <abbr>apl<am>&combmacr;</am>o<am>&rum;</am></abbr>
                   <expan>ap<ex>ost</ex>lo<ex>rum</ex></expan>
                </choice> <choice>
                   <abbr>no<am>&combmacr;</am>i<am>&combmacr;</am>a</abbr>
@@ -2340,7 +2338,7 @@
                   <expan>&slong;<ex>un</ex>t</expan>
                </choice> hec<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.519b"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.71"><!--b?--><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2356,7 +2354,7 @@
                   <orig>ih<am>&combmacr;</am>&slong;</orig>
                   <reg>Jesus</reg>
                </choice></name> <choice>
-                  <abbr>apl<am>&combtilde;</am>o&slong;</abbr>
+                  <abbr>apl<am>&combmacr;</am>o&slong;</abbr>
                   <expan>ap<ex>osto</ex>lo&slong;</expan>
                </choice> &slong;uo&slong; <lb/>ad <choice>
                   <abbr>p<am>&erang;</am>dica<am>&combmacr;</am>du<am>&combmacr;</am></abbr>
@@ -2375,7 +2373,7 @@
                   <expan><ex>et</ex> c<ex>etera</ex></expan>
                </choice><pc>&punctelev;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.520"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.72"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2395,7 +2393,7 @@
                   <expan>lupo<ex>rum</ex></expan>
                </choice><pc>.</pc> E&slong;tote <lb/>ergo<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.521"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.73"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundam</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -2427,7 +2425,7 @@
                   <expan>&slong;ciet<ex>ur</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.522"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.74"><choice>
                   <abbr>S<am>&combtildevert;</am><pc>.</pc></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2453,7 +2451,7 @@
                   <expan>t<ex>er</ex>ra<ex>m</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.523"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.75"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -2481,14 +2479,14 @@
                   <abbr>&slong;t<am>&combmacr;</am></abbr>
                   <expan>&slong;<ex>un</ex>t</expan>
                </choice> <choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <expan>ap<ex>osto</ex>li</expan>
                </choice> a <choice>
                   <abbr>p<am>&erang;</am>di<pc>&dash;</pc><lb/>catio<am>&combmacr;</am>e</abbr>
                   <expan>p<ex>er</ex>di<pc>&dash;</pc><lb/>catio<ex>n</ex>e</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.524"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.76"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -2514,7 +2512,7 @@
                   <reg>Na&ydot;m</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.525"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.77"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -2555,7 +2553,7 @@
                   <reg>eum</reg>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.526"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.78"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <lb/><name type="person" ref="#bioMark001"><choice>
@@ -2587,7 +2585,7 @@
                   <expan>&slong;p<ex>iritu</ex>m</expan>
                </choice> mutum<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.527"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.79"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -2609,7 +2607,7 @@
                   <abbr>&slong;ep<pc>&dash;</pc><lb/>tuagi<am>&combmacr;</am>ta</abbr>
                   <expan>&slong;ep<pc>&dash;</pc><lb/>tuagi<am>&combmacr;</am>ta</expan>
                </choice> duo&slong;<pc>.</pc> &et; dixit <lb/><choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
+                  <abbr>ill<am>&combmacr;</am></abbr>
                   <expan>ill<ex>is</ex></expan>
                </choice><pc>.</pc> <choice>
                   <orig>&munc;e&slong;&slong;i&slong;</orig>
@@ -2619,7 +2617,7 @@
                   <expan>quidem</expan>
                </choice> multa<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.528"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.80"><lb/><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -2652,12 +2650,12 @@
                </choice> <lb/><name type="organizaiton" ref="#orgPharisees001"><choice>
                   <orig>fari&slong;ei</orig>
                   <reg>Phari&slong;ei</reg>
-               </choice></name> di&slong;cbuit<pc>.</pc> <lb/> &et; ecce mulier <lb/><pb n="6r"/>que erat in ciuitate<pc>.</pc> <choice>
+               </choice></name> di&slong;cbuit<pc>.</pc> <lb/> &et; ecce mulier <pb n="6r"/><lb/>que erat in ciuitate<pc>.</pc> <choice>
                   <abbr>pec</abbr>
                   <expan>peccatrix</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.529"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.81"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2682,7 +2680,7 @@
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
                </choice> <choice>
-                  <abbr>ui<am>&combmacr;</am>cl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>ui<am>&combmacr;</am>cl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>ui<ex>n</ex>c<ex>u</ex>li&slong;</expan>
                </choice> <choice>
                   <abbr>o<am>&pbar;</am>a</abbr>
@@ -2697,7 +2695,7 @@
                   <orig>d&esup;</orig>
                   <reg>de</reg>
                </choice> <lb/><sic>de</sic> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;cip<ex>u</ex>li&slong;</expan>
                </choice> &slong;ui&slong; ait illi<pc>.</pc> Tu e&slong; <choice>
                   <abbr>q<am>&isup;</am></abbr>
@@ -2707,7 +2705,7 @@
                   <expan>ue<ex>n</ex>t<ex>urus</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.530"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.82"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -2742,7 +2740,7 @@
                   <reg>Joh<ex>ann</ex>e <lb/>Bapti&slong;ta</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.531"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.83"><choice>
                   <abbr>Se<am>&condes;</am>du<am>&combmacr;</am></abbr>
                   <expan>Se<ex>con</ex>du<ex>m</ex></expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -2777,7 +2775,7 @@
                   <expan>D<ex>omi</ex>ne</expan>
                </choice></name> <lb/> celi<pc>.</pc> &et; terre<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.532"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.84"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -2824,7 +2822,7 @@
                   <expan>t<ex>uo</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.533"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.85"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -2858,7 +2856,7 @@
                   <abbr>uelleba<am>&combmacr;</am>t</abbr>
                   <expan>uelleba<ex>n</ex>t</expan>
                </choice> <choice>
-                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;ci<pc>&dash;</pc><lb/>pl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;ci<pc>&dash;</pc><lb/>p<ex>u</ex>li</expan>
                </choice> <choice>
                   <abbr>ei<am>&usmod;</am></abbr>
@@ -2868,7 +2866,7 @@
                   <expan>ma<ex>n</ex>ducaba<ex>n</ex>t</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.534"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.86"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -2915,7 +2913,7 @@
                   <expan>dext<ex>er</ex>a</expan>
                </choice> arida<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.535"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.87"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -2953,7 +2951,7 @@
                   <expan><ex>per</ex>dere<ex>n</ex>t</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.536"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.88"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -2975,7 +2973,7 @@
                   <abbr>demo<am>&combmacr;</am>iu<am>&combmacr;</am></abbr>
                   <expan>demo<ex>n</ex>iu<ex>m</ex></expan>
                </choice><pc>.</pc> &et; <choice>
-                  <abbr>ill<am>&combtilde;</am>d</abbr>
+                  <abbr>ill<am>&combmacr;</am>d</abbr>
                   <expan>ill<ex>u</ex>d</expan>
                </choice> erat <choice>
                   <abbr>mutu<am>&combmacr;</am></abbr>
@@ -2991,7 +2989,7 @@
                   <expan>demo<ex>n</ex>iu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.537"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.89"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -3017,7 +3015,7 @@
                   <expan>mecu<ex>m</ex></expan>
                </choice><pc>&punctelev;</pc> &slong;pargit<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.538"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.90"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -3052,7 +3050,7 @@
                   <expan>uid<ex>er</ex>e</expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.539"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.91"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -3087,7 +3085,7 @@
                   <expan>ue<ex>n</ex>t<ex>er</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.540"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.92"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -3120,7 +3118,7 @@
                   <expan>&slong;imilitudine<ex>m</ex></expan>
                </choice><pc>.</pc> Exi&combacute;;i&combacute;t qui <lb/>&slong;eminat<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.541"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.93"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -3161,7 +3159,7 @@
                   <expan>ag<ex>ro</ex></expan>
                </choice> &slong;uo<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.542"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.94"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -3187,7 +3185,7 @@
                   <expan>cet<ex>er</ex>a</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.543"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.95"><lb/><choice>
                   <abbr>Secundu<am>&combmacr;</am></abbr>
                   <expan>Secundu<ex>m</ex></expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -3210,7 +3208,7 @@
                   <expan>ab&slong;no<ex>n</ex>dito</expan>
                </choice> <lb/>in agro<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.544"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.96"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -3251,7 +3249,7 @@
                   <expan>eo<ex>rum</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.545"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.97"><choice>
                   <abbr>Scd<am>&combmacr;</am>m</abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMark001"><choice>
@@ -3304,7 +3302,7 @@
                   <expan>accidi&slong;&slong;<ex>et</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.546"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.98"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -3353,7 +3351,7 @@
                   <abbr>&slong;eo&rrot;&slong;u<am>&combmacr;</am></abbr>
                   <expan>&slong;eor&slong;u<ex>m</ex></expan>
                </choice> <lb/> &et; turbe <choice>
-                  <abbr>ml<am>&combtilde;</am>te</abbr>
+                  <abbr>ml<am>&combmacr;</am>te</abbr>
                   <expan>m<ex>u</ex>lte</expan>
                </choice> <choice>
                   <abbr>uen<am>&erang;</am>u<am>&combmacr;</am>t</abbr>
@@ -3363,7 +3361,7 @@
                   <expan>eu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.547"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.99"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn001"><choice>
@@ -3404,7 +3402,7 @@
                   <reg>Pa&slong;ca</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.548"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.100"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioLuke001"><choice>
@@ -3436,7 +3434,7 @@
                   <expan>t<ex>er</ex>ra</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.549"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.101"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioJohn002"><choice>
@@ -3458,14 +3456,14 @@
                   <abbr>n<am>&combmacr;</am></abbr>
                   <expan>n<ex>on</ex></expan>
                </choice> erat ibi ali <choice>
-                  <abbr>nauicl<am>&combtilde;</am>a</abbr>
+                  <abbr>nauicl<am>&combmacr;</am>a</abbr>
                   <expan>navi<ex>u</ex>la</expan>
                </choice> <choice>
                   <abbr>n<am>&isup;</am></abbr>
                   <expan>n<ex>isi</ex></expan>
                </choice> una<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.550"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.102"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -3491,7 +3489,7 @@
                   <expan><ex>per</ex>it</expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.551"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.103"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -3517,7 +3515,7 @@
                   <expan>veni<ex>et</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.552"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.104"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -3552,7 +3550,7 @@
                   <expan>de&slong;<ex>cendi</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.553"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.105"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -3581,7 +3579,7 @@
                   <expan>de&slong;<ex>cendi</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.554"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.106"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -3610,7 +3608,7 @@
                   <expan>ho<ex>min</ex>i&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.555"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.107"><choice>
                   <abbr>Scd<am>&combmacr;</am>m</abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -3654,7 +3652,7 @@
                   <expan>il<ex>ius</ex></expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.556"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.108"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -3673,7 +3671,7 @@
                   <abbr>eu<am>&combmacr;</am></abbr>
                   <expan>eu<ex>m</ex></expan>
                </choice> ab <name type="place" ref="#locJerusalem001"><choice>
-                  <orig>iero&slong;ol<am>&combtilde;</am>i&slong;</orig>
+                  <orig>iero&slong;ol<am>&combmacr;</am>i&slong;</orig>
                   <reg>Jero&slong;ol<ex>em</ex>i&slong;</reg>
                </choice></name> <choice>
                   <abbr>&slong;c<am>&isup;</am>be</abbr>
@@ -3688,7 +3686,7 @@
                   <abbr>&qscap;&ra;re</abbr>
                   <expan>Q<ex>ua</ex>re</expan>
                </choice> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;cip<ex>u</ex>li</expan>
                </choice> tui<pc>.</pc> <choice>
                   <abbr>t<am>&ra;</am>n&slong;g<am>&erang;</am></abbr>
@@ -3706,7 +3704,7 @@
                   <abbr>n<am>&combmacr;</am></abbr>
                   <expan>n<ex>on</ex></expan>
                </choice> <choice>
-                  <abbr><!--enim abbreviation--></abbr>
+                  <abbr>&librafren;</abbr>
                   <expan>enim</expan>
                </choice> <choice>
                   <abbr>man<am>&usmod;</am></abbr>
@@ -3725,7 +3723,7 @@
                   <expan>ma<ex>n</ex><ex>ducant</ex></expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.557"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.109"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -3757,7 +3755,7 @@
                   <reg>Can<ex>anea</ex></reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.558"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.110"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMark001"><choice>
@@ -3801,7 +3799,7 @@
                   <expan>Decap<ex>oleos</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.559"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.111"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -3845,7 +3843,7 @@
                   <expan>i<ex>n</ex>firmi&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.560"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.112"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMark001"><choice>
@@ -3885,7 +3883,7 @@
                   <abbr>di&slong;c<am>&combtildevert;</am></abbr>
                   <expan>di&slong;c<ex>ipulis</ex></expan>
                </choice><pc>.</pc> ait <choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
+                  <abbr>ill<am>&combmacr;</am></abbr>
                   <expan>ill<ex>is</ex></expan>
                </choice><pc>.</pc> <choice>
                   <abbr>&munc;i&slong;ereo&rrot;</abbr>
@@ -3907,7 +3905,7 @@
                   <expan>&slong;u&slong;t<ex>inent</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.561"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.113"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -3926,7 +3924,7 @@
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
                </choice> <choice>
-                  <abbr>nauicl<am>&combtilde;</am>am</abbr>
+                  <abbr>nauicl<am>&combmacr;</am>am</abbr>
                   <expan>navic<ex>u</ex>lam</expan>
                </choice><pc>.</pc> &et; ue<pc>&dash;</pc><lb/>nit <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
@@ -3936,7 +3934,7 @@
                   <reg>Mageda</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.562"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.114"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMark001"><choice>
@@ -3983,7 +3981,7 @@
                   <expan>ei<ex>us</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.563"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.115"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -4003,7 +4001,7 @@
                   <reg>Ce&slong;aree <lb/>Philippi</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.564"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.116"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4012,11 +4010,11 @@
                </choice></name> <num value="114"><pc>.</pc><choice>
                   <orig>&cenl;<pc>.</pc>&xenl;&ienl;&ienl;&ienl;&ienl;</orig>
                   <reg>c<pc>.</pc>xiiii</reg>
-               </choice><pc>.</pc></num> <lb/><pb n="6v"/><choice>
+               </choice><pc>.</pc></num> <pb n="6v"/><lb/><choice>
                   <abbr>Tc<am>&combmacr;</am></abbr>
                   <expan>T<ex>un</ex>c</expan>
                </choice> precepit <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;cip<ex>u</ex>li&slong;</expan>
                </choice> &slong;ui&slong; ut nemini <choice>
                   <abbr>dr<am>&combtildevert;</am>e<am>&combmacr;</am>t</abbr>
@@ -4035,7 +4033,7 @@
                   <reg>Jesus</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.565"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.117"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -4067,7 +4065,7 @@
                   <expan>&slong;eq<ex>ua</ex>t<ex>ur</ex></expan>
                </choice> me<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.566"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.118"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -4111,7 +4109,7 @@
                   <expan>an<ex>te</ex></expan>
                </choice> eo&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.567"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.119"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -4127,7 +4125,7 @@
                   <orig>ih<am>&combmacr;</am>m</orig>
                   <reg>Jesum</reg>
                </choice></name> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;cip<ex>u</ex>li</expan>
                </choice> <choice>
                   <abbr>ei<am>&usmod;</am></abbr>
@@ -4161,7 +4159,7 @@
                   <expan>primu<ex>m</ex></expan>
                </choice> uenire<pc>&punctinter;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.568"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.120"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4211,7 +4209,7 @@
                   <expan>q<ex>uia</ex></expan>
                </choice> luna<pc>&dash;</pc><lb/>ticu&slong; e&slong;t<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.569"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.121"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMark001"><choice>
@@ -4237,7 +4235,7 @@
                   <expan>quenquam</expan>
                </choice> &slong;cire<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.570"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.122"><choice>
                   <abbr>Scdm<am>&combmacr;</am></abbr>
                   <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                </choice> <name type="person" ref="#bioMark001"><choice>
@@ -4275,7 +4273,7 @@
                   <expan>demo<ex>n</ex>ia</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.571"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.123"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4288,7 +4286,7 @@
                   <orig>ho&rrot;a</orig>
                   <reg>hora</reg>
                </choice> ac<pc>&dash;</pc><lb/>ce&slong;&slong;ert <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;cip<ex>u</ex>li</expan>
                </choice> ad <name type="person" ref="#bioJesus001"><choice>
                   <orig>ie&slong;u<am>&combmacr;</am></orig>
@@ -4310,7 +4308,7 @@
                   <expan>celo<ex>rum</ex></expan>
                </choice><pc>&punctinter;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.572"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.124"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4348,7 +4346,7 @@
                   <expan>&slong;olu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.572b"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.125"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person"><choice>
@@ -4383,7 +4381,7 @@
                   <expan><ex>qua</ex>c<ex>un</ex>q<ex>ue</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.572c"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.126"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4421,7 +4419,7 @@
                   <expan>cu<ex>m</ex></expan>
                </choice> &slong;erui&slong; &slong;ui&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.573"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.127"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4480,7 +4478,7 @@
                   <expan>m<ex>u</ex>lte</expan>
                </choice><pc>.</pc> &et; curauit eo&slong; ibi<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.574"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.128"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4506,7 +4504,7 @@
                   <expan>orar<ex>et</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.575"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.129"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4544,7 +4542,7 @@
                   <expan>et<ex>er</ex>na<ex>m</ex></expan>
                </choice><pc>&punctinter;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.576"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.130"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4579,7 +4577,7 @@
                   <expan>p<ex>re</ex>mii</expan>
                </choice><pc>&punctinter;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.576b"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.131"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -4620,7 +4618,7 @@
                   <expan>&slong;u<ex>am</ex></expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.577"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.132"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4633,13 +4631,13 @@
                   <abbr><am>&condes;</am>u<am>&erang;</am>&slong;u&slong;</abbr>
                   <expan><ex>con</ex>u<ex>er</ex>&slong;u&slong;</expan>
                </choice> ad <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>o&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>o&slong;</abbr>
                   <expan>di&slong;cip<ex>u</ex>lo&slong;</expan>
                </choice> &slong;uo&slong; <lb/><choice>
                   <abbr>aliqn<am>&combmacr;</am></abbr>
                   <expan>aliq<ex>ua</ex>n<ex>to</ex></expan>
                </choice> ait<pc>.</pc> Beati <choice>
-                  <abbr>ocl<am>&combtilde;</am>i</abbr>
+                  <abbr>ocl<am>&combmacr;</am>i</abbr>
                   <expan>oc<ex>u</ex>li</expan>
                </choice> qui <choice>
                   <abbr>uide<am>&combmacr;</am>t</abbr>
@@ -4697,7 +4695,7 @@
                   <expan>legi&slong;<ex>per</ex>it<ex>us</ex></expan>
                </choice> &slong;urrext<!--other mark/corruption--> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.578"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.133"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4744,7 +4742,7 @@
                   <expan>&slong;ua<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.579"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.134"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4806,7 +4804,7 @@
                   <expan>p<ex>ra</ex>n<pc>&dash;</pc><lb/>diu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.580"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.135"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4853,7 +4851,7 @@
                   <expan>&slong;u<ex>per</ex></expan>
                </choice> uo&slong;<pc>&punctinter;</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.580b"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.136"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4873,7 +4871,7 @@
                   <expan>p<ex>at</ex>ri</expan>
                </choice> medo da<pc>&dash;</pc><lb/>re uobi&slong; regnum<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.581"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.137"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4908,7 +4906,7 @@
                   <expan>u<ex>est</ex>ri&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.582"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.138"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4934,7 +4932,7 @@
                   <expan><ex>per</ex>cut<ex>er</ex>e</expan>
                </choice> puero&slong;<pc>.</pc> &et; ancilla&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.583"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.139"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -4981,7 +4979,7 @@
                   <expan>eo<ex>rum</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.584"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.140"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5010,7 +5008,7 @@
                   <expan>pla<ex>n</ex>tatam</expan>
                </choice> in ui<pc>&dash;</pc><lb/>nea &slong;ua<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.585"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.141"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5039,7 +5037,7 @@
                   <reg>herode&slong;</reg>
                </choice></name> uult te <lb/>occidere<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.586"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.142"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5071,7 +5069,7 @@
                   <expan>neq<ex>ue</ex></expan>
                </choice> <lb/>uicino&slong; diuite&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.587"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.143"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -5097,7 +5095,7 @@
                   <expan>ho<ex>min</ex>i</expan>
                </choice> regi<pc>.</pc> qui fe<pc>&dash;</pc><lb/>cit nuptia&slong; filio &slong;uo<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.588"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.144"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5126,7 +5124,7 @@
                   <expan>&slong;or<ex>ores</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.589"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.145"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5182,7 +5180,7 @@
                   <expan>il<ex>lis</ex></expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.590"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.146"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5198,7 +5196,7 @@
                   <abbr>adole&slong;ce<am>&combmacr;</am>tio&rrot;</abbr>
                   <expan>adole&slong;ce<ex>n</ex>tior</expan>
                </choice> ex <choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
+                  <abbr>ill<am>&combmacr;</am></abbr>
                   <expan>ill<ex>is</ex></expan>
                </choice> <choice>
                   <abbr>pr<am>&combmacr;</am>i</abbr>
@@ -5223,7 +5221,7 @@
                   <expan><ex>con</ex>ti<ex>n</ex>g<ex>it</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.591"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.147"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5273,7 +5271,7 @@
                   <expan>induebat<ex>ur</ex></expan>
                </choice> <lb/>purpura<pc>.</pc> &et; bi&slong;&slong;o<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.592"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.148"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5286,7 +5284,7 @@
                   <abbr>&Drot;ix<am>&erang;</am>u<am>&combmacr;</am>t</abbr>
                   <expan>Dix<ex>er</ex>>u<ex>n</ex>t</expan>
                </choice> <choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <expan>ap<ex>osto</ex>li</expan>
                </choice> <name type="person" ref="#bioJesus001"><choice>
                   <abbr>dn<am>&combmacr;</am>o</abbr>
@@ -5312,7 +5310,7 @@
                </choice> <choice>
                   <abbr>&slong;ic<am>&combmacr;</am></abbr>
                   <expan>&slong;ic<ex>ut</ex></expan>
-               </choice> <lb/><pb n="7r"/><choice>
+               </choice> <pb n="7r"/><lb/><choice>
                   <abbr>granu<am>&combmacr;</am></abbr>
                   <expan>granu<ex>m</ex></expan>
                </choice> &slong;&ydot;napi&slong;<pc>&punctelev;</pc> <lb/>diceti&slong; huic <choice>
@@ -5323,7 +5321,7 @@
                   <reg>moro</reg>
                </choice><pc>.</pc> eradicare<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.593"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.149"><pc>.</pc><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <name type="person" ref="#bioJohn003"><choice>
@@ -5352,7 +5350,7 @@
                   <reg>cenofeg&ydot;a</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.594"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.150"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5384,7 +5382,7 @@
                   <expan>te<ex>m</ex>plu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.594b"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.151"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5425,7 +5423,7 @@
                   <reg>Jesum</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.595"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.152"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5453,7 +5451,7 @@
                   <orig>oliueti</orig>
                   <reg>Oliueti</reg>
                </choice></name> &et; <choice>
-                  <abbr>dilucl<am>&combtilde;</am>o</abbr>
+                  <abbr>dilucl<am>&combmacr;</am>o</abbr>
                   <expan>diluc<ex>u</ex>lo</expan>
                </choice> uenit <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
@@ -5465,7 +5463,7 @@
                   <abbr>oi<am>&combmacr;</am>&slong;</abbr>
                   <expan>o<ex>mn</ex>i&slong;</expan>
                </choice> <choice>
-                  <abbr>ppl<am>&combtilde;</am>&slong;</abbr>
+                  <abbr>ppl<am>&combmacr;</am>&slong;</abbr>
                   <expan>p<ex>o</ex>p<ex>u</ex>l<ex>u</ex>&slong;</expan>
                </choice> ue<pc>&dash;</pc><lb/>niebat <choice>
                   <abbr>adeu<am>&combmacr;</am></abbr>
@@ -5483,8 +5481,8 @@
                   <orig>phari&slong;ei</orig>
                   <reg>Phari&slong;ei</reg>
                </choice></name> <choice>
-                  <abbr>mulie<pc>-</pc><lb/>re<am>&combmacr;</am></abbr>
-                  <expan>mulie<pc>-</pc><lb/>re<ex>m</ex></expan>
+                  <abbr>mulie<pc>&dash;</pc><lb/>re<am>&combmacr;</am></abbr>
+                  <expan>mulie<pc>&dash;</pc><lb/>re<ex>m</ex></expan>
                </choice> <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
@@ -5496,7 +5494,7 @@
                   <expan>dep<ex>re</ex>he<ex>n</ex>&slong;a<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.596"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.153"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5549,7 +5547,7 @@
                   <expan>vit<ex>ae</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.597"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.154"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5587,7 +5585,7 @@
                   <reg>moriemini</reg>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.598"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.155"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5622,7 +5620,7 @@
                   <expan>m<ex>ihi</ex></expan>
                </choice><pc>&punctinter;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.599"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.156"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5650,7 +5648,7 @@
                   <abbr>eu<am>&combmacr;</am></abbr>
                   <expan>eu<ex>m</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;cip<ex>u</ex>li</expan>
                </choice> <choice>
                   <abbr>ei<am>&usmod;</am></abbr>
@@ -5666,7 +5664,7 @@
                   <expan>na&slong;c<ex>er</ex>etur</expan>
                </choice><pc>&punctinter;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.600"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.157"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5707,7 +5705,7 @@
                   <expan>fia<ex>n</ex>t</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.601"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.158"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5754,7 +5752,7 @@
                   <expan>aliu<ex>n</ex>de</expan>
                </choice><pc>&punctelev;</pc> ille <lb/>fur e&slong;t &et; latro<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.602"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.159"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5792,7 +5790,7 @@
                   <expan>ovib<ex>us</ex></expan>
                </choice> &slong;ui&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.603"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.160"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -5827,7 +5825,7 @@
                   <expan>ea<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.604"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.161"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <choice>
@@ -5852,7 +5850,7 @@
                   <abbr>hie<am>&combmacr;</am>&slong;</abbr>
                   <expan>hie<ex>m</ex>&slong;</expan>
                </choice> erat<pc>.</pc> <lb/> &et; <choice>
-                  <abbr>a<am>&combmacr;</am>bl<am>&combtilde;</am>abat</abbr>
+                  <abbr>a<am>&combmacr;</am>bl<am>&combmacr;</am>abat</abbr>
                   <expan>a<ex>m</ex>b<ex>u</ex>labat</expan>
                </choice> <name type="person" ref="#bioJesus001"><choice>
                   <orig>ih<am>&combmacr;</am>&slong;</orig>
@@ -5874,7 +5872,7 @@
                   <reg>Salomi&slong;</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.604b"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.162"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -5896,10 +5894,10 @@
                   <abbr>a&slong;&slong;u<am>&combmacr;</am>p&slong;it</abbr>
                   <expan>a&slong;&slong;u<ex>m</ex>p&slong;it</expan>
                </choice> duodecim <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>o&slongsup;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>o&slongsup;</abbr>
                   <expan>di&slong;cip<ex>u</ex>lo&slong;</expan>
                </choice> <lb/>&slong;uo&slong; &slong;ecreto<pc>.</pc> &et; ait <choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
+                  <abbr>ill<am>&combmacr;</am></abbr>
                   <expan>ill<ex>is</ex></expan>
                </choice><pc>.</pc> <choice>
                   <orig>&eenl;cce</orig>
@@ -5939,7 +5937,7 @@
                   <reg>morte</reg>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.605"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.163"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5977,7 +5975,7 @@
                   <expan>m<ex>en</ex><pc>&dash;</pc><lb/>dica<ex>n</ex>&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.606"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.164"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -5990,7 +5988,7 @@
                   <abbr>i<am>&combmacr;</am>gre&slong;&slong;u&slong;</abbr>
                   <expan>i<ex>n</ex>gre&slong;&slong;u&slong;</expan>
                </choice> <choice>
-                  <abbr><am>&pbar;</am>a<am>&combmacr;</am>bl<am>&combtilde;</am>abat</abbr>
+                  <abbr><am>&pbar;</am>a<am>&combmacr;</am>bl<am>&combmacr;</am>abat</abbr>
                   <expan><ex>per</ex>a<ex>m</ex>b<ex>u</ex>labat</expan>
                </choice> <lb/><name type="place" ref="#locJericho001"><choice>
                   <orig>ier&ydot;cho</orig>
@@ -6003,7 +6001,7 @@
                   <reg>Zacheu&slong;</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.607"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.165"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -6013,7 +6011,7 @@
                   <orig>&cenl;<pc>.</pc>&lenl;&xenl;&ienl;&ienl;&ienl;&ienl;</orig>
                   <reg>c<pc>.</pc>xiiii</reg>
                </choice></num> Hec <lb/><choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
+                  <abbr>ill<am>&combmacr;</am></abbr>
                   <expan>ill<ex>is</ex></expan>
                </choice> <choice>
                   <abbr>audientib<am>&sem;</am></abbr>
@@ -6070,7 +6068,7 @@
                   <abbr>quida<am>&combmacr;</am></abbr>
                   <expan>quida<ex>m</ex></expan>
                </choice> <choice>
-                  <abbr>nobl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>nobl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>nob<ex>i</ex>li&slong;</expan>
                </choice> abi&combacute;i&combacute;t <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
@@ -6080,7 +6078,7 @@
                   <expan>regio<ex>n</ex>e<ex>m</ex></expan>
                </choice> <choice>
                   <abbr>lo<am>&combmacr;</am>gi<am>&combmacr;</am>&qslstrok;<am>&ra;</am></abbr>
-                  <expan>lo<ex>n</ex>gi<ex>nquam</expan>
+                  <expan>lo<ex>n</ex>gi<ex>n</ex>q<ex>uam</ex></expan>
                </choice> <choice>
                   <abbr>acci<am>&pbar;</am>e</abbr>
                   <expan>acci<ex>per</ex>e</expan>
@@ -6092,7 +6090,7 @@
                   <expan>reu<ex>er</ex><pc>&dash;</pc><lb/>ti</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.607"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.166"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -6133,7 +6131,7 @@
                   <expan>ei<ex>us</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.608"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.167"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -6177,7 +6175,7 @@
                   <expan>m<ex>u</ex>lta</expan>
                </choice> &slong;igna facit<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.609"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.168"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <lb/><name type="person" ref="#bioJohn003"><choice>
@@ -6200,11 +6198,11 @@
                   <reg>Bethanya<ex>m</ex></reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.610"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.169"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
-                  <orig>&mucn;atheu<am>&combmacr;</am></orig>
+                  <orig>&munc;atheu<am>&combmacr;</am></orig>
                   <reg>Matheu<am>&combmacr;</am></reg>
                </choice></name> <num value="168"><pc>.</pc><choice>
                   <orig>&cenl;<pc>.</pc>&lenl;&xenl;<pc>.</pc>&uenl;&ienl;&ienl;&ienl;</orig>
@@ -6235,7 +6233,7 @@
                   <reg>oliueti</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.611"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.170"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="bioLuke001"><choice>
@@ -6276,7 +6274,7 @@
                   <expan>q<ex>uia</ex></expan>
                </choice> &slong;i cognoui&slong;&slong;e&slong;<pc>&punctelev;</pc> &et; tu<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.612"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.171"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -6317,7 +6315,7 @@
                   <expan>&slong;olu<ex>m</ex></expan>
                </choice> manet<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.613"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.172"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -6357,7 +6355,7 @@
                   <abbr><am>&pflour;</am>ph<am>&combmacr;</am>e</abbr>
                   <expan><ex>pro</ex>ph<ex>et</ex>e</expan>
                </choice> <choice>
-                  <abbr>i<am>&combmacr;</am>pl<am>&combtilde;</am>etur</abbr>
+                  <abbr>i<am>&combmacr;</am>pl<am>&combmacr;</am>etur</abbr>
                   <expan>i<ex>m</ex>pl<ex>er</ex>etur</expan>
                </choice> <choice>
                   <abbr>q<am>&combmacr;</am></abbr>
@@ -6376,7 +6374,7 @@
                   <expan>n<ex>ost</ex>ro</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.614"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.173"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -6438,7 +6436,7 @@
                   <expan>q<ex>ui</ex></expan>
                </choice> mi&slong;itit me<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.615"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.174"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6476,9 +6474,9 @@
                   <expan>e<ex>st</ex></expan>
                </choice> <lb/>hic<pc>&punctinter;</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.616"><gap quantity="6" unit="lines" reason="inked-out"/>
+            <l xml:lang="lat" xml:id="junius1.texts.175"><gap quantity="6" unit="lines" reason="inked-out"/>
             </l>
-            <l xml:lang="lat" xml:id="junius1.615"><pb n="7v"/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.176"><pb n="7v"/><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6525,7 +6523,7 @@
                   <expan>tantu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.616"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.177"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -6544,10 +6542,10 @@
                   <abbr>dieru<am>&combmacr;</am></abbr>
                   <expan>dieru<ex>m</ex></expan>
                </choice> <lb/>docente illo <choice>
-                  <abbr>ppl<am>&combtilde;</am>m</abbr>
+                  <abbr>ppl<am>&combmacr;</am>m</abbr>
                   <expan>p<ex>o</ex>p<ex>u</ex>l<ex>u</ex>m</expan>
                </choice> &et; <choice>
-                  <abbr>euua<am>&combmacr;</am>gl<am>&combtilde;</am>iza<am>&combmacr;</am>te</abbr>
+                  <abbr>euua<am>&combmacr;</am>gl<am>&combmacr;</am>iza<am>&combmacr;</am>te</abbr>
                   <expan>euua<ex>n</ex>g<ex>e</ex>liza<ex>n</ex>te</expan>
                </choice><pc>.</pc> <choice>
                   <abbr><am>&condes;</am>ue<am>&erang;</am>u<am>&combmacr;</am>t</abbr>
@@ -6575,7 +6573,7 @@
                   <reg>Dic</reg>
                </choice> nobi&slong; in qua pote&slong;tate hec faci&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.617"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.178"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -6613,7 +6611,7 @@
                   <expan>i<ex>n</ex></expan>
                </choice> uinea <lb/>mea<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.618"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.179"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6639,7 +6637,7 @@
                   <expan>circ<ex>um</ex>dedit</expan>
                </choice> ei<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.619"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.180"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -6676,7 +6674,7 @@
                   <abbr>mittu<am>&combmacr;</am>t</abbr>
                   <expan>mittu<ex>n</ex>t</expan>
                </choice> ei <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>o&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>o&slong;</abbr>
                   <expan>di&slong;cip<ex>u</ex>lo&slong;</expan>
                </choice> &slong;uo&slong; <choice>
                   <abbr>c<am>&combmacr;</am></abbr>
@@ -6686,11 +6684,11 @@
                   <reg>Herodiani&slong;</reg>
                </choice></name> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.620"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.181"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
-                  <orig>&mucn;ath<am>&combmacr;</am>m</orig>
+                  <orig>&munc;ath<am>&combmacr;</am>m</orig>
                   <reg>Math<ex>eu</ex>m</reg>
                </choice></name> <num value="179"><pc>.</pc><choice>
                   <orig>&cenl;<pc>.</pc>&lenl;&xenl;&xenl;&uenl;&ienl;&ienl;&ienl;&ienl;</orig>
@@ -6718,7 +6716,7 @@
                   <expan>re&slong;urrectio<ex>n</ex>e<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.620"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.182"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6759,7 +6757,7 @@
                   <expan>unu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.621"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.183"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMark001"><choice>
@@ -6788,14 +6786,14 @@
                   <expan>gazofilatiu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.622"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.184"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
                   <orig>&munc;ath<am>&combmacr;</am></orig>
                   <reg>Math<ex>eum</ex></reg>
                </choice></name> <num value="182"><pc>.</pc><choice>
-                  <orig>&cenl;<pc>.</pc>&lenl;&xenl;&xenl;&xnel;&ienl;&ienl;</orig>
+                  <orig>&cenl;<pc>.</pc>&lenl;&xenl;&xenl;&xenl;&ienl;&ienl;</orig>
                   <reg>c<pc>.</pc>lxxxii</reg>
                </choice></num> <choice>
                   <abbr>Tc<am>&combmacr;</am></abbr>
@@ -6807,7 +6805,7 @@
                   <orig>ih<am>&combmacr;</am>&slong;</orig>
                   <reg>Jesus</reg>
                </choice></name> ad turba&slong;<pc>.</pc>&et; ad <lb/><choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>o&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>o&slong;</abbr>
                   <expan>di&slong;cip<ex>u</ex>lo&slong;</expan>
                </choice> &slong;uo&slong; <choice>
                   <abbr>dice<am>&combmacr;</am>&slong;</abbr>
@@ -6829,7 +6827,7 @@
                   <reg>Phar&ydot;&slong;ei</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.623"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.185"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6858,7 +6856,7 @@
                   <expan>ho<ex>m</ex>i<ex>n</ex>e&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.624"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.186"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -6896,7 +6894,7 @@
                   <expan>fide<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.625"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.187"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6913,7 +6911,7 @@
                   <expan>q<ex>uia</ex></expan>
                </choice> &slong;imile&slong; <lb/>e&slong;ti&slong; &slong;epulcri&slong; dealbati&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.626"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.188"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6953,7 +6951,7 @@
                   <abbr>eu<am>&combmacr;</am></abbr>
                   <expan>eu<ex>m</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;cip<ex>u</ex>li</expan>
                </choice> <choice>
                   <abbr>ei<am>&usmod;</am></abbr>
@@ -6969,7 +6967,7 @@
                   <expan>te<ex>m</ex>pli</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.627"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.189"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -6982,7 +6980,7 @@
                   <abbr>p<am>&erang;</am>dica<pc>&dash;</pc><lb/>br<am>&combmacr;</am></abbr>
                   <expan>p<ex>re</ex>dica<pc>&dash;</pc><lb/>b<ex>itu</ex>r</expan>
                </choice> hoc <choice>
-                  <abbr>euua<am>&combmacr;</am>gl<am>&combtilde;</am>iu<am>&combmacr;</am></abbr>
+                  <abbr>euua<am>&combmacr;</am>gl<am>&combmacr;</am>iu<am>&combmacr;</am></abbr>
                   <expan>euua<ex>n</ex>g<ex>e</ex>liu<ex>m</ex></expan>
                </choice> regni <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
@@ -7007,7 +7005,7 @@
                   <expan><ex>con</ex>&slong;u<ex>m</ex>matio</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.628"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.190"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -7054,7 +7052,7 @@
                   <expan>cu<ex>m</ex></expan>
                </choice> ob&slong;eruatione<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.629"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.191"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -7071,7 +7069,7 @@
                   <expan>i<ex>n</ex></expan>
                </choice> &slong;ole &et; luna<pc>.</pc> <lb/>&et; &slong;telli&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.630"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.192"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMark001"><choice>
@@ -7087,7 +7085,7 @@
                   <orig>&nenl;e&slong;citi&slong;</orig>
                   <reg>ne&slong;citi&slong;</reg>
                </choice> <choice>
-                  <abbr><!--enim abbreviation--></abbr>
+                  <abbr>&librafren;</abbr>
                   <expan>enim</expan>
                </choice> <choice>
                   <abbr>qn<am>&combmacr;</am></abbr>
@@ -7097,7 +7095,7 @@
                   <expan>t<ex>em</ex>p<ex>u</ex>&slong;</expan>
                </choice> &slong;it<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.631"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.193"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -7122,7 +7120,7 @@
                   <abbr>ue<am>&combmacr;</am>tur<am>&usmod;</am></abbr>
                   <expan>ue<ex>n</ex>tur<ex>us</ex></expan>
                </choice> <lb/>&slong;it<pc>.</pc> <choice>
-                  <abbr>ill<am>&combtilde;</am>d</abbr>
+                  <abbr>ill<am>&combmacr;</am>d</abbr>
                   <expan>ill<ex>u</ex>d</expan>
                </choice> <choice>
                   <abbr>a<am>&combtildevert;</am></abbr>
@@ -7138,7 +7136,7 @@
                   <expan>p<ex>ate</ex>rfamili<pc>&dash;</pc><lb/>a&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.632"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.194"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -7200,7 +7198,7 @@
                   <expan>q<ex>ui</ex>da<ex>m</ex></expan>
                </choice> ci<pc>&dash;</pc><lb/>uitate<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.632"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.195"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -7247,8 +7245,7 @@
                   <expan>te<ex>m</ex>plu<ex>m</ex></expan>
                </choice> ut o<pc>&dash;</pc><lb/>rarent<pc>.</pc> 
             </l>
-            <pb n="8r"/>
-            <l xml:lang="lat" xml:id="junius1.632"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.196"><pb n="8r"/><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -7269,7 +7266,7 @@
                </choice> <choice>
                   <abbr><am>&pflour;</am>fici&slong;<pc>&dash;</pc><lb/>cen&slong;</abbr>
                   <expan><ex>pro</ex>fici&slong;<pc>&dash;</pc><lb/>cen&slong;</expan>
-               </choice><pc>&puntelev;</pc> uocauit &slong;eruo&slong; <choice>
+               </choice><pc>&punctelev;</pc> uocauit &slong;eruo&slong; <choice>
                   <orig>&slong;uo&ssup;</orig>
                   <reg>&slong;uos</reg>
                </choice><pc>.</pc> <lb/>&et; tradidit illi&slong; bona &slong;ua<pc>.</pc> <lb/>&et; uni dedit <choice>
@@ -7277,7 +7274,7 @@
                   <expan>qui<ex>n</ex>q<ex>ue</ex></expan>
                </choice> talenta<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.633"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.197"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -7302,7 +7299,7 @@
                   <abbr>o<am>&combmacr;</am>&slong;</abbr>
                   <expan>o<ex>mne</ex>&slong;</expan>
                </choice> <choice>
-                  <abbr>a<am>&combmacr;</am>gl<am>&combtilde;</am>i</abbr>
+                  <abbr>a<am>&combmacr;</am>gl<am>&combmacr;</am>i</abbr>
                   <expan>a<ex>n</ex>g<ex>e</ex>li</expan>
                </choice> <choice>
                   <abbr>cu<am>&combmacr;</am></abbr>
@@ -7342,7 +7339,7 @@
                   <reg>pa&slong;tor</reg>
                </choice> <lb/>&slong;egregat oue&slong; ab hedi&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.634"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.198"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -7400,7 +7397,7 @@
                   <abbr>o<am>&combmacr;</am>i&slong;</abbr>
                   <expan>o<ex>mn</ex>i&slong;</expan>
                </choice> <choice>
-                  <abbr>pl<am>&combtilde;</am>&slong;</abbr>
+                  <abbr>pl<am>&combmacr;</am>&slong;</abbr>
                   <expan>p<ex>popu</ex>l<ex>u</ex>&slong;</expan>
                </choice> <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
@@ -7413,7 +7410,7 @@
                   <expan>eu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.635"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.199"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
@@ -7450,7 +7447,7 @@
                   <abbr>dix<am>&combmacr;</am></abbr>
                   <expan>dix<ex>it</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;<lb/>cipl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;<lb/>cipl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;<lb/>cip<ex>u</ex>li&slong;</expan>
                </choice> &slong;ui&slong;<pc>.</pc> Sciti&slong; <choice>
                   <abbr>q<am>&rrot;</am></abbr>
@@ -7475,7 +7472,7 @@
                   <expan>t<ex>ra</ex>detur</expan>
                </choice> ut crucifigatur<pc>&punctelev;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.636"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.200"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -7528,7 +7525,7 @@
                   <expan>i<ex>n</ex>t<ex>er</ex>fic<ex>er</ex>e<ex>n</ex>t</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.636"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.201"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001"><choice>
@@ -7552,7 +7549,7 @@
                </choice> nece&slong;&slong;e erat occidi <name type="holiday" ref="#holPascha001"><choice>
                   <orig>pa&slong;cha</orig>
                   <reg>Pa&slong;cha</reg>
-               </choice></name><pc>.</pc> <lb/><cb n="1"/><choice>
+               </choice></name><pc>.</pc> <cb n="1"/><lb/><choice>
                   <orig>&Drot;e</orig>
                   <reg>De</reg>
                </choice> agno pa&slong;chali<lb/><choice>
@@ -7566,7 +7563,7 @@
                   <reg>Omel&ydot;a</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.637"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.202"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001">
@@ -7585,7 +7582,7 @@
                   <abbr>ee<am>&combmacr;</am>t</abbr>
                   <expan>e<ex>ss</ex>et</expan>
                </choice> ho<pc>&dash;</pc><lb/>ra<pc>&punctelev;</pc> di&slong;cubuit<pc>.</pc>&et; <num value="12">xii<pc>.</pc></num><!--some mark--> <lb/><choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <expan>ap<ex>osto</ex>li</expan>
                </choice> <choice>
                   <abbr>c<am>&combmacr;</am></abbr>
@@ -7610,7 +7607,7 @@
                   <expan>uobi&slong;cu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.638"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.203"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <pc>.</pc><name type="person" ref="#bioLuke001"><choice>
@@ -7648,7 +7645,7 @@
                   <reg>maior</reg>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.639"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.204"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -7698,7 +7695,7 @@
                   <expan>dilex<ex>it</ex></expan>
                </choice> eo&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.640"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.205"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -7726,14 +7723,14 @@
                   <abbr>neq<am>&sem;</am></abbr>
                   <expan>neq<ex>ue</ex></expan>
                </choice> <choice>
-                  <abbr>apl<am>&combtilde;</am>&slong;</abbr>
+                  <abbr>apl<am>&combmacr;</am>&slong;</abbr>
                   <expan>ap<ex>osto</ex>l<ex>u</ex>&slong;</expan>
                </choice> <choice>
                   <orig>ma<pc>&dash;</pc><lb/>io&rrot;</orig>
                   <reg>ma<pc>&dash;</pc><lb/>ior</reg>
                </choice> eo qui mi&slong;it illum<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.641"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.206"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -7765,7 +7762,7 @@
                   <expan>uen<ex>ire</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.642"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.207"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -7791,7 +7788,7 @@
                   <expan>i<ex>n</ex></expan>
                </choice> me credi<pc>&dash;</pc><lb/>te<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.643"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.208"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -7817,8 +7814,7 @@
                   <expan>uob<ex>is</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <cb n="2"/>
-            <l xml:lang="lat" xml:id="junius1.643"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.209"><cb n="2"/><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -7853,7 +7849,7 @@
                   <expan>ueniem<ex>us</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.644"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.210"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -7906,7 +7902,7 @@
                   <expan>eu<ex>m</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.645"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.211"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -7944,7 +7940,7 @@
                   <expan>uob<ex>is</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.646"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.212"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -7973,7 +7969,7 @@
                   <expan>&slong;ic<ex>ut</ex></expan>
                </choice> dilexi uo&slong;<pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.647"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.213"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8002,9 +7998,8 @@
                   <expan>uob<ex>is</ex></expan>
                </choice> odio <lb/>habuit<pc>.</pc> 
             </l>
-            <pb "8v"/>
-            <l xml:lang="lat" xml:id="junius1.648"><lb/>
-            <choice>
+            <l xml:lang="lat" xml:id="junius1.texts.214"><pb n="8v"/><lb/>
+               <choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8033,7 +8028,7 @@
                   <expan>u<ex>er</ex>ita<pc>&dash;</pc><lb/>ti&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.649"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.215"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8080,7 +8075,7 @@
                   <expan>q<ex>uomodo</ex></expan>
                </choice> uadi&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.650"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.216"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8100,7 +8095,7 @@
                   <expan>n<ex>on</ex></expan>
                </choice> ui<pc>&dash;</pc><lb/>debiti&slong; me<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.651"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.217"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8147,7 +8142,7 @@
                   <expan>no<ex>m</ex>i<ex>n</ex>e</expan>
                </choice> medo<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.652"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.218"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8166,7 +8161,7 @@
                   <orig>ih<am>&combmacr;</am>&slong;</orig>
                   <reg>Jesus</reg>
                </choice></name><pc>.</pc> &et; &slong;ubleuati&slong; <choice>
-                  <abbr>ocl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>ocl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>oc<ex>u</ex>li&slong;</expan>
                </choice> <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
@@ -8195,7 +8190,7 @@
                   <expan>fili<ex>us</ex></expan>
                </choice> tuu&slong; clarificet te<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.653"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.219"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8204,7 +8199,7 @@
                </choice></name> <num value="219"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&uenl;&ienl;&ienl;&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xviiii</reg>
-               </choice></num> <name type="person" ref="#bioGod001"<choice>
+               </choice></num> <name type="person" ref="#bioGod001"><choice>
                   <abbr>Pr<am>&combmacr;</am></abbr>
                   <expan>P<ex>ate</ex>r</expan>
                </choice></name> <choice>
@@ -8221,7 +8216,7 @@
                   <expan>unu<ex>m</ex></expan>
                </choice> <lb/> sicut &et; no&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.654"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.220"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8240,11 +8235,11 @@
                   <abbr>c<am>&combmacr;</am></abbr>
                   <expan>c<ex>um</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;cip<ex>u</ex>li&slong;</expan>
                </choice> &slong;ui&slong;<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.655"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.221"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person"><choice>
@@ -8273,7 +8268,7 @@
                   <reg>ie&slong;um</reg>
                </choice></name><pc>&bidotcomposit;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.656"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.222"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8293,13 +8288,13 @@
                   <expan>plora<ex>n</ex>&slong;</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.657"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.223"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioMatthew001"><choice>
                   <orig>&munc;atheu<am>&combmacr;</am></orig>
                   <reg>Matheu<am>&combmacr;</am></reg>
-               </choice></name> <num value="223"><pc>.</pc>choice>
+               </choice></name> <num value="223"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&isup;&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xxiii</reg>
                </choice><pc>.</pc></num> <lb/><choice>
@@ -8321,7 +8316,7 @@
                   <abbr>nu<am>&combmacr;</am>tiare</abbr>
                   <expan>nu<ex>n</ex>tiare</expan>
                </choice> <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i&slong;</abbr>
                   <reg>di&slong;cip<ex>u</ex>li&slong;</reg>
                </choice> <lb/><choice>
                   <abbr>ei<am>&usmod;</am></abbr>
@@ -8337,8 +8332,7 @@
                   <reg>Avete</reg>
                </choice><pc>.</pc> 
             </l>
-            <cb n="1"/>
-            <l xml:lang="lat" xml:id="junius1.657"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.224"><cb n="1"/><lb/><choice>
                   <abbr>S<am>&combtildevert;</am><pc>.</pc></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice> <name type="person" ref="#bioMatthew001"><choice>
@@ -8392,7 +8386,7 @@
                   <expan>f<ex>a</ex>c<ex>t</ex>a</expan>
                </choice> fu<pc>&dash;</pc><lb/>erant<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.658"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.225"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioLuke001">
@@ -8405,7 +8399,7 @@
                   <orig>&eenl;cce</orig>
                   <reg>Ecce</reg>
                </choice> duo <lb/>ex <choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>i&slong;</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>i&slong;</abbr>
                   <expan>di&slong;cip<ex>u</ex>li&slong;</expan>
                </choice> <name type="person" ref="#bioJesus001"><choice>
                   <orig>ie&slong;u</orig>
@@ -8418,7 +8412,7 @@
                   <expan>i<ex>n</ex></expan>
                </choice> ca&slong;tellum<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.659"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.226"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8435,7 +8429,7 @@
                   <expan>&slong;abb<ex>a</ex>to<ex>rum</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.670"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.227"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8458,7 +8452,7 @@
                   <reg>Tyberiadi&slong;</reg>
                </choice></name></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.671"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.228"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8496,7 +8490,7 @@
                   <expan>pl<ex>us</ex></expan>
                </choice> hi&slong;<pc>&punctinter;</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.672"><lb/><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.229"><lb/><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <name type="person" ref="#bioJohn003"><choice>
@@ -8527,17 +8521,17 @@
                   <abbr>illu<am>&combmacr;</am></abbr>
                   <expan>illu<ex>m</ex></expan>
                </choice> <lb/><choice>
-                  <abbr>di&slong;cipl<am>&combtilde;</am>m</abbr>
+                  <abbr>di&slong;cipl<am>&combmacr;</am>m</abbr>
                   <expan>di&slong;cip<ex>u</ex>lum</expan>
                </choice> <choice>
                   <abbr>&slong;e<am>&qslstrok;</am><am>&combmacr;</am>te<am>&combmacr;</am></abbr>
-                  <expan>&slong;e<ex>quen</ex>te<ex.M</expan>
+                  <expan>&slong;e<ex>quen</ex>te<ex>m</ex></expan>
                </choice> <choice>
                   <abbr><am>&et;</am>c<am>&combtildevert;</am></abbr>
                   <expan><ex>et</ex> c<ex>etera</ex></expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.673"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.230"><choice>
                   <abbr>S<am>&combtildevert;</am></abbr>
                   <expan>S<ex>ecundum</ex></expan>
                </choice><pc>.</pc> <choice>
@@ -8556,8 +8550,8 @@
                   <abbr>recu<pc>&dash;</pc><lb/>bentib<am>&sem;</am></abbr>
                   <reg>recu<pc>&dash;</pc><lb/>bentib<ex>us</ex></reg>
                </choice> <choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
-                  <exan>ill<ex>ud</ex></exan>
+                  <abbr>ill<am>&combmacr;</am></abbr>
+                  <expan>ill<ex>ud</ex></expan>
                </choice> <choice>
                   <abbr>undeci<am>&combmacr;</am></abbr>
                   <expan>undeci<ex>m</ex></expan>
@@ -8586,7 +8580,7 @@
                   <abbr>actib<am>&sem;</am></abbr>
                   <reg>actib<ex>us</ex></reg>
                </choice> <choice>
-                  <abbr>apl<am>&combtilde;</am>o<am>&rum;</am></abbr>
+                  <abbr>apl<am>&combmacr;</am>o<am>&rum;</am></abbr>
                   <expan>ap<ex>osto</ex>lo<ex>rum</ex></expan>
                </choice><pc>.</pc> <lb/><num value="231"><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>xxxi</orig>
@@ -8594,7 +8588,7 @@
                   <abbr>Q<am>&osup;</am>m<am>&osup;</am></abbr>
                   <expan>Q<ex>uo</ex>m<ex>odo</ex></expan>
                </choice> <choice>
-                  <abbr>di&slong;<pc>&dash;</pc><lb/>cipl<am>&combtilde;</am>i</abbr>
+                  <abbr>di&slong;<pc>&dash;</pc><lb/>cipl<am>&combmacr;</am>i</abbr>
                   <expan>di&slong;<pc>&dash;</pc><lb/>cip<ex>u</ex>li</expan>
                </choice> <name type="person" ref="#bioJesus001"><choice>
                   <orig>ie&slong;u</orig>
@@ -8618,7 +8612,7 @@
                   <orig>ieru&slong;ale<am>&combmacr;</am></orig>
                   <reg>Jeru&slong;ale<ex>m</ex></reg>
                </choice></name> mox <choice>
-                  <abbr>p<am>&osup;</am><am>&qslstrok;</am><am>&usup;</am></abbr>
+                  <abbr>p<am>&osup;</am><am>&qslstrok;</am><am>&ra;</am></abbr>
                   <reg>p<ex>ostquam</ex></reg>
                </choice> <lb/><name type="person" ref="#bioGod001"><choice>
                   <abbr>dn<am>&combmacr;</am>&slong;</abbr>
@@ -8631,10 +8625,10 @@
                   <expan>celu<ex>m</ex></expan>
                </choice><pc>.</pc>
             </l>
-            <l xml:lang="lat" xml:id="junius1.674"><num value="232"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.231"><num value="232"><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xxxii</reg>
-               </choice><pc>.</pc></num> <lb/><cb n="2"/><choice>
+               </choice><pc>.</pc></num> <cb n="2"/><lb/><choice>
                   <abbr>Q<am>&osup;</am>m<am>&osup;</am></abbr>
                   <reg>Q<ex>uo</ex>m<ex>odo</ex></reg>
                </choice> <name type="person" ref="#bioHolyGhost001"><choice>
@@ -8647,14 +8641,14 @@
                   <abbr>&slong;r<am>&combmacr;</am></abbr>
                   <expan>&slong;<ex>upe</ex>r</expan>
                </choice> <choice>
-                  <abbr>apl<am>&combtilde;</am>o&slong;</abbr>
+                  <abbr>apl<am>&combmacr;</am>o&slong;</abbr>
                   <expan>ap<ex>osto</ex>lo&slong;</expan>
                </choice> in <choice>
                   <abbr>li<am>&combmacr;</am>gui&slong;</abbr>
                   <expan>li<ex>n</ex>gui&slong;</expan>
                </choice> <lb/>ignei&slong; 
             </l>
-            <l xml:lang="lat" xml:id="junius1.674"><num value="233"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.232"><num value="233"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;&ienl;&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xxxiii</reg>
                </choice><pc>.</pc></num> <lb/><choice>
@@ -8688,7 +8682,7 @@
                   <expan>claudu<ex>m</ex></expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.675"><num value="234"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.233"><num value="234"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;&ienl;&ienl;&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xxxiiii</reg>
                </choice><pc>.</pc></num> <lb/><choice>
@@ -8716,11 +8710,11 @@
                   <abbr>fraude<am>&combmacr;</am></abbr>
                   <expan>fraude<ex>m</ex></expan>
                </choice> <lb/>pecunie &slong;ue <choice>
-                  <abbr>&qslstrok;&usup;</abbr>
+                  <abbr>&qslstrok;&ra;</abbr>
                   <reg>quam</reg>
                </choice> <choice>
-                  <abbr>fe<pc>-</pc><lb/>cert<am>&combmacr;</am></abbr>
-                  <expan>fe<pc>-</pc><lb/>cer<ex>un</ex>t</expan>
+                  <abbr>fe<pc>&dash;</pc><lb/>cert<am>&combmacr;</am></abbr>
+                  <expan>fe<pc>&dash;</pc><lb/>cer<ex>un</ex>t</expan>
                </choice> <choice>
                   <abbr>n<am>&combmacr;</am></abbr>
                   <expan>n<ex>on</ex></expan>
@@ -8735,22 +8729,22 @@
                   <reg>Deo</reg>
                </choice></name><pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.676"><lb/><num value="235"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.234"><lb/><num value="235"><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;&uenl;</orig>
                   <reg>cc<pc>.</pc>xxxv</reg>
                </choice><pc>.</pc></num> <choice>
                   <abbr>Q<am>&osup;</am>m<am>&osup;</am></abbr>
                   <reg>Q<ex>uo</ex>m<ex>odo</ex></reg>
                </choice> <lb/><choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <expan>ap<ex>osto</ex>li</expan>
                </choice> <choice>
                   <abbr>&pbar;</abbr>
                   <reg>per</reg>
                </choice> <choice>
-                  <abbr>a<am>&combmacr;</am>gl<am>&combtilde;</am>m</abbr>
+                  <abbr>a<am>&combmacr;</am>gl<am>&combmacr;</am>m</abbr>
                   <expan>a<ex>n</ex>g<ex>e</ex>l<ex>u</ex>m</expan>
-               </choice></name> educ<pc>&dash;</pc><lb/>ti <choice>
+               </choice> educ<pc>&dash;</pc><lb/>ti <choice>
                   <abbr>&slong;t<am>&combmacr;</am></abbr>
                   <expan>&slong;<ex>un</ex>t</expan>
                </choice> de <choice>
@@ -8764,14 +8758,14 @@
                   <expan>i<ex>n</ex></expan>
                </choice> templo<pc>.</pc> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.677"><lb/><num value="236"><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.235"><lb/><num value="236"><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;&uenl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xxxvi</reg>
                </choice><pc>.</pc></num> <lb/><choice>
                   <abbr>Q<am>&osup;</am>m<am>&osup;</am></abbr>
                   <reg>Q<ex>uo</ex>m<ex>odo</ex></reg>
                </choice> <choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <expan>ap<ex>osto</ex>li</expan>
                </choice> or <lb/><choice>
                   <abbr>dinau<am>&erang;</am>u<am>&combmacr;</am>t</abbr>
@@ -8791,9 +8785,9 @@
                </choice> <name type="person" ref="#bioStephen001"><choice>
                   <orig>&slong;tepha<lb/>n<am>&usmod;</am></orig>
                   <reg>Stepha<lb/>n<ex>us</ex></reg>
-               </name></choice> 
+               </choice></name> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.678"><num value="237"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.236" part="I"><num value="237"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;&uenl;&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xxxvii</reg>
                </choice><pc>.</pc></num> <lb/><choice>
@@ -8802,7 +8796,7 @@
                </choice> <name type="place" ref="#locSamaria001"><choice>
                   <orig>&slong;amarita<pc>&dash;</pc><lb/>ni</orig>
                   <reg>Samaria<pc>&dash;</pc><lb/>ni</reg>
-               </name></choice> <choice>
+               </choice></name> <choice>
                   <abbr>&slong;u&slong;ce<am>&pbar;</am>u<am>&combmacr;</am>t</abbr>
                   <expan>&slong;u&slong;ce<ex>per</ex>u<ex>n</ex>t</expan>
                </choice> <choice>
@@ -8830,13 +8824,13 @@
                   <abbr>aconib<am>&sem;</am></abbr>
                   <reg>aconib<ex>us</ex></reg>
                </choice> quo&slong; <lb/><choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <reg>ap<ex>osto</ex>li</reg>
                </choice> <choice>
                   <abbr>ordi<am>&combmacr;</am>au<am>&erang;</am>a<am>&combmacr;</am>t</abbr>
                   <expan>ordi<ex>n</ex>au<ex>er</ex>a<ex>n</ex>t</expan>
                </choice> In primiti<pc>&dash;</pc><lb/>ua <choice>
-                  <abbr>eccl<am>&combtilde;</am>ia</abbr>
+                  <abbr>eccl<am>&combmacr;</am>ia</abbr>
                   <expan>Eccl<ex>es</ex>ia</expan>
                </choice><pc>.</pc> &et; <choice>
                   <abbr>q<am>&osup;</am>m<am>&osup;</am></abbr>
@@ -8865,13 +8859,14 @@
                </choice></name> &et; <name type="person" ref="#bioJohn001"><choice>
                   <orig>ioh<am>&combmacr;</am>i&slong;</orig>
                   <reg>Joh<ex>ann</ex>i&slong;</reg>
-               </choice></name><pc>.</pc> <lb/>
+               </choice></name><pc>.</pc>
+            </l>
                
                <!--signe de renvoi-->
-               <addSpan place="f.9v" n="5 lines" spanTo="#9v"/>
-               <!--signe de renvoit-->
+               <addSpan place="inline" n="5 lines" spanTo="#end_9v"/>
+               <!--signe de renvoi-->
                
-               <pb n="f.9v"/>&et; <choice>
+            <l part="F"><pb n="f.9v"/><lb/>&et; <choice>
                   <abbr>q<am>&osup;</am>m<am>&osup;</am></abbr>
                   <expan>q<ex>uo</ex>m<ex>odo</ex></expan>
                </choice> <name type="person" ref="#bioSimon002"><choice>
@@ -8915,7 +8910,7 @@
                   <expan>Sp<ex>iritus</ex></expan>
                </choice></name> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.679"><num value="238"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.237"><num value="238"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;<pc>.</pc>&uenl;&ienl;&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xxx<pc>.</pc>viii</reg>
                </choice><pc>.</pc></num> <lb/><choice>
@@ -8923,12 +8918,12 @@
                   <reg>De</reg>
                </choice> <choice>
                   <abbr><am>&condes;</am><am>&erang;</am>u&slong;io<am>&combmacr;</am>e</abbr>
-                  <expan>&condes;</am>u<ex>er</ex>&slong;io<ex>n</ex>e</expan>
+                  <expan><ex>con</ex>u<ex>er</ex>&slong;io<ex>n</ex>e</expan>
                </choice> beati <name type="person" ref="#bioPaul001"><choice>
                   <orig>pauli</orig>
                   <reg>Pauli</reg>
                </choice></name> <choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <expan>ap<ex>osto</ex>li</expan>
                </choice><pc>.</pc> &et; <choice>
                   <abbr>q<am>&osup;</am>m<am>&osup;</am></abbr>
@@ -8937,8 +8932,8 @@
                   <abbr>p<am>&erang;</am>dicabat</abbr>
                   <expan>p<ex>re</ex>dicabat</expan>
                </choice> <name type="place" ref="#locJudea001">
-                  <orig>iu<pc>-</pc><lb/>dei&slong;</orig>
-                  <reg>Ju<pc>-</pc><lb/>dei&slong;</reg>
+                  <orig>iu<pc>&dash;</pc><lb/>dei&slong;</orig>
+                  <reg>Ju<pc>&dash;</pc><lb/>dei&slong;</reg>
                </name> <choice>
                   <abbr>q<am>&rrot;</am></abbr>
                   <expan>q<ex>uia</ex></expan>
@@ -8982,7 +8977,7 @@
                   <abbr>uid<am>&erang;</am>e</abbr>
                   <expan>uid<ex>er</ex>e</expan>
                </choice> <lb/> <choice>
-                  <abbr>apl<am>&combtilde;</am>o&slong;</abbr>
+                  <abbr>apl<am>&combmacr;</am>o&slong;</abbr>
                   <expan>ap<ex>osto</ex>lo&slong;</expan>
                </choice><pc>.</pc> &et; ibi di&slong;putauit <choice>
                   <abbr>c<am>&combmacr;</am></abbr>
@@ -9009,7 +9004,7 @@
                   <abbr>q<am>&rrot;</am></abbr>
                   <expan>q<ex>uia</ex></expan>
                </choice> <lb/><choice>
-                  <abbr>apl<am>&combtilde;</am>i</abbr>
+                  <abbr>apl<am>&combmacr;</am>i</abbr>
                   <expan>ap<ex>osto</ex>li</expan>
                </choice> <choice>
                   <abbr>dux<am>&erang;</am>u<am>&combmacr;</am>t</abbr>
@@ -9030,19 +9025,19 @@
                   <abbr>dieb<am>&sem;</am></abbr>
                   <expan>dieb<ex>us</ex></expan>
                </choice> <choice>
-                  <abbr>ill<am>&combtilde;</am></abbr>
+                  <abbr>ill<am>&combmacr;</am></abbr>
                   <expan>ill<ex>ud</ex></expan>
                </choice> erat pax <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
                </choice> <choice>
-                  <abbr>eccl<am>&combtilde;</am>ia</abbr>
+                  <abbr>eccl<am>&combmacr;</am>ia</abbr>
                   <expan>eccl<ex>es</ex>ia</expan>
                </choice><pc>.</pc> In <choice>
                   <abbr>t<am>&erang;</am>ra</abbr>
                   <expan>t<ex>er</ex>ra</expan>
                </choice> <name type="place" ref="#locJerusalem001"><choice>
-                  <orig>ierl<am>&combtilde;</am>m</orig>
+                  <orig>ierl<am>&combmacr;</am>m</orig>
                   <reg>Jer<ex>usa</ex>l<ex>e</ex>m</reg>
                </choice></name><pc>.</pc> &et; in <lb/><name type="place" ref="#locGalilee001"><choice>
                   <orig>galilea</orig>
@@ -9054,7 +9049,7 @@
                   <orig>&slong;amaria</orig>
                   <reg>Samaria</reg>
                </name><pc>.</pc> &et; <choice>
-                  <abbr>eccl<am>&combtilde;</am>ia</abbr>
+                  <abbr>eccl<am>&combmacr;</am>ia</abbr>
                   <expan>eccl<ex>es</ex>ia</expan>
                </choice> creuit <lb/>cotidie <choice>
                   <abbr>&pbar;</abbr>
@@ -9070,15 +9065,15 @@
                   <expan>&slong;pi<ex>ritus</ex></expan>
                </choice></name> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.680"><num value="239"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.238"><num value="239"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&xenl;&xenl;<pc>.</pc>&ienl;&xenl;</orig>
                   <reg>cc<pc>.</pc>xxx<pc>.</pc>ix</reg>
                </choice><pc>.</pc></num> <choice>
                   <orig>&Drot;e</orig>
                   <reg>De</reg>
                </choice> <choice>
-                  <abbr>mi<pc>-</pc><lb/>racl<am>&combtilde;</am>i&slong;</abbr>
-                  <expan>mi<pc>-</pc><lb/>rac<ex>u</ex>li&slong;</expan>
+                  <abbr>mi<pc>&dash;</pc><lb/>racl<am>&combmacr;</am>i&slong;</abbr>
+                  <expan>mi<pc>&dash;</pc><lb/>rac<ex>u</ex>li&slong;</expan>
                </choice> <name type="person" ref="#bioPeter001"><choice>
                   <orig>petri</orig>
                   <reg>Petri</reg>
@@ -9104,18 +9099,18 @@
                   <abbr>&pbar;</abbr>
                   <expan>per</expan>
                </choice> <choice>
-                  <abbr>angl<am>&combtilde;</am>m</abbr>
+                  <abbr>angl<am>&combmacr;</am>m</abbr>
                   <expan>ang<ex>e</ex>l<ex>u</ex>m</expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.681"><num value="240"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.239"><num value="240"><pc>.</pc><choice>
                <orig>&cenl;&cenl;<pc>.</pc>&xenl;&lenl;</orig>
                <reg>cc<pc>.</pc>xl</reg>
             </choice><pc>.</pc></num> <lb/><choice>
                <orig>&Drot;e</orig>
                <reg>De</reg> 
             </choice> <choice>
-               <abbr>miracl<am>&combtilde;</am>i&slong;</abbr>
+               <abbr>miracl<am>&combmacr;</am>i&slong;</abbr>
                <expan>mirac<ex>u</ex>li&slong;</expan>
             </choice> <name type="person" ref="#bioPaul001"><choice>
                   <orig>pauli</orig>
@@ -9162,7 +9157,7 @@
                </choice> <choice>
                   <abbr>q<am>&rrot;</am></abbr>
                   <expan>q<ex>uia</ex></expan>
-               </choice> &slong;a<pc>-</pc><lb/>nauit <choice>
+               </choice> &slong;a<pc>&dash;</pc><lb/>nauit <choice>
                   <abbr>claudu<am>&combmacr;</am></abbr>
                   <expan>claudu<ex>m</ex></expan>
                </choice><pc>.</pc> &et; <choice>
@@ -9205,8 +9200,8 @@
                   <abbr>&slong;<am>&sem;</am></abbr>
                   <expan>&slong;<ex>ed</ex></expan>
                </choice> <choice>
-                  <abbr>re<pc>-</pc><lb/>gre&slong;&slong;<am>&usmod;</am></abbr>
-                  <expan>re<pc>-</pc><lb/>gre&slong;&slong;<ex>us</ex></expan>
+                  <abbr>re<pc>&dash;</pc><lb/>gre&slong;&slong;<am>&usmod;</am></abbr>
+                  <expan>re<pc>&dash;</pc><lb/>gre&slong;&slong;<ex>us</ex></expan>
                </choice> <choice>
                   <abbr>i<am>&combmacr;</am></abbr>
                   <expan>i<ex>n</ex></expan>
@@ -9235,8 +9230,8 @@
                   <abbr>uirgi<am>&combmacr;</am>e<am>&combmacr;</am></abbr>
                   <expan>uirgi<ex>n</ex>e<ex>m</ex></expan>
                </choice> <choice>
-                  <abbr>phi<pc>-</pc><lb/>toni&slong;&slong;a<am>&combmacr;</am></abbr>
-                  <expan>phi<pc>-</pc><lb/>toni&slong;&slong;a<ex>m</ex></expan>
+                  <abbr>phi<pc>&dash;</pc><lb/>toni&slong;&slong;a<am>&combmacr;</am></abbr>
+                  <expan>phi<pc>&dash;</pc><lb/>toni&slong;&slong;a<ex>m</ex></expan>
                </choice><pc>.</pc> &et; ibi <choice>
                   <abbr>g<am>&ra;</am>ut<am>&combmacr;</am></abbr>
                   <expan>g<ex>ra</ex>u<ex>i</ex>t<ex>er</ex></expan>
@@ -9244,8 +9239,8 @@
                   <abbr>uerb<am>&erang;</am>atu&slong;</abbr>
                   <expan>verb<ex>er</ex>atu&slong;</expan>
                </choice> &et; <choice>
-                  <abbr>uul<pc>-</pc><lb/>n<am>&erang;</am>at<am>&usmod;</am></abbr>
-                  <expan>vul<pc>-</pc><lb/>n<ex>er</ex>at<ex>us</ex></expan>
+                  <abbr>uul<pc>&dash;</pc><lb/>n<am>&erang;</am>at<am>&usmod;</am></abbr>
+                  <expan>vul<pc>&dash;</pc><lb/>n<ex>er</ex>at<ex>us</ex></expan>
                </choice> <choice>
                   <abbr>tru&slong;<am>&usmod;</am></abbr>
                   <expan>tru&slong;<ex>us</ex></expan>
@@ -9265,7 +9260,7 @@
                   <abbr>&pbar;</abbr>
                   <expan>per</expan>
                </choice> <choice>
-                  <abbr>angl<am>&combtilde;</am>m</abbr>
+                  <abbr>angl<am>&combmacr;</am>m</abbr>
                   <expan>ang<ex>e</ex>l<ex>u</ex>m</expan>
                </choice> noluit <lb/>exire <choice>
                   <abbr>&slong;<am>&sem;</am></abbr>
@@ -9273,8 +9268,8 @@
                </choice> expectauit cu&slong;tode&slong;&slong;<pc>.</pc> <choice>
                   <abbr>&qscap;<am>&isup;</am></abbr>
                   <expan>q<ex>ui</ex></expan>
-               </choice> ui<pc>-</pc><lb/>dente&slong; <choice>
-                  <abbr>miracl<am>&combtilde;</am>m</abbr>
+               </choice> ui<pc>&dash;</pc><lb/>dente&slong; <choice>
+                  <abbr>miracl<am>&combmacr;</am>m</abbr>
                   <expan>mirac<ex>u</ex>l<ex>u</ex>m</expan>
                </choice> <choice>
                   <abbr>credid<am>&erang;</am>u<am>&combmacr;</am>t</abbr>
@@ -9289,8 +9284,8 @@
                   <abbr>In<am>&combmacr;</am></abbr>
                   <expan>In<ex>de</ex></expan>
                </choice> uenit <name type="place" ref="#locAthens001"><choice>
-                  <orig>athen<pc>-</pc><lb/>na&slong;</orig>
-                  <reg>Athen<pc>-</pc><lb/>na&slong;</reg>
+                  <orig>athen<pc>&dash;</pc><lb/>na&slong;</orig>
+                  <reg>Athen<pc>&dash;</pc><lb/>na&slong;</reg>
                </choice></name><pc>.</pc> &et; <choice>
                   <abbr><am>&condes;</am>u<am>&erang;</am>tit</abbr>
                   <expan><ex>con</ex>u<ex>er</ex>tit</expan>
@@ -9301,8 +9296,8 @@
                   <abbr>beatu<am>&combmacr;</am></abbr>
                   <expan>beatu<ex>m</ex></expan>
                </choice> <name type="person" ref="#bioDionysius001"><choice>
-                  <orig>dio<pc>-</pc><lb/>ni&slong;iu<am>&combmacr;</am></orig>
-                  <reg>dio<pc>-</pc><lb/>ni&slong;iu<ex>m</ex></reg>
+                  <orig>dio<pc>&dash;</pc><lb/>ni&slong;iu<am>&combmacr;</am></orig>
+                  <reg>dio<pc>&dash;</pc><lb/>ni&slong;iu<ex>m</ex></reg>
                </choice></name><pc>.</pc> &et; alio&slong; <lb/>multo&slong; <lb/>greco&slong;<pc>.</pc> <lb/></add><choice>
                   <abbr>In<am>&combmacr;</am></abbr>
                   <expan>In<ex>de</ex></expan>
@@ -9334,7 +9329,7 @@
                   <abbr>&pbar;</abbr>
                   <expan>per</expan>
                </choice> <choice>
-                  <abbr>miracl<am>&combtilde;</am>a</abbr>
+                  <abbr>miracl<am>&combmacr;</am>a</abbr>
                   <expan>mirac<ex>u</ex>la</expan>
                </choice> <choice>
                   <abbr>q<am>&combmacr;</am></abbr>
@@ -9359,7 +9354,7 @@
                   <expan>no<ex>m</ex>i<ex>n</ex>e</expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.682"><num value="241"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.240"><num value="241"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&lenl;<pc>.</pc>&ienl;</orig>
                   <reg>cc<pc>.</pc>xl<pc>.</pc>i</reg>
                </choice><pc>.</pc></num> <lb/><choice>
@@ -9369,7 +9364,7 @@
                   <orig>pet<am>&osup;</am></orig>
                   <reg>Pet<ex>ro</ex></reg>
                </choice></name> <choice>
-                  <abbr>q<am>&osup;</am><pc>-</pc><lb/>m<am>&osup;</am></abbr>
+                  <abbr>q<am>&osup;</am><pc>&dash;</pc><lb/>m<am>&osup;</am></abbr>
                   <expan>q<ex>uo</ex>m<ex>odo</ex></expan>
                </choice> uenit ua&slong; ad <lb/><choice>
                   <abbr>eu<am>&combmacr;</am></abbr>
@@ -9384,15 +9379,15 @@
                   <abbr><am>&condes;</am>u<am>&erang;</am>tit</abbr>
                   <expan><ex>con</ex>u<ex>er</ex>tit</expan>
                </choice> <name type="person" ref="#bioCornelius001"><choice>
-                  <orig>co&rrot;ne<pc>-</pc><lb/>lium</orig>
-                  <reg>Corne<pc>-</pc><lb/>lium</reg>
+                  <orig>co&rrot;ne<pc>&dash;</pc><lb/>lium</orig>
+                  <reg>Corne<pc>&dash;</pc><lb/>lium</reg>
                </choice></name><pc>.</pc> &et; <choice>
                   <abbr>m<am>&combmacr;</am>lto&slong;</abbr>
                   <expan>m<ex>u</ex>lto&slong;</expan>
                </choice> alio&slong; gentile&slong; <choice>
-                  <abbr>q<am>&isup;&bup;&us;</am></abbr>
+                  <abbr>q<am>&isup;&bsup;&us;</am></abbr>
                   <expan>q<ex>uibus</ex></expan>
-               </choice> &et; de<pc>-</pc><lb/>dit <name type="person" ref="#bioHolyGhost001"><choice>
+               </choice> &et; de<pc>&dash;</pc><lb/>dit <name type="person" ref="#bioHolyGhost001"><choice>
                   <abbr>&slong;p<am>&combmacr;</am>m</abbr>
                   <expan>Sp<ex>iritu</ex>m</expan>
                </choice></name><pc>.</pc> <choice>
@@ -9400,14 +9395,14 @@
                   <expan>&slong;<ex>an</ex>c<ex>tu</ex>m</expan>
                </choice> 
             </l>
-            <l xml:lang="lat" xml:id="junius1.683"><num value="242"><pc>.</pc><choice>
+            <l xml:lang="lat" xml:id="junius1.texts.241"><num value="242"><pc>.</pc><choice>
                   <orig>&cenl;&cenl;<pc>.</pc>&xenl;&lenl;<pc>.</pc>&ienl;&ienl;</orig>
                   <reg>cc<pc>.</pc>xl<pc>.</pc>ii</reg>
                </choice><pc>.</pc></num> <choice>
                   <abbr>Q<am>&osup;</am>m<am>&osup;</am></abbr>
                   <reg>Q<ex>uo</ex>m<ex>odo</ex></reg>
                </choice> <name type="person" ref="#bioPeter001"><choice>
-                  <orig>pet<am>&usup;</am>&slong;</orig>
+                  <orig>pet<am>&ra;</am>&slong;</orig>
                   <reg>Pet<ex>ru</ex>&slong;</reg>
                </choice></name> <lb/><choice>
                   <abbr>uen<am>&combmacr;</am></abbr>
@@ -9456,7 +9451,7 @@
                   <expan>dein<ex>de</ex></expan>
                </choice> uenit
             </l>  
-            <anchor xml:id="9v"/>
+            <anchor xml:id="end_9v"/>
          </div1>
       </body>
   </text>

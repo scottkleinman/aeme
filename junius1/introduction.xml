@@ -14,13 +14,11 @@
          #bioJohn002: John the Baptist
       
       
-   Last update: 21feb2016 -->
+   Last update: 15may2016 -->
       
       <body xml:id="junius1-body">
          <div1>
-            <pb n="10r"/>
-            <cb n="1"/>
-            <l xml:id="junius1.1"><hi rend="h5">A</hi>ll <choice>
+            <l xml:id="junius1.1"><pb n="10r"/><cb n="1"/><lb/><hi rend="h5">A</hi>ll <choice>
                   <orig>man&nsup;kin&nsup;</orig>
                   <reg>mannkinn</reg>
                </choice> fra <choice>
@@ -37,7 +35,7 @@
                </choice> <choice>
                   <orig>drih&hsup;tin</orig>
                   <reg>drihhtin</reg>
-               </choice> <lb/>&wynn;rohht off e<del rend="scraped-out">o</del><add place="inline">o</add>or&thorn;e<pc>.</pc> 
+               </choice> <lb/>&wynn;rohht off e<del rend="erased">o</del><add place="inline">o</add>or&thorn;e<pc>.</pc> 
             </l>
             <l xml:id="junius1.3"><lb/>Anan&combacute; till <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
@@ -69,7 +67,7 @@
                </choice> <name type="person" ref="#bioAdam001"><choice>
                   <orig>adam</orig>
                   <reg>Adam</reg>
-               </choice></name> haffde gill<pc>-</pc><lb/>tedd<del rend="linedThrough"><pc>&punctelev;</pc></del><pc>.</pc> 
+               </choice></name> haffde gill<pc>&dash;</pc><lb/>tedd<del rend="linedThrough"><pc>&punctelev;</pc></del><pc>.</pc> 
             </l>
             <l xml:id="junius1.7"><choice>
                   <orig>&THORN;ur&rsup;h</orig>
@@ -80,7 +78,7 @@
                </choice> he <name type="person" ref="#bioGod001">
                   <orig>gode&slong;&slong;</orig>
                   <reg>Gode&slong;&slong;</reg>
-               </name> bo&breve;de<pc>-</pc><lb/>&wynn;ord<del rend="linedThrough"><pc>.</pc></del> 
+               </name> bo&breve;de<pc>&dash;</pc><lb/>&wynn;ord<del rend="linedThrough"><pc>.</pc></del> 
             </l>
             <l xml:id="junius1.8"><choice>
                   <orig>&fenl;or&rsup;le&combacute;&combacute;&combacute;t</orig>
@@ -110,7 +108,7 @@
                </choice> he &wynn;ollde <choice>
                   <abbr>hi<am>&dblovl;</am></abbr>
                   <expan>hi<ex>mm</ex></expan>
-               </choice> <gap quantity="1" unit="word" reason="inked-out"/><metamark rend="line" function="connector" target="#lokenn01"/><add xml:id="lokenn01" place="marginCenter"><choice>
+               </choice> <gap quantity="1" unit="word" reason="inked-out"/><metamark rend="line" function="connector" target="#lokenn01"/><add xml:id="lokenn01" place="intercolumnar"><choice>
                   <orig>loken&nsup;</orig>
                   <reg>lokenn</reg>
                </choice></add><pc>.</pc> 
@@ -118,7 +116,7 @@
             <l xml:id="junius1.11"><seg type="word-seperator">Fra <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
-               </choice> an<pc>-</pc><lb/>le&breve;pi&gins; tre<del rend="erased">o</del><add place="inline">o</add></seg><pc>.</pc> <choice>
+               </choice> an<pc>&dash;</pc><lb/>le&breve;pi&gins; tre<del rend="erased">o</del><add place="inline">o</add></seg><pc>.</pc> <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
                </choice> <choice>
@@ -130,8 +128,8 @@
                   <orig>&denl;rih&hsup;tin</orig>
                   <reg>drihhtin</reg>
                </choice> <choice>
-                  <orig>for&rsup;bo<pc>-</pc> <lb/>den&nsup;</orig>
-                  <reg>forrbo<pc>-</pc> <lb/>denn</reg>
+                  <orig>for&rsup;bo<pc>&dash;</pc> <lb/>den&nsup;</orig>
+                  <reg>forrbo<pc>&dash;</pc> <lb/>denn</reg>
                </choice> haffde<pc>&punctelev;</pc> 
             </l>
             <l xml:id="junius1.13">&THORN;&aelig;r<del rend="linedThrough"><pc>&middot;</pc></del> &thorn;&aelig;r he fand
@@ -279,7 +277,7 @@
                   <reg>forrgilltedd</reg>
                </choice><pc>.</pc> 
             </l>
-            <l xml:id="junius1.31"><pc>&parag;</pc><name type="person" ref="#bioAdam001"><choice>
+            <l xml:id="junius1.31">&parag; <name type="person" ref="#bioAdam001"><choice>
                   <orig>Ada<am>&combmacr;</am></orig>
                   <reg>Ada<ex>m</ex></reg>
                </choice></name> <lb/>&wynn;a&slong;&slong; <choice>
@@ -360,7 +358,7 @@
             <l xml:id="junius1.40"><choice>
                   <orig>&thornenl;at&tsup;</orig>
                   <reg>&THORN;att</reg>
-               </choice> haff<pc>-</pc><lb/>de <choice>
+               </choice> haff<pc>&dash;</pc><lb/>de <choice>
                   <abbr>he<am>&dblovl;</am></abbr>
                   <expan>he<ex>mm</ex></expan>
                </choice> alle &slong;tre<del rend="erased">o</del><add place="inline">o&barbl;</add>nedd<pc>.</pc>
@@ -370,7 +368,7 @@
                   <reg>bit&wynn;enenn</reg>
                </choice> &thorn;e<pc>&punctelev;</pc> 
             </l>
-            <l xml:id="junius1.42">&ET; tin e<del rend="erased">o</del><add place="inline">o&barbl;</add>r&thorn;<pc>-</pc><lb/>like <choice>
+            <l xml:id="junius1.42">&ET; tin e<del rend="erased">o</del><add place="inline">o&barbl;</add>r&thorn;<pc>&dash;</pc><lb/>like <choice>
                   <orig>lafer&rsup;d</orig>
                   <reg>laferrd</reg>
                </choice><pc>.</pc> 
@@ -405,9 +403,9 @@
             <l xml:id="junius1.46"><choice>
                   <orig>&oenl;ff</orig>
                   <reg>Off</reg>
-            </choice> hi&slong;&slong; &thorn;e<del rend="erased">o</del><add place="inline">o&barbl;</add>&wynn;&wynn;<pc>-</pc><lb/>dome&slong;&slong; bande&slong;&slong;<pc>.</pc>
+            </choice> hi&slong;&slong; &thorn;e<del rend="erased">o</del><add place="inline">o&barbl;</add>&wynn;&wynn;<pc>&dash;</pc><lb/>dome&slong;&slong; bande&slong;&slong;<pc>.</pc>
             </l>
-            <l xml:id="junius1.47"><pc>&parag;</pc> Nu mihht <lb/>tu &slong;en <choice>
+            <l xml:id="junius1.47">&parag; Nu mihht <lb/>tu &slong;en <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
                </choice> tatt &wynn;a&slong;&slong; <choice>
@@ -445,7 +443,7 @@
                   <expan>he<ex>mm</ex></expan>
                </choice> alle &slong;tre<del rend="erased">o</del><add place="inline">o&barbl;</add>nedd<pc>.</pc>
             </l>
-            <l xml:id="junius1.51">&ET; al<sic>l</sic><pc>-</pc><lb/>le <choice>
+            <l xml:id="junius1.51">&ET; al<sic>l</sic><pc>&dash;</pc><lb/>le <choice>
                   <orig>foren&nsup;</orig>
                   <reg>forenn</reg>
                </choice> all <choice>
@@ -456,17 +454,17 @@
             <l xml:id="junius1.52"><choice>
                   <orig>&tenl;ill</orig>
                   <reg>Till</reg>
-               </choice> hel<pc>-</pc><lb/>le&slong;&slong; <choice>
+               </choice> hel<pc>&dash;</pc><lb/>le&slong;&slong; <choice>
                   <abbr>&thorn;e<del rend="erased">o</del><add place="inline">o&barbl;</add>&slong;&slong;t<am>&erang;</am>ne&slong;&slong;e</abbr>
                   <expan>&thorn;e<del rend="erased">o</del><add place="inline">o&barbl;</add>&slong;&slong;t<ex>err</ex>ne&slong;&slong;e</expan>
                </choice><pc>.</pc> 
             </l>
-            <l xml:id="junius1.53">&Gins;a &thorn;a <choice>
+            <l xml:id="junius1.53">&GINS;a &thorn;a <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
                </choice> <choice>
-                  <orig>&wynn;&aelig;<pc>-</pc><lb/>ren&nsup;</orig>
-                  <reg>&wynn;&aelig;<pc>-</pc><lb/>renn</reg>
+                  <orig>&wynn;&aelig;<pc>&dash;</pc><lb/>ren&nsup;</orig>
+                  <reg>&wynn;&aelig;<pc>&dash;</pc><lb/>renn</reg>
                </choice> gode <choice>
                   <orig>men&nsup;</orig>
                   <reg>menn</reg>
@@ -474,16 +472,16 @@
             </l>
             <l xml:id="junius1.54"><choice>
                   <orig>&genl;a</orig>
-                  <reg>&Gins;a</reg>
+                  <reg>&GINS;a</reg>
                </choice> &thorn;a <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
                </choice> <choice>
-                  <orig>&wynn;&aelig;<pc>-</pc><lb/>ren&nsup;</orig>
-                  <reg>&wynn;&aelig;<pc>-</pc><lb/>renn</reg>
+                  <orig>&wynn;&aelig;<pc>&dash;</pc><lb/>ren&nsup;</orig>
+                  <reg>&wynn;&aelig;<pc>&dash;</pc><lb/>renn</reg>
                </choice> ille<pc>.</pc>
             </l>
-            <l xml:id="junius1.55"><pc>&parag;</pc> &thorn;&aelig;r <choice>
+            <l xml:id="junius1.55">&parag; &thorn;&aelig;r <choice>
                   <orig>&wynn;&aelig;ren&nsup;</orig>
                   <reg>&wynn;&aelig;renn</reg>
                </choice> fe&breve;le <lb/>gode <choice>
@@ -497,7 +495,7 @@
                </choice> <name type="person" ref="#bioJesus001"><choice>
                   <orig>cri&slong;te&slong;&slong;</orig>
                   <reg>Chri&slong;te&slong;&slong;</reg>
-               </choice></name> co<pc>-</pc><lb/>me<pc>.</pc> 
+               </choice></name> co<pc>&dash;</pc><lb/>me<pc>.</pc> 
             </l>
             <l xml:id="junius1.57"><choice>
                   <orig>&THORN;at&tsup;</orig>
@@ -513,7 +511,7 @@
             <l xml:id="junius1.58">&ET; <choice>
                   <orig>&thorn;ur&rsup;h</orig>
                   <reg>&thorn;urrh</reg>
-               </choice> unn&slong;ha&thorn;i&gins;<pc>-</pc><lb/>ne&slong;&slong;e<pc>.</pc>
+               </choice> unn&slong;ha&thorn;i&gins;<pc>&dash;</pc><lb/>ne&slong;&slong;e<pc>.</pc>
             </l>
             <l xml:id="junius1.59">&ET; tohh ne <choice>
                   <orig>mih&hsup;te</orig>
@@ -538,7 +536,7 @@
             </l>
             <l xml:id="junius1.62"><lb/>&et; u&combacute;&combacute;&combacute;t off hell &wynn;alde<pc>.</pc>
             </l>
-            <l xml:id="junius1.63"><pc>&parag;</pc> Acc<metamark function="word-seperator" rend="hairline-tick"/> &slong;on <lb/>&slong;e<metamark function="word-seperator" rend="hairline-tick"/> ti&combacute;me <choice>
+            <l xml:id="junius1.63">&parag; Acc<metamark function="word-seperator" rend="hairline-tick"/> &slong;on <lb/>&slong;e<metamark function="word-seperator" rend="hairline-tick"/> ti&combacute;me <choice>
                   <orig>com&msup;</orig>
                   <reg>comm</reg>
                </choice> &thorn;&aelig;rto<pc>.</pc> 
@@ -576,12 +574,12 @@
             <gap quantity="3" unit="line" reason="inked-out"/>
             <cb n="2"/>
             <gap quantity="1.5" unit="line" reason="inked-out"/>
-            <l xml:id="junius1.67"><pc>.&parag;</pc> Off all <choice>
+            <l xml:id="junius1.67"><pc>.&parag; </pc> Off all <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
                </choice> <choice>
-                  <orig>en&nsup;<pc>-</pc>gle</orig>
-                  <reg>enn<pc>-</pc>gle</reg>
+                  <orig>en&nsup;<pc>&dash;</pc>gle</orig>
+                  <reg>enn<pc>&dash;</pc>gle</reg>
                </choice> <lb/> flocc <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
@@ -611,7 +609,7 @@
                   <reg>le&slong;enn</reg>
                </choice> <pc>.</pc>
             </l>
-            <l xml:id="junius1.71"><pc>&parag;</pc><choice>
+            <l xml:id="junius1.71">&parag; <choice>
                   <orig>For&rsup;&thorn;i</orig>
                   <reg>Forr&thorn;i</reg>
                </choice> <choice>
@@ -642,7 +640,7 @@
                </choice> <choice>
                   <abbr>&thorn;<am>&combmacr;</am></abbr>
                   <expan>&thorn;<ex>att</ex></expan>
-               </choice> la&thorn;e <lb/>modi&gins;<gap quantity="3" unit="char" reason="inked-out"/><metamark rend="line" function="connector" target="#leggc01"/><add xml:id="leggc01" place="marginCenter">le&gins;&gins;c<pc>&middot;</pc></add> 
+               </choice> la&thorn;e <lb/>modi&gins;<gap quantity="3" unit="char" reason="inked-out"/><metamark rend="line" function="connector" target="#leggc01"/><add xml:id="leggc01" place="intercolumnar">le&gins;&gins;c<pc>&middot;</pc></add> 
             </l>
             <l xml:id="junius1.74"><choice>
                   <orig>&thornenl;at&tsup;</orig>
@@ -678,9 +676,9 @@
                </choice> <choice>
                   <orig>noh&hsup;t</orig>
                   <reg>nohht</reg>
-               </choice> off he<pc>-</pc><lb/>re pi&combacute;ne<pc>.</pc>
+               </choice> off he<pc>&dash;</pc><lb/>re pi&combacute;ne<pc>.</pc>
             </l>
-            <l xml:id="junius1.77"><pc>&parag;</pc> <choice>
+            <l xml:id="junius1.77">&parag; <choice>
                   <orig>Ac&csup;</orig>
                   <reg>Acc</reg>
                </choice> <choice>
@@ -730,14 +728,14 @@
             </choice> <lb/>off &thorn;e de<del rend="erased">o</del><add place="inline">o&barbl;</add>fle&slong;&slong; &wynn;alde<pc>&punctelev;</pc>
             </l>
             <l xml:id="junius1.83">He <choice>
-                  <orig>&slong;en&nsup;<pc>-</pc><lb/>de</orig>
-                  <reg>&slong;enn<pc>-</pc><lb/>de</reg>
+                  <orig>&slong;en&nsup;<pc>&dash;</pc><lb/>de</orig>
+                  <reg>&slong;enn<pc>&dash;</pc><lb/>de</reg>
                </choice> u&slong;&slong; &slong;one hi&slong;&slong; &wynn;ord<pc>.</pc> hi&slong;&slong; &wynn;itt<pc>.</pc> 
             </l>
             <l xml:id="junius1.84"><lb/><choice>
                   <orig>&henl;i&slong;&slong;</orig>
                   <reg>Hi&slong;&slong;</reg>
-               </choice> &slong;une<pc>.</pc> hi&slong;&slong; mahht<pc>.</pc> hi&slong;&slong; kin<pc>-</pc><lb/>de<pc>.</pc>
+               </choice> &slong;une<pc>.</pc> hi&slong;&slong; mahht<pc>.</pc> hi&slong;&slong; kin<pc>&dash;</pc><lb/>de<pc>.</pc>
             </l>
             <l xml:id="junius1.85">To <choice>
                   <orig>taken&nsup;</orig>
@@ -759,7 +757,7 @@
                </choice> <choice>
                   <orig>on&nsup;</orig>
                   <reg>onn</reg>
-               </choice> e<del rend="erased">o</del><add place="inline">o&barbl;</add>r<pc>-</pc><lb/>&thorn;e<pc>.</pc> 
+               </choice> e<del rend="erased">o</del><add place="inline">o&barbl;</add>r<pc>&dash;</pc><lb/>&thorn;e<pc>.</pc> 
             </l>
             <l xml:id="junius1.87">To <choice>
                   <orig>le&slong;en&nsup;</orig>
@@ -777,15 +775,15 @@
                   <reg>U&combacute;&combacute;&combacute;t</reg>
             </choice> off &thorn;e de<del rend="erased">o</del><add place="inline">o&barbl;</add>fle&slong;&slong; &wynn;alde<pc>.</pc>
             </l>
-            <l xml:id="junius1.89"><lb/><metamark function="?" rend="large-theta"/><pc>&parag;</pc> <choice>
+            <l xml:id="junius1.89"><lb/><metamark function="?" rend="large-theta"/>&parag; <choice>
                   <orig>Ac&csup;</orig>
                   <reg>Acc</reg>
                </choice> &gins;u&wynn; <choice>
                   <orig>bir&rsup;&thorn;</orig>
                   <reg>birr&thorn;</reg>
                </choice> <choice>
-                  <orig>un&nsup;der&rsup;<pc>-</pc><lb/>&slong;tan&nsup;den&nsup;</orig>
-                  <reg>unnderr<pc>-</pc><lb/>&slong;tanndenn</reg>
+                  <orig>un&nsup;der&rsup;<pc>&dash;</pc><lb/>&slong;tan&nsup;den&nsup;</orig>
+                  <reg>unnderr<pc>&dash;</pc><lb/>&slong;tanndenn</reg>
                </choice> her<pc>&punctelev;</pc> 
             </l>
             <l xml:id="junius1.90"><choice>
@@ -795,8 +793,8 @@
                   <orig>&slong;an&nsup;t</orig>
                   <reg>&slong;annt</reg>
                </choice> <name type="person" ref="#bioJohn002"><choice>
-                  <orig>io<pc>-</pc><lb/>han bappti&slong;&slong;te</orig>
-                  <reg>Jo<pc>-</pc><lb/>han Bappti&slong;&slong;te</reg>
+                  <orig>io<pc>&dash;</pc><lb/>han bappti&slong;&slong;te</orig>
+                  <reg>Jo<pc>&dash;</pc><lb/>han Bappti&slong;&slong;te</reg>
                </choice></name><pc>.</pc> 
             </l>
             <l xml:id="junius1.91">&WYNN;a&slong;&slong; <choice>
@@ -807,7 +805,7 @@
             <l xml:id="junius1.92"><choice>
                   <orig>&thornenl;ur&rsup;h</orig>
                   <reg>&THORN;ur&rsup;h</reg>
-               </choice> go<pc>-</pc><lb/>de&slong;&slong; lefe &wynn;ille<pc>.</pc>
+               </choice> go<pc>&dash;</pc><lb/>de&slong;&slong; lefe &wynn;ille<pc>.</pc>
             </l>
             <l xml:id="junius1.93">To <choice>
                   <orig>cumen&nsup;</orig>
@@ -850,7 +848,7 @@
                   <reg>&gins;arrkenn</reg>
                </choice><pc>.</pc> <lb/>hi&slong;e &wynn;e&gins;&gins;e&slong;&slong;<pc>.</pc>
             </l>
-            <l xml:id="junius1.97"><pc>&parag;</pc> <choice>
+            <l xml:id="junius1.97">&parag; <choice>
                   <orig>Rih&hsup;t</orig>
                   <reg>Rihht</reg>
                </choice> &slong;&wynn;a <lb/><choice>
@@ -887,11 +885,11 @@
                   <orig>&senl;hall</orig>
                   <reg>Shall</reg>
                </choice> <choice>
-                  <orig>cu<pc>-</pc><lb/>men&nsup;</orig>
-                  <reg>cu<pc>-</pc><lb/>menn</reg>
+                  <orig>cu<pc>&dash;</pc><lb/>men&nsup;</orig>
+                  <reg>cu<pc>&dash;</pc><lb/>menn</reg>
                </choice> &slong;&wynn;i&thorn;e <choice>
-                  <orig>ne<pc>-</pc><lb/>&wynn;en&nsup;</orig>
-                  <reg>ne<pc>-</pc><lb/>&wynn;enn</reg>
+                  <orig>ne<pc>&dash;</pc><lb/>&wynn;en&nsup;</orig>
+                  <reg>ne<pc>&dash;</pc><lb/>&wynn;enn</reg>
                </choice><pc>&punctelev;</pc> 
             </l>
             <l xml:id="junius1.101"><choice>
@@ -914,7 +912,7 @@
                </choice> <name type="person" ref="#bioJesus001">
                   <orig>cri&slong;te&slong;&slong;</orig>
                   <reg>Chri&slong;te&slong;&slong;</reg>
-               </name> co<pc>-</pc><lb/>me<pc>.</pc> 
+               </name> co<pc>&dash;</pc><lb/>me<pc>.</pc> 
             </l>
             <l xml:id="junius1.103">To <choice>
                   <orig>&gins;ar&rsup;ken&nsup;</orig>
@@ -935,7 +933,7 @@
                   <reg>takenn</reg>
                </choice> &wynn;i&thorn;&thorn; <lb/>hi&slong;&slong; lare<pc>.</pc>
             </l>
-            <l xml:id="junius1.105"><pc>&parag;</pc> &ET; her <choice>
+            <l xml:id="junius1.105">&parag; &ET; her <choice>
                   <orig>ic&csup;</orig>
                   <reg>icc</reg>
                </choice> &wynn;ile &slong;h&aelig; <lb/><choice>
@@ -953,8 +951,8 @@
                   <orig>iohan</orig>
                   <reg>Johan</reg>
                </choice> <choice>
-                  <orig>bap&psup;<pc>-</pc><lb/>ti&slong;&slong;te</orig>
-                  <reg>Bapp<pc>-</pc><lb/>ti&slong;&slong;te</reg>
+                  <orig>bap&psup;<pc>&dash;</pc><lb/>ti&slong;&slong;te</orig>
+                  <reg>Bapp<pc>&dash;</pc><lb/>ti&slong;&slong;te</reg>
                </choice></name><pc>.</pc> 
             </l>
             <l xml:id="junius1.107">&WYNN;a&slong;&slong; <choice>
@@ -983,7 +981,7 @@
                </choice> <name type="person" ref="#bioJesus001"><choice>
                   <orig>c<am>&isup;</am>&slong;te&slongsup;&slongsup;</orig>
                   <reg>Ch<ex>ri</ex>&slong;te&slong;&slong;</reg>
-               </choice></name> <lb/>&wynn;e&gins;&gins;<pc>&bidotcomposit;</pc>
+               </choice></name> <lb/>&wynn;e&gins;&gins;<pc>&bidotcomposit;</pc> 
             </l>
          </div1>
       </body>
