@@ -232,6 +232,8 @@ def index():
 	with open(filepath, "w") as fn:
 		fn.write(pageList)
 
+	if request.method != "POST":
+		html_pages = ['<h1 class="splash">Select a Text from the Menu</h1>']
 	# Render the template
 	return render_template('index.html', text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
 
