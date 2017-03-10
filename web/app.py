@@ -15,6 +15,7 @@ application = app # our hosting requires application in passenger_wsgi
 # Configurations
 # app.config.from_object('config')
 # app.config.from_pyfile('config.py')
+demoMode = True
  
  # Sample HTTP error handling
 @app.errorhandler(404)
@@ -232,8 +233,10 @@ def index():
 	with open(filepath, "w") as fn:
 		fn.write(pageList)
 
+	# Hack: replace the rendered text on the splash page
 	if request.method != "POST":
 		html_pages = ['<h1 class="splash">Select a Text from the Menu</h1>']
+
 	# Render the template
 	return render_template('index.html', text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
 
@@ -262,7 +265,6 @@ def loadText():
 	# print(pagination)
 	# Return the new text data to the template
 	data = json.dumps({"html_pages": html_pages[0], "pagination": pagination, "filepath": newfilepath, "xmlstr": xmlstr})
-	#data = json.dumps({"html_page": "Blah blah blah", "pagination": pagination})
 	return data
 
 @app.route('/load-page', methods=["GET", "POST"])
@@ -301,35 +303,20 @@ def getSource():
 	source = re.sub('&(.+);', lambda pat: '&amp;'+pat.group(1)+';', source)
 	return source
 
-@app.route('/ace', methods=["GET", "POST"])
-def ace():
-	# Build file path based on GET/POST
-	APP_STATIC = os.path.join(app.root_path, 'static')
-	file = 'content/xml/harley2250/erkenwald-copy.xml'		
-	filepath = os.path.join(APP_STATIC, file)	
-	with open(filepath, "r") as fn:
-		xmlstr = fn.read().decode('utf-8')
-
-	return render_template('ace.html', filepath=file, xmlstr=xmlstr, pagination={1: ['Title Page', 'aeme0001']})
-
 @app.route('/save-xml', methods=["GET", "POST"])
 def saveXML():
 	filepath = request.headers["filepath"]
 	xmlstr = request.get_data()
 	result = validate(xmlstr)
-	print(result)
-	#result = "This document is not valid."
-
-	# Validate function can be added here
-	# valid = False
-	# if valid == True:
-	if result == "valid":
+	if result == "valid" and demoMode == False:
 		# Write the file
 		print("Saving")
 		file = open(filepath, "w")
 		file.write(xmlstr)
 		file.close()
 		result = 'success'
+	else:
+		result = '<p>The editor is in demo mode. Changes cannot be saved.</p>'
 	return result
 
 def validate(xml):
@@ -354,8 +341,6 @@ def validate(xml):
 
     # Read the TEI file into a file-like object
     tei = BytesIO(xml)
-    # with open(tei_file, 'r') as f:
-    #     tei = BytesIO(f.read())
     
     # Parse the TEI file as XML
     errors = ""
