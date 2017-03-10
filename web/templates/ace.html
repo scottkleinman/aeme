@@ -1,0 +1,132 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style type="text/css" media="screen">
+#editor, #embedded_ace_code {
+    height: 595px; border: 1px solid #DDD;
+    border-radius: 4px;
+    border-bottom-right-radius: 0px;
+    width: 100%; margin: 10px auto;
+}
+#embedded_ace_code { height: 595px; }
+#notes { width: 100%;margin: 25px auto 10px auto; }
+#left-panel-container { margin-top:10px; padding: 10px;}
+.hide { display: none; }
+</style>
+
+<!-- Left Panel -->
+<div id="left-panel-container">
+	<div class="row">
+		<div class="col-md-12">
+			<button id="saveme" type="button" class="btn btn-primary pull-right">Save changes</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+<pre id="editor">
+{{ xmlstr }}
+</pre>
+		</div>
+	</div>
+<!-- 	<div class="row">
+		<div class="col-md-12">
+			<p>The viewer needs an edit mode to display XML instead of rendered text. Probably best implemented by changing a session variable.</p>
+			<p>Look into validating saved XML against a schema (client-side and server-side solutions). <a href="https://github.com/kripken/xml.js" target="_blank">xml.js</a> looks useful, but I don't think it works with embedded DTD's. Apparently, the only alternative is to expand entities prior to validation. Back-end validation seems to have the same problem.</p>
+			<p>The main advantage of CodeMirror over Ace is that you can supply an approximation of an XML schema to the script to provide code hinting. 
+		</div>
+	</div>
+ -->
+<!-- load ace -->
+<script type="text/javascript"
+    src="{{ url_for('static', filename='lib/ace/src-min-noconflict/ace.js') }}"></script>
+<!-- load ace language tools -->
+<script type="text/javascript"
+    src="{{ url_for('static', filename='lib/ace/src-min-noconflict/ext-language_tools.js') }}"></script>
+<script>
+	// trigger extension
+	ace.require("ace/ext/language_tools");
+	var editor = ace.edit("editor");
+	editor.session.setMode("ace/mode/html");
+	editor.setTheme("ace/theme/tomorrow");
+	// enable autocompletion and snippets
+	editor.setOptions({
+	    enableBasicAutocompletion: true,
+	    enableSnippets: true,
+	    enableLiveAutocompletion: false,
+	    fontSize: "12pt"
+	});
+	//editor.gotoLine(2);
+</script>
+</div>
+
+<!-- Right Panel -->
+<div id="right-panel">
+	{% include "ms_viewer.html" %}
+	<div id="dragbar"></div>
+</div>
+<script>
+$(document).ready(function() {
+	var filepath = "{{ filepath }}";
+	// Toggle editor
+	$('#edit').on('click',function(e) {
+	    if ($(this).hasClass('edit')) {
+	        $('#editor').removeClass('hide');
+	        $('tei-span').addClass('hide');
+	    }
+	    else  {
+	        $('tei-span').removeClass('hide');
+	        $('#editor').addClass('hide');
+	    }
+	});
+	// Save editor
+	$(document).on("click","#saveme",function() {
+        var editor = ace.edit("editor");
+        var xml = editor.getValue();
+        var message = "<p>This will overwrite your code and may introduce mistakes or validation errors. Make sure that you validate the code separately. Do you wish to continue?</p>";
+	    var box = bootbox.confirm({
+			size: "small",
+			title: "Attenzione!",
+	        message: message,
+	        buttons: {
+	            confirm: {
+	                label: 'Yes',
+	                className: 'btn-success'
+	            },
+	            cancel: {
+	                label: 'No',
+	                className: 'btn-danger'
+	            }
+	        },
+	        callback: function (result) {
+	        	// User confirmed
+	        	console.log(xml);
+	        	if (result == true) {
+		            // Call the Ajax function
+					$.ajax({
+					    url: '/save-xml',
+					    type: 'POST',
+					    headers: {"filepath": filepath},
+					    data: xml,
+					    dataType: "text",
+					    contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+					    success: function(result) {
+					    	if (result == 'success') {
+						        console.log('Your changes were saved successfully.');
+						    }
+						    else {
+						    	console.log('The xml did not validate and was not saved.')
+						    }
+					    }
+					});
+		        }
+	        }
+	    });
+		box.find(".modal-content").addClass("panel-danger");
+		box.find(".modal-header").addClass("panel-heading");
+		c = $("#toolbarDiv").css("z-index");
+		$(".bootbox").css("z-index", c+1);		
+	});
+});
+</script>
+{% endblock %}
+

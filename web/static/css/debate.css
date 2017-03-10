@@ -1,0 +1,3 @@
+/* Display Stanzaic Verse as Long-Lines */
+.B-verse:before { content: ' ';}
+.B-verse:after {content: '\A'; white-space: pre;}

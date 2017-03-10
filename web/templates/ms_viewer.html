@@ -1,0 +1,110 @@
+{% block ms_viewer %}
+<!--     <div class="col-sm-12">
+ -->
+       <div id="toolbarDiv" class="col-sm-12" style="z-index:10000000;">
+            <a id="zoom-in" href="#zoom-in"><img src="static/lib/openseadragon/images/zoomin_rest.png" title="Zoom In"/></a> 
+            <a id="zoom-out" href="#zoom-out"><img src="static/lib/openseadragon/images/zoomout_rest.png" title="Zoom Out"/></a>
+            <a id="home" href="#home"><img src="static/lib/openseadragon/images/home_rest.png" title="Home"/></a> 
+            <a id="full-page" href="#full-page"><img src="static/lib/openseadragon/images/fullpage_rest.png" title="Full Page"/></a> 
+            <a id="previous" href="#previous-page" style="cursor:pointer;"><img src="static/lib/openseadragon/images/previous_rest.png" title="Previous"/></a> 
+            <a id="next" href="#next-page" style="cursor:pointer;"><img src="static/lib/openseadragon/images/next_rest.png" title="Next"/></a> 
+      </div>
+      <div id="canvas"></div>
+
+    <script type="text/javascript">
+        // IIIF Sample
+        var tileSources =  [{
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://libimages.princeton.edu/loris2/pudl0001%2F4609321%2Fs42%2F00000001.jp2",
+          "height": 7200,
+          "width": 5233,
+          "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+          "protocol": "http://iiif.io/api/image",
+          "tiles": [{
+            "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+            "width": 1024
+          }]
+        },{
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://libimages.princeton.edu/loris2/pudl0001%2F4609321%2Fs42%2F00000002.jp2",
+          "height": 7200,
+          "width": 5093,
+          "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+          "protocol": "http://iiif.io/api/image",
+          "tiles": [{
+            "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+            "width": 1024
+          }]
+        },{
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://libimages.princeton.edu/loris2/pudl0001%2F4609321%2Fs42%2F00000003.jp2",
+          "height": 7200,
+          "width": 5387,
+          "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+          "protocol": "http://iiif.io/api/image",
+          "tiles": [{
+            "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+            "width": 1024
+          }]
+        },{
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://libimages.princeton.edu/loris2/pudl0001%2F4609321%2Fs42%2F00000004.jp2",
+          "height": 7200,
+          "width": 5434,
+          "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+          "protocol": "http://iiif.io/api/image",
+          "tiles": [{
+            "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+            "width": 1024
+          }]
+        }];
+
+    // Untiled JPEG Sample
+    tileSources = [{
+        type: 'image',
+        url:  'static/content/images/bxa0005.jpg'
+    },
+    {
+        type: 'image',
+        url:  'static/content/images/bxa0006.jpg'
+    },
+    {
+        type: 'image',
+        url:  'static/content/images/bxa0007.jpg'
+    }];
+
+    // DZI Sample
+  var tileSources = ["laudmisc108/dzc_output_images/bau0001.xml", "laudmisc108/dzc_output_images/bau0002.xml"];
+  
+/*
+    // AEME Logo
+    tileSources = [{
+        type: "image",
+        url: "static/images/AEME_logo_final_small2.jpg"
+    }];
+
+        var viewer = OpenSeadragon({
+            id:             "canvas",
+            prefixUrl:      "static/lib/openseadragon/images/",
+            tileSources:    tileSources,
+            sequenceMode:   true,
+            showNavigationControl: false,
+            toolbar:        "toolbarDiv",
+            showNavigator:   false,
+            zoomInButton:   "zoom-in",
+            zoomOutButton:  "zoom-out",
+            homeButton:     "home",
+            fullPageButton: "full-page",
+            nextButton:     "next",
+            previousButton: "previous"
+           //defaultZoomLevel:   1
+            //resize: true
+            //preserveViewport: true
+            //visibilityRatio: 1,
+            //showNavigationControl: false
+        });
+        // Without this, the image appears off the screen
+        $(".openseadragon-container").css("position", "absolute");
+*/    </script>
+
+{% endblock %}

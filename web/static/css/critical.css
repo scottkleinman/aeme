@@ -1,0 +1,233 @@
+/* A */
+tei-abbr {
+  display: none;
+}
+/* add */
+/* Would above and below be better? */
+tei-add[place=supralinear]:before,
+tei-add[place=sublinear]:before,
+tei-add[place=marginLeft]:before, 
+tei-add[place=marginRight]:before, 
+tei-add[place=topLeft]:before, 
+tei-add[place=topCenter]:before, 
+tei-add[place=topRight]:before, 
+tei-add[place=bottomLeft]:before, 
+tei-add[place=bottomCenter]:before,
+tei-add[place=bottomRight]:before, 
+tei-add[place=inline]:before {
+  content: "«";
+}
+tei-add[place=supralinear]:after,
+tei-add[place=sublinear]:after,
+tei-add[place=marginLeft]:after, 
+tei-add[place=marginRight]:after, 
+tei-add[place=topLeft]:after, 
+tei-add[place=topCenter]:after, 
+tei-add[place=topRight]:after, 
+tei-add[place=bottomLeft]:after, 
+tei-add[place=bottomCenter]:after,
+tei-add[place=bottomRight]:after, 
+tei-add[place=inline]:after {
+  content: "»";
+}
+tei-add[place=supralinear] {
+  /*vertical-align: super;*/
+}
+tei-add[place=sublinear] {
+  /*vertical-align: sub;*/
+}
+tei-am {
+  display: none;
+}
+/* B */
+/* C */
+tei-cb {
+  display: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+tei-cb:before {
+  content: "[column break]";
+}
+/* D */
+tei-del {
+  display: none;
+}
+/* E */
+/* F */
+tei-fw, tei-fw.marginRight, tei-fw.marginLeft, tei-fw.topCenter {
+  display: none;
+}
+/* G */
+tei-gap {
+  display: none;
+}
+/* H */
+tei-div > tei-head[rend='critical'] {
+  display: block;
+  margin-top: 15px;
+  margin-left: 85px;
+  padding-top: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+/* I */
+/* J */
+/* K */
+/* L */
+tei-lb {
+  display: none;
+}
+/* M */
+/* N */
+tei-name > tei-choice > tei-reg {
+  text-transform: capitalize;
+}
+/* O */
+tei-orig {
+  display: none;
+}
+/* P */
+tei-pb {
+  display: none;
+}
+tei-pc {
+  disply: none;
+}
+/* Q */
+/* R */
+/* S */
+tei-sic {
+  /* rend as choice when contained within a choice tag, perhaps as label with parenthesis after when alone */
+  display: none;
+}
+tei-supplied:before {
+  content: "[";
+}
+tei-supplied:after {
+  content: "]";
+}
+/* T */
+/* title */
+tei-title {
+  display: block;
+  margin-top: 15px;
+  padding-top: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+/* U */
+/* V 
+/* W */
+/* X */
+/* Z */
+
+/* Critical Markup in Choice Elements */
+tei-corr, tei-ex, tei-expan, tei-reg { color: black; } 
+tei-choice abbr + tei-expan:before,
+tei-choice tei-ex + tei-am:before,
+tei-choice tei-expan + tei-abbr:before,
+tei-choice tei-sic + tei-corr:before,
+tei-choice tei-corr + tei-sic:before,
+tei-choice tei-orig + tei-reg:before,
+tei-choice tei-reg + tei-orig:before {
+}
+tei-choice abbr + tei-expan:after,
+tei-choice tei-ex + tei-am:after,
+tei-choice tei-expan + tei-abbr:after,
+tei-choice tei-sic + tei-corr:after,
+tei-choice tei-corr + tei-sic:after,
+tei-choice tei-orig + tei-reg:after,
+tei-choice tei-reg + tei-orig:after {
+}
+
+/* This removes white space after the tei-choice tag
+   for critical punctuation elements */
+tei-choice {
+  display: inline-block;
+}
+
+/* Diplomatic Markup in Choice Elements */
+tei-choice tei-abbr + tei-expan:before,
+tei-choice tei-expan + tei-abbr:before,
+tei-choice tei-sic + tei-corr:before,
+tei-choice tei-corr + tei-sic:before,
+tei-choice tei-orig + tei-reg:before,
+tei-choice tei-reg + tei-orig:before {
+  display: none;
+}
+tei-choice tei-abbr + tei-expan:after,
+tei-choice tei-expan + tei-abbr:after,
+tei-choice tei-sic + tei-corr:after,
+tei-choice tei-corr + tei-sic:after,
+tei-choice tei-orig + tei-reg:after,
+tei-choice tei-reg + tei-orig:after {
+  display: none;
+}
+
+/* Shadow Gaps */
+
+/* Indicates that the space should be collapsed in the critical view */
+tei-sg[type = "ln"]:after {
+  content: "";
+}
+
+/* Indicates that the space should be collapsed in the critical view */
+tei-sg[type = "collapsed"]:after {
+  content: "";
+}
+
+/* Indicates that the space should be collapsed in the diplomatic view */
+tei-sg[type = "spaced"] {
+  border-bottom: none;
+}
+
+
+/* CSS Classes */
+
+/* hi elements */
+.blue-ink {color: black;}
+.red-ink {color: black;}
+.pointed-red {border-bottom: none;}
+.touched-red {border-bottom: none;}
+.h2, .h3, .h4, .h5, .h6 {font-size: normal;}
+
+/* @place */
+.topLeft {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 2em 0 2em 0;
+}
+.topCenter {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 2em 0 2em 0;
+}
+.marginLeft {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 2em 0 2em 0;
+}
+.marginRight {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin: 2em 0 2em 0;
+}
+
+/* Deal with entity spans */
+.dip {display: none;}
+.crit {display: inline;}
+
+/* Foreign */
+.foreign { font-style: italic; }
+
+/* Ormulum-specific??? */
+tei-lb { display: none; }
+tei-lb:after {
+  content: '';
+  white-space: initial;
+}

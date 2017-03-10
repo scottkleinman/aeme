@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<input type="hidden" id="currentFile" value="cover.xml">
+	<input type="hidden" id="currentView" value="critical">
+	<input type="hidden" id="currentPageIndex" value="0">
+	<input type="hidden" id="numPages" value="1">
+	{% set view = "jumbotron" -%}
+	{% if view == "jumbotronn" %}
+	<div class="row">
+	    <div id="jumbotron" class="jumbotron">
+	        <h2>The Archive of Early Middle English Edition Viewer</h2>
+	        <p align="center">This is the demo website for the Archive of Early Middle English Edition Viewer. We're going to do stuff with it.</p>
+	    </div>
+    </div>
+
+    {% else %}
+	<!-- Left Panel -->
+    <div id="left-panel" class="col-xs-6">
+    	{{ text[0]|safe or "File not found." }}
+     </div>
+
+	<!-- Right Panel -->
+    <div id="right-panel" class="col-xs-6">
+    	{% include "ms_viewer.html" %}
+    </div>
+    {% endif %}
+
+    <!-- All pages stored -->
+	<script>
+		var text = {{ text|safe or None }};
+		var tileSources = [{
+	        type: 		"image",
+	        url: 		"static/images/AEME_logo_final_small2.jpg"
+	    }];
+	</script>
+{% endblock %}
+

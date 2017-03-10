@@ -1,0 +1,212 @@
+/* A */
+tei-ab {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* add */
+/* Would above and below be better? */
+tei-add[place=marginLeft]:before, 
+tei-add[place=topLeft]:before, 
+tei-add[place=topCenter]:before, 
+tei-add[place=bottomLeft]:before, 
+tei-add[place=bottomCenter]:before {
+  font-family: "Glyphicons Halflings";
+  content:"\e091";
+}
+tei-add[place=marginRight]:after, 
+tei-add[place=topCenter]:after, 
+tei-add[place=topRight]:after, 
+tei-add[place=bottomCenter]:after,
+tei-add[place=bottomRight]:after {
+  font-family: "Glyphicons Halflings";
+  content:"\e092";
+}
+tei-add[place=supralinear] {
+  vertical-align: super;
+}
+tei-add[place=sublinear] {
+  vertical-align: sub;
+}
+/* B */
+/* C */
+tei-c {
+  /* Empty Rule Set */
+}
+tei-cb {
+  display: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+tei-cb:before {
+  content: "[column break]";
+}
+/* D */
+/* E */
+/* F */
+tei-fw, tei-fw.marginRight, tei-fw.marginLeft, tei-fw.topCenter {
+  display: block;
+}
+/* G */
+/* H */
+tei-div > tei-head[rend='critical'] {
+  display: block;
+  margin-top: 15px;
+  margin-left: 85px;
+  padding-top: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+/* J */
+/* K */
+/* L */
+tei-lb {
+  /* Empty Rule Set */
+}
+tei-lb:after {
+  content: '\a';
+  white-space: pre;
+}
+/* M */
+/* N */
+/* O */
+/* P */
+tei-pb {  
+  display: block;
+  width: 100%;
+  text-align: right;
+  color: gray;
+  margin: 2em 0 2em 0;
+  font-size: 11pt;
+}
+/*tei-pc {  
+  disply: inline;
+}
+*//* R */
+/* S */
+tei-supplied {
+  display: none;
+}
+/* T */
+/* title */
+/* Need TEI ancestor to distinguish TEI title from HTML title */
+tei-TEI tei-title {
+  display: none;
+}
+/* U */
+/* V */
+/* W */
+/* X */
+/* Z */
+tei-zone {
+  /* Empty Rule Set */
+}
+
+/* Critical Markup in Choice Elements */
+tei-corr, tei-ex, tei-expan, tei-reg { display: none; } 
+tei-choice abbr + tei-expan:before,
+tei-choice tei-ex + tei-am:before,
+tei-choice tei-expan + tei-abbr:before,
+tei-choice tei-sic + tei-corr:before,
+tei-choice tei-corr + tei-sic:before,
+tei-choice tei-orig + tei-reg:before,
+tei-choice tei-reg + tei-orig:before {
+  display: none;
+}
+tei-choice abbr + tei-expan:after,
+tei-choice tei-ex + tei-am:after,
+tei-choice tei-expan + tei-abbr:after,
+tei-choice tei-sic + tei-corr:after,
+tei-choice tei-corr + tei-sic:after,
+tei-choice tei-orig + tei-reg:after,
+tei-choice tei-reg + tei-orig:after {
+  display: none;
+}
+
+/* Diplomatic Markup in Choice Elements */
+tei-sic, tei-am, tei-abbr, tei-orig { color: black; } 
+tei-choice tei-abbr + tei-expan:before,
+tei-choice tei-expan + tei-abbr:before,
+tei-choice tei-sic + tei-corr:before,
+tei-choice tei-corr + tei-sic:before,
+tei-choice tei-orig + tei-reg:before,
+tei-choice tei-reg + tei-orig:before {
+}
+tei-choice tei-abbr + tei-expan:after,
+tei-choice tei-expan + tei-abbr:after,
+tei-choice tei-sic + tei-corr:after,
+tei-choice tei-corr + tei-sic:after,
+tei-choice tei-orig + tei-reg:after,
+tei-choice tei-reg + tei-orig:after {
+}
+
+/* Shadow Gaps */
+
+/* Indicates that the space should be collapsed in the critical view */
+tei-sg[type = "ln"]:after {
+  content: " ";
+}
+
+/* Indicates that the space should be collapsed in the critical view */
+tei-sg[type = "collapsed"]:after {
+  content: " ";
+}
+
+/* Indicates that the space should be collapsed in the diplomatic view */
+tei-sg[type = "spaced"] {
+  content: "";
+}
+
+/* CSS Classes */
+
+/* hi elements */
+.blue-ink {color: blue;}
+.red-ink {color: red;}
+.pointed-red {border-bottom: 1px dotted red;}
+.touched-red {border-bottom: 1px solid red;}
+.h2 {font-size: 200%;}
+.h3 {font-size: 300%;}
+.h4 {font-size: 400%;}
+.h5 {font-size: 500%;}
+.h6 {font-size: 600%;}
+
+/* @place */
+.topLeft {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 2em 0 2em 0;
+}
+.topCenter {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 2em 0 2em 0;
+}
+.marginLeft {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 2em 0 2em 0;
+}
+.marginRight {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin: 2em 0 2em 0;
+}
+
+/* Deal with entity spans */
+.dip {display: inline;}
+.crit {display: none;}
+
+/* Inline displays */
+/*.A-verse, .B-verse {display: inline;}
+*/
+
+/* This does drop caps, but it doesn't move succeeding lines to the right. */
+/*tei-l {line-height : 1.5;}
+.hi3 {float : left; font-size : 3.26em; line-height : 0.5; 
+  margin : 0.205em 0.153em 0 0;}
+.hi3 + span {margin-left : -0.5em;}  
+*/

@@ -1,0 +1,3352 @@
+<?oxygen RNGSchema="https://raw.githubusercontent.com/scottkleinman/aeme/master/validation/schema/aeme0.3.6.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!-- An initial set of character entities. Probably not complete. -->
+<!ENTITY  acurl "&#xE433;"> <!-- used in lieu of ae ligature? -->
+<!ENTITY Adot "&#x0226;">
+<!ENTITY ascap "&#x1D00;">
+<!ENTITY AElig "&#x00C6;">
+<!ENTITY aelig "&#x00E6;">
+<!ENTITY aeligenl "&#xEAF1;">
+<!ENTITY aenl "&#xEEE0;">
+<!ENTITY asup "&#x0363;">
+<!ENTITY bar "&#x0305;">
+<!ENTITY barbl "&#x0332;">
+<!ENTITY Bdot "&#x1E02;">
+<!ENTITY benl "&#xEEE1;">
+<!ENTITY bidotcomposit "&#xF1F2;">
+<!ENTITY breve "&#x0306;">
+<!ENTITY bscap "&#x299;">
+<!ENTITY bsup "&#xF012;">
+<!ENTITY caret "&#x2227;">
+<!ENTITY closeparen "&#x029;">
+<!ENTITY cenl "&#xEEE2;">
+<!ENTITY Cdot "&#x010A;">
+<!ENTITY combacute "&#x301;">
+<!ENTITY combdot "&#x0307;">
+<!ENTITY combcurl "&#x1DCE;">
+<!ENTITY combdblac "&#x030B;">
+<!ENTITY combbreve "&#x0306;">
+<!ENTITY combisbelow "&#x1DD0;">
+<!ENTITY combmacr "&#x0304;">
+<!ENTITY combring "&#x030A;">
+<!ENTITY combtilde "&#x0303;">
+<!ENTITY combtildevert "&#x033E;">
+<!ENTITY condes "&#xA76F;">
+<!ENTITY CONdes "&#xA76E;"> <!-- changed to accomodate little condes -->
+<!ENTITY Csqu "&#xF106;">
+<!ENTITY csup "&#x0368;">
+<!ENTITY dash "&#x2010;">
+<!ENTITY dblac "&#x02DD;">
+<!ENTITY dblovl "&#x33f;">
+<!ENTITY Ddot "&#x1E0A;">
+<!ENTITY denl "&#xEEE3;">
+<!ENTITY doublepipe "&#x2016;">
+<!ENTITY drot "&#xA77A;">
+<!ENTITY Drot "&#xA779;">
+<!ENTITY dsup "&#x0369;">
+<!ENTITY eacute "&#x00E9;">
+<!ENTITY Edot "&#x0116;">
+<!ENTITY edotbl "&#x1EB9;">
+<!ENTITY eenl "&#xEEE6;">
+<!ENTITY eext "&#xF219;">
+<!ENTITY emacr "&#x0113;">
+<!ENTITY eogon "&#x0119;">
+<!ENTITY erang "&#xF1C7;"> <!--  Orm uses this for "ri," as in "c[ri]st" -->
+<!ENTITY esup "&#x0364;">
+<!ENTITY ET "&#xF142;">
+<!ENTITY et "&#x204A;">
+<!ENTITY eth "&#x00F0;">
+<!ENTITY ETH "&#x00D0;">
+<!ENTITY ethenl "&#xEEE5;">
+<!ENTITY ethsup "&#x1DD9;">
+<!ENTITY Eunc "&#xF10A;">
+<!ENTITY fenl "&#xEEE7;">
+<!ENTITY Fdot "&#x1E1E;">
+<!ENTITY fsup "&#xF017;">
+<!ENTITY genl "&#xEEE8;">
+<!ENTITY Gdot "&#x0120;">
+<!ENTITY gins "&#x1D79;">
+<!ENTITY GINS "&#xA77D;">
+<!ENTITY ginsenl "&#xEEE8;"> <!--no actual char for this, just using genl-->
+<!ENTITY ginssup "&#x1DDA;"> <!--no char for this either, using gsup-->
+<!ENTITY grave "&#x0300;">
+<!ENTITY gsup "&#x1DDA;">
+<!ENTITY Hdot "&#x1E22;">
+<!ENTITY henl "&#xEEE9;">
+<!ENTITY hidot "&#xF1F8;">
+<!ENTITY hscap "&#x029C;">
+<!ENTITY horbar "&#x2015;">
+<!ENTITY hrdes "&#xF23A;">
+<!ENTITY hstrok "&#x0127;">
+<!ENTITY hsup "&#x036A;">
+<!ENTITY Hunc "#xF110;">
+<!ENTITY iacute "&#xED;">
+<!ENTITY ienl "&#xEEEA;">
+<!ENTITY iscap "&#x026A;">
+<!ENTITY isup "&#x0365;">
+<!ENTITY kenl "&#xEEEC;">
+<!ENTITY ksup "&#x1DDC;">
+<!ENTITY lenl "&#xEEED;">
+<!ENTITY librafren "&#xF2EB;"> <!--for Orm's enim mark-->
+<!ENTITY lscap "&#x029F;">
+<!ENTITY lsup "&#x1DDD;">
+<!ENTITY lpar "&#x028;"> <!-- NB. lpar and rpar are MUFI names -->
+<!ENTITY mdash "&#x2014;">
+<!ENTITY medcom "&#xF1E0;">
+<!ENTITY middot "&#x00B7;">
+<!ENTITY msup "&#x36B;">
+<!ENTITY mscapsup "&#x1DDF;"> <!--used for superscript munc-->
+<!ENTITY munc "&#xF225;">
+<!ENTITY muncenl "&#xF226;">
+<!ENTITY Munc "&#xF11A;">
+<!ENTITY nbhy "&#2011;">
+<!ENTITY nenl "&#xEEEF;">
+<!ENTITY nscap "&#x0274;">
+<!ENTITY nsup "&#x1DE0;">
+<!ENTITY odotbl "&#x1ECD;">
+<!ENTITY oenl "&#xEEF0;">
+<!ENTITY openparen "&#x028;">
+<!ENTITY osup "&#x0366;">
+<!ENTITY para "&#x00B6;">
+<!ENTITY parag "&#xF1E1;">
+<!ENTITY pbar "&#xA751;">
+<!ENTITY penl "&#xEEF1;">
+<!ENTITY PFLOUR "&#xA752;">
+<!ENTITY pflour "&#xA753;">
+<!ENTITY pipe "&#x007C;">
+<!ENTITY psquirrel "&#xA755;"> <!--for enlarge flourished p's-->
+<!ENTITY psup "&#xF025;">
+<!ENTITY punctelev "&#xF161;">
+<!ENTITY punctinter "&#xF160;">
+<!ENTITY qscap "&#xEF0C;">
+<!ENTITY qslstrok "&#xA759;">
+<!ENTITY ra "&#x1DD3;">
+<!ENTITY rabar "&#xF1C1;">
+<!ENTITY renl "&#xEEF3;">
+<!ENTITY rpar "&#x029;">
+<!ENTITY Rrot "&#xA75A;">
+<!ENTITY rrot "&#xA75B;">
+<!ENTITY rscap "&#x0280;">
+<!ENTITY rsup "&#x036C;">
+<!ENTITY rum "&#xA75D;"> <!-- crossed rotunda -->
+<!ENTITY senl "&#xEEF4;">
+<!ENTITY sem "&#xF1AC;"> <!-- e.g. dieb; into diebus -->
+<!ENTITY sins "&#xA785;">
+<!ENTITY slong "&#x17F;">
+<!ENTITY slongenl "&#xEEDF;">
+<!ENTITY slongslash "&#x1E9C;"> <!-- secundum abbreviation -->
+<!ENTITY slongsup "&#x1DE5;">
+<!ENTITY sol "&#x002F;">
+<!ENTITY sscap "&#xA731;"> <!-- standing in for Orm's sideways /s/, which he uses as linefiller -->
+<!ENTITY ssup "&#x1DE4;">
+<!ENTITY tenl "&#xEEF5;">
+<!ENTITY THORN "&#xDE;">
+<!ENTITY thorn "&#xFE;">
+<!ENTITY thornbar "&#xA765;">
+<!ENTITY thornenl "&#xEEF6;">
+<!ENTITY thornscap "&#xEF15;">
+<!ENTITY Trot "&#xA876;">
+<!ENTITY tsup "&#x36D;">
+<!ENTITY uenl "&#xEEF7;">
+<!ENTITY urlemn "&#xF1C2;">
+<!ENTITY urrot "&#xF153;">
+<!ENTITY us "&#x1DD2;">
+<!ENTITY usup "&#x0367;">
+<!ENTITY  usmod "&#xA770;"> <!-- for us marks next to rather than on top -->
+<!ENTITY verbarup "&#x2C8;">
+<!ENTITY wenl "&#xEEF9;"> <!--in substituion for enlarged wynns-->
+<!ENTITY wsup "&#xF03C;">
+<!ENTITY WYNN "&#x01f7;">
+<!ENTITY wynn "&#x01BF;">
+<!ENTITY xenl "&#xEEFA;">
+<!ENTITY xldes "&#xF232;">
+<!ENTITY xsup "&#x036F;">
+<!ENTITY ydot "&#x1E8F;">
+<!ENTITY Ydot "&#x1E8E;">
+<!ENTITY yenl "&#xEEFB;">
+<!ENTITY YOGH "&#x021C;">
+<!ENTITY yogh "&#x021D;">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="junius1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Saint Erkenwald</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Not yet published.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>from London, British Library, MS Harley 2250</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <!-- Change log
+      Input underway, by Zach
+      First-pass review underway, by Meg
+   Named entities:
+   #bioAB0001: Zachary Abt, title undecided
+   #bioWO0001: Meg Worley, editor of the Ormulum
+   #bioOrm001: Orm, author of the Ormulum, 12th century
+   #bioWalter001: Walter, brother of Orm, 12th century
+   #bioGod001: God the Father
+   #bioJesus001: Jesus Christ
+   #bioAugustine001: St. Augustine of Hippo
+   #bioHolyGhost001: The Holy Ghost
+   #bioJohn001: John the Apostle
+   #bioAmminadab001: Amminadab (which referent in Bible is unclear & contentious)
+   #bioSolomon001: Solomon
+   #bioSatan001: Satan. The Devil.  Old Nick.
+   
+   #locJordan001: River Jordan
+   
+   Need to deal with &wsup;, &ethsup;, and <am>&erang;</am> at a later point.
+   Also will need to add a STACKED tag so that users can search all stacked letters.
+   
+   Last update: 20may2016 -->
+
+      <body xml:id="junius1.ded.body">
+          <div1 rend="long-line-prose">
+              <title>No text on this page.</title>
+              <pb n="Front Cover" facs="bxa0001"/>
+              <title>No text on this page.</title>
+              <pb n="Inside Cover" facs="bxa0002"/>
+              <title>No text on this page.</title>  
+              <pb n="1r" facs="bxa0003"/>
+              <title>No text on this page.</title>
+              <pb n="1v" facs="bxa0004"/>
+              <title>No text on this page.</title>
+              <pb n="3r" facs="bxa0005"/>
+              <title>The Ormulum: Dedication</title>
+              <cb n="1"/>
+            <l xml:id="junius1.ded.1"><hi rend="h6">N</hi>u bro&thorn;err <name type="person" ref="#bioWalter001"><choice>
+                  <orig>&wynn;allt<am>&erang;</am></orig>
+                  <reg>&WYNN;allt<ex>er</ex></reg>
+               </choice></name><pc rend=",">&middot;</pc> <choice>
+                  <orig>bro&thorn;er&rsup;</orig>
+                  <reg>bro&thorn;err</reg>
+               </choice> min<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.2"><lb/><choice>
+                  <orig>&aenl;fft<am>&erang;</am></orig>
+                  <reg>Afft<ex>er</ex></reg>
+               </choice> &thorn;e fl&aelig;she&slong;&slong; <choice>
+                  <abbr>ki<am>&combmacr;</am>de</abbr>
+                  <expan>ki<ex>n</ex>de</expan>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.3">&ET; <choice>
+                  <orig>bro&thorn;er&rsup;</orig>
+                  <reg>bro&thorn;err</reg>
+               </choice> <lb/>min i <choice>
+                  <orig>cri&slong;&slong;tenndom</orig>
+                  <reg>Chri&slong;&slong;tenndom</reg>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.4">&thorn;urrh ful<pc>&dash;</pc><lb/>luhht<pc>&middot;</pc> &et; &thorn;urrh <choice>
+                  <orig>tro&wynn;&wsup;&thorn;e</orig>
+                  <reg>tro&wynn;&wynn;&thorn;e</reg>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.5">&ET; bro<pc>&dash;</pc><lb/>&thorn;err min i <name type="person" ref="#bioGod001"><choice>
+                  <orig>gode&slong;&slong;</orig>
+                  <reg>Gode&slong;&slong;</reg>
+               </choice></name> hu&slong;<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.6"><choice>
+                  <orig>&ginsenl;e&dblac;t</orig>
+                  <reg>&gins;e&dblac;t</reg>
+               </choice> o &thorn;e &thorn;ri<pc>&dash;</pc><lb/>de &wynn;i&slong;e<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.7">&THORN;urrh &thorn;att &wynn;itt hafenn <choice>
+                  <orig>taken&nsup;</orig>
+                  <reg>takenn</reg>
+               </choice> ba<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.8"><choice>
+                  <orig>&aenl;n</orig>
+                  <reg>An</reg>
+               </choice> <choice>
+                  <orig>re&gins;e&hsup;llboc</orig>
+                  <reg>re&gins;ehllboc</reg>
+               </choice> to <choice>
+                  <orig>foll&gins;&hsup;enn</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.9">Vnn<pc>&dash;</pc><lb/>derr kanunnke&slong;&slong; had<pc>&middot;</pc> &et; lif<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.10">S&wynn;a <choice>
+                  <orig>&slong;um&msup;</orig>
+                  <reg>&slong;umm</reg>
+               </choice> &slong;annt <lb/><name type="person" ref="#bioAugustine001"><choice>
+                  <orig>a&wynn;&wynn;&slong;tin</orig>
+                  <reg>A&wynn;&wynn;&slong;tin</reg>
+               </choice></name> &slong;ette<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.11"><choice>
+                  <orig>Ic&csup;c&csup;</orig>
+                  <reg>Icc</reg>
+               </choice> hafe don &slong;&wynn;a <choice>
+                  <orig>&slong;um&msup;</orig>
+                  <reg>&slong;umm</reg>
+               </choice> &thorn;u badd <pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.12">&et; <lb/>for&thorn;edd te <choice>
+                  <orig>&thorn;i&nsup;</orig>
+                  <reg>&thorn;in</reg>
+               </choice> &wynn;ille<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.13"><pc>&parag;</pc> <choice>
+                  <orig>Ic&csup;c&csup;</orig>
+                  <reg>Icc</reg>
+               </choice> hafe <choice>
+                  <orig>&wynn;en&nsup;d</orig>
+                  <reg>&wynn;ennd</reg>
+               </choice> <choice>
+                  <orig>in&nsup;till</orig>
+                  <reg>inntill</reg>
+               </choice> <choice>
+                  <orig>enn<pc>&dash;</pc><lb/>gli&slong;&slong;h</orig>
+                  <reg>Enn<pc>&dash;</pc><lb/>gli&slong;&slong;h</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.14">godd&slong;pelle&slong;&slong; <choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> la&combacute;re<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.15"><choice>
+                  <abbr>Afft<am>&erang;</am></abbr>
+                  <expan>Afft<ex>er</ex></expan>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <choice>
+                  <orig>lit&tsup;le</orig>
+                  <reg>little</reg>
+               </choice> <lb/>&wynn;itt &thorn;att me<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.16"><choice>
+                  <orig>&munc;in</orig>
+                  <reg>Min</reg>
+               </choice> drihhtin <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> lenedd<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.17"><lb/><pc>&parag;</pc> &THORN;u &thorn;ohhte&slong;&slong;t tatt
+                itt mihhte &wynn;el<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.18">till mi<pc>&dash;</pc><lb/>kell frame <choice>
+                  <orig>tur&rsup;nen&nsup;</orig>
+                  <reg>turrnenn</reg>
+               </choice> <pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.19">&GINS;iff <choice>
+                  <orig>enngli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> follc<pc>&middot;</pc> <lb/>forr lufe off <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name>&middot;
+            </l>
+            <l xml:id="junius1.ded.20">Itt &wynn;ollde &gins;erne lernenn<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.21"><lb/>&ET; <choice>
+                  <orig>foll&gins;&hsup;en&nsup;</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice> itt &et; fillenn itt<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.22">&WYNN;i&thorn;&thorn; &thorn;ohht, &wynn;i&thorn;&thorn;
+                &wynn;ord, <lb/>&wynn;i&thorn;&thorn; dede<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.23"> &ET; <choice>
+                  <orig>for&rsup;&thorn;i</orig>
+                  <reg>forr&thorn;i</reg>
+               </choice> &gins;errnde&slong;&slong;t tu <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> icc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.24"><choice>
+                  <orig>&thornenl;i&slong;&slong;</orig>
+                  <reg>&THORN;i&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>&wynn;er&rsup;c</orig>
+                  <reg>&wynn;errc</reg>
+               </choice> <lb/>&thorn;e &slong;hollde <choice>
+                  <orig>&wynn;ir&rsup;ken&nsup;</orig>
+                  <reg>&wynn;irrkenn</reg>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.25">&ET; icc itt hafe for&thorn;edd te<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.26"><choice>
+                  <orig>&aenl;cc</orig>
+                  <reg>Acc</reg>
+               </choice> all &thorn;urrh <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;te&slong;&slong;</orig>
+                  <reg>Chri&slong;te&slong;&slong;</reg>
+               </choice></name> hellpe<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.27">&ET; <choice>
+                  <orig>un&nsup;c</orig>
+                  <reg>unnc</reg>
+               </choice> <choice>
+                  <orig>bir&rsup;&thorn;</orig>
+                  <reg>birr&thorn;</reg>
+               </choice> ba&thorn;e <lb/><choice>
+                  <orig>&thorn;an&nsup;kenn</orig>
+                  <reg>&thorn;annkenn</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.28"><choice>
+                  <abbr>&thornenl;<am>&combmacr;</am></abbr>
+                  <expan>&THORN;<ex>att</ex></expan>
+               </choice> itt i&slong;&slong; brohht till ende<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.29"><lb/><pc>&parag;</pc> Icc hafe <choice>
+                  <orig>&slong;am&msup;nedd</orig>
+                  <reg>&slong;ammnedd</reg>
+               </choice> o &thorn;i&slong;&slong; boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.30"><choice>
+                  <orig>&thornenl;a</orig>
+                  <reg>&THORN;a</reg>
+               </choice> godd&slong;pelle&slong;&slong; neh  <lb/>alle<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.31"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> &slong;inndenn o &thorn;e me&slong;&slong;eboc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.32"><choice>
+                  <orig>In&nsup;</orig>
+                  <reg>Inn</reg>
+               </choice> all &thorn;e &gins;er<lb/>att me&slong;&slong;e<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.33"><pc>&parag;</pc> &et; a&gins;&gins; <choice>
+                  <orig>affter&rsup;</orig>
+                  <reg>affterr</reg>
+               </choice> &thorn;e &slong;pell &slong;tannt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.34"><choice>
+                  <abbr>&thornenl;<am>&combmacr;</am></abbr>
+                  <expan>&THORN;<ex>att</ex></expan>
+               </choice> <lb/>tatt te godd&slong;pell <choice>
+                  <orig>mene&thorn;&ethsup;</orig>
+                  <reg>mene&thorn;&thorn;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.35">&THORN;att mann birr&thorn; &slong;pel<pc>&dash;</pc><lb/>lenn to &thorn;e follc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.36"><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> &thorn;e&gins;&gins;re &slong;a&wynn;le nede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.37">&ET; &gins;et t&aelig;r te<pc>&dash;</pc><lb/>kenn mare
+                    inoh<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.38"><choice>
+                  <orig>&thornenl;u</orig>
+                  <reg>&THORN;u</reg>
+               </choice> &slong;hallt t&aelig;r onne findenn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.39">Off &thorn;att tatt <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;te&slong;&slong;</orig>
+                  <reg>Chri&slong;te&slong;&slong;</reg>
+               </choice></name> <choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> &thorn;ed<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.40"><choice>
+                  <orig>Bir&rsup;&thorn;</orig>
+                  <reg>Birr&thorn;</reg>
+               </choice> <choice>
+                  <orig>tro&wynn;&wynn;en&nsup;</orig>
+                  <reg>tro&wynn;&wynn;enn</reg>
+               </choice> <lb/>&wynn;el<pc>&middot;</pc> &et; <choice>
+                  <orig>foll&gins;&hsup;enn</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.41"><pc>&parag;</pc>Icc hafe &slong;ett her o
+                &thorn;i&slong;&slong; boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.42"><choice>
+                  <orig>&aenl;ma<am>&combmacr;</am>g</orig>
+                  <reg>A;ma<ex>n</ex>g</reg>
+               </choice> <lb/>godd&slong;pelle&slong;&slong;
+                    &wynn;orde&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.43">All &thorn;urrh me <choice>
+                  <orig>&slong;ellfen&nsup;</orig>
+                  <reg>&slong;ellfenn</reg>
+               </choice> mani&gins; <lb/>&wynn;ord<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.44"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> rime &slong;&wynn;a to fillenn<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.45">Acc &thorn;u &slong;hallt findenn <lb/>&thorn;att min
+                    &wynn;ord<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.46"><choice>
+                  <orig>&eenl;&gins;&gins;&wynn;h&aelig;r</orig>
+                  <reg>E&gins;&gins;&wynn;h&aelig;r</reg>
+               </choice> &thorn;&aelig;r itt i&slong;&slong;
+                    ekedd<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.47"><choice>
+                  <orig>&Munc;a&gins;&gins;</orig>
+                  <reg>Ma&gins;&gins;</reg>
+               </choice> <lb/><choice>
+                  <orig>hellpen&nsup;</orig>
+                  <reg>hellpenn</reg>
+               </choice> &thorn;a <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> redenn itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.48">To &slong;en<pc>&middot;</pc> &et; <choice>
+                  <orig>tunnder&rsup;&slong;tannden&nsup;</orig>
+                  <reg>tunnderr&slong;tanndenn</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.49"><lb/>All &thorn;e&slong;&slong; te bettre hu &thorn;e&gins;&gins;m
+                    birr&thorn;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.50"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> godd&slong;pell <lb/>unnderr&slong;tanndenn<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.51">&ET; <choice>
+                  <orig>for&rsup;&thorn;i</orig>
+                  <reg>forr&thorn;i</reg>
+               </choice> tro&wynn;&wynn;e icc &thorn;att te <lb/>birr&thorn;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.52">&WYNN;el &thorn;olenn mine &wynn;orde&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.53"><choice>
+                  <orig>&Eunc;&gins;&gins;&wynn;h&aelig;r</orig>
+                  <reg>E&gins;&gins;&wynn;h&aelig;r</reg>
+               </choice> &thorn;&aelig;r &thorn;u shallt <choice>
+                  <orig>finden&nsup;he<am>&dblovl;</am></orig>
+                  <reg>findennhe<ex>mm</ex></reg>
+               </choice><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.54"><choice>
+                  <orig>&aenl;ma<am>&combmacr;</am>g</orig>
+                  <reg>Ama<ex>n</ex>g</reg>
+               </choice> &slong;pelle&slong;&slong; &wynn;orde&slong;&slong;<pc rend=".">&middot;</pc> 
+            </l>
+
+            <l xml:id="junius1.ded.55"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <lb/>&wynn;ha&slong;e mot&combdblac; to l&aelig;&wynn;edd
+                    follc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.56">Lar&slong;pell off godd&slong;pell <lb/>tellen<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.57">He mot&combdblac; &wynn;el ekenn mani&gins;
+                    &wynn;ord<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.58"><choice>
+                  <orig>&aenl;mang</orig>
+                  <reg>Amang</reg>
+               </choice> <lb/>godd&slong;pelle&slong;&slong; &wynn;orde&slong;&slong;<pc rend=".">&middot;</pc> 
+            </l>
+
+            <l xml:id="junius1.ded.59"> &ET; icc ne mihhte nohht min <lb/><choice>
+                  <orig>fer&rsup;&slong;</orig>
+                  <reg>ferr&slong;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.60"><choice>
+                  <orig>&aenl;&gins;&gins;</orig>
+                  <reg>A&gins;&gins;</reg>
+               </choice> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> godd&slong;pelle&slong;&slong;
+                    &wynn;orde&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.61">&WYNN;el <choice>
+                  <orig>fillen&nsup;</orig>
+                  <reg>fillenn</reg>
+               </choice> all<pc>&middot;</pc> &et; all <lb/>forr&thorn;i<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.62"><choice>
+                  <orig>&sscap;hollde</orig>
+                  <reg>Shollde</reg>
+               </choice> icc &wynn;ell offte nede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.63"><choice>
+                  <abbr>Ama<am>&combmacr;</am>g</abbr>
+                  <expan>Ama<ex>n</ex>g</expan>
+               </choice> godd&slong;pelle&slong;&slong; <lb/>&wynn;orde&slong;&slong; don<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.64"><choice>
+                  <orig>&muncenl;in</orig>
+                  <reg>Min</reg>
+               </choice> &wynn;ord<pc>&middot;</pc> &munc;in <choice>
+                  <orig>fer&rsup;&slong;</orig>
+                  <reg>ferr&slong;</reg>
+               </choice> to <choice>
+                  <orig>fillen&nsup;</orig>
+                  <reg>fillenn</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+
+            <l xml:id="junius1.ded.65"><pc>&parag;</pc> &ET; te bit&aelig;<pc>&dash;</pc><lb/>che
+                icc off &thorn;i&slong;&slong; boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.66"><choice>
+                  <orig>&henl;eh</orig>
+                  <reg>Heh</reg>
+               </choice> &wynn;ikenn<pc>&middot;</pc> all&slong; itt <choice>
+                  <orig>&slong;em&thorn;&ethsup;</orig>
+                  <reg>&slong;em&thorn;&thorn;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.67">All to  <lb/><choice>
+                  <orig>&thorn;urrh&slong;eken&nsup;</orig>
+                  <reg>&thorn;urrh&slong;ekenn</reg>
+               </choice> illc an <choice>
+                  <orig>fer&rsup;&slong;</orig>
+                  <reg>ferr&slong;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.68">&et; to <choice>
+                  <orig>&thorn;urrhloken&nsup;</orig>
+                  <reg>&thorn;urrhlokenn</reg>
+               </choice> offte &punctelev;
+            </l>
+            <l xml:id="junius1.ded.69"><choice>
+                  <orig>&THORN;at&tsup;</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <lb/>upponn all &thorn;i&slong;&slong; boc ne be<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.70"><choice>
+                  <orig>&nenl;an</orig>
+                  <reg>Nan</reg>
+               </choice> &wynn;ord &gins;&aelig;n <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;te&slong;&slong;</orig>
+                  <reg>Chri&slong;te&slong;&slong;</reg>
+               </choice></name> lare<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.71"><lb/>Nan &wynn;ord tatt &slong;&wynn;i&thorn;e &wynn;el ne
+                    be<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.72">to <choice>
+                  <orig>tro&wynn;&wynn;en&nsup;</orig>
+                  <reg>tro&wynn;&wynn;enn</reg>
+               </choice><pc>&middot;</pc> &et;to <choice>
+                  <orig>foll&gins;&hsup;enn</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.73"><lb/><pc>&parag;</pc>&WYNN;itt <choice>
+                  <orig>&slong;hulen&nsup;</orig>
+                  <reg>&slong;hulenn</reg>
+               </choice> tredenn unnderr fot&combdblac;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.74">&ET; all &thorn;&wynn;errt ut&combdblac; <lb/><choice>
+                  <orig>forr&wynn;er&rsup;penn</orig>
+                  <reg>forr&wynn;errpenn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.75">&THORN;e dom off all &thorn;att la&thorn;e flocc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.76">&thorn;att i&slong;&slong; <lb/>&thorn;urrh ni&thorn; <choice>
+                  <orig>for&rsup;ble<am>&combmacr;</am>dedd</orig>
+                  <reg>forrble<ex>n</ex>dedd</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+                <l xml:id="junius1.ded.77"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <choice>
+                  <orig>t&aelig;le&thorn;&ethsup;</orig>
+                  <reg>t&aelig;le&thorn;&thorn;</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> to <choice>
+                  <orig>lofen&nsup;</orig>
+                  <reg>lofenn</reg>
+               </choice> i&slong;&slong;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.78"><choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> <lb/>ni&thorn;full modi&gins;ne&slong;&slong;e<pc rend=".">&middot;</pc> 
+            </l>
+                
+            <l xml:id="junius1.ded.79">&parag; &THORN;e&gins;&gins; <choice>
+                  <orig>&slong;hulen&nsup;</orig>
+                  <reg>&slong;hulenn</reg>
+               </choice> l&aelig;&combacute;tenn
+                h&aelig;&thorn;eli&gins;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.80"><lb/><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> <choice>
+                  <orig>unnker&rsup;</orig>
+                  <reg>unnkerr</reg>
+               </choice> <choice>
+                  <abbr>&slong;&wynn;i<am>&dblovl;</am>c</abbr>
+                  <expan>&slong;&wynn;i<ex>nn</ex>c</expan>
+               </choice>, lef <choice>
+                  <orig>bro&thorn;er&rsup;</orig>
+                  <reg>bro&thorn;err</reg>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.81">&ET; all &thorn;e&gins;&gins; &slong;hulenn <choice>
+                  <orig>taken&nsup;</orig>
+                  <reg>takenn</reg>
+               </choice> <lb/>itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.82"><choice>
+                  <orig>&oenl;nn</orig>
+                  <reg>Onn</reg>
+               </choice> unnitt<pc>&middot;</pc> &et; onn idell<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.83"><choice>
+                  <orig>Ac&csup;</orig>
+                  <reg>Acc</reg>
+               </choice> nohht <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> &slong;kill<pc>&middot;</pc> acc all <lb/>&thorn;urrh ni&thorn;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.84">&et; all &thorn;urrh
+                &thorn;e&gins;&gins;re <choice>
+                  <orig>&slong;inn&eogon;
+</orig>
+                  <reg>&slong;inne
+</reg>
+               </choice>                    <!-- This /e/ has both an extended bar AND caudata, which MUFI offers no option for.  I have privileged 
+                    the caudata over the extended bar because it is probably more relevant for scholars. -->
+                <pc rend=".">&middot;</pc> 
+            </l>
+                
+            <l xml:id="junius1.ded.85">&ET; <choice>
+                  <orig>un&nsup;c</orig>
+                  <reg>unnc</reg>
+               </choice> <choice>
+                  <orig>bir&rsup;&thorn;</orig>
+                  <reg>birr&thorn;</reg>
+               </choice> bid<pc>&dash;</pc><lb/>denn <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name> tatt he<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.86"><choice>
+                  <orig>&fenl;orrgife</orig>
+                  <reg>Forrgife</reg>
+               </choice> <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice> here &slong;inne<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.87">&ET; unnc <lb/>birr&thorn; ba&thorn;e <choice>
+                  <orig>lofen&nsup;</orig>
+                  <reg>lofenn</reg>
+               </choice> <pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.88"><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> &thorn;att itt &wynn;a&slong;&slong; <choice>
+                  <abbr>bigu<am>&combmacr;</am>nenn</abbr>
+                  <expan>bigu<ex>n</ex>nenn</expan>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.89"><lb/>&ET; &thorn;annkenn <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name> tatt itt i&slong;&slong; brohht<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.90"><choice>
+                  <orig>&tenl;ill</orig>
+                  <reg>Till</reg>
+               </choice> ende <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> <lb/>hi&slong;&slong; hellpe<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.91">Forr itt ma&gins;&gins; hellpenn alle &thorn;a<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.92">&THORN;att <lb/>bli&thorn;elike itt herenn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.93">&ET; <choice>
+                  <orig>lufen&nsup;</orig>
+                  <reg>lufenn</reg>
+               </choice> itt<pc rend=",">&middot;</pc> &et; <choice>
+                  <orig>foll&gins;&hsup;en&nsup;</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice> itt<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.94"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> <lb/>&thorn;ohht<pc rend=",">&middot;</pc> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> &wynn;ord<pc rend=",">&middot;</pc> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> dede<pc rend=".">&middot;</pc> 
+                <!-- two parallel horizontal lines go until the end of the parchment --> 
+            </l>
+              <pb n="3v" facs="bxa0006"/><cb n="1"/><!-- Wrong image reference - need to find the image -->
+              <l xml:id="junius1.ded.95"><lb/><pc>&parag;</pc> &ET; pha &slong;e &wynn;ilenn &slong;hall &thorn;i&slong;&slong; boc<pc>&middot;</pc> 
+              </l>
+              <l xml:id="junius1.ded.96"><choice>
+                  <orig>&eenl;fft</orig>
+                  <reg>Efft</reg>
+              </choice> <choice>
+                  <orig>o<pc>&dash;</pc><lb/>&thorn;er&rsup;</orig>
+                  <reg>o<pc>&dash;</pc><lb/>&thorn;err</reg>
+              </choice> &slong;i&thorn;e &wynn;ritenn<pc rend=",">&punctelev;</pc> 
+              </l>
+              <l xml:id="junius1.ded.97"><choice>
+                  <orig>Him&msup;</orig>
+                  <reg>Himm</reg>
+              </choice> bidde icc <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+              </choice> het&combdblac; <lb/>&wynn;rit&combacute;e rihht<pc>&middot;</pc> 
+              </l>
+              <l xml:id="junius1.ded.98"><choice>
+                  <orig>&sscap;&wynn;a</orig>
+                  <reg>S&wynn;a</reg>
+              </choice> <choice>
+                  <orig>&slong;um&msup;</orig>
+                  <reg>&slong;umm</reg>
+              </choice> &thorn;i&slong;&slong; boc <choice>
+                  <abbr>hi<am>&dblovl;</am></abbr>
+                  <expan>hi<ex>mm</ex></expan>
+              </choice> <choice>
+                  <orig>t&aelig;che&thorn;&ethsup;</orig>
+                  <reg>t&aelig;che&thorn;&thorn;</reg>
+              </choice>, 
+              </l>
+              <l xml:id="junius1.ded.99"><lb/>All &thorn;&wynn;errt ut&combdblac; affterr &thorn;att itt i&slong;&slong;<pc>&punctelev;</pc> 
+              </l>
+              <l xml:id="junius1.ded.100"><choice>
+                  <orig>&uenl;pp</orig>
+                  <reg>Upp</reg>
+              </choice> o <lb/>&thorn;i&slong;&slong; firr&slong;te bi&slong;ne<pc rend=",">&middot;</pc>         
+              </l>
+            <l xml:id="junius1.ded.101"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> all &slong;&wynn;illc ri&combacute;me all<lb/>&slong;her i&slong;&slong; &slong;ett<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.102"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> all &slong;e fele &wynn;orde&slong;&slong;<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.103">&ET; tatt <lb/>he loke &wynn;el &thorn;att he<pc>&middot;</pc> 
+                </l>
+            <l xml:id="junius1.ded.104"><choice>
+                  <orig>&aenl;n</orig>
+                  <reg>An</reg>
+               </choice> boc&slong;taff &wynn;ri&combacute;te twi&gins;<pc>&dash;</pc>&gins;e&slong;&slong;<pc>middot</pc> 
+            </l>
+            <l xml:id="junius1.ded.105"><choice>
+                  <orig>&Eunc;&gins;&gins;&wynn;h&aelig;r</orig>
+                  <reg>E&gins;&gins;&wynn;h&aelig;r</reg>
+               </choice> &thorn;&aelig;r itt upp o &thorn;i&slong;&slong; boc<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.106">I&slong;&slong; <choice>
+                  <orig>&wynn;ri&combbreve;<pc>&dash;</pc><lb/>ten&nsup;</orig>
+                  <reg>&wynn;ri&combbreve;<pc>&dash;</pc><lb/>tenn</reg>
+               </choice> o &thorn;att &wynn;i&slong;e<pc rend=".">&middot;</pc> 
+            </l> 
+            <l xml:id="junius1.ded.107">Loke he &wynn;el <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> het&combdblac; &wynn;rite &slong;&wynn;a<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.108"><lb/><choice>
+                  <orig>&fenl;or&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> he ne ma&gins;&gins; nohht elle&slong;&slong;<pc>&middot;</pc> 
+                </l>
+            <l xml:id="junius1.ded.109">Onn <choice>
+                  <orig>en&nsup;gli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> <lb/>&wynn;ri&combacute;ttenn rihht te &wynn;ord<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.110"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> &wynn;ite he &wynn;el to <lb/>&slong;o&thorn;e<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.111"><pc>&parag;</pc> &et; &gins;iff
+                <!-- solid black circle tie-sign -->
+                <metamark rend="line" function="connector" target="#mann01"/><add xml:id="mann01" place="marginRight">mann</add> 
+                &wynn;ile <gap quantity="1" unit="char" reason="inked-out"/> <choice>
+                  <orig>&wynn;&combbreve;iten&nsup;</orig>
+                  <reg>&wynn;&combbreve;itenn</reg>
+               </choice> &wynn;hi<pc>&middot;</pc> 
+            </l>
+              <l xml:id="junius1.ded.112"> <choice>
+                  <orig>Ic&csup;</orig>
+                  <reg>Icc</reg>
+              </choice> hafe <lb/>don &thorn;i&slong;&slong; dede<pc rend="&amp;mdash;">&middot;</pc> 
+              </l>
+            <l xml:id="junius1.ded.113">&WYNN;hi icc till <choice>
+                  <orig>enngli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> hafe <choice>
+                  <abbr>&wynn;e<am>&dblovl;</am>d</abbr>
+                  <expan>&wynn;e<ex>nn</ex>d</expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.114"><lb/><choice>
+                  <orig>&genl;odd&slong;pelle&slong;&slong;</orig>
+                  <reg>Godd&slong;pelle&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> lare<pc rend="&amp;mdash;">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.115">Icc hafe <choice>
+                  <orig>it&tsup;</orig>
+                  <reg>itt</reg>
+               </choice> don <choice>
+                  <orig>for&rsup;<lb/>&thorn;i</orig>
+                  <reg>forr<lb/>&thorn;i</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> all<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.116"><choice>
+                  <orig>&cenl;ri&slong;&slong;tene</orig>
+                  <reg>Cri&slong;&slong;tene</reg>
+               </choice> follke&slong;&slong; <choice>
+                  <orig>ber&rsup;hle&slong;&slong;</orig>
+                  <reg>berrhle&slong;&slong;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.117">I&slong;&slong; <choice>
+                  <abbr>la<am>&combmacr;</am>g</abbr>
+                  <expan>la<ex>n</ex>g</expan>
+               </choice> <choice>
+                  <orig>up&psup;</orig>
+                  <reg>upp</reg>
+               </choice> <lb/>o <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> an<pc rend=",">&middot;</pc> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> te&gins;&gins;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.118"><choice>
+                  <orig>&genl;odd&slong;pelle&slong;&slong;</orig>
+                  <reg>Godd&slong;pelle&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> lare<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.119"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> <lb/>fulle mahhte <choice>
+                  <orig>foll&gins;&hsup;e</orig>
+                  <reg>foll&gins;he</reg>
+               </choice> rihht<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.120">&THORN;urrh &thorn;ohht<pc rend=",">&middot;</pc> <lb/>&thorn;urrh &wynn;ord<pc rend=",">&middot;</pc> &thorn;urrh
+                    dede<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.121">Forr all &thorn;att &aelig;fre <lb/>onn er&thorn;e i&slong;&slong; ned<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.122"><choice>
+                  <orig>&cenl;ri&slong;&slong;tene</orig>
+                  <reg>Cri&slong;&slong;tene</reg>
+               </choice> follc to <choice>
+                  <orig>foll&gins;&hsup;enn</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.123"><lb/>I tro&wynn;&wynn;&thorn;e<pc>&middot;</pc> i dede<pc>&punctelev;</pc> all <choice>
+                  <orig>t&aelig;che&thorn;&ethsup;</orig>
+                  <reg>t&aelig;che&thorn;&thorn;</reg>
+               </choice> <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.124"><choice>
+                  <orig>&genl;odd&slong;pelle&slong;&slong;</orig>
+                  <reg>Godd&slong;pelle&slong;&slong;</reg>
+               </choice> <lb/><choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> lare<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.125">&et; <choice>
+                  <orig>for&rsup;&thorn;i</orig>
+                  <reg>forr&thorn;i</reg>
+               </choice> <pc>&middot;</pc> &wynn;ha&slong;e <choice>
+                  <orig>lerne&thorn;&ethsup;</orig>
+                  <reg>lerne&thorn;&thorn;</reg>
+               </choice> <choice>
+                  <orig>it&tsup;</orig>
+                  <reg>itt</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.126">&ET; <choice>
+                  <orig>foll&gins;&hsup;e&thorn;&ethsup;</orig>
+                  <reg>foll&gins;he&thorn;&thorn;</reg>
+               </choice> <lb/>itt <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> dede<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.127">He &slong;hall <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> ende &wynn;urr&thorn;i ben<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.128"><choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> <lb/><name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name> to &wynn;urr&thorn;enn <choice>
+                  <orig>borr&gins;&hsup;enn</orig>
+                  <reg>borr&gins;henn</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.129">&ET; t&aelig;rfore hafe <lb/>icc <choice>
+                  <orig>tur&rsup;nedd</orig>
+                  <reg>turrnedd</reg>
+               </choice> itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.130"><choice>
+                  <orig>In&nsup;till</orig>
+                  <reg>Inntill</reg>
+               </choice> <choice>
+                  <orig>enngli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> &slong;p&aelig;che<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.131"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <lb/>&thorn;att i &wynn;ollde bli&thorn;eli&gins;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.132"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> all <choice>
+                  <orig>en&nsup;glis&slong;&slong;he</orig>
+                  <reg>Ennglis&slong;&slong;he</reg>
+               </choice> lede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.133"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> <lb/>&aelig;re &slong;hollde <choice>
+                  <orig>li&slong;&slong;ten&nsup;</orig>
+                  <reg>li&slong;&slong;tenn</reg>
+               </choice> itt<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.134"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> herrte &slong;hollde itt tro&wynn;<pc>&dash;</pc><lb/>&wynn;enn<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.135"> <choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> tunge &slong;hollde &slong;pellenn itt<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.136"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> dede &slong;holl<pc>&dash;</pc><lb/>de itt <choice>
+                  <orig>foll&gins;&hsup;enn</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.137">To <choice>
+                  <abbr>&wynn;i<am>&combmacr;</am>nenn</abbr>
+                  <expan>&wynn;i<ex>n</ex>nenn</expan>
+               </choice> unnderr cri&slong;&slong;tenndom<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.138"><choice>
+                  <orig>&aenl;tt</orig>
+                  <reg>Att</reg>
+               </choice> <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name> &slong;o&thorn; &slong;a&wynn;le berrhle&slong;&slong;<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.139">&ET; &gins;iff &thorn;e&gins;&gins; <choice>
+                  <orig>&wynn;ilen&nsup;</orig>
+                  <reg>&wynn;ilenn</reg>
+               </choice> <choice>
+                  <orig>heren&nsup;</orig>
+                  <reg>herenn</reg>
+               </choice> <lb/>itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.140">&ET; <choice>
+                  <orig>foll&gins;&hsup;en&nsup;</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice> <choice>
+                  <orig>it&tsup;</orig>
+                  <reg>itt</reg>
+               </choice> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> dede<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.141"><choice>
+                  <orig>Ic&csup;</orig>
+                  <reg>Icc</reg>
+               </choice> hafe <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice> hollpenn unn<pc>&dash;</pc><lb/>derr <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.142"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <choice>
+                  <abbr>&wynn;i<am>&combmacr;</am>nenn</abbr>
+                  <expan>&wynn;i<ex>n</ex>nenn</expan>
+               </choice> <choice>
+                  <orig>&thorn;e&gins;&gsup;re</orig>
+                  <reg>&thorn;e&gins;&gins;re</reg>
+               </choice> berrhle&slong;&slong;<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.143">&ET; i &slong;hall <lb/><choice>
+                  <orig>hafen&nsup;</orig>
+                  <reg>hafenn</reg>
+               </choice> forr <choice>
+                  <orig>mi&nsup;</orig>
+                  <reg>min</reg>
+               </choice> &slong;&wynn;innc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.144"><choice>
+                  <orig>&genl;od</orig>
+                  <reg>God</reg>
+               </choice> l&aelig;n att <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name> onn ende<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.145"><lb/>&GINS;iff &thorn;att i, <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> &thorn;e lufe off <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.146">&ET; <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> &thorn;e mede off <lb/>heffne<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.147"> <choice>
+                  <orig>Hem&msup;</orig>
+                  <reg>Hemm</reg>
+               </choice> hafe itt inntill <choice>
+                  <orig>en&nsup;gli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> <choice>
+                  <orig>&wynn;en&nsup;d</orig>
+                  <reg>&wynn;ennd</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.148"><choice>
+                  <orig>&fenl;orr</orig>
+                  <reg>Forr</reg>
+               </choice> <lb/>&thorn;e&gins;&gins;re &slong;a&wynn;le nede<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.149">&ET; &gins;iff &thorn;e&gins;&gins; all <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> <choice>
+                  <orig>&wynn;er&rsup;pen&nsup;</orig>
+                  <reg>&wynn;errpenn</reg>
+               </choice> <choice>
+                  <orig>it&tsup;</orig>
+                  <reg>itt</reg>
+               </choice><pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.150">Itt <lb/><choice>
+                  <orig>turrne&thorn;&ethsup;</orig>
+                  <reg>turrne&thorn;&thorn;</reg>
+               </choice> <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice> till &slong;inne<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.151">&ET; i &slong;hall hafenn addledd me<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.152"><lb/><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> laferrd <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;te&slong;&slong;</orig>
+                  <reg>Chri&slong;te&slong;&slong;</reg>
+               </choice></name> are<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.153">&THORN;urrh <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> icc hafe <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice> &wynn;rohht <lb/>ti&slong;&slong; boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.154"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> &thorn;e&gins;&gins;re &slong;a&wynn;le nede<pc rend=','>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.155">&THORN;ohh <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> te&gins;&gins; all <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> <choice>
+                  <orig>&wynn;er&rsup;<pc>&dash;</pc><lb/>pen&nsup;</orig>
+                  <reg>&wynn;err<pc>&dash;</pc><lb/>penn</reg>
+               </choice> itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.156"><choice>
+                  <orig>&thornenl;urrh</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> &thorn;e&gins;&gins;re modi&gins;ne&slong;&slong;e.
+            </l>
+                
+                <!-- giant T --> 
+                
+            <l xml:id="junius1.ded.157"><pc>&parag;</pc> Godd&slong;pell <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> <lb/><choice>
+                  <orig>enngli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> <choice>
+                  <orig>nem&msup;nedd</orig>
+                  <reg>nemmnedd</reg>
+               </choice> i&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.158">god &wynn;ord<pc>&middot;</pc> &et; god ti&thorn;ennde<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.159">God errnde<pc rend=",">&middot;</pc> forr&thorn;i &thorn;att itt &wynn;a&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.160"><choice>
+                  <orig>&thornenl;urrh</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> <choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> godd<pc>&dash;</pc><lb/>&slong;pell&wynn;rihhte&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.161"> All &wynn;rohht<pc>&middot;</pc> &et; <choice>
+                  <orig>&wynn;ri&combbreve;ten&nsup;</orig>
+                  <reg>&wynn;ri&combbreve;tenn</reg>
+               </choice> upp o boc<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.162"><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;te&slong;&slong;</orig>
+                  <reg>Chri&slong;te&slong;&slong;</reg>
+               </choice></name> fir&slong;te come<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.163">Off hu &slong;o&thorn; &wynn;a&slong;&slong; <choice>
+                  <orig>&wynn;urr&thorn;en&nsup;</orig>
+                  <reg>&wynn;urr&thorn;en</reg>
+               </choice> <choice>
+                  <orig>man&nsup;</orig>
+                  <reg>mann</reg>
+               </choice><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.164"><choice>
+                  <orig>&fenl;or&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> all mannkinne nede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.165"><pc>&parag;</pc>&ET; off <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> mannkinn &thorn;urrh <lb/>hi&slong;&slong; d&aelig;&thorn;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.166">&WYNN;a&slong;&slong; le&slong;edd ut&combdblac; 
+                <metamark rend="line" function="connector" target="#off01"/> <add xml:id="off01" place="marginLeft">off</add> helle<pc>&middot;</pc> 
+                </l>
+            <l xml:id="junius1.ded.167"><pc>&parag;</pc>&ET; off &thorn;att he &wynn;i&slong;&slong;like ra&slong;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.168"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> &thorn;ridde da&gins;&gins; off d&aelig;&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.169">&ET; off <choice>
+                  <orig>&thorn;at&tsup;</orig>
+                  <reg>&thorn;att</reg>
+               </choice> he &wynn;isslike &slong;tah<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.170"><choice>
+                  <orig>&thornenl;a</orig>
+                  <reg>&THORN;a</reg>
+               </choice> &slong;i&thorn;<pc>&dash;</pc>&thorn;enn upp till heffne<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.171"><pc>&parag;</pc> <gap quantity="1" unit="lines" reason="inked-out"/><pc>&parag;</pc> &et; off &thorn;att he &slong;hall <choice>
+                  <orig>cumen&nsup;</orig>
+                  <reg>cumenn</reg>
+               </choice> efft<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.172"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <choice>
+                  <orig>demen&nsup;</orig>
+                  <reg>demenn</reg>
+               </choice> alle &thorn;ede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.173">&et; <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> to <choice>
+                  <orig>&gins;el<pc>&dash;</pc><lb/>den&nsup;</orig>
+                  <reg>&gins;el<pc>&dash;</pc><lb/>denn</reg>
+               </choice> i&wynn;hillc <choice>
+                  <orig>man&nsup;</orig>
+                  <reg>mann</reg>
+               </choice><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.174"><choice>
+                  <orig>&aenl;ffterr</orig>
+                  <reg>Affterr</reg>
+               </choice> hi&slong;&slong; <choice>
+                  <orig>a&gins;&hsup;en&nsup;</orig>
+                  <reg>a&gins;henn</reg>
+               </choice> dede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.175">Off all &thorn;i&slong;&slong; god u&slong;&slong; <choice>
+                  <orig>brinnge&thorn;&ethsup;</orig>
+                  <reg>brinnge&thorn;&thorn;</reg>
+               </choice> &wynn;ord<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.176">&et; <choice>
+                  <orig>er&rsup;nde</orig>
+                  <reg>errnde</reg>
+               </choice><pc>&middot;</pc> &et; god <choice>
+                  <orig>ti&thorn;en&nsup;de</orig>
+                  <reg>ti&thorn;ennde</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.177">Godd&slong;pell<pc>&middot;</pc> &et; forr&thorn;i ma&gins;&gins; itt
+                    &wynn;el<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.178"><choice>
+                  <orig>&genl;od</orig>
+                  <reg>God</reg>
+               </choice> errnde ben <choice>
+                  <orig>&gins;ehaten&nsup;</orig>
+                  <reg>&gins;ehatenn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.179"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> mann ma&gins;&gins; upp o  Godd&slong;pell boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.180"><choice>
+                  <orig>&genl;odne&slong;&slong;e&slong;&slong;</orig>
+                  <reg>Godne&slong;&slong;e&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>finden&nsup;</orig>
+                  <reg>findenn</reg>
+               </choice> &slong;eff<pc>&dash;</pc><lb/>ne<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.181"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> ure laferrd <name type="person" ref="#bioJesus001">ie&slong;u <choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.182"><choice>
+                  <orig>&uenl;&slong;&slong;</orig>
+                  <reg>U&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> don onn er<pc>&dash;</pc><lb/>&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.183">&THORN;urrh &thorn;att he <choice>
+                  <orig>com&msup;</orig>
+                  <reg>comm</reg>
+               </choice> to <choice>
+                  <abbr>ma<am>&combmacr;</am>ne</abbr>
+                  <expan>ma<ex>n</ex>ne</expan>
+               </choice><pc>&middot;</pc> &et; &thorn;urrh<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.184"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> he &wynn;arr&thorn; <lb/>mann <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc rend=".">&middot;</pc> 
+                </l>
+            
+            
+            <l xml:id="junius1.ded.185"><pc>&parag;</pc>Forr an godne&slong;&slong;e u&slong;&slong; <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> don<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.186"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> la<pc>&dash;</pc><lb/>ferrd <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.187">&THORN;urrh &thorn;att he <choice>
+                  <orig>com&msup;</orig>
+                  <reg>comm</reg>
+               </choice> to <choice>
+                  <orig>&wynn;urr&thorn;en&nsup;</orig>
+                  <reg>&wynn;urr&thorn;enn</reg>
+               </choice> <lb/>mann<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.188"><choice>
+                  <orig>&fenl;orr</orig>
+                  <reg>Forr</reg>
+               </choice> <choice>
+                  <orig>allman&nsup;ki<am>&combmacr;</am>ne</orig>
+                  <reg>allmannki<ex>n</ex>ne</reg>
+               </choice> nede<pc rend=".">&middot;</pc> 
+            </l>
+            
+              <l xml:id="junius1.ded.189"><pc>&parag;</pc> O&thorn;err godne&slong;&slong;e u&slong;&slong; <pb n="4r" facs="bxa0006"/><cb n="1"/><lb/><choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> don<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.190"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> laferrd <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chrri&slong;t</reg>
+               </choice></name> onn <lb/>er&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.191">&THORN;urrh &thorn;att he &wynn;a&slong;&slong; <lb/>i <choice>
+                  <orig>flum&msup;</orig>
+                  <reg>flumm</reg>
+               </choice> <name type="place" ref="#locJordan001"><choice>
+                  <orig>iordan</orig>
+                  <reg>Jordan</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.192"><choice>
+                  <orig>&fenl;ullhtnedd</orig>
+                  <reg>Fullhtnedd</reg>
+               </choice> <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> <lb/>ure nede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.193">Forr &thorn;att he &wynn;ollde <lb/>u&slong;&slong; &wynn;aterrkinn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.194"><choice>
+                  <orig>&tenl;ill</orig>
+                  <reg>Till</reg>
+               </choice> ure ful<pc>&dash;</pc><lb/>luhht <choice>
+                  <orig>hall&gins;&hsup;enn</orig>
+                  <reg>hall&gins;henn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.195">&THORN;urrh &thorn;att <gap quantity="1" unit="words" reason="inked-out"/>he &wynn;ollde ben <choice>
+                  <orig>him&msup;</orig>
+                  <reg>himm</reg>
+               </choice> &slong;ellf<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.196"><lb/><choice>
+                  <orig>&oenl;nn</orig>
+                  <reg>Onn</reg>
+               </choice> er&thorn;e i &wynn;aterr fullhtnedd<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.197"><lb/><pc>&parag;</pc> &THORN;e &thorn;ridde god u&slong;&slong; <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> don<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.198"><lb/><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> <choice>
+                  <orig>lafer&rsup;d</orig>
+                  <reg>laferrd</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.199"><choice>
+                  <orig>&THORN;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> <lb/>&thorn;att he &gins;aff hi&slong;&slong; <choice>
+                  <orig>a&gins;&hsup;en&nsup;</orig>
+                  <reg>a&gins;henn</reg>
+               </choice> lif<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.200"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> <lb/>all hi&slong;&slong; fulle &wynn;ille<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.201">To <choice>
+                  <orig>&thorn;olen&nsup;</orig>
+                  <reg>&thorn;olenn</reg>
+               </choice> <choice>
+                  <orig>d&aelig;&thorn;&ethsup;</orig>
+                  <reg>d&aelig;&thorn;&thorn;</reg>
+               </choice> <lb/>o rode tre<pc>&punctelev;</pc>  
+            </l>
+            <l xml:id="junius1.ded.202"><choice>
+                  <orig>&sscap;accl&aelig;&slong;</orig>
+                  <reg>Saccl&aelig;&slong;</reg>
+               </choice> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> utenn <lb/>&wynn;rihhte<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.203">To le&slong;enn <choice>
+                  <orig>man&nsup;kin&nsup;</orig>
+                  <reg>mannkinn</reg>
+               </choice> <lb/>&thorn;urrh hi&slong;&slong; d&aelig;&thorn;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.204"><choice>
+                  <orig>&uenl;t&dblac;</orig>
+                  <reg>Ut&combdblac;</reg>
+               </choice> off &thorn;e <name type="person" ref="#bioSatan001">defle&slong;&slong;</name> <lb/>&wynn;alde<pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.205"><pc>&parag;</pc> &THORN;e fer&thorn;e god u&slong;&slong; <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> <lb/>don<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.206"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> <choice>
+                  <orig>lafer&rsup;d</orig>
+                  <reg>laferrd</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cr<am>&isup;</am>&slong;t</orig>
+                  <reg>Ch<ex>ri</ex>&slong;t</reg>
+               </choice></name> <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.207">&THORN;urrh <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> hi<metamark rend="line" function="connector" target="#iss01"/><add xml:id="iss01" place="intercolumnar">i&slong;&slong;</add> 
+                 <lb/><choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> &slong;a&wynn;le &slong;tah<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.208"><choice>
+                  <orig>&fenl;ra</orig>
+                  <reg>Fra</reg>
+               </choice> rode dun <lb/>till helle<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.209">To <choice>
+                  <orig>t&combbreve;aken&nsup;</orig>
+                  <reg>t&combbreve;akenn</reg>
+               </choice> ut&combdblac; off helle <lb/>&wynn;a<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.210"><choice>
+                  <orig>&thornenl;a</orig>
+                  <reg>&THORN;a</reg>
+               </choice> gode &slong;a&wynn;le&slong;&slong; alle<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.211">&THORN;att <lb/>haffdenn <choice>
+                  <orig>c&wynn;em&msup;d</orig>
+                  <reg>c&wynn;emmd</reg>
+               </choice> <choice>
+                  <abbr>hi<am>&dblovl;</am></abbr>
+                  <expan>hi<ex>mm</ex></expan>
+               </choice> i &thorn;i&slong;&slong; lif<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.212"><lb/><choice>
+                  <orig>&thornenl;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> &slong;o&thorn; <choice>
+                  <orig>un&nsup;&slong;ha&thorn;i&gins;ne&slong;&slong;e</orig>
+                  <reg>unn&slong;ha&thorn;i&gins;ne&slong;&slong;e</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            
+            <l xml:id="junius1.ded.213"><pc>&parag;</pc> &THORN;e <lb/>fifte god u&slong;&slong; <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> don<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.214"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> <choice>
+                  <orig>lafer&rsup;d</orig>
+                  <reg>laferrd</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc>&middot;</pc> 
+           </l>
+           <l xml:id="junius1.ded.215"><choice>
+                  <orig>&THORN;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> he &wynn;a&slong; <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> <lb/>ure god<pc>&middot;</pc> 
+           </l>
+           <l xml:id="junius1.ded.216"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> &thorn;ridde da&gins;&gins; off d&aelig;&thorn;e<pc rend=".">&middot;</pc> 
+           </l>
+           <l xml:id="junius1.ded.217"><lb/>&ET; let&combdblac; te po&slong;&slong;tle&slong;&slong; &slong;en <choice>
+                  <abbr>hi<am>&dblovl;</am></abbr>
+                  <expan>hi<ex>mm</ex></expan>
+               </choice> &wynn;el<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.218"><lb/>Inn hi&slong;&slong; <choice>
+                  <orig>me<am>&combmacr;</am>ni&slong;&slong;ke</orig>
+                  <reg>me<ex>n</ex>ni&slong;&slong;ke</reg>
+               </choice> <choice>
+                  <abbr>ki<am>&combmacr;</am>de</abbr>
+                  <expan>ki<ex>n</ex>de</expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.219"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <lb/>&thorn;att he &wynn;ollde <choice>
+                  <orig>fe&slong;&slong;tnen&nsup;</orig>
+                  <reg>fe&slong;&slong;tnenn</reg>
+               </choice> &slong;&wynn;a<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.220"><choice>
+                  <orig>&sscap;o&thorn;</orig>
+                  <reg>So&thorn;</reg>
+               </choice> <lb/><choice>
+                  <orig>tro&wynn;&wsup;&thorn;e</orig>
+                  <reg>tro&wynn;&wynn;&thorn;e</reg>
+               </choice> i &thorn;e&gins;&gins;re bre&slong;te&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.221">Off <lb/>&thorn;att he &wynn;i&slong;&slong; to fulle &slong;o&thorn;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.222"><choice>
+                  <orig>&wenl;a&slong;&slong;</orig>
+                  <reg>&WYNN;a&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>ri<pc>&dash;</pc><lb/>&slong;en&nsup;</orig>
+                  <reg>ri<pc>&dash;</pc><lb/>&slong;enn</reg>
+               </choice> upp off d&aelig;&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.223">&ET; i <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> illke fl&aelig;&slong;h <lb/>&thorn;att &wynn;a&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.224"><choice>
+                  <orig>&fenl;o&combbreve;rr</orig>
+                  <reg>Fo&combbreve;rr</reg>
+               </choice> u&slong;&slong; o rode na&gins;&gins;<pc>&dash;</pc><lb/>ledd<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.225"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> &thorn;att he &wynn;ollde <choice>
+                  <orig>fe&slong;&slong;tne&nsup;&nsup;</orig>
+                  <reg>fe&slong;&slong;tnenn</reg>
+               </choice> <lb/>&wynn;el<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.226"><choice>
+                  <orig>&thornenl;i&slong;&slong;</orig>
+                  <reg>&THORN;i&slong;&slong;</reg>
+               </choice> tro&wynn;&wynn;&thorn;e i &thorn;e&gins;&gins;re bre&slong;<pc>&dash;</pc><lb/>te&slong;&slong;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.227">He le&combdblac;t te po&slong;&slong;tle&slong;&slong; &slong;en <choice>
+                  <abbr>hi<am>&dblovl;</am></abbr>
+                  <expan>hi<ex>mm</ex></expan>
+               </choice> <lb/>&wynn;el<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.228"><choice>
+                  <orig>&wenl;ell</orig>
+                  <reg>&WYNN;ell</reg>
+               </choice> offte &slong;i&thorn;e <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.229"><choice>
+                 <orig>&WYNN;i&thorn;&ethsup;<lb/>innenn</orig>
+                 <reg>&WYNN;i&thorn;&thorn;<lb/>innenn</reg>
+               </choice> da&gins;&gins;e&slong;&slong; fo&wynn;&wynn;errti&gins;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.230"><choice>
+                  <orig>&fenl;ra</orig>
+                  <reg>Fra</reg>
+               </choice> <lb/>&thorn;att he ra&slong; off d&aelig;&thorn;e<pc rend=".">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.231"><pc>&parag;</pc> &THORN;e &slong;exte <lb/>god u&slong;&slong; <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> don<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.232"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> <choice>
+                  <orig>lafer&rsup;d</orig>
+                  <reg>laferrd</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.233">&THORN;urrh <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> he &slong;tah <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> u<pc>&dash;</pc><lb/>re god<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.234"><choice>
+                  <orig>&uenl;pp</orig>
+                  <reg>Upp</reg>
+               </choice> inntill heffne&slong;&slong; bli&slong;<pc>&dash;</pc><lb/>&slong;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.235">&ET; <choice>
+                  <orig>&slong;en&nsup;de</orig>
+                  <reg>&slong;ennde</reg>
+               </choice> <choice>
+                  <orig>&slong;i&thorn;&thorn;en&nsup;</orig>
+                  <reg>&slong;i&thorn;&thorn;enn</reg>
+               </choice> <name type="person" ref="#bioHolyGhost001"><choice>
+                  <orig>hali&gins; ga&slong;t</orig>
+                  <reg>Hali&gins; Ga&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.236"><lb/><choice>
+                  <orig>&tenl;ill</orig>
+                  <reg>Till</reg>
+               </choice> hi&slong;e <choice>
+                  <orig>lernin&nsup;gcnihhte&slong;&slong;</orig>
+                  <reg>lerninngcnihhte&slong;&slong;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.237"><lb/>To frofren &et; to <choice>
+                  <orig>belden&nsup;</orig>
+                  <reg>beldenn</reg>
+               </choice> <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.238"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <lb/><choice>
+                  <orig>&slong;tan&nsup;denn</orig>
+                  <reg>&slong;tanndenn</reg>
+               </choice> &gins;&aelig;n &thorn;e defell<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.239">To <choice>
+                 <orig>gi<pc>&dash;</pc><lb/>fen&nsup;</orig>
+                 <reg>gi<pc>&dash;</pc><lb/>fenn</reg>
+               </choice> <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice> god &wynn;itt inoh<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.240">Off all hi&slong;&slong; <lb/><choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> lare<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.241">To <choice>
+                  <orig>gifen&nsup;</orig>
+                  <reg>gifenn</reg>
+               </choice> <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice> god lu&slong;&slong;t<pc>&middot;</pc> <lb/>god mahht<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.242"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> &thorn;olenn alle <choice>
+                  <orig>&wynn;a&wynn;en&nsup;</orig>
+                  <reg>&wynn;a&wynn;enn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.243"><lb/>All <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> &thorn;e lufe off <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name><pc>&middot;</pc> &et; nohht<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.244"><lb/><choice>
+                  <orig>&fenl;or&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> er&thorn;li&gins; loff to <choice>
+                  <orig>&wynn;innen&nsup;</orig>
+                  <reg>&wynn;innenn</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.245"><pc>&parag;</pc> &THORN;e <lb/>&slong;effnde god u&slong;&slong; &slong;hall
+                &gins;et&combdblac; don<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.246"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> la<pc>&dash;</pc><lb/>ferrd <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> ende<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.247"><choice>
+                  <orig>&THORN;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> &thorn;att he <cb n="2"/><lb/>&slong;hall o dome&slong;&slong; da&gins;&gins;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.248"><lb/><choice>
+                  <orig>&uenl;&slong;&slong;</orig>
+                  <reg>U&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>gifen&nsup;</orig>
+                  <reg>gifenn</reg>
+               </choice> heffne&slong;&slong; <lb/>bli&slong;&slong;e<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.249">&GINS;iff &thorn;att &wynn;e <lb/>&slong;hulenn &wynn;urr&thorn;i ben<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.250"><lb/><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> findenn gode&slong;&slong; are 
+            </l>
+            <l xml:id="junius1.ded.251"><lb/><pc>&parag;</pc>&THORN;u&slong;&slong; <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> ure <choice>
+                  <orig>la<pc>&dash;</pc><lb/>fer&rsup;d</orig>
+                  <reg>la<pc>&dash;</pc><lb/>ferrd</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.252"><choice>
+                  <orig>&uenl;&slong;&slong;</orig>
+                  <reg>U&slong;&slong;</reg>
+               </choice> don god<pc>&dash;</pc><lb/>ne&slong;&slong;e&slong;&slong; &slong;effne<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.253"><choice>
+                  <orig>&THORN;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> <lb/>&thorn;att tatt he to <choice>
+                  <abbr>ma<am>&combmacr;</am><pc>&dash;</pc><lb/>ne</abbr>
+                  <expan>ma<ex>n</ex><pc>&dash;</pc><lb/>ne</expan>
+               </choice> <choice>
+                  <abbr>co<am>&dblovl;</am></abbr>
+                  <expan>co<ex>mm</ex></expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.254"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> &wynn;urr&thorn;enn <lb/><choice>
+                  <orig>man&nsup;</orig>
+                  <reg>mann</reg>
+               </choice> <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> er&thorn;e<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.255"><pc>&parag;</pc>&ET; o <lb/><choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> boc <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> i&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.256"><lb/><choice>
+                  <orig>&aenl;pokal&ydot;p&slong;i&slong;</orig>
+                  <reg>Apokal&ydot;p&slong;i&slong;</reg>
+               </choice> <lb/><choice>
+                  <orig>nem&msup;nedd</orig>
+                  <reg>nemmnedd</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.257">U&slong;&slong; <lb/>&wynn;rat&combdblac; te po&slong;&slong;tell <lb/><choice>
+                  <orig>&slong;an&nsup;t</orig>
+                  <reg>&slong;annt</reg>
+               </choice> <name type="person" ref="#bioJohn002"><choice>
+                  <orig>iohan</orig>
+                  <reg>Johan</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.258"><choice>
+                  <orig>&thornenl;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> <lb/><name type="person" ref="#bioHolyGhost001"><choice>
+                  <orig>hali&gins; ga&slong;te&slong;&slong;</orig>
+                  <reg>Hali&gins; Ga&slong;te&slong;&slong;</reg>
+               </choice></name> lare<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.259"><lb/>&THORN;att he &slong;ahh upp inn <lb/>heffne an boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.260"><lb/><choice>
+                  <orig>&bscap;i&slong;ett</orig>
+                  <reg>Bi&slong;ett</reg>
+               </choice> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> &slong;effne <lb/>inn&slong;e&gins;&gins;le&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.261">&ET; <choice>
+                  <orig>&slong;per&rsup;d</orig>
+                  <reg>&slong;perrd</reg>
+               </choice> <lb/>&slong;&wynn;a &slong;&wynn;i&thorn;e &wynn;el <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.262"><lb/><choice>
+                  <orig>&nenl;e</orig>
+                  <reg>Ne</reg>
+               </choice> mihhte <lb/>nan &wynn;ihht <lb/>opnenn<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.263"><choice>
+                 <orig>&WYNN;i&thorn;&ethsup;<lb/>utenn</orig>
+                 <reg>&WYNN;i&thorn;&thorn;<lb/>utenn</reg>
+               </choice> <name type="person" ref="#bioGod001"><choice>
+                  <orig>gode&slong;&slong;</orig>
+                  <reg>Gode&slong;&slong;</reg>
+               </choice></name> <lb/><choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> <choice>
+                  <abbr>la<am>&combmacr;</am>b</abbr>
+                  <expan>la<ex>m</ex>b</expan>
+               </choice><pc>&punctelev;</pc> 
+            </l>  
+            <l xml:id="junius1.ded.264"><choice>
+                  <abbr>&thornenl;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <lb/>he &slong;ahh ec <choice>
+                  <abbr>i<am>&dblovl;</am></abbr>
+                  <expan>i<ex>nn</ex></expan>
+               </choice> heff<pc>&dash;</pc><lb/>ne<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.265">&ET; &thorn;urrh &thorn;a <lb/>&slong;effne <choice>
+                  <orig>inn&slong;e&gins;&gsup;le&slong;&slong;</orig>
+                  <reg>inn&slong;e&gins;&gins;le&slong;&slong;</reg>
+               </choice> <lb/>&wynn;a&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.266"><choice>
+                  <orig>&rscap;ihht</orig>
+                  <reg>Rihht</reg>
+               </choice> &slong;&wynn;i&thorn;e <lb/>&wynn;el bitacnedd<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.267"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <lb/><choice>
+                  <orig>&slong;efen&nsup;fald</orig>
+                  <reg>&slong;efennfald</reg>
+               </choice> godle&gins;&gins;c<pc>&middot;</pc> <lb/>&thorn;att <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.268"><choice>
+                  <orig>&uenl;&slong;&slong;</orig>
+                  <reg>U&slong;&slong;</reg>
+               </choice> di<pc>&dash;</pc><lb/>de &thorn;urrh hi&slong;&slong; co<pc>&dash;</pc> <lb/>me<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.269"><pc>&parag;</pc>&ET; tatt <lb/>nan <choice>
+                  <orig>&wynn;ih&hsup;t</orig>
+                  <reg>&wynn;ihht</reg>
+               </choice> ne <lb/>mihhte nohht<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.270"><lb/>Oppnenn &thorn;a &slong;eff<pc>&dash;</pc><lb/>ne inn&slong;e&gins;&gins;le&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.271">&WYNN;i&thorn;&thorn;<lb/>utenn <name type="person" ref="#bioGod001"><choice>
+                  <orig>gode&slong;&slong;</orig>
+                  <reg>Gode&slong;&slong;</reg>
+               </choice></name> <choice>
+                  <abbr>la<am>&combmacr;</am>b</abbr>
+                  <expan>la<ex>m</ex>b</expan>
+               </choice><pc>&punctelev;</pc> <lb/><choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <choice>
+                  <abbr>co<am>&dblovl;</am></abbr>
+                  <expan>co<ex>mm</ex></expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.272"><choice>
+                  <orig>&fenl;or&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> itt <lb/>&slong;hollde <choice>
+                  <orig>tacnen&nsup;</orig>
+                  <reg>tacnenn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.273"><lb/><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> nan <choice>
+                  <orig>&wynn;ih&hsup;t</orig>
+                  <reg>&wynn;ihht</reg>
+               </choice><pc>&middot;</pc> <lb/>nan <choice>
+                  <orig>en&nsup;gell</orig>
+                  <reg>enngell</reg>
+               </choice><pc>&middot;</pc> <lb/>nan mann<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.274"><choice>
+                  <orig>&nenl;e</orig>
+                  <reg>Ne</reg>
+            </choice> <lb/>nane&slong;&slong; <lb/>kinne&slong;&slong; <pb n="4v" facs="bxa0007"/><cb n="1"/><lb/>&slong;haffte<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.275">Ne mihhte &thorn;urrh <choice>
+                  <abbr>hi<am>&dblovl;</am></abbr>
+                  <expan>hi<ex>mm</ex></expan>
+               </choice> <lb/>&slong;ellfenn &thorn;a<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.276"><choice>
+                  <orig>&sscap;effne</orig>
+                  <reg>Seffne</reg>
+               </choice> godne&slong;&slong;e&slong;&slong; <lb/>&slong;h&aelig;&wynn;enn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.277">O mannkinn<pc>&middot;</pc> &slong;&wynn;a <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> itt <lb/>mannkinn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.278"><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> helle mihhte <lb/>le&slong;senn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.279">Ne gifenn <choice>
+                  <orig>man&nsup;</orig>
+                  <reg>mann</reg>
+               </choice> <choice>
+                  <orig>kin&nsup;</orig>
+                  <reg>kinn</reg>
+               </choice> <lb/>lu&slong;&slong;t<pc>&middot;</pc> ne mahht <pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.280"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <choice>
+                  <orig>&wynn;i<am>&combmacr;</am>nen&nsup;</orig>
+                  <reg>&wynn;innenn</reg>
+               </choice> heff<pc>&dash;</pc><lb/>ne&slong;&slong; bli&slong;&slong;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.281">&ET; all all &slong;&wynn;a &slong;e <name type="person" ref="#bioGod001"><choice>
+                 <orig>go<pc>&dash;</pc><lb/>de&slong;&slong;</orig>
+                 <reg>Go<pc>&dash;</pc><lb/>de&slong;&slong;</reg>
+              </choice></name> <choice>
+                  <abbr>la<am>&combmacr;</am>b</abbr>
+                  <expan>la<ex>n</ex>b</expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.282"><choice>
+                  <orig>&aenl;ll</orig>
+                  <reg>All</reg>
+               </choice> &thorn;urrh hi&slong;&slong; <choice>
+                  <orig>a&gins;&hsup;en&nsup;</orig>
+                  <reg>a&gins;henn</reg>
+               </choice> <lb/>mahhte<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.283">Lihhtelike mihhte<pc>&middot;</pc> <lb/>&et; &wynn;el inoh<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.284"><choice>
+                  <orig>&thornenl;a</orig>
+                  <reg>&THORN;a</reg>
+               </choice> &slong;effne <choice>
+                  <abbr>i<am>&dblovl;</am>&slong;e&gins;&gins;le&slong;&slong;</abbr>
+                  <expan>i<ex>nn</ex>&slong;e&gins;&gins;le&slong;&slong;</expan>
+               </choice> <lb/>oppnenn<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.285">All &slong;&wynn;a &thorn;e <choice>
+                  <orig>lafer&rsup;d</orig>
+                  <reg>laferrd</reg>
+               </choice> <lb/><name type="person" ref="#bioJesus001"><choice>
+                  <orig>ie&slong;u</orig>
+                  <reg>Je&slong;u</reg>
+               </choice> <choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.286"><choice>
+                  <orig>&aenl;ll</orig>
+                  <reg>All</reg>
+               </choice> <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> hi&slong;&slong; <choice>
+                  <orig>a<pc>-</pc><lb/>&gins;&hsup;enn</orig>
+                  <reg>a<pc>-</pc><lb/>&gins;henn</reg>
+               </choice> mahhte<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.287"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> fa<pc>&dash;</pc><lb/>derr<pc>&middot;</pc> &et; <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> <name type="person" ref="#bioHolyGhost001"><choice>
+                  <orig>hali&gins; ga&slong;t</orig>
+                  <reg>Hali&gins; Ga&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.288"><lb/><choice>
+                  <orig>&aenl;n</orig>
+                  <reg>An</reg>
+               </choice> <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name><pc>&middot;</pc> &et; all an <lb/>kinde<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.289">All &slong;&wynn;a <lb/>rihht he lihht<pc>&dash;</pc><lb/>like inoh<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.290">&et; &wynn;el <lb/><choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> alle <choice>
+                  <orig>mih&hsup;<pc>&dash;</pc><lb/>te</orig>
+                  <reg>mihh<pc>&dash;</pc><lb/>te</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.291">O <choice>
+                 <orig>man&nsup;<lb/>kinn</orig>
+                 <reg>mann<lb/>kinn</reg>
+               </choice> &thorn;urrh <lb/><choice>
+                  <abbr>hi<am>&dblovl;</am></abbr>
+                  <expan>hi<ex>mm</ex></expan>
+               </choice> &slong;ellfenn<pc>&middot;</pc> &thorn;a<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.292"><lb/><choice>
+                  <orig>&sscap;effne</orig>
+                  <reg>Seffne</reg>
+               </choice> godne&slong;<pc>&dash;</pc><lb/>&slong;e&slong;&slong; <choice>
+                  <orig>&slong;h&aelig;&wynn;en&nsup;</orig>
+                  <reg>&slong;h&aelig;&wynn;enn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.293"><lb/>S&wynn;a &thorn;att he <lb/>mannkinn <lb/>&wynn;el inoh<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.294"><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> <lb/>helle mihhte <lb/><choice>
+                  <orig>lesen&nsup;</orig>
+                  <reg>lesenn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.295">&ET; <choice>
+                  <orig>gifen&nsup;</orig>
+                  <reg>gifenn</reg>
+               </choice> <lb/>mannkinn lufe<pc>&middot;</pc> &et; <lb/>lu&slong;&slong;t<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.296">&et; mahht<pc>&middot;</pc> &et; &wynn;itt<pc>&middot;</pc> <lb/>&et; &wynn;ille<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.297">To <choice>
+                  <orig>&slong;tan&nsup;den&nsup;</orig>
+                  <reg>&slong;tanndenn</reg>
+               </choice> <choice>
+                  <abbr>i<am>&dblovl;</am></abbr>
+                  <expan>i<ex>nn</ex></expan>
+               </choice> <lb/>to c&wynn;emenn <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.298"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <choice>
+                  <abbr>&wynn;i<am>&combmacr;</am><pc>&dash;</pc><lb/>nenn</abbr>
+                  <expan>&wynn;i<ex>n</ex><pc>&dash;</pc><lb/>nenn</expan>
+               </choice> heffne&slong;&slong; bli&slong;&slong;e<pc>&middot;</pc> 
+            </l>  
+            <l xml:id="junius1.ded.299"><pc>&parag;</pc> &ET; <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> hali&gins; godd&slong;pell boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.300"><lb/><choice>
+                  <orig>&aenl;ll</orig>
+                  <reg>All</reg>
+               </choice> &thorn;i&slong;&slong; godne&slong;&slong;e u&slong;&slong; <choice>
+                  <orig>&slong;h&aelig;<pc>&dash;</pc><lb/>&wynn;e&thorn;&ethsup;</orig>
+                  <reg>&slong;h&aelig;<pc>&dash;</pc><lb/>&wynn;e&thorn;&thorn;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.301">&THORN;i&slong;&slong; <choice>
+                  <orig>&slong;efen&nsup;fald</orig>
+                  <reg>&slong;efennfald</reg>
+               </choice> godle&gins;&gins;c <lb/>&thorn;att <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.302"><choice>
+                  <orig>&uenl;&slong;&slong;</orig>
+                  <reg>U&slong;&slong;</reg>
+               </choice> dide <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> hi&slong;&slong; <lb/>are<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.303"><choice>
+                  <orig>For&rsup;&thorn;i</orig>
+                  <reg>Forr&thorn;i</reg>
+               </choice> birr&thorn; all cri&slong;&slong;te<pc>&dash;</pc><lb/>ne follc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.304"><choice>
+                  <orig>&genl;odd&slong;pelle&slong;&slong;</orig>
+                  <reg>Godd&slong;pelle&slong;&slong;</reg>
+               </choice> lare <choice>
+                  <orig>foll<pc>&dash;</pc><lb/>&gins;&hsup;enn</orig>
+                  <reg>foll<pc>&dash;</pc><lb/>&gins;henn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.305">&ET; t&aelig;rfore hafe icc <lb/><choice>
+                  <orig>tur&rsup;nedd</orig>
+                  <reg>turrnedd</reg>
+               </choice> itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.306"><choice>
+                  <orig>&iscap;nntill</orig>
+                  <reg>Inntill</reg>
+            </choice> <choice>
+                 <orig>enn<pc>&dash;</pc><lb/>gli&slong;&slong;he</orig>
+                 <reg>Enn<pc>&dash;</pc><lb/>gli&slong;&slong;he</reg>
+               </choice> &slong;p&aelig;che<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.307"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> i &wynn;oll<pc>&dash;</pc><lb/>de bli&thorn;eli&gins;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.308"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> all <choice>
+                  <orig>en&nsup;gli&slong;<pc>&dash;</pc><lb/>&slong;he</orig>
+                  <reg>Enngli&slong;<pc>&dash;</pc><lb/>&slong;he</reg>
+               </choice> lede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.309"><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> &aelig;re &slong;hollde li&slong;&slong;<pc>&dash;</pc><lb/>tenn itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.310"><choice>
+                  <orig>&wenl;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> <choice>
+                  <orig>her&rsup;te</orig>
+                  <reg>herrte</reg>
+               </choice> <choice>
+                  <orig>&slong;holld&esup;</orig>
+                  <reg>&slong;hollde</reg>
+               </choice> <cb n="2"/><lb/>itt tro&wynn;&wynn;enn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.311"><lb/><choice>
+                  <orig>&WYNN;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> tunge &slong;holl<pc>&dash;</pc><lb/>de &slong;pellenn <lb/>itt<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.312"><choice>
+                  <orig>&wenl;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> dede <lb/>&slong;hollde itt <choice>
+                  <orig>foll<pc>&dash;</pc><lb/>&gins;&hsup;enn</orig>
+                  <reg>foll<pc>&dash;</pc><lb/>&gins;henn</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.313">To <choice>
+                  <abbr>&wynn;i<am>&combmacr;</am>nenn</abbr>
+                  <expan>&wynn;i<ex>n</ex>nenn</expan>
+               </choice> <lb/>unnderr cri&slong;&slong;<pc>&dash;</pc><lb/>tenndom<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.314"><choice>
+                  <orig>&aenl;tt</orig>
+                  <reg>Att</reg>
+               </choice> <lb/><name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> &slong;o&thorn; &slong;a&wynn;le <lb/>berrhle&slong;&slong;.
+            </l>
+                
+                <!-- Here is the tie sign & where the addition from fol. 9 goes -->
+                 
+                <!-- Up to this point, numbering aligns with Holt & White. They differ from here until end of Dedication, due to H&W interpreting the inserted addition as a freestanding preface. -->
+             
+             <addSpan place="inline" n="106 lines" spanTo="#end_9r"/> 
+             <metamark function="line-connector" rend="line" target="line314"/> <!-- This needs tweaking, to specify signe de renvoi -->
+                 <note type="cod" resp="#bioWO0001">The following 106 lines appear on f.9r and 9v.  The line numbering of the AEME edition diverges from 
+                     that of the Holt and White edition from here until the end of the Dedication.</note>
+                
+              <l xml:id="junius1.ded.315"><pb n="6r" facs="bxa0008"/><!-- giant T -->&parag; &THORN;iss boc iss <choice>
+                  <abbr>ne<am>&dblovl;</am>nedd</abbr>
+                  <expan>ne<ex>mm</ex>nedd</expan>
+               </choice> <choice>
+                  <orig>or&rsup;mulu<am>&combmacr;</am></orig>
+                  <reg>orrmulu<ex>m</ex></reg>
+               </choice><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.316"><choice>
+                 <orig>&fenl;or&rsup;<lb/>&thorn;i</orig>
+                 <reg>Forr<lb/>&thorn;i</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <name type="person" ref="#bioOrm001"><choice>
+                  <orig>or&rsup;m</orig>
+                  <reg>orrm</reg>
+               </choice></name> itt &wynn;rohhte<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.317">&ET; itt i&slong;&slong; <choice>
+                  <orig>&wynn;roh&hsup;t</orig>
+                  <reg>&wynn;rohht</reg>
+               </choice> <lb/>off qua&thorn;&thorn;rigan<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.318"><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> godd&slong;pellbokess <lb/>fo&wynn;&wynn;re<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.319">Off <choice>
+                  <orig>qua&thorn;&ethsup;rigan</orig>
+                  <reg>qua&thorn;&thorn;rigan</reg>
+               </choice> <name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>amminadab</orig>
+                  <reg>Amminadab</reg>
+               </choice></name><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.320"><lb/><choice>
+                  <orig>&oenl;ff</orig>
+                  <reg>Off</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> godd&slong;pellboke&slong;&slong;<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.321">Forr <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> <lb/>ma&gins;&gins; &thorn;urrh <name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>amminadap</orig>
+                  <reg>Amminadap</reg>
+               </choice></name><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.322"><choice>
+                  <orig>&rscap;ihht</orig>
+                  <reg>Rihht</reg>
+               </choice> full &wynn;el ben <lb/>bitacnedd<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.323"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> toc d&aelig;&thorn; o rode tre<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.324"><choice>
+                  <orig>&aenl;ll</orig>
+                  <reg>All</reg>
+               </choice> <lb/><choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> hi&slong;&slong; fulle &wynn;ille<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.325"><pc>&parag;</pc> &ET; <choice>
+                  <orig>for&rsup;&thorn;i</orig>
+                  <reg>forr&thorn;i</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>a<am>&combmacr;</am>minadab</orig>
+                  <reg>A<ex>m</ex>minadab</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.326"><lb/><choice>
+                  <orig>&oenl;</orig>
+                  <reg>O</reg>
+               </choice> latin &slong;p&aelig;che i&slong;&slong; <choice>
+                  <abbr>ne<am>&dblovl;</am>nedd</abbr>
+                  <expan>ne<ex>mm</ex>nedd</expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.327">O latin boc<pc>&middot;</pc> &slong;pon<pc>&dash;</pc><lb/>taneu&slong;<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.328">&et; onn <choice>
+                  <orig>enngli&slong;&slong;he</orig>
+                  <reg>Enngli&slong;&slong;he</reg>
+               </choice> &slong;p&aelig;che<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.329">&THORN;att <lb/><choice>
+                  <orig>&wynn;eppman&nsup;</orig>
+                  <reg>&wynn;eppmann</reg>
+               </choice> &thorn;att <choice>
+                  <orig>&slong;um&msup;</orig>
+                  <reg>&slong;umm</reg>
+               </choice> dede do&thorn;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.330"><choice>
+                  <orig>&wenl;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> all hi&slong;&slong; fulle <lb/>&wynn;ille<pc>&punctelev;</pc> 
+            </l> 
+            <l xml:id="junius1.ded.331">Forr&thorn;i ma&gins;&gins; <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> full &wynn;el ben <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.332"><lb/><name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>&aenl;mminadab</orig>
+                  <reg>Amminadab</reg>
+               </choice></name> bitacnedd<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.333"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> toc d&aelig;&thorn; o <lb/>rode tre<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.334"><choice>
+                  <orig>&aenl;ll</orig>
+                  <reg>All</reg>
+               </choice> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> hi&slong;&slong; fulle &wynn;ille<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.335"><pc>&parag;</pc> <choice>
+                  <orig>&THORN;at&tsup;</orig>
+                  <reg>&THORN;att</reg>
+               </choice> &wynn;a&gins;&gins;n<lb/> i&slong;&slong; <choice>
+                  <orig>nem&msup;nedd</orig>
+                  <reg>nemmnedd</reg>
+               </choice> qua&thorn;&thorn;rigan<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.336"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <choice>
+                  <orig>hafe&thorn;&ethsup;</orig>
+                  <reg>hafe&thorn;&thorn;</reg>
+               </choice> fo&wynn;&wynn;<pc>-</pc><lb/>re &wynn;hele&slong;&slong;<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.337">&ET; godd&slong;pell i&slong;&slong; <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> &wynn;a&gins;&gins;n forr&thorn;i<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.338"><lb/><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> itt i&slong;&slong; fo&wynn;&wynn;&wynn;re bok&slong;&slong;<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.339">&ET; godd&slong;pell i&slong;&slong; <lb/><name type="person" ref="#bioJesus001"><choice>
+                  <orig>ie&slong;u&slong;e&slong;&slong;</orig>
+                  <reg>Je&slong;u&slong;e&slong;&slong;</reg>
+               </choice></name> &wynn;a&gins;&gins;n<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.340"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> ga&thorn; o fo&wynn;&wynn;re &wynn;hele&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.341"><lb/><choice>
+                  <orig>For&rsup;&thorn;i</orig>
+                  <reg>Forr&thorn;i</reg>
+               </choice> &thorn;att itt i&slong;&slong; &slong;ett o boc<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.342"><choice>
+                  <orig>&thornenl;urrh</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> fo&wynn;&wynn;re <lb/>godd&slong;pell&wynn;rihhte&slong;&slong;<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.343"><pc>&parag;</pc> &ET; <name type="person" ref="#bioJesus001"><choice>
+                  <orig>ie&slong;u&slong;&slong;</orig>
+                  <reg>Je&slong;u&slong;&slong;</reg>
+               </choice></name> i&slong;&slong; <name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>a<am>&combmacr;</am>minadab</orig>
+                  <reg>A<ex>m</ex>minadab</reg>
+               </choice></name><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.344"><lb/><choice>
+                  <orig>&sscap;&wynn;a</orig>
+                  <reg>S&wynn;a</reg>
+               </choice> <choice>
+                  <abbr>&slong;u<am>&dblovl;</am></abbr>
+                  <expan>&slong;u<ex>mm</ex></expan>
+               </choice> icc hafe &slong;h&aelig;&wynn;edd<pc rend=",">&middot;</pc>
+            </l>
+            <l xml:id="junius1.ded.345"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> he &slong;&wynn;allt o <lb/>rode tre<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.346"><choice>
+                  <orig>&aenl;ll</orig>
+                  <reg>All</reg>
+               </choice> <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> hi&slong;&slong; fulle &wynn;ille<pc rend=".">&middot;</pc>
+            </l>
+            <l xml:id="junius1.ded.347"><pc>&parag;</pc> &ET; godd<pc>&dash;</pc><lb/>&slong;pell forr &thorn;att illke &thorn;ing<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.348"><choice>
+                  <orig>&iscap;&slong;&slong;</orig>
+                  <reg>I&slong;&slong;</reg>
+               </choice> curru&slong; <name type="person" ref="#bioSolomon001"><choice>
+                  <orig>&slong;a<pc>&dash;</pc><lb/>lomoni&slong;&slong;</orig>
+                  <reg>Sa<pc>&dash;</pc><lb/>lomoni&slong;&slong;</reg>
+               </choice></name><pc>&middot;</pc>
+            </l> 
+            <l xml:id="junius1.ded.349"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> &thorn;att itt i &thorn;i&slong;&slong; middell&aelig;rd<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.350"><lb/><choice>
+                  <orig>&thornenl;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> godd&slong;pell&wynn;rihhte&slong;&slong; fo&wynn;&wynn;re<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.351"><lb/><choice>
+                  <orig>&WYNN;a&gins;&gins;ne&thorn;&ethsup;</orig>
+                  <reg>&WYNN;a&gins;&gins;ne&thorn;&thorn;</reg>
+               </choice> &slong;o&thorn; <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> fra land to land<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.352"> <choice>
+                  <orig>&thornenl;ur&rsup;</orig>
+                  <reg>&THORN;urr</reg>
+               </choice> <lb/><name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;te&slong;&slong;</orig>
+                  <reg>Chri&slong;te&slong;&slong;</reg>
+               </choice></name> <choice>
+                  <orig>lernin&nsup;gcnihhte&slong;&slong;</orig>
+                  <reg>lerninngcnihhte&slong;&slong;</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.353">&THORN;urrh <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> te&gins;&gins; i &thorn;i&slong;&slong; middell&aelig;rd<pc>&middot;</pc> 
+            </l> 
+            <l xml:id="junius1.ded.354"><choice>
+                  <orig>&fenl;litten&nsup;</orig>
+                  <reg>Flittenn</reg>
+               </choice><pc>&middot;</pc> &et; <choice>
+                  <orig>faren&nsup;</orig>
+                  <reg>farenn</reg>
+               </choice> <lb/>&wynn;ide<pc>&middot;</pc> 
+            </l> 
+            <l xml:id="junius1.ded.355">Fra <choice>
+                  <abbr>la<am>&combmacr;</am>d</abbr>
+                  <expan>la<ex>n</ex>d</expan>
+               </choice> to <choice>
+                  <abbr>la<am>&combmacr;</am>d</abbr>
+                  <expan>la<ex>n</ex>d</expan>
+               </choice><pc rend=",">&middot;</pc> fra <choice>
+                  <orig>bur&rsup;h</orig>
+                  <reg>burrh</reg>
+               </choice> to <choice>
+                  <orig>bur&rsup;h</orig>
+                  <reg>burrh</reg>
+               </choice><pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.356"><lb/><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <choice>
+                  <orig>&slong;pellen&nsup;</orig>
+                  <reg>&slong;pellenn</reg>
+               </choice> to &thorn;e lede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.357">Off &slong;o&thorn; <name type="person" ref="#bioJesus001"><choice>
+                  <orig>c<am>&isup;</am>&slong;t</orig>
+                  <reg>Ch<ex>ri</ex>&slong;t</reg>
+               </choice></name><pc>&middot;</pc> &et; off <lb/>cri&slong;&slong;tenndom<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.358">&et; off &thorn;e rihhte l&aelig;fe<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.359"><lb/>&ET; off &thorn;att lif <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <choice>
+                  <orig>lede&thorn;&ethsup;</orig>
+                  <reg>lede&thorn;&thorn;</reg>
+               </choice> <choice>
+                  <orig>men&nsup;</orig>
+                  <reg>menn</reg>
+               </choice><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.360"><choice>
+                  <orig>&uenl;p&psup;</orig>
+                  <reg>Upp</reg>
+               </choice> <choice>
+                  <abbr>i<am>&dblovl;</am>till</abbr>
+                  <expan>i<ex>nn</ex>till</expan>
+               </choice> heffne&slong;&slong; bli&slong;&slong;e<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.361"><pc>&parag;</pc> <choice>
+                  <orig>&THORN;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> &slong;&wynn;illc &thorn;e&gins;&gins; <lb/><choice>
+                  <orig>beren&nsup;</orig>
+                  <reg>berenn</reg>
+               </choice> <choice>
+                  <orig>h&aelig;len&nsup;d</orig>
+                  <reg>h&aelig;lennd</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name><pc>&middot;</pc>
+            </l>
+            <l xml:id="junius1.ded.362"><choice>
+                  <orig>&aenl;ll&slong;</orig>
+                  <reg>All&slong;</reg>
+               </choice> iff &thorn;e&gins;&gins; <lb/>karrte <choice>
+                  <orig>&wynn;&aelig;ren&nsup;</orig>
+                  <reg>&wynn;&aelig;renn</reg>
+               </choice><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.363">Off &wynn;hele&slong;&slong; fo&wynn;&wynn;<pc>&dash;</pc><lb/>re<pc rend=".">&middot;</pc> <choice>
+                  <orig>&fenl;or&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> &thorn;att all<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.364"><choice>
+                  <orig>&genl;odd&slong;pelle&slong;&slong;</orig>
+                  <reg>Godd&slong;pelle&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>hall<pc>&dash;</pc><lb/>&gins;&hsup;e</orig>
+                  <reg>hall<pc>&dash;</pc><lb/>&gins;he</reg>
+               </choice> lare<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.365">I&slong;&slong;<pc rend="&amp;mdash;">&mdash;</pc>all&slong; icc hafe &slong;h&aelig;&wynn;edd <lb/>&gins;u&wynn;<pc rend="&amp;mdash;">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.366"><choice>
+                  <orig>&oenl;</orig>
+                  <reg>O</reg>
+               </choice> fo&wynn;&wynn;re godd&slong;pellboke&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.367"><lb/>&ET; <choice>
+                  <orig>for&rsup;&thorn;i</orig>
+                  <reg>forr&thorn;i</reg>
+               </choice> ma&gins;&gins; godd&slong;pell full &wynn;el<del rend="linedThrough"><pc>&punctelev;</pc></del><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.368"><lb/><choice>
+                  <orig>&bscap;en</orig>
+                  <reg>Ben</reg>
+               </choice> <name type="person" ref="#bioSolomon001"><choice>
+                  <orig>&slong;a&combacute;lema<am>&combmacr;</am>ne&slong;&slong;</orig>
+                  <reg>Sa&combacute;lema<ex>n</ex>ne&slong;&slong;</reg>
+               </choice></name> karrte<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.369">&THORN;i&slong;&slong; <lb/>i&slong;&slong; to &slong;eggenn <choice>
+                  <orig>open&nsup;li&gins;</orig>
+                  <reg>opennli&gins;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.370"><choice>
+                  <orig>&thornenl;e</orig>
+                  <reg>&THORN;e</reg>
+               </choice> la<pc>&dash;</pc><lb/>ferrd <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;te&slong;&slong;</orig>
+                  <reg>Chri&slong;te&slong;&slong;</reg>
+               </choice></name> <choice>
+                  <orig>kar&rsup;te</orig>
+                  <reg>karrte</reg>
+               </choice><pc rend=".">&nbhy;</pc> 
+            </l>
+            <l xml:id="junius1.ded.371"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>ie<pc>&dash;</pc><lb/>&slong;u</orig>
+                  <reg>Je<pc>&dash;</pc><lb/>&slong;u</reg>
+               </choice> <choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> allmahhti&gins; <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.372"><lb/><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> alle &slong;haffte &wynn;rohhte<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.373"><lb/>I&slong;&slong; &wynn;i&slong;&slong; <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> &slong;o&thorn;e <name type="person" ref="#bioSolomon001"><choice>
+                  <orig>&slong;aleman&nsup;</orig>
+                  <reg>Salemann</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.374"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <lb/>&slong;ette <choice>
+                  <orig>gri&thorn;&ethsup;</orig>
+                  <reg>gri&thorn;&thorn;</reg>
+               </choice> onn er&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.375"><choice>
+                 <orig>Bit&wynn;e<pc>&dash;</pc><lb/><gap quantity="1" unit="chars" reason="erasure"/>nen&nsup;</orig>
+                 <reg>Bit&wynn;e<pc>&dash;</pc><lb/><gap quantity="1" unit="chars" reason="erasure"/>nenn</reg>
+               </choice> <name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name><pc>&middot;</pc> &et; menn<pc>&middot;</pc> <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.376"><lb/><choice>
+                  <orig>&henl;e</orig>
+                  <reg>He</reg>
+               </choice> &gins;aff hi&slong;&slong; lif o rode<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.377">To <choice>
+                 <orig>le<pc>&dash;</pc><lb/>&slong;en&nsup;</orig>
+                 <reg>le<pc>&dash;</pc><lb/>&slong;enn</reg>
+               </choice> <choice>
+                  <orig>man&nsup;kin&nsup;</orig>
+                  <reg>mannkinn</reg>
+               </choice> <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> hi&slong;&slong; d&aelig;&thorn;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.378"><lb/><choice>
+                  <orig>&uenl;t&combdblac;</orig>
+                  <reg>Ut&combdblac;</reg>
+               </choice> off &thorn;e <name type="person" ref="#bioSatan001">defle&slong;&slong;</name> palde<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.379">&ET; <choice>
+                 <orig>for&rsup;<pc>&dash;</pc><lb/>&thorn;i</orig>
+                 <reg>forr<pc>&dash;</pc><lb/>&thorn;i</reg>
+               </choice> ma&gins;&gins; &slong;o&thorn; <name type="person" ref="#bioJesus001"><choice>
+                  <orig>c<am>&isup;</am>&slong;t</orig>
+                  <reg>Ch<ex>ri</ex>&slong;t</reg>
+               </choice></name> ben &wynn;el<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.380"><choice>
+                  <orig>&thornenl;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> <lb/><name type="person" ref="#bioSolomon001"><choice>
+                  <orig>&slong;aleman&nsup;</orig>
+                  <reg>Salemann</reg>
+               </choice></name><gap quantity="1" unit="words" reason="erasure"/> bitacnedd<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.381"><choice>
+                  <orig>For&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <lb/><name type="person" ref="#bioSolomon001"><choice>
+                  <orig>&slong;alomon</orig>
+                  <reg>Salomon</reg>
+               </choice></name> i&slong;&slong; <choice>
+                  <orig>on&nsup;</orig>
+                  <reg>onn</reg>
+               </choice> <choice>
+                  <orig>en&nsup;gli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.382"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <lb/><choice>
+                  <orig>man&nsup;</orig>
+                  <reg>mann</reg>
+               </choice> <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> &slong;o&thorn; &slong;ahhtene&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.383">&ET; <lb/>trigg<pc>&middot;</pc> &et; tro&wynn;&wynn;e <choice>
+                  <orig>gri&thorn;&ethsup;</orig>
+                  <reg>gri&thorn;&thorn;</reg>
+               </choice><pc>&middot;</pc> &et; <choice>
+                  <orig>fri&thorn;&ethsup;</orig>
+                  <reg>fri&thorn;&thorn;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.384"><lb/><choice>
+                  <orig>&rscap;e&gins;&gins;&slong;e&thorn;&ethsup;</orig>
+                  <reg>Re&gins;&gins;&slong;e&thorn;&thorn;</reg>
+               </choice> bit&wynn;enenn lede<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.385">&ET; <lb/><choice>
+                  <orig>foll&gins;&hsup;e&thorn;&ethsup;</orig>
+                  <reg>foll&gins;he&thorn;&thorn;</reg>
+               </choice> itt <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> all hi&slong;&slong; <choice>
+                  <orig>mah&hsup;t</orig>
+                  <reg>mahht</reg>
+               </choice> 
+            </l>
+            <l xml:id="junius1.ded.386"><lb/><choice>
+                  <orig>&thornenl;urrh</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> &thorn;ohht<pc rend=",">&middot;</pc> <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> &wynn;ord<pc rend=",">&middot;</pc> <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> dede<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.387"><pc>&parag;</pc> All &thorn;u&slong;&slong; i&slong;&slong; <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> <choice>
+                  <orig>hall&gins;&hsup;e</orig>
+                  <reg>hall&gins;he</reg>
+               </choice> <lb/>godd&slong;pell<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.388"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> i&slong;&slong; o fo&wynn;&wynn;<pc>&dash;</pc><lb/>re boke&slong;&slong;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.389"><choice>
+                  <orig>Nem&msup;nedd</orig>
+                  <reg>Nemmnedd</reg>
+               </choice> <name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>am<pc>&dash;</pc><lb/>minadabe&slong;&slong;</orig>
+                  <reg>Am<pc>&dash;</pc><lb/>minadabe&slong;&slong;</reg>
+               </choice></name> &wynn;a&gins;&gins;n<pc>&middot;</pc> 
+            </l>
+                <l xml:id="junius1.ded.390">&et; <name type="person" ref="#bioSolomon001"><choice>
+                   <orig>&slong;a<pc>&dash;</pc><lb/>lemanne&slong;&slong;</orig>
+                   <reg>Sa<pc>&dash;</pc><lb/>lemanne&slong;&slong;</reg>
+               </choice></name><pc>&middot;</pc> karrte<pc rend=",">&middot;</pc> 
+            </l>
+              <l xml:id="junius1.ded.391"><pb n="6v"  facs="bxa0009"/><lb/>Forr &thorn;att itt <choice>
+                  <orig>wa&gins;a&gins;&gins;ne&thorn;&ethsup;</orig>
+                  <reg>wa&gins;a&gins;&gins;ne&thorn;&thorn;</reg>
+               </choice> <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> till menn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.392"><lb/><choice>
+                  <orig>&thornenl;urrh</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> fo&wynn;&wynn;re godd&slong;pell&wynn;rihhte&slong;&slong;<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.393"><lb/>Rihht all&slong; iff itt &wynn;&aelig;re &thorn;att &wynn;a&gins;&gins;n<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.394"><lb/><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> ga&thorn; o fo&wynn;&wynn;re &wynn;hele&senl;&senl;<!--sideways--><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.395"><lb/><pc>&parag;</pc> &ET; tu&slong;&slong; i&slong;&slong; <name type="person" ref="#bioJesus001"><choice>
+                  <orig>cri&slong;t</orig>
+                  <reg>Chri&slong;t</reg>
+               </choice></name> <name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>amminadab</orig>
+                  <reg>Amminadab</reg>
+               </choice></name><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.396"><choice>
+                  <orig>&thornenl;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> ga&slong;t<pc>&dash;</pc><lb/><add place="sublinear" hand="#bioOrm001">li&gins; &wynn;itt <choice>
+                  <orig>&gins;ehaten&nsup;</orig>
+                  <reg>&gins;ehatenn</reg>
+               </choice><pc>&punctelev;</pc></add> 
+            </l>
+            <l xml:id="junius1.ded.397"><lb/><gap quantity="1" unit="lines" reason="inked-out"/> 
+            </l>
+            <l xml:id="junius1.ded.398"><lb/>Forr &thorn;att he toc o rode d&aelig;&thorn;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.399"><lb/><choice>
+                  <orig>&wenl;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> all hi&slong;&slong; full &wynn;ille<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.400">&ET; <name type="person" ref="#bioSolomon001"><choice>
+                  <orig>&slong;alomon</orig>
+                  <reg>Salomon</reg>
+               </choice></name> <lb/>he <choice>
+                  <orig>nem&msup;nedd</orig>
+                  <reg>nemmnedd</reg>
+               </choice> i&slong;&slong;<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.401"><choice>
+                  <orig>&senl;&wynn;a</orig>
+                  <reg>S&wynn;a</reg>
+               </choice> <choice>
+                  <abbr>&slong;u<am>&dblovl;</am></abbr>
+                  <expan>&slong;u<ex>mm</ex></expan>
+               </choice> icc hafe &slong;h&aelig;&wynn;edd<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.402"><lb/>Forr &thorn;att he &slong;ette <choice>
+                  <orig>gri&thorn;&ethsup;</orig>
+                  <reg>gri&thorn;&thorn;</reg>
+               </choice><pc>&middot;</pc>&et; <choice>
+                  <orig>fri&thorn;&ethsup;</orig>
+                  <reg>fri&thorn;&thorn;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.403"><choice>
+                 <orig>&bscap;i<pc>&dash;</pc><lb/>t&wynn;enenn</orig>
+                 <reg>Bi<pc>&dash;</pc><lb/>t&wynn;enenn</reg>
+               </choice> heffne<pc>&middot;</pc>&et; er&thorn;e<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.404"><choice>
+                  <orig>Bit&wynn;enen&nsup;</orig>
+                  <reg>Bit&wynn;enenn</reg>
+               </choice> <lb/>godd<pc>&middot;</pc> &et; menn, &thorn;urrh <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.405"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> he toc d&aelig;&thorn; <lb/>o rode<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.406">To le&slong;enn <choice>
+                  <orig>man&nsup;kin&nsup;</orig>
+                  <reg>mannkinn</reg>
+               </choice> <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> hi&slong;&slong; <lb/>d&aelig;&thorn;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.407"><choice>
+                  <orig>&uenl;t&combdblac;</orig>
+                  <reg>Ut&combdblac;</reg>
+               </choice> off &thorn;e <name type="person" ref="#bioSatan001">defle&slong;&slong;</name> &wynn;alde<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.408"><pc>&parag;</pc> &ET; all <lb/>&thorn;u&slong;&slong; &thorn;i&slong;&slong; <choice>
+                  <orig>en&nsup;gli&slong;&slong;he</orig>
+                  <reg>Enngli&slong;&slong;he</reg>
+               </choice> boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.409"><choice>
+                  <orig>&iscap;&slong;&slong;</orig>
+                  <reg>I&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>or&rsup;mulu<am>&dblovl;</am></orig>
+                  <reg>orrmulu<ex>mm</ex></reg>
+               </choice> <lb/>&gins;ehatenn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.410"><choice>
+                  <orig>In&nsup;</orig>
+                  <reg>Inn</reg>
+               </choice> <choice>
+                  <orig>qua&thorn;&ethsup;ri&combacute;gan</orig>
+                  <reg>qua&thorn;&thorn;ri&combacute;gan</reg>
+               </choice> <name type="person" ref="#bioAmminadab001"><choice>
+                  <orig>a<am>&combmacr;</am>minadab</orig>
+                  <reg>A<ex>m</ex>minadab</reg>
+               </choice></name><pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.411"><lb/><choice>
+                  <orig>&iscap;n&nsup;</orig>
+                  <reg>Inn</reg>
+               </choice> <choice>
+                  <abbr>curru<am>&combmacr;</am></abbr>
+                  <expan>curru<ex>m</ex></expan>
+               </choice> <name type="person" ref="#bioSolomon001"><choice>
+                  <orig>&slong;alomoni&slong;</orig>
+                  <reg>Salomoni&slong;</reg>
+               </choice></name><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.412">&ET; off godd&slong;pell <lb/>icc &wynn;i&breve;le &gins;u&wynn;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.413"><choice>
+                  <orig>&ginsenl;et&combdblac;</orig>
+                  <reg>&GINS;et&combdblac;</reg>
+               </choice> <choice>
+                  <orig>&slong;um&msup;</orig>
+                  <reg>&slong;umm</reg>
+               </choice> del mare &slong;h&aelig;<pc>&dash;</pc><lb/>&wynn;enn<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.414"><pc>&parag;</pc> &GINS;et&combdblac; &wynn;ile icc <choice>
+                  <orig>&slong;h&aelig;&wynn;en&nsup;</orig>
+                  <reg>&slong;h&aelig;&wynn;enn</reg>
+               </choice> &gins;u&wynn; forr<lb/>&wynn;hi<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.415"><choice>
+                  <orig>&genl;odd&slong;pell</orig>
+                  <reg>Godd&slong;pell</reg>
+               </choice> i&slong;&slong; godd&slong;pell <choice>
+                  <orig>nem&msup;nedd</orig>
+                  <reg>nemmnedd</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.416"><lb/>&ET; ec icc &wynn;ile <choice>
+                  <orig>&slong;h&aelig;&wynn;en&nsup;</orig>
+                  <reg>&slong;h&aelig;&wynn;enn</reg>
+               </choice> &gins;u&wynn;<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.417"><choice>
+                  <orig>&henl;u</orig>
+                  <reg>Hu</reg>
+               </choice> mikell <lb/>&slong;a&wynn;le &slong;ell&thorn;e<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.418">&ET; &slong;a&wynn;le <choice>
+                  <orig>ber&rsup;hle&slong;&slong;</orig>
+                  <reg>berrhle&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>un&nsup;der&rsup;<pc>&dash;</pc><lb/>fo&thorn;</orig>
+                  <reg>unnderr<pc>&dash;</pc><lb/>fo&thorn;</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.419"><choice>
+                  <orig>&aenl;tt</orig>
+                  <reg>Att</reg>
+               </choice> godd&slong;pell all <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> lede<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.420"><choice>
+                  <orig>&THORN;at&tsup;</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <choice>
+                  <orig>foll<pc>&dash;</pc><lb/>&gins;&hsup;e&thorn;&ethsup;</orig>
+                  <reg>foll<pc>&dash;</pc><lb/>&gins;he&thorn;&thorn;</reg>
+               </choice> godd&slong;pell <choice>
+                  <orig>&thorn;&wynn;er&rsup;t</orig>
+                  <reg>&thorn;&wynn;errt</reg>
+               </choice> ut&combdblac; &wynn;el<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.421"><choice>
+                  <orig>&thornenl;ur&rsup;h</orig>
+                  <reg>&THORN;urrh</reg>
+               </choice> <lb/>&thorn;ohht<pc>&middot;</pc> &thorn;urrh &wynn;ord<pc>&middot;</pc> <choice>
+                  <orig>&thorn;ur&rsup;h</orig>
+                  <reg>&thorn;urrh</reg>
+               </choice> dede<pc rend=".">&middot;</pc> 
+            </l>
+            <anchor xml:id="end_9r"/>
+                
+            <!-- Resume folio 4v, col. 2 -->
+                
+            <l xml:id="junius1.ded.422"><lb/><pc>&parag;</pc> &ET; <lb/><name type="person" ref="#bioGod001"><choice>
+                  <orig>godd</orig>
+                  <reg>Godd</reg>
+               </choice></name> <choice>
+                  <orig>allmah&hsup;ti&gins;</orig>
+                  <reg>allmahhti&gins;</reg>
+               </choice> <lb/>gife u&slong;&slong; mahht<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.423">&et; <lb/>lu&slong;&slong;t<pc>&middot;</pc> &et; &wynn;itt<pc>&middot;</pc> &et; &wynn;ille<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.424"><lb/>To <choice>
+                  <orig>foll&gins;&hsup;en&nsup;</orig>
+                  <reg>foll&gins;henn</reg>
+               </choice> &thorn;i&slong;&slong; <choice>
+                  <orig>en&nsup;gli&slong;<pc>&dash;</pc><lb/>&slong;he</orig>
+                  <reg>Enngli&slong;<pc>&dash;</pc><lb/>&slong;he</reg>
+               </choice> boc<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.425"><choice>
+                  <orig>&thornenl;at</orig>
+                  <reg>&THORN;at</reg>
+               </choice> all <gap quantity="1" unit="chars" reason="scraped-out"/>i&slong;&slong; <lb/>hali&gins; lare<pc rend=",">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.426">S&wynn;a <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> &wynn;e <choice>
+                 <orig>mo<pc>&dash;</pc><lb/>ten&nsup;</orig>
+                 <reg>mo<pc>&dash;</pc><lb/>tenn</reg>
+               </choice> &wynn;urr&thorn;i ben<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.427"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <choice>
+                  <orig>bruken&nsup;</orig>
+                  <reg>brukenn</reg>
+               </choice> <lb/>heffne&slong;&slong; bli&slong;&slong;e<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.428"><choice>
+                  <orig>&aenl;&munc;<am>&combmacr;</am></orig>
+                  <reg>A&munc;<ex>en</ex></reg>
+               </choice><pc>&middot;</pc> <choice>
+                  <orig>&aenl;&munc;<am>&combmacr;</am></orig>
+                  <reg>A&munc;<ex>en</ex></reg>
+               </choice><pc>&middot;</pc> <choice>
+                  <orig>&aenl;&munc;<am>&combmacr;</am></orig>
+                  <reg>A&munc;<ex>en</ex></reg>
+               </choice><pc>&bidotcomposit;</pc> <lb/>
+            </l> 
+            <l xml:id="junius1.ded.429"><hi rend="h4">I</hi>cc <choice>
+                  <abbr>&thorn;<am>&combmacr;</am></abbr>
+                  <expan>&thorn;<ex>att</ex></expan>
+               </choice> &thorn;i&slong;&slong; <choice>
+                  <orig>en&nsup;gli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> hafe <choice>
+                  <orig>&slong;et&tsup;</orig>
+                  <reg>&slong;ett</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.430"><lb/><choice>
+                  <orig>&eenl;n&nsup;gli&slong;&slong;he</orig>
+                  <reg>Enngli&slong;&slong;he</reg>
+               </choice> menn to lare<pc rend=",">&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.431"><lb/>Icc &wynn;a&slong;&slong; &thorn;&aelig;r &thorn;&aelig;r i cri&slong;&slong;t<pc>&dash;</pc><lb/>nedd &wynn;a&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.432"><name type="person" ref="#bioOrm001"><choice>
+                  <orig>&oenl;r&rsup;min</orig>
+                  <reg>Orrmin</reg>
+               </choice></name> bi na<pc>&dash;</pc><lb/>me <choice>
+                  <orig>nem&msup;nedd</orig>
+                  <reg>nemmnedd</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.433">&ET; icc <name type="person" ref="#bioOrm001"><choice>
+                 <orig>or&rsup;<pc>&dash;</pc><lb/>min</orig>
+                 <reg>Orr<pc>&dash;</pc><lb/>min</reg>
+               </choice></name> full inn&wynn;arrdli&gins;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.434"><lb/><choice>
+                  <orig>&wenl;i&thorn;&ethsup;</orig>
+                  <reg>&WYNN;i&thorn;&thorn;</reg>
+               </choice> mu&thorn;<pc>&middot;</pc> &et; ec <choice>
+                  <orig>&wynn;i&thorn;&ethsup;</orig>
+                  <reg>&wynn;i&thorn;&thorn;</reg>
+               </choice> <choice>
+                  <orig>her&rsup;te</orig>
+                  <reg>herrte</reg>
+               </choice><pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.435"><lb/>Her bidde &thorn;a cri&slong;&slong;tenne <lb/>menn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.436"><choice>
+                  <orig>&thornenl;att</orig>
+                  <reg>&THORN;att</reg>
+               </choice> <choice>
+                  <orig>heren&nsup;</orig>
+                  <reg>herenn</reg>
+               </choice> <choice>
+                  <orig>o&thorn;er&rsup;</orig>
+                  <reg>o&thorn;err</reg>
+               </choice> <lb/>re&combacute;denn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.437">&THORN;i&slong;&slong; boc<pc>&punctelev;</pc> <choice>
+                  <abbr>he<am>&dblovl;</am></abbr>
+                  <expan>he<ex>mm</ex></expan>
+               </choice> bid<pc>&dash;</pc><lb/>de icc her &thorn;att te&gins;&gins;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.438"><choice>
+                  <orig>&fenl;or&rsup;</orig>
+                  <reg>Forr</reg>
+               </choice> <lb/>me &thorn;i&slong;&slong; bede biddenn<pc rend=":">&middot;</pc> <!-- CORRECTION TO BE ADDED IN NEXT LINE -->
+            </l>
+            <l xml:id="junius1.ded.439"><pc>&parag;</pc> &THORN;att bro&thorn;err &thorn;att <lb/><del rend="overwritten">&thorn;</del><add place="inline">t</add>i&slong;&slong; <choice>
+                  <orig>enngli&slong;&slong;h</orig>
+                  <reg>Enngli&slong;&slong;h</reg>
+               </choice> &wynn;ritt<pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.440"><lb/><choice>
+                  <orig>&aenl;llr&aelig;re&slong;&slong;t</orig>
+                  <reg>Allr&aelig;re&slong;&slong;t</reg>
+               </choice> &wynn;ra&combdblac;t <lb/>&et; &wynn;rohhte<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.441"><choice>
+                  <abbr>&THORN;<am>&combmacr;</am></abbr>
+                  <expan>&THORN;<ex>att</ex></expan>
+               </choice> <lb/>bro&thorn;err <choice>
+                  <orig>for&rsup;</orig>
+                  <reg>forr</reg>
+               </choice> <lb/>hi&slong;&slong; <choice>
+                  <abbr>&slong;&wynn;i<am>&dblovl;</am>c</abbr>
+                  <expan>&slong;&wynn;i<ex>nn</ex>c</expan>
+               </choice> to <lb/>l&aelig;n<pc>&punctelev;</pc> 
+            </l>
+            <l xml:id="junius1.ded.442"><choice>
+                  <orig>&senl;o&thorn;</orig>
+                  <reg>So&thorn;</reg>
+               </choice> <lb/>bli&slong;&slong;e mo&combacute;te <lb/><choice>
+                  <orig>finden&nsup;</orig>
+                  <reg>findenn</reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.443"><choice>
+                  <orig>&aenl;&munc;<am>&combmacr;</am></orig>
+                  <reg>A&munc;<ex>en</ex></reg>
+               </choice><pc rend=".">&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.444"><pc>&parag;</pc> &THORN;a godd<pc>&dash;</pc><lb/>&slong;pelle&slong;&slong; al<pc>&dash;</pc><lb/>le &thorn;att icc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.445"><lb/><choice>
+                  <orig>&henl;er</orig>
+                  <reg>Her</reg>
+            </choice> o &thorn;i&slong;&slong; <lb/>boc ma&gins;&gins; <pb n="5r"  facs="bxa0007"/><cb n="1"/><lb/>findenn<pc>&punctelev;</pc>  
+            </l>
+            <l xml:id="junius1.ded.446"><choice>
+                  <orig>Hem&msup;</orig>
+                  <reg>Hemm</reg>
+               </choice> alle wile <lb/>icc <choice>
+                  <orig>nem&msup;nenn</orig>
+                  <reg>nemmnenn</reg>
+               </choice> her<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.447"><choice>
+                  <orig>&bscap;i</orig>
+                  <reg>Bi</reg>
+               </choice> <choice>
+                  <orig>&thorn;e&gins;&gsup;<pc>&dash;</pc><lb/>&gins;re</orig>
+                  <reg>&thorn;e&gins;&gins;<pc>&dash;</pc><lb/>&gins;re</reg>
+               </choice> firrste &wynn;orde&slong;&slong;<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.448">&ET; ta&combbreve;<pc>&dash;</pc><lb/>le wile icc &slong;etten to<pc>&middot;</pc>  
+            </l>
+            <l xml:id="junius1.ded.449"><choice>
+                  <orig>&tenl;o</orig>
+                  <reg>To</reg>
+               </choice> <lb/>don &gins;uw tunnderrstann<pc>&dash;</pc><lb/>denn<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.450">Hu fe&combacute;le &slong;inndenn o <lb/>&thorn;i&slong;&slong; boc<pc>&middot;</pc> 
+            </l>
+            <l xml:id="junius1.ded.451"><choice>
+                  <orig>&genl;odd&slong;pelle&slong;&slong;</orig>
+                  <reg>Godd&slong;pelle&slong;&slong;</reg>
+               </choice> <choice>
+                  <orig>un&nsup;der&rsup;</orig>
+                  <reg>unnderr</reg>
+               </choice> <lb/>alle<pc rend=".">&middot;</pc> 
+            </l>
+         </div1>
+      </body>
+   </text>
+</TEI>

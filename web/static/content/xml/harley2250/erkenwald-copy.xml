@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY bar "&#x0305;">
+<!ENTITY caret "&#x2227;">
+<!ENTITY closeparen "&#x029;">
+<!ENTITY combcurl "&#x1DCE;">
+<!ENTITY combisbelow "&#x1DD0;">
+<!ENTITY combmacr "&#x0304;">
+<!ENTITY combtilde "&#x0303;">
+<!ENTITY combtildevert "&#x033E;">
+<!ENTITY condes "&#xA76E;">
+<!ENTITY dblsol "&#x2AFD;">
+<!ENTITY dot "&#x02D9;">
+<!ENTITY doublepipe "&#x2016;">
+<!ENTITY eacute "&#x00E9;">
+<!ENTITY edotbl "&#x1EB9;">
+<!ENTITY emacr "&#x0113;">
+<!ENTITY hidot "&#xF1F8;">
+<!ENTITY horbar "&#x2015;">
+<!ENTITY hstrok "&#x0127;">
+<!ENTITY iacute "&#xED;">
+<!ENTITY ldquo "&#x201C;">
+<!ENTITY lpar "&#x028;">
+<!ENTITY mdash "&#x2014;">
+<!ENTITY middot "&#x00B7;">
+<!ENTITY odotbl "&#x1ECD;">
+<!ENTITY openparen "&#x028;">
+<!ENTITY para "&#x00B6;">
+<!ENTITY pbardes "&#xA751;">
+<!ENTITY pflour "&#xA753;">
+<!ENTITY pipe "&#x007C;">
+<!ENTITY punctelev "&#xF161;">
+<!ENTITY rabar "&#xF1C1;">
+<!ENTITY rdquo "&#x201D;">
+<!ENTITY rpar "&#x029;">
+<!ENTITY Rrot "&#xA75A;">
+<!ENTITY rrot "&#xA75B;">
+<!ENTITY rsup "&#x036C;">
+<!ENTITY slong "&#x17F;">
+<!ENTITY sol "&#x002F;">
+<!ENTITY THORN "&#xDE;">
+<!ENTITY thorn "&#xFE;">
+<!ENTITY us "&#x1DD2;">
+<!ENTITY ydot "&#x1E8F;">
+<!ENTITY YOGH "&#x021C;">
+<!ENTITY yogh "&#x021D;">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="harley2250">
+    <teiHeader>
+        <notValid>This is just a place marker.</notValid>
+    </teiHeader>
+    <text>
+        <body>
+            <div1>
+                <title>Saint Erkenwald</title>
+                <pb n="72v" facs="T00079-70"/>
+                <ab/> <!-- Rendering breaks if there is no element here. This bug needs to be fixed. -->
+                <lg>
+                    <l xml:id="harley2250.erk.1">At London in Englonde noȝt fulle longe sythen</l>
+                    <l xml:id="harley2250.erk.2">Sythen Crist suffride on crosse and Cristendome
+                        stabylde,</l>
+                    <l xml:id="harley2250.erk.3">Ther was a byschop in þat burghe, blessyd and
+                        sacryd;</l>
+                    <l xml:id="harley2250.erk.4">Saynt Ernenwolde as I hope þat holy mon hatte.</l>
+                    <l xml:id="harley2250.erk.5">In his tyme in þat toun þe temple aldergrattyst</l>
+                    <l xml:id="harley2250.erk.6">Was drawen doun, þat one dole, to dedifie new,</l>
+                    <l xml:id="harley2250.erk.7">For hit hethen had bene in Hengyst dawes</l>
+                    <l xml:id="harley2250.erk.8">þat þe Saxones unsaȝt haden sende hyder.</l>
+                    <l xml:id="harley2250.erk.9">þai bete oute þe Bretons and broȝt hom into
+                        Wales</l>
+                    <l xml:id="harley2250.erk.10">And pervertyd alle þe pepul þat in þat place
+                        dwellide.</l>
+                    <l xml:id="harley2250.erk.11">þen wos this reame renaide mony ronke ȝeres,</l>
+                    <l xml:id="harley2250.erk.12">Til Saynt Austyn into Sandewiche was sende fro þe
+                        pope.</l>
+                    <l xml:id="harley2250.erk.13">þen prechyd he here þe pure faythe and plantyd þe
+                        trouthe,</l>
+                    <l xml:id="harley2250.erk.14">And convertyd all þe communnates to Cristendame
+                        newe.</l>
+                    <l xml:id="harley2250.erk.15">He turnyd temples þat tyme þat temyd to þe
+                        develle,</l>
+                    <l xml:id="harley2250.erk.16">And clansyd hom in Cristes nome and kyrkes hom
+                        callid;</l>
+                    <l xml:id="harley2250.erk.17">He hurlyd owt hor ydols and hade hym in sayntes, </l>
+                    <l xml:id="harley2250.erk.18">And chaungit chevely hor nomes and chargit hom
+                        better;</l>
+                    <l xml:id="harley2250.erk.19">þat ere was of Appolyn is now Saynt Petre,</l>
+                    <l xml:id="harley2250.erk.20">Mahon to Saynt Margrete oþer to Maudelayne,</l>
+                    <l xml:id="harley2250.erk.21">þe Synagoge of þe Sonne was sett to oure Lady,</l>
+                    <l xml:id="harley2250.erk.22">Jubiter and Jono to Jhesu oþer to James.</l>
+                    <l xml:id="harley2250.erk.23">So he hom dedifiet and dyght all to dere
+                        halowes</l>
+                    <l xml:id="harley2250.erk.24">þat ere wos sett of Sathanas in Saxones tyme.</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.25">Now þat London is nevenyd hatte þe New Troie,</l>
+                    <l xml:id="harley2250.erk.26">þe metropol and þe mayster-toun hit evermore has
+                        bene.</l>
+                    <l xml:id="harley2250.erk.27">þe mecul mynster þerinne a maghty devel aght,</l>
+                    <l xml:id="harley2250.erk.28">And þe title of þe temple bitan was his name,</l>
+                    <l xml:id="harley2250.erk.29">For he was dryghtyn derrest of ydols praysid</l>
+                    <l xml:id="harley2250.erk.30">And þe solempnest of his sacrifices in Saxon
+                        londes. </l>
+                    <l xml:id="harley2250.erk.31">þe thrid temple hit wos tolde of
+                        Triapolitanes:</l>
+                    <l xml:id="harley2250.erk.32">By alle Bretaynes bonkes were bot othire
+                        twayne.</l>
+                    <l xml:id="harley2250.erk.33">Now of þis Augustynes art is Erkenwolde
+                        bischop</l>
+                    <l xml:id="harley2250.erk.34">At love London toun and the laghe teches,</l>
+                    <l xml:id="harley2250.erk.35">Syttes semely in þe sege of Saynt Paule
+                        mynster</l>
+                    <l xml:id="harley2250.erk.36">þat was þe temple Triapolitan as I tolde are.</l>
+                    <l xml:id="harley2250.erk.37">þen was hit abatyd and beten doun and buggyed efte
+                        new,</l>
+                    <l xml:id="harley2250.erk.38">A noble note for þe nones and New Werke hit
+                        hatte.</l>
+                    <l xml:id="harley2250.erk.39">Mony a mery mason was made þer to wyrke,</l>
+                    <l xml:id="harley2250.erk.40">Harde stones for to hewe with eggit toles,</l>
+                    <l xml:id="harley2250.erk.41">Mony grubber in grete þe grounde for to seche</l>
+                    <l xml:id="harley2250.erk.42">þat þe fundement on fyrst shuld þe fote halde;</l>
+                    <l xml:id="harley2250.erk.43">And as þai makkyde and mynyde a mervayle þai
+                        founden</l>
+                    <l xml:id="harley2250.erk.44">As ȝet in crafty cronecles is kydde þe
+                        memorie,</l>
+                    <l xml:id="harley2250.erk.45">For as þai dyȝt and dalfe so depe into þe
+                        erthe</l>
+                    <l xml:id="harley2250.erk.46">þai founden fourmyt on flore a ferly faire
+                        toumbe;</l>
+                    <l xml:id="harley2250.erk.47">Hit was a throghe of thykke ston thryvandly
+                        hewen,</l>
+                    <l xml:id="harley2250.erk.48">With gargeles garnysht aboute alle of gray
+                        marbre.</l>
+                    <l xml:id="harley2250.erk.49">Thre sperle of þe spelunke þat spradde hit
+                        olofte</l>
+                    <l xml:id="harley2250.erk.50">Was metely made of þe marbre and menskefully
+                        planede</l>
+                    <l xml:id="harley2250.erk.51">And þe bordure enbelicit with bryȝt golde
+                        lettres;</l>
+                    <l xml:id="harley2250.erk.52">Bot roynyshe were þe resones þat þer on row
+                        stoden.</l>
+                    <l xml:id="harley2250.erk.53">Full verray were þe vigures, þer avisyd hom
+                        mony,</l>
+                    <l xml:id="harley2250.erk.54">Bot alle muset hit to mouthe and quat hit mene
+                        shulde;</l>
+                    <pb n="73r" facs="T00079-71"/>                    
+                    <l xml:id="harley2250.erk.55">Mony clerke in þat clos with crownes ful brode</l>
+                    <l xml:id="harley2250.erk.56">þer besiet hom aboute noȝt to brynge hom in
+                        wordes.</l>
+                    <l xml:id="harley2250.erk.57">Quen tithynges token to þe toun of þe
+                        toumbe-wonder</l>
+                    <l xml:id="harley2250.erk.58">Mony hundrid hende men highide þider sone;</l>
+                    <l xml:id="harley2250.erk.59">Burgeys boghit þerto, bedels ande othire,</l>
+                    <l xml:id="harley2250.erk.60">And mony a mesters mon of manners dyverse;</l>
+                    <l xml:id="harley2250.erk.61">Laddes laften hor werke and lepen þiderwardes,</l>
+                    <l xml:id="harley2250.erk.62">Ronnen radly in route with ryngande noyce;</l>
+                    <l xml:id="harley2250.erk.63">þer commen pider of all kynnes so kenely mony</l>
+                    <l xml:id="harley2250.erk.64">þat as alle þe worlde were þider walon within a
+                        hondequile.</l>
+                    <l xml:id="harley2250.erk.65">Quen þe maire with his meynye þat mervaile
+                        aspied,</l>
+                    <l xml:id="harley2250.erk.66">By assent of þe sextene þe sayntuare þai
+                        kepten,</l>
+                    <l xml:id="harley2250.erk.67">Bede unlouke þe lidde and lay hit byside;</l>
+                    <l xml:id="harley2250.erk.68">þai wolde loke on þat lome quat lengyd
+                        withinne.</l>
+                    <l xml:id="harley2250.erk.69">Wyȝt werkemen with þat wenten þertille,</l>
+                    <l xml:id="harley2250.erk.70">Putten prises þerto, pinchid one-under,</l>
+                    <l xml:id="harley2250.erk.71">Kaghten by þe corners with crowes of yrne,</l>
+                    <l xml:id="harley2250.erk.72">And were þe lydde never so large þai laide hit by
+                        sone.</l>
+                    <l xml:id="harley2250.erk.73">Bot þen wos wonder to wale on wehes þat stoden</l>
+                    <l xml:id="harley2250.erk.74">That myȝt not come to to knowe a quontyse
+                        strange</l>
+                    <l xml:id="harley2250.erk.75">So was þe glode within gay, al with golde
+                        payntyde,</l>
+                    <l xml:id="harley2250.erk.76">And a blisfulle body opon þe bothum lyggid,</l>
+                    <l xml:id="harley2250.erk.77">Araide on a riche wise in rialle wedes.</l>
+                    <l xml:id="harley2250.erk.78">Al with glisnande golde his gowne wos hemmyd,</l>
+                    <l xml:id="harley2250.erk.79">With mony a precious perle picchit þeron,</l>
+                    <l xml:id="harley2250.erk.80">And a gurdille of golde bigripid his mydelle;</l>
+                    <l xml:id="harley2250.erk.81">A meche mantel on lofte with menyver furrit,</l>
+                    <l xml:id="harley2250.erk.82">þe clothe of camelyn ful clene with cumly
+                        bordures;</l>
+                    <l xml:id="harley2250.erk.83">And on his coyfe wos kest a coron ful riche</l>
+                    <l xml:id="harley2250.erk.84">And a semely septure sett in his honde.</l>
+                    <l xml:id="harley2250.erk.85">Als wemles were his wedes withouten any tecche</l>
+                    <l xml:id="harley2250.erk.86">oþer of moulynge oþer of motes oþer
+                        moght-freten,</l>
+                    <l xml:id="harley2250.erk.87">And als bryȝt of hor blee in blysnande hewes</l>
+                    <l xml:id="harley2250.erk.88">As þai hade ȝepely in þat ȝorde bene ȝisturday
+                        shapen;</l>
+                    <l xml:id="harley2250.erk.89">And als freshe hym þe face and the fleshe
+                        nakyde</l>
+                    <l xml:id="harley2250.erk.90">Bi his eres and bi his hondes þat openly
+                        shewid</l>
+                    <l xml:id="harley2250.erk.91">With ronke rode as þe rose and two rede
+                        lippes,</l>
+                    <l xml:id="harley2250.erk.92">As he in sounde sodanly were slippide opon
+                        slepe.</l>
+                    <l xml:id="harley2250.erk.93">þer was spedeles space to spyr uch on oþer</l>
+                    <l xml:id="harley2250.erk.94">Quat body hit myȝt be þat buried wos ther,</l>
+                    <l xml:id="harley2250.erk.95">How longe had he þer layne, his lere so
+                        unchaungit,</l>
+                    <l xml:id="harley2250.erk.96">And al his wede unwemmyd? þus ylka weghe
+                        askyd.</l>
+                    <l xml:id="harley2250.erk.97">'Hit myȝt not be bot suche a mon in myde stode
+                        longe.</l>
+                    <l xml:id="harley2250.erk.98">He has ben kynge of þis kithe, as couthely hit
+                        semes,</l>
+                    <l xml:id="harley2250.erk.99">He lyes dolven þus depe; hit is a derfe wonder</l>
+                    <l xml:id="harley2250.erk.100">Bot summe segge couthe say þat he hym sene
+                        hade.'</l>
+                    <l xml:id="harley2250.erk.101">Bot þat ilke note wos noght, for nourne none
+                        couthe,</l>
+                    <l xml:id="harley2250.erk.102">Noþer by title ne token ne by tale noþer,</l>
+                    <l xml:id="harley2250.erk.103">þat euer wos brevyt in burghe ne in boko
+                        notyde</l>
+                    <l xml:id="harley2250.erk.104">þat ever mynnyd suche a more, more ne lasse.</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.105">þe bodeworde to þe byschop was broght on a
+                        quile</l>
+                    <l xml:id="harley2250.erk.106">Of þat buriede body al þe bolde wonder.</l>
+                    <l xml:id="harley2250.erk.107">þe primate with his prelacie was partyd fro
+                        home,</l>
+                    <l xml:id="harley2250.erk.108">In Esex was Sir Erkenwolde an abbay to
+                        visite.</l>
+                    <l xml:id="harley2250.erk.109">Tulkes tolden hym þe tale with troubulle in þe
+                        pepul</l>
+                    <l xml:id="harley2250.erk.110">And suche a cry aboute a cors crakit
+                        evermore;</l>
+                    <pb n="73v" facs="T00079-72"/>
+                    <l xml:id="harley2250.erk.111">The bischop sende hit to blynne by bedels and
+                        lettres</l>
+                    <l xml:id="harley2250.erk.112">And buskyd þiderwarde bytyme on his blonke
+                        after.</l>
+                    <l xml:id="harley2250.erk.113">By þat he come to þe kyrke kydde of Saynt
+                        Paule,</l>
+                    <l xml:id="harley2250.erk.114">Mony hym metten on þat meere þe mervayle to
+                        telle;</l>
+                    <l xml:id="harley2250.erk.115">He passyd into his palais and pes he
+                        comaundit</l>
+                    <l xml:id="harley2250.erk.116">And devoydit fro þe dede and ditte þe durre
+                        after.</l>
+                    <l xml:id="harley2250.erk.117">þe derke nyȝt overdrofe and day-belle ronge,</l>
+                    <l xml:id="harley2250.erk.118">And Sir Erkenwolde was up in þe ughten ere
+                        þen,</l>
+                    <l xml:id="harley2250.erk.119">þat welneghe al þe nyȝt hade nattyd his
+                        houres</l>
+                    <l xml:id="harley2250.erk.120">To biseche his soverayn of his swete grace</l>
+                    <l xml:id="harley2250.erk.121">To vouchesafe to revele hym hit by a vison or
+                        elles.</l>
+                    <l xml:id="harley2250.erk.122">'þaghe I be unworthi,' al wepande he sayde,</l>
+                    <l xml:id="harley2250.erk.123">'Thurghe his deere debonerte digne hit my
+                        Lorde:</l>
+                    <l xml:id="harley2250.erk.124">In confirmynge þi Cristen faithe, fulsen me to
+                        kenne</l>
+                    <l xml:id="harley2250.erk.125">þe mysterie of þis mervaile þat men opon
+                        wondres.'</l>
+                    <l xml:id="harley2250.erk.126">And so longe he grette after grace þat he graunte
+                        hade,</l>
+                    <l xml:id="harley2250.erk.127">An ansuare of þe Holy Goste, and afterwarde hit
+                        dawid.</l>
+                    <l xml:id="harley2250.erk.128">Mynster-dores were makyd opon quen matens were
+                        songen;</l>
+                    <l xml:id="harley2250.erk.129">þe byschop hym shope solemply to synge þe heghe
+                        masse.</l>
+                    <l xml:id="harley2250.erk.130">þe prelate in pontificals was prestly
+                        atyride,</l>
+                    <l xml:id="harley2250.erk.131">Manerly with his ministres þe masse he
+                        begynnes</l>
+                    <l xml:id="harley2250.erk.132">Of Spiritus Domini for his spede on sutile
+                        wise,</l>
+                    <l xml:id="harley2250.erk.133">With queme questis of þe quere with ful quaynt
+                        notes.</l>
+                    <l xml:id="harley2250.erk.134">Mony a gay grete lorde was gedrid to herken
+                        hit,</l>
+                    <l xml:id="harley2250.erk.135">As þe rekenest of þe reame repairen þider
+                        ofte,</l>
+                    <l xml:id="harley2250.erk.136">Tille cessyd was þe service and sayde þe later
+                        ende;</l>
+                    <l xml:id="harley2250.erk.137">þen heldyt fro þe autere all þe hegh gynge.</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.138">þe prelate passide on þe playn, þer plied to hym
+                        lordes,</l>
+                    <l xml:id="harley2250.erk.139">As riche revestid as he was he rayked to þe
+                        toumbe;</l>
+                    <l xml:id="harley2250.erk.140">Men unclosid hym þe cloyster with clustrede
+                        keies,</l>
+                    <l xml:id="harley2250.erk.141">Bot pyne wos with þe grete prece þat passyd hym
+                        after.</l>
+                    <l xml:id="harley2250.erk.142">The byschop come to þe burynes, him barones
+                        besyde,</l>
+                    <l xml:id="harley2250.erk.143">þe maire with mony maȝti men and macers before
+                        hym.</l>
+                    <l xml:id="harley2250.erk.144">þe dene of þe dere place devysit al on fyrst,</l>
+                    <l xml:id="harley2250.erk.145">þe fyndynge of þat ferly with fynger he
+                        mynte.</l>
+                    <l xml:id="harley2250.erk.146">'Lo, lordes,' quoþ þat lede, 'suche a lyche here
+                        is</l>
+                    <l xml:id="harley2250.erk.147">Has layn loken here on loghe, how longe is
+                        unknawen;</l>
+                    <l xml:id="harley2250.erk.148">and ȝet his colour and his clothe has caȝt no
+                        defaute,</l>
+                    <l xml:id="harley2250.erk.149">Ne his lire ne þe lome þat he is layde inne.</l>
+                    <l xml:id="harley2250.erk.150">þer is no lede opon lyfe of so longe age</l>
+                    <l xml:id="harley2250.erk.151">þat may mene in his mynde þat suche amon
+                        regnyd,</l>
+                    <l xml:id="harley2250.erk.152">Ne noþer his nome ne his note nourne of one
+                        speche;</l>
+                    <l xml:id="harley2250.erk.153">Queþer mony porer in þis place is putte into
+                        grave</l>
+                    <l xml:id="harley2250.erk.154">þat merkid is in oure martilage his mynde for
+                        ever;</l>
+                    <l xml:id="harley2250.erk.155">And we have oure librarie laitid þes longe seven
+                        dayes,</l>
+                    <l xml:id="harley2250.erk.156">Bot one cronicle of þis kyng con we never
+                        fynde.</l>
+                    <l xml:id="harley2250.erk.157">He has non layne here so longe, to loke hit by
+                        kynde,</l>
+                    <l xml:id="harley2250.erk.158">To malte so out of memorie bot mervayle hit
+                        were.'</l>
+                    <l xml:id="harley2250.erk.159">'þou says soþe,' quod þe segge þat sacrid was
+                        byschop,</l>
+                    <l xml:id="harley2250.erk.160">'Hit is mervaile to men, þat mountes to
+                        litelle</l>
+                    <l xml:id="harley2250.erk.161">Towarde þe providens of þe prince þat paradis
+                        weldes,</l>
+                    <l xml:id="harley2250.erk.162">Quen hym luste to unlouke þe leste of his
+                        myȝtes.</l>
+                    <l xml:id="harley2250.erk.163">Bot quen matyd is monnes myȝt and his mynde
+                        passyde,</l>
+                    <l xml:id="harley2250.erk.164">And al his resons are torent and redeles he
+                        stondes,</l>
+                    <l xml:id="harley2250.erk.165">þen lettes hit hym ful litelle to louse wyt a
+                        fynger</l>
+                    <l xml:id="harley2250.erk.166">þat all þe hondes under heven halde myȝt
+                        never.</l>
+                    <l xml:id="harley2250.erk.167">þere as creatures crafte of counselle oute
+                        swarves,</l>
+                    <pb n="74r" facs="T00079-73"/>
+                    <l xml:id="harley2250.erk.168">þe comforthe of þe creatore byhoves þe cure
+                        take.</l>
+                    <l xml:id="harley2250.erk.169">And so do we now oure dede, devyne we no
+                        fyrre;</l>
+                    <l xml:id="harley2250.erk.170">To seche þe soth at oureselfe ȝee se þer no
+                        bote;</l>
+                    <l xml:id="harley2250.erk.171">Bot glow we alle opon Godde and his grace
+                        aske,</l>
+                    <l xml:id="harley2250.erk.172">þat careles is of counselle and comforthe to
+                        sende,</l>
+                    <l xml:id="harley2250.erk.173">Anande þat in fastynge of ȝour faithe and of fyne
+                        bileve.</l>
+                    <l xml:id="harley2250.erk.174">I shal avay ȝow so verrayly of vertues his</l>
+                    <l xml:id="harley2250.erk.175">þat ȝe may leve upon longe þat he is lord
+                        myȝty</l>
+                    <l xml:id="harley2250.erk.176">And fayne ȝour talent to fulfille if ȝe hym
+                        frende leves.'</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.177">Then he turnes to þe toumbe and talkes to þe
+                        corce,</l>
+                    <l xml:id="harley2250.erk.178">Lyftande up his egh-lyddes he loused suche
+                        wordes:</l>
+                    <l xml:id="harley2250.erk.179">'Now, lykhame þat þou lies, layne þou no
+                        lenger!</l>
+                    <l xml:id="harley2250.erk.180">Sythen Jhesus has juggit today his joy to be
+                        schewyde,</l>
+                    <l xml:id="harley2250.erk.181">Be þou bone to his bode, I bydde in his
+                        behalve;</l>
+                    <l xml:id="harley2250.erk.182">As he was bende on a beme quen he his blode
+                        schedde,</l>
+                    <l xml:id="harley2250.erk.183">As þou hit wost wyterly and we hit wele
+                        leven,</l>
+                    <l xml:id="harley2250.erk.184">Ansuare here to my sawe, councele no trouthe!</l>
+                    <l xml:id="harley2250.erk.185">Sithen we wot not qwo þou art, witere us
+                        þiselwen</l>
+                    <l xml:id="harley2250.erk.186">In worlde quat weghe þou was and quy þow þus
+                        ligges,</l>
+                    <l xml:id="harley2250.erk.187">How longe þou has layne here and quat laghe þou
+                        usyt,</l>
+                    <l xml:id="harley2250.erk.188">Queþer art þou joyned to joy oþer juggid to
+                        pyne.'</l>
+                    <l xml:id="harley2250.erk.189">Quen þe segge hade þus sayde and syked
+                        þerafter,</l>
+                    <l xml:id="harley2250.erk.190">þe bryȝt body in þe burynes brayed a litelle,</l>
+                    <l xml:id="harley2250.erk.191">And with a drery dreme be dryves owte wordes</l>
+                    <l xml:id="harley2250.erk.192">þurghe sum lant goste-lyfe of hym þat al
+                        redes.</l>
+                    <l xml:id="harley2250.erk.193">'Bisshop,' quod þis ilke body, 'þi bode is me
+                        dere;</l>
+                    <l xml:id="harley2250.erk.194">I may not bot boghe to þi bone for bothe myn
+                        eghen.</l>
+                    <l xml:id="harley2250.erk.195">þe name þat þou nevenyd has and nournet me
+                        after</l>
+                    <l xml:id="harley2250.erk.196">Al heven and helle heldes to and erthe
+                        bitwene.</l>
+                    <l xml:id="harley2250.erk.197">fyrst to say the þe sothe quo myselfe were:</l>
+                    <l xml:id="harley2250.erk.198">One þe unhapnest hathel þat ever on erth
+                        ȝode,</l>
+                    <l xml:id="harley2250.erk.199">Never kyng ne cayser ne ȝet no knyȝt nothyre,</l>
+                    <l xml:id="harley2250.erk.200">Bot a lede of þe lagh þat þen þis londe usit.</l>
+                    <l xml:id="harley2250.erk.201">I was committid and made a mayster-mon here</l>
+                    <l xml:id="harley2250.erk.202">To sytte upon sayd causes; þis cité I ȝemyed</l>
+                    <l xml:id="harley2250.erk.203">Under a prince of parage of paynymes laghe,</l>
+                    <l xml:id="harley2250.erk.204">And uche segge þat him sewide þe same faythe
+                        trowid.</l>
+                    <l xml:id="harley2250.erk.205">þe lengthe of my lyinge here þat is a lewid
+                        date,</l>
+                    <l xml:id="harley2250.erk.206">Hit to meche to any mon to make of a nombre.</l>
+                    <l xml:id="harley2250.erk.207">After þat Brutus þis burghe had buggid on
+                        fyrste,</l>
+                    <l xml:id="harley2250.erk.208">Noȝt bot fife hundred ȝere þer aghtene wontyd</l>
+                    <l xml:id="harley2250.erk.209">Before þat kynned ȝour Criste by Cristen
+                        acounte:</l>
+                    <l xml:id="harley2250.erk.210">A þousand ȝere and þritty mo and ȝet threnen
+                        aght. </l>
+                    <l xml:id="harley2250.erk.211">I was an heire of an oye in þe New Troie</l>
+                    <l xml:id="harley2250.erk.212">In þe regne of þe riche kynge þat rewlit us
+                        þen,</l>
+                    <l xml:id="harley2250.erk.213">The bolde Breton Sir Belyn - Sir Berynge was his
+                        brothire;</l>
+                    <l xml:id="harley2250.erk.214">Mony one was þe busmare boden hom bitwene</l>
+                    <l xml:id="harley2250.erk.215">For hor wrakeful werre quil hor wrath lastyd.</l>
+                    <l xml:id="harley2250.erk.216">þen was I juge here enjoynyd in gentil lawe.'</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.217">Quil he in spelunke þus spake, þer sprange in þe
+                        pepulle</l>
+                    <l xml:id="harley2250.erk.218">In al þis worlde no worde ne wakenyd no
+                        noice,</l>
+                    <l xml:id="harley2250.erk.219">Bot al as stille as þe ston stoden and
+                        listonde</l>
+                    <l xml:id="harley2250.erk.220">With meche wonder forwrast, and wepid ful
+                        mony.</l>
+                    <l xml:id="harley2250.erk.221">The bisshop biddes þat body: 'Biknowe þe
+                        cause,</l>
+                    <l xml:id="harley2250.erk.222">Sithen þou was kidde for no kynge, quy þou þe
+                        croun weres.</l>
+                    <l xml:id="harley2250.erk.223">Quy haldes þou so hegh in honde þe septre</l>
+                    <l xml:id="harley2250.erk.224">And hades no londe of lege men ne life ne lym
+                        aghtes?'</l>
+                    <pb n="74v" facs="T00079-74"/>
+                    <l xml:id="harley2250.erk.225">'Dere sir,' quod þe dede body, 'debyse þe I
+                        thenke,</l>
+                    <l xml:id="harley2250.erk.226">Al was hit never my wille þat wroght þus hit
+                        were. </l>
+                    <l xml:id="harley2250.erk.227">I was deputate and domesmon under a duke
+                        noble,</l>
+                    <l xml:id="harley2250.erk.228">And in my power þis place was putte altogeder</l>
+                    <l xml:id="harley2250.erk.229">I justifiet þis joly toun on gentil wise</l>
+                    <l xml:id="harley2250.erk.230">And ever in fourme of gode faithe, more þen
+                        fourty wynter.</l>
+                    <l xml:id="harley2250.erk.231">þe folke was felonse and fals and frowarde to
+                        reule -</l>
+                    <l xml:id="harley2250.erk.232">I hent harmes ful ofte to holde hom to riȝt;</l>
+                    <l xml:id="harley2250.erk.233">Bot for wothe ne wele, ne wrathe ne drede,</l>
+                    <l xml:id="harley2250.erk.234">Ne for maystrie ne for mede, ne for no monnes
+                        aghe,</l>
+                    <l xml:id="harley2250.erk.235">I remewit never fro þe riȝt by reson myn awen</l>
+                    <l xml:id="harley2250.erk.236">For to dresse a wrange dome, no day of my
+                        lyve,</l>
+                    <l xml:id="harley2250.erk.237">Declynet never my consciens for covetise on
+                        erthe</l>
+                    <l xml:id="harley2250.erk.238">In no gynful jugement no japes to make,</l>
+                    <l xml:id="harley2250.erk.239">Were a renke never so riche, for reverens
+                        sake;</l>
+                    <l xml:id="harley2250.erk.240">Ne for no monnes manas, ne meschefe ne
+                        routhe,</l>
+                    <l xml:id="harley2250.erk.241">Non gete me fro þe heghe gate to glent out of
+                        ryȝt</l>
+                    <l xml:id="harley2250.erk.242">Als ferforthe as my faithe confourmyd my hert. </l>
+                    <l xml:id="harley2250.erk.243">Þaghe had bene my fader bone, I bede hym no
+                        wranges,</l>
+                    <l xml:id="harley2250.erk.244">Ne fals favour to my fader, þaghe fell hym be
+                        hongyt.</l>
+                    <l xml:id="harley2250.erk.245">And for I was ryȝtwis and reken and redy of þe
+                        laghe,</l>
+                    <l xml:id="harley2250.erk.246">Quen I deghed for dul denyed all Troye;</l>
+                    <l xml:id="harley2250.erk.247">Alle menyd my dethe, þe more and the lasse,</l>
+                    <l xml:id="harley2250.erk.248">And þus to bounty my body þai buriet in
+                        golde,</l>
+                    <l xml:id="harley2250.erk.249">Cladden me for þe curtest þat courte couthe þen
+                        holde,</l>
+                    <l xml:id="harley2250.erk.250">In mantel for þe mekest and monlokest on
+                        benche,</l>
+                    <l xml:id="harley2250.erk.251">Gurden me for þe governour and graythist of
+                        Troie,</l>
+                    <l xml:id="harley2250.erk.252">Furrid me for þe fynest of faith me wtinne.</l>
+                    <l xml:id="harley2250.erk.253">For þe honour of myn honeste of heghest
+                        enprise</l>
+                    <l xml:id="harley2250.erk.254">þai coronyd me þe kidde kynge of kene
+                        justises</l>
+                    <l xml:id="harley2250.erk.255">þer ever wos tronyd in Troye oþer trowid ever
+                        shulde,</l>
+                    <l xml:id="harley2250.erk.256">And for I rewardid ever riȝt þai raght me the
+                        septre.'</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.257">þe bisshop baythes hym ȝet with bale at his
+                        hert,</l>
+                    <l xml:id="harley2250.erk.258">þaghe men menskid him so, how hit myȝt worthe</l>
+                    <l xml:id="harley2250.erk.259">þat his clothes were so clene. 'In cloutes, me
+                        thynkes,</l>
+                    <l xml:id="harley2250.erk.260">Hom burde have rotid and bene rent in rattes
+                        longe sythen.</l>
+                    <l xml:id="harley2250.erk.261">þi body may be enbawmyd, hit bashis me noght</l>
+                    <l xml:id="harley2250.erk.262">þat hit thar ryve no rote ne no ronke wormes;</l>
+                    <l xml:id="harley2250.erk.263">Bot þi coloure ne þi clothe - I know in no
+                        wise</l>
+                    <l xml:id="harley2250.erk.264">How hit myȝt lye by monnes lore and last so
+                        longe.'</l>
+                    <l xml:id="harley2250.erk.265">'Nay, bisshop,' quod þat body, 'enbawmyd wos I
+                        never,</l>
+                    <l xml:id="harley2250.erk.266">Ne no monnes counselle my cloth has kepyd
+                        unwemmyd,</l>
+                    <l xml:id="harley2250.erk.267">Bot þe riche kynge of reson, þat riȝt ever
+                        alowes</l>
+                    <l xml:id="harley2250.erk.268">And loves al þe lawes lely þat longen to
+                        trouthe;</l>
+                    <l xml:id="harley2250.erk.269">And moste he menskes men for mynnynge of
+                        riȝtes</l>
+                    <l xml:id="harley2250.erk.270">þen for al þe meritorie medes þat men on molde
+                        usen;</l>
+                    <l xml:id="harley2250.erk.271">And if renkes for riȝt þus me arayed has,</l>
+                    <l xml:id="harley2250.erk.272">He has lant me to last þat loves ryȝt best.'</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.273">'ȝea, bot sayes þou of þi saule' þen sayd þe
+                        bisshop;</l>
+                    <l xml:id="harley2250.erk.274">'Quere is ho stablid and stadde, if þou so streȝt
+                        wroghtes?</l>
+                    <l xml:id="harley2250.erk.275">He þat rewardes uche a renke as he has riȝt
+                        servyd</l>
+                    <l xml:id="harley2250.erk.276">Myȝt evel forgo the to gyfe of his grace summe
+                        brawnche.</l>
+                    <l xml:id="harley2250.erk.277">For as he says in his sothe psalmyde writtes:</l>
+                    <l xml:id="harley2250.erk.278">þe skilfulle and þe unskathely skelton ay to
+                        me.</l>
+                    <l xml:id="harley2250.erk.279">Forþi say me of þi soule, in sele quere ho
+                        wonnes,</l>
+                    <l xml:id="harley2250.erk.280">And of þe riche restorment þat raȝt hyr oure
+                        Lorde.'</l>
+                    <l xml:id="harley2250.erk.281">þen hummyd he þat þer lay and his hedde
+                        waggyd,</l>
+                    <l xml:id="harley2250.erk.282">And gefe a gronynge ful grete and to Godde
+                        sayde:</l>
+                    <l xml:id="harley2250.erk.283">'Maȝty maker of men, thi myghtes are grete;</l>
+                    <l xml:id="harley2250.erk.284">How myȝt þi mercy to me amounte any tyme?</l>                    
+                    <pb n="75r" facs="T00079-75"/>
+                    <l xml:id="harley2250.erk.285">Nas I a paynym unpreste þat never thi plite
+                        knewe,</l>
+                    <l xml:id="harley2250.erk.286">Ne þat mesure of þi mercy ne þi mecul vertue,</l>
+                    <l xml:id="harley2250.erk.287">Bot ay a freke faitheles þat faylid þi laghes</l>
+                    <l xml:id="harley2250.erk.288">þat ever þou, Lord, wos lovyd in? Allas þe harde
+                        stoundes!</l>
+                    <l xml:id="harley2250.erk.289">I was non of þe nombre þat þou with noy
+                        boghtes</l>
+                    <l xml:id="harley2250.erk.290">With þe blode of thi body upon þe blo rode.</l>
+                    <l xml:id="harley2250.erk.291">Quen þou herghdes helle-hole and hentes hom
+                        þeroute,</l>
+                    <l xml:id="harley2250.erk.292">þi loffynge oute of limbo, þou laftes me þer,</l>
+                    <l xml:id="harley2250.erk.293">And þer sittes my soule þat se may no fyrre,</l>
+                    <l xml:id="harley2250.erk.294">Dwynande in þe derke dethe þat dyȝt us oure
+                        fader,</l>
+                    <l xml:id="harley2250.erk.295">Adam oure alder, þat ete of þat appulle</l>
+                    <l xml:id="harley2250.erk.296">þat mony a plyȝtles pepul has poysned for
+                        ever.</l>
+                    <l xml:id="harley2250.erk.297">ȝe were entouchid with his tethe and take in þe
+                        glotte,</l>
+                    <l xml:id="harley2250.erk.298">Bot mendyd with a mendecyn ȝe are made for to
+                        lyvye -</l>
+                    <l xml:id="harley2250.erk.299">þat is fulloght in fonte with faitheful
+                        bileve,</l>
+                    <l xml:id="harley2250.erk.300">And þat han we myste alle merciles, myselfe and
+                        my soule.</l>
+                    <l xml:id="harley2250.erk.301">Quat wan we with oure wele-dede þat wroghtyn ay
+                        riȝt,</l>
+                    <l xml:id="harley2250.erk.302">Quen we are dampnyd dulfully into þe depe
+                        lake,</l>
+                    <l xml:id="harley2250.erk.303">And exilid fro þat soper so, þat solempne
+                        fest,</l>
+                    <l xml:id="harley2250.erk.304">þer richely hit arne refetyd þat after right
+                        hungride?</l>
+                    <l xml:id="harley2250.erk.305">My soule may sitte þer in sorow and sike ful
+                        colde,</l>
+                    <l xml:id="harley2250.erk.306">Dynly in þat derke dethe þer dawes never
+                        morowen,</l>
+                    <l xml:id="harley2250.erk.307">Hungrie inwith helle-hole, and herken after
+                        meeles</l>
+                    <l xml:id="harley2250.erk.308">Longe er ho þat soper se oþer segge hyr to
+                        lathe.'</l>
+                </lg>
+                <lg>
+                    <l xml:id="harley2250.erk.309">þus dulfully þis dede body devisyt hit sorowe</l>
+                    <l xml:id="harley2250.erk.310">þat alle wepyd for woo þe wordes þat herden,</l>
+                    <l xml:id="harley2250.erk.311">And þe bysshop balefully bere doun his eghen,</l>
+                    <l xml:id="harley2250.erk.312">þat hade no space to speke, so spakly he
+                        ȝoskyd,</l>
+                    <l xml:id="harley2250.erk.313">Til he toke hym a tome and to þe toumbe
+                        lokyd,</l>
+                    <l xml:id="harley2250.erk.314">To þe liche þer hit lay, with lavande teres.</l>
+                    <l xml:id="harley2250.erk.315">'Oure Lord lene', quod þat lede, 'þat þou lyfe
+                        hades,</l>
+                    <l xml:id="harley2250.erk.316">By Goddes leve, as longe as I myȝt lacche
+                        water,</l>
+                    <l xml:id="harley2250.erk.317">And cast upon þi faire cors and carpe þes
+                        wordes,</l>
+                    <l xml:id="harley2250.erk.318">"I folwe þe in þe Fader nome and his fre Childes
+                        And of þe gracious Holy Goste, and Not one grue lenger."</l>
+                    <l xml:id="harley2250.erk.319">þen þof þou droppyd doun dede, hit daungere me
+                        lasse.'</l>
+                    <l xml:id="harley2250.erk.320">With þat worde þat he warpyd, þe wete of
+                        eghen</l>
+                    <l xml:id="harley2250.erk.321">And teres trillyd adoun and on þe toumbe
+                        lighten,</l>
+                    <l xml:id="harley2250.erk.322">And one felle on his face, and þe freke
+                        syked.</l>
+                    <l xml:id="harley2250.erk.323">þen sayd he with a sadde soun: 'Oure Savyoure be
+                        lovyd!</l>
+                    <l xml:id="harley2250.erk.324">Now herid be þou, heghe God, and þi hende
+                        Moder,</l>
+                    <l xml:id="harley2250.erk.325">And blissid be þat blisful houre þat ho the bere
+                        in!</l>
+                    <l xml:id="harley2250.erk.326">And also be þou, bysshop, þe bote of my
+                        sorowe</l>
+                    <l xml:id="harley2250.erk.327">And þe relefe of þe lodely lures þat my soule has
+                        levyed in!</l>
+                    <l xml:id="harley2250.erk.328">For þe wordes þat þou werpe and þe water þat þou
+                        sheddes,</l>
+                    <l xml:id="harley2250.erk.329">þe bryȝt bourne of þin eghen, my bapteme is
+                        worthyn.</l>
+                    <l xml:id="harley2250.erk.330">þe fyrst slent þat on me slode slekkyd al my
+                        tene;</l>
+                    <l xml:id="harley2250.erk.331">ryȝt now to soper my soule is sette at þe
+                        table.</l>
+                    <l xml:id="harley2250.erk.332">For with þe wordes and þe water þat wesche us of
+                        payne,</l>
+                    <l xml:id="harley2250.erk.333">Liȝtly lasshit þer a leme loghe in þe abyme</l>
+                    <l xml:id="harley2250.erk.334">þat spakly sprent my spyrit with unsparid
+                        murthe</l>
+                    <l xml:id="harley2250.erk.335">Into þe cenacle solemply þer soupen all
+                        trewe;</l>
+                    <l xml:id="harley2250.erk.336">And þer a marcialle hyr mette with menske
+                        aldergrattest,</l>
+                    <l xml:id="harley2250.erk.337">And with reverence a rowme he raȝt hyr for
+                        ever.</l>
+                    <l xml:id="harley2250.erk.338">I heere þerof my heghe God and also þe,
+                        bysshop,</l>
+                    <l xml:id="harley2250.erk.339">Fro bale has broȝt us to blis, blessid þou
+                        worthe!’</l>
+                </lg>
+                <pb n="75v" facs="T00079-76"/>
+                <lg>
+                    <l xml:id="harley2250.erk.340">Wyt this cessyd his sowne, sayd he no more,</l>
+                    <l xml:id="harley2250.erk.341">Bot sodenly his swete chere swyndid and
+                        faylide</l>
+                    <l xml:id="harley2250.erk.342">And all the blee of his body wos blakke as þe
+                        moldes,</l>
+                    <l xml:id="harley2250.erk.343">As roten as þe rottok þat rises in powdere.</l>
+                    <l xml:id="harley2250.erk.344">For as sone as þe soule was sesyd in blisse,</l>
+                    <l xml:id="harley2250.erk.345">Corrupt was þat oþer crafte þat covert þe
+                        bones,</l>
+                    <l xml:id="harley2250.erk.346">For þe ay-lastande life þat lethe shall never</l>
+                    <l xml:id="harley2250.erk.347">Devoydes uche a vayneglorie þat vayles so
+                        litelle.</l>
+                    <l xml:id="harley2250.erk.348">þen wos lovynge oure Lord with loves
+                        uphalden,</l>
+                    <l xml:id="harley2250.erk.349">Meche mournynge and myrthe was mellyd
+                        togeder.</l>
+                    <l xml:id="harley2250.erk.350">þai passyd forthe in procession and alle þe
+                        pepulle folowid,</l>
+                    <l xml:id="harley2250.erk.351">And all þe belles in þe burghe beryd at ones.</l>                    
+                </lg>
+            </div1>
+        </body>
+    </text>
+</TEI>

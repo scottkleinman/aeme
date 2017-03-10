@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>The Archive of Early Middle English</title>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='lib/bootstrap-3.3.6/css/bootstrap.min.css') }}"/>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='lib/font-awesome-4.6.3/css/font-awesome.min.css') }}"/>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='lib/bootstrap-select-1.11.0/css/bootstrap-select.min.css') }}"/>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='css/styles.css') }}"/>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='css/tei_styles.css') }}"/>
+    <link class="lazyload" rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='css/critical.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/perfect-scrollbar/css/perfect-scrollbar.min.css') }}">
+    {% block styles %}{% endblock %}
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='lib/jquery/jquery-2.2.4.min.js') }}"></script>
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='lib/jquery-ui-1.12.1/jquery-ui.min.js') }}"></script>
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='js/general_functions.js') }}"></script>
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='js/ui_behaviours.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/lazyload.js') }}"></script>
+<!--     <script src="{{ url_for('static', filename='lib/vkbeautify.js') }}"></script>
+ -->    <script src="{{ url_for('static', filename='lib/openseadragon/openseadragon.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js') }}"></script>
+    <script>
+        var pagination = {{ pagination|safe }};
+    </script>
+    {% block headscripts %}{% endblock %}
+</head>
+<body>
+<!-- Loading -->
+<div id="loading">
+<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+</div>
+
+<!-- Wrap all page content here -->
+<div id="wrap">
+    <!-- Navbar -->
+    {% include "navbar.html" %}
+
+    <!-- Begin page content -->
+    <div class="center-container">
+        <!-- <div class="center-row"> -->
+            {% block content %}{% endblock %}
+        <!-- </div> --><!-- /.center-container -->
+    </div><!-- /.center-row -->
+
+<footer>
+    <div class="container">
+    © 2016-2017
+    <a href="http://emesoc.org/" target="_blank">Archive of Early Middle English</a>·
+    <br>
+    This site is licensed under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.
+    <div id="debug" style="display:none;">
+        <label>Number of Pages: <span id="debugNumPages">1</span></label>
+        <label>Current Page Index: <span id="debugCurrentPageIndex">0</span></label>
+    </div>
+  </div>
+</footer>
+
+</div><!-- /.wrap -->
+
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='lib/bootstrap-3.3.6/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/bootbox.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/bootstrap-select-1.11.0/js/bootstrap-select.min.js') }}"></script>
+{% block scripts %}
+{% endblock %}
+
+<!-- Modal Containing Response to Navbar Event -->
+<div id="navbarModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+     aria-labelledby="navbarModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content panel-success">
+          <div class="modal-header panel-heading">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="navbarModalLabel">{{ title or "Modal Title" }}</h3>
+            </div>
+            <div class="modal-body" id="navbarModalBody">
+                {{ msg or "Modal Content" }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Notes -->
+<div id="noteModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+     aria-labelledby="noteModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content panel-success">
+          <div class="modal-header panel-heading">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="noteModalLabel">Textual Notes</h3>
+            </div>
+            <div class="modal-body" id="noteModalBody" style="margin-top:10px;">
+                Textual notes are displayed here.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Editor Errors -->
+<div id="editorModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+     aria-labelledby="editorModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content panel-danger">
+          <div class="modal-header panel-heading">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="editorModalLabel">Validation Error</h3>
+            </div>
+            <div class="modal-body" id="editorModalBody" style="margin-top:10px;">
+                Validation errors are displayed here.
+            </div>
+            <div class="modal-footer" id="editorModalFooter">
+                <button type="button" class="btn btn-default btn-primary" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Settings -->
+<div id="settingsModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog"
+     aria-labelledby="settingsModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content panel-success">
+          <div class="modal-header panel-heading">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="settingsModalLabel">Settings</h3>
+            </div>
+            <div class="modal-body" id="settingsModalBody">
+                <label>
+                    <input id="showUnclear" type="checkbox" checked="checked"> Show &lt;unclear&gt;
+                </label><br>
+                <label>
+                    <input id="showAdd" type="checkbox" checked="checked"> Show &lt;add&gt;
+                </label><br>
+                <label>
+                    <input id="showDel" type="checkbox" checked="checked"> Show &lt;del&gt;
+                </label>
+            </div>
+            <div class="modal-footer" id="settingsModalFooter">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="saveSettings" type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
