@@ -1,5 +1,6 @@
 var debug = false;
 var noImage = false;
+var appFolder = ""; // "/aeme"
 
 function loadTileSources (response, url) {
 	var numPages = 0;
@@ -38,7 +39,7 @@ function loadText(url, viewer) {
 	data = JSON.stringify([{'title': url}]);
 	// If the noImage is false, load the tile sources
 	$.ajax({
-		url: "load-text", // /aeme/load-text
+		url: appFolder+"load-text",
 		type: 'POST',
 		dataType: 'json',
         data: data,
@@ -147,7 +148,7 @@ function moveNotes() {
 function loadPage(page) {
 	data = JSON.stringify([{'page': page}]);
 	$.ajax({
-		url: "load-page", // /aeme/load-page
+		url: appFolder+"load-page",
 		type: 'POST',
 		dataType: 'json',
         data: data,
