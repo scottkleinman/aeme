@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <title>The Archive of Early Middle English</title>
+    <title>{{ LANG.SITE_TITLE|safe }}</title>
     <link rel="stylesheet" type="text/css"
           href="{{ url_for('static', filename='lib/bootstrap-3.3.6/css/bootstrap.min.css') }}"/>
     <link rel="stylesheet" type="text/css"
@@ -17,6 +17,7 @@
           href="{{ url_for('static', filename='css/critical.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/perfect-scrollbar/css/perfect-scrollbar.min.css') }}">
     {% block styles %}{% endblock %}
+    <script>var language = JSON.parse({{ JSONLANG|tojson|safe }});</script>
     <script type="text/javascript"
             src="{{ url_for('static', filename='lib/jquery/jquery-2.2.4.min.js') }}"></script>
     <script type="text/javascript"

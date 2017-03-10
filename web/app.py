@@ -7,6 +7,11 @@ from flask import Flask, render_template, request
 # Other imports
 from lxml import etree, html
 
+# App imports
+import language.LANG_AEME as LANG
+# Convert the module variables to a JSON string to send to the template
+language = json.dumps({key: value for key, value in LANG.__dict__.iteritems() if not (key.startswith('__') or key.startswith('_') or key.islower())})
+
 # Define the WSGI application object
 app = Flask(__name__)
 #app = Flask(__name__, instance_relative_config=True)
@@ -235,10 +240,10 @@ def index():
 
 	# Hack: replace the rendered text on the splash page
 	if request.method != "POST":
-		html_pages = ['<h1 class="splash">Select a Text from the Menu</h1>']
+		html_pages = ['<h1 class="splash">'+LANG.SPLASH+'</h1>']
 
 	# Render the template
-	return render_template('index.html', text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
+	return render_template('index.html', LANG=LANG, JSONLANG = language, text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
 
 @app.route('/load-text', methods=["GET", "POST"])
 def loadText():

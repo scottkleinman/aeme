@@ -213,9 +213,8 @@ $(document).ready(function() {
 		
 	$('#about').click(function(event){
 		event.preventDefault();
-		msg = "<p>This is a demonstration of the digital edition platform for the Archive of Early Middle English. This is an alpha version used for development purposes. Any texts currently loaded are incomplete fragments used to test functionality. Image loading time will vary depending on your internet connection.</p><p>Clicking a word will open a dialog and perform a simple search of the <em>Middle English Dictionary</em>, adding a wildcard asterisk to the end of the word. Obviously, this will not always produce the desired results, but eventually words can be matched to MED IDs.</p>";
-		$(".modal-title").html("About this Site");
-		$(".modal-body").html("<p>"+msg+"</p>");
+		$(".modal-title").html(language.ABOUT.title);
+		$(".modal-body").html("<p>"+language.ABOUT.message+"</p>");
 		zindex = $("#toolbarDiv").css("z-index") + 1;
 		$("#navbarModal").css("z-index", zindex);
 		$("#navbarModal").modal({
