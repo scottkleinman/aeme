@@ -38,7 +38,7 @@ function loadText(url, viewer) {
 	data = JSON.stringify([{'title': url}]);
 	// If the noImage is false, load the tile sources
 	$.ajax({
-		url: appFolder+"load-text",
+		url: site_url+"/load-text",
 		type: 'POST',
 		dataType: 'json',
         data: data,
@@ -147,7 +147,7 @@ function moveNotes() {
 function loadPage(page) {
 	data = JSON.stringify([{'page': page}]);
 	$.ajax({
-		url: appFolder+"load-page",
+		url: site_url+"/load-page",
 		type: 'POST',
 		dataType: 'json',
         data: data,

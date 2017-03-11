@@ -30,7 +30,7 @@
  -->    <script src="{{ url_for('static', filename='lib/openseadragon/openseadragon.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js') }}"></script>
     <script>
-        var appFolder = {{ config.SITE_FOLDER|tojson|safe }};
+        var site_url = {{ config.SITE_URL|tojson|safe }};
         var about = {{ config.ABOUT|tojson|safe }};
         var metadata = {{ config.METADATA|tojson|safe }};
         var pagination = {{ pagination|safe }};
