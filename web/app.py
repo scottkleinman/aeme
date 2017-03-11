@@ -21,7 +21,7 @@ application = app # our hosting requires application in passenger_wsgi
 # app.config.from_object('config')
 # app.config.from_pyfile('config.py')
 demoMode = True
- 
+
  # Sample HTTP error handling
 @app.errorhandler(404)
 def not_found(error):
@@ -29,22 +29,21 @@ def not_found(error):
 
 # Build Menu
 def buildMenu():
-	menu = '<ul id="menu-list" class="nav navbar-nav">\n'
-	for item in LANG.MENU_ITEMS:
-	    links = item["links"]
-	    if len(links) > 1:
-	        label = links.pop(0)
-	        dropdown ='<li class="dropdown">\n'
-	        dropdown += '\t<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">'
-	        dropdown += label + ' <span class="caret"></span></a>\n'
-	        dropdown += '\t<ul class="dropdown-menu">\n'
-	        for link in links:
-	            dropdown += "\t\t<li>" + link + "</li>\n"
-	        dropdown += '\t</ul>\n'
-	        dropdown += '</li>\n'
+	menu = '<ul id="menu-list" class="nav navbar-nav">'
+	for x in LANG.MENU_ITEMS:
+	    if type(x) is list:
+	        label = x.pop(0)
+	        dropdown ='<li class="dropdown">'
+	        dropdown += '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">'
+	        dropdown += label + ' <span class="caret"></span></a>'
+	        dropdown += '<ul class="dropdown-menu">'
+	        for y in x:
+	            dropdown += "<li>" + y + "</li>"
+	        dropdown += '</ul>'
+	        dropdown += '</li>'
 	        menu += dropdown
 	    else:
-	        menu += "<li>" + links[0] + "</li>\n"
+	        menu += "<li>" + x + "</li>"
 	menu += "</ul>"
 	return menu
 
