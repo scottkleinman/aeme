@@ -1,6 +1,5 @@
 var debug = false;
 var noImage = false;
-var appFolder = ""; // "/aeme"
 
 function loadTileSources (response, url) {
 	var numPages = 0;
@@ -213,8 +212,8 @@ $(document).ready(function() {
 		
 	$('#about').click(function(event){
 		event.preventDefault();
-		$(".modal-title").html(language.ABOUT.title);
-		$(".modal-body").html("<p>"+language.ABOUT.message+"</p>");
+		$(".modal-title").html(about[0].title);
+		$(".modal-body").html("<p>"+about[1].message+"</p>");
 		zindex = $("#toolbarDiv").css("z-index") + 1;
 		$("#navbarModal").css("z-index", zindex);
 		$("#navbarModal").modal({

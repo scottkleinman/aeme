@@ -8,9 +8,9 @@ from flask import Flask, render_template, request
 from lxml import etree, html
 
 # App imports
-import language.LANG_AEME as LANG
+#import language.LANG_AEME as LANG
 # Convert the module variables to a JSON string to send to the template
-language = json.dumps({key: value for key, value in LANG.__dict__.iteritems() if not (key.startswith('__') or key.startswith('_') or key.islower())})
+#language = json.dumps({key: value for key, value in LANG.__dict__.iteritems() if not (key.startswith('__') or key.startswith('_') or key.islower())})
 
 # Define the WSGI application object
 app = Flask(__name__)
@@ -18,9 +18,11 @@ app = Flask(__name__)
 application = app # our hosting requires application in passenger_wsgi
 
 # Configurations
-# app.config.from_object('config')
-# app.config.from_pyfile('config.py')
-demoMode = True
+from ordbok.flask_helper import FlaskOrdbok
+
+ordbok = FlaskOrdbok(app)
+ordbok.load()
+app.config.update(ordbok)
 
  # Sample HTTP error handling
 @app.errorhandler(404)
@@ -29,23 +31,25 @@ def not_found(error):
 
 # Build Menu
 def buildMenu():
-	menu = '<ul id="menu-list" class="nav navbar-nav">'
-	for x in LANG.MENU_ITEMS:
-	    if type(x) is list:
-	        label = x.pop(0)
-	        dropdown ='<li class="dropdown">'
-	        dropdown += '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">'
-	        dropdown += label + ' <span class="caret"></span></a>'
-	        dropdown += '<ul class="dropdown-menu">'
-	        for y in x:
-	            dropdown += "<li>" + y + "</li>"
-	        dropdown += '</ul>'
-	        dropdown += '</li>'
-	        menu += dropdown
-	    else:
-	        menu += "<li>" + x + "</li>"
-	menu += "</ul>"
-	return menu
+	config = app.config
+	menu = config["MENU"]
+	menu_str = '<ul id="menu-list" class="nav navbar-nav">'
+	for item in menu:
+		if type(item) is dict:
+			for label, subitems in item.iteritems():
+				dropdown ='<li class="dropdown">'
+				dropdown += '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">'
+				dropdown += label + ' <span class="caret"></span></a>'
+				dropdown += '<ul class="dropdown-menu">'
+				for subitem in subitems:
+				    dropdown += "<li>" + subitem + "</li>"
+				dropdown += '</ul>'
+				dropdown += '</li>'
+				menu_str += dropdown
+		else:
+			menu_str += "<li>" + item + "</li>"
+	menu_str += '</ul>'
+	return menu_str
 
 # Strip namespaces
 def strip_ns(tree):
@@ -262,10 +266,10 @@ def index():
 
 	# Hack: replace the rendered text on the splash page
 	if request.method != "POST":
-		html_pages = ['<h1 class="splash">'+LANG.SPLASH+'</h1>']
+		html_pages = ['<h1 class="splash">'+app.config["SPLASH"]+'</h1>']
 
 	# Render the template
-	return render_template('index.html', LANG=LANG, JSONLANG=language, MENU=menu, text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
+	return render_template('index.html', MENU=menu, text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
 
 @app.route('/load-text', methods=["GET", "POST"])
 def loadText():
@@ -335,7 +339,7 @@ def saveXML():
 	filepath = request.headers["filepath"]
 	xmlstr = request.get_data()
 	result = validate(xmlstr)
-	if result == "valid" and demoMode == False:
+	if result == "valid" and app.config["DEMOMODE"] == False:
 		# Write the file
 		print("Saving")
 		file = open(filepath, "w")

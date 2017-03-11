@@ -6,13 +6,13 @@ TBD. Right, these are just some notes and references for development.
 
 ### Server-Side
 
-```python
-demoMode = True
-```
+Now uses [ordbok](https://github.com/eriktaubeneck/ordbok) to handle configuration. See the `configuration` folder files.
 
-`demoMode` prevents changes in the code editor from being saved. In general, it should be used for server installations, as code editing should only take place when working locally.
+`DEMOMODE` prevents changes in the code editor from being saved. In general, it should be used for server installations, as code editing should only take place when working locally.
 
-It is also possible to configure instances of the app with different language/settings. Currently, there are two template configuration files in the `language` folder. Variables configured in these files are available in Python and Jinja templates. `app.py` also constructs a JSON object containing all configuration keywords that are entirely in upper case. This object is passed to the layout template, so the language is available in the format `language.ABOUT.title` to any of the Javascript functions. NB. I tried to set the client-side `appFolder` this way, but it causes problems with the menu. Something to be investigated. For now, the site path needs to be configured on the client side. **Update:** From what I can tell, accessing the language on the client side screws things up unless you kill and restart the server process. An inconvenience, but it works.
+Language to be passed to scripts in the `/js` folder needs to be loaded `layout.html` with code like `var about = {{ config.ABOUT|tojson|safe }};`. The values are then available through `about["title"]`. Note that for some reason, each object has to be accessed by index, so `about[0]["title"]`, `about[1]["message"]` may be necessary.
+
+Sometimes changes don't take effect until you kill and restart the server process. An inconvenience, but it works.
 
 ### Client-Side
 
