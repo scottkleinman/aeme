@@ -3,7 +3,6 @@ all lower case. This ensures the creation of readable dictionaries in
 this file without duplicating material in the JSON object passed to 
 the template.
 """
-
 SITE_TITLE = "A Digital Edition of Harley 2250"
 
 SPLASH = "Select a Text from the Menu"

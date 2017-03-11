@@ -8,7 +8,7 @@ from flask import Flask, render_template, request
 from lxml import etree, html
 
 # App imports
-import language.LANG_Harley2250 as LANG
+import language.LANG_AEME as LANG
 # Convert the module variables to a JSON string to send to the template
 language = json.dumps({key: value for key, value in LANG.__dict__.iteritems() if not (key.startswith('__') or key.startswith('_') or key.islower())})
 
