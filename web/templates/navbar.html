@@ -17,27 +17,10 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul id="menu-list" class="nav navbar-nav">
-            <li><a id="about" href="#">About <span class="sr-only">(current)</span></a></li>
-            <li><a class="navLink" href="bodljunius1/junius1.xml">Junius 1</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Laud Misc. 108 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><a class="navLink" href="bodllaudmisc108/3aa_SEL-Brendan.xml">Saint Brendan</a></li>
-              <li><a class="navLink" href="bodllaudmisc108/3ac_SEL-Julian.xml">Saint Julian</a></li>
-              <li><a class="navLink" href="bodllaudmisc108/3ah_SEL-George.xml">Saint George</a></li>
-              <li><a class="navLink" href="bodllaudmisc108/3ah_SEL-George.xml">Saint George</a></li>
-              <li><a class="navLink" href="bodllaudmisc108/6_Debate-between-Body-and-Soul.xml">Debate between the Body and Soul</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Harley 2250 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><a class="navLink" href="harley2250/martin.xml">Saint Martin</a></li>
-              <li><a class="navLink" href="harley2250/erkenwald.xml">Saint Erkenwald</a></li>
-              </ul>
-            </li>
-          </ul>
+
+          <!-- Menu loads from config file -->
+          {{MENU|safe}}
+
           <div class="btn-group navbar-form navbar-right" role="toolbar" aria-label="...">
             <button id="diplomatic" type="button" class="viewselect btn btn-default" data-active-class="info">Diplomatic</button>
             <button id="critical" type="button" class="viewselect btn btn-default active" data-active-class="info">Critical</button>

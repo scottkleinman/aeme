@@ -8,6 +8,17 @@ SITE_TITLE = "A Digital Edition of Harley 2250"
 
 SPLASH = "Select a Text from the Menu"
 
+MENU_ITEMS = [{
+  "links": ['<a id="about" href="#">About <span class="sr-only">(current)</span></a>']
+},
+{
+  "links": [
+    'Harley 2250',
+    '<a class="navLink" href="harley2250/martin.xml">Saint Martin</a>',
+    '<a class="navLink" href="harley2250/erkenwald.xml">Saint Erkenwald</a>'
+    ]
+}]
+
 about_msg = """
 <p>This is a demonstration of the digital edition
 platform for the Archive of Early Middle English. This version includes 

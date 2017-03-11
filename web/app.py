@@ -8,7 +8,7 @@ from flask import Flask, render_template, request
 from lxml import etree, html
 
 # App imports
-import language.LANG_AEME as LANG
+import language.LANG_Harley2250 as LANG
 # Convert the module variables to a JSON string to send to the template
 language = json.dumps({key: value for key, value in LANG.__dict__.iteritems() if not (key.startswith('__') or key.startswith('_') or key.islower())})
 
@@ -26,6 +26,27 @@ demoMode = True
 @app.errorhandler(404)
 def not_found(error):
     return render_template('404.html'), 404
+
+# Build Menu
+def buildMenu():
+	menu = '<ul id="menu-list" class="nav navbar-nav">\n'
+	for item in LANG.MENU_ITEMS:
+	    links = item["links"]
+	    if len(links) > 1:
+	        label = links.pop(0)
+	        dropdown ='<li class="dropdown">\n'
+	        dropdown += '\t<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">'
+	        dropdown += label + ' <span class="caret"></span></a>\n'
+	        dropdown += '\t<ul class="dropdown-menu">\n'
+	        for link in links:
+	            dropdown += "\t\t<li>" + link + "</li>\n"
+	        dropdown += '\t</ul>\n'
+	        dropdown += '</li>\n'
+	        menu += dropdown
+	    else:
+	        menu += "<li>" + links[0] + "</li>\n"
+	menu += "</ul>"
+	return menu
 
 # Strip namespaces
 def strip_ns(tree):
@@ -214,6 +235,8 @@ def build_html_pages(tree):
 
 @app.route('/', methods=["GET", "POST"])
 def index():
+	menu = buildMenu()
+
 	# Build file path based on GET/POST
 	APP_STATIC = os.path.join(app.root_path, 'static')
 	file = 'content/xml/'
@@ -243,7 +266,7 @@ def index():
 		html_pages = ['<h1 class="splash">'+LANG.SPLASH+'</h1>']
 
 	# Render the template
-	return render_template('index.html', LANG=LANG, JSONLANG = language, text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
+	return render_template('index.html', LANG=LANG, JSONLANG=language, MENU=menu, text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
 
 @app.route('/load-text', methods=["GET", "POST"])
 def loadText():

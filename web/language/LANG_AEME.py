@@ -8,6 +8,22 @@ SITE_TITLE = "The Archive of Early Middle English"
 
 SPLASH = "Select a Text from the Menu"
 
+MENU_ITEMS = [{
+  "links": ['<a id="about" href="#">About <span class="sr-only">(current)</span></a>']
+},
+{
+  "links": ['<a class="navLink" href="bodljunius1/junius1.xml">Junius 1</a>']
+},
+{
+  "links": [
+    'Laud Misc. 108',
+    '<a class="navLink" href="bodllaudmisc108/3aa_SEL-Brendan.xml">Saint Brendan</a>',
+    '<a class="navLink" href="bodllaudmisc108/3ac_SEL-Julian.xml">Saint Julian</a>',
+    '<a class="navLink" href="bodllaudmisc108/3ah_SEL-George.xml">Saint George</a>',
+    '<a class="navLink" href="bodllaudmisc108/6_Debate-between-Body-and-Soul.xml">Debate between the Body and Soul</a>'
+    ]
+}]
+
 about_msg = """
 <p>This is a demonstration of the digital edition
 platform for the Archive of Early Middle English. This is an alpha
