@@ -3,6 +3,17 @@
 /*===================*/
 
 $(document).ready(function(){
+	$('#about').click(function(event){
+		event.preventDefault();
+		$(".modal-title").html(about[0].title);
+		$(".modal-body").html("<p>"+about[1].message+"</p>");
+		zindex = $("#toolbarDiv").css("z-index") + 1;
+		$("#navbarModal").css("z-index", zindex);
+		$("#navbarModal").modal({
+	  		backdrop: false
+		});  
+	});
+
 	/* Opens metadata modal from navbar link */
 	$("#metadata").click(function(){
 		var box = bootbox.alert({

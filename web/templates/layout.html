@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <title>{{ config.SITE_TITLE|safe }}</title>
+    <!-- General Assets -->
     <link rel="stylesheet" type="text/css"
           href="{{ url_for('static', filename='lib/bootstrap-3.3.6/css/bootstrap.min.css') }}"/>
     <link rel="stylesheet" type="text/css"
@@ -11,11 +12,14 @@
           href="{{ url_for('static', filename='lib/bootstrap-select-1.11.0/css/bootstrap-select.min.css') }}"/>
     <link rel="stylesheet" type="text/css"
           href="{{ url_for('static', filename='css/styles.css') }}"/>
+    {% if active_page=="viewer" %}
     <link rel="stylesheet" type="text/css"
           href="{{ url_for('static', filename='css/tei_styles.css') }}"/>
     <link class="lazyload" rel="stylesheet" type="text/css"
           href="{{ url_for('static', filename='css/critical.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/perfect-scrollbar/css/perfect-scrollbar.min.css') }}">
+    {% endif %}
+
     {% block styles %}{% endblock %}
     <script type="text/javascript"
             src="{{ url_for('static', filename='lib/jquery/jquery-2.2.4.min.js') }}"></script>
@@ -23,18 +27,20 @@
             src="{{ url_for('static', filename='lib/jquery-ui-1.12.1/jquery-ui.min.js') }}"></script>
     <script type="text/javascript"
             src="{{ url_for('static', filename='js/general_functions.js') }}"></script>
+
+    {% if active_page=="viewer" %}
     <script type="text/javascript"
             src="{{ url_for('static', filename='js/ui_behaviours.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/lazyload.js') }}"></script>
-<!--     <script src="{{ url_for('static', filename='lib/vkbeautify.js') }}"></script>
- -->    <script src="{{ url_for('static', filename='lib/openseadragon/openseadragon.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/openseadragon/openseadragon.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js') }}"></script>
     <script>
         var site_url = {{ config.SITE_URL|tojson|safe }};
-        var about = {{ config.ABOUT|tojson|safe }};
+        var about = {{ config.ABOUT_EDITION|tojson|safe }};
         var metadata = {{ config.METADATA|tojson|safe }};
         var pagination = {{ pagination|safe }};
     </script>
+    {% endif %}
     {% block headscripts %}{% endblock %}
 </head>
 <body>
@@ -50,6 +56,7 @@
     {% include "navbar.html" %}
 
     <!-- Begin page content -->
+
     <div class="center-container">
         <!-- <div class="center-row"> -->
             {% block content %}{% endblock %}

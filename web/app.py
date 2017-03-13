@@ -34,6 +34,9 @@ def buildMenu():
 	config = app.config
 	menu = config["MENU"]
 	menu_str = '<ul id="menu-list" class="nav navbar-nav">'
+	menu_str += '<li><a href="/">Home <span class="sr-only">(current)</span></a></li>'
+	menu_str += '<li><a id="about" href="#">About</a></li>'
+
 	for item in menu:
 		if type(item) is dict:
 			for label, subitems in item.iteritems():
@@ -236,8 +239,8 @@ def build_html_pages(tree):
 
 	return html_pages, pagination
 
-@app.route('/', methods=["GET", "POST"])
-def index():
+@app.route('/viewer', methods=["GET", "POST"])
+def viewer():
 	menu = buildMenu()
 
 	# Build file path based on GET/POST
@@ -269,9 +272,9 @@ def index():
 		html_pages = ['<h1 class="splash">'+app.config["SPLASH"]+'</h1>']
 
 	# Render the template
-	return render_template('index.html', MENU=menu, text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
+	return render_template('edition_viewer.html', MENU=menu, text=html_pages, pagination=pagination, filepath=filepath, xmlstr=xmlstr)
 
-@app.route('/load-text', methods=["GET", "POST"])
+@app.route('/viewer/load-text', methods=["GET", "POST"])
 def loadText():
 	# Build file path based on GET/POST
 	#APP_STATIC = os.path.join(app.root_path, 'static')
@@ -298,7 +301,7 @@ def loadText():
 	data = json.dumps({"html_pages": html_pages[0], "pagination": pagination, "filepath": newfilepath, "xmlstr": xmlstr})
 	return data
 
-@app.route('/load-page', methods=["GET", "POST"])
+@app.route('/viewer/load-page', methods=["GET", "POST"])
 def loadPage():
 	# Get the pageIndex from the current page by POST
 	pageIndex = int(request.json[0]["page"])-1
@@ -313,7 +316,7 @@ def loadPage():
 	data = json.dumps({"html_pages": pages[pageIndex+1]})
 	return data
 
-@app.route('/get-source', methods=["GET", "POST"])
+@app.route('/viewer/get-source', methods=["GET", "POST"])
 def getSource():
 	# Build file path based on GET/POST
 	APP_STATIC = os.path.join(app.root_path, 'static')
@@ -334,7 +337,7 @@ def getSource():
 	source = re.sub('&(.+);', lambda pat: '&amp;'+pat.group(1)+';', source)
 	return source
 
-@app.route('/save-xml', methods=["GET", "POST"])
+@app.route('/viewer/save-xml', methods=["GET", "POST"])
 def saveXML():
 	filepath = request.headers["filepath"]
 	xmlstr = request.get_data()
@@ -393,6 +396,16 @@ def validate(xml):
         return "valid"
     else:
         return "<p>The document is not valid. Here are the errors from the log:</p>" + errors
+
+@app.route("/")
+def index():
+	menu = buildMenu()
+	return render_template('home.html')
+
+@app.route("/about")
+def about():
+	menu = buildMenu()
+	return render_template('about.html')
 
 ''' 
 @app.route("/")

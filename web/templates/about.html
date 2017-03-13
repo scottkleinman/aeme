@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+<style type="text/css">
+#spacer {height: 25px;}
+</style>
+<div class="row" id="spacer">
+	<div class="col-md-2"></div>
+</div>
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		{{ config.ABOUT|safe }}
+	</div>
+	<div class="col-md-1"></div>
+</div>
+{% endblock %}
+

@@ -38,7 +38,7 @@ function loadText(url, viewer) {
 	data = JSON.stringify([{'title': url}]);
 	// If the noImage is false, load the tile sources
 	$.ajax({
-		url: site_url+"/load-text",
+		url: site_url+"/viewer/load-text",
 		type: 'POST',
 		dataType: 'json',
         data: data,
@@ -147,7 +147,7 @@ function moveNotes() {
 function loadPage(page) {
 	data = JSON.stringify([{'page': page}]);
 	$.ajax({
-		url: site_url+"/load-page",
+		url: site_url+"/viewer/load-page",
 		type: 'POST',
 		dataType: 'json',
         data: data,
@@ -210,17 +210,6 @@ $(document).ready(function() {
     /* Enable Bootstrap modal drag functionality -- relies on jQuery UI */
     $(".modal-dialog").draggable({handle: ".modal-header"});	
 		
-	$('#about').click(function(event){
-		event.preventDefault();
-		$(".modal-title").html(about[0].title);
-		$(".modal-body").html("<p>"+about[1].message+"</p>");
-		zindex = $("#toolbarDiv").css("z-index") + 1;
-		$("#navbarModal").css("z-index", zindex);
-		$("#navbarModal").modal({
-	  		backdrop: false
-		});  
-	});
-
 	$(".navLink").click(function(e) {
 		e.preventDefault();
 		loadText($(this).attr("href"), viewer); // Load the text
@@ -517,7 +506,7 @@ $(document).ready(function() {
 			// Need to get the title somehow			        
 				data = JSON.stringify([{'url': $("#currentFile").val()}]);
 				$("#loading").show();
-				url = 'get-source'; // aeme/getsource
+				url = '/viewer/get-source'; // aeme/getsource
 				$(".modal-title").html("XML Source");
 				$.ajax({
 					url: url,
