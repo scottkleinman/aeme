@@ -9,10 +9,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+            {% if active_page!="home" %}
+            <style type="text/css">
+            </style>
             <a class="navbar-brand navbar-logo" href="{{ config["SITE_URL"]|safe }}">
             <!-- <a class="navbar-brand navbar-logo" href="/aeme/"> -->
             <img alt="Archive of Early Middle English" src="{{ url_for('static', filename='images/AEME_logo_final_small2.png') }}">
           </a>
+          {% endif %}
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

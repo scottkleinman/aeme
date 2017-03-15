@@ -13,7 +13,7 @@ html, body, .view {
     background-size: cover;
 }
 .navbar {
-	/*background: transparent;*/
+	background: transparent;
 }
 .navbar-fixed-top, .navbar-fixed-bottom {
 	border-width: 0;
@@ -21,6 +21,34 @@ html, body, .view {
 .splash-panel-element {
 	text-align:center;
 	margin-top:50px;
+}
+/* navbar title */
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: black;
+}
+/* navbar link */
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+/* navbar caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: black;
+    border-bottom-color: black;
+}
+/* navbar mobile version */
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+    }
+}
+.footer {color: black;}
+.footer > a, .footer > a:hover, .footer > a:focus {
+  /*color: #337ab7;*/
+  color: #2e6da4;
 }
 </style>
 <div class="row">
