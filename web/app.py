@@ -32,20 +32,23 @@ def not_found(error):
 # Build Menu
 def buildMenu():
 	config = app.config
+	site = config["SITE_URL"]
 	menu = config["MENU"]
 	menu_str = '<ul id="menu-list" class="nav navbar-nav">'
-	menu_str += '<li><a href="/">Home <span class="sr-only">(current)</span></a></li>'
-	# menu_str += '<li><a id="about" href="#">About</a></li>'
+	menu_str += '<li><a href="'+site+'">Home <span class="sr-only">(current)</span></a></li>'
 	menu_str += """
        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
           <ul class="dropdown-menu">
-			<li><a href="/about">About AEME</a></li>
-			<li><a href="/guidelines">Transcription Guidelines</a></li>
-			<li><a href="/downloads">Downloads</a></li>
+	"""
+	menu_str += '<li><a href="'+site+'/about">About AEME</a></li>'
+	menu_str += '<li><a href="'+site+'/guidelines">Transcription Guidelines</a></li>'
+	menu_str += '<li><a href="'+site+'/downloads">Downloads</a></li>'
+	menu_str += """
           </ul>
         </li>
 	"""
+
 	for item in menu:
 		if type(item) is dict:
 			for label, subitems in item.iteritems():

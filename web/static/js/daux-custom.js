@@ -9,29 +9,20 @@ $(function () {
         }
         // Load the content from the link -- where the custom ajax goes
         else {
+            var fetch_url = site_url+"/get-markdown";
             $.ajax({
-                url: "/get-markdown",
+                url: fetch_url,
                 type: 'POST',
                 contentType: "application/x-www-form-urlencoded; charset=UTF-8",
                 data: href,
                 cache: false,
                 dataType: "text",
                 complete: function(response) {
-                    console.log(response.responseText);
                     $("article").html(response.responseText);
                 }
             });
         }
     });
-
-
-
-
-    // $('.aj-nav').click(function (e) {
-    //     e.preventDefault();
-    //     $(this).parent().siblings().find('ul').slideUp();
-    //     $(this).next().slideToggle();
-    // });
 
     // Bootstrap Table Class
     $('table').addClass('table');

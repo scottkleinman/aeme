@@ -41,6 +41,12 @@
         var pagination = {{ pagination|safe }};
     </script>
     {% endif %}
+    {% if active_page=="guidelines" %}
+    <script>
+        var site_url = {{ config.SITE_URL|tojson|safe }};
+    </script>
+    {% endif %}
+    
     {% block headscripts %}{% endblock %}
 </head>
 <body>
