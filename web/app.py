@@ -35,8 +35,17 @@ def buildMenu():
 	menu = config["MENU"]
 	menu_str = '<ul id="menu-list" class="nav navbar-nav">'
 	menu_str += '<li><a href="/">Home <span class="sr-only">(current)</span></a></li>'
-	menu_str += '<li><a id="about" href="#">About</a></li>'
-
+	# menu_str += '<li><a id="about" href="#">About</a></li>'
+	menu_str += """
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+			<li><a href="/about">About AEME</a></li>
+			<li><a href="/guidelines">Transcription Guidelines</a></li>
+			<li><a href="/downloads">Downloads</a></li>
+          </ul>
+        </li>
+	"""
 	for item in menu:
 		if type(item) is dict:
 			for label, subitems in item.iteritems():
@@ -406,6 +415,32 @@ def index():
 def about():
 	menu = buildMenu()
 	return render_template('about.html')
+
+@app.route("/downloads")
+def downloads():
+	return render_template('downloads.html')
+
+@app.route("/guidelines")
+def guidelines():
+	menu = buildMenu()
+	return render_template('daux.html')
+
+@app.route("/get-markdown", methods=["GET", "POST"])
+def getMarkdown():
+	file = "static/guidelines/" + request.get_data() + ".md"
+	l = request.get_data().split("/")
+	title = l[-1]
+	title = re.sub('[0-9]+_', "# ", title)
+	title = title.replace("xml_id", "`xml:id`")
+	title = title.replace("_", " ")
+	print(title)
+	import markdown, codecs
+	input_file = codecs.open(file, mode="r", encoding="utf-8")
+	text = input_file.read()
+	text = title + "\n\n" + text
+	html = markdown.markdown(text, extensions=['markdown.extensions.extra', 'markdown.extensions.admonition'])
+	return html
+
 
 ''' 
 @app.route("/")

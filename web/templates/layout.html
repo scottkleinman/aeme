@@ -50,33 +50,29 @@
 <span class="sr-only">Loading...</span>
 </div>
 
-<!-- Wrap all page content here -->
+{% if active_page=="home" %}
+    <div class="view">
+        <div class="full-bg-img flex-center">
+{% endif %}
+
 <div id="wrap">
+<!-- Wrap all page content here -->
     <!-- Navbar -->
     {% include "navbar.html" %}
 
     <!-- Begin page content -->
-
     <div class="center-container">
-        <!-- <div class="center-row"> -->
             {% block content %}{% endblock %}
-        <!-- </div> --><!-- /.center-container -->
-    </div><!-- /.center-row -->
+    </div><!-- /.center-container -->
 
-<footer>
-    <div class="container">
-    © 2016-2017
-    <a href="http://emesoc.org/" target="_blank">Archive of Early Middle English</a>·
-    <br>
-    This site is licensed under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.
-    <div id="debug" style="display:none;">
-        <label>Number of Pages: <span id="debugNumPages">1</span></label>
-        <label>Current Page Index: <span id="debugCurrentPageIndex">0</span></label>
-    </div>
-  </div>
-</footer>
+    <!-- Footer -->
+    {% include "footer.html" %}
 
 </div><!-- /.wrap -->
+{% if active_page=="home" %}
+    </div>
+</div>
+{% endif %}
 
     <script type="text/javascript"
             src="{{ url_for('static', filename='lib/bootstrap-3.3.6/js/bootstrap.min.js') }}"></script>

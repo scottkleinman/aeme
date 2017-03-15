@@ -1,15 +1,36 @@
 {% extends "layout.html" %}
+{% set active_page = 'home' %}
 {% block content %}
 <style type="text/css">
+html, body, .view {
+    height: 100%;
+}
+.view {
+    background: url("static/images/AEME_bg_1800x1200-min.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar {
+	/*background: transparent;*/
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+	border-width: 0;
+}
+.splash-panel-element {
+	text-align:center;
+	margin-top:50px;
+}
 </style>
 <div class="row">
 	<div class="col-md-1"></div>
 	<div class="col-md-10">
 		<div id="splash-panel" class="panel panel-default" style="width:75%;margin: 100px auto;">
 		  <div class="panel-body">
-		    <h2 style="text-align:center;margin-top:50px;">The Archive of Early Middle English Edition Viewer</h2>
-		    <p style="text-align:center;margin-top:50px;">This is the demo website for the Archive of Early Middle English Edition Viewer. We're going to do stuff with it.</p>
-		    <p style="text-align:center;margin-top:50px;"><a class="btn btn-primary btn-lg" href="/about" role="button">Learn more</a></p>
+		    <h2 class="splash-panel-element">The Archive of Early Middle English Edition Viewer</h2>
+		    <p class="splash-panel-element">This is the demo website for the Archive of Early Middle English. It's still under development, but we expect to get it fully functional soon..</p>
+		    <p class="splash-panel-element"><a class="btn btn-primary btn-lg" href="/about" role="button">Learn more</a></p>
 		  </div>
 		</div>
 	</div>

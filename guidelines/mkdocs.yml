@@ -1,0 +1,11 @@
+site_name: AEME Guidelines
+
+pages:
+  - Home: index.md
+  - Editing Policies: editing_policies.md
+
+theme: readthedocs
+
+markdown_extensions:
+    - toc:
+        permalink: True

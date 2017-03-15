@@ -22,8 +22,13 @@
         <ul id="menu-list" class="nav navbar-nav">
           <li>
             <a href="{{ config["SITE_URL"]|safe }}">Home <span class="sr-only">(current)</span></a></li>
-          <li>
-            <a href="/about">About AEME</a>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About AEME</a></li>
+              <li><a href="/guidelines">Transcription Guidelines</a></li>
+              <li><a href="/downloads">Downloads</a></li>
+            </ul>
           </li>
           <li>
             <a href="/viewer">Edition Viewer</a>

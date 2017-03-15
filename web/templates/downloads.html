@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<style type="text/css">
+#spacer {height: 25px;}
+</style>
+<div class="row" id="spacer">
+	<div class="col-md-2"></div>
+</div>
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<h2>Downloads</h2>
+
+		<p>AEME encodes text in XML following the recommendations of the TEI Schema and its <a href="/guidelines">transcription guidelines</a>. AEME XML code is open source so that the scholarly community can build upon the minimal requirements of AEME's schema. Source files are therefore made available on a version-controlled basis. AEME will publish download links with the following tags.</p>
+
+		<ul>
+		<li><code>Release</code></li>
+		<li><code>Pre-Release</code></li>
+		<li><code>Non-Conformant</code></li>
+		<li><code>Backup</code></li>
+		</ul>
+
+		<p>Files with the <code>Release</code> tag are official publications of AEME and are compliant with its minimal schema and available for rendering in the AEME platform. Files with the <code>Pre-Release</code> tag are generally development versions or contain encoding that cannot be rendered by the AEME platform. AEME may make these files available for downloading from a link on the AEME website but they are not official AEME publications and are not rendered on its viewing platform. Files with the <code>Non-Conformant</code> tag may be developed for use with other tools and may contain code that does not follow the AEME schema. AEME may choose to publish links to to this code for the benefit of the community. Files with the <code>Backup</code> tag are typically copies of files held in institutional repositories for preservation purposes, whereas those without this tag may be held in locations like GitHub.</p>
+
+		<p>Currently, AEME's files are all <code>Pre-Release</code> and may also be <code>Non-Conformant</code>. Although they can be viewed from <a href="https://github.com/scottkleinman/aeme" target="_blank">AEME's GitHub development account</a>, we are not yet ready to list download links on the AEME website.</p>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+{% endblock %}
+
