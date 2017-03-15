@@ -44,6 +44,7 @@ def buildMenu():
 	menu_str += '<li><a href="'+site+'/about">About AEME</a></li>'
 	menu_str += '<li><a href="'+site+'/guidelines">Transcription Guidelines</a></li>'
 	menu_str += '<li><a href="'+site+'/downloads">Downloads</a></li>'
+	menu_str += '<li><a href="'+site+'/credits">Credits</a></li>'
 	menu_str += """
           </ul>
         </li>
@@ -422,6 +423,10 @@ def about():
 @app.route("/downloads")
 def downloads():
 	return render_template('downloads.html')
+
+@app.route("/credits")
+def credits():
+	return render_template('credits.html')
 
 @app.route("/guidelines")
 def guidelines():
