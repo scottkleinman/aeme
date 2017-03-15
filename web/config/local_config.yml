@@ -1,15 +1,17 @@
 DEMOMODE: True
 SITE_URL: "http://127.0.0.1:5000"
-SITE_TITLE: "A Digital Edition of Harley 2250"
+SITE_TITLE: "The Archive of Early Middle English"
 MENU:
-  - 'Harley 2250':
-    - '<a class="navLink" href="harley2250/martin.xml">Saint Martin</a>'
-    - '<a class="navLink" href="harley2250/erkenwald.xml">Saint Erkenwald</a>'
+  - '<a class="navLink" href="bodljunius1/junius1.xml">Junius 1</a>'
+  - 'Laud Misc. 108':
+    - '<a class="navLink" href="bodllaudmisc108/3aa_SEL-Brendan.xml">Saint Brendan</a>'
+    - '<a class="navLink" href="bodllaudmisc108/3ac_SEL-Julian.xml">Saint Julian</a>'
+    - '<a class="navLink" href="bodllaudmisc108/3ah_SEL-George.xml">Saint George</a>'
+    - '<a class="navLink" href="bodllaudmisc108/6_Debate-between-Body-and-Soul.xml">Debate between the Body and Soul</a>'
 SPLASH: "Select a Text from the Menu"
 ABOUT: >
     <p>This is a demonstration of the digital edition
-    platform for the Archive of Early Middle English. This version 
-    includes material from London, British Library, Harley 2250. This 
+    platform for the Archive of Early Middle English. This 
     is an alpha version used for development purposes. Any 
     texts currently loaded are incomplete fragments used to test 
     functionality. Image loading time will vary depending on your 
@@ -19,11 +21,11 @@ ABOUT: >
     always produce the desired results, but eventually words can be 
     matched to MED IDs.</p>
 ABOUT_EDITION:
-  - "title": "London, British Library, Harley 2250"
+  - "title": "Fragments of AEME Seed Manuscripts"
   - "message": >
-      <p>This is a partial edition of London, British Library, Harley 2250, 
-      containing the texts of <em>Saint Erkenwald</em> and fragments of the 
-      <em>South English Legendary</em>. More editorial material will is 
+      <p>This edition contains samples of the AEME seed manuscripts, 
+      Oxford, Bodleian Library, Junius 1 and Oxford, Bodleian Library, 
+      Laud Misc. 108. More editorial material will is 
       not available at this time.</p>
 METADATA:
   - "title": "Metadata"
