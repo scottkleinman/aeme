@@ -1,4 +1,6 @@
-The following taxonomy of values is taken from the [*Piers Plowman Electronic Archive*](http://www3.iath.virginia.edu/seenet/piers/protocoltran.html). Longer but more human readable values proposed by AEME are given in brackets.
+# Rubricated and Color-Highlighted Text
+
+The following taxonomy of values is taken from the <a href="http://www3.iath.virginia.edu/seenet/piers/protocoltran.html" target="_blank">*Piers Plowman Electronic Archive*</a>. Longer but more human readable values proposed by AEME are given in brackets.
 
 | Feature  | PPEA Value | Proposed AEME Value |
 | ------------- | ------------- | ------------- |

@@ -1,6 +1,8 @@
+# Editorial Correction to a Witness
+
 TEI permits several different ways of marking corrections to the base manuscript by an editor. AEME employs the `<sic>` and `<corr>` tags in tandem to show the manuscript reading and editorial emendation, respectively, because this provides the widest range of display options.
 
-AEME differs from the [*Piers Plowman Electronic Archive*](http://www3.iath.virginia.edu/seenet/piers/protocoltran.html), which places brackets around corrected text: `<sic>for</sic><corr>for [hem]</corr>`. Instead, AEME encloses only the corrected text in `<corr>`. The equivalent encoding for AEME would be
+AEME differs from the <a href="http://www3.iath.virginia.edu/seenet/piers/protocoltran.html" target="_blank">*Piers Plowman Electronic Archive*</a>, which places brackets around corrected text: `<sic>for</sic><corr>for [hem]</corr>`. Instead, AEME encloses only the corrected text in `<corr>`. The equivalent encoding for AEME would be
 
 ```xml
 for <choice>

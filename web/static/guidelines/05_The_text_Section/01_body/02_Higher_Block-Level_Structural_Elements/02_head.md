@@ -1,3 +1,5 @@
+# `head`
+
 `<head>` should be used exclusively for material at the beginning of a text section (generally a numbered `div`). It is typically used for incipits, as in the following example:
 
 ```xml

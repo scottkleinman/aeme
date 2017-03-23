@@ -1,3 +1,5 @@
+# `publicationStmt`
+
 The `<publicationStmt>` groups information concerning the publication or distribution of the text.
 
 ### Required Child Elements

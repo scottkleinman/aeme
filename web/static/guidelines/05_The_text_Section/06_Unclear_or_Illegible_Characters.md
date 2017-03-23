@@ -1,3 +1,5 @@
+# Unclear or Illegible Characters
+
 Uncertainty about a reading can be caused by scribal deletion of the text or damage to the manuscript. TEI contains a group of closely related elements that classify these types of changes. These include `<gap>`, `<del>`, `<damage>`, `<unclear>`, and `<supplied>`. Their use can be summarized as follows:
 
 * `<gap>`: Indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header or because the material is illegible.
@@ -49,4 +51,5 @@ Each of the above elements may take a number of attributes. AEME has not yet dev
 
 ### Attributes for `<supplied>`:
 
-See the section on [Text Supplied by the Editor](Editorial_Interventions/Text_Supplied_by_the_Editor).
+See the section on [Text Supplied by the Editor](05_The_text_Section/09_Editorial_Interventions/02_Text_Supplied_by_the_Editor).
+

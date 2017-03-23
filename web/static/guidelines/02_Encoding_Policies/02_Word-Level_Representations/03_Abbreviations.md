@@ -1,3 +1,5 @@
+# Abbreviations
+
 The discussion below demonstrates how TEI P5 may be used to main separate markup for the diplomatic and critical views. TEI P5 provides two groups of abbreviation tags: `<abbr>` and `<expan>` for abbreviations that should be expanded to whole words, and `<am>` and `<ex>` for abbreviation markers that are expanded alone. The use of the former implies a separation between diplomatic and critical markup.
 
 ```xml
@@ -17,4 +19,4 @@ If the initial *p* were flourished, it could be represented with an entity like 
 </choice>
 ```
 
-Here the `<orig>` element contains the diplomatic reading of the abbreviation mark. However, it can be toggled with the expanded form housed in the `<reg>` element (since the expansion is also what we would want to see in the critical view). The `@ref` value may be used to reference a *p*-flourish glyph that has been defined in `<encodingDesc>` (see the [TEI Guidelines for &lt;g&gt;](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-g.html)).
+Here the `<orig>` element contains the diplomatic reading of the abbreviation mark. However, it can be toggled with the expanded form housed in the `<reg>` element (since the expansion is also what we would want to see in the critical view). The `@ref` value may be used to reference a *p*-flourish glyph that has been defined in `<encodingDesc>` (see the <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-g.html" target="_blank">TEI Guidelines for &lt;g&gt;</a>).

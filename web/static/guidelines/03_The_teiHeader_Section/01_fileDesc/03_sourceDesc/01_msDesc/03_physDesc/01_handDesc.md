@@ -1,3 +1,5 @@
+# `handDesc`
+
 The `<handDesc>` element contains a description of all the different kinds of writing used in a manuscript. The number of hands is given in `@hands`.
 
 ### Required Child Elements

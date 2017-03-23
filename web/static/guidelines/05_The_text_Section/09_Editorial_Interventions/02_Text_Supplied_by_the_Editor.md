@@ -1,8 +1,10 @@
+# Text Supplied by the Editor
+
 The `<supplied>` element may be used where text is missing or completely illegible at the editor’s discretion. It should be used in combination with `<damage>` or `<unclear>` tags to indicate the causative agent for the loss of text, where determinable.
 
 Supplied text can be based on reference to another source or by conjecture, but note that it is not AEME policy to supply alternative readings from other witnesses to the text.
 
-For editorially supplied word divisions, see the section on [Word Division](../../Encoding_Policies/Word-Level_Representations/Word_Division).
+For editorially supplied word divisions, see the section on [Word Division](02_Encoding_Policies/02_Word-Level_Representations/01_Word_Division).
 
 Standard attributes for `<supplied>` are as follows:
 

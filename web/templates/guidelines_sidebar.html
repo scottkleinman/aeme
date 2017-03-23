@@ -1,3 +1,20 @@
+<style type="text/css">
+.input-group {
+	width: 300px;
+	padding: 10px 10px 0 10px;
+}
+</style>
+<form id="searchform" action="guidelines" onsubmit="return (this.elements['q'].value.length > 0)">
+<div class="input-group input-group-sm">
+	<input type="text" class="form-control input-lg" placeholder="Search Guidelines" name="q"  id="tipue_search_input" pattern=".{2,}" title="Please enter at least 2 characters." required="">
+	<span class="input-group-btn">
+		<button id="searchbtn" class="btn btn-info btn-lg" type="button">
+			<i class="fa fa-search fa-lg" aria-hidden="true"></i>
+		</button>
+	</span>
+</div>
+</form>
+
 <!-- For Mobile -->
 <div class="responsive-collapse">
 	<button type="button" class="btn btn-sidebar" id="menu-spinner-button">
@@ -22,7 +39,7 @@
 		</li>
 		<li><a href="#" class="aj-nav folder">Encoding Policies</a>
 			<ul class="nav nav-list">
-				<li><a href="#" class="folder">Representation of Characters and Glyphs</a>
+				<li><a href="02_Encoding_Policies/01_Representation_of_Characters_and_Glyphs/index" class="folder">Representation of Characters and Glyphs</a>
 						<ul class="nav nav-list">
 							<li><a href="02_Encoding_Policies/01_Representation_of_Characters_and_Glyphs/01_Allographs">Allographs</a></li>
 							<li><a href="02_Encoding_Policies/01_Representation_of_Characters_and_Glyphs/02_Capital_Letters">Capital Letters</a></li>
@@ -31,7 +48,7 @@
 							<li><a href="02_Encoding_Policies/01_Representation_of_Characters_and_Glyphs/05_Stray_Marks,_Blots,_and_Stains">Stray Marks, Blots, and Stains</a></li>
 						</ul>
 					</li>
-					<li><a href="#" class="folder">Word-Level Representations</a>
+					<li><a href="02_Encoding_Policies/02_Word-Level_Representations/index" class="folder">Word-Level Representations</a>
 						<ul class="nav nav-list">
 							<li><a href="02_Encoding_Policies/02_Word-Level_Representations/01_Word_Division">Word Division</a></li>
 							<li><a href="02_Encoding_Policies/02_Word-Level_Representations/02_Roman_Numerals">Roman Numerals</a></li>
@@ -41,9 +58,9 @@
 					</li>
 				</ul>
 			</li>
-			<li><a href="#" class="folder">The teiHeader Section</a>
+			<li><a href="03_The_teiHeader_Section/index" class="folder">The teiHeader Section</a>
 				<ul class="nav nav-list">
-					<li><a href="#" class="folder">fileDesc</a>
+					<li><a href="03_The_teiHeader_Section/01_fileDesc/index" class="folder">fileDesc</a>
 						<ul class="nav nav-list">
 							<li><a href="03_The_teiHeader_Section/01_fileDesc/01_titleStmt">titleStmt</a></li>
 							<li><a href="03_The_teiHeader_Section/01_fileDesc/02_publicationStmt">publicationStmt</a></li>
@@ -61,7 +78,7 @@
 												<ul class="nav nav-list">
 													<li><a href="03_The_teiHeader_Section/01_fileDesc/03_sourceDesc/01_msDesc/03_physDesc/01_handDesc">handDesc</a></li>
 													<li><a href="03_The_teiHeader_Section/01_fileDesc/03_sourceDesc/01_msDesc/03_physDesc/02_scriptDesc">scriptDesc</a></li>
-													<li><a href="03_The_teiHeader_Section/01_fileDesc/03_sourceDesc/01_msDesc/03_physDesc/03_decoDesc">decoDesc</a></li>
+											<li><a href="03_The_teiHeader_Section/01_fileDesc/03_sourceDesc/01_msDesc/03_physDesc/03_decoDesc">decoDesc</a></li>
 												</ul>
 											</li>
 											<li><a href="03_The_teiHeader_Section/01_fileDesc/03_sourceDesc/01_msDesc/04_history">history</a></li>
@@ -77,16 +94,16 @@
 					<li><a href="03_The_teiHeader_Section/06_revisionDesc">revisionDesc</a></li>
 				</ul>
 			</li>
-			<li><a href="#" class="folder">The facsimile Section</a>
+			<li><a href="04_The_facsimile_Section/index" class="folder">The facsimile Section</a>
 				<ul class="nav nav-list">
 					<li><a href="04_The_facsimile_Section/01_surface">surface</a></li>
 				</ul>
 			</li>
-			<li><a href="#" class="aj-nav folder">The text Section</a>
+			<li><a href="05_The_text_Section/index" class="aj-nav folder">The text Section</a>
 				<ul class="nav nav-list">
-					<li><a href="#" class="folder">body</a>
+					<li><a href="05_The_text_Section/01_body/index" class="folder">body</a>
 						<ul class="nav nav-list">
-							<li><a href="#" class="folder">Codicological Structures and Mise-en-Page</a>
+							<li><a href="05_The_text_Section/01_body/01_Codicological_Structures_and_Mise-en-Page/index" class="folder">Codicological Structures and Mise-en-Page</a>
 								<ul class="nav nav-list">
 									<li><a href="05_The_text_Section/01_body/01_Codicological_Structures_and_Mise-en-Page/01_gb">gb</a></li>
 									<li><a href="05_The_text_Section/01_body/01_Codicological_Structures_and_Mise-en-Page/02_pb">pb</a></li>
@@ -94,7 +111,7 @@
 									<li><a href="05_The_text_Section/01_body/01_Codicological_Structures_and_Mise-en-Page/04_lb">lb</a></li>
 								</ul>
 							</li>
-							<li><a href="#" class="folder">Higher Block-Level Structural Elements</a>
+							<li><a href="05_The_text_Section/01_body/02_Higher_Block-Level_Structural_Elements/index" class="folder">Higher Block-Level Structural Elements</a>
 								<ul class="nav nav-list">
 									<li><a href="05_The_text_Section/01_body/02_Higher_Block-Level_Structural_Elements/01_div1">div1</a></li>
 									<li><a href="05_The_text_Section/01_body/02_Higher_Block-Level_Structural_Elements/02_head">head</a></li>
@@ -105,7 +122,7 @@
 								</ul>
 							</li>
 							<li><a href="05_The_text_Section/01_body/03_Poetic_Lines_and_Line_Groupings">Poetic Lines and Line Groupings</a></li>
-							<li><a href="#" class="folder">Forme Work, Notes, and References</a>
+							<li><a href="05_The_text_Section/01_body/04_Forme_Work,_Notes,_and_References/index" class="folder">Forme Work, Notes, and References</a>
 								<ul class="nav nav-list">
 									<li><a href="05_The_text_Section/01_body/04_Forme_Work,_Notes,_and_References/01_fw">fw</a></li>
 									<li><a href="05_The_text_Section/01_body/04_Forme_Work,_Notes,_and_References/02_note_and_ref">note and ref</a></li>
@@ -120,7 +137,7 @@
 							<li><a href="05_The_text_Section/02_Highlighting_and_Decorative_Features/03_Ornamental_Capitals_and_Pilcrows">Ornamental Capitals and Pilcrows</a></li>
 						</ul>
 					</li>
-					<li><a href="#" class="folder">Scribal Hands and Scripts</a>
+					<li><a href="05_The_text_Section/03_Scribal_Hands_and_Scripts/index" class="folder">Scribal Hands and Scripts</a>
 						<ul class="nav nav-list">
 							<li><a href="05_The_text_Section/03_Scribal_Hands_and_Scripts/01_Identifying_Hands">Identifying Hands</a></li>
 							<li><a href="05_The_text_Section/03_Scribal_Hands_and_Scripts/02_Changes_of_Hands_and_Scripts">Changes of Hands and Scripts</a></li>

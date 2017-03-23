@@ -1,3 +1,5 @@
+# Poetic Lines and Groupings
+
 Poetic lines are contained within the `<l>` element. In the critical view, each poetic line in each manuscript in the Archive has been assigned its own number, which is the `@xml:id` attribute value for that line and must therefore be globally unique. The format of `@xml:id` will be the manuscript abbreviation plus the `<msItem>` number plus the line number. E.g. “bodllaudmisc108.0001.1”, “bodllaudmisc108.0001.2”, etc.
 
 Poetic lines can be grouped using the `<lg>` element. A poetic strophe is a typical use:

@@ -1,3 +1,5 @@
+# Punctuation
+
 Medieval punctuation marks should be encoded using appropriate entity representations (numeric or aliased). Entities for many common medieval punctuation marks are listed in AEME’s `Character_Entities.xlsx` spreadsheet.
 
 It is common practice in modern editions to replace medieval punctuation marks with common “equivalents” (that is, modern symbols that the editor deems to be an acceptable substitute). It is also common to introduce modern punctuation marks to aid the modern reader in parsing the syntactic (or sometimes metrical) structure of the text. These practices should only ever take place in the critical view and should be formally separated from diplomatic markup as described below. Editors should document their policy on editorially supplied punctuation in the `<teiHeader>` and follow it consistently.

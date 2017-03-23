@@ -1,3 +1,5 @@
+# Additions to the Manuscript
+
 The `<add>` tag serves to mark up phrase-level additions, and `<addSpan/>` marks up larger blocks. These should be used only to encode text introduced into the text after the initial writing (whether by the original scribe, contemporary, or later scribes), and never for editorially supplied text. For modern editorial additions, `<supplied>` or `<corr>` should be used. Marginalia supplied by later hands is assumed to be an addition by the identification of its hand and does not need to be tagged as such.
 
 ### Attributes for `<add>`:

@@ -1,3 +1,5 @@
+# Word Division
+
 Medieval texts often differ from modern ones in word spacing. In general, medieval texts may (a) separate morphological elements of a single word that would be combined today or (b) combine words that would be separated today. In AEME editions, these are managed with the custom `<sg/>` (Shadow Gap) element, which combines the functions of the TEI `<gap>` and `<supplied>` elements. `<sg/>` is TEI-conformant because it can easily be converted to structures employing these two standard TEI elements. 
 
 Ambiguous cases of word division should receive commentary with the `<note>` element.

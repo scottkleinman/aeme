@@ -1,3 +1,5 @@
+# Capital Letters
+
 Capitalisation in medieval manuscripts can be ambiguous, as letter height and shape are not always reliable indicators. Therefore, AEME policy leaves considerable latitude for editorial discretion.
 AEME policy is to represent verse-initial letters as capitals in the critical view, regardless of whether they are capitalised in the diplomatic view. The distinction should be formally encoded using the `<choice>`, `<orig>`, and `<reg>` elements. For example:
 

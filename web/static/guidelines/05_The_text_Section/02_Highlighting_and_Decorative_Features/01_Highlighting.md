@@ -1,1 +1,3 @@
+# Highlighting
+
 The `<hi>` element is used to describe the various ways scribes may call attention to text, such as by changes in script, size, or color, by underlining or boxing, etc. It is normally accompanied by `@rend`, which contains a descriptive term of the type of highlighting. `@rend` can have multiple values. AEME allows `@rend` values to be placed on any appropriate block-level element in order to minimize the number of child `<hi>` elements.

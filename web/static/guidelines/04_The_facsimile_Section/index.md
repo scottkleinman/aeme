@@ -1,3 +1,5 @@
+# The Facsimile Section
+
 The `<facsimile>` section immediately follows the `<teiHeader>` element. This section forms the basis for a representation of the manuscript as an image or a set of images. For AEME document objects, these images are treated in parallel to the transcription. That is, each page of the transcription is linked directly to a `<surface>` child element of `<facsimile>`. This in turn is linked to the equivalent page in the transcription through the `@facs` attribute of the `<pb/>` element.
 
 ### Required Child Elements

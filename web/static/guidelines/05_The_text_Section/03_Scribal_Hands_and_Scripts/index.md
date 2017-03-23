@@ -1,3 +1,5 @@
+# Scribal Hands and Scripts
+
 Full descriptions of scribal hands and scripts should be provided in the `<handDesc>` and `<scriptDesc>` sections of the `<teiHeader>`. AEME maintains a list of scribal hands in its named entities file. Since the names of most scribes are unknown, the `@xml:id` of a scribal hand will typically be something like `#bioUN0019`.  Scripts should similarly be given an `@xml:id` for cross-reference, and AEME should maintain a global list of these IDs.
 
 Within the text transcription, elements or spans of elements can be identified with individual hands or scripts using `@hand` and `<handShift/>`. Identifications of scribal and hand script are by default considered to be of high certainty. Lower levels of certainty may be indicated by the use of `@cert[high|medium|low]`.

@@ -1,3 +1,5 @@
+# `history`
+
 The use of the `<history>` element is detailed in the TEI docs, and no further documentation is currently available here.
 
 ### Required Child Elements

@@ -428,27 +428,39 @@ def downloads():
 def credits():
 	return render_template('credits.html')
 
-@app.route("/guidelines")
+@app.route("/guidelines", methods=["GET", "POST"])
 def guidelines():
 	menu = buildMenu()
-	return render_template('daux.html')
+	# Search function has been used -- display results
+	if request.args:
+		query = request.args.get('q')
+		search_results = True
+	else:
+		search_results = False
+	return render_template('guidelines.html', search_results=search_results)
 
 @app.route("/get-markdown", methods=["GET", "POST"])
 def getMarkdown():
 	file = "static/guidelines/" + request.get_data() + ".md"
-	l = request.get_data().split("/")
-	title = l[-1]
-	title = re.sub('[0-9]+_', "# ", title)
-	title = title.replace("xml_id", "`xml:id`")
-	title = title.replace("_", " ")
-	print(title)
+	# l = request.get_data().split("/")
+	# title = l[-1]
+	# title = re.sub('[0-9]+_', "# ", title)
+	# title = title.replace("xml_id", "`xml:id`")
+	# title = title.replace("_", " ")
+	# print(title)
 	import markdown, codecs
 	input_file = codecs.open(file, mode="r", encoding="utf-8")
 	text = input_file.read()
-	text = title + "\n\n" + text
+	# text = title + "\n\n" + text
 	html = markdown.markdown(text, extensions=['markdown.extensions.extra', 'markdown.extensions.admonition'])
 	return html
 
+
+@app.template_filter() # Register template filter
+def regex_replace(s, find, replace):
+    """A non-optimal implementation of a regex filter"""
+    return re.sub(find, replace, s)
+app.jinja_env.filters['regex_replace'] = regex_replace
 
 ''' 
 @app.route("/")

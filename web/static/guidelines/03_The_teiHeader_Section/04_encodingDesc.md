@@ -1,3 +1,5 @@
+# `encodingDesc`
+
 The `<encodingDesc>` element documents the relationship between an electronic text and the source or sources from which it derives.
 
 ### AEME Requirements

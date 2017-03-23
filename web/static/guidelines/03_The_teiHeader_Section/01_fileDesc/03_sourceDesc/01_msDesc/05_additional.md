@@ -1,3 +1,5 @@
+# `additional`
+
 The `<additional>` element groups additional information, combining bibliographic information about a manuscript or surrogate copies of it with curatorial or administrative information.
 
 ### AEME Requirements

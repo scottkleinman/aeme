@@ -1,3 +1,5 @@
+# `profileDesc`
+
 The `<profileDesc>` provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants, and their setting.
 
 ### AEME Requirements

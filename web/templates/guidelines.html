@@ -1,0 +1,239 @@
+{% extends "layout.html" %}
+{% set active_page = 'guidelines' %}
+
+{% block content %}
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='{{ url_for('static', filename='css/daux-blue.css') }}' rel='stylesheet' type='text/css'>
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css">-->
+	<link rel="stylesheet" href="{{ url_for('static', filename='lib/highlight-9.10.0/styles/github.css') }}">
+
+	<link href='{{ url_for('static', filename='lib/tipuesearch-6.0/css/tipuesearch_custom.css') }}' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	/* Overrides Daux theme with AEME styles */
+	.navbar {
+    background-color: #ffffff;
+    border-color: #ffffff;
+	}
+	.navbar-default {
+		background-color: #ffffff;
+		border-color: #ffffff;
+	}
+	.columns {
+		padding-top: 0px;
+	}
+	html,body{background-color:#ffffff;}
+
+	footer > .navbar .container, footer > .navbar .container-fluid {
+		height: 9vh;
+		min-height: 9vh;
+		padding: 0 15px;
+	}
+	.footer {
+		color: black;
+		text-align: center;
+		width: 100%;
+		margin:auto;
+	}
+	.footer > a, .footer > a:hover, .footer > a:focus {
+	color: #2e6da4;
+	}
+
+	/* Hack to prevent long pages from being cut off */
+	.spacer {
+		height: 50px;
+	}
+
+	/* Admonition Styles Borrowed Temporarily from Sphinx Alabaster Theme */
+	div.admonition {
+		margin: 20px 0px;
+		padding: 10px 30px;
+		background-color: {{ theme_admonition_bg }};
+		border: 1px solid #CCC;
+	}
+
+	div.admonition tt.xref, div.admonition code.xref, div.admonition a tt {
+		background-color: {{ theme_admonition_xref_bg }};
+		border-bottom: 1px solid {{ theme_admonition_xref_border }};
+	}
+
+	div.admonition p.admonition-title {
+		font-family: {{ theme_head_font_family }};
+		font-weight: normal;
+		font-size: 24px;
+		margin: 0 0 10px 0;
+		padding: 0;
+		line-height: 1;
+	}
+
+	div.admonition p.last {
+		margin-bottom: 0;
+	}
+
+	div.warning {
+		background-color: {{ theme_warn_bg }};
+		border: 1px solid {{ theme_warn_border }};
+	}
+
+	div.danger {
+		background-color: {{ theme_danger_bg }};
+		border: 1px solid {{ theme_danger_border }};
+		-moz-box-shadow: 2px 2px 4px {{ theme_danger_shadow }};
+		-webkit-box-shadow: 2px 2px 4px {{ theme_danger_shadow }};
+		box-shadow: 2px 2px 4px {{ theme_danger_shadow }};
+	}
+
+	div.error {
+		background-color: {{ theme_error_bg }};
+		border: 1px solid {{ theme_error_border }};
+		-moz-box-shadow: 2px 2px 4px {{ theme_error_shadow }};
+		-webkit-box-shadow: 2px 2px 4px {{ theme_error_shadow }};
+		box-shadow: 2px 2px 4px {{ theme_error_shadow }};
+	}
+
+	div.caution {
+		background-color: {{ theme_caution_bg }};
+		border: 1px solid {{ theme_caution_border }};
+	}
+
+	div.attention {
+		background-color: {{ theme_attention_bg }};
+		border: 1px solid {{ theme_attention_border }};
+	}
+
+	div.important {
+		background-color: {{ theme_important_bg }};
+		border: 1px solid {{ theme_important_border }};
+	}
+
+	div.note {
+		background-color: {{ theme_note_bg }};
+		border: 1px solid #CCC;
+	}
+
+	div.tip {
+		background-color: {{ theme_tip_bg }};
+		border: 1px solid {{ theme_tip_border }};
+	}
+
+	div.hint {
+		background-color: {{ theme_hint_bg }};
+		border: 1px solid {{ theme_hint_border }};
+	}
+
+	div.seealso {
+		background-color: {{ theme_seealso_bg }};
+		border: 1px solid #CCC;
+	}
+
+	div.topic {
+		background-color: {{ theme_topic_bg }};
+	}
+
+	p.admonition-title {
+		display: inline;
+	}
+
+	p.admonition-title:after {
+		content: ":";
+	}
+
+	/* Set highlight.js styles for code and code blocks */
+	pre code.hljs {
+		display: block;
+	}
+
+	code.hljs {
+	display: inline;
+	}
+	</style>
+        <!-- Docs -->
+        <div class="container-fluid fluid-height wrapper">
+            <div class="row columns content">
+                <div class="left-column article-tree col-sm-3 hidden-print">
+					    {% include "guidelines_sidebar.html" %}
+                </div>
+                <div class="right-column  content-area col-sm-9">
+                    <div class="content-page">
+                        <article>
+						{% if search_results == True %}					
+						<div id="tipue_search_content"></div>
+						{% else %}
+							<!--<div class="page-header sub-header clearfix">
+								<h1>Introduction</h1>
+								<span style="float: left; font-size: 10px; color: gray;">Sunday, August 31, 2014</span>
+								<span style="float: right; font-size: 10px; color: gray;">4:24 PM</span>
+							</div>-->
+                            
+                            <p>This document is a reference for editors who are encoding texts for the Archive of Early Middle English (AEME). All files submitted to the Archive must conform to the minimal Guidelines in the document. Encoding not specified in the Guidelines is allowable but may not be visible in the rendered texts on the AEME web platform.</p>
+
+							<p>AEME texts are encoded in the XML markup schema of the Text Encoding Initiative (TEI), following the <a href="http://www.tei-c.org/Guidelines/P5/">TEI P5 Guidelines</a>. In general, AEME sticks closely to the usage in TEI’s base modules with a few customisations. This document will note where AEME places limits on the larger set of allowable TEI elements and attributes. Where vocabulary and constraints are drawn from TEI, this document provides minimal explanation, particularly for possible child elements and attributes of many TEI elements. Editors should click the links to relevant TEI elements in order to read the appropriate TEI documentation.</p>
+							<p>These Guidelines do not represent a full statement of AEME editorial policy but they attempt to place encoding practices specific to AEME within the context of the editorial policy of the project.</p>
+							
+							<h2>Some History</h2>
+							<p>The initial draft is based primarily on the guidelines of the <a href="http://ccl/rch/uky.edu/using-TEI">Carolingian Canon Law Project</a>, the <a href="http://www.menota.org/HB_index.xml">Medieval Nordic Text Archive (Menota)</a>, and the <a href="http://www3.iath.virginia.edu/seenet/piers/protocoltran.html"><em>Piers Plowman Electronic Archive</em></a>. AEME is gradually removing material derived from these projects.</p>
+
+							<h2>The Document Model</h2>
+							<p>In AEME, each manuscript is conceived as a document object (or “document”, for short). This is to be distinguished from the genre of written texts often classified as “documentary” (e.g. legal and administrative texts). An AEME document is a digital object representing a manuscript that can be viewed in several ways, or views, in the AEME platform. These may be summarized as follows:</p>
+							
+							<ul>
+								<li>Image View: A digital photograph of the manuscript.</li>
+								<li>Facsimile View: A TEI-encoded representation of the manuscript’s codicological features, layout, illustrations, and other non-textual elements.</li>
+								<li>Diplomatic View: A close transcription of the text components of the manuscript with minimal editorial intervention.</li>
+								<li>Critical View: A transcription of the text components of the manuscript with greater editorial intervention, including most critical notes and references.</li>
+							</ul>
+							
+							<p>Each AEME document file must contain code to enable the rendering of a facsimile view, a diplomatic view, and a critical view of the manuscript. Image view is not required since digital images may not be available. Other types of views such as glossaries and translations may also be included, but these are not strictly part of the document representation.</p>
+
+							<p>AEME documents are divided into pages, each representing one side of a manuscript leaf. In the AEME platform, users may examine different views of individual pages side by side or superimpose one over another.</p>
+							
+							<h2>Some More History</h2>
+							<p>AEME initially adopted Menota’s division among three types of transcriptions, to be kept distinct by separate XML namespaces. As time passed, it became clear that a faithful facsimile rendering of the manuscript page was a tall order, and that what was really needed was a mock-up of the non-textual elements of the page in case no image was available. At the same time, TEI P5 has proven mostly adequate to combine codicological features with diplomatic and critical markup. Hence it was no longer necessary to keep the encoding for diplomatic and critical representations of the text strictly separate. Layout remains a troublesome issue, and AEME is exploring image annotation models (e.g. <a href="http://iiif.io/">SharedCanvas</a>) as one means of recording this information.</p>
+							<p><strong>Note on terminology:</strong> A legacy of earlier usage has been the loose use of the terms “representation” and “layer” (e.g. “the critical representation”, “the facsimile layer”). These terms should now be avoided. Instead, we should discuss the “views” listed above, referring to the content that will appear to the user on the front end of the AEME platform. The terms “markup” or “encoding” (e.g. “the critical markup”, “the facsimile encoding”) should be used to refer to the code from which this content is generated. Terms like this should refer to markup primarily, though not exclusively, to be used to generate the equivalent type of view.</p>
+							
+							<p>A related issue is the distinction between “transcription” as an activity of recording textual content, as well as the record itself, and “edition” which is the object presented to the public. Both the diplomatic and critical views are “editions” or “edited transcriptions”, that is, texts containing editorial interventions described in our editorial policies and these Guidelines.</p>
+							
+							<h2>Some Conventions Used in This Document</h2>
+							<p>Examples in this documentation may contain notation like <code>$TBD</code>. The dollar sign indicates that the value is a placeholder that will be replaced by some real value from the project. XML elements are always given in angular brackets, and attributes are referenced with <code>@</code> prefixed to the attribute name.</p>
+						{% endif %}
+						</article>
+						<div class="spacer"></div>
+                </div>
+            </div>
+        </div>
+	</div>
+    <!-- hightlight.js -->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>-->
+<script src="{{ url_for('static', filename='lib/highlight-9.10.0/highlight.pack.js') }}"></script>
+
+    <!-- JS -->
+    <script src="{{ url_for('static', filename='lib/tipuesearch-6.0/tipuesearch_custom.js') }}"></script>
+	<script src="{{ url_for('static', filename='guidelines/tipuesearch_content.js') }}"></script>
+	<script src="{{ url_for('static', filename='lib/tipuesearch-6.0/tipuesearch_set.js') }}"></script>	
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+		'descriptiveWords': 50,
+		'minimumLength': 2,
+		'show': 6,
+		'showURL': false
+     });
+});
+</script>
+
+    <!-- Front end file editor -->
+	<script type="text/javascript"
+            src="{{ url_for('static', filename='js/guidelines_functions.js') }}"></script>
+<script>
+$(document).ready(function() {
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+{% endblock %}

@@ -1,3 +1,5 @@
+# File Naming and Organisation
+
 Since AEME edits at the codex level, it makes sense to assemble one file per codex (or equivalent). It is possible to have multiple interim/working files for individual texts.
 Filenames will be composed from the information in the `<collection>` and `<idno>` elements of the `<msDesc>` element. Information in `<collection>` should be converted to lower case and may be abbreviated.
 

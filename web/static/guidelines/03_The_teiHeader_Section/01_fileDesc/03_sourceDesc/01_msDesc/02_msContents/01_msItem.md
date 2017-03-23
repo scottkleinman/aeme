@@ -1,6 +1,8 @@
+# `msItem`
+
 ### Optional Child Elements
 
-[Digital Scriptorium](http://bancroft.berkeley.edu/digitalscriptorium/huntington/) may provide a useful model for child elements.
+<a href="http://bancroft.berkeley.edu/digitalscriptorium/huntington/" target="_blank">Digital Scriptorium</a> may provide a useful model for child elements.
 
 ###AEME Requirements
 
@@ -16,6 +18,8 @@ Inside the `<msItem>` element there can be one or more `<p>` elements containing
 
 Additionally, entries may include the print `Index of Middle English Verse` ID numbers, as these sometimes differ from the DIMEV entries.
 For prose text, references should be given to the appropriate volume of the *Index of Middle English Prose* inside a `<bibl>` element. Works in Anglo-Norman should refer to Dean, Ruth J., and Maureen Barry McCann Boulton. *Anglo-Norman Literature: A Guide to Texts and Manuscripts*. London: Anglo-Norman Text Society, 1999.
+
+# `msItem`
 
 References to print editions should be included wherever possible. These should be formatted following guidelines in *Chicago Manual of Style*, 16th edition. The code format consists of simple `<listBibl>` entries like the following:
 
