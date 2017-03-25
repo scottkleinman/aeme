@@ -8,6 +8,7 @@ from flask import Flask, render_template, request
 from lxml import etree, html
 
 # App imports
+import managers.metadata
 #import language.LANG_AEME as LANG
 # Convert the module variables to a JSON string to send to the template
 #language = json.dumps({key: value for key, value in LANG.__dict__.iteritems() if not (key.startswith('__') or key.startswith('_') or key.islower())})
@@ -427,6 +428,31 @@ def downloads():
 @app.route("/credits")
 def credits():
 	return render_template('credits.html')
+
+@app.route("/metadata")
+def metadata():
+	"""
+	Builds an HTML template of the metadata which can be passed 
+	to the Flask view.
+	"""
+	APP_STATIC = os.path.join(app.root_path, 'static')
+	file = 'content/xml/sampleteiHeader.xml'
+	filepath = os.path.join(APP_STATIC, file)	
+	metadata = managers.metadata.getMetadata(filepath)
+	template = managers.metadata.buildTemplate(metadata)
+	return render_template('metadata.html', metadata=template)
+
+@app.route("/view/get-metadata", methods=["GET", "POST"])
+def getmetadata():
+	"""
+	Ajax version of metadata(). Builds an HTML template of the metadata which can be passed to an Ajax response.
+	"""
+	APP_STATIC = os.path.join(app.root_path, 'static')
+	file = 'content/xml/'+ request.json[0]["file"]
+	filepath = os.path.join(APP_STATIC, file)	
+	metadata = managers.metadata.getMetadata(filepath)
+	template = managers.metadata.buildTemplate(metadata)
+	return json.dumps(template)
 
 @app.route("/guidelines", methods=["GET", "POST"])
 def guidelines():
