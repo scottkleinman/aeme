@@ -20,6 +20,21 @@ def bsTag2str(tag):
 	tag_str = re.sub("\s+", " ", tag_str)
 	return tag_str
 
+def ref2Link(ref):
+	"""
+	Convert ref elements to HTML links
+	"""
+	for ref in soup.find_all('ref'):
+		if ref.attrs:
+			for k, v in ref.attrs.items():
+				if k == "target":
+					link = soup.new_tag("a")
+					link['href'] = v
+					if v[0] is not "#":
+						link['target'] = '_blank'
+					link.string = ref.get_text()
+					ref.replace_with(link)
+
 def getTitles(teiHeader):
 	"""
 	Retrieves the titleStmt titles(s). Returns a dict
@@ -125,7 +140,9 @@ def getMSContents(teiHeader, soup):
 			if bibl.title:
 				makeHtmlTitle(bibl.title, bibl.title.string, soup) 
 				bibl_str = bsTag2str(bibl)
-				bibliography.append(bibl_str)         
+			else:
+				bibl_str = bibl.get_text()
+			bibliography.append(bibl_str)         
 		msItems.append({
 				"locus": item.locus.get_text(),
 				"title": item.title.get_text(),
@@ -177,6 +194,19 @@ def getMetadata(filepath):
 	with open(filepath) as f:
 		soup = BeautifulSoup(f, 'xml')
 	soup = stripComments(soup)
+	# soup = ref2Link(soup)
+	# Only gets the first level
+	for ref in soup.find_all('ref'):
+		if ref.attrs:
+			for k, v in ref.attrs.items():
+				if k == "target":
+					link = soup.new_tag("a")
+					link['href'] = v
+					if v[0] is not "#":
+						link['target'] = '_blank'
+					link.string = ref.get_text()
+					ref.replace_with(link)
+
 	teiHeader = soup.teiHeader
 	metadata = {} 
 
@@ -225,11 +255,17 @@ def buildTemplate(metadata):
 	if metadata["contents"]["summary"]:
 		template += "<p><strong>Summary:</strong> "+metadata["contents"]["summary"]+"</p>"
 	for item in metadata["contents"]["msItems"]:
-		template += "<p>"+item["locus"]+": "+item["locus"]+"<br>"
+		template += "<p>"+item["locus"]+": "+item["title"]+"<br>"
 		if len(item["bibliography"]) > 0:
 			template += "<strong>Bibliography:</strong><br>"
-			template += "<ul>" 
+			template += "<ul>"
 			for bibl in item["bibliography"]:
+				# Wrap urls and # targets in html links
+				bibl = bibl.strip()
+				if bibl[0:5] == "http:":
+					bibl = '<a href="'+bibl+'" target="_blank">'+bibl+'</a>'
+				if bibl[0] == "#":
+					bibl = '<a href="'+bibl+'">'+bibl+'</a>'
 				template += "<li>"+bibl+"</li>"
 			template += "</ul></p>"
 	# Physical Description

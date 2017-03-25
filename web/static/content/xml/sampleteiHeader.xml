@@ -13,10 +13,6 @@
                 <name type="person" ref="#bioLI001">Marisa Libbon</name>
                 <!-- Other names will be added as transcriptions are compiled. -->
             </respStmt>
-            <respStmt>
-                <resp>Slept on by</resp>
-                <name type="person" ref="#bioGEMMA">Gemma</name>
-            </respStmt>
         </titleStmt>
         <publicationStmt>
             <publisher>Archive of Early Middle English</publisher>
@@ -65,11 +61,11 @@
                                     Josophat; St. Patrick's Fegefeuer</title>. Paderborn: F.
                                 Sch&#x00F6;ningh, 1875.</bibl>
                             <bibl>
-                                <ref type="DIMEV"
+                                <ref target="http://www.dimev.net/record.php?recID=2605#wit-2605-1" type="DIMEV"
                                     >http://www.dimev.net/record.php?recID=2605#wit-2605-1</ref>
                             </bibl>
                             <bibl>
-                                <ref type="DIMEV"
+                                <ref target="http://www.dimev.net/record.php?recID=2605#wit-2605-1" type="DIMEV"
                                     >http://www.dimev.net/record.php?recID=2605#wit-2605-1</ref>
                             </bibl>
                         </listBibl>
@@ -79,7 +75,7 @@
                         <title>The South English Legendary</title>
                         <listBibl>
                             <bibl>
-                                <ref type="DIMEV">http://www.dimev.net/record.php?recID=4567</ref>
+                                <ref target="http://www.dimev.net/record.php?recID=2605#wit-2605-1" type="DIMEV">http://www.dimev.net/record.php?recID=4567</ref>
                             </bibl>
                         </listBibl>
                         <msItem n="3a" xml:id="mc00004">
@@ -98,7 +94,7 @@
                             <listBibl>
                                 <bibl>
                                     <ref type="DIMEV"
-                                        >hhttp://www.dimev.net/record.php?recID=4584#wit-4584-5</ref>
+                                        >http://www.dimev.net/record.php?recID=4584#wit-4584-5</ref>
                                 </bibl>
                                 <bibl>
                                     <ref type="DIMEV"
@@ -695,7 +691,7 @@
                             </bibl>
                             <bibl> Furnivall, Frederick James, ed. <title>The Minor Poems of the
                                     Vernon Manuscript, Part 2.</title> EETS o.s. 117 (1901; repr.
-                                1973): 2.511-22, 757-63. <ref type="DIMEV"
+                                1973): 2.511-22, 757-63. <ref target="https://books.google.com/books?id=gnA7AQAAMAAJ&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false" type="DIMEV"
                                     >https://books.google.com/books?id=gnA7AQAAMAAJ&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false</ref>
                             </bibl>
                         </listBibl>
@@ -812,7 +808,7 @@
                     </msItem>
                     <msItem n="14" xml:id="mc00072">
                         <locus>f. 238v</locus>
-                        <title>Allas deceyte, &#x254;at in truste ys nowe</title>
+                        <title>Allas deceyte, &#254;at in truste ys nowe</title>
                         <listBibl>
                             <bibl>Robbins, Rossell Hope, ed. <title>Secular Lyrics of the XIV and XV
                                     Centuries</title>. 2nd ed. Oxford: Clarendon Press, 1955:
@@ -828,7 +824,7 @@
                     </msItem>
                     <msItem n="15" xml:id="mc00073">
                         <locus>f. 238v</locus>
-                        <title>Be &#x254;ou nou&#x541;t to bolde to blame</title>
+                        <title>Be &#254;ou nou&#541;t to bolde to blame</title>
                         <listBibl>
                             <bibl>
                                 <ref type="DIMEV"
@@ -848,10 +844,10 @@
                     </msItem>
                     <msItem n="17" xml:id="mc00075">
                         <locus>f. 238v</locus>
-                        <title>He &#x254;e wise and wel i tau&#x541;t</title>
+                        <title>He &#254;e wise and wel i tau&#541;t</title>
                         <listBibl>
                             <bibl>
-                                <ref type="DIMEV"
+                                <ref target="http://www.dimev.net/record.php?recID=1833#wit-1833-1" type="DIMEV"
                                     >http://www.dimev.net/record.php?recID=1833#wit-1833-1</ref>
                             </bibl>
                         </listBibl>
@@ -979,7 +975,7 @@
                                 category.</ref>
                         </bibl>
                         <bibl>
-                            <ref type="DIMEV"
+                            <ref target="http://www.dimev.net/Records.php?MSS=BodLauMis108" type="DIMEV"
                                 >http://www.dimev.net/Records.php?MSS=BodLauMis108</ref>
                         </bibl>
                         <bibl>
