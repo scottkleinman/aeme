@@ -19,7 +19,27 @@ Inside the `<msItem>` element there can be one or more `<p>` elements containing
 Additionally, entries may include the print `Index of Middle English Verse` ID numbers, as these sometimes differ from the DIMEV entries.
 For prose text, references should be given to the appropriate volume of the *Index of Middle English Prose* inside a `<bibl>` element. Works in Anglo-Norman should refer to Dean, Ruth J., and Maureen Barry McCann Boulton. *Anglo-Norman Literature: A Guide to Texts and Manuscripts*. London: Anglo-Norman Text Society, 1999.
 
-# `msItem`
+## `locus`
+
+The `locus` element defines a location within a manuscript or manuscript part. It is meant to contain a prose label (e.g. "ff. 1r-2v"), but it should also possess a `@target` attribute, the value of which should be the reference to the `@xml:id` of a `pb` element. For example:
+
+```xml
+<locus target="#boddlaudmisc108-1">f. 1r</locus>
+```
+
+Ranges can be handled by space, separated values:
+
+```xml
+<locus target="#boddlaudmisc108-1 #boddlaudmisc108-2 #boddlaudmisc108-3">ff. 1r-2r</locus>
+```
+
+The `locus` may also have `@from` and `@to` attributes providing range information (see the TEI guidelines <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-locus.html" target="_blank">locus</a> reference for usage). These attributes are not currently used by AEME and are so not required.
+
+!!! warning
+	As of March 26, 2017, the AEME platform targets the `@xml:id` of the `pb` element to retrieve facsimile information, rather than the surface listed in the `facsimile` element. This procedure is subject to change. See also the discussion under [surface](04_The_facsimile_Section/01_surface) and [pb](05_The_text_Section/01_body/01_Codicological_Structures_and_Mise-en-Page/02_pb).
+
+
+## `listBibl`
 
 References to print editions should be included wherever possible. These should be formatted following guidelines in *Chicago Manual of Style*, 16th edition. The code format consists of simple `<listBibl>` entries like the following:
 
